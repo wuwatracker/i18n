@@ -509,7 +509,7 @@
       "description": "Un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Synchronisez vos données sur plusieurs appareils, partagez vos invocations avec vos amis et suivez facilement votre compte !"
     },
     "achievements": {
-      "title": "Trophées - WuWa Tracker",
+      "title": "Trophées",
       "description": "Suivez vos trophées dans Wuthering Waves, importez et exportez vos données librement sur différents appareils ! WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
     },
     "tracker": {
@@ -530,7 +530,7 @@
       "description": "Une erreur est survenue lors de l'utilisation de WuWa Tracker. Veuillez envoyer un rapport sur notre serveur Discord afin que nous puissions la corriger rapidement."
     },
     "import": {
-      "title": "Importer - WuWa Tracker",
+      "title": "Importer",
       "description": "Suivez notre tutoriel pour afficher vos données de Wuthering Waves et voir vos statistiques. Nous supportons les importations depuis les appareils Android, iOS et PC. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
       "legacy": {
         "title": "Legacy Import Tutorial",
@@ -546,33 +546,33 @@
       "description": "Ce document de politique de confidentialité décrit les types d'informations personnelles reçues et collectées par WuWa Tracker et comment elles sont utilisées. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore."
     },
     "settings": {
-      "title": "Paramètres - WuWa Tracker",
+      "title": "Paramètres",
       "description": "Synchronisez vos données via Google. Gérez vos données d'invocations de Wuthering Waves en un seul endroit. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
     },
     "terms_and_conditions": {
-      "title": "Conditions générales d'utilisation - WuWa Tracker",
+      "title": "Conditions générales d'utilisation",
       "description": "Ces conditions générales décrivent les règles et règlements pour l'utilisation du site web et des services de WuWa Tracker."
     },
     "timeline": {
-      "title": "Calendrier - WuWa Tracker",
+      "title": "Calendrier",
       "description": "En utilisant votre fuseau horaire local ou tout autre horaire de serveur de Wuthering Waves, vous pouvez voir tous les calendriers des bannières, événements, périodes de la tour éprouvante et royaume fantôme. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
     },
     "wiki": {
       "resonator": {
-        "title": "Résonateurs - WuWa Tracker",
+        "title": "Résonateurs",
         "description": "Consultez la liste des résonateurs de Wuthering Waves et utilisez le calculateur de materieux pour prévoir l'amélioration de vos résonateurs. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
       },
       "item": {
-        "title": "Objets - WuWa Tracker",
+        "title": "Objets",
         "description": "Consultez la liste des objets de Wuthering Waves et leurs emplacements et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
       },
       "weapon": {
-        "title": "Armes - WuWa Tracker",
+        "title": "Armes",
         "description": "Consultez la liste les armes de Wuthering Waves, leurs atributs et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
       }
     },
     "planner": {
-      "title": "Calculateur de matériaux - WuWa Tracker",
+      "title": "Calculateur de matériaux",
       "description": "Le plus puissant calculateur de Wuthering Waves pour planifier l'augmentation du niveau de vos résonateurs, vos compétences et vos matériaux d'EXP ! WuWa Tracker mets à disposition de nombreux outils pour améliorer votre expérience du jeu."
     },
     "support": {
