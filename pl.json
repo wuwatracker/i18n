@@ -509,7 +509,7 @@
       "description": "Licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "achievements": {
-      "title": "Osiągnięcia - WuWa Tracker",
+      "title": "Osiągnięcia",
       "description": "Śledź Swoje osiągnięcia w Wuthering Waves, importuj oraz eksportuj z łatwością między urządzeniami! WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "tracker": {
@@ -530,7 +530,7 @@
       "description": "Wystąpił błąd podczas korzystania z WuWa Tracker. Prosimy o przesłanie zgłoszenia na nasz serwer Discord, abyśmy mogli szybko się nim zająć."
     },
     "import": {
-      "title": "Importuj Historię Pulli - WuWa Tracker",
+      "title": "Importuj Historię Pulli",
       "description": "Podążaj za naszym poradnikiem aby wyświetlić Twoje informację w Wuthering Waves i przejrzyj Swoje statystyki. Wspieramy importowanie z komputera, Androida oraz iOS automatycznymi metodami. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
       "legacy": {
         "title": "Legacy Import Tutorial",
@@ -542,37 +542,37 @@
       "description": "Ta strona nie mogła zostać znaleziona na WuWa Tracker. Wróć do strony głównej, aby rozpocząć śledzenie danych historii pulli w Wuthering Waves."
     },
     "privacy_policy": {
-      "title": "Polityka Prywatnośći - WuWa Tracker",
+      "title": "Polityka Prywatnośći",
       "description": "Ten dokument polityki prywatności opisuje rodzaje danych osobowych otrzymywanych i gromadzonych przez WuWa Tracker oraz sposób ich wykorzystania. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko."
     },
     "settings": {
-      "title": "Ustawienia - WuWa Tracker",
+      "title": "Ustawienia",
       "description": "Synchronizuj Swoje dane przez Google poprzez zalogowanie się. Zarządzaj Swoimi danymi pulli w Wuthering Waves w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko."
     },
     "terms_and_conditions": {
-      "title": "Zasady i Warunki - WuWa Tracker",
+      "title": "Zasady i Warunki",
       "description": "Niniejsze warunki określają zasady i regulacje korzystania ze strony internetowej i usług WuWa Tracker."
     },
     "timeline": {
-      "title": "Oś Czasu Wydarzeń - WuWa Tracker",
+      "title": "Oś Czasu Wydarzeń",
       "description": "Korzystając z lokalnej strefy czasowej lub dowolnej strefy czasowej serwera Wuthering Waves, możesz przeglądać harmonogram wszystkich banerów, wydarzenia w grze, okresy Tower of Adversity oraz Depths of Illusive Realm - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "wiki": {
       "resonator": {
-        "title": "Postacie - WuWa Tracker",
+        "title": "Postacie",
         "description": "Przeglądaj informace o postaciach Wuthering Waves oraz użyj planera materiałów WuWa Tracker aby zaplanować Swoje ulepszenia postaci. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
       },
       "item": {
-        "title": "Rzeczy - WuWa Tracker",
+        "title": "Rzeczy",
         "description": "WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
       },
       "weapon": {
-        "title": "Broń - WuWa Tracker",
+        "title": "Broń",
         "description": "Wyświetl informację o broni w Wuthering Waves oraz śledź Swój ekwipunek - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
       }
     },
     "planner": {
-      "title": "Planer Materiałów - WuWa Tracker",
+      "title": "Planer Materiałów",
       "description": "Najpotężniejszy kalkulator Wuthering Waves do planowania ulepszenia Swojej postaci, umiejętności i materiałów EXP! WuWa Tracker posiada bogaty zestaw narzędzi poprawiających wrażenia z gry."
     },
     "support": {
