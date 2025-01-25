@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "唤取",
+      "convenes": "Convenes",
       "convene_url": "Convene URL",
       "pulls": "Pulls",
       "astrites": "Astrites",
@@ -26,120 +26,120 @@
     },
     "name": {
       "items": {
-        "Rover-Havoc": "漂泊者-湮灭",
+        "Rover-Havoc": "漂泊者-湮滅",
         "Rover-Spectro": "漂泊者-衍射",
         "Aalto": "秋水",
         "Baizhi": "白芷",
         "Brant": "Brant",
-        "Calcharo": "卡卡罗",
+        "Calcharo": "卡卡羅",
         "Carlotta": "Carlotta",
         "Camellya": "椿",
-        "Changli": "长离",
-        "Chixia": "炽霞",
+        "Changli": "長離",
+        "Chixia": "熾霞",
         "Danjin": "丹瑾",
         "Encore": "安可",
-        "Jianxin": "鉴心",
+        "Jianxin": "鑒心",
         "Jinhsi": "今汐",
         "Jiyan": "忌炎",
-        "Lingyang": "凌阳",
-        "Lumi": "灯灯",
+        "Lingyang": "凌陽",
+        "Lumi": "燈燈",
         "Mortefi": "莫特斐",
         "Phoebe": "Phoebe",
         "Roccia": "Roccia",
-        "Sanhua": "散华",
+        "Sanhua": "散華",
         "Shorekeeper": "守岸人",
         "Taoqi": "桃祈",
-        "Verina": "维里奈",
+        "Verina": "維里奈",
         "Yangyang": "秧秧",
         "Yinlin": "吟霖",
-        "Yuanwu": "渊武",
+        "Yuanwu": "淵武",
         "Zhezhi": "折枝",
         "Xiangli Yao": "相里要",
         "Youhu": "釉瑚",
         "Zani": "Zani",
-        "Abyss Surges": "擎渊怒涛",
-        "Ages of Harvest": "时和岁稔",
-        "Amity Accord": "袍泽之固",
-        "Autumntrace": "纹秋",
-        "Beguiling Melody": "钧天正音",
+        "Abyss Surges": "擎淵怒濤",
+        "Ages of Harvest": "時和歲稔",
+        "Amity Accord": "袍澤之固",
+        "Autumntrace": "紋秋",
+        "Beguiling Melody": "鈞天正音",
         "Blazing Brilliance": "赫奕流明",
-        "Broadblade of Night": "暗夜长刃・玄明",
-        "Broadblade of Voyager": "远行者长刃・辟路",
+        "Broadblade of Night": "暗夜長刃．玄明",
+        "Broadblade of Voyager": "遠行者長刃．闢路",
         "Broadblade#41": "重破刃-41型",
-        "Cadenza": "华彩乐段",
+        "Cadenza": "華彩樂段",
         "Call of the Abyss": "Call of the Abyss",
-        "Celestial Spiral": "尘云旋臂",
-        "Commando of Conviction": "不归孤军",
-        "Comet Flare": "异度",
-        "Cosmic Ripples": "漪澜浮录",
-        "Dauntless Evernight": "永夜长明",
-        "Discord": "异响空灵",
+        "Celestial Spiral": "塵雲旋臂",
+        "Commando of Conviction": "不歸孤軍",
+        "Comet Flare": "異度",
+        "Cosmic Ripples": "漪瀾浮錄",
+        "Dauntless Evernight": "永夜長明",
+        "Discord": "異響空靈",
         "Emerald of Genesis": "千古洑流",
         "Fables of Wisdom": "Fables of Wisdom",
-        "Fusion Accretion": "核熔星盘",
-        "Gauntlets of Night": "暗夜臂铠・夜芒",
-        "Gauntlets of Voyager": "远行者臂铠・破障",
-        "Gauntlets#21D": "钢影拳-21丁型",
-        "Guardian Broadblade": "戍关长刃・定军",
-        "Guardian Gauntlets": "戍关臂铠・拔山",
-        "Guardian Pistols": "戍关佩枪・平云",
-        "Guardian Rectifier": "戍关音感仪・留光",
-        "Guardian Sword": "戍关迅刀・镇海",
-        "Helios Cleaver": "东落",
-        "Hollow Mirage": "骇行",
+        "Fusion Accretion": "核熔星盤",
+        "Gauntlets of Night": "暗夜臂鎧．夜芒",
+        "Gauntlets of Voyager": "遠行者臂鎧．破障",
+        "Gauntlets#21D": "鋼影拳-21丁型",
+        "Guardian Broadblade": "戍關長刃．定軍",
+        "Guardian Gauntlets": "戍關臂鎧．拔山",
+        "Guardian Pistols": "戍關佩槍．平雲",
+        "Guardian Rectifier": "戍關音感儀．留光",
+        "Guardian Sword": "戍關迅刀．鎮海",
+        "Helios Cleaver": "東落",
+        "Hollow Mirage": "駭行",
         "Jinzhou Keeper": "今州守望",
         "Legend of Drunken Hero": "Legend of Drunken Hero",
         "Lunar Cutter": "西升",
-        "Lumingloss": "飞景",
+        "Lumingloss": "飛景",
         "Lustrous Razor": "浩境粼光",
-        "Marcato": "呼啸重音",
+        "Marcato": "呼嘯重音",
         "Meditations on Mercy": "Meditations on Mercy",
-        "Novaburst": "飞逝",
-        "Originite: Type I": "源能长刃・测壹",
-        "Originite: Type II": "源能迅刀・测贰",
-        "Originite: Type III": "源能佩枪・测叁",
-        "Originite: Type IV": "源能臂铠・测肆",
-        "Originite: Type V": "源能音感仪・测五",
-        "Overture": "行进序曲",
-        "Pistols of Night": "暗夜佩枪・暗星",
-        "Pistols of Voyager": "远行者佩枪・洞察",
-        "Pistols#26": "穿击枪-26型",
-        "Rectifier of Night": "暗夜矩阵・暝光",
-        "Rectifier of Voyager": "远行者矩阵・探幽",
-        "Rectifier#25": "鸣动仪-25型",
+        "Novaburst": "飛逝",
+        "Originite: Type I": "源能長刃．測壹",
+        "Originite: Type II": "源能迅刀．測貳",
+        "Originite: Type III": "源能配槍．測參",
+        "Originite: Type IV": "源能臂鎧．測肆",
+        "Originite: Type V": "源能音感儀．測五",
+        "Overture": "行進序曲",
+        "Pistols of Night": "暗夜配槍．暗星",
+        "Pistols of Voyager": "遠行者配槍．洞察",
+        "Pistols#26": "穿擊槍-26型",
+        "Rectifier of Night": "暗夜矩陣．暝光",
+        "Rectifier of Voyager": "遠行者矩陣．探幽",
+        "Rectifier#25": "鳴動儀-25型",
         "Red Spring": "裁春",
-        "Relativistic Jet": "悖论喷流",
+        "Relativistic Jet": "悖論噴流",
         "Romance in Farewell": "Romance in Farewell",
-        "Somnoire Anchor": "心之锚",
-        "Static Mist": "停驻之烟",
-        "Stellar Symphony": "星序协响",
+        "Somnoire Anchor": "心之錨",
+        "Static Mist": "停駐之煙",
+        "Stellar Symphony": "星序協響",
         "Stonard": "金掌",
         "Stringmaster": "掣傀之手",
-        "Sword of Night": "暗夜迅刀・黑闪",
-        "Sword of Voyager": "远行者迅刀・旅迹",
-        "Sword#18": "瞬斩刀-18型",
+        "Sword of Night": "暗夜迅刀．黑閃",
+        "Sword of Voyager": "遠行者迅刀．旅跡",
+        "Sword#18": "瞬斬刀-18型",
         "The Last Dance": "The Last Dance",
         "Thunderbolt": "奔雷",
         "Tragicomedy": "Tragicomedy",
-        "Training Broadblade": "教学长刃",
-        "Training Gauntlets": "教学臂铠",
-        "Training Pistols": "教学佩枪",
-        "Training Rectifier": "教学音感仪",
-        "Training Sword": "教学迅刀",
-        "Tyro Broadblade": "原初长刃・朴石",
-        "Tyro Gauntlets": "原初臂铠・磐岩",
-        "Tyro Pistols": "原初佩枪・穿林",
-        "Tyro Rectifier": "原初音感仪・听浪",
-        "Tyro Sword": "原初迅刀・鸣雨",
-        "Undying Flame": "无眠烈火",
-        "Variation": "奇幻变奏",
-        "Verdant Summit": "苍鳞千嶂",
-        "Rime-Draped Sprouts": "琼枝冰绡",
-        "Verity's Handle": "诸方玄枢",
+        "Training Broadblade": "教學長刃",
+        "Training Gauntlets": "教學臂鎧",
+        "Training Pistols": "教學佩槍",
+        "Training Rectifier": "教學音感儀",
+        "Training Sword": "教學迅刀",
+        "Tyro Broadblade": "原初長刃‧樸石",
+        "Tyro Gauntlets": "原初臂鎧‧磐岩",
+        "Tyro Pistols": "原初佩槍‧穿林",
+        "Tyro Rectifier": "原初音感儀‧聽浪",
+        "Tyro Sword": "原初迅刀‧鳴雨",
+        "Undying Flame": "無眠烈火",
+        "Variation": "奇幻變奏",
+        "Verdant Summit": "蒼鱗千嶂",
+        "Rime-Draped Sprouts": "瓊枝冰綃",
+        "Verity's Handle": "諸方玄樞",
         "Augment": "清音",
-        "Endless Collapse": "永续坍缩",
+        "Endless Collapse": "永續坍縮",
         "Waltz in Masquerade": "Waltz in Masquerade",
-        "Waning Redshift": "凋亡频移"
+        "Waning Redshift": "凋亡頻移"
       },
       "banners": {
         "Featured Resonator": "Featured Resonator",
@@ -506,11 +506,11 @@
   },
   "metadata": {
     "root": {
-      "description": "WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "鳴潮的喚取計算平台，使用全球統計的最新數據。提供跨平台資料同步，輕鬆與朋友分享抽卡成果!"
     },
     "achievements": {
       "title": "成就 - WuWa Tracker",
-      "description": "标记《鸣潮》游戏成就，以便随时检查未完成的成就，并自由地在设备之间导入或导出数据！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "追蹤您在鳴潮中的成就，自由跨裝置導入/導出數據！WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
     },
     "tracker": {
       "index": {
@@ -526,54 +526,54 @@
       }
     },
     "error": {
-      "title": "发生错误",
-      "description": "在使用 WuWa Tracker 的过程中发生了错误。请向我们的 Discord 服务器发送一份报告，以便我们及时解决该问题。"
+      "title": "發生錯誤",
+      "description": "使用 WuWa Tracker 時發生錯誤。請回報至我們的 Discord 伺服器，以便我們盡快解決問題。"
     },
     "import": {
-      "title": "导入唤取历史 - WuWa Tracker",
-      "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
+      "title": "匯入喚取紀錄 - WuWa Tracker",
+      "description": "按照我們的互動教程顯示您的鳴潮數據並查看您的統計信息。我們支持從 PC、Android 和 iOS 設備導入數據。WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據，與朋友分享抽卡結果，輕鬆追蹤您的帳戶！",
       "legacy": {
         "title": "Legacy Import Tutorial",
         "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
       }
     },
     "not_found": {
-      "title": "未找到页面",
-      "description": "WuWa Tracker 无法找到该页面。请返回主页面以跟踪您的《鸣潮》唤取历史数据。"
+      "title": "未找到頁面",
+      "description": "在 WuWa Tracker 上找不到此頁面。請返回主頁開始追蹤您的鳴潮喚取歷史紀錄。"
     },
     "privacy_policy": {
-      "title": "隐私政策 - WuWa Tracker",
-      "description": "本隐私政策文件列明 WuWa Tracker 所接收并收集的个人信息所涉及的类型，以及 WuWa Tracker 使用该个人信息的方式。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "title": "隱私政策 - WuWa Tracker",
+      "description": "本隱私政策闡述了 WuWa Tracker 接收和收集的個人信息類型及其使用方式。WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據。"
     },
     "settings": {
-      "title": "设置 - WuWa Tracker",
-      "description": "通过登录到 Google 的方式同步您的数据。在同一位置管理您的《鸣潮》抽取数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "title": "設定 - WuWa Tracker",
+      "description": "通過 Google 登錄以同步您的數據。在一個地方管理您的 Wuthering Waves 抽卡數據。WuWa Tracker 是鳴潮的喚取計算平台，使用最新數據和全球統計等。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
     },
     "terms_and_conditions": {
-      "title": "条款和条件 - WuWa Tracker",
-      "description": "本条款和条件列明在使用 WuWa Tracker 网站和服务时所需要遵守的规则和限制。"
+      "title": "服務條款 - WuWa Tracker",
+      "description": "本服務條款闡述了 WuWa Tracker 網站所提供的服務使用規則與規定。"
     },
     "timeline": {
-      "title": "活动时间线 - WuWa Tracker",
-      "description": "您可以使用您本地的时区或任何《鸣潮》服务器时区以查看每个横幅时间表、游戏内事件、逆境之塔和幻境深渊的期间 - 一切尽在一处。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "title": "活動時間軸 - WuWa Tracker",
+      "description": "使用本地或任何鳴潮伺服器時區，您可以在此查看每個卡池、遊戲活動、逆境之塔和幻境深淵的時間軸。WuWa Tracker 是鳴潮的喚取計算平台；使用最新數據和全球統計，與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
     },
     "wiki": {
       "resonator": {
-        "title": "共鸣者 - WuWa Tracker",
-        "description": "查看《鸣潮》游戏中共鸣者的信息和档案，并使用 WuWa Tracker 的材料计算器来对您升级共鸣者时所消耗的资源进行规划。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+        "title": "共鳴者 - WuWa Tracker",
+        "description": "查看共鳴者資訊並使用 WuWa Tracker 的素材計算器來規畫你的升級路線。WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
       },
       "item": {
-        "title": "物品 - WuWa Tracker",
-        "description": "查看《鸣潮》物品的信息及其掉落位置，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+        "title": "道具 - WuWa Tracker",
+        "description": "查看鳴潮道具資訊、掉落地點，並紀錄您的物品。WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
       },
       "weapon": {
         "title": "武器 - WuWa Tracker",
-        "description": "查看《鸣潮》武器的信息及属性，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+        "description": "查看鳴潮的武器資訊，並紀錄您的物品。WuWa Tracker 是鳴潮的喚取計算平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
       }
     },
     "planner": {
-      "title": "材料规划工具 - WuWa Tracker",
-      "description": "功能最强大的《鸣潮》计算器，能够规划您在升级共鸣者时所消耗的等级突破材料、技能材料和经验材料。WuWa Tracker 拥有丰富的工具套件，能够让您游戏的体验更佳。"
+      "title": "素材規劃 - WuWa Tracker",
+      "description": "最實用的鳴潮素材計算網頁，讓您輕鬆規劃共鳴者的等級、技能與經驗材料！WuWa Tracker 提供豐富的工具，優化您的遊戲體驗。"
     },
     "support": {
       "title": "Support",
