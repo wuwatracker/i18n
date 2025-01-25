@@ -530,7 +530,7 @@
       "description": "Beim Benutzen vom WuWa Tracker ist ein Fehler aufgetreten. Bitte melden Sie sich auf unserem Discord Server, damit wir das Problem schnellstmöglich benennen können."
     },
     "import": {
-      "title": "Importieren Sie Ihren Ziehverlauf - WuWa Tracker",
+      "title": "Importieren Sie Ihren Ziehverlauf",
       "description": "Folge unserer interaktiven Anleitung um zu ermöglichen,  Ihre Wuthering Waves Daten und Statistiken abbillden lassen. Wir unterstützen Importe von PCs, Android und iOS-Geräten mit automatischen Methoden. ",
       "legacy": {
         "title": "Legacy Import Tutorial",
@@ -542,37 +542,37 @@
       "description": "Die Seite wurde auf WuWa Tracker nicht gefunden. Bitte gehen SIe zur Hauptseite zurück, um mit der Vefolgung von Ihrem Wuthering Waves Ziehverlauf zu starten."
     },
     "privacy_policy": {
-      "title": "Datenschutzrichtlinie - WuWa Tracker",
+      "title": "Datenschutzrichtlinie",
       "description": "Das Datenschutzrichtliniendokument umfasst wie WuWa Tracker persönlichen Information empfängt, sammelt und benutzt. WuWa Tracker ist ein pity Zähler für Wuthering Waves, dass die aktuellen Daten mit globalen Statistiken etc. benutzt."
     },
     "settings": {
-      "title": "Einstellungen - WuWa Tracker",
+      "title": "Einstellungen",
       "description": "Synchronisieren SIe Ihre Dateien über Google, indem Sie sich anmelden. Verwalten Sie alle Wuthering Waves Pull-Dateien an einem Ort. WuWa Tracker Pity-Zähler für Wuthering Waves, mit den aktuellen Daten, globalen Statistiken und mehr. Teilen Sie Ihre Pulls mit Ihren Freunden und verfolgen Sie Ihr Konto!"
     },
     "terms_and_conditions": {
-      "title": "Allgemeine Geschäftsbedingungen - WuWa Tracker",
+      "title": "Allgemeine Geschäftsbedingungen",
       "description": "Diese Bedingungen und Konditionen fassen die Regeln und Vorschriften für die Nutzung der WuWa Tracker Website und Dienstleistungen zusammen."
     },
     "timeline": {
-      "title": "Event Zeitplan - WuWa Tracker",
+      "title": "Event Zeitplan",
       "description": "Wenn Sie Ihre lokale Zeitzone oder eine beliebige Zeitzone des Wuthering Waves-Servers verwenden, können Sie jeden Banner-Zeitplan, In-Game-Evente, Turm der Widrigkeiten & Tiefen des Illusorischen Reichs-Zeiträume einsehen - alles an einem Ort. WuWa Tracker Pity-Zähler für Wuthering Waves, mit den aktuellen Daten, globalen Statistiken und mehr. Teilen Sie Ihre Pulls mit Ihren Freunden und verfolgen Sie Ihr Konto!"
     },
     "wiki": {
       "resonator": {
-        "title": "Resonatoren - WuWa Tracker",
+        "title": "Resonatoren",
         "description": "Sehen Sie sich Wuthering Waves Resonator Informationen und Profile an und nutzen Sie den WuWa Tracker Materialrechner, um Ihre Resonator Upgrades zu planen. WuWa Tracker Pity-Zähler für Wuthering Waves, mit den aktuellen Daten, globalen Statistiken und mehr. Teilen Sie Ihre Pulls mit Ihren Freunden und verfolgen Sie Ihr Konto!"
       },
       "item": {
-        "title": "Ressourcen - WuWa Tracker",
+        "title": "Ressourcen",
         "description": "Sehen Sie sich Wuthering Waves Gegenstandsinformationen, Drop-Positionen und Ihr Inventar an - alles an einem Ort. WuWa Tracker Pity-Zähler für Wuthering Waves, mit den aktuellen Daten, globalen Statistiken und mehr. Teilen Sie Ihre Pulls mit Ihren Freunden und verfolgen Sie Ihr Konto!"
       },
       "weapon": {
-        "title": "Weapons - WuWa Tracker",
+        "title": "Weapons",
         "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       }
     },
     "planner": {
-      "title": "Materialien Planer - WuWa Tracker",
+      "title": "Materialien Planer",
       "description": "Der leistungsstärkste Wuthering Waves-Rechner für die Planung Ihre Resonator-Aufstiegsstufe, Fähigkeiten und EXP-Materialien! WuWa Tracker verfügt über eine Vielzahl von Hilfsmitteln, um Ihr Spielerlebnis zu verbessern."
     },
     "support": {
