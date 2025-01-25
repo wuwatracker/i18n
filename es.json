@@ -26,8 +26,8 @@
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Errante-Destrucción",
-        "Rover-Spectro": "Errante-Espectro",
+        "Rover-Havoc": "Rover-Havoc",
+        "Rover-Spectro": "Rover-Spectro",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -47,7 +47,7 @@
         "Phoebe": "Phoebe",
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
-        "Shorekeeper": "La Guardiana de la Orilla",
+        "Shorekeeper": "Shorekeeper",
         "Taoqi": "Taoqi",
         "Verina": "Verina",
         "Yangyang": "Yangyang",
@@ -57,89 +57,89 @@
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
-        "Abyss Surges": "Oleadas del Abismo",
-        "Ages of Harvest": "Eras de Cosecha",
-        "Amity Accord": "Acuerdo de Amistad",
-        "Autumntrace": "Rastro de Otoño",
-        "Beguiling Melody": "Melodía Cautivadora",
-        "Blazing Brilliance": "Brillo Abrasador",
-        "Broadblade of Night": "Mandoble de la Noche",
-        "Broadblade of Voyager": "Mandoble del Viajero",
-        "Broadblade#41": "Mandoble#41",
+        "Abyss Surges": "Abyss Surges",
+        "Ages of Harvest": "Ages of Harvest",
+        "Amity Accord": "Amity Accord",
+        "Autumntrace": "Autumntrace",
+        "Beguiling Melody": "Beguiling Melody",
+        "Blazing Brilliance": "Blazing Brilliance",
+        "Broadblade of Night": "Broadblade of Night",
+        "Broadblade of Voyager": "Broadblade of Voyager",
+        "Broadblade#41": "Broadblade#41",
         "Cadenza": "Cadenza",
         "Call of the Abyss": "Call of the Abyss",
-        "Celestial Spiral": "Espiral celestial",
-        "Commando of Conviction": "Comando de Convicción",
-        "Comet Flare": "Llamarada de Cometa",
-        "Cosmic Ripples": "Ondas Cósmicas",
-        "Dauntless Evernight": "Noche Intrépida",
+        "Celestial Spiral": "Celestial Spiral",
+        "Commando of Conviction": "Commando of Conviction",
+        "Comet Flare": "Comet Flare",
+        "Cosmic Ripples": "Cosmic Ripples",
+        "Dauntless Evernight": "Dauntless Evernight",
         "Discord": "Discord",
-        "Emerald of Genesis": "Esmeralda del Génesis",
+        "Emerald of Genesis": "Emerald of Genesis",
         "Fables of Wisdom": "Fables of Wisdom",
-        "Fusion Accretion": "Acreción de fusion",
-        "Gauntlets of Night": "Brazales de la Noche",
-        "Gauntlets of Voyager": "Brazales del Viajero",
-        "Gauntlets#21D": "Brazales#21D",
-        "Guardian Broadblade": "Mandoble de Guardián",
-        "Guardian Gauntlets": "Brazales de Guardián",
-        "Guardian Pistols": "Pistolas de Guardián",
-        "Guardian Rectifier": "Rectificador de Guardián",
-        "Guardian Sword": "Espada de Guardián",
-        "Helios Cleaver": "Espada de Helios",
-        "Hollow Mirage": "Espejismo Hueco",
-        "Jinzhou Keeper": "Guardián de Jinzhou",
+        "Fusion Accretion": "Fusion Accretion",
+        "Gauntlets of Night": "Gauntlets of Night",
+        "Gauntlets of Voyager": "Gauntlets of Voyager",
+        "Gauntlets#21D": "Gauntlets#21D",
+        "Guardian Broadblade": "Guardian Broadblade",
+        "Guardian Gauntlets": "Guardian Gauntlets",
+        "Guardian Pistols": "Guardian Pistols",
+        "Guardian Rectifier": "Guardian Rectifier",
+        "Guardian Sword": "Guardian Sword",
+        "Helios Cleaver": "Helios Cleaver",
+        "Hollow Mirage": "Hollow Mirage",
+        "Jinzhou Keeper": "Jinzhou Keeper",
         "Legend of Drunken Hero": "Legend of Drunken Hero",
-        "Lunar Cutter": "Cortador Lunar",
+        "Lunar Cutter": "Lunar Cutter",
         "Lumingloss": "Lumingloss",
-        "Lustrous Razor": "Navaja Brillante",
+        "Lustrous Razor": "Lustrous Razor",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditations on Mercy",
-        "Novaburst": "Novestallido",
-        "Originite: Type I": "Originite: Tipo I",
-        "Originite: Type II": "Originite: Tipo II",
-        "Originite: Type III": "Originite: Tipo II",
-        "Originite: Type IV": "Originite: Tipo IV",
-        "Originite: Type V": "Originite: Tipo V",
-        "Overture": "Obertura",
-        "Pistols of Night": "Pistolas de la noche",
-        "Pistols of Voyager": "Pistolas del viajero",
-        "Pistols#26": "Pistolas #26",
-        "Rectifier of Night": "Rectificador de la noche",
-        "Rectifier of Voyager": "Rectificador del viajero",
-        "Rectifier#25": "Rectificador #25",
-        "Red Spring": "Primavera roja",
-        "Relativistic Jet": "Chorro relativista",
+        "Novaburst": "Novaburst",
+        "Originite: Type I": "Originite: Type I",
+        "Originite: Type II": "Originite: Type II",
+        "Originite: Type III": "Originite: Type III",
+        "Originite: Type IV": "Originite: Type IV",
+        "Originite: Type V": "Originite: Type V",
+        "Overture": "Overture",
+        "Pistols of Night": "Pistols of Night",
+        "Pistols of Voyager": "Pistols of Voyager",
+        "Pistols#26": "Pistols#26",
+        "Rectifier of Night": "Rectifier of Night",
+        "Rectifier of Voyager": "Rectifier of Voyager",
+        "Rectifier#25": "Rectifier#25",
+        "Red Spring": "Red Spring",
+        "Relativistic Jet": "Relativistic Jet",
         "Romance in Farewell": "Romance in Farewell",
-        "Somnoire Anchor": "Ancla de Somnolencia",
-        "Static Mist": "Niebla estática",
-        "Stellar Symphony": "Sinfonia estelar",
+        "Somnoire Anchor": "Somnoire Anchor",
+        "Static Mist": "Static Mist",
+        "Stellar Symphony": "Stellar Symphony",
         "Stonard": "Stonard",
-        "Stringmaster": "Maestro de cuerdas",
-        "Sword of Night": "Espada de la noche",
-        "Sword of Voyager": "Espada del viajero",
-        "Sword#18": "Espada #18",
+        "Stringmaster": "Stringmaster",
+        "Sword of Night": "Sword of Night",
+        "Sword of Voyager": "Sword of Voyager",
+        "Sword#18": "Sword#18",
         "The Last Dance": "The Last Dance",
-        "Thunderbolt": "Rayo",
+        "Thunderbolt": "Thunderbolt",
         "Tragicomedy": "Tragicomedy",
-        "Training Broadblade": "Mandoble de entrenamiento",
-        "Training Gauntlets": "Brazales de entrenamiento",
-        "Training Pistols": "Pistolas de entrenamiento",
-        "Training Rectifier": "Rectificador de entrenamiento",
-        "Training Sword": "Espada de entrenamiento",
-        "Tyro Broadblade": "Mandoble de principiante",
-        "Tyro Gauntlets": "Brazales de principiante",
-        "Tyro Pistols": "Pistolas de principiante",
-        "Tyro Rectifier": "Rectificador de principiante",
-        "Tyro Sword": "Espada de principiante",
-        "Undying Flame": "Llama eterna",
-        "Variation": "Variación",
-        "Verdant Summit": "Cumbre verde",
-        "Rime-Draped Sprouts": "Brotes escarchados",
-        "Verity's Handle": "Mango de la verdad",
-        "Augment": "Consonante sorda",
-        "Endless Collapse": "Colapso interminable",
+        "Training Broadblade": "Training Broadblade",
+        "Training Gauntlets": "Training Gauntlets",
+        "Training Pistols": "Training Pistols",
+        "Training Rectifier": "Training Rectifier",
+        "Training Sword": "Training Sword",
+        "Tyro Broadblade": "Tyro Broadblade",
+        "Tyro Gauntlets": "Tyro Gauntlets",
+        "Tyro Pistols": "Tyro Pistols",
+        "Tyro Rectifier": "Tyro Rectifier",
+        "Tyro Sword": "Tyro Sword",
+        "Undying Flame": "Undying Flame",
+        "Variation": "Variation",
+        "Verdant Summit": "Verdant Summit",
+        "Rime-Draped Sprouts": "Rime-Draped Sprouts",
+        "Verity's Handle": "Verity's Handle",
+        "Augment": "Augment",
+        "Endless Collapse": "Endless Collapse",
         "Waltz in Masquerade": "Waltz in Masquerade",
-        "Waning Redshift": "Corrimiento al rojo"
+        "Waning Redshift": "Waning Redshift"
       },
       "banners": {
         "Featured Resonator": "Featured Resonator",
@@ -506,11 +506,11 @@
   },
   "metadata": {
     "root": {
-      "description": "Un contador de pity para Wuthering Waves. Utilizando los datos más actualizados con estadísticas globales, y más. ¡Sincroniza tus datos entre dispositivos, comparte tus invocaciones con tus amigos, y sigue tu cuenta fácilmente!"
+      "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Synchronize your data across devices and share your pulls with your friends and track your account easily!"
     },
     "achievements": {
-      "title": "Logros - WuWa Tracker",
-      "description": "¡Sigue tus logros en Wuthering Waves e importa y exporta tus datos libremente entre dispositivos! WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+      "title": "Achievements",
+      "description": "Track your Wuthering Waves achievements and freely import & export your data across devices! WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "tracker": {
       "index": {
@@ -526,49 +526,49 @@
       }
     },
     "error": {
-      "title": "Ocurrió un error",
-      "description": "Ocurrió un error al usar WuWa Tracker. Por favor, envía un informe a nuestro servidor de Discord para que podamos solucionarlo rápidamente."
+      "title": "An Error Occurred",
+      "description": "An error occurred while using WuWa Tracker. Please send a report to our Discord server so that we can address it promptly."
     },
     "import": {
-      "title": "Importar Historial de Invocaciones - WuWa Tracker",
-      "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+      "title": "Import Pulls",
+      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android and iOS devices with automatic methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
       "legacy": {
         "title": "Legacy Import Tutorial",
         "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
       }
     },
     "not_found": {
-      "title": "No Encontrado",
-      "description": "Esta página no se encuentra en WuWa Tracker. Por favor, vuelve a la página principal para seguir tu Historial de Invocaciones en Wuthering Waves."
+      "title": "Not Found",
+      "description": "This page is not found on WuWa Tracker. Please go back to the main page to start tracking your Wuthering Waves Convene History data."
     },
     "privacy_policy": {
-      "title": "Políticas de Privacidad - WuWa Tracker",
-      "description": "Este documento de políticas de privacidad describe los tipos de información personal que son recibidos y recopilados por WuWa Tracker y cómo son utilizados. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más."
+      "title": "Privacy Policy",
+      "description": "This privacy policy document outlines the types of personal information that is received and collected by WuWa Tracker and how it is used. WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more."
     },
     "settings": {
-      "title": "Configuraciones - WuWa Tracker",
-      "description": "Sincroniza tus datos a través de Google iniciando sesión. Gestiona tus datos de invocaciones de Wuthering Waves todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+      "title": "Settings",
+      "description": "Synchronize your data over Google by signing in. Manage your Wuthering Waves pull data all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "terms_and_conditions": {
-      "title": "Términos y Condiciones - WuWa Tracker",
-      "description": "Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web y servicios de WuWa Tracker."
+      "title": "Terms & Conditions",
+      "description": "These terms and conditions outline the rules and regulations for the use of WuWa Tracker's website and services."
     },
     "timeline": {
-      "title": "Cronograma de Eventos - WuWa Tracker",
-      "description": "Utilizando tu zona horaria local o cualquier zona horaria del servidor de Wuthering Waves, puedes ver cada calendario de banners, eventos del juego, periodos de la Torre de la Adversidad y Profundidades del Reino Ilusorio, todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+      "title": "Event Timeline",
+      "description": "Using your local time zone or any Wuthering Waves server time zone, you can view every banner schedule, in-game events, Tower of Adversity & Depths of Illusive Realm periods - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "wiki": {
       "resonator": {
-        "title": "Resonadores - WuWa Tracker",
-        "description": "Ve la información de los Resonadores de Wuthering Waves, perfiles, y usa la calculadora de materiales de WuWa Tracker para planear las mejoras de tu Resonador. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "item": {
-        "title": "Objetos - WuWa Tracker",
-        "description": "Ve la información del objeto de Wuthering Waves, su localización, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "title": "Items",
+        "description": "View Wuthering Waves item information, drop locations, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "weapon": {
-        "title": "Armas - WuWa Tracker",
-        "description": "Ve la información del arma de Wuthering Waves, sus estadísticas, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "title": "Weapons",
+        "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       }
     },
     "planner": {
