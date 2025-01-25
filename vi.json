@@ -509,7 +509,7 @@
       "description": "Bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Đồng bộ dữ liệu qua các thiết bị và chia sẻ kết quả với bạn bè để dễ dàng theo dõi tài khoản!"
     },
     "achievements": {
-      "title": "Thành Tựu - WuWa Tracker",
+      "title": "Thành Tựu",
       "description": "Theo dõi thành tựu của bạn trong Wuthering Waves và nhập/xuất dữ liệu tự do qua các thiết bị! Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "tracker": {
@@ -530,7 +530,7 @@
       "description": "Đã xảy ra lỗi trong khi sử dụng Wuwa Tracker. Vui lòng gửi báo cáo đến máy chủ Discord của chúng tôi để chúng tôi có thể khắc phục vấn đề một cách nhanh chóng."
     },
     "import": {
-      "title": "Nhập Lịch sử Quay - Wuwa Tracker",
+      "title": "Nhập Lịch sử Quay",
       "description": "Theo hướng dẫn tương tác của chúng tôi để hiển thị dữ liệu Wuthering Waves và xem thống kê của bạn. Chúng tôi hỗ trợ nhập từ các thiết bị PC, Android và iOS với các phương pháp tự động. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!",
       "legacy": {
         "title": "Legacy Import Tutorial",
@@ -542,37 +542,37 @@
       "description": "Trang này không được tìm thấy trên Wuwa Tracker. Vui lòng quay lại trang chủ để bắt đầu theo dõi dữ liệu Lịch sử Triệu hồi Wuthering Waves."
     },
     "privacy_policy": {
-      "title": "Chính sách bảo mật - Wuwa Tracker",
+      "title": "Chính sách bảo mật",
       "description": "Tài liệu chính sách bảo mật này mô tả các loại thông tin cá nhân được nhận và thu thập bởi Wuwa Tracker và cách sử dụng nó. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác."
     },
     "settings": {
-      "title": "Cài đặt - Wuwa Tracker",
+      "title": "Cài đặt",
       "description": "Đồng bộ hóa dữ liệu qua Google bằng cách đăng nhập. Quản lý dữ liệu rút thăm Wuthering Waves tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "terms_and_conditions": {
-      "title": "Điều khoản và Điều kiện - Wuwa Tracker",
+      "title": "Điều khoản và Điều kiện",
       "description": "Những điều khoản và điều kiện này mô tả các quy định và quy tắc cho việc sử dụng trang web và dịch vụ của Wuwa Tracker."
     },
     "timeline": {
-      "title": "Dòng thời gian sự kiện - Wuwa Tracker",
+      "title": "Dòng thời gian sự kiện",
       "description": "Sử dụng múi giờ địa phương của bạn hoặc bất kỳ múi giờ máy chủ Wuthering Waves nào để xem lịch biểu của từng biểu ngữ, các sự kiện trong trò chơi, Tower of Adversity & Depths of Illusive Realm - tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "wiki": {
       "resonator": {
-        "title": "Cộng Hưởng Giả - WuWa Tracker",
+        "title": "Cộng Hưởng Giả",
         "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!"
       },
       "item": {
-        "title": "Vật phẩm - WuWa Tracker",
+        "title": "Vật phẩm",
         "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
       },
       "weapon": {
-        "title": "Vũ khí - WuWa Tracker",
+        "title": "Vũ khí",
         "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
       }
     },
     "planner": {
-      "title": "Kế hoạch thu thập tài nguyên - WuWa Tracker",
+      "title": "Kế hoạch thu thập tài nguyên",
       "description": "Hệ thống Wuthering Waves tối ưu hóa kế hoạch cho cấp độ thăng tiến, kỹ năng và vật liệu EXP cho Cộng hưởng Giả của bạn! WuWa Tracker có một bộ công cụ phong phú để nâng cao trải nghiệm chơi game của bạn."
     },
     "support": {
