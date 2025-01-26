@@ -1,0 +1,30 @@
+name: Update i18n submodule
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: wuwatracker/site
+          token: ${{ secrets.PRIVATE_TOKEN_GITHUB }}
+          submodules: true
+
+      - name: Pull & update the i18n submodule
+        run: |
+          git submodule update --init src/i18n/i18n
+          git submodule update --remote src/i18n/i18n
+
+      - name: Commit changes for i18n submodule
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions - update submodules"
+          git add src/i18n/i18n
+          git commit -m "chore(i18n): sync git submodule" || echo "No changes to commit"
+          git push
