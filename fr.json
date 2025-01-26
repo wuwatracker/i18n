@@ -3,20 +3,20 @@
     "term": {
       "convenes": "Convenes",
       "convene_url": "Convene URL",
-      "pulls": "Pulls",
+      "pulls": "Invocations",
       "astrites": "Astrites",
       "wuthering_waves": "Wuthering Waves",
-      "pull_history": "Pull History",
-      "pull_num": "Pull No.",
+      "pull_history": "Historique d'invocations",
+      "pull_num": "Invocation N°",
       "item": "Item",
       "pity": "Pity",
       "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes"
+      "recent_convenes": "Invocations récentes"
     },
     "phrase": {
-      "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
-      "banner_list": "Banner List",
+      "import_data": "Importer les données",
+      "import_data_description": "Utilisez vos données précédemment exportées et synchronisez-les avec votre navigateur",
+      "banner_list": "Liste des bannières",
       "no_pulls_yet": "No pulls yet",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
