@@ -269,16 +269,16 @@
       "resets_in": "Reset dalam",
       "some_time": "some time",
       "months": {
-        "January": "January",
-        "February": "February",
-        "March": "March",
+        "January": "Januari",
+        "February": "Februari",
+        "March": "Maret",
         "April": "April",
-        "May": "May",
-        "June": "June",
-        "July": "July",
-        "August": "August",
+        "May": "Mei",
+        "June": "Juni",
+        "July": "Juli",
+        "August": "Agustus",
         "September": "September",
-        "October": "October",
+        "October": "Oktober",
         "November": "November",
         "December": "December"
       },
@@ -333,82 +333,82 @@
       "switch_language": "Switch language",
       "just_taking_a_look_around": "Just taking a look around?",
       "the_active_player_profile": "the active player profile",
-      "privacy": "Privacy",
-      "on": "On",
-      "off": "Off",
+      "privacy": "Privasi",
+      "on": "Aktif",
+      "off": "Mati",
       "toggle": "Toggle",
-      "signed_out": "Signed out",
-      "out_of_sync": "Out of sync",
-      "synced": "Synced",
-      "downloads_and_merges": "Downloads and merges your pulls"
+      "signed_out": "Telah keluar",
+      "out_of_sync": "Tidak sinkron",
+      "synced": "Disinkronisasikan",
+      "downloads_and_merges": "Unduh dan gabungkan pull Anda"
     }
   },
   "feature": {
     "support": {
-      "troubleshooting": "Troubleshooting",
-      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "troubleshooting": "Penyelesaian Masalah",
+      "troubleshooting_description": "Jika Anda mengalami masalah saat mengimpor, bacalah panduan pemecahan masalah kami di sini.",
       "import": {
-        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
-        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
-        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
-        "other_q": "My problem doesn't seem to be here — what should I do?"
+        "log_files_missing_q": "Skrip mengatakan \"install location not found or log files missing\" — apa yang harus saya lakukan?",
+        "url_expired_q": "Ada kesalahan muncul mengatakan \"URL probably expired\" — apa yang harus saya lakukan?",
+        "error_while_fetching_q": "Ada kesalahan muncul mengatakan \"error occured while fetching\" — apa yang harus saya lakukan?",
+        "missing_old_pulls_q": "Saya tidak bisa menemukan riwayat pull lama saya — di mana mereka?",
+        "support_other_imports_q": "Apakah kamu mendukung mengimpor dari website atau apps lain?",
+        "ps5_player_import_q": "Sebagai player PlayStation 5, apakah saya bisa mengimpor juga?",
+        "other_q": "Masalah yang saya alami sepertinya tidak tercantum di sini — apa yang harus saya lakukan?"
       }
     },
     "migration": {
-      "legacy_migration": "Upgrade your old pulls to the new format here",
+      "legacy_migration": "Upgrade riwayat pull lama Anda ke format yang baru di sini",
       "legacy": "Legacy",
-      "legacy_import": "Import Old Pulls",
-      "legacy_import_alert_title": "For Old Website Users Only",
-      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
+      "legacy_import": "Impor Riwayat Pull Lama",
+      "legacy_import_alert_title": "Hanya Untuk Pengguna Website Lama",
+      "legacy_import_alert_description": "Kami TIDAK dapat memulihkan riwayat pull yang telah melewati masa kedaluwarsa 6 bulan. Legacy pull importer ini ditujukan untuk pengguna WuWa Tracker yang lawas."
     },
     "layout": {
       "banners": {
-        "close_banner": "Close banner"
+        "close_banner": "Tutup banner"
       },
-      "tools": "Tools",
-      "inventory": "Inventory",
-      "guides": "Guides",
-      "development": "Development",
-      "system_status": "System Status",
+      "tools": "Alat",
+      "inventory": "Inventaris",
+      "guides": "Panduan",
+      "development": "Pengembangan",
+      "system_status": "Status Sistem",
       "legal": "Legal",
-      "partners": "Partners",
-      "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
+      "partners": "Partner",
+      "disclaimer": "Ini adalah fan project independen, kami tidak berafiliasi atau didukung oleh Kuro Games. Semua aset, konten, dan merek dagang game adalah milik dari pemiliknya masing-masing."
     },
     "error": {
-      "oops": "Whoops!",
-      "an_error_occured": "An <highlight>error</highlight> occured.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "oops": "Ups!",
+      "an_error_occured": "Terjadi sebuah <highlight>kesalahan</highlight>.",
+      "join_discord": "Silakan <link>bergabung ke Server Discord kami</link> untuk membuat laporan."
     },
     "achievements": {
-      "no_achievements_found": "no achievements found"
+      "no_achievements_found": "tidak ada pencapaian ditemukan"
     },
     "tracker": {
       "banner_summary": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_description": "Pilih banner untuk mendapatkan ikhtisiar statistik.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Luck Rating",
-        "top": "Top {percentile}%",
-        "bottom": "Bottom {percentile}%",
-        "luckier": "Luckier than {percentile}% of players",
-        "unluckier": "Unluckier than {percentile}% of players",
-        "avg_pity": "Average Pity",
-        "avg_pity_description": "What is your average {qualityLevel}-star pity?",
-        "pull_ratio": "Pull Ratio",
-        "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
-        "coinflip_wins": "50/50 Wins",
-        "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
-        "rate_up_wins": "Rate-up Wins",
-        "rate_up_wins_description": "How often were your pulls rate-up?"
+        "num_luck_rating_title": "{num}✦ Peringkat Keburuntungan",
+        "top": "{percentile}% Teratas",
+        "bottom": "{percentile}% Terbawah",
+        "luckier": "Lebih beruntung dari {percentile}% player",
+        "unluckier": "Lebih tidak beruntung dari {percentile}% player",
+        "avg_pity": "Rata-rata Pity",
+        "avg_pity_description": "Berapa rata-rata pity {qualityLevel}-star Anda?",
+        "pull_ratio": "Rasio Pull",
+        "pull_ratio_description": "Berapa persentase mendapatkan {qualityLevel}-star dari total pull Anda?",
+        "coinflip_wins": "Kemenangan 50/50",
+        "coinflip_wins_description": "Berapa persentase kemenangan 50/50 Anda?",
+        "rate_up_wins": "Kemenangan Rate-up",
+        "rate_up_wins_description": "Seberapa sering pull Anda merupakan rate-up?"
       }
     },
     "global_stats": {
       "rarity_pulls": "{num}✦ Pull",
       "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
       "banner_summary_title": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_description": "Pilih banner untuk mendapatkan ikhtisiar statistik.",
       "view_your_statistics_responsive": "<span>View</span> Your Statistics"
     },
     "dashboard": {
@@ -474,34 +474,34 @@
     },
     "timeline": {
       "choose_server_timezone": "Choose Server Timezone",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
-      "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
+      "choose_server_timezone_description": "Tampilkan waktu yang sudah disesuaikan dengan zona waktu lokal Anda",
+      "timeline_description": "Lihat event Wuthering Wave dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
       "reset_timers": {
-        "title": "Server Daily Reset Timers",
-        "description": "Compare your local time to the Wuthering Waves game servers to plan your next adventure.",
-        "disclaimer": "Other server timers are displayed in their local time."
+        "title": "Timer Reset Harian Server",
+        "description": "Bandingkan waktu lokal Anda dengan server game Wuthering Waves untuk merencanakan petualangan berikutnya.",
+        "disclaimer": "Timer waktu server lain ditampilkan dalam waktu setempat."
       }
     },
     "import": {
-      "logs_not_updating_alert": "URL Expiration",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
-      "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
-      "paste_the_url_here": "Paste the URL here",
-      "paste_the_json_here": "Paste the JSON here",
-      "press_the_import_history_button": "Press the \"Import History\" button on this website",
-      "go_to_installation_directory": "Go to your game's installation directory",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
-      "airplane_mode": "Airplane Mode",
-      "download_ascent": "Download and use Ascent to get your gacha history URL",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS."
+      "logs_not_updating_alert": "Kedaluwarsa URL",
+      "logs_not_updating_alert_description": "Sejak 14 Januari 2025, pengguna PC telah mengalami masalah logging dengan game mereka yang diduga karena pembaruan dari Kuro Games. Baca <link>Panduan Pemecahan Masalah</link> untuk men-debugnya.",
+      "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat pull in-game",
+      "open_windows_powershell_and_run_script": "Setelah itu, bukan Windows PowerShell, lalu tempel skrip berikut.",
+      "click_the_copy_button": "Klik tombol salin di sebelah kanan",
+      "powershell_script_disclaimer": "CATATAN: Skrip ini tidak mengubah file Anda, file ini hanya mengekstrak URL Riwayat Convene dari log game. Anda bisa melihat skripnya <link>di sini</link>.",
+      "paste_the_url_here": "Tempel URL di sini",
+      "paste_the_json_here": "Tempel file JSON di sini",
+      "press_the_import_history_button": "Tekan tombol \"Impor Riwayat\" di website ini",
+      "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
+      "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
+      "search_for_log": "Cari file <code>Client.log</code> dan upload ke sini",
+      "airplane_mode": "Mode Pesawat",
+      "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
+      "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>guide oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
+      "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
+      "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
+      "ios_follow_tutorial_video": "Ikuti video tutorial kami",
+      "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS."
     }
   },
   "metadata": {
@@ -515,13 +515,13 @@
     "tracker": {
       "index": {
         "title": "Pull Tracker",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!"
       },
       "global": {
-        "title": "Global Statistics",
-        "title_responsive": "<span>Global</span> Statistics",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
+        "title": "Statistik Global",
+        "title_responsive": "Statistik <span>Global</span>",
+        "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!",
+        "banner_title": "Statistik Banner {name}",
         "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       }
     },
