@@ -1,23 +1,23 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
-      "convene_url": "Convene URL",
-      "pulls": "Pulls",
-      "astrites": "Astrites",
+      "convenes": "крутки",
+      "convene_url": "ссылка на историю круток",
+      "pulls": "Крутки",
+      "astrites": "Астрит",
       "wuthering_waves": "Wuthering Waves",
-      "pull_history": "Pull History",
-      "pull_num": "Pull No.",
-      "item": "Item",
-      "pity": "Pity",
-      "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes"
+      "pull_history": "История круток",
+      "pull_num": "Крутка №.",
+      "item": "Получено",
+      "pity": "Гарант",
+      "date_received": "Дата и время получения",
+      "recent_convenes": "Последние крутки"
     },
     "phrase": {
-      "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
-      "banner_list": "Banner List",
-      "no_pulls_yet": "No pulls yet",
+      "import_data": "Импорт",
+      "import_data_description": "Используйте ранее сохранённые данные, чтобы сохранить их в данном браузере",
+      "banner_list": "Список баннеров",
+      "no_pulls_yet": "Круток не было",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pulls",
@@ -191,7 +191,7 @@
         "scroll_for_more": "Scroll For More",
         "no_filters": "no filters selected",
         "no_records": "no records to show",
-        "no_pulls_yet": "No pulls yet",
+        "no_pulls_yet": "Круток не было",
         "no_pulls_found_in_google_drive": "No pulls found in Google Drive",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
@@ -202,7 +202,7 @@
         "google_drive_last_updated_at": "Google Drive was updated {date}",
         "nothing_to_sync": "Nothing to sync at the moment.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
-        "sync_updating_remote_file": "Updating remote copy for ${fileName}..."
+        "sync_updating_remote_file": "Updating remote copy for {fileName}..."
       },
       "success": {
         "successfully_imported_achievements": "Successfully imported your achievements.",
@@ -215,7 +215,7 @@
         "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
         "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
         "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for ${fileName}."
+        "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
