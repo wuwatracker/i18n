@@ -208,7 +208,7 @@
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
         "successfully_imported_gacha_records": "Berhasil mengimpor riwayat pull Anda.",
         "successfully_imported_profile": "Berhasil mengimpor profil pengguna Anda.",
-        "successfully_imported_gacha_records_redirecting": "Mengarahkan kembali ke tracker Anda.",
+        "successfully_imported_gacha_records_redirecting": "Mengalihkan ke pelacak Anda sekarang.",
         "create_profile": "Berhasil membuat profil untuk {playerId}.",
         "delete_pulls": "Berhasil menghapus semua riwayat pull untuk {playerId}.",
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
@@ -406,39 +406,39 @@
     },
     "global_stats": {
       "rarity_pulls": "{num}✦ Pull",
-      "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
+      "rarity_pulls_per_pity": "{num}✦ Pull per Pity",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Pilih banner untuk mendapatkan ikhtisiar statistik.",
-      "view_your_statistics_responsive": "<span>View</span> Your Statistics"
+      "view_your_statistics_responsive": "<span>Lihat</span> Statistik Anda"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "stay_focused_rover": "Stay focused, Rover.",
-      "welcome_rover": "Welcome, Rover.",
-      "let_us_get_started": "Let's get you started, shall we?",
-      "your_data_will_now_sync": "Your data will now sync on demand!",
+      "title": "Dasbor",
+      "stay_focused_rover": "Tetaplah fokus, Rover.",
+      "welcome_rover": "Selamat datang, Rover.",
+      "let_us_get_started": "Mari kita mulai, bagaimana?",
+      "your_data_will_now_sync": "Mulai sekarang data Anda akan tersinkronisasikan sesuai permintaan!",
       "greeting": {
         "words": {
-          "pulls": "pulls",
+          "pulls": "pull",
           "pity": "pity",
-          "events": "events",
-          "statistics": "statistics",
+          "events": "event",
+          "statistics": "statistik",
           "data": "data",
-          "updates": "updates"
+          "updates": "pembaruan"
         },
-        "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. We aim to provide the best tools to showcase your Wuthering Waves progress to your friends."
+        "description": "Sebuah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Kami bertujuan untuk menyediakan alat terbaik untuk menunjukkan kemajuan Wuthering Waves Anda ke teman-teman."
       },
       "changelog": {
-        "title": "Changelogs"
+        "title": "Catatan Perubahan"
       },
       "about": {
-        "title": "About",
-        "what_is_wuwatracker": "What is WuWa Tracker?"
+        "title": "Tentang",
+        "what_is_wuwatracker": "Apa itu WuWa Tracker?"
       },
       "credits": {
         "title": "Credits",
         "heading": "Credits & Attributions",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
+        "heading_description": "Website ini dapat terwujud berkat orang-orang yang luar biasa. Jika nama Anda tidak tercantum di sini atau nama Anda ingin dihapus, silakan hubungi kami.",
         "special_thanks": "Special Thanks"
       }
     },
@@ -459,21 +459,21 @@
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Import User Profile",
       "user_profile": "User Profile",
-      "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "user_profile_description": "Pilih profil yang aktif untuk prestasi, bahan, dan pelacak pull",
       "pull_history": "Pull History Data",
       "pull_history_description": "Upload & download your local data via Google or your local device",
       "saves_your_pulls_to_google": "Saves your pulls to Google",
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
-      "pulls_file_import_dialog_title": "Import Local Pulls",
+      "pulls_file_import_dialog_title": "Impor Riwayat Pull Lokal",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
-      "sync_preferences": "Sync Preferences",
+      "sync_preferences": "Sinkronisasikan Preferensi",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
+      "you_can_manually_sync_reminder": "Anda dapat melakukan sinkronisasi secara manual dengan tombol <code>Trigger Sync</code> di menu profil."
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
+      "choose_server_timezone": "Pilih Zona Waktu Server",
       "choose_server_timezone_description": "Tampilkan waktu yang sudah disesuaikan dengan zona waktu lokal Anda",
       "timeline_description": "Lihat event Wuthering Wave dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
       "reset_timers": {
@@ -568,7 +568,7 @@
       },
       "weapon": {
         "title": "Weapons",
-        "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Lihat informasi senjata, atribut, dan lacak inventaris Wutherin Waves Anda - semua dalam satu tempat. WuWa Tracker penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statiski global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       }
     },
     "planner": {
