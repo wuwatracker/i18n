@@ -173,7 +173,7 @@
         "cannot_find_convene_url": "Kami tidak dapat menemukan URL Convene",
         "cannot_find_convene_url_description": "Pastikan Client.log Anda diperbarui ketika membuka riwayat, jika tidak, cek sesi Pemecahan Masalah untuk meminta bantuan.",
         "convene_url_expired": "URL Anda kemungkinan kedaluwarsa. Cobalah impor kembali.",
-        "use_valid_player_id": "Anda harus menggunakan ID player yang aktif",
+        "use_valid_player_id": "Anda harus menggunakan ID pemain yang aktif",
         "no_profile_to_download": "Tidak ada profil untuk diunduh.",
         "no_pulls_to_download": "Tidak ada riwayat pull untuk diunduh.",
         "need_to_upload_specific_file": "Anda perlu meng-upload file {file}!",
@@ -228,8 +228,8 @@
       "banner_search_placeholder": "Cari banner...",
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
-      "your_player_id_placeholder": "9-digit ID player Anda (cth. 123456789)",
-      "your_player_id_validation": "9-digit player ID Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
+      "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
+      "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk upload atau seret & lepas",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
@@ -328,11 +328,11 @@
       "manual": "Manual",
       "data": "Data",
       "preferences": "Preferensi",
-      "advanced": "Advanced",
-      "help_translate": "Help Translate",
-      "switch_language": "Switch language",
-      "just_taking_a_look_around": "Just taking a look around?",
-      "the_active_player_profile": "the active player profile",
+      "advanced": "Lanjutan",
+      "help_translate": "Bantu Terjemahkan",
+      "switch_language": "Ganti bahasa",
+      "just_taking_a_look_around": "Hanya melihat-lihat saja?",
+      "the_active_player_profile": "profil pemain yang aktif",
       "privacy": "Privasi",
       "on": "Aktif",
       "off": "Mati",
@@ -353,7 +353,7 @@
         "error_while_fetching_q": "Ada kesalahan muncul mengatakan \"error occured while fetching\" — apa yang harus saya lakukan?",
         "missing_old_pulls_q": "Saya tidak bisa menemukan riwayat pull lama saya — di mana mereka?",
         "support_other_imports_q": "Apakah kamu mendukung mengimpor dari website atau apps lain?",
-        "ps5_player_import_q": "Sebagai player PlayStation 5, apakah saya bisa mengimpor juga?",
+        "ps5_player_import_q": "Sebagai pemain PlayStation 5, apakah saya bisa mengimpor juga?",
         "other_q": "Masalah yang saya alami sepertinya tidak tercantum di sini — apa yang harus saya lakukan?"
       }
     },
@@ -392,8 +392,8 @@
         "num_luck_rating_title": "{num}✦ Peringkat Keburuntungan",
         "top": "{percentile}% Teratas",
         "bottom": "{percentile}% Terbawah",
-        "luckier": "Lebih beruntung dari {percentile}% player",
-        "unluckier": "Lebih tidak beruntung dari {percentile}% player",
+        "luckier": "Lebih beruntung dari {percentile}% pemain",
+        "unluckier": "Lebih tidak beruntung dari {percentile}% pemain",
         "avg_pity": "Rata-rata Pity",
         "avg_pity_description": "Berapa rata-rata pity {qualityLevel}-star Anda?",
         "pull_ratio": "Rasio Pull",
@@ -447,8 +447,8 @@
       "create_profile_dialog": "You don't have a site profile yet",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "Ini akan menghapus SEMUA riwayat pull yang terkait dengan {playerId} secara permanen. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
+      "active_profile_delete_pulls_confirm": "Apakah kamu yakin ingin menghapus semua riwayat pull untuk {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
       "all_profiles_delete": "Delete ALL User Profiles",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
@@ -526,14 +526,14 @@
       }
     },
     "error": {
-      "title": "An Error Occurred",
-      "description": "An error occurred while using WuWa Tracker. Please send a report to our Discord server so that we can address it promptly."
+      "title": "Terjadi Kesalahan",
+      "description": "Terjadi kesalahan saat menggunakan WuWa Tracker. Silakan kirimkan laporan ke server Discord kami agar kami dapat segera menanganinya."
     },
     "import": {
       "title": "Impor Riwayat Convene",
       "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil gacha Anda dengan teman dan lacak akun Anda!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
+        "title": "Tutorial Impor Legacy",
         "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
       }
     },
@@ -573,11 +573,11 @@
     },
     "planner": {
       "title": "Material Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "description": "Kalkulator Wuthering Waves yang paling unggul untuk merencanakan level Resonator Ascension, skill, dan material EXP Anda! WuWa Tracker memiliki serangkaian alat yang lengkap untuk meningkatkan pengalaman bermain game Anda."
     },
     "support": {
-      "title": "Support",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "title": "Bantuan",
+      "description": "Butuh bantuan untuk mengunduh data riwayat pull Wuthering Waves Anda? Ingin tahu bagaimana WuWa Tracker menggunakan data Anda? Lihat FAQ WuWa Tracker di sini!"
     }
   }
 }
