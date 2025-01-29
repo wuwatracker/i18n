@@ -169,15 +169,15 @@
         "unable_to_parse": "Kami tidak dapat mengurai data Anda",
         "unable_to_parse_remote_data": "Kami tidak dapat mengurai data remote Anda",
         "download_failed": "Unduhan gagal",
-        "client_log_required": "Anda harus mengunggah file Client.log!",
+        "client_log_required": "Anda harus meng-upload file Client.log!",
         "cannot_find_convene_url": "Kami tidak dapat menemukan URL Convene",
         "cannot_find_convene_url_description": "Pastikan Client.log Anda diperbarui ketika membuka riwayat, jika tidak, cek sesi Pemecahan Masalah untuk meminta bantuan.",
         "convene_url_expired": "URL Anda kemungkinan kedaluwarsa. Cobalah impor kembali.",
         "use_valid_player_id": "Anda harus menggunakan ID player yang aktif",
         "no_profile_to_download": "Tidak ada profil untuk diunduh.",
         "no_pulls_to_download": "Tidak ada riwayat pull untuk diunduh.",
-        "need_to_upload_specific_file": "Anda harus mengunggah file {file}!",
-        "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk diunggah.",
+        "need_to_upload_specific_file": "Anda perlu meng-upload file {file}!",
+        "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk di-upload.",
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
         "incorrect_input_file_description": "Ini HANYA untuk riwayat pull dengan format terbaru saja!"
@@ -208,7 +208,7 @@
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
         "successfully_imported_gacha_records": "Berhasil mengimpor riwayat pull Anda.",
         "successfully_imported_profile": "Berhasil mengimpor profil pengguna Anda.",
-        "successfully_imported_gacha_records_redirecting": "Mengalihkan ke pelacak Anda sekarang.",
+        "successfully_imported_gacha_records_redirecting": "Mengarahkan kembali ke tracker Anda.",
         "create_profile": "Berhasil membuat profil untuk {playerId}.",
         "delete_pulls": "Berhasil menghapus semua riwayat pull untuk {playerId}.",
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
@@ -475,7 +475,7 @@
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
       "choose_server_timezone_description": "Tampilkan waktu yang sudah disesuaikan dengan zona waktu lokal Anda",
-      "timeline_description": "Lihat event Wuthering Waves dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
+      "timeline_description": "Lihat event Wuthering Wave dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
       "reset_timers": {
         "title": "Timer Reset Harian Server",
         "description": "Bandingkan waktu lokal Anda dengan server game Wuthering Waves untuk merencanakan petualangan berikutnya.",
@@ -515,12 +515,12 @@
     "tracker": {
       "index": {
         "title": "Pull Tracker",
-        "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!"
       },
       "global": {
         "title": "Statistik Global",
         "title_responsive": "Statistik <span>Global</span>",
-        "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!",
+        "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!",
         "banner_title": "Statistik Banner {name}",
         "banner_description": "Lihat statistik pull global untuk banner {name}. Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       }
