@@ -4,7 +4,7 @@
       "convenes": "Convenes",
       "convene_url": "Convene URL",
       "pulls": "Pulls",
-      "astrites": "Astrites",
+      "astrites": "Astritas",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Pull History",
       "pull_num": "Pull No.",
@@ -15,7 +15,7 @@
     },
     "phrase": {
       "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
+      "import_data_description": "Usa tus datos exportados previamente y guárdalos en tu navegador",
       "banner_list": "Banner List",
       "no_pulls_yet": "No pulls yet",
       "rarity_pulls": "{num}✦ Pulls",
