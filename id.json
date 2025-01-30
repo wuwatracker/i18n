@@ -253,7 +253,7 @@
       "cancel": "Batalkan",
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
-      "upload_to_google": "Upload ke Google",
+      "upload_to_google": "Unggah ke Google",
       "download_from_google": "Unduh dari Google"
     },
     "time": {
@@ -459,7 +459,7 @@
       "privacy_footer_policy_link": "<link>Kebijakan Privasi</link> kami memiliki detail lebih lanjut tentang cara kami menangani data Anda.",
       "import_user_profile": "Impor Profil Pengguna",
       "user_profile": "Profil Pengguna",
-      "user_profile_description": "Pilih profil yang aktif untuk prestasi, bahan, dan pelacak pull",
+      "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
       "pull_history": "Data Riwayat Pull",
       "pull_history_description": "Unggah dan unduh data lokal Anda melalui Google atau perangkat Anda",
       "saves_your_pulls_to_google": "Simpan riwayat pull ke Google",
@@ -494,7 +494,7 @@
       "press_the_import_history_button": "Tekan tombol \"Impor Riwayat\" di website ini",
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
       "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
-      "search_for_log": "Cari file <code>Client.log</code> dan upload ke sini",
+      "search_for_log": "Cari file <code>Client.log</code> lalu unggah ke sini",
       "airplane_mode": "Mode Pesawat",
       "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
       "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>guide oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
@@ -568,7 +568,7 @@
       },
       "weapon": {
         "title": "Weapons",
-        "description": "Lihat informasi senjata, atribut, dan lacak inventaris Wutherin Waves Anda - semua dalam satu tempat. WuWa Tracker penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statiski global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "description": "Lihat informasi senjata, atribut, dan lacak inventaris Wuthering Waves Anda - semua dalam satu tempat. WuWa Tracker penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statiski global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       }
     },
     "planner": {
