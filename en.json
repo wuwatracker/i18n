@@ -10,6 +10,7 @@
       "pull_num": "Pull No.",
       "item": "Item",
       "pity": "Pity",
+      "rarity": "Rarity",
       "date_received": "Date Received",
       "recent_convenes": "Recent Convenes"
     },
@@ -293,6 +294,7 @@
       }
     },
     "other": {
+      "name": "Name",
       "guest": "Guest",
       "america": "America",
       "europe": "Europe",
