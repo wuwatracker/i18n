@@ -345,8 +345,8 @@
   },
   "feature": {
     "support": {
-      "troubleshooting": "Troubleshooting",
-      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "troubleshooting": "문제 해결",
+      "troubleshooting_description": "제출 중 문제를 겪는 경우, 여기에서 문제 해결 가이드를 참조하세요.",
       "import": {
         "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
         "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
@@ -484,7 +484,7 @@
     },
     "import": {
       "logs_not_updating_alert": "URL Expiration",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
+      "logs_not_updating_alert_description": "2025년 1월 14일 기준, PC 사용자들은 Kuro Games의 업데이트로 인해 게임 로깅 문제를 겪고 있습니다. 이를 디버깅하려면 </link>문제 해결 가이드</link>를 읽어보세요.",
       "first_open_game_history": "First, launch the game and open your in-game history details",
       "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
       "click_the_copy_button": "Click the copy button on the right",
@@ -499,7 +499,7 @@
       "download_ascent": "Download and use Ascent to get your gacha history URL",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
+      "download_ascent_troubleshooting": "만약 제대로 작동하지 않는다면, <link>문제 해결</link>부분을 확인하세요.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
       "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS."
     }
