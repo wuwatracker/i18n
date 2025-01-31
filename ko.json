@@ -229,6 +229,7 @@
       "banner_search_placeholder": "배너 검색하기...",
       "search": "검색",
       "search_placeholder": "검색하기",
+      "search_reset": "Reset search",
       "your_player_id_placeholder": "9자리 UID (예: 12345456789)",
       "your_player_id_validation": "9자리 UID는 반드시 1, 5, 6, 7, 8, 또는 9로 시작합니다",
       "type_to_confirm": "Type <strong></strong> to confirm",
@@ -342,7 +343,8 @@
       "signed_out": "Signed out",
       "out_of_sync": "Out of sync",
       "synced": "Synced",
-      "downloads_and_merges": "Downloads and merges your pulls"
+      "downloads_and_merges": "Downloads and merges your pulls",
+      "filters": "Filters"
     }
   },
   "feature": {
