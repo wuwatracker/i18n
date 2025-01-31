@@ -10,6 +10,7 @@
       "pull_num": "No. Pull",
       "item": "Item",
       "pity": "Pity",
+      "rarity": "Rarity",
       "date_received": "Tanggal Diterima",
       "recent_convenes": "Convene Terkini"
     },
@@ -293,6 +294,7 @@
       }
     },
     "other": {
+      "name": "Name",
       "guest": "Tamu",
       "america": "Amerika",
       "europe": "Eropa",
