@@ -169,18 +169,18 @@
         "unable_to_parse": "Kami tidak dapat mengurai data Anda",
         "unable_to_parse_remote_data": "Kami tidak dapat mengurai data remote Anda",
         "download_failed": "Unduhan gagal",
-        "client_log_required": "Anda harus meng-upload file Client.log!",
+        "client_log_required": "Anda harus mengunggah file Client.log!",
         "cannot_find_convene_url": "Kami tidak dapat menemukan URL Convene",
         "cannot_find_convene_url_description": "Pastikan Client.log Anda diperbarui ketika membuka riwayat, jika tidak, cek sesi Pemecahan Masalah untuk meminta bantuan.",
         "convene_url_expired": "URL Anda kemungkinan kedaluwarsa. Cobalah impor kembali.",
-        "use_valid_player_id": "Anda harus menggunakan ID player yang aktif",
+        "use_valid_player_id": "Anda harus menggunakan ID pemain yang aktif",
         "no_profile_to_download": "Tidak ada profil untuk diunduh.",
         "no_pulls_to_download": "Tidak ada riwayat pull untuk diunduh.",
-        "need_to_upload_specific_file": "Anda perlu meng-upload file {file}!",
-        "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk di-upload.",
+        "need_to_upload_specific_file": "Anda harus mengunggah file {file}!",
+        "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk diunggah.",
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
-        "incorrect_input_file_description": "Ini HANYA untuk impor format riwayat pull yang baru!"
+        "incorrect_input_file_description": "Ini HANYA untuk impor format riwayat pull yang baru saja!"
       },
       "info": {
         "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
@@ -228,8 +228,8 @@
       "banner_search_placeholder": "Cari banner...",
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
-      "your_player_id_placeholder": "9-digit ID player Anda (cth. 123456789)",
-      "your_player_id_validation": "9-digit player ID Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
+      "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
+      "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
@@ -253,7 +253,7 @@
       "cancel": "Batalkan",
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
-      "upload_to_google": "Upload ke Google",
+      "upload_to_google": "Unggah ke Google",
       "download_from_google": "Unduh dari Google"
     },
     "time": {
@@ -297,8 +297,8 @@
       "america": "Amerika",
       "europe": "Eropa",
       "asia_sea_regions": "Asia, SEA, TW/HK/MO",
-      "completed": "Berhasil",
-      "incomplete": "Tidak berhasil",
+      "completed": "Selesai",
+      "incomplete": "Belum selesai",
       "completion": "Kelengkapan",
       "all": "Semua",
       "hidden": "Disembunyikan",
@@ -352,8 +352,8 @@
         "url_expired_q": "Ada kesalahan muncul mengatakan \"URL probably expired\" — apa yang harus saya lakukan?",
         "error_while_fetching_q": "Ada kesalahan muncul mengatakan \"error occured while fetching\" — apa yang harus saya lakukan?",
         "missing_old_pulls_q": "Saya tidak bisa menemukan riwayat pull lama saya — di mana mereka?",
-        "support_other_imports_q": "Apakah Anda mendukung pengimporan dari website atau aplikasi lain?",
-        "ps5_player_import_q": "Sebagai player PlayStation 5, apakah saya bisa mengimpor juga?",
+        "support_other_imports_q": "Apakah Anda mendukung pengimporan dari situs web atau aplikasi lain?",
+        "ps5_player_import_q": "Sebagai pemain PlayStation 5, apakah saya bisa mengimpor juga?",
         "other_q": "Masalah yang saya alami sepertinya tidak tercantum di sini — apa yang harus saya lakukan?"
       }
     },
@@ -361,7 +361,7 @@
       "legacy_migration": "Tingkatkan riwayat pull lama Anda ke format yang baru di sini",
       "legacy": "Legacy",
       "legacy_import": "Impor Riwayat Pull Lama",
-      "legacy_import_alert_title": "Hanya Untuk Pengguna Website Lama",
+      "legacy_import_alert_title": "Hanya Untuk Pengguna Situs Web Lawas",
       "legacy_import_alert_description": "Kami TIDAK dapat memulihkan riwayat pull yang telah melewati masa kedaluwarsa 6 bulan. Legacy pull importer ini ditujukan untuk pengguna WuWa Tracker yang lawas."
     },
     "layout": {
@@ -392,8 +392,8 @@
         "num_luck_rating_title": "{num}✦ Peringkat Keburuntungan",
         "top": "{percentile}% Teratas",
         "bottom": "{percentile}% Terbawah",
-        "luckier": "Lebih beruntung dari {percentile}% player",
-        "unluckier": "Lebih tidak beruntung dari {percentile}% player",
+        "luckier": "Lebih beruntung dari {percentile}% pemain",
+        "unluckier": "Lebih tidak beruntung dari {percentile}% pemain",
         "avg_pity": "Rata-rata Pity",
         "avg_pity_description": "Berapa rata-rata pity bintang {qualityLevel} Anda?",
         "pull_ratio": "Rasio Pull",
@@ -426,7 +426,7 @@
           "data": "data",
           "updates": "pembaruan"
         },
-        "description": "Sebuah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Kami bertujuan untuk menyediakan alat terbaik untuk menunjukkan kemajuan Wuthering Waves Anda ke teman-teman."
+        "description": "Sebuah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Kami bertujuan untuk menyediakan alat terbaik untuk menunjukkan kemajuan Wuthering Waves Anda ke teman-teman."
       },
       "changelog": {
         "title": "Catatan Perubahan"
@@ -438,7 +438,7 @@
       "credits": {
         "title": "Kredit",
         "heading": "Kredit & Atribusi",
-        "heading_description": "Website ini dapat terwujud berkat orang-orang yang luar biasa. Jika nama Anda tidak tercantum di sini atau nama Anda ingin dihapus, silakan hubungi kami.",
+        "heading_description": "Situs web ini dapat terwujud berkat orang-orang yang luar biasa. Jika nama Anda tidak tercantum di sini atau nama Anda ingin dihapus, silakan hubungi kami.",
         "special_thanks": "Special Thanks"
       }
     },
@@ -459,7 +459,7 @@
       "privacy_footer_policy_link": "<link>Kebijakan Privasi</link> kami memiliki detail lebih lanjut tentang cara kami menangani data Anda.",
       "import_user_profile": "Impor Profil Pengguna",
       "user_profile": "Profil Pengguna",
-      "user_profile_description": "Pilih profil yang aktif untuk prestasi, bahan, dan pelacak pull",
+      "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
       "pull_history": "Data Riwayat Pull",
       "pull_history_description": "Unggah dan unduh data lokal Anda melalui Google atau perangkat Anda",
       "saves_your_pulls_to_google": "Simpan riwayat pull ke Google",
@@ -469,13 +469,13 @@
       "pulls_file_import_dialog_description": "CATATAN: Ini hanya menerima riwayat pull dengan format kami yang baru. Kunjungi halaman <link>impor legacy</link> jika Anda ingin mengimpor data lama sebelum <code></code>.",
       "sync_preferences": "Sinkronisasikan Preferensi",
       "sync_preferences_description": "Memilih untuk menggunakan atau tidak dalam sinkronisasi otomatis Google Drive dengan data Anda",
-      "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur website lainnya.",
+      "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur lainnya.",
       "you_can_manually_sync_reminder": "Anda dapat melakukan sinkronisasi secara manual dengan tombol <code>Trigger Sync</code> di menu profil."
     },
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
       "choose_server_timezone_description": "Tampilkan waktu yang sudah disesuaikan dengan zona waktu lokal Anda",
-      "timeline_description": "Lihat event Wuthering Wave dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
+      "timeline_description": "Lihat event Wuthering Waves dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
       "reset_timers": {
         "title": "Timer Reset Harian Server",
         "description": "Bandingkan waktu lokal Anda dengan server game Wuthering Waves untuk merencanakan petualangan berikutnya.",
@@ -486,18 +486,18 @@
       "logs_not_updating_alert": "Kedaluwarsa URL",
       "logs_not_updating_alert_description": "Sejak 14 Januari 2025, pengguna PC telah mengalami masalah logging dengan game mereka yang diduga karena pembaruan dari Kuro Games. Baca <link>Panduan Pemecahan Masalah</link> untuk men-debugnya.",
       "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat pull in-game",
-      "open_windows_powershell_and_run_script": "Setelah itu, bukan Windows PowerShell, lalu tempel skrip berikut.",
+      "open_windows_powershell_and_run_script": "Setelah itu, buka Windows PowerShell, lalu tempel skrip berikut.",
       "click_the_copy_button": "Klik tombol salin di sebelah kanan",
       "powershell_script_disclaimer": "CATATAN: Skrip ini tidak mengubah file Anda, file ini hanya mengekstrak URL Riwayat Convene dari log game. Anda bisa melihat skripnya <link>di sini</link>.",
       "paste_the_url_here": "Tempel URL di sini",
       "paste_the_json_here": "Tempel file JSON di sini",
-      "press_the_import_history_button": "Tekan tombol \"Impor Riwayat\" di website ini",
+      "press_the_import_history_button": "Tekan tombol \"Impor Riwayat\" di situs web ini",
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
       "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
-      "search_for_log": "Cari file <code>Client.log</code> dan upload ke sini",
+      "search_for_log": "Cari file <code>Client.log</code> lalu unggah ke sini",
       "airplane_mode": "Mode Pesawat",
       "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
-      "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>guide oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
+      "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>panduan oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
@@ -506,23 +506,23 @@
   },
   "metadata": {
     "root": {
-      "description": "Penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Sinkronkan data Anda di seluruh perangkat dan bagikan gacha Anda dengan teman-teman dan lacak akun Anda dengan mudah!"
+      "description": "Sebuah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Sinkronkan data Anda di seluruh perangkat dan bagikan hasil pull Anda dengan teman-teman dan lacak akun Anda dengan mudah!"
     },
     "achievements": {
       "title": "Prestasi",
-      "description": "Lacak prestasi Wuthering Waves Anda dan impor & ekspor data Anda dengan bebas di semua perangkat! Wuwa Tracker - Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil gacha Anda dengan teman dan lacak akun Anda!"
+      "description": "Lacak prestasi Wuthering Waves Anda dan impor & ekspor data Anda dengan bebas di semua perangkat! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
-        "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!"
+        "title": "Pelacak Pull",
+        "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
       "global": {
         "title": "Statistik Global",
         "title_responsive": "Statistik <span>Global</span>",
-        "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang screenshot-ready untuk dipamerkan ke teman-teman Anda! Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data ter-update dengan statistik global dan lebih banyak lagi. Bagikan pull Anda dengan teman-teman dan track akun Anda!",
+        "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!",
         "banner_title": "Statistik Banner {name}",
-        "banner_description": "Lihat statistik pull global untuk banner {name}. Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "banner_description": "Lihat statistik pull global untuk banner {name}. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       }
     },
     "error": {
@@ -530,11 +530,11 @@
       "description": "Terjadi kesalahan saat menggunakan WuWa Tracker. Silakan kirimkan laporan ke server Discord kami agar kami dapat segera menanganinya."
     },
     "import": {
-      "title": "Impor Riwayat Convene",
-      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil gacha Anda dengan teman dan lacak akun Anda!",
+      "title": "Impor Riwayat Pull",
+      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!",
       "legacy": {
         "title": "Tutorial Impor Legacy",
-        "description": "Jika Anda pernah menggunakan website kami sebelumnya dan tidak menemukan data pull Anda di website yang baru, Anda harus mengikuti panduan kami di sini!"
+        "description": "Jika Anda pernah menggunakan situ web kami sebelumnya dan tidak dapat menemukan data pull Anda di situs web yang baru, Anda harus mengikuti panduan kami di sini!"
       }
     },
     "not_found": {
@@ -543,32 +543,32 @@
     },
     "privacy_policy": {
       "title": "Kebijakan Privasi",
-      "description": "Dokumen kebijakan privasi ini menjelaskan jenis informasi pribadi yang diterima dan dikumpulkan oleh Wuwa Tracker serta bagaimana penggunaannya. Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi."
+      "description": "Dokumen kebijakan privasi ini menjelaskan jenis informasi pribadi yang diterima dan dikumpulkan oleh Wuwa Tracker serta bagaimana penggunaannya. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi."
     },
     "settings": {
       "title": "Pengaturan",
-      "description": "Sinkronkan data Anda melalui Google dengan login. Kelola data tarikan Wuthering Waves Anda di satu tempat. Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil tarikan Anda dengan teman dan lacak akun Anda!"
+      "description": "Sinkronkan data Anda melalui Google dengan masuk. Kelola data pull Wuthering Waves Anda di satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "terms_and_conditions": {
       "title": "Syarat & Ketentuan",
       "description": "Syarat dan ketentuan ini menguraikan aturan dan regulasi untuk penggunaan situs web dan layanan Wuwa Tracker."
     },
     "timeline": {
-      "title": "Garis Waktu Event",
-      "description": "Dengan zona waktu lokal atau zona waktu server Wuthering Waves mana pun, Anda dapat melihat jadwal setiap banner, event dalam permainan, periode Tower of Adversity & Depths of Illusive Realm - semua dalam satu tempat. Wuwa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil tarikan Anda dengan teman dan lacak akun Anda!"
+      "title": "Linimasa Event",
+      "description": "Dengan zona waktu lokal atau zona waktu server Wuthering Waves mana pun, Anda dapat melihat jadwal setiap banner, event dalam permainan, periode Tower of Adversity & Depths of Illusive Realm - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
-        "description": "Lihat informasi, profil, dan gunakan kalkulator material WuWa Tracker untuk merencanakan peningkatan Resonator Anda. Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "title": "Resonator",
+        "description": "Lihat informasi, profil, dan gunakan kalkulator material WuWa Tracker untuk merencanakan peningkatan Resonator Anda. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
       "item": {
-        "title": "Items",
-        "description": "Lihat informasi item, lokasi drop, dan lacak inventaris Anda - semua dalam satu tempat. Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "title": "Item",
+        "description": "Lihat informasi item, lokasi drop, dan lacak inventaris Anda - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
       "weapon": {
-        "title": "Weapons",
-        "description": "Lihat informasi senjata, atribut, dan lacak inventaris Wuthering Waves Anda - semua dalam satu tempat. Penghitung pity WuWa Tracker untuk Wuthering Waves, menggunakan data terbaru dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+        "title": "Senjata",
+        "description": "Lihat informasi senjata, atribut, dan lacak inventaris Wuthering Waves Anda - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       }
     },
     "planner": {
