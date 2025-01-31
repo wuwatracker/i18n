@@ -10,6 +10,7 @@
       "pull_num": "회차 No.",
       "item": "항목",
       "pity": "천장",
+      "rarity": "Rarity",
       "date_received": "Date Received",
       "recent_convenes": "최근 튜닝"
     },
@@ -293,6 +294,7 @@
       }
     },
     "other": {
+      "name": "Name",
       "guest": "게스트",
       "america": "아메리카",
       "europe": "유럽",
