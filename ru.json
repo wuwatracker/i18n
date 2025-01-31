@@ -10,6 +10,7 @@
       "pull_num": "Крутка №.",
       "item": "Получено",
       "pity": "Гарант",
+      "rarity": "Rarity",
       "date_received": "Дата и время получения",
       "recent_convenes": "Последние крутки"
     },
@@ -293,6 +294,7 @@
       }
     },
     "other": {
+      "name": "Name",
       "guest": "Guest",
       "america": "America",
       "europe": "Europe",
