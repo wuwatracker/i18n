@@ -10,6 +10,7 @@
       "pull_num": "Lượt Triệu hồi thứ.",
       "item": "Vật phẩm",
       "pity": "Pity",
+      "rarity": "Rarity",
       "date_received": "Thời gian ghi nhận",
       "recent_convenes": "Lượt Triệu hồi gần đây"
     },
@@ -293,6 +294,7 @@
       }
     },
     "other": {
+      "name": "Name",
       "guest": "Guest",
       "america": "America",
       "europe": "Europe",
