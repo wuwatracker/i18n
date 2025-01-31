@@ -163,7 +163,7 @@
         "generic_title": "Terjadi kesalahan",
         "no_banner": "Tidak ada banner yang ditemukan.",
         "relogin_to_sync": "Silakan masuk kembali untuk menyinkronkan.",
-        "no_auth_scopes": "Anda tidak memiliki izin untuk upload ke Google Drive.",
+        "no_auth_scopes": "Anda tidak memiliki izin untuk mengunggah ke Google Drive.",
         "auth_session_expired": "Sesi masuk Anda telah berakhir.",
         "invalid_input_format": "Data yang diinput tidak valid",
         "unable_to_parse": "Kami tidak dapat mengurai data Anda",
