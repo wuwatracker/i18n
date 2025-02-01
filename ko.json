@@ -10,20 +10,20 @@
       "pull_num": "회차 No.",
       "item": "항목",
       "pity": "천장",
-      "rarity": "Rarity",
-      "date_received": "Date Received",
+      "rarity": "희귀도",
+      "date_received": "시간",
       "recent_convenes": "최근 튜닝"
     },
     "phrase": {
       "import_data": "데이터 제출하기",
-      "import_data_description": "Use your previously exported data and save it to your browser",
+      "import_data_description": "이전에 내보낸 데이터를 사용하여 브라우저에 저장하세요\n",
       "banner_list": "배너 리스트",
-      "no_pulls_yet": "No pulls yet",
-      "rarity_pulls": "{num}✦ Pulls",
-      "num_pity": "{num}✦ Pity",
-      "total_pulls": "Total Pulls",
-      "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "no_pulls_yet": "아직 뽑기 기록이 없음",
+      "rarity_pulls": "{num}✦ 뽑은 수",
+      "num_pity": "{num}✦ 천장",
+      "total_pulls": "총 뽑기 수",
+      "total_pulls_responsive": "<span>총</span> 뽑기 수",
+      "total_astrites_responsive": "<span>총</span> 별의 소리"
     },
     "name": {
       "items": {
@@ -173,50 +173,50 @@
         "client_log_required": "Client.log 파일을 업로드해야 합니다",
         "cannot_find_convene_url": "튜닝 URL을 찾을 수 없습니다",
         "cannot_find_convene_url_description": "과거 기록을 열 때 Client.log 파일을 업데이트 해주세요. 또는 문제해결 부분에서 도움을 받아보세요.",
-        "convene_url_expired": "Your URL probably expired. Try importing again.",
-        "use_valid_player_id": "You must use a valid active player ID first",
-        "no_profile_to_download": "No profile to download.",
-        "no_pulls_to_download": "No pulls to download.",
-        "need_to_upload_specific_file": "You need to upload a {file}!",
-        "sync_no_pulls_to_upload": "You don't have any pulls to upload.",
-        "sync_unavailable": "Unable to sync at the moment.",
-        "sync_no_remote_data_to_download": "You don't have any remote data to download.",
+        "convene_url_expired": "URL이 만료되었을 수 있습니다. 다시 제출해주세요.",
+        "use_valid_player_id": "먼저 유효한 플레이어 ID를 사용해야 합니다",
+        "no_profile_to_download": "다운로드할 프로필이 없습니다.",
+        "no_pulls_to_download": "다운로드할 뽑기 기록이 없습니다.",
+        "need_to_upload_specific_file": "{file}을 업로드해야 합니다!",
+        "sync_no_pulls_to_upload": "업로드할 뽑기 기록이 없습니다.",
+        "sync_unavailable": "현재 동기화할 수 없습니다.",
+        "sync_no_remote_data_to_download": "다운로드할 원격 데이터가 없습니다.",
         "incorrect_input_file_description": "This is for new pull history format imports ONLY!"
       },
       "info": {
         "connecting_google": "Attemping to connect to Google Drive",
-        "sign_in_to_sync": "Sign in to sync",
+        "sign_in_to_sync": "동기화를 위해 로그인하세요",
         "loading": "로딩중...",
         "import_loading": "가챠 기록 제출하는중...",
         "import_loading_description": "오래 걸리지 않습니다!",
         "scroll_for_more": "스크롤해서 더보기",
         "no_filters": "필터가 선택되지 않았습니다",
         "no_records": "표시할 기록이 없습니다",
-        "no_pulls_yet": "No pulls yet",
+        "no_pulls_yet": "아직 뽑기 기록이 없음",
         "no_pulls_found_in_google_drive": "구글 드라이브에서 기록을 찾을 수 없습니다",
-        "no_banner_luck_stats": "this banner has no luck stats",
+        "no_banner_luck_stats": "이 배너는 행운 통계가 없습니다",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
-        "pull_more_to_unlock": "Pull more to unlock",
-        "pull_more_to_view_statistics": "You need more pulls to view statistics",
-        "download_will_start_shortly": "Your download will start shortly.",
-        "sync_already_synced": "Your data is already synced.",
-        "google_drive_last_updated_at": "Google Drive was updated {date}",
-        "nothing_to_sync": "Nothing to sync at the moment.",
+        "pull_more_to_unlock": "통계를 위해 더 뽑아주세요",
+        "pull_more_to_view_statistics": "통계를 보기 위해서 더 많은 뽑기 횟수가 필요합니다",
+        "download_will_start_shortly": "곧 다운로드가 시작됩니다.",
+        "sync_already_synced": "데이터가 이미 동기화 되었습니다.",
+        "google_drive_last_updated_at": "구글 드라이브가 {date}에 업데이트 되었습니다",
+        "nothing_to_sync": "현재 동기화할 것이 없습니다.\n",
         "sync_creating_file_in_google": "구글 드라이브에 {fileName}을 만드는 중...",
-        "sync_updating_remote_file": "Updating remote copy for {fileName}..."
+        "sync_updating_remote_file": "{fileName}의 원격 복사본을 업데이트중..."
       },
       "success": {
-        "successfully_imported_achievements": "Successfully imported your achievements.",
-        "successfully_imported_gacha_records": "Successfully imported your gacha records.",
-        "successfully_imported_profile": "Successfully imported your user profile.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
-        "create_profile": "Succesfully created a profile for {playerId}.",
+        "successfully_imported_achievements": "성공적으로 업적을 제출했습니다.",
+        "successfully_imported_gacha_records": "성공적으로 가챠 기록을 제출했습니다.",
+        "successfully_imported_profile": "성공적으로 유저 프로필을 제출했습니다.",
+        "successfully_imported_gacha_records_redirecting": "트래커로 리디렉션 중입니다.",
+        "create_profile": "성공적으로 {playerId}의 프로필을 생성했습니다.",
         "delete_pulls": "Successfully deleted all pulls for {playerId}.",
         "delete_profiles": "Successfully deleted all user profiles.",
         "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
-        "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
+        "sync_successfully_created_remote_data": "성공적으로 구글 드라이브에 {fileName} 을 만들었습니다.",
         "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
+        "sync_success_updated_remote_file": "{fileName}의 원격 복사본을 업데이트했습니다."
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
@@ -297,7 +297,7 @@
       }
     },
     "other": {
-      "name": "Name",
+      "name": "이름",
       "guest": "게스트",
       "america": "아메리카",
       "europe": "유럽",
@@ -410,8 +410,8 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ Pulls",
-      "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
+      "rarity_pulls": "{num}✦ 뽑은 수",
+      "rarity_pulls_per_pity": "스택 별 {num}✦ 뽑은 횟수",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Select a banner to get an overview of the statistics.",
       "view_your_statistics_responsive": "<span>View</span> Your Statistics"
@@ -443,7 +443,7 @@
       "credits": {
         "title": "Credits",
         "heading": "Credits & Attributions",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
+        "heading_description": "이 웹사이트는 이 모든 뛰어난 분들 덕분에 만들어질 수 있었습니다. 여기에 이름이 등재되지 않았거나 삭제를 원하시는 분들은 저희에게 연락해 주세요.",
         "special_thanks": "Special Thanks"
       }
     },
@@ -526,8 +526,8 @@
         "title": "Global Statistics",
         "title_responsive": "<span>Global</span> Statistics",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "banner_title": "{name} 배너 통계",
+        "banner_description": " {name} 배너의 글로벌 튜닝 통계를 보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       }
     },
     "error": {
