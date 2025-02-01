@@ -229,12 +229,15 @@
       "banner_search_placeholder": "배너 검색하기...",
       "search": "검색",
       "search_placeholder": "검색하기",
+      "search_reset": "Reset search",
       "your_player_id_placeholder": "9자리 UID (예: 12345456789)",
       "your_player_id_validation": "9자리 UID는 반드시 1, 5, 6, 7, 8, 또는 9로 시작합니다",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "클릭하거나 드래그&드롭하여 업로드",
       "select_profile_placeholder_empty": "프로필을 찾을 수 없습니다",
-      "select_profile_placeholder_inactive": "프로필 선택"
+      "select_profile_placeholder_inactive": "프로필 선택",
+      "filters": "Filters",
+      "rows_per_page": "Rows per page"
     },
     "button": {
       "go_home": "홈",
