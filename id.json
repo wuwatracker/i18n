@@ -235,7 +235,9 @@
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
-      "select_profile_placeholder_inactive": "Pilih profil yang aktif"
+      "select_profile_placeholder_inactive": "Pilih profil yang aktif",
+      "filters": "Filters",
+      "rows_per_page": "Rows per page"
     },
     "button": {
       "go_home": "Pergi ke Home",
@@ -343,8 +345,7 @@
       "signed_out": "Telah keluar",
       "out_of_sync": "Tidak sinkron",
       "synced": "Disinkronisasikan",
-      "downloads_and_merges": "Unduh dan gabungkan pull Anda",
-      "filters": "Filters"
+      "downloads_and_merges": "Unduh dan gabungkan pull Anda"
     }
   },
   "feature": {
