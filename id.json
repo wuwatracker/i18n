@@ -229,12 +229,15 @@
       "banner_search_placeholder": "Cari banner...",
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
+      "search_reset": "Reset search",
       "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
-      "select_profile_placeholder_inactive": "Pilih profil yang aktif"
+      "select_profile_placeholder_inactive": "Pilih profil yang aktif",
+      "filters": "Filters",
+      "rows_per_page": "Rows per page"
     },
     "button": {
       "go_home": "Pergi ke Home",
