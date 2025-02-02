@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
+      "convenes": "",
       "convene_url": "Convene URL",
       "pulls": "Pulls",
       "astrites": "Astrites",
@@ -345,7 +345,9 @@
       "signed_out": "Signed out",
       "out_of_sync": "Out of sync",
       "synced": "Synced",
-      "downloads_and_merges": "Downloads and merges your pulls"
+      "downloads_and_merges": "Downloads and merges your pulls",
+      "image_preview": "Image Preview",
+      "close": "close"
     }
   },
   "feature": {
@@ -506,7 +508,10 @@
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
       "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS."
+      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
+      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
+      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
+      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
     }
   },
   "metadata": {
