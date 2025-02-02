@@ -345,7 +345,9 @@
       "signed_out": "Telah keluar",
       "out_of_sync": "Tidak sinkron",
       "synced": "Disinkronisasikan",
-      "downloads_and_merges": "Unduh dan gabungkan pull Anda"
+      "downloads_and_merges": "Unduh dan gabungkan pull Anda",
+      "image_preview": "Image Preview",
+      "close": "close"
     }
   },
   "feature": {
@@ -506,7 +508,10 @@
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
-      "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS."
+      "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
+      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
+      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
+      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
     }
   },
   "metadata": {
