@@ -203,33 +203,33 @@
         "google_drive_last_updated_at": "Google Drive đã được cập nhật {date}",
         "nothing_to_sync": "Hiện không có dữ liệu để đồng bộ.",
         "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
-        "sync_updating_remote_file": "Updating remote copy for {fileName}..."
+        "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}..."
       },
       "success": {
-        "successfully_imported_achievements": "Successfully imported your achievements.",
-        "successfully_imported_gacha_records": "Successfully imported your gacha records.",
-        "successfully_imported_profile": "Successfully imported your user profile.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
-        "create_profile": "Succesfully created a profile for {playerId}.",
-        "delete_pulls": "Successfully deleted all pulls for {playerId}.",
-        "delete_profiles": "Successfully deleted all user profiles.",
-        "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
-        "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
-        "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
+        "successfully_imported_achievements": "Nhập lịch sử thành tựu thành công.",
+        "successfully_imported_gacha_records": "Nhập lịch sử gacha thành công.",
+        "successfully_imported_profile": "Nhập hồ sơ người dùng thành công.",
+        "successfully_imported_gacha_records_redirecting": "Đang chuyển hướng tới với tracker.",
+        "create_profile": "Tạo thành công hồ sơ của {playerId}.",
+        "delete_pulls": "Xóa thành công lịch sử Triệu hồi của {playerId}.",
+        "delete_profiles": "Xóa tất cả dữ liệu người dùng thành công.",
+        "sync_successfully_downloaded_remote_data": "Tải xuống dữ liệu từ xa thành công.",
+        "sync_successfully_created_remote_data": "Tạo {fileName} trên Google Drive thành công.",
+        "sync_success": "Đồng bộ hoàn tất.",
+        "sync_success_updated_remote_file": "Đã cập nhật bản sao từ xa của {fileName}."
       },
       "warn": {
-        "this_cannot_be_undone": "This action cannot be undone!",
+        "this_cannot_be_undone": "Thao tác này không thể tác!",
         "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "This does not include your pulls!"
       }
     },
     "form": {
-      "banner_select_placeholder": "Select banner",
-      "banner_search_placeholder": "Search banner...",
-      "search": "Search",
+      "banner_select_placeholder": "Chọn Banner",
+      "banner_search_placeholder": "Tìm banner...",
+      "search": "Tìm kiếm",
       "search_placeholder": "Search for something...",
-      "search_reset": "Reset search",
+      "search_reset": "Làm mới thanh tìm kiếm",
       "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
