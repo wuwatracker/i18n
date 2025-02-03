@@ -10,7 +10,7 @@
       "pull_num": "Lượt Triệu hồi thứ.",
       "item": "Vật phẩm",
       "pity": "Pity",
-      "rarity": "Rarity",
+      "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
       "recent_convenes": "Lượt Triệu hồi gần đây"
     },
@@ -19,11 +19,11 @@
       "import_data_description": "Sử dụng dữ liệu đã xuất ra trước đó và lưu nó vào trình duyệt của bạn",
       "banner_list": "Danh sách Banner",
       "no_pulls_yet": "Lịch sử Triệu hồi trống",
-      "rarity_pulls": "{num}✦ Pulls",
-      "num_pity": "{num}✦ Pity",
-      "total_pulls": "Total Pulls",
-      "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
+      "num_pity": "✦Số Pity{num}",
+      "total_pulls": "Tổng số lượt Triệu hồi",
+      "total_pulls_responsive": "<span>Tổng</span>Lượt triệu hồi",
+      "total_astrites_responsive": "<span>Tổng</span>số Tinh thạch"
     },
     "name": {
       "items": {
@@ -412,7 +412,7 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ Pulls",
+      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
       "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Select a banner to get an overview of the statistics.",
