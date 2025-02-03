@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "",
+      "convenes": "Convenes",
       "convene_url": "URL Convene",
       "pulls": "Pull",
       "astrites": "Astrite",
@@ -220,7 +220,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
-        "disable_auto_profile_sync": "Untuk keamanan Anda, kami akan mematikan sinkronisasi profil otomatis!",
+        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "Ini tidak termasuk pull Anda!"
       }
     },
@@ -454,12 +454,12 @@
       "create_profile_dialog": "Anda belum memiliki situs profil",
       "create_profile_dialog_description": " Kami akan bantu membuatkannya agar kami bisa menyimpan data Anda",
       "active_profile_delete_pulls": "Hapus Data Pull untuk Profil yang Aktif",
-      "active_profile_delete_pulls_description": "Ini akan menghapus SEMUA riwayat pull yang terkait dengan {playerId} secara permanen. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "active_profile_delete_pulls_confirm": "Apakah Anda yakin ingin menghapus semua riwayat pull untuk {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "Dengan melanjutkan, Anda mengetahui bahwa kami tidak bertanggung jawab atas data Anda. Tindakan ini tidak dapat dibatalkan!",
       "all_profiles_delete": "Hapus SEMUA profil pengguna",
       "all_profiles_delete_description": "Ini akan menghapus SEMUA profil pengguna Anda secara permanen. Ini hanya untuk keperluan pengujian. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "all_profiles_delete_confirm": "Apakah Anda yakin ingin menghapus semua profil pengguna?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Memilih untuk ikut atau tidak ikut serta dalam pengaturan yang terkait dengan privasi data Anda",
       "privacy_global_stats": "Kontribusi ke Statistik Global",
       "privacy_global_stats_description": "Jika diaktifkan, kami akan menggunakan URL Convene Anda untuk menghitung statistik global",
