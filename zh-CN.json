@@ -491,9 +491,9 @@
     },
     "import": {
       "logs_not_updating_alert": "URL 到期失效",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
+      "logs_not_updating_alert_description": "截至 2025 年 1 月 14 日，PC 用户会遇到疑似因库洛游戏的更新引发的游戏日志问题。请阅读我们的<link>故障排除指南</link>进行调试。",
+      "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
+      "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
       "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
@@ -509,9 +509,9 @@
       "download_ascent_troubleshooting": "如果无法正确运行，请查看<link>故障排除板块</link>。",
       "ios_follow_tutorial_video": "参照我们的视频教程",
       "ios_follow_tutorial_video_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据此视频教程以在 iOS 上导入您的数据。",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_press_the_options_button": "按下您控制器上的<code>选项</code>按钮",
+      "ps5_click_on_page_information": "按下<code>页面信息</code>按钮",
+      "ps5_enter_your_record_id": "在此输入您的 <code>player_id</code> 和 <code>record_id</code>"
     }
   },
   "metadata": {
@@ -544,7 +544,7 @@
       "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
       "legacy": {
         "title": "旧版导入教程",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "description": "如果您之前使用过我们的网站，并且在新网站上找不到您的唤取数据，请按照我们的旧版导入指南操作！"
       }
     },
     "not_found": {
@@ -587,7 +587,7 @@
     },
     "support": {
       "title": "支持",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "description": "需要帮助下载您的《鸣潮》唤取数据吗？想了解 WuWa Tracker 如何使用您的数据？请在这里查看 WuWa Tracker 的常见问题解答！"
     }
   }
 }
