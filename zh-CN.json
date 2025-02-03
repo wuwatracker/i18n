@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "唤取",
+      "convenes": "",
       "convene_url": "唤取 URL",
       "pulls": "唤取次数",
       "astrites": "星声",
@@ -172,7 +172,7 @@
         "download_failed": "下载失败",
         "client_log_required": "您需要上传 Client.log 文件！",
         "cannot_find_convene_url": "我们找不到唤取 URL",
-        "cannot_find_convene_url_description": "Make sure your Client.log updates when you open your history, otherwise, check the Troubleshooting section for help.",
+        "cannot_find_convene_url_description": "确保在打开历史记录时，您的 Client.log 会更新；如果没有更新，请查看故障排除部分寻求帮助。",
         "convene_url_expired": "您的 URL 可能过期了。请尝试重新导入。",
         "use_valid_player_id": "您必须先使用一个有效的玩家 ID",
         "no_profile_to_download": "无可下载的玩家资料。",
@@ -209,7 +209,7 @@
         "successfully_imported_achievements": "成功导入您的成就。",
         "successfully_imported_gacha_records": "成功导入您的抽卡记录。",
         "successfully_imported_profile": "成功导入您的用户资料。",
-        "successfully_imported_gacha_records_redirecting": "正在重定向到您的跟踪器。",
+        "successfully_imported_gacha_records_redirecting": "正在重定向到您的记录。",
         "create_profile": "成功为 {playerId} 创建用户资料。",
         "delete_pulls": "成功删除 {playerId} 的所有唤取。",
         "delete_profiles": "成功删除所有的用户资料。",
@@ -312,7 +312,7 @@
       "google_drive": "Google 云端硬盘",
       "from_file": "从文件",
       "tutorial_video": "教程视频",
-      "tutorial_video_description": "Follow this step-by-step video tutorial by <link></link>.",
+      "tutorial_video_description": "按照 <link></link> 提供的这个逐步视频教程操作。",
       "edit_on_github": "在 GitHub 上编辑此页",
       "social_discord_cta": "加入我们的 Discord 服务器",
       "social_x_cta": "在 X 上关注我们",
@@ -346,20 +346,20 @@
       "out_of_sync": "未同步",
       "synced": "已同步",
       "downloads_and_merges": "下载和合并您的唤取",
-      "image_preview": "Image Preview",
-      "close": "close"
+      "image_preview": "图片预览",
+      "close": "关闭"
     }
   },
   "feature": {
     "support": {
       "troubleshooting": "故障排除",
-      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "troubleshooting_description": "如果您在导入过程中遇到问题，请在这里查阅我们的故障排除指南。",
       "import": {
-        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
+        "log_files_missing_q": "脚本显示“install location not found or log files missing”——我该怎么做？",
+        "url_expired_q": "有错误提示我的”URL 可能已过期“——我该怎么做？",
+        "error_while_fetching_q": "有错误提示“在获取时发生错误”——我该怎么办？",
         "missing_old_pulls_q": "我找不到我的旧唤取记录——它们在哪？",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
+        "support_other_imports_q": "你们支持从其他网站或应用导入吗？",
         "ps5_player_import_q": "我能以 PlayStation 5 玩家身份导入吗？",
         "other_q": "我的问题似乎不在这——我该做什么？"
       }
@@ -369,7 +369,7 @@
       "legacy": "旧版",
       "legacy_import": "导入旧版唤取历史",
       "legacy_import_alert_title": "仅限旧网站用户",
-      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
+      "legacy_import_alert_description": "我们无法恢复超过 6 个月的已过期唤取记录。此旧版唤取导入工具仅适用于旧版 WuWa Tracker 用户。"
     },
     "layout": {
       "banners": {
@@ -387,7 +387,7 @@
     "error": {
       "oops": "糟糕！",
       "an_error_occured": "发生<highlight>错误</highlight>。",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "join_discord": "请<link>加入我们的 Discord 服务器</link>以进行报告。"
     },
     "achievements": {
       "no_achievements_found": "未找到成就"
@@ -445,7 +445,7 @@
       "credits": {
         "title": "致谢",
         "heading": "致谢与归属",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
+        "heading_description": "这个网站得益于所有这些了不起的人们。如果您的名字未列在这里，或您希望被移除，请联系我们。",
         "special_thanks": "特别感谢"
       }
     },
@@ -454,19 +454,19 @@
       "create_profile_dialog": "您还没有一个玩家资料",
       "create_profile_dialog_description": " 我们会帮助您创建一个以便保存您的数据",
       "active_profile_delete_pulls": "删除当前玩家资料的唤取数据",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_description": "这将永久删除与 {playerId} 关联的所有唤取记录。请先备份您的数据，并谨慎操作。",
       "active_profile_delete_pulls_confirm": "您确定您想要删除 {playerId} 的所有唤取吗？",
-      "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
+      "not_responsible_undone_disclaimer": "继续操作即表示您承认我们对您的数据不负责。此操作无法撤销！",
       "all_profiles_delete": "删除全部用户资料",
-      "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
-      "privacy_description": "Opt-in or out of settings related to your data privacy",
+      "all_profiles_delete_description": "这将永久删除您所有的用户资料。此操作是为测试目的创建的。请先备份您的数据，并谨慎操作。",
+      "all_profiles_delete_confirm": "您确定要删除所有用户资料吗？",
+      "privacy_description": "选择加入或退出与您的数据隐私相关的设置",
       "privacy_global_stats": "贡献到全球统计数据",
-      "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
-      "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
+      "privacy_global_stats_description": "启用后，我们将使用您的唤取 URL 来统计全球数据",
+      "privacy_footer_policy_link": "我们的<link>隐私政策</link>详细说明了我们如何处理您的数据。",
       "import_user_profile": "导入用户资料",
       "user_profile": "用户资料",
-      "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "user_profile_description": "选择您使用的玩家资料以查看成就、物品和唤取记录跟踪",
       "pull_history": "唤取历史数据",
       "pull_history_description": "通过 Google 或您的本地设备上传和下载您的本地数据",
       "saves_your_pulls_to_google": "将您的唤取保存到 Google",
@@ -476,8 +476,8 @@
       "pulls_file_import_dialog_description": "注意：这只接受以我们的新格式保存的唤取。如果您想要导入在<code></code>前创建的旧数据，请访问<link>旧版导入</link>页面。",
       "sync_preferences": "同步偏好",
       "sync_preferences_description": "启用或禁用您的数据的 Google 云端硬盘自动同步",
-      "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
+      "sync_preferences_profile_description": "资料包含非唤取数据，如成就、物品和其他网站功能。",
+      "you_can_manually_sync_reminder": "您可以在玩家资料菜单中使用<code>触发同步</code>按钮手动同步。"
     },
     "timeline": {
       "choose_server_timezone": "选择服务器时区",
@@ -491,9 +491,9 @@
     },
     "import": {
       "logs_not_updating_alert": "URL 到期失效",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
+      "logs_not_updating_alert_description": "截至 2025 年 1 月 14 日，PC 用户会遇到疑似因库洛游戏的更新引发的游戏日志问题。请阅读我们的<link>故障排除指南</link>进行调试。",
+      "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
+      "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
       "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
@@ -509,9 +509,9 @@
       "download_ascent_troubleshooting": "如果无法正确运行，请查看<link>故障排除板块</link>。",
       "ios_follow_tutorial_video": "参照我们的视频教程",
       "ios_follow_tutorial_video_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据此视频教程以在 iOS 上导入您的数据。",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_press_the_options_button": "按下您控制器上的<code>选项</code>按钮",
+      "ps5_click_on_page_information": "按下<code>页面信息</code>按钮",
+      "ps5_enter_your_record_id": "在此输入您的 <code>player_id</code> 和 <code>record_id</code>"
     }
   },
   "metadata": {
@@ -544,7 +544,7 @@
       "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
       "legacy": {
         "title": "旧版导入教程",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "description": "如果您之前使用过我们的网站，并且在新网站上找不到您的唤取数据，请按照我们的旧版导入指南操作！"
       }
     },
     "not_found": {
@@ -587,7 +587,7 @@
     },
     "support": {
       "title": "支持",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "description": "需要帮助下载您的《鸣潮》唤取数据吗？想了解 WuWa Tracker 如何使用您的数据？请在这里查看 WuWa Tracker 的常见问题解答！"
     }
   }
 }
