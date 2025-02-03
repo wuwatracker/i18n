@@ -1,6 +1,7 @@
 {
   "domain": {
     "term": {
+      "convenes": "Convenes",
       "convene_url": "Convene URL",
       "pulls": "Pulls",
       "astrites": "Astrites",
