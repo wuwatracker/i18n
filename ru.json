@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "",
+      "convenes": "Convenes",
       "convene_url": "ссылка на историю круток",
       "pulls": "Крутки",
       "astrites": "Астрит",
@@ -220,7 +220,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
-        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "This does not include your pulls!"
       }
     },
@@ -454,12 +454,12 @@
       "create_profile_dialog": "You don't have a site profile yet",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
       "all_profiles_delete": "Delete ALL User Profiles",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
       "privacy_global_stats": "Contribute to Global Statistics",
       "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
