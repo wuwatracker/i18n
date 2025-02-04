@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
+      "convenes": "唤取",
       "convene_url": "唤取 URL",
       "pulls": "唤取次数",
       "astrites": "星声",
@@ -220,7 +220,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "此操作无法撤销！",
-        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "为了数据安全，将会禁用自动资料同步！",
         "this_does_not_include_your_pulls": "这不包括您的唤取！"
       }
     },
@@ -454,12 +454,12 @@
       "create_profile_dialog": "您还没有一个玩家资料",
       "create_profile_dialog_description": " 我们会帮助您创建一个以便保存您的数据",
       "active_profile_delete_pulls": "删除当前玩家资料的唤取数据",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "这将永久删除与 {playerId} 关联的所有唤取记录。请先备份您的数据，并谨慎操作。",
+      "active_profile_delete_pulls_confirm": "您确定您想要删除 {playerId} 的所有唤取吗？",
       "not_responsible_undone_disclaimer": "继续操作即表示您承认我们对您的数据不负责。此操作无法撤销！",
       "all_profiles_delete": "删除全部用户资料",
       "all_profiles_delete_description": "这将永久删除您所有的用户资料。此操作是为测试目的创建的。请先备份您的数据，并谨慎操作。",
-      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
+      "all_profiles_delete_confirm": "您确定要删除所有用户资料吗？",
       "privacy_description": "选择加入或退出与您的数据隐私相关的设置",
       "privacy_global_stats": "贡献到全球统计数据",
       "privacy_global_stats_description": "启用后，我们将使用您的唤取 URL 来统计全球数据",
@@ -504,7 +504,7 @@
       "search_for_log": "寻找 <code>Client.log</code> 并在这里上传它",
       "airplane_mode": "飞行模式",
       "download_ascent": "下载并使用 Ascent 获取您的抽卡历史 URL",
-      "download_ascent_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据 <video>Mirai0009 的视频教程</video>来下载并使用 <app>Ascent v2.1.6</app> 来得到您的 URL。",
+      "download_ascent_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据 <link>Mirai0009 的视频教程</link>来下载并使用 <ascent>Ascent v2.1.6</ascent> 来得到您的 URL。",
       "download_ascent_disclaimer": "注意：此方法仅适用于 Android 11 及以上版本。",
       "download_ascent_troubleshooting": "如果无法正确运行，请查看<link>故障排除板块</link>。",
       "ios_follow_tutorial_video": "参照我们的视频教程",
