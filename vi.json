@@ -152,21 +152,21 @@
         "Selector Ticket": "Vé Chọn",
         "Tidal Chorus": "Điệp Khúc Dòng Triều",
         "Winter Brume": "Sương Giá Ngày Đông",
-        "Utterance of Marvels": "Utterance of Marvels",
-        "Beginner's Choice Convene": "Beginner's Choice Convene",
-        "Giveback Event Convene": "Giveback Event Convene"
+        "Utterance of Marvels": "Kỳ Quan Vọng",
+        "Beginner's Choice Convene": "Banner Tự chọn Cho Tân thủ",
+        "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn"
       }
     }
   },
   "common": {
     "message": {
       "error": {
-        "generic_title": "An error occured",
-        "no_banner": "No banner found.",
-        "relogin_to_sync": "Please log in again to sync.",
-        "no_auth_scopes": "You are not authorized to upload to Google Drive.",
-        "auth_session_expired": "Your login session expired.",
-        "invalid_input_format": "Your input data is invalid",
+        "generic_title": "Đã xảy ra lỗi",
+        "no_banner": "Không tìm thấy Banner.",
+        "relogin_to_sync": "Vui lòng đăng nhật để đồng bộ.",
+        "no_auth_scopes": "Bạn không có quyền đăng tải trên Google Drive.",
+        "auth_session_expired": "Phiên đăng nhập đã hết hạn.",
+        "invalid_input_format": "Dữ liệu đầu vào của bạn không hợp lệ",
         "unable_to_parse": "We are unable to parse your data",
         "unable_to_parse_remote_data": "We are unable to parse your remote data",
         "download_failed": "The download failed",
