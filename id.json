@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
+      "convenes": "Convene",
       "convene_url": "URL Convene",
       "pulls": "Pull",
       "astrites": "Astrite",
@@ -10,7 +10,7 @@
       "pull_num": "No. Pull",
       "item": "Item",
       "pity": "Pity",
-      "rarity": "Rarity",
+      "rarity": "Kelangkaan",
       "date_received": "Tanggal Diterima",
       "recent_convenes": "Convene Terkini"
     },
@@ -220,7 +220,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
-        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "Untuk keamanan Anda, ini juga akan mematikan sinkronisasi profil otomatis!",
         "this_does_not_include_your_pulls": "Ini tidak termasuk pull Anda!"
       }
     },
@@ -229,15 +229,15 @@
       "banner_search_placeholder": "Cari banner...",
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
-      "search_reset": "Reset search",
+      "search_reset": "Reset pencarian",
       "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
       "select_profile_placeholder_inactive": "Pilih profil yang aktif",
-      "filters": "Filters",
-      "rows_per_page": "Rows per page"
+      "filters": "Filter",
+      "rows_per_page": "Baris per halaman"
     },
     "button": {
       "go_home": "Pergi ke Home",
@@ -297,7 +297,7 @@
       }
     },
     "other": {
-      "name": "Name",
+      "name": "Nama",
       "guest": "Tamu",
       "america": "Amerika",
       "europe": "Eropa",
@@ -346,8 +346,8 @@
       "out_of_sync": "Tidak sinkron",
       "synced": "Disinkronisasikan",
       "downloads_and_merges": "Unduh dan gabungkan pull Anda",
-      "image_preview": "Image Preview",
-      "close": "close"
+      "image_preview": "Pratinjau Gambar",
+      "close": "tutup"
     }
   },
   "feature": {
@@ -454,12 +454,12 @@
       "create_profile_dialog": "Anda belum memiliki situs profil",
       "create_profile_dialog_description": " Kami akan bantu membuatkannya agar kami bisa menyimpan data Anda",
       "active_profile_delete_pulls": "Hapus Data Pull untuk Profil yang Aktif",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "Ini akan menghapus SEMUA riwayat pull yang terkait dengan {playerId} secara permanen. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
+      "active_profile_delete_pulls_confirm": "Apakah Anda yakin ingin menghapus SEMUA riwayat pull untuk {playerId}?",
       "not_responsible_undone_disclaimer": "Dengan melanjutkan, Anda mengetahui bahwa kami tidak bertanggung jawab atas data Anda. Tindakan ini tidak dapat dibatalkan!",
       "all_profiles_delete": "Hapus SEMUA profil pengguna",
       "all_profiles_delete_description": "Ini akan menghapus SEMUA profil pengguna Anda secara permanen. Ini hanya untuk keperluan pengujian. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
+      "all_profiles_delete_confirm": "Apakah Anda yakin ingin menghapus SEMUA profil pengguna Anda?",
       "privacy_description": "Memilih untuk ikut atau tidak ikut serta dalam pengaturan yang terkait dengan privasi data Anda",
       "privacy_global_stats": "Kontribusi ke Statistik Global",
       "privacy_global_stats_description": "Jika diaktifkan, kami akan menggunakan URL Convene Anda untuk menghitung statistik global",
@@ -509,9 +509,9 @@
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
       "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_press_the_options_button": "Tekan tombol <code>Opsi</code> pada kontroler Anda",
+      "ps5_click_on_page_information": "Tekan tombol <code>Informasi Halaman</code>",
+      "ps5_enter_your_record_id": "Masukkan <code>id_pemain</code> dan <code>id_riwayat</code> Anda di sini"
     }
   },
   "metadata": {
