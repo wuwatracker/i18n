@@ -171,9 +171,9 @@
         "unable_to_parse_remote_data": "We are unable to parse your remote data",
         "download_failed": "The download failed",
         "client_log_required": "You need to upload a Client.log file!",
-        "cannot_find_convene_url": "We could not find a Convene URL",
-        "cannot_find_convene_url_description": "Make sure your Client.log updates when you open your history, otherwise, check the Troubleshooting section for help.",
-        "convene_url_expired": "Your URL probably expired. Try importing again.",
+        "cannot_find_convene_url": "Chúng tôi không tìm thấy Đường dẫn Triệu Hồi",
+        "cannot_find_convene_url_description": "Hãy chắc chắn rằng tệp Client.log cập nhật khi bạn mở lịch sử của mình, nếu không, kiểm tra phần gỡ lỗi để được trợ giúp.",
+        "convene_url_expired": "Đường dẫn của bạn có thể đã bị hết hạn. Hãy thử nhập lại.",
         "use_valid_player_id": "You must use a valid active player ID first",
         "no_profile_to_download": "No profile to download.",
         "no_pulls_to_download": "No pulls to download.",
@@ -249,7 +249,7 @@
       "export_json": "Export JSON",
       "view_pull_history": "View Pull History",
       "sync_your_data": "Sync Your Data",
-      "support_us": "Support Us",
+      "support_us": "Ủng Hộ Chúng Tôi",
       "create_profile": "Create Profile",
       "remind_me_later": "Remind me later",
       "delete": "Delete",
@@ -273,56 +273,56 @@
       "resets_in": "Resets in",
       "some_time": "some time",
       "months": {
-        "January": "January",
-        "February": "February",
-        "March": "March",
-        "April": "April",
-        "May": "May",
-        "June": "June",
-        "July": "July",
-        "August": "August",
-        "September": "September",
-        "October": "October",
-        "November": "November",
-        "December": "December"
+        "January": "Tháng 1",
+        "February": "Tháng 2",
+        "March": "Tháng 3",
+        "April": "Tháng 4",
+        "May": "Tháng 5",
+        "June": "Tháng 6",
+        "July": "Tháng 7",
+        "August": "Tháng 8",
+        "September": "Tháng 9",
+        "October": "",
+        "November": "Tháng 11",
+        "December": "Tháng 12"
       },
       "days_short": {
-        "Mo": "Mo",
-        "Tu": "Tu",
-        "We": "We",
-        "Th": "Th",
-        "Fr": "Fr",
-        "Sa": "Sa",
-        "Su": "Su"
+        "Mo": "Th2",
+        "Tu": "Th3",
+        "We": "Th4",
+        "Th": "Th5",
+        "Fr": "Th6",
+        "Sa": "Th7",
+        "Su": "CN"
       }
     },
     "other": {
       "name": "Name",
-      "guest": "Guest",
-      "america": "America",
-      "europe": "Europe",
-      "asia_sea_regions": "Asia, SEA, TW/HK/MO",
-      "completed": "Completed",
-      "incomplete": "Incomplete",
-      "completion": "Completion",
-      "all": "All",
-      "hidden": "Hidden",
-      "visible": "Visible",
-      "local_data": "Local Data",
+      "guest": "Khách",
+      "america": "Châu Mĩ",
+      "europe": "Châu Âu",
+      "asia_sea_regions": "Châu Á, Đông Nam Á, Đài Loan/ Hồng Kông/ Ma Cao",
+      "completed": "Hoàn tất",
+      "incomplete": "Chưa hoàn tất",
+      "completion": "Tiến độ",
+      "all": "Tất cả",
+      "hidden": "Đã ẩn",
+      "visible": "Hiện",
+      "local_data": "Dữ liệu cục bộ",
       "google_drive": "Google Drive",
-      "from_file": "From File",
-      "tutorial_video": "Tutorial Video",
-      "tutorial_video_description": "Follow this step-by-step video tutorial by <link></link>.",
-      "edit_on_github": "Edit this page on GitHub",
-      "social_discord_cta": "Join our Discord Server",
-      "social_x_cta": "Follow us on X",
-      "social_reddit_cta": "Join our subreddit",
-      "social_github_cta": "Contribute on GitHub",
-      "community": "Community",
-      "contact": "Contact",
-      "for_general_inquiries": "For general inquiries:",
-      "for_support": "For support:",
-      "supporters": "Supporters",
+      "from_file": "Từ Tệp",
+      "tutorial_video": "Video hướng dẫn",
+      "tutorial_video_description": "Hãy làm theo video hướng dẫn từng bước này <link></link>.",
+      "edit_on_github": "Chỉnh sửa trang này trên GitHub",
+      "social_discord_cta": "Tham gia máy chủ Discord của chúng tôi",
+      "social_x_cta": "Theo dõi chúng tôi trên X",
+      "social_reddit_cta": "Tham gia Subreddit của chúng tôi",
+      "social_github_cta": "Đóng góp trên GitHub",
+      "community": "Cộng đồng",
+      "contact": "Liên hệ",
+      "for_general_inquiries": "Với các yêu cầu chung:",
+      "for_support": "Để hỗ trợ:",
+      "supporters": "Các người ủng hộ",
       "no_particular_order": "in no particular order",
       "translators": "Translators",
       "players": "Players",
@@ -352,16 +352,16 @@
   },
   "feature": {
     "support": {
-      "troubleshooting": "Troubleshooting",
-      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "troubleshooting": "Gỡ lỗi",
+      "troubleshooting_description": "Nếu bạn đang gặp vấn đề với việc nhập dữ liệu, hãy tham khảo hướng dẫn gỡ lỗi của chúng tôi ở đây.",
       "import": {
-        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
-        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
-        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
-        "other_q": "My problem doesn't seem to be here — what should I do?"
+        "log_files_missing_q": "Script cho biết \"install location not found or log files missing\" — Tôi nên làm gì?",
+        "url_expired_q": "Một lỗi cho biết rằng \"đường dẫn có thể đã bị hết hạn\" — Tôi nên làm gì?",
+        "error_while_fetching_q": "Một lỗi cho biết rằng \"có lỗi xảy ra khi truy xuất\" —Tôi nên làm gì?",
+        "missing_old_pulls_q": "Tôi không thấy những lượt triệu hồi cũ — Nó đi đâu rồi?",
+        "support_other_imports_q": "Liệu bạn có hỗ trợ việc nhập dữ liệu từ những ứng dụng hoặc website khác không?",
+        "ps5_player_import_q": "Liệu tôi có thể nhập dữ liệu với tư cách là người dùng PlayStation 5 không?",
+        "other_q": "Vấn đề của của tôi nó không nằm trong này! Tôi nên làm gì bây giờ?"
       }
     },
     "migration": {
@@ -387,7 +387,7 @@
     "error": {
       "oops": "Whoops!",
       "an_error_occured": "An <highlight>error</highlight> occured.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "join_discord": "Hãy tham gia <link>Máy chủ Discord của chúng tôi </link> để tạo một báo cáo."
     },
     "achievements": {
       "no_achievements_found": "no achievements found"
@@ -456,13 +456,13 @@
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
       "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
-      "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
+      "not_responsible_undone_disclaimer": "Bằng cách thực hiện, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho dữ liệu của bạn. Hành động này là một chiều và chúng tôi không thể hoàn tác!",
       "all_profiles_delete": "Delete ALL User Profiles",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
       "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
       "privacy_global_stats": "Contribute to Global Statistics",
-      "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
+      "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Import User Profile",
       "user_profile": "User Profile",
@@ -486,7 +486,7 @@
       "reset_timers": {
         "title": "Server Daily Reset Timers",
         "description": "Compare your local time to the Wuthering Waves game servers to plan your next adventure.",
-        "disclaimer": "Other server timers are displayed in their local time."
+        "disclaimer": "Giờ của các server khác được điều chỉnh theo giờ địa phương của server."
       }
     },
     "import": {
@@ -495,7 +495,7 @@
       "first_open_game_history": "First, launch the game and open your in-game history details",
       "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
       "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "Ghi chú: Đoạn script không chỉnh sửa file của bạn, nó đơn giản chỉ là trích xuất đường dẫn Lịch sử Triệu Hồi từ log. Bạn có thể <link>xem đoạn script ở đây</link>.",
       "paste_the_url_here": "Paste the URL here",
       "paste_the_json_here": "Paste the JSON here",
       "press_the_import_history_button": "Press the \"Import History\" button on this website",
@@ -505,7 +505,7 @@
       "airplane_mode": "Airplane Mode",
       "download_ascent": "Download and use Ascent to get your gacha history URL",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
+      "download_ascent_disclaimer": "Lưu ý: Phương pháp này chỉ hỗ trợ phiên bản Android 11 trở lên.",
       "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
       "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
@@ -525,14 +525,14 @@
     "tracker": {
       "index": {
         "title": "Pull Tracker",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Xem thống kê về việc triệu hồi trong Wuthering Waves và lịch sử triệu hồi của Bạn. Sử dụng bảng điều khiển sẵn sàng cho ảnh chụp để khoe với bạn bè! WuWa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
       "global": {
         "title": "Global Statistics",
-        "title_responsive": "<span>Global</span> Statistics",
+        "title_responsive": "Thống kê <span>Toàn cầu</span>",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "banner_title": "Thống kê Banner {name}",
+        "banner_description": "Xem thống kê toàn cầu cho banner {name}. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       }
     },
     "error": {
@@ -543,8 +543,8 @@
       "title": "Nhập Lịch sử Quay",
       "description": "Theo hướng dẫn tương tác của chúng tôi để hiển thị dữ liệu Wuthering Waves và xem thống kê của bạn. Chúng tôi hỗ trợ nhập từ các thiết bị PC, Android và iOS với các phương pháp tự động. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "title": "Hướng dẫn nhập các dữ liệu cũ",
+        "description": "Nếu bạn đã sử dụng website của chúng tôi từ trước đó và không tìm thấy dữ liệu triệu hồi ở website mới, bạn nên theo dõi hướng dẫn tại đây để nhập lại các dữ liệu cũ của mình!"
       }
     },
     "not_found": {
@@ -586,8 +586,8 @@
       "description": "Hệ thống Wuthering Waves tối ưu hóa kế hoạch cho cấp độ thăng tiến, kỹ năng và vật liệu EXP cho Cộng hưởng Giả của bạn! WuWa Tracker có một bộ công cụ phong phú để nâng cao trải nghiệm chơi game của bạn."
     },
     "support": {
-      "title": "Support",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "title": "Hỗ trợ",
+      "description": "Cần hỗ trợ trong việc tải xuống dữ liệu triệu hồi của Wuthering Waves? Bạn muốn biết WuWa Tracker sử dụng dữ liệu của bạn như thế nào? Hãy xem phần Câu hỏi thường gặp của WuWa Tracker ở đây!"
     }
   }
 }
