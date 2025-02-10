@@ -507,10 +507,10 @@
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
       "download_ascent_troubleshooting": "만약 제대로 작동하지 않는다면, <link>문제 해결</link>부분을 확인하세요.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
+      "ios_follow_tutorial_video": "비디오 튜토리얼을 따라해보세요",
+      "ios_follow_tutorial_video_description": "원신이나 붕괴: 스타레일에서 뽑기 기록을 얻는 방법과 비슷합니다.이 비디오 튜토리얼을 따라, iO에서 데이터를 제출하세요.",
       "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
+      "ps5_click_on_page_information": "<code>페이지 정보</code> 버튼을 누르세요",
       "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
     }
   },
@@ -524,12 +524,12 @@
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
+        "title": "튜닝 트래커",
         "description": "업데이트된 명조: 워더링 웨이브 뽑기 통계 및 최근 튜닝 기록을 확인할 수 있습니다. 언제든 준비된 대시보드를 사용해 친구들에게 뽐내보세요! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       },
       "global": {
-        "title": "Global Statistics",
-        "title_responsive": "<span>Global</span> Statistics",
+        "title": "글로벌 통계",
+        "title_responsive": "<span>글로벌</span> 통계",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
         "banner_title": "{name} 배너 통계",
         "banner_description": " {name} 배너의 글로벌 튜닝 통계를 보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
@@ -543,7 +543,7 @@
       "title": "튜닝 기록 가져오기",
       "description": "명조: 워더링 웨이브 데이터를 표시하고 통계를 보기 위해 상호작용 튜토리얼을 따라 주세요. PC, Android 및 iOS 기기에서 자동으로 제출하는 것을 도와드릴 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
+        "title": "예전 기록 제출 튜토리얼",
         "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
       }
     },
@@ -586,8 +586,8 @@
       "description": "공명자의 돌파 레벨, 스킬, 그리고 EXP 재료를 계산하기에 가장 적합한 명조: 워더링 웨이브 계산기입니다. WuWa Tracker는 게임 경험을 향상시킬 수 있는 풍부한 도구 모음입니다."
     },
     "support": {
-      "title": "Support",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "title": "지원",
+      "description": "명조: 워더링 웨이브의 가챠 데이터를 다운로드하는 데 도움이 필요하신가요? WuWa Tracker 가 데이터를 어떻게 사용하는지 알고 싶으신가요? 여기에서 WuWa Tracker 의 FAQ를 확인하세요!"
     }
   }
 }
