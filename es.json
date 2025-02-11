@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
+      "convenes": "Invocaciones",
       "convene_url": "URL de invocación",
       "pulls": "Tiradas",
       "astrites": "Astritas",
@@ -209,7 +209,7 @@
         "successfully_imported_achievements": "Se han importado tus logros exitosamente.",
         "successfully_imported_gacha_records": "Se han importado tu historial de invocación exitosamente.",
         "successfully_imported_profile": "Se ha importado tu perfil de usuario exitosamente.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
+        "successfully_imported_gacha_records_redirecting": "Redirigiendo a tu tracker.",
         "create_profile": "Se ha creado un perfil exitosamente para {playerId}.",
         "delete_pulls": "Se ha borrado todas las tiradas de {playerId}.",
         "delete_profiles": "Se ha eliminado todos los perfiles de usuario exitosamente.",
