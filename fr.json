@@ -230,7 +230,7 @@
       "search": "Search",
       "search_placeholder": "Search for something...",
       "search_reset": "Reset search",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "Click to upload or drag & drop",
