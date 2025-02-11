@@ -366,7 +366,7 @@
     },
     "migration": {
       "legacy_migration": "Обновите свои старые крутки до нового формата здесь",
-      "legacy": "Legacy",
+      "legacy": "Старое",
       "legacy_import": "Импорт старых круток",
       "legacy_import_alert_title": "Только для пользователей старой версии сайта",
       "legacy_import_alert_description": "Мы НЕ МОЖЕМ восстановить крутки, которые были сделаны более 6 месяцев назад. Этот сервис предназначен только для пользователей старой версии сайта."
@@ -474,44 +474,44 @@
       "overwrite_google_drive_data_description": "Загрузка данных на Google Диск перезапишет имеющиеся на нём данные имеющимися. Мы рекомендуем сначала скачать копию данных с Google Диска.",
       "pulls_file_import_dialog_title": "Import Local Pulls",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
-      "sync_preferences": "Sync Preferences",
+      "sync_preferences": "Настройки синхронизации",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
       "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
-      "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
+      "choose_server_timezone": "Выбрать часовой пояс сервера",
+      "choose_server_timezone_description": "Показать время с учетом вашего часового пояса",
+      "timeline_description": "Просматривайте даты внутриигровых событий по своему часовому поясу, или используя один из <link>часовых поясов серверов игры</link>.",
       "reset_timers": {
-        "title": "Server Daily Reset Timers",
-        "description": "Compare your local time to the Wuthering Waves game servers to plan your next adventure.",
-        "disclaimer": "Other server timers are displayed in their local time."
+        "title": "Таймеры ежедневного обновления серверов",
+        "description": "Сравните свое местное время со временем игровых серверов Wuthering Waves, чтобы спланировать свое следующее приключение.",
+        "disclaimer": "На других серверах указывается их местное время."
       }
     },
     "import": {
-      "logs_not_updating_alert": "URL Expiration",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
-      "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
-      "paste_the_url_here": "Paste the URL here",
-      "paste_the_json_here": "Paste the JSON here",
-      "press_the_import_history_button": "Press the \"Import History\" button on this website",
-      "go_to_installation_directory": "Go to your game's installation directory",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
+      "logs_not_updating_alert": "Истечение срока действия ссылки",
+      "logs_not_updating_alert_description": "Начиная с 14 января 2025 года, пользователи на ПК начали сталкиваться с проблемами ведения логов игрой из-за определённого обновления. Прочтите <link>Решение проблем</link> в случае, если импорт не выходит.",
+      "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
+      "open_windows_powershell_and_run_script": "После этого, откройте Windows PowerShell и вставьте следующий скрипт.",
+      "click_the_copy_button": "Нажмите на кнопку \"Копировать\" справа",
+      "powershell_script_disclaimer": "Примечание: скрипт лишь извлекает ссылку на вашу историю круток из журналов игры. Вы можете просмотреть его <link>здесь</link>.",
+      "paste_the_url_here": "Вставьте ссылку сюда",
+      "paste_the_json_here": "Вставьте сюда скопированное содержимое JSON",
+      "press_the_import_history_button": "Нажмите кнопку \"Импортировать\" для завершения",
+      "go_to_installation_directory": "Найдите папку с игрой",
+      "go_to_installation_directory_description": "Нажмите ПКМ по ярлыку запуска игры и выберите <code>Расположение файла</code>. В открывшейся папке вы должны увидеть <code>launcher.exe</code> и множество <code>.dll</code> файлов.",
+      "search_for_log": "Найдите <code>Client.log</code> и загрузите его сюда",
       "airplane_mode": "Airplane Mode",
-      "download_ascent": "Download and use Ascent to get your gacha history URL",
+      "download_ascent": "Скачайте и используйте Ascent для получения ссылки на вашу историю круток",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "download_ascent_disclaimer": "Этот метод поддерживает только устройства с версией Android 11 и выше.",
+      "download_ascent_troubleshooting": "Если что-то работает не так, проверьте <link>раздел Решение проблем</link>.",
+      "ios_follow_tutorial_video": "Следуйте нашему видео-гайду",
+      "ios_follow_tutorial_video_description": "Так же, как и для Genshin Impact или Honkai Star Rail, следуйте этому видео-гайду, чтобы получить ссылку на вашу историю круток на iOS.",
+      "ps5_press_the_options_button": "Нажмите кнопку <code>Options(Настройки)</code> на вашем контроллере",
+      "ps5_click_on_page_information": "Нажмите кнопку <code>Page Information(Информация о странице)</code>",
+      "ps5_enter_your_record_id": "Введите ваши <code>player_id(Ид игрока)</code> и <code>record_id(ИДдзаписи)</code> здесь"
     }
   },
   "metadata": {
@@ -525,14 +525,14 @@
     "tracker": {
       "index": {
         "title": "Pull Tracker",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Просматривайте обновляемую статистику выпадений в Wuthering Waves и недавние крутки. Используйте панели с возможностью загрузки пользовательских изображений, чтобы покрасоваться перед друзьями! WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
       },
       "global": {
-        "title": "Global Statistics",
-        "title_responsive": "<span>Global</span> Statistics",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "title": "Глобальная статистика",
+        "title_responsive": "<span>Глобальная</span> статистика",
+        "description": "Просматривайте глобальную статистику выпадений для баннера {currentBanner}, с особенностью {currentFeaturedResonator}! Используйте панели с возможностью загрузки пользовательских изображений, чтобы покрасоваться перед друзьями! WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
         "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "banner_description": "Просматривайте глобальную статистику выпадений для баннера {name}. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими крутками с друзьями и отслеживайте прогресс своего аккаунта!"
       }
     },
     "error": {
@@ -586,7 +586,7 @@
       "description": "Лучший калькулятор для планирования возвышений и улучшений навыков ваших Резонаторов в Wuthering Waves! WuWa Tracker - главный набор инструментов для каждого игрока в Wuthering Waves."
     },
     "support": {
-      "title": "Support",
+      "title": "Поддержка",
       "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
     }
   }
