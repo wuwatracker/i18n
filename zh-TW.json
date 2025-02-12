@@ -163,7 +163,7 @@
       "error": {
         "generic_title": "發生錯誤",
         "no_banner": "找不到卡池。",
-        "relogin_to_sync": "請重新登入再進行同步",
+        "relogin_to_sync": "請重新登入再進行同步。",
         "no_auth_scopes": "您沒有上傳Google雲端的權限",
         "auth_session_expired": "您的登入已過期",
         "invalid_input_format": "您的輸入資料不合法",
