@@ -230,7 +230,7 @@
       "search": "Tìm kiếm",
       "search_placeholder": "Tìm cái gì đó...",
       "search_reset": "Làm mới thanh tìm kiếm",
-      "your_player_id_placeholder": "ID người chơi 9 chữ số của bạn (ví dụ 123456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
       "your_player_id_validation": "ID người chơi 9 chữ số của bạn phải được bắt đầu với 1, 5, 6, 7, 8, hoặc 9",
       "type_to_confirm": "Nhập <strong></strong> để chấp nhận",
       "file_input": "Nhấn để tải lên hoặc kéo và thả",

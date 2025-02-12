@@ -57,7 +57,7 @@
         "Zhezhi": "折枝",
         "Xiangli Yao": "相里要",
         "Youhu": "釉瑚",
-        "Zani": "贊尼",
+        "Zani": "贊妮",
         "Abyss Surges": "擎淵怒濤",
         "Ages of Harvest": "時和歲稔",
         "Amity Accord": "袍澤之固",
@@ -163,7 +163,7 @@
       "error": {
         "generic_title": "發生錯誤",
         "no_banner": "找不到卡池。",
-        "relogin_to_sync": "請重新登入再進行同步",
+        "relogin_to_sync": "請重新登入再進行同步。",
         "no_auth_scopes": "您沒有上傳Google雲端的權限",
         "auth_session_expired": "您的登入已過期",
         "invalid_input_format": "您的輸入資料不合法",
@@ -235,7 +235,7 @@
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
       "select_profile_placeholder_empty": "找不到帳號資料",
-      "select_profile_placeholder_inactive": "選擇現行帳號",
+      "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
       "rows_per_page": "單頁列數"
     },
@@ -261,11 +261,11 @@
       "download_from_google": "從Google下載"
     },
     "time": {
-      "invalid_date": "無效日期",
+      "invalid_date": "無效的日期",
       "local_time": "當地時間",
       "server_time": "伺服器時間",
       "ends_in": "距離結束尚餘 {timeLeft}",
-      "starts_in": "距離開始尚餘 {timeLeft}",
+      "starts_in": "距離開始尚有 {timeLeft}",
       "time_left": "剩餘 {timeLeft}",
       "event_has_ended": "活動已結束",
       "your_local_time": "您的當地時間",
@@ -333,7 +333,7 @@
       "manual": "手動的",
       "data": "資料",
       "preferences": "偏好設定",
-      "advanced": "高級選項",
+      "advanced": "進階選項",
       "help_translate": "協助翻譯",
       "switch_language": "切換語言",
       "just_taking_a_look_around": "只是想到處看看嗎？",
@@ -375,12 +375,12 @@
       "banners": {
         "close_banner": "已關閉卡池"
       },
-      "tools": "工具",
-      "inventory": "庫存",
+      "tools": "小工具",
+      "inventory": "物件",
       "guides": "指引",
       "development": "開發",
       "system_status": "系統狀態",
-      "legal": "合法的",
+      "legal": "法規",
       "partners": "合作夥伴",
       "disclaimer": "這是一個獨立的專案項目，與Kuro Games無關。所有遊戲資訊、內容和商標均屬於原始擁有者。"
     },
@@ -407,7 +407,7 @@
         "pull_ratio_description": "抽中 {qualityLevel} 星的機率是多少？",
         "coinflip_wins": "不歪機率",
         "coinflip_wins_description": "小保底喚取沒有歪的機率是多少？",
-        "rate_up_wins": "UP角色機率",
+        "rate_up_wins": "UP獲得機率",
         "rate_up_wins_description": "抽中UP角色的機率是多少?"
       }
     },

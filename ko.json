@@ -230,7 +230,7 @@
       "search": "검색",
       "search_placeholder": "검색하기",
       "search_reset": "검색 초기화",
-      "your_player_id_placeholder": "9자리 UID (예: 12345456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
       "your_player_id_validation": "9자리 UID는 반드시 1, 5, 6, 7, 8, 또는 9로 시작합니다",
       "type_to_confirm": "계속하려면 <strong></strong> 를 입력하세요",
       "file_input": "클릭하거나 드래그&드롭하여 업로드",
