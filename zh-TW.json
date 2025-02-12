@@ -235,7 +235,7 @@
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
       "select_profile_placeholder_empty": "找不到帳號資料",
-      "select_profile_placeholder_inactive": "選擇現行帳號",
+      "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
       "rows_per_page": "單頁列數"
     },
@@ -261,11 +261,11 @@
       "download_from_google": "從Google下載"
     },
     "time": {
-      "invalid_date": "無效日期",
+      "invalid_date": "無效的日期",
       "local_time": "當地時間",
       "server_time": "伺服器時間",
       "ends_in": "距離結束尚餘 {timeLeft}",
-      "starts_in": "距離開始尚餘 {timeLeft}",
+      "starts_in": "距離開始尚有 {timeLeft}",
       "time_left": "剩餘 {timeLeft}",
       "event_has_ended": "活動已結束",
       "your_local_time": "您的當地時間",
@@ -333,7 +333,7 @@
       "manual": "手動的",
       "data": "資料",
       "preferences": "偏好設定",
-      "advanced": "高級選項",
+      "advanced": "進階選項",
       "help_translate": "協助翻譯",
       "switch_language": "切換語言",
       "just_taking_a_look_around": "只是想到處看看嗎？",
