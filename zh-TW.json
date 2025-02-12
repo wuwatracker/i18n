@@ -57,7 +57,7 @@
         "Zhezhi": "折枝",
         "Xiangli Yao": "相里要",
         "Youhu": "釉瑚",
-        "Zani": "贊尼",
+        "Zani": "贊妮",
         "Abyss Surges": "擎淵怒濤",
         "Ages of Harvest": "時和歲稔",
         "Amity Accord": "袍澤之固",
@@ -375,12 +375,12 @@
       "banners": {
         "close_banner": "已關閉卡池"
       },
-      "tools": "工具",
+      "tools": "小工具",
       "inventory": "庫存",
       "guides": "指引",
       "development": "開發",
       "system_status": "系統狀態",
-      "legal": "合法的",
+      "legal": "條款",
       "partners": "合作夥伴",
       "disclaimer": "這是一個獨立的專案項目，與Kuro Games無關。所有遊戲資訊、內容和商標均屬於原始擁有者。"
     },
@@ -407,7 +407,7 @@
         "pull_ratio_description": "抽中 {qualityLevel} 星的機率是多少？",
         "coinflip_wins": "不歪機率",
         "coinflip_wins_description": "小保底喚取沒有歪的機率是多少？",
-        "rate_up_wins": "UP角色機率",
+        "rate_up_wins": "UP獲得機率",
         "rate_up_wins_description": "抽中UP角色的機率是多少?"
       }
     },
