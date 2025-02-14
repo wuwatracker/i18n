@@ -427,6 +427,7 @@
       "welcome_rover": "Bienvenido, Errante.",
       "let_us_get_started": "Vamos a empezar, ¿de acuerdo?",
       "your_data_will_now_sync": "¡Ahora tus datos se sincronizarán cuando quieras!",
+      "feature_header": "WuWa Tracker helps you <span></span> track",
       "greeting": {
         "words": {
           "pulls": "tiradas",
