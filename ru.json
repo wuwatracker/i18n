@@ -212,7 +212,7 @@
         "successfully_imported_achievements": "Достижения успешно импортированы.",
         "successfully_imported_gacha_records": "Крутки успешно импортированы.",
         "successfully_imported_profile": "Профиль успешно импортирован.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
+        "successfully_imported_gacha_records_redirecting": "Переходим к истории круток.",
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
         "delete_profiles": "Все профили успешно удалены.",
