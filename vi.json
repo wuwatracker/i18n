@@ -415,8 +415,8 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
-      "rarity_pulls_per_pity": "{num}✦ Triệu hồi cho đến Pity",
+      "rarity_pulls": "Số lượt Triệu hồi {num}✦",
+      "rarity_pulls_per_pity": "Số lượt Triệu hồi cho đến Pity {num}✦",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "view_your_statistics_responsive": "<span>Xem</span> thống kê của bạn"
