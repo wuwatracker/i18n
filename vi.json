@@ -92,10 +92,12 @@
         "Legend of Drunken Hero": "Legend of Drunken Hero",
         "Lunar Cutter": "Nguyệt Đao",
         "Lumingloss": "Minh Đao",
+        "Luminous Hymn": "Luminous Hymn",
         "Lustrous Razor": "Ánh Đao",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditations on Mercy",
         "Novaburst": "Novaburst",
+        "Ocean's Gift": "Ocean's Gift",
         "Originite: Type I": "Mẫu thử: Loại I",
         "Originite: Type II": "Mẫu thử: Loại II",
         "Originite: Type III": "Mẫu thử: Loại III",
@@ -133,6 +135,7 @@
         "Tyro Rectifier": "Bộ Chỉnh Lưu Tập Sự",
         "Tyro Sword": "Kiếm Đơn Tập Sự",
         "Undying Flame": "Hỏa Diểm Bất Tận",
+        "Unflickering Valor": "Unflickering Valor",
         "Variation": "Variation",
         "Verdant Summit": "Verdant Summit",
         "Rime-Draped Sprouts": "Chồi Xuân Ẩn Giấu",
@@ -219,8 +222,8 @@
         "sync_success_updated_remote_file": "Đã cập nhật bản sao từ xa của {fileName}."
       },
       "warn": {
-        "this_cannot_be_undone": "Thao tác này không thể tác!",
-        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
+        "this_cannot_be_undone": "Thao tác này không thể hoàn tác!",
+        "disable_auto_profile_sync": "Để đảm bảo an toàn, chúng tôi cũng sẽ tự động tắt đồng bộ dữ liệu người dùng!",
         "this_does_not_include_your_pulls": "This does not include your pulls!"
       }
     },
@@ -233,7 +236,7 @@
       "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
       "your_player_id_validation": "ID người chơi 9 chữ số của bạn phải được bắt đầu với 1, 5, 6, 7, 8, hoặc 9",
       "type_to_confirm": "Nhập <strong></strong> để chấp nhận",
-      "file_input": "Nhấn để tải lên hoặc kéo và thả",
+      "file_input": "Nhấn để tải lên hoặc kéo thả vào đây",
       "select_profile_placeholder_empty": "No profiles found",
       "select_profile_placeholder_inactive": "Chọn hồ sơ hoạt động",
       "filters": "Lọc",
@@ -412,8 +415,8 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
-      "rarity_pulls_per_pity": "{num}✦ Triệu hồi cho đến Pity",
+      "rarity_pulls": "Số lượt Triệu hồi {num}✦",
+      "rarity_pulls_per_pity": "Số lượt Triệu hồi cho đến Pity {num}✦",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "view_your_statistics_responsive": "<span>Xem</span> thống kê của bạn"

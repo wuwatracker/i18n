@@ -92,10 +92,12 @@
         "Legend of Drunken Hero": "Legend of Drunken Hero",
         "Lunar Cutter": "Lunar Cutter",
         "Lumingloss": "Lumingloss",
+        "Luminous Hymn": "Luminous Hymn",
         "Lustrous Razor": "Lustrous Razor",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditations on Mercy",
         "Novaburst": "Novaburst",
+        "Ocean's Gift": "Ocean's Gift",
         "Originite: Type I": "Originite: Type I",
         "Originite: Type II": "Originite: Type II",
         "Originite: Type III": "Originite: Type III",
@@ -133,6 +135,7 @@
         "Tyro Rectifier": "Tyro Rectifier",
         "Tyro Sword": "Tyro Sword",
         "Undying Flame": "Undying Flame",
+        "Unflickering Valor": "Unflickering Valor",
         "Variation": "Variation",
         "Verdant Summit": "Verdant Summit",
         "Rime-Draped Sprouts": "Rime-Draped Sprouts",
@@ -209,7 +212,7 @@
         "successfully_imported_achievements": "Достижения успешно импортированы.",
         "successfully_imported_gacha_records": "Крутки успешно импортированы.",
         "successfully_imported_profile": "Профиль успешно импортирован.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
+        "successfully_imported_gacha_records_redirecting": "Переходим к истории круток.",
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
         "delete_profiles": "Все профили успешно удалены.",
@@ -297,7 +300,7 @@
       }
     },
     "other": {
-      "name": "Name",
+      "name": "(Название)",
       "guest": "Гость",
       "america": "Америка",
       "europe": "Европа",
@@ -353,7 +356,7 @@
   "feature": {
     "support": {
       "troubleshooting": "Решение проблем",
-      "troubleshooting_description": "Если у вас возникают проблемы с импортом, ознакомьтесь с Решением проблем.",
+      "troubleshooting_description": "Если у вас возникают проблемы с импортом, ознакомьтесь с возможными решениями ниже.",
       "import": {
         "log_files_missing_q": "В скрипте написано \"install location not found or log files missing\" — что делать?",
         "url_expired_q": "В ошибке сказано \"URL probably expired\" — что делать?",
@@ -380,9 +383,9 @@
       "guides": "Гайды",
       "development": "Разработка",
       "system_status": "Статус",
-      "legal": "Legal",
+      "legal": "Документация",
       "partners": "Партнёры",
-      "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
+      "disclaimer": "Это независимый фанатский проект, никак не связанный с Kuro Games. Все игровые ресурсы, контент и товарные знаки принадлежат их соответствующим владельцам."
     },
     "error": {
       "oops": "Уупс!",
@@ -399,8 +402,8 @@
         "num_luck_rating_title": "{num}✦ Удача",
         "top": "Top {percentile}%",
         "bottom": "Bottom {percentile}%",
-        "luckier": "Luckier than {percentile}% of players",
-        "unluckier": "Unluckier than {percentile}% of players",
+        "luckier": "Удачливей, чем {percentile}% игроков",
+        "unluckier": "Неудачливей, чем {percentile}% игроков",
         "avg_pity": "Средний гарант",
         "avg_pity_description": "Каков ваш средний {qualityLevel}-звёздочный гарант?",
         "pull_ratio": "Частота удачи",
@@ -413,10 +416,10 @@
     },
     "global_stats": {
       "rarity_pulls": "{num}✦ Крутки",
-      "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
+      "rarity_pulls_per_pity": "{num}✦ Крутки по Гарантам",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Select a banner to get an overview of the statistics.",
-      "view_your_statistics_responsive": "<span>View</span> Your Statistics"
+      "view_your_statistics_responsive": "<span>Просмотреть</span> свою статистику"
     },
     "dashboard": {
       "title": "Главная страница",
@@ -491,7 +494,7 @@
     },
     "import": {
       "logs_not_updating_alert": "Истечение срока действия ссылки",
-      "logs_not_updating_alert_description": "Начиная с 14 января 2025 года, пользователи на ПК начали сталкиваться с проблемами ведения логов игрой из-за определённого обновления. Прочтите <link>Решение проблем</link> в случае, если импорт не выходит.",
+      "logs_not_updating_alert_description": "Начиная с 14 января 2025 года, пользователи на ПК начали сталкиваться с проблемой ведения логов игрой из-за определённого обновления. Прочтите <link>Решение проблем</link> в случае, если импорт не выходит.",
       "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
       "open_windows_powershell_and_run_script": "После этого, откройте Windows PowerShell и вставьте следующий скрипт.",
       "click_the_copy_button": "Нажмите на кнопку \"Копировать\" справа",
