@@ -427,6 +427,7 @@
       "welcome_rover": "어서와요, 방랑자.",
       "let_us_get_started": "어서오세요, 방랑자. 이제 시작하시겠어요?",
       "your_data_will_now_sync": "이제 데이터가 요구에 따라 동기화됩니다!",
+      "feature_header": "WuWa Tracker helps you <span></span> track",
       "greeting": {
         "words": {
           "pulls": "pulls",

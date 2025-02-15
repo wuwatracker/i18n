@@ -269,7 +269,7 @@
       "server_time": "Giờ Server",
       "ends_in": "Kết thúc sau {timeLeft}",
       "starts_in": "Bắt đầu sau {timeLeft}",
-      "time_left": "{timeLeft} còn lại",
+      "time_left": "Còn lại {timeLeft}",
       "event_has_ended": "Sự kiện đã kết thúc",
       "your_local_time": "Theo giờ địa phương",
       "current_server_time": "Giờ máy chủ hiện tại",
@@ -427,6 +427,7 @@
       "welcome_rover": "Xin chào, Rover ~",
       "let_us_get_started": "Chúng ta bắt đầu thôi, được chứ?",
       "your_data_will_now_sync": "Dữ liệu sẽ được đồng bộ hóa theo yêu cầu!",
+      "feature_header": "WuWa Tracker helps you <span></span> track",
       "greeting": {
         "words": {
           "pulls": "đã Triệu Hồi",
@@ -543,7 +544,7 @@
       "description": "Đã xảy ra lỗi trong khi sử dụng Wuwa Tracker. Vui lòng gửi báo cáo đến máy chủ Discord của chúng tôi để chúng tôi có thể khắc phục vấn đề một cách nhanh chóng."
     },
     "import": {
-      "title": "Nhập Lịch sử Quay",
+      "title": "Nhập Lịch sử Triệu Hồi",
       "description": "Theo hướng dẫn tương tác của chúng tôi để hiển thị dữ liệu Wuthering Waves và xem thống kê của bạn. Chúng tôi hỗ trợ nhập từ các thiết bị PC, Android và iOS với các phương pháp tự động. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!",
       "legacy": {
         "title": "Hướng dẫn nhập các dữ liệu cũ",
