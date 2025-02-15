@@ -1,0 +1,597 @@
+{
+  "domain": {
+    "term": {
+      "convenes": "crwdns7108:0crwdne7108:0",
+      "convene_url": "crwdns6144:0crwdne6144:0",
+      "pulls": "crwdns6146:0crwdne6146:0",
+      "astrites": "crwdns6148:0crwdne6148:0",
+      "wuthering_waves": "crwdns6150:0crwdne6150:0",
+      "pull_history": "crwdns6152:0crwdne6152:0",
+      "pull_num": "crwdns6154:0crwdne6154:0",
+      "item": "crwdns6156:0crwdne6156:0",
+      "pity": "crwdns6158:0crwdne6158:0",
+      "rarity": "crwdns7076:0crwdne7076:0",
+      "date_received": "crwdns6160:0crwdne6160:0",
+      "recent_convenes": "crwdns6162:0crwdne6162:0"
+    },
+    "phrase": {
+      "import_data": "crwdns6164:0crwdne6164:0",
+      "import_data_description": "crwdns6166:0crwdne6166:0",
+      "banner_list": "crwdns6168:0crwdne6168:0",
+      "no_pulls_yet": "crwdns6170:0crwdne6170:0",
+      "rarity_pulls": "crwdns6172:0{num}crwdne6172:0",
+      "num_pity": "crwdns6174:0{num}crwdne6174:0",
+      "total_pulls": "crwdns6176:0crwdne6176:0",
+      "total_pulls_responsive": "crwdns6178:0crwdne6178:0",
+      "total_astrites_responsive": "crwdns6180:0crwdne6180:0"
+    },
+    "name": {
+      "items": {
+        "Rover-Havoc": "crwdns6182:0crwdne6182:0",
+        "Rover-Spectro": "crwdns6184:0crwdne6184:0",
+        "Aalto": "crwdns6186:0crwdne6186:0",
+        "Baizhi": "crwdns6188:0crwdne6188:0",
+        "Brant": "crwdns6190:0crwdne6190:0",
+        "Calcharo": "crwdns6192:0crwdne6192:0",
+        "Carlotta": "crwdns6194:0crwdne6194:0",
+        "Camellya": "crwdns6196:0crwdne6196:0",
+        "Changli": "crwdns6198:0crwdne6198:0",
+        "Chixia": "crwdns6200:0crwdne6200:0",
+        "Danjin": "crwdns6202:0crwdne6202:0",
+        "Encore": "crwdns6204:0crwdne6204:0",
+        "Jianxin": "crwdns6206:0crwdne6206:0",
+        "Jinhsi": "crwdns6208:0crwdne6208:0",
+        "Jiyan": "crwdns6210:0crwdne6210:0",
+        "Lingyang": "crwdns6212:0crwdne6212:0",
+        "Lumi": "crwdns6214:0crwdne6214:0",
+        "Mortefi": "crwdns6216:0crwdne6216:0",
+        "Phoebe": "crwdns6218:0crwdne6218:0",
+        "Roccia": "crwdns6220:0crwdne6220:0",
+        "Sanhua": "crwdns6222:0crwdne6222:0",
+        "Shorekeeper": "crwdns6224:0crwdne6224:0",
+        "Taoqi": "crwdns6226:0crwdne6226:0",
+        "Verina": "crwdns6228:0crwdne6228:0",
+        "Yangyang": "crwdns6230:0crwdne6230:0",
+        "Yinlin": "crwdns6232:0crwdne6232:0",
+        "Yuanwu": "crwdns6234:0crwdne6234:0",
+        "Zhezhi": "crwdns6236:0crwdne6236:0",
+        "Xiangli Yao": "crwdns6238:0crwdne6238:0",
+        "Youhu": "crwdns6240:0crwdne6240:0",
+        "Zani": "crwdns6242:0crwdne6242:0",
+        "Abyss Surges": "crwdns6244:0crwdne6244:0",
+        "Ages of Harvest": "crwdns6246:0crwdne6246:0",
+        "Amity Accord": "crwdns6248:0crwdne6248:0",
+        "Autumntrace": "crwdns6250:0crwdne6250:0",
+        "Beguiling Melody": "crwdns6252:0crwdne6252:0",
+        "Blazing Brilliance": "crwdns6254:0crwdne6254:0",
+        "Broadblade of Night": "crwdns6256:0crwdne6256:0",
+        "Broadblade of Voyager": "crwdns6258:0crwdne6258:0",
+        "Broadblade#41": "crwdns6260:0crwdne6260:0",
+        "Cadenza": "crwdns6262:0crwdne6262:0",
+        "Call of the Abyss": "crwdns6264:0crwdne6264:0",
+        "Celestial Spiral": "crwdns6266:0crwdne6266:0",
+        "Commando of Conviction": "crwdns6268:0crwdne6268:0",
+        "Comet Flare": "crwdns6270:0crwdne6270:0",
+        "Cosmic Ripples": "crwdns6272:0crwdne6272:0",
+        "Dauntless Evernight": "crwdns6274:0crwdne6274:0",
+        "Discord": "crwdns6276:0crwdne6276:0",
+        "Emerald of Genesis": "crwdns6278:0crwdne6278:0",
+        "Fables of Wisdom": "crwdns6280:0crwdne6280:0",
+        "Fusion Accretion": "crwdns6282:0crwdne6282:0",
+        "Gauntlets of Night": "crwdns6284:0crwdne6284:0",
+        "Gauntlets of Voyager": "crwdns6286:0crwdne6286:0",
+        "Gauntlets#21D": "crwdns6288:0crwdne6288:0",
+        "Guardian Broadblade": "crwdns6290:0crwdne6290:0",
+        "Guardian Gauntlets": "crwdns6292:0crwdne6292:0",
+        "Guardian Pistols": "crwdns6294:0crwdne6294:0",
+        "Guardian Rectifier": "crwdns6296:0crwdne6296:0",
+        "Guardian Sword": "crwdns6298:0crwdne6298:0",
+        "Helios Cleaver": "crwdns6300:0crwdne6300:0",
+        "Hollow Mirage": "crwdns6302:0crwdne6302:0",
+        "Jinzhou Keeper": "crwdns6304:0crwdne6304:0",
+        "Legend of Drunken Hero": "crwdns6306:0crwdne6306:0",
+        "Lunar Cutter": "crwdns6308:0crwdne6308:0",
+        "Lumingloss": "crwdns6310:0crwdne6310:0",
+        "Luminous Hymn": "crwdns7112:0crwdne7112:0",
+        "Lustrous Razor": "crwdns6312:0crwdne6312:0",
+        "Marcato": "crwdns6314:0crwdne6314:0",
+        "Meditations on Mercy": "crwdns6316:0crwdne6316:0",
+        "Novaburst": "crwdns6318:0crwdne6318:0",
+        "Ocean's Gift": "crwdns7114:0crwdne7114:0",
+        "Originite: Type I": "crwdns6320:0crwdne6320:0",
+        "Originite: Type II": "crwdns6322:0crwdne6322:0",
+        "Originite: Type III": "crwdns6324:0crwdne6324:0",
+        "Originite: Type IV": "crwdns6326:0crwdne6326:0",
+        "Originite: Type V": "crwdns6328:0crwdne6328:0",
+        "Overture": "crwdns6330:0crwdne6330:0",
+        "Pistols of Night": "crwdns6332:0crwdne6332:0",
+        "Pistols of Voyager": "crwdns6334:0crwdne6334:0",
+        "Pistols#26": "crwdns6336:0crwdne6336:0",
+        "Rectifier of Night": "crwdns6338:0crwdne6338:0",
+        "Rectifier of Voyager": "crwdns6340:0crwdne6340:0",
+        "Rectifier#25": "crwdns6342:0crwdne6342:0",
+        "Red Spring": "crwdns6344:0crwdne6344:0",
+        "Relativistic Jet": "crwdns6346:0crwdne6346:0",
+        "Romance in Farewell": "crwdns6348:0crwdne6348:0",
+        "Somnoire Anchor": "crwdns6350:0crwdne6350:0",
+        "Static Mist": "crwdns6352:0crwdne6352:0",
+        "Stellar Symphony": "crwdns6354:0crwdne6354:0",
+        "Stonard": "crwdns6356:0crwdne6356:0",
+        "Stringmaster": "crwdns6358:0crwdne6358:0",
+        "Sword of Night": "crwdns6360:0crwdne6360:0",
+        "Sword of Voyager": "crwdns6362:0crwdne6362:0",
+        "Sword#18": "crwdns6364:0crwdne6364:0",
+        "The Last Dance": "crwdns6366:0crwdne6366:0",
+        "Thunderbolt": "crwdns6368:0crwdne6368:0",
+        "Tragicomedy": "crwdns6370:0crwdne6370:0",
+        "Training Broadblade": "crwdns6372:0crwdne6372:0",
+        "Training Gauntlets": "crwdns6374:0crwdne6374:0",
+        "Training Pistols": "crwdns6376:0crwdne6376:0",
+        "Training Rectifier": "crwdns6378:0crwdne6378:0",
+        "Training Sword": "crwdns6380:0crwdne6380:0",
+        "Tyro Broadblade": "crwdns6382:0crwdne6382:0",
+        "Tyro Gauntlets": "crwdns6384:0crwdne6384:0",
+        "Tyro Pistols": "crwdns6386:0crwdne6386:0",
+        "Tyro Rectifier": "crwdns6388:0crwdne6388:0",
+        "Tyro Sword": "crwdns6390:0crwdne6390:0",
+        "Undying Flame": "crwdns6392:0crwdne6392:0",
+        "Unflickering Valor": "crwdns7116:0crwdne7116:0",
+        "Variation": "crwdns6394:0crwdne6394:0",
+        "Verdant Summit": "crwdns6396:0crwdne6396:0",
+        "Rime-Draped Sprouts": "crwdns6398:0crwdne6398:0",
+        "Verity's Handle": "crwdns6400:0crwdne6400:0",
+        "Augment": "crwdns6402:0crwdne6402:0",
+        "Endless Collapse": "crwdns6404:0crwdne6404:0",
+        "Waltz in Masquerade": "crwdns6406:0crwdne6406:0",
+        "Waning Redshift": "crwdns6408:0crwdne6408:0"
+      },
+      "banners": {
+        "Featured Resonator": "crwdns6410:0crwdne6410:0",
+        "Featured Weapon": "crwdns6412:0crwdne6412:0",
+        "Permanent Resonator": "crwdns6414:0crwdne6414:0",
+        "Permanent Weapon": "crwdns6416:0crwdne6416:0",
+        "Novice Convene": "crwdns6418:0crwdne6418:0",
+        "Beginner's Choice": "crwdns6420:0crwdne6420:0",
+        "Selector Ticket": "crwdns6422:0crwdne6422:0",
+        "Tidal Chorus": "crwdns6424:0crwdne6424:0",
+        "Winter Brume": "crwdns6426:0crwdne6426:0",
+        "Utterance of Marvels": "crwdns6428:0crwdne6428:0",
+        "Beginner's Choice Convene": "crwdns6430:0crwdne6430:0",
+        "Giveback Event Convene": "crwdns6432:0crwdne6432:0"
+      }
+    }
+  },
+  "common": {
+    "message": {
+      "error": {
+        "generic_title": "crwdns6434:0crwdne6434:0",
+        "no_banner": "crwdns6436:0crwdne6436:0",
+        "relogin_to_sync": "crwdns6438:0crwdne6438:0",
+        "no_auth_scopes": "crwdns6440:0crwdne6440:0",
+        "auth_session_expired": "crwdns6442:0crwdne6442:0",
+        "invalid_input_format": "crwdns6444:0crwdne6444:0",
+        "unable_to_parse": "crwdns6446:0crwdne6446:0",
+        "unable_to_parse_remote_data": "crwdns6448:0crwdne6448:0",
+        "download_failed": "crwdns6450:0crwdne6450:0",
+        "client_log_required": "crwdns6452:0crwdne6452:0",
+        "cannot_find_convene_url": "crwdns6454:0crwdne6454:0",
+        "cannot_find_convene_url_description": "crwdns6456:0crwdne6456:0",
+        "convene_url_expired": "crwdns6458:0crwdne6458:0",
+        "use_valid_player_id": "crwdns6460:0crwdne6460:0",
+        "no_profile_to_download": "crwdns6462:0crwdne6462:0",
+        "no_pulls_to_download": "crwdns6464:0crwdne6464:0",
+        "need_to_upload_specific_file": "crwdns6466:0{file}crwdne6466:0",
+        "sync_no_pulls_to_upload": "crwdns6468:0crwdne6468:0",
+        "sync_unavailable": "crwdns6470:0crwdne6470:0",
+        "sync_no_remote_data_to_download": "crwdns6472:0crwdne6472:0",
+        "incorrect_input_file_description": "crwdns6474:0crwdne6474:0"
+      },
+      "info": {
+        "connecting_google": "crwdns6476:0crwdne6476:0",
+        "sign_in_to_sync": "crwdns6478:0crwdne6478:0",
+        "loading": "crwdns6480:0crwdne6480:0",
+        "import_loading": "crwdns6482:0crwdne6482:0",
+        "import_loading_description": "crwdns6484:0crwdne6484:0",
+        "scroll_for_more": "crwdns6486:0crwdne6486:0",
+        "no_filters": "crwdns6488:0crwdne6488:0",
+        "no_records": "crwdns6490:0crwdne6490:0",
+        "no_pulls_yet": "crwdns6492:0crwdne6492:0",
+        "no_pulls_found_in_google_drive": "crwdns6494:0crwdne6494:0",
+        "no_banner_luck_stats": "crwdns6496:0crwdne6496:0",
+        "max_recent_pulls_disclaimer": "crwdns6498:0{num}crwdne6498:0",
+        "pull_more_to_unlock": "crwdns6500:0crwdne6500:0",
+        "pull_more_to_view_statistics": "crwdns6502:0crwdne6502:0",
+        "download_will_start_shortly": "crwdns6504:0crwdne6504:0",
+        "sync_already_synced": "crwdns6506:0crwdne6506:0",
+        "google_drive_last_updated_at": "crwdns6508:0{date}crwdne6508:0",
+        "nothing_to_sync": "crwdns6510:0crwdne6510:0",
+        "sync_creating_file_in_google": "crwdns6512:0{fileName}crwdne6512:0",
+        "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0"
+      },
+      "success": {
+        "successfully_imported_achievements": "crwdns6516:0crwdne6516:0",
+        "successfully_imported_gacha_records": "crwdns6518:0crwdne6518:0",
+        "successfully_imported_profile": "crwdns6520:0crwdne6520:0",
+        "successfully_imported_gacha_records_redirecting": "crwdns6522:0crwdne6522:0",
+        "create_profile": "crwdns6524:0{playerId}crwdne6524:0",
+        "delete_pulls": "crwdns6526:0{playerId}crwdne6526:0",
+        "delete_profiles": "crwdns6528:0crwdne6528:0",
+        "sync_successfully_downloaded_remote_data": "crwdns6530:0crwdne6530:0",
+        "sync_successfully_created_remote_data": "crwdns6532:0{fileName}crwdne6532:0",
+        "sync_success": "crwdns6534:0crwdne6534:0",
+        "sync_success_updated_remote_file": "crwdns7070:0{fileName}crwdne7070:0"
+      },
+      "warn": {
+        "this_cannot_be_undone": "crwdns6538:0crwdne6538:0",
+        "disable_auto_profile_sync": "crwdns7100:0crwdne7100:0",
+        "this_does_not_include_your_pulls": "crwdns6542:0crwdne6542:0"
+      }
+    },
+    "form": {
+      "banner_select_placeholder": "crwdns6544:0crwdne6544:0",
+      "banner_search_placeholder": "crwdns6546:0crwdne6546:0",
+      "search": "crwdns6548:0crwdne6548:0",
+      "search_placeholder": "crwdns6550:0crwdne6550:0",
+      "search_reset": "crwdns7080:0crwdne7080:0",
+      "your_player_id_placeholder": "crwdns7110:0crwdne7110:0",
+      "your_player_id_validation": "crwdns6554:0crwdne6554:0",
+      "type_to_confirm": "crwdns6556:0crwdne6556:0",
+      "file_input": "crwdns6558:0crwdne6558:0",
+      "select_profile_placeholder_empty": "crwdns6560:0crwdne6560:0",
+      "select_profile_placeholder_inactive": "crwdns6562:0crwdne6562:0",
+      "filters": "crwdns7084:0crwdne7084:0",
+      "rows_per_page": "crwdns7086:0crwdne7086:0"
+    },
+    "button": {
+      "go_home": "crwdns6564:0crwdne6564:0",
+      "switch_theme": "crwdns6566:0crwdne6566:0",
+      "sign_in_google": "crwdns6568:0crwdne6568:0",
+      "import_history": "crwdns6570:0crwdne6570:0",
+      "filter_by_rarity_num": "crwdns6572:0{num}crwdne6572:0",
+      "import": "crwdns6574:0crwdne6574:0",
+      "export_json": "crwdns6576:0crwdne6576:0",
+      "view_pull_history": "crwdns6578:0crwdne6578:0",
+      "sync_your_data": "crwdns6580:0crwdne6580:0",
+      "support_us": "crwdns6582:0crwdne6582:0",
+      "create_profile": "crwdns6584:0crwdne6584:0",
+      "remind_me_later": "crwdns6586:0crwdne6586:0",
+      "delete": "crwdns6588:0crwdne6588:0",
+      "confirm": "crwdns6590:0crwdne6590:0",
+      "cancel": "crwdns6592:0crwdne6592:0",
+      "download": "crwdns6594:0crwdne6594:0",
+      "import_from_file": "crwdns6596:0crwdne6596:0",
+      "upload_to_google": "crwdns6598:0crwdne6598:0",
+      "download_from_google": "crwdns6600:0crwdne6600:0"
+    },
+    "time": {
+      "invalid_date": "crwdns6602:0crwdne6602:0",
+      "local_time": "crwdns6604:0crwdne6604:0",
+      "server_time": "crwdns6606:0crwdne6606:0",
+      "ends_in": "crwdns6608:0{timeLeft}crwdne6608:0",
+      "starts_in": "crwdns6610:0{timeLeft}crwdne6610:0",
+      "time_left": "crwdns6612:0{timeLeft}crwdne6612:0",
+      "event_has_ended": "crwdns6614:0crwdne6614:0",
+      "your_local_time": "crwdns6616:0crwdne6616:0",
+      "current_server_time": "crwdns6618:0crwdne6618:0",
+      "resets_in": "crwdns6620:0crwdne6620:0",
+      "some_time": "crwdns6622:0crwdne6622:0",
+      "months": {
+        "January": "crwdns6624:0crwdne6624:0",
+        "February": "crwdns6626:0crwdne6626:0",
+        "March": "crwdns6628:0crwdne6628:0",
+        "April": "crwdns6630:0crwdne6630:0",
+        "May": "crwdns6632:0crwdne6632:0",
+        "June": "crwdns6634:0crwdne6634:0",
+        "July": "crwdns6636:0crwdne6636:0",
+        "August": "crwdns6638:0crwdne6638:0",
+        "September": "crwdns6640:0crwdne6640:0",
+        "October": "crwdns6642:0crwdne6642:0",
+        "November": "crwdns6644:0crwdne6644:0",
+        "December": "crwdns6646:0crwdne6646:0"
+      },
+      "days_short": {
+        "Mo": "crwdns6648:0crwdne6648:0",
+        "Tu": "crwdns6650:0crwdne6650:0",
+        "We": "crwdns6652:0crwdne6652:0",
+        "Th": "crwdns6654:0crwdne6654:0",
+        "Fr": "crwdns6656:0crwdne6656:0",
+        "Sa": "crwdns6658:0crwdne6658:0",
+        "Su": "crwdns6660:0crwdne6660:0"
+      }
+    },
+    "other": {
+      "name": "crwdns7078:0crwdne7078:0",
+      "guest": "crwdns6662:0crwdne6662:0",
+      "america": "crwdns6664:0crwdne6664:0",
+      "europe": "crwdns6666:0crwdne6666:0",
+      "asia_sea_regions": "crwdns6668:0crwdne6668:0",
+      "completed": "crwdns6670:0crwdne6670:0",
+      "incomplete": "crwdns6672:0crwdne6672:0",
+      "completion": "crwdns6674:0crwdne6674:0",
+      "all": "crwdns6676:0crwdne6676:0",
+      "hidden": "crwdns6678:0crwdne6678:0",
+      "visible": "crwdns6680:0crwdne6680:0",
+      "local_data": "crwdns6682:0crwdne6682:0",
+      "google_drive": "crwdns6684:0crwdne6684:0",
+      "from_file": "crwdns6686:0crwdne6686:0",
+      "tutorial_video": "crwdns6688:0crwdne6688:0",
+      "tutorial_video_description": "crwdns6690:0crwdne6690:0",
+      "edit_on_github": "crwdns6692:0crwdne6692:0",
+      "social_discord_cta": "crwdns6694:0crwdne6694:0",
+      "social_x_cta": "crwdns6696:0crwdne6696:0",
+      "social_reddit_cta": "crwdns6698:0crwdne6698:0",
+      "social_github_cta": "crwdns6700:0crwdne6700:0",
+      "community": "crwdns6702:0crwdne6702:0",
+      "contact": "crwdns6704:0crwdne6704:0",
+      "for_general_inquiries": "crwdns6706:0crwdne6706:0",
+      "for_support": "crwdns6708:0crwdne6708:0",
+      "supporters": "crwdns6710:0crwdne6710:0",
+      "no_particular_order": "crwdns6712:0crwdne6712:0",
+      "translators": "crwdns6714:0crwdne6714:0",
+      "players": "crwdns6716:0crwdne6716:0",
+      "event": "crwdns6718:0crwdne6718:0",
+      "ongoing_events": "crwdns6720:0crwdne6720:0",
+      "choose_a_method": "crwdns6722:0crwdne6722:0",
+      "automatic": "crwdns6724:0crwdne6724:0",
+      "manual": "crwdns6726:0crwdne6726:0",
+      "data": "crwdns6728:0crwdne6728:0",
+      "preferences": "crwdns6730:0crwdne6730:0",
+      "advanced": "crwdns6732:0crwdne6732:0",
+      "help_translate": "crwdns6734:0crwdne6734:0",
+      "switch_language": "crwdns6736:0crwdne6736:0",
+      "just_taking_a_look_around": "crwdns6738:0crwdne6738:0",
+      "the_active_player_profile": "crwdns6740:0crwdne6740:0",
+      "privacy": "crwdns6742:0crwdne6742:0",
+      "on": "crwdns6744:0crwdne6744:0",
+      "off": "crwdns6746:0crwdne6746:0",
+      "toggle": "crwdns6748:0crwdne6748:0",
+      "signed_out": "crwdns6750:0crwdne6750:0",
+      "out_of_sync": "crwdns6752:0crwdne6752:0",
+      "synced": "crwdns6754:0crwdne6754:0",
+      "downloads_and_merges": "crwdns6756:0crwdne6756:0",
+      "image_preview": "crwdns7088:0crwdne7088:0",
+      "close": "crwdns7090:0crwdne7090:0"
+    }
+  },
+  "feature": {
+    "support": {
+      "troubleshooting": "crwdns6758:0crwdne6758:0",
+      "troubleshooting_description": "crwdns6760:0crwdne6760:0",
+      "import": {
+        "log_files_missing_q": "crwdns6762:0crwdne6762:0",
+        "url_expired_q": "crwdns6764:0crwdne6764:0",
+        "error_while_fetching_q": "crwdns6766:0crwdne6766:0",
+        "missing_old_pulls_q": "crwdns6768:0crwdne6768:0",
+        "support_other_imports_q": "crwdns6770:0crwdne6770:0",
+        "ps5_player_import_q": "crwdns6772:0crwdne6772:0",
+        "other_q": "crwdns6774:0crwdne6774:0"
+      }
+    },
+    "migration": {
+      "legacy_migration": "crwdns6776:0crwdne6776:0",
+      "legacy": "crwdns6778:0crwdne6778:0",
+      "legacy_import": "crwdns6780:0crwdne6780:0",
+      "legacy_import_alert_title": "crwdns6782:0crwdne6782:0",
+      "legacy_import_alert_description": "crwdns6784:0crwdne6784:0"
+    },
+    "layout": {
+      "banners": {
+        "close_banner": "crwdns6786:0crwdne6786:0"
+      },
+      "tools": "crwdns6788:0crwdne6788:0",
+      "inventory": "crwdns6790:0crwdne6790:0",
+      "guides": "crwdns6792:0crwdne6792:0",
+      "development": "crwdns6794:0crwdne6794:0",
+      "system_status": "crwdns6796:0crwdne6796:0",
+      "legal": "crwdns6798:0crwdne6798:0",
+      "partners": "crwdns6800:0crwdne6800:0",
+      "disclaimer": "crwdns6802:0crwdne6802:0"
+    },
+    "error": {
+      "oops": "crwdns6804:0crwdne6804:0",
+      "an_error_occured": "crwdns6806:0crwdne6806:0",
+      "join_discord": "crwdns6808:0crwdne6808:0"
+    },
+    "achievements": {
+      "no_achievements_found": "crwdns6810:0crwdne6810:0"
+    },
+    "tracker": {
+      "banner_summary": "crwdns6812:0crwdne6812:0",
+      "banner_summary_description": "crwdns6814:0crwdne6814:0",
+      "luck": {
+        "num_luck_rating_title": "crwdns6816:0{num}crwdne6816:0",
+        "top": "crwdns6818:0{percentile}crwdne6818:0",
+        "bottom": "crwdns6820:0{percentile}crwdne6820:0",
+        "luckier": "crwdns6822:0{percentile}crwdne6822:0",
+        "unluckier": "crwdns6824:0{percentile}crwdne6824:0",
+        "avg_pity": "crwdns6826:0crwdne6826:0",
+        "avg_pity_description": "crwdns6828:0{qualityLevel}crwdne6828:0",
+        "pull_ratio": "crwdns6830:0crwdne6830:0",
+        "pull_ratio_description": "crwdns6832:0{qualityLevel}crwdne6832:0",
+        "coinflip_wins": "crwdns6834:0crwdne6834:0",
+        "coinflip_wins_description": "crwdns6836:0crwdne6836:0",
+        "rate_up_wins": "crwdns6838:0crwdne6838:0",
+        "rate_up_wins_description": "crwdns6840:0crwdne6840:0"
+      }
+    },
+    "global_stats": {
+      "rarity_pulls": "crwdns6842:0{num}crwdne6842:0",
+      "rarity_pulls_per_pity": "crwdns6844:0{num}crwdne6844:0",
+      "banner_summary_title": "crwdns6846:0crwdne6846:0",
+      "banner_summary_description": "crwdns6848:0crwdne6848:0",
+      "view_your_statistics_responsive": "crwdns6850:0crwdne6850:0"
+    },
+    "dashboard": {
+      "title": "crwdns6852:0crwdne6852:0",
+      "stay_focused_rover": "crwdns6854:0crwdne6854:0",
+      "welcome_rover": "crwdns6856:0crwdne6856:0",
+      "let_us_get_started": "crwdns6858:0crwdne6858:0",
+      "your_data_will_now_sync": "crwdns6860:0crwdne6860:0",
+      "feature_header": "crwdns7118:0crwdne7118:0",
+      "greeting": {
+        "words": {
+          "pulls": "crwdns6862:0crwdne6862:0",
+          "pity": "crwdns6864:0crwdne6864:0",
+          "events": "crwdns6866:0crwdne6866:0",
+          "statistics": "crwdns6868:0crwdne6868:0",
+          "data": "crwdns6870:0crwdne6870:0",
+          "updates": "crwdns6872:0crwdne6872:0"
+        },
+        "description": "crwdns6874:0crwdne6874:0"
+      },
+      "changelog": {
+        "title": "crwdns6876:0crwdne6876:0"
+      },
+      "about": {
+        "title": "crwdns6878:0crwdne6878:0",
+        "what_is_wuwatracker": "crwdns6880:0crwdne6880:0"
+      },
+      "credits": {
+        "title": "crwdns6882:0crwdne6882:0",
+        "heading": "crwdns6884:0crwdne6884:0",
+        "heading_description": "crwdns6886:0crwdne6886:0",
+        "special_thanks": "crwdns6888:0crwdne6888:0"
+      }
+    },
+    "settings": {
+      "submit_to_global_stats": "crwdns6890:0crwdne6890:0",
+      "create_profile_dialog": "crwdns6892:0crwdne6892:0",
+      "create_profile_dialog_description": "crwdns6894:0crwdne6894:0",
+      "active_profile_delete_pulls": "crwdns6896:0crwdne6896:0",
+      "active_profile_delete_pulls_description": "crwdns7102:0{playerId}crwdne7102:0",
+      "active_profile_delete_pulls_confirm": "crwdns7104:0{playerId}crwdne7104:0",
+      "not_responsible_undone_disclaimer": "crwdns6902:0crwdne6902:0",
+      "all_profiles_delete": "crwdns6904:0crwdne6904:0",
+      "all_profiles_delete_description": "crwdns6906:0crwdne6906:0",
+      "all_profiles_delete_confirm": "crwdns7106:0crwdne7106:0",
+      "privacy_description": "crwdns6910:0crwdne6910:0",
+      "privacy_global_stats": "crwdns6912:0crwdne6912:0",
+      "privacy_global_stats_description": "crwdns6914:0crwdne6914:0",
+      "privacy_footer_policy_link": "crwdns6916:0crwdne6916:0",
+      "import_user_profile": "crwdns6918:0crwdne6918:0",
+      "user_profile": "crwdns6920:0crwdne6920:0",
+      "user_profile_description": "crwdns6922:0crwdne6922:0",
+      "pull_history": "crwdns6924:0crwdne6924:0",
+      "pull_history_description": "crwdns6926:0crwdne6926:0",
+      "saves_your_pulls_to_google": "crwdns6928:0crwdne6928:0",
+      "overwrite_google_drive_data": "crwdns6930:0crwdne6930:0",
+      "overwrite_google_drive_data_description": "crwdns6932:0crwdne6932:0",
+      "pulls_file_import_dialog_title": "crwdns6934:0crwdne6934:0",
+      "pulls_file_import_dialog_description": "crwdns6936:0crwdne6936:0",
+      "sync_preferences": "crwdns6938:0crwdne6938:0",
+      "sync_preferences_description": "crwdns6940:0crwdne6940:0",
+      "sync_preferences_profile_description": "crwdns6942:0crwdne6942:0",
+      "you_can_manually_sync_reminder": "crwdns6944:0crwdne6944:0"
+    },
+    "timeline": {
+      "choose_server_timezone": "crwdns6946:0crwdne6946:0",
+      "choose_server_timezone_description": "crwdns6948:0crwdne6948:0",
+      "timeline_description": "crwdns6950:0crwdne6950:0",
+      "reset_timers": {
+        "title": "crwdns6952:0crwdne6952:0",
+        "description": "crwdns6954:0crwdne6954:0",
+        "disclaimer": "crwdns6956:0crwdne6956:0"
+      }
+    },
+    "import": {
+      "logs_not_updating_alert": "crwdns6958:0crwdne6958:0",
+      "logs_not_updating_alert_description": "crwdns6960:0crwdne6960:0",
+      "first_open_game_history": "crwdns6962:0crwdne6962:0",
+      "open_windows_powershell_and_run_script": "crwdns6964:0crwdne6964:0",
+      "click_the_copy_button": "crwdns6966:0crwdne6966:0",
+      "powershell_script_disclaimer": "crwdns6968:0crwdne6968:0",
+      "paste_the_url_here": "crwdns6970:0crwdne6970:0",
+      "paste_the_json_here": "crwdns6972:0crwdne6972:0",
+      "press_the_import_history_button": "crwdns6974:0crwdne6974:0",
+      "go_to_installation_directory": "crwdns6976:0crwdne6976:0",
+      "go_to_installation_directory_description": "crwdns6978:0crwdne6978:0",
+      "search_for_log": "crwdns6980:0crwdne6980:0",
+      "airplane_mode": "crwdns7072:0crwdne7072:0",
+      "download_ascent": "crwdns6984:0crwdne6984:0",
+      "download_ascent_description": "crwdns7074:0crwdne7074:0",
+      "download_ascent_disclaimer": "crwdns6988:0crwdne6988:0",
+      "download_ascent_troubleshooting": "crwdns6990:0crwdne6990:0",
+      "ios_follow_tutorial_video": "crwdns6992:0crwdne6992:0",
+      "ios_follow_tutorial_video_description": "crwdns6994:0crwdne6994:0",
+      "ps5_press_the_options_button": "crwdns7092:0crwdne7092:0",
+      "ps5_click_on_page_information": "crwdns7094:0crwdne7094:0",
+      "ps5_enter_your_record_id": "crwdns7096:0crwdne7096:0"
+    }
+  },
+  "metadata": {
+    "root": {
+      "description": "crwdns6996:0crwdne6996:0"
+    },
+    "achievements": {
+      "title": "crwdns6998:0crwdne6998:0",
+      "description": "crwdns7000:0crwdne7000:0"
+    },
+    "tracker": {
+      "index": {
+        "title": "crwdns7002:0crwdne7002:0",
+        "description": "crwdns7004:0crwdne7004:0"
+      },
+      "global": {
+        "title": "crwdns7006:0crwdne7006:0",
+        "title_responsive": "crwdns7008:0crwdne7008:0",
+        "description": "crwdns7010:0{currentBanner}crwdnd7010:0{currentFeaturedResonator}crwdne7010:0",
+        "banner_title": "crwdns7012:0{name}crwdne7012:0",
+        "banner_description": "crwdns7014:0{name}crwdne7014:0"
+      }
+    },
+    "error": {
+      "title": "crwdns7016:0crwdne7016:0",
+      "description": "crwdns7018:0crwdne7018:0"
+    },
+    "import": {
+      "title": "crwdns7020:0crwdne7020:0",
+      "description": "crwdns7022:0crwdne7022:0",
+      "legacy": {
+        "title": "crwdns7024:0crwdne7024:0",
+        "description": "crwdns7026:0crwdne7026:0"
+      }
+    },
+    "not_found": {
+      "title": "crwdns7028:0crwdne7028:0",
+      "description": "crwdns7030:0crwdne7030:0"
+    },
+    "privacy_policy": {
+      "title": "crwdns7032:0crwdne7032:0",
+      "description": "crwdns7034:0crwdne7034:0"
+    },
+    "settings": {
+      "title": "crwdns7036:0crwdne7036:0",
+      "description": "crwdns7038:0crwdne7038:0"
+    },
+    "terms_and_conditions": {
+      "title": "crwdns7040:0crwdne7040:0",
+      "description": "crwdns7042:0crwdne7042:0"
+    },
+    "timeline": {
+      "title": "crwdns7044:0crwdne7044:0",
+      "description": "crwdns7046:0crwdne7046:0"
+    },
+    "wiki": {
+      "resonator": {
+        "title": "crwdns7048:0crwdne7048:0",
+        "description": "crwdns7050:0crwdne7050:0"
+      },
+      "item": {
+        "title": "crwdns7052:0crwdne7052:0",
+        "description": "crwdns7054:0crwdne7054:0"
+      },
+      "weapon": {
+        "title": "crwdns7056:0crwdne7056:0",
+        "description": "crwdns7058:0crwdne7058:0"
+      }
+    },
+    "planner": {
+      "title": "crwdns7060:0crwdne7060:0",
+      "description": "crwdns7062:0crwdne7062:0"
+    },
+    "support": {
+      "title": "crwdns7064:0crwdne7064:0",
+      "description": "crwdns7066:0crwdne7066:0"
+    }
+  }
+}
