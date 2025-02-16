@@ -20,10 +20,10 @@
       "banner_list": "Danh sách Banner",
       "no_pulls_yet": "Lịch sử Triệu hồi trống",
       "rarity_pulls": "✦Đã Triệu hồi {num} lần",
-      "num_pity": "✦Số Pity{num}",
+      "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt Triệu hồi",
-      "total_pulls_responsive": "<span>Tổng</span>Lượt triệu hồi",
-      "total_astrites_responsive": "<span>Tổng</span>số Tinh thạch"
+      "total_pulls_responsive": "<span>Tổng</span> Lượt triệu hồi",
+      "total_astrites_responsive": "<span>Tổng</span> số Tinh thạch"
     },
     "name": {
       "items": {
@@ -300,7 +300,7 @@
       }
     },
     "other": {
-      "name": "Name",
+      "name": "Tên",
       "guest": "Khách",
       "america": "Châu Mĩ",
       "europe": "Châu Âu",
@@ -315,7 +315,7 @@
       "google_drive": "Google Drive",
       "from_file": "Từ Tệp",
       "tutorial_video": "Video hướng dẫn",
-      "tutorial_video_description": "Hãy làm theo video hướng dẫn từng bước này <link></link>.",
+      "tutorial_video_description": "Hãy làm theo video hướng dẫn từng bước này của <link></link>.",
       "edit_on_github": "Chỉnh sửa trang này trên GitHub",
       "social_discord_cta": "Tham gia máy chủ Discord của chúng tôi",
       "social_x_cta": "Theo dõi chúng tôi trên X",
@@ -341,7 +341,7 @@
       "switch_language": "Chuyển ngôn ngữ",
       "just_taking_a_look_around": "Bạn chỉ nhìn xung quanh thôi sao?",
       "the_active_player_profile": "người chơi đang hoạt động",
-      "privacy": "Chính sách",
+      "privacy": "Quyền riêng tư",
       "on": "Bật",
       "off": "Tắt",
       "toggle": "Toggle",
@@ -399,7 +399,7 @@
       "banner_summary": "Banner Summary",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "luck": {
-        "num_luck_rating_title": "{num}✦Tỉ lệ may mắn",
+        "num_luck_rating_title": "Tỉ lệ may mắn nhận được {num}✦",
         "top": "Top {percentile}%",
         "bottom": "Bottom {percentile}%",
         "luckier": "May hơn {percentile}% người chơi khác",
@@ -427,7 +427,7 @@
       "welcome_rover": "Xin chào, Rover ~",
       "let_us_get_started": "Chúng ta bắt đầu thôi, được chứ?",
       "your_data_will_now_sync": "Dữ liệu sẽ được đồng bộ hóa theo yêu cầu!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "feature_header": "Wuwa Tracker giúp bạn theo dõi <span></span>",
       "greeting": {
         "words": {
           "pulls": "đã Triệu Hồi",
@@ -506,15 +506,15 @@
       "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
       "go_to_installation_directory_description": "Chuột phải vào launcher của Wuthering Waves và chọn <code>Open file location</code>. Bạn sẽ thấy <code>launcher.exe</code> và rất nhiều file <code>.dll</code>.",
       "search_for_log": "Tìm tệp <code>Client.log</code> và tải lên đây",
-      "airplane_mode": "Airplane Mode",
+      "airplane_mode": "Chế độ Máy bay",
       "download_ascent": "Tải xuống và sử dụng Ascent để lấy đường dẫn lịch sử triệu hồi của bạn",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
+      "download_ascent_description": "Tương tự như việc lấy lịch sử Gacha của Genshin Impact hoặc Honkai: Star Rail, hãy làm theo <link>hướng dẫn bởi Mirai0009</link> để tải xuống và sử dụng <ascent>Ascent</ascent> để lấy đường dẫn triệu hồi của bạn.",
       "download_ascent_disclaimer": "Lưu ý: Phương pháp này chỉ hỗ trợ phiên bản Android 11 trở lên.",
       "download_ascent_troubleshooting": "Nếu nó không hoạt động, hãy kiểm tra <link>hướng dẫn gỡ lỗi</link>.",
       "ios_follow_tutorial_video": "Hãy làm theo Video hướng dẫn",
       "ios_follow_tutorial_video_description": "Tương tự như lấy lịch sử triệu hồi trong Genshin Impact hoặc Honkai Star Rail, hãy làm theo video hướng dẫn để nhập dữ liệu trên iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
+      "ps5_press_the_options_button": "Nhấn nút <code>Options</code> trên cần điều khiển của bạn",
+      "ps5_click_on_page_information": "Chọn vào <code>Page Information</code>",
       "ps5_enter_your_record_id": "Nhập <code>player_id</code> và <code>record_id</code> của bạn tại đây"
     }
   },
