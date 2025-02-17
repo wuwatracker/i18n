@@ -190,15 +190,15 @@
         "connecting_google": "Attemping to connect to Google Drive",
         "sign_in_to_sync": "Inicie sessão para sincronizar",
         "loading": "Carregando...",
-        "import_loading": "Importing gacha records...",
-        "import_loading_description": "This shouldn't take long!",
+        "import_loading": "Importando registos de gacha...",
+        "import_loading_description": "Isto não deve demorar!",
         "scroll_for_more": "Role Para Baixo Para Mais",
-        "no_filters": "no filters selected",
-        "no_records": "no records to show",
+        "no_filters": "nenhum filtro selecionado",
+        "no_records": "nenhum registo a mostrar",
         "no_pulls_yet": "Sem tiros ainda",
         "no_pulls_found_in_google_drive": "No pulls found in Google Drive",
-        "no_banner_luck_stats": "this banner has no luck stats",
-        "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
+        "no_banner_luck_stats": "este banner não tem estatísticas de sorte",
+        "max_recent_pulls_disclaimer": "Este sumário apenas mostra até {num} tiros recentes.",
         "pull_more_to_unlock": "Faça mais Tiros para desbloquear",
         "pull_more_to_view_statistics": "You need more pulls to view statistics",
         "download_will_start_shortly": "Your download will start shortly.",
@@ -295,21 +295,21 @@
         "We": "Qua",
         "Th": "Qui",
         "Fr": "Sex",
-        "Sa": "Sa",
-        "Su": "Su"
+        "Sa": "Sáb",
+        "Su": "Dom"
       }
     },
     "other": {
-      "name": "Name",
-      "guest": "Guest",
-      "america": "America",
-      "europe": "Europe",
-      "asia_sea_regions": "Asia, SEA, TW/HK/MO",
-      "completed": "Completed",
-      "incomplete": "Incomplete",
-      "completion": "Completion",
-      "all": "All",
-      "hidden": "Hidden",
+      "name": "Nome",
+      "guest": "Convidado",
+      "america": "América",
+      "europe": "Europa",
+      "asia_sea_regions": "Ásia, SEA, TW/HK/MO",
+      "completed": "Completo",
+      "incomplete": "Incompleto",
+      "completion": "Progresso",
+      "all": "Todos",
+      "hidden": "Escondidos",
       "visible": "Visível",
       "local_data": "Dados Locais",
       "google_drive": "Google Drive",
@@ -384,7 +384,7 @@
       "development": "Development",
       "system_status": "System Status",
       "legal": "Legal",
-      "partners": "Partners",
+      "partners": "Parceiros",
       "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
     },
     "error": {
@@ -404,7 +404,7 @@
         "bottom": "Bottom {percentile}%",
         "luckier": "Luckier than {percentile}% of players",
         "unluckier": "Unluckier than {percentile}% of players",
-        "avg_pity": "Average Pity",
+        "avg_pity": "Pity Médio",
         "avg_pity_description": "What is your average {qualityLevel}-star pity?",
         "pull_ratio": "Pull Ratio",
         "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
@@ -422,8 +422,8 @@
       "view_your_statistics_responsive": "<span>View</span> Your Statistics"
     },
     "dashboard": {
-      "title": "Dashboard",
-      "stay_focused_rover": "Stay focused, Rover.",
+      "title": "Painel de Ferramentas",
+      "stay_focused_rover": "Mantenha o foco, Rover.",
       "welcome_rover": "Welcome, Rover.",
       "let_us_get_started": "Let's get you started, shall we?",
       "your_data_will_now_sync": "Your data will now sync on demand!",
@@ -432,36 +432,36 @@
         "words": {
           "pulls": "pulls",
           "pity": "pity",
-          "events": "events",
-          "statistics": "statistics",
-          "data": "data",
-          "updates": "updates"
+          "events": "eventos",
+          "statistics": "estatísticas",
+          "data": "dados",
+          "updates": "atualizações"
         },
         "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. We aim to provide the best tools to showcase your Wuthering Waves progress to your friends."
       },
       "changelog": {
-        "title": "Changelogs"
+        "title": "Alterações"
       },
       "about": {
-        "title": "About",
-        "what_is_wuwatracker": "What is WuWa Tracker?"
+        "title": "Sobre",
+        "what_is_wuwatracker": "O que é WuWa Tracker?"
       },
       "credits": {
-        "title": "Credits",
-        "heading": "Credits & Attributions",
+        "title": "Créditos",
+        "heading": "Créditos & Atribuições",
         "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
-        "special_thanks": "Special Thanks"
+        "special_thanks": "Agradecimentos Especiais"
       }
     },
     "settings": {
       "submit_to_global_stats": "Submit pull data for global statistics",
-      "create_profile_dialog": "You don't have a site profile yet",
+      "create_profile_dialog": "Ainda não tem um perfil no site",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
       "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
-      "all_profiles_delete": "Delete ALL User Profiles",
+      "all_profiles_delete": "Apagar TODOS os Perfis de Utilizador",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
       "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
@@ -469,14 +469,14 @@
       "privacy_global_stats_description": "Quando ativado, iremos usar o seu URL de Convocações para contar estatísticas globais",
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Import User Profile",
-      "user_profile": "User Profile",
+      "user_profile": "Perfil de Utilizador",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
       "pull_history": "Pull History Data",
       "pull_history_description": "Upload & download your local data via Google or your local device",
       "saves_your_pulls_to_google": "Saves your pulls to Google",
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
-      "pulls_file_import_dialog_title": "Import Local Pulls",
+      "pulls_file_import_dialog_title": "Importar Tiros Locais",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
@@ -494,7 +494,7 @@
       }
     },
     "import": {
-      "logs_not_updating_alert": "URL Expiration",
+      "logs_not_updating_alert": "Validade do URL",
       "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
       "first_open_game_history": "First, launch the game and open your in-game history details",
       "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
