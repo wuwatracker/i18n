@@ -496,7 +496,7 @@
     "import": {
       "logs_not_updating_alert": "URL 만료",
       "logs_not_updating_alert_description": "2025년 1월 14일 기준, PC 사용자들은 Kuro Games의 업데이트로 인해 게임 로깅 문제를 겪고 있습니다. 이를 디버깅하려면 </link>문제 해결 가이드</link>를 읽어보세요.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
+      "first_open_game_history": "먼저, 게임을 시작하고 게임 내 튜닝 기록을 여세요",
       "open_windows_powershell_and_run_script": "그 다음, Windows PowerShell을 열고, 아래의 스크립트를 붙여넣으세요.",
       "click_the_copy_button": "오른쪽의 복사 버튼을 클릭하세요.",
       "powershell_script_disclaimer": "참고: 이 스크립트는 파일을 조작하지 않으며, 간단히 로그에서 튜닝 기록 URL을 추출합니다. 스크립트는 <link>여기서 확인할 수 있습니다</link>.",
@@ -504,8 +504,8 @@
       "paste_the_json_here": "JSON 파일을 여기에 붙여넣으세요.",
       "press_the_import_history_button": "이 웹사이트의 \"기록 제출하기\" 버튼을 눌러주세요.",
       "go_to_installation_directory": "설치 경로를 찾으세요.",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
+      "go_to_installation_directory_description": "게임 런처를 우클릭 한 다음 <code>파일 위치 열기</code>를 클릭하세요. <code>launcher.exe</code>와 수많은 <code>.dll</code> 파일들을 볼 수 있습니다.",
+      "search_for_log": "<code>Client.log</code>를 찾고 여기에 업로드하세요",
       "airplane_mode": "Airplane Mode",
       "download_ascent": "Download and use Ascent to get your gacha history URL",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
@@ -513,9 +513,9 @@
       "download_ascent_troubleshooting": "만약 제대로 작동하지 않는다면, <link>문제 해결</link>부분을 확인하세요.",
       "ios_follow_tutorial_video": "비디오 튜토리얼을 따라해보세요",
       "ios_follow_tutorial_video_description": "원신이나 붕괴: 스타레일에서 뽑기 기록을 얻는 방법과 비슷합니다.이 비디오 튜토리얼을 따라, iO에서 데이터를 제출하세요.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
+      "ps5_press_the_options_button": "컨트롤러의 <code>옵션</code> 버튼을 누르세요",
       "ps5_click_on_page_information": "<code>페이지 정보</code> 버튼을 누르세요",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_enter_your_record_id": "여기에 <code>Uid</code> 와 <code>레코드 id</code> 를 입력하세요"
     }
   },
   "metadata": {
@@ -534,7 +534,7 @@
       "global": {
         "title": "글로벌 통계",
         "title_responsive": "<span>글로벌</span> 통계",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "description": "{currentFeaturedResonator} 를 기반으로 한 {currentBanner} 배너의 글로벌 통계를 보세요! 언제든 준비된 대시보드를 사용해 친구들에게 뽐내보세요! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
         "banner_title": "{name} 배너 통계",
         "banner_description": " {name} 배너의 글로벌 튜닝 통계를 보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       }
@@ -548,7 +548,7 @@
       "description": "명조: 워더링 웨이브 데이터를 표시하고 통계를 보기 위해 상호작용 튜토리얼을 따라 주세요. PC, Android 및 iOS 기기에서 자동으로 제출하는 것을 도와드릴 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
       "legacy": {
         "title": "예전 기록 제출 튜토리얼",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "description": "이전에 웹사이트를 사용해 보았는데 새 웹사이트에서 가챠 데이터를 찾을 수 없다면, 여기에서 레거시 가져오기 가이드를 따라보세요!"
       }
     },
     "not_found": {
