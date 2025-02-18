@@ -167,21 +167,21 @@
         "generic_title": "Ocorreu um erro",
         "no_banner": "Nenhum banner encontrado.",
         "relogin_to_sync": "Por favor, inicie sessão para sincronizar novamente.",
-        "no_auth_scopes": "Não está autorizado a dar upload para o Google Drive.",
+        "no_auth_scopes": "Não está autorizado a fazer upload para o Google Drive.",
         "auth_session_expired": "A sua sessão expirou.",
         "invalid_input_format": "Os dados introduzidos são inválidos",
         "unable_to_parse": "Estamos incapazes de examinar os seus dados",
         "unable_to_parse_remote_data": "Estamos incapazes de examinar os seus dados remotos",
         "download_failed": "O download falhou",
-        "client_log_required": "Precisa de dar upload a um ficheiro Client.log!",
+        "client_log_required": "Precisa de fazer upload a um ficheiro Client.log!",
         "cannot_find_convene_url": "Não conseguimos achar um URL de Convocações",
         "cannot_find_convene_url_description": "Certifique-se que o seu Client.log atualiza quando abrir o seu histórico, caso contrário, verifique a secção de Resolução de Problemas para obter ajuda.",
         "convene_url_expired": "O seu URL provavelmente expirou. Tente importar novamente.",
         "use_valid_player_id": "Precisa usar um ID de jogador ativo primeiro",
         "no_profile_to_download": "Sem perfis para baixar.",
         "no_pulls_to_download": "Sem tiros para baixar.",
-        "need_to_upload_specific_file": "Precisa dar upload a um {file}!",
-        "sync_no_pulls_to_upload": "Não tem nenhuns tiros para dar upload.",
+        "need_to_upload_specific_file": "Precisa fazer upload a um {file}!",
+        "sync_no_pulls_to_upload": "Não tem nenhuns tiros para fazer upload.",
         "sync_unavailable": "Não é possível sincronizar de momento.",
         "sync_no_remote_data_to_download": "Não tem nenhuns dados remotos para baixar.",
         "incorrect_input_file_description": "Isto é APENAS para importações no novo formato de histórico de tiros!"
@@ -205,26 +205,26 @@
         "sync_already_synced": "Os seus dados já estão sincronizados.",
         "google_drive_last_updated_at": "Google Drive atualizada a {date}",
         "nothing_to_sync": "Nada a sincronizar de momento.",
-        "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
-        "sync_updating_remote_file": "Updating remote copy for {fileName}..."
+        "sync_creating_file_in_google": "Criando {fileName} no Google Drive...",
+        "sync_updating_remote_file": "Atualizando cópia remota para {fileName}..."
       },
       "success": {
-        "successfully_imported_achievements": "Successfully imported your achievements.",
-        "successfully_imported_gacha_records": "Successfully imported your gacha records.",
-        "successfully_imported_profile": "Successfully imported your user profile.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
+        "successfully_imported_achievements": "Conquistas importadas com sucesso.",
+        "successfully_imported_gacha_records": "Registos de gacha importados com sucesso.",
+        "successfully_imported_profile": "Perfil de utilizador importado com sucesso.",
+        "successfully_imported_gacha_records_redirecting": "Redirecionando para o contador agora.",
         "create_profile": "Perfil para {playerId} criado com sucesso.",
-        "delete_pulls": "Successfully deleted all pulls for {playerId}.",
-        "delete_profiles": "Successfully deleted all user profiles.",
+        "delete_pulls": "Apagou todos os tiros de {playerId} com sucesso.",
+        "delete_profiles": "Apagou todos os perfis de utilizador com sucesso.",
         "sync_successfully_downloaded_remote_data": "Dados remotos baixados com sucesso.",
-        "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
+        "sync_successfully_created_remote_data": "Criou {fileName} no Google Drive com sucesso.",
         "sync_success": "Sincronização completa.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
+        "sync_success_updated_remote_file": "Atualizou cópia remota de {fileName}."
       },
       "warn": {
-        "this_cannot_be_undone": "This action cannot be undone!",
-        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
-        "this_does_not_include_your_pulls": "This does not include your pulls!"
+        "this_cannot_be_undone": "Esta ação não pode ser revertida!",
+        "disable_auto_profile_sync": "Para a sua segurança, isto também irá desativar a sincronização automática do perfil!",
+        "this_does_not_include_your_pulls": "Isto não inclui os seus tiros!"
       }
     },
     "form": {
@@ -233,10 +233,10 @@
       "search": "Procurar",
       "search_placeholder": "Procurar por algo...",
       "search_reset": "Recomeçar procura",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
-      "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
-      "type_to_confirm": "Type <strong></strong> to confirm",
-      "file_input": "Clique para dar upload ou arraste & largue",
+      "your_player_id_placeholder": "Seu ID de jogador de 9 dígitos (ex. 123456789)",
+      "your_player_id_validation": "Seu ID de jogador de 9 dígitos deve começar com 1, 5, 6, 7, 8 ou 9",
+      "type_to_confirm": "Digite <strong></strong> para confirmar",
+      "file_input": "Clique para fazer upload ou arraste & largue",
       "select_profile_placeholder_empty": "Nenhum perfil encontrado",
       "select_profile_placeholder_inactive": "Selecione perfil ativo",
       "filters": "Filtros",
@@ -260,7 +260,7 @@
       "cancel": "Cancelar",
       "download": "Download",
       "import_from_file": "Importar Pelos Ficheiros",
-      "upload_to_google": "Dar Upload para o Google",
+      "upload_to_google": "Fazer upload para o Google",
       "download_from_google": "Baixar pelo Google"
     },
     "time": {
@@ -273,7 +273,7 @@
       "event_has_ended": "O evento terminou",
       "your_local_time": "A sua Hora Local",
       "current_server_time": "Hora Atual do Servidor",
-      "resets_in": "Reinicia em",
+      "resets_in": "Reseta em",
       "some_time": "algum tempo",
       "months": {
         "January": "Janeiro",
@@ -314,8 +314,8 @@
       "local_data": "Dados Locais",
       "google_drive": "Google Drive",
       "from_file": "Por Ficheiro",
-      "tutorial_video": "Vídeo Tutorial",
-      "tutorial_video_description": "Follow this step-by-step video tutorial by <link></link>.",
+      "tutorial_video": "Tutorial em Vídeo",
+      "tutorial_video_description": "Siga este tutorial paço-a-paço em vídeo por <link></link>.",
       "edit_on_github": "Edite esta página no GitHub",
       "social_discord_cta": "Entre no nosso Servidor do Discord",
       "social_x_cta": "Siga-nos no X",
@@ -356,23 +356,23 @@
   "feature": {
     "support": {
       "troubleshooting": "Resolução de Problemas",
-      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "troubleshooting_description": "Se estiver experienciando problemas importando, consulte o nosso guia de resolução de problemas aqui.",
       "import": {
-        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
-        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
-        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
-        "other_q": "My problem doesn't seem to be here — what should I do?"
+        "log_files_missing_q": "O script diz \"localização de instalação não encontrada ou ficheiros log faltando\" — o que devo fazer?",
+        "url_expired_q": "Um erro diz que o meu \"URL provavelmente expirou\" — o que devo fazer?",
+        "error_while_fetching_q": "Um erro diz que \"ocorreu um erro enquanto procurava\" — o que devo fazer?",
+        "missing_old_pulls_q": "Não consigo achar os meus tiros antigos — onde eles estão?",
+        "support_other_imports_q": "Suporta importações de outros websites ou apps?",
+        "ps5_player_import_q": "Consigo importar sendo um jogador na PlayStation 5?",
+        "other_q": "O meu problema não está aqui — o que devo fazer?"
       }
     },
     "migration": {
-      "legacy_migration": "Upgrade your old pulls to the new format here",
+      "legacy_migration": "Atualize os seus velhos tiros para o novo formato aqui",
       "legacy": "Legado",
       "legacy_import": "Importar Tiros Antigos",
       "legacy_import_alert_title": "Apenas Para Utilizadores do Website Antigo",
-      "legacy_import_alert_description": "Nós NÃO CONSEGUIMOS recuperar tiros após o período de 6 meses de validade. Este importador do legado de tiros é feito apenas para utilizadores antigos do WuWa Tracker."
+      "legacy_import_alert_description": "Nós NÃO CONSEGUIMOS recuperar tiros após o período de 6 meses de validade. Este importador de legado de tiros é feito apenas para utilizadores antigos do WuWa Tracker."
     },
     "layout": {
       "banners": {
@@ -385,47 +385,47 @@
       "system_status": "Estado do Sistema",
       "legal": "Legal",
       "partners": "Parceiros",
-      "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
+      "disclaimer": "Isto é um projeto de fã independente, não afiliado nem apoiado por Kuro Games. Todos os recursos, conteúdo e trademarks pertencem aos seus respetivos proprietários."
     },
     "error": {
       "oops": "Whoops!",
-      "an_error_occured": "An <highlight>error</highlight> occured.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "an_error_occured": "Ocorreu um <highlight>erro</highlight>.",
+      "join_discord": "Por favor, <link>junte-se ao nosso Servidor do Discord</link> para fazer um relatório."
     },
     "achievements": {
       "no_achievements_found": "nenhuma conquista encontrada"
     },
     "tracker": {
       "banner_summary": "Sumário de Banner",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_description": "Selecione um banner para ter um resumo das estatísticas.",
       "luck": {
         "num_luck_rating_title": "{num}✦ Luck Rating",
         "top": "Top {percentile}%",
         "bottom": "Bottom {percentile}%",
-        "luckier": "Luckier than {percentile}% of players",
-        "unluckier": "Unluckier than {percentile}% of players",
+        "luckier": "Mais sortudo que {percentile}% dos jogadores",
+        "unluckier": "Mais azarado que {percentile}% dos jogadores",
         "avg_pity": "Pity Médio",
-        "avg_pity_description": "What is your average {qualityLevel}-star pity?",
+        "avg_pity_description": "Qual a média do seu pity {qualityLevel}-estrelas?",
         "pull_ratio": "Proporção de Tiros",
-        "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
+        "pull_ratio_description": "Que percentagem dos seus tiros totais foram {qualityLevel}-estrelas?",
         "coinflip_wins": "Vitórias de 50/50",
-        "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
+        "coinflip_wins_description": "Que percentagem de tiros 50/50 ganhou?",
         "rate_up_wins": "Vitórias de Destaques",
-        "rate_up_wins_description": "How often were your pulls rate-up?"
+        "rate_up_wins_description": "Quão frequente os seus tiros foram destaques?"
       }
     },
     "global_stats": {
       "rarity_pulls": "Tiros {num}✦",
       "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
       "banner_summary_title": "Sumário de Banner",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
-      "view_your_statistics_responsive": "<span>View</span> Your Statistics"
+      "banner_summary_description": "Selecione um banner para ter um resumo das estatísticas.",
+      "view_your_statistics_responsive": "<span>Veja</span> as Suas Estatísticas"
     },
     "dashboard": {
       "title": "Painel de Ferramentas",
       "stay_focused_rover": "Mantenha o foco, Rover.",
       "welcome_rover": "Bem vindo, Rover.",
-      "let_us_get_started": "Let's get you started, shall we?",
+      "let_us_get_started": "Vamos começar, certo?",
       "your_data_will_now_sync": "Agora os seus dados serão sincronizados quando solicitado!",
       "feature_header": "WuWa Tracker helps you <span></span> track",
       "greeting": {
@@ -449,20 +449,20 @@
       "credits": {
         "title": "Créditos",
         "heading": "Créditos & Atribuições",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
+        "heading_description": "Este website é possível graças a todas estas pessoas incríveis. Se o seu nome não foi listado aqui ou deseja ser removido, por favor nos contacte.",
         "special_thanks": "Agradecimentos Especiais"
       }
     },
     "settings": {
       "submit_to_global_stats": "Enviar dados de tiros para estatísticas globais",
       "create_profile_dialog": "Ainda não tem um perfil no site",
-      "create_profile_dialog_description": " We'll help you create one so that we can save your data",
-      "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
-      "active_profile_delete_pulls_description": "Isto irá apagar permanentemente TODOS os tiros associados com {playerId}. Por favor, faça back up dos seus dados primeiro e proceda com caução.",
-      "active_profile_delete_pulls_confirm": "Tem certeza que quer apagar TODOS os tiros do {playerId}?",
-      "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
+      "create_profile_dialog_description": " Iremos ajudá-lo criando um para podermos salvar os seus dados",
+      "active_profile_delete_pulls": "Apagar Dados de Tiros do Perfil Ativo",
+      "active_profile_delete_pulls_description": "Isto irá apagar permanentemente TODOS os tiros associados com {playerId}. Por favor, faça back up dos seus dados primeiro e continue com cuidado.",
+      "active_profile_delete_pulls_confirm": "Tem certeza que quer apagar TODOS os tiros de {playerId}?",
+      "not_responsible_undone_disclaimer": "Continuando, você toma conhecimento que nós não somos responsáveis pelos seus dados. Esta ação não pode ser revertida!",
       "all_profiles_delete": "Apagar TODOS os Perfis de Utilizador",
-      "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
+      "all_profiles_delete_description": "Isto irá apagar permanentemente TODOS os seus perfis de utilizador. Isto foi criado por motivos de teste. Por favor, faça back up dos seus dados primeiro e continue com cuidado.",
       "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
       "privacy_global_stats": "Contribuir para Estatísticas Globais",
@@ -470,27 +470,27 @@
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Importar Perfil de Utilizador",
       "user_profile": "Perfil de Utilizador",
-      "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "user_profile_description": "Selecione o seu perfil ativo para as conquistas, items e contador de tiros",
       "pull_history": "Dados de Hitórico de Tiros",
       "pull_history_description": "Faça upload & download dos seus dados locais através do Google ou do seu dispositivo local",
       "saves_your_pulls_to_google": "Salva os seus tiros para o Google",
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
-      "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
+      "overwrite_google_drive_data_description": "Fazer upload aos seus dados locais irão substituir os dados no seu Google Drive. Recomendamos fazer download a uma cópia primeiro.",
       "pulls_file_import_dialog_title": "Importar Tiros Locais",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+      "pulls_file_import_dialog_description": "NOTA: Isto apenas aceita tiros no nosso novo formato. Visite a página da <link>importação de legado</link> se quiser importar dados antigos criados antes de <code></code>.",
       "sync_preferences": "Sincronizar Preferências",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
       "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
+      "choose_server_timezone": "Escolher Fuso Horário do Servidor",
+      "choose_server_timezone_description": "Mostra as horas ajustadas ao seu fuso horário local",
       "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
       "reset_timers": {
-        "title": "Server Daily Reset Timers",
-        "description": "Compare your local time to the Wuthering Waves game servers to plan your next adventure.",
-        "disclaimer": "Other server timers are displayed in their local time."
+        "title": "Temporizadores do Reset Diário dos Servidores",
+        "description": "Compare o seu horário local ao dos servidores de jogo de Wuthering Waves para planejar a sua próxima aventura.",
+        "disclaimer": "Outros temporizadores de servidor são exibidos no horário local deles."
       }
     },
     "import": {
@@ -505,14 +505,14 @@
       "press_the_import_history_button": "Press the \"Import History\" button on this website",
       "go_to_installation_directory": "Go to your game's installation directory",
       "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
+      "search_for_log": "Procure por <code>Client.log</code> e faça upload aqui",
       "airplane_mode": "Avião",
-      "download_ascent": "Download and use Ascent to get your gacha history URL",
+      "download_ascent": "Baixe e use Ascent para pegar o seu URL do histórico de gacha",
       "download_ascent_description": "Parecido a pegar o seu histórico em Genshin Impact ou Honkai Star Rail, siga este <link>guia por Mirai0009</link> para baixar e usar o <ascent>Ascent v2.1.6</ascent> para obter o seu URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
+      "download_ascent_disclaimer": "NOTA: Este método só é suportado para a versão 11 e superior de Android.",
+      "download_ascent_troubleshooting": "Se não está funcionando corretamente, verifique a <link>secção de resolução de problemas</link>.",
+      "ios_follow_tutorial_video": "Siga o nosso tutorial em vídeo",
+      "ios_follow_tutorial_video_description": "Parecido a pegar o seu histórico em Genshin Impact ou Honkai Star Rail, siga este tutorial em vídeo para importar os seus dados no iOS.",
       "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
       "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
       "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
@@ -533,9 +533,9 @@
       },
       "global": {
         "title": "Estatísticas Globais",
-        "title_responsive": "<span>Global</span> Statistics",
+        "title_responsive": "Estatísticas <span>Globais</span>",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
+        "banner_title": "Estatísticas do Banner {name}",
         "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       }
     },
@@ -569,7 +569,7 @@
     },
     "timeline": {
       "title": "Cronograma de Eventos",
-      "description": "Usando o seu fuso horário local ou qualquer fuso horário dos servidores de Wuthering Waves, pode ver os horários de todos os banners, eventos no jogo, períodos da Torre da Adversidade & Profundezas do Reino Ilusório - tudo num só lugar. WuWa Tracker, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros como os seus amigos e acompanhe sua conta!"
+      "description": "Usando o seu fuso horário local ou qualquer fuso horário dos servidores de Wuthering Waves, você pode ver os horários de todos os banners, eventos no jogo, períodos da Torre da Adversidade & Profundezas do Reino Ilusório - tudo num só lugar. WuWa Tracker, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros como os seus amigos e acompanhe sua conta!"
     },
     "wiki": {
       "resonator": {
@@ -591,7 +591,7 @@
     },
     "support": {
       "title": "Suporte",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "description": "Precisa de ajuda baixando os seus dados de tiros de Wuthering Waves? Quer saber como o WuWa Tracker utiliza os seus dados? Veja o FAQ de WuWa Tracker aqui!"
     }
   }
 }
