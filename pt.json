@@ -183,8 +183,8 @@
         "need_to_upload_specific_file": "Precisa dar upload a um {file}!",
         "sync_no_pulls_to_upload": "Não tem nenhuns tiros para dar upload.",
         "sync_unavailable": "Não é possível sincronizar de momento.",
-        "sync_no_remote_data_to_download": "You don't have any remote data to download.",
-        "incorrect_input_file_description": "This is for new pull history format imports ONLY!"
+        "sync_no_remote_data_to_download": "Não tem nenhuns dados remotos para baixar.",
+        "incorrect_input_file_description": "Isto é APENAS para importações no novo formato de histórico de tiros!"
       },
       "info": {
         "connecting_google": "Tentando conectar ao Google Drive",
@@ -204,7 +204,7 @@
         "download_will_start_shortly": "O download irá começar brevemente.",
         "sync_already_synced": "Os seus dados já estão sincronizados.",
         "google_drive_last_updated_at": "Google Drive atualizada a {date}",
-        "nothing_to_sync": "Nothing to sync at the moment.",
+        "nothing_to_sync": "Nada a sincronizar de momento.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
         "sync_updating_remote_file": "Updating remote copy for {fileName}..."
       },
@@ -216,7 +216,7 @@
         "create_profile": "Perfil para {playerId} criado com sucesso.",
         "delete_pulls": "Successfully deleted all pulls for {playerId}.",
         "delete_profiles": "Successfully deleted all user profiles.",
-        "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
+        "sync_successfully_downloaded_remote_data": "Dados remotos baixados com sucesso.",
         "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
         "sync_success": "Sincronização completa.",
         "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
@@ -261,7 +261,7 @@
       "download": "Download",
       "import_from_file": "Importar Pelos Ficheiros",
       "upload_to_google": "Dar Upload para o Google",
-      "download_from_google": "Download pelo Google"
+      "download_from_google": "Baixar pelo Google"
     },
     "time": {
       "invalid_date": "Data inválida",
@@ -454,7 +454,7 @@
       }
     },
     "settings": {
-      "submit_to_global_stats": "Submit pull data for global statistics",
+      "submit_to_global_stats": "Enviar dados de tiros para estatísticas globais",
       "create_profile_dialog": "Ainda não tem um perfil no site",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
@@ -465,14 +465,14 @@
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
       "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
-      "privacy_global_stats": "Contribute to Global Statistics",
+      "privacy_global_stats": "Contribuir para Estatísticas Globais",
       "privacy_global_stats_description": "Quando ativado, iremos usar o seu URL de Convocações para contar estatísticas globais",
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
-      "import_user_profile": "Import User Profile",
+      "import_user_profile": "Importar Perfil de Utilizador",
       "user_profile": "Perfil de Utilizador",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
       "pull_history": "Dados de Hitórico de Tiros",
-      "pull_history_description": "Upload & download your local data via Google or your local device",
+      "pull_history_description": "Faça upload & download dos seus dados locais através do Google ou do seu dispositivo local",
       "saves_your_pulls_to_google": "Salva os seus tiros para o Google",
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
@@ -508,7 +508,7 @@
       "search_for_log": "Search for <code>Client.log</code> and upload it here",
       "airplane_mode": "Avião",
       "download_ascent": "Download and use Ascent to get your gacha history URL",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link> to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
+      "download_ascent_description": "Parecido a pegar o seu histórico em Genshin Impact ou Honkai Star Rail, siga este <link>guia por Mirai0009</link> para baixar e usar o <ascent>Ascent v2.1.6</ascent> para obter o seu URL.",
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
       "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
