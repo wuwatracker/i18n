@@ -184,7 +184,7 @@
         "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk diunggah.",
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
-        "incorrect_input_file_description": "Ini HANYA untuk impor format riwayat pull yang baru saja!"
+        "incorrect_input_file_description": "Ini HANYA untuk megimpor riwayat pull dengan format terbaru saja!"
       },
       "info": {
         "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
@@ -233,7 +233,7 @@
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
       "search_reset": "Reset pencarian",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
+      "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
@@ -425,9 +425,9 @@
       "title": "Dasbor",
       "stay_focused_rover": "Tetaplah fokus, Rover.",
       "welcome_rover": "Selamat datang, Rover.",
-      "let_us_get_started": "Mari kita mulai, bagaimana?",
-      "your_data_will_now_sync": "Mulai sekarang data Anda akan tersinkronisasikan sesuai permintaan!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "let_us_get_started": "Bagaimana kalau kita mulai?",
+      "your_data_will_now_sync": "Data Anda akan tersinkronisasi secara otomatis!",
+      "feature_header": "WuWa Tracker membantu Anda <span></span> melacak",
       "greeting": {
         "words": {
           "pulls": "pull",
@@ -513,9 +513,9 @@
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
       "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
-      "ps5_press_the_options_button": "Tekan tombol <code>Opsi</code> pada kontroler Anda",
-      "ps5_click_on_page_information": "Tekan tombol <code>Informasi Halaman</code>",
-      "ps5_enter_your_record_id": "Masukkan <code>id_pemain</code> dan <code>id_riwayat</code> Anda di sini"
+      "ps5_press_the_options_button": "Tekan tombol <code>Options</code> pada kontroler Anda",
+      "ps5_click_on_page_information": "Tekan tombol <code>Page Information</code>",
+      "ps5_enter_your_record_id": "Masukkan <code>player_id</code> dan <code>record_id</code> Anda di sini"
     }
   },
   "metadata": {
