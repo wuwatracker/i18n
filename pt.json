@@ -211,11 +211,11 @@
       "success": {
         "successfully_imported_achievements": "Conquistas importadas com sucesso.",
         "successfully_imported_gacha_records": "Registos de gacha importados com sucesso.",
-        "successfully_imported_profile": "Perfil de utilizador importado com sucesso.",
+        "successfully_imported_profile": "Perfil de usuário importado com sucesso.",
         "successfully_imported_gacha_records_redirecting": "Redirecionando para o contador agora.",
         "create_profile": "Perfil para {playerId} criado com sucesso.",
         "delete_pulls": "Apagou todos os tiros de {playerId} com sucesso.",
-        "delete_profiles": "Apagou todos os perfis de utilizador com sucesso.",
+        "delete_profiles": "Apagou todos os perfis de usuário com sucesso.",
         "sync_successfully_downloaded_remote_data": "Dados remotos baixados com sucesso.",
         "sync_successfully_created_remote_data": "Criou {fileName} no Google Drive com sucesso.",
         "sync_success": "Sincronização completa.",
@@ -371,8 +371,8 @@
       "legacy_migration": "Atualize os seus velhos tiros para o novo formato aqui",
       "legacy": "Legado",
       "legacy_import": "Importar Tiros Antigos",
-      "legacy_import_alert_title": "Apenas Para Utilizadores do Website Antigo",
-      "legacy_import_alert_description": "Nós NÃO CONSEGUIMOS recuperar tiros após o período de 6 meses de validade. Este importador de legado de tiros é feito apenas para utilizadores antigos do WuWa Tracker."
+      "legacy_import_alert_title": "Apenas Para Usuários do Website Antigo",
+      "legacy_import_alert_description": "Nós NÃO CONSEGUIMOS recuperar tiros após o período de 6 meses de validade. Este importador de legado de tiros é feito apenas para usuários antigos do WuWa Tracker."
     },
     "layout": {
       "banners": {
@@ -399,9 +399,9 @@
       "banner_summary": "Sumário de Banner",
       "banner_summary_description": "Selecione um banner para ter um resumo das estatísticas.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Luck Rating",
+        "num_luck_rating_title": "Avaliação de Sorte {num}✦",
         "top": "Top {percentile}%",
-        "bottom": "Bottom {percentile}%",
+        "bottom": "{percentile}% Finais",
         "luckier": "Mais sortudo que {percentile}% dos jogadores",
         "unluckier": "Mais azarado que {percentile}% dos jogadores",
         "avg_pity": "Pity Médio",
@@ -416,7 +416,7 @@
     },
     "global_stats": {
       "rarity_pulls": "Tiros {num}✦",
-      "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
+      "rarity_pulls_per_pity": "Tiros {num}✦ por Pity",
       "banner_summary_title": "Sumário de Banner",
       "banner_summary_description": "Selecione um banner para ter um resumo das estatísticas.",
       "view_your_statistics_responsive": "<span>Veja</span> as Suas Estatísticas"
@@ -427,7 +427,7 @@
       "welcome_rover": "Bem vindo, Rover.",
       "let_us_get_started": "Vamos começar, certo?",
       "your_data_will_now_sync": "Agora os seus dados serão sincronizados quando solicitado!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "feature_header": "WuWa Tracker ajuda você <span></span> contar",
       "greeting": {
         "words": {
           "pulls": "tiros",
@@ -437,7 +437,7 @@
           "data": "dados",
           "updates": "atualizações"
         },
-        "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. We aim to provide the best tools to showcase your Wuthering Waves progress to your friends."
+        "description": "Um contador de pity para Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Almejamos fornecer as melhores ferramentas para mostrar o seu progresso em Wuthering Waves para os seus amigos."
       },
       "changelog": {
         "title": "Alterações"
@@ -461,32 +461,32 @@
       "active_profile_delete_pulls_description": "Isto irá apagar permanentemente TODOS os tiros associados com {playerId}. Por favor, faça back up dos seus dados primeiro e continue com cuidado.",
       "active_profile_delete_pulls_confirm": "Tem certeza que quer apagar TODOS os tiros de {playerId}?",
       "not_responsible_undone_disclaimer": "Continuando, você toma conhecimento que nós não somos responsáveis pelos seus dados. Esta ação não pode ser revertida!",
-      "all_profiles_delete": "Apagar TODOS os Perfis de Utilizador",
-      "all_profiles_delete_description": "Isto irá apagar permanentemente TODOS os seus perfis de utilizador. Isto foi criado por motivos de teste. Por favor, faça back up dos seus dados primeiro e continue com cuidado.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
-      "privacy_description": "Opt-in or out of settings related to your data privacy",
+      "all_profiles_delete": "Apagar TODOS os Perfis de Usuário",
+      "all_profiles_delete_description": "Isto irá apagar permanentemente TODOS os seus perfis de usuário. Isto foi criado por motivos de teste. Por favor, faça back up dos seus dados primeiro e continue com cuidado.",
+      "all_profiles_delete_confirm": "Tem a certeza que quer apagar TODOS os seus perfis de usuário?",
+      "privacy_description": "Aceitar ou recusar as configurações relacionadas à privacidade dos seus dados",
       "privacy_global_stats": "Contribuir para Estatísticas Globais",
       "privacy_global_stats_description": "Quando ativado, iremos usar o seu URL de Convocações para contar estatísticas globais",
-      "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
-      "import_user_profile": "Importar Perfil de Utilizador",
-      "user_profile": "Perfil de Utilizador",
+      "privacy_footer_policy_link": "A nossa <link>Política de Privacidade</link> tem mais detalhes sobre como manejamos os seus dados.",
+      "import_user_profile": "Importar Perfil de Usuário",
+      "user_profile": "Perfil de Usuário",
       "user_profile_description": "Selecione o seu perfil ativo para as conquistas, items e contador de tiros",
       "pull_history": "Dados de Hitórico de Tiros",
       "pull_history_description": "Faça upload & download dos seus dados locais através do Google ou do seu dispositivo local",
       "saves_your_pulls_to_google": "Salva os seus tiros para o Google",
-      "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
+      "overwrite_google_drive_data": "Gostaria de substituir os seus dados no Google Drive?",
       "overwrite_google_drive_data_description": "Fazer upload aos seus dados locais irão substituir os dados no seu Google Drive. Recomendamos fazer download a uma cópia primeiro.",
       "pulls_file_import_dialog_title": "Importar Tiros Locais",
       "pulls_file_import_dialog_description": "NOTA: Isto apenas aceita tiros no nosso novo formato. Visite a página da <link>importação de legado</link> se quiser importar dados antigos criados antes de <code></code>.",
       "sync_preferences": "Sincronizar Preferências",
-      "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
-      "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
+      "sync_preferences_description": "Aceitar ou recusar sincronização automática do Google Drive com os seus dados",
+      "sync_preferences_profile_description": "Perfis contêm dados NÃO RELACIONADOS A TIROS como conquistas, items, entre outros.",
+      "you_can_manually_sync_reminder": "Pode sincronizar manualmente com o botão <code>Sincronizar</code> no menu do perfil."
     },
     "timeline": {
       "choose_server_timezone": "Escolher Fuso Horário do Servidor",
       "choose_server_timezone_description": "Mostra as horas ajustadas ao seu fuso horário local",
-      "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
+      "timeline_description": "Veja eventos de Wuthering Waves no seu fuso horário local ou em outros <link>Horários de Servidor</link>.",
       "reset_timers": {
         "title": "Temporizadores do Reset Diário dos Servidores",
         "description": "Compare o seu horário local ao dos servidores de jogo de Wuthering Waves para planejar a sua próxima aventura.",
@@ -495,16 +495,16 @@
     },
     "import": {
       "logs_not_updating_alert": "Validade do URL",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
+      "logs_not_updating_alert_description": "A partir de 14 janeiro 2025, usuários no PC têm vindo a experienciar problemas iniciando sessão no seu jogo suspeitado ser devido a uma atualização por Kuro Games. Leio o nosso <link>Guia de Resolução de Problemas</link> para desbugar.",
+      "first_open_game_history": "Primeiro, inicie o jogo e abra o seu histórico no jogo",
+      "open_windows_powershell_and_run_script": "Depois, abra o Windows PowerShell, e cole o seguinte script.",
       "click_the_copy_button": "Clique no botão de copiar canto no inferior direito",
       "powershell_script_disclaimer": "NOTA: O script não edita os seus ficheiros, simplesmente extrai o seu URL do Histórico de Convocações dos registos do seu jogo. Pode ver o script <link>aqui</link>.",
       "paste_the_url_here": "Cole o URL aqui",
       "paste_the_json_here": "Cole o JSON aqui",
-      "press_the_import_history_button": "Press the \"Import History\" button on this website",
-      "go_to_installation_directory": "Go to your game's installation directory",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
+      "press_the_import_history_button": "Pressione o botão \"Importar Histórico\" neste website",
+      "go_to_installation_directory": "Vá para o seu diretório de instalação do jogo",
+      "go_to_installation_directory_description": "Clique com o botão direito do mouse no launcher de Wuthering Waves e selecione <code>Abrir localização do ficheiro</code>. Deverá ver <code>launcher.exe</code> e muitos ficheiros <code>.dll</code>.",
       "search_for_log": "Procure por <code>Client.log</code> e faça upload aqui",
       "airplane_mode": "Avião",
       "download_ascent": "Baixe e use Ascent para pegar o seu URL do histórico de gacha",
@@ -513,9 +513,9 @@
       "download_ascent_troubleshooting": "Se não está funcionando corretamente, verifique a <link>secção de resolução de problemas</link>.",
       "ios_follow_tutorial_video": "Siga o nosso tutorial em vídeo",
       "ios_follow_tutorial_video_description": "Parecido a pegar o seu histórico em Genshin Impact ou Honkai Star Rail, siga este tutorial em vídeo para importar os seus dados no iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_press_the_options_button": "Pressione o botão das <code>Configurações</code> no seu controle",
+      "ps5_click_on_page_information": "Pressione o botão de <code>Informação da Página</code>",
+      "ps5_enter_your_record_id": "Insira o seu <code>player_id</code> e <code>record_id</code> aqui"
     }
   },
   "metadata": {
@@ -548,7 +548,7 @@
       "description": "Siga o nosso tutorial interativo para ver os seus dados e estatísticas de Wuthering Waves. Suportamos importações de dispositivos PC, Android e iOS com métodos automáticos. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros com os seus amigos e acompanhe a sua conta!",
       "legacy": {
         "title": "Tutorial de Importação de Legado",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "description": "Se usou o nosso website antes e não consegue achar os seus dados de tiros no novo website, deveria seguir o nosso guia de importação de legado aqui!"
       }
     },
     "not_found": {
