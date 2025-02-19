@@ -534,9 +534,9 @@
       "global": {
         "title": "Estatísticas Globais",
         "title_responsive": "Estatísticas <span>Globais</span>",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "description": "Veja estatísticas de tiros globais para o banner {currentBanner}, destacando {currentFeaturedResonator}! Use painéis prontos para screenshots para se gabar aos seus amigos! WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros com os seus amigos e acompanhe sua conta!",
         "banner_title": "Estatísticas do Banner {name}",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "banner_description": "Veja estatísticas de tiros globais para o banner {name}. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros com os seus amigos e acompanhe sua conta!"
       }
     },
     "error": {
@@ -574,20 +574,20 @@
     "wiki": {
       "resonator": {
         "title": "Resonators",
-        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Veja informações sobre os Resonators de Wuthering Waves, perfis, e use a calculadora de materiais de WuWa Tracker para planejar as melhorias de seus Resonators. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
       },
       "item": {
         "title": "Items",
-        "description": "View Wuthering Waves item information, drop locations, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Veja informações de items, localizações de drop, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
       },
       "weapon": {
         "title": "Armas",
-        "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "Veja informações das armas, atributos, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
       }
     },
     "planner": {
       "title": "Planeador de Materiais",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "description": "A melhor calculadora de Wuthering Waves para planejar o nível de Ascenção e habilidades dos Resonators, e materiais de EXP! WuWa Tracker tem uma grande variedade de ferramentas para melhorar a sua experiência de jogo."
     },
     "support": {
       "title": "Suporte",
