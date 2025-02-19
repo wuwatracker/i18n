@@ -92,7 +92,7 @@
         "Legend of Drunken Hero": "酩酊的英雄志",
         "Lunar Cutter": "西升",
         "Lumingloss": "飛景",
-        "Luminous Hymn": "Luminous Hymn",
+        "Luminous Hymn": "和光回唱",
         "Lustrous Razor": "浩境粼光",
         "Marcato": "呼啸重音",
         "Meditations on Mercy": "容赦的沉思錄",
@@ -135,7 +135,7 @@
         "Tyro Rectifier": "原初音感儀‧聽浪",
         "Tyro Sword": "原初迅刀‧鳴雨",
         "Undying Flame": "無眠烈火",
-        "Unflickering Valor": "Unflickering Valor",
+        "Unflickering Valor": "不滅航路",
         "Variation": "奇幻變奏",
         "Verdant Summit": "蒼鱗千嶂",
         "Rime-Draped Sprouts": "瓊枝冰綃",
@@ -427,7 +427,7 @@
       "welcome_rover": "歡迎，漂泊者。",
       "let_us_get_started": "讓我們開始吧？如何？",
       "your_data_will_now_sync": "您的資料將由手動同步！",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "feature_header": "WuWa Tracker 協助您 <span></span> 紀錄",
       "greeting": {
         "words": {
           "pulls": "喚取數量",
