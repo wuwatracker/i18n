@@ -344,12 +344,12 @@
       "privacy": "Quyền riêng tư",
       "on": "Bật",
       "off": "Tắt",
-      "toggle": "Toggle",
+      "toggle": "Chuyển đổi",
       "signed_out": "Đã đăng xuất",
       "out_of_sync": "Chưa đồng bộ",
       "synced": "Đã đồng bộ",
       "downloads_and_merges": "Tải xuống và gộp vào lịch sử triệu hồi của bạn",
-      "image_preview": "Image Preview",
+      "image_preview": "Hình ảnh minh họa",
       "close": "đóng"
     }
   },
