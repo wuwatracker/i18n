@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Rarity",
       "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes"
+      "recent_convenes": "สุ่มได้ล่าสุด"
     },
     "phrase": {
       "import_data": "Import Data",
@@ -146,18 +146,18 @@
         "Waning Redshift": "Waning Redshift"
       },
       "banners": {
-        "Featured Resonator": "Featured Resonator",
-        "Featured Weapon": "Featured Weapon",
-        "Permanent Resonator": "Permanent Resonator",
-        "Permanent Weapon": "Permanent Weapon",
-        "Novice Convene": "Novice Convene",
-        "Beginner's Choice": "Beginner's Choice",
-        "Selector Ticket": "Selector Ticket",
-        "Tidal Chorus": "Tidal Chorus",
+        "Featured Resonator": "ตู้กาชาตัวละครลิมิเต็ด",
+        "Featured Weapon": "ตู้กาชาอาวุธลิมิเต็ด",
+        "Permanent Resonator": "ตู้กาชาตัวละครถาวร",
+        "Permanent Weapon": "ตู้กาชาอาวุธถาวร",
+        "Novice Convene": "ตู้กาชาเริ่มต้น",
+        "Beginner's Choice": "ตู้เลือกตัวละครมือใหม่",
+        "Selector Ticket": "จำนวนตั๋วที่ถูกใช้",
+        "Tidal Chorus": "ตู้กาชาตัวละครถาวร",
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
-        "Beginner's Choice Convene": "Beginner's Choice Convene",
-        "Giveback Event Convene": "Giveback Event Convene"
+        "Beginner's Choice Convene": "ตู้กาชาเลือกตัวละครมือใหม่",
+        "Giveback Event Convene": "ตั๋วเลือกตัวละครถาวร"
       }
     }
   },
