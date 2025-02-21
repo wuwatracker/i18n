@@ -358,13 +358,13 @@
       "troubleshooting": "การแก้ไขปัญหา",
       "troubleshooting_description": "หากคุณประสบปัญหาในการนำเข้าประวัติ สามารถดูคู่มือการแก้ไขปัญหาได้ที่นี่",
       "import": {
-        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
-        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
-        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
-        "other_q": "My problem doesn't seem to be here — what should I do?"
+        "log_files_missing_q": "สคริปต์แสดงข้อความว่า \"install location not found or log files missing\" — ควรทำอย่างไรดี?",
+        "url_expired_q": "พบข้อผิดพลาดบอกว่า \"URL probably expired\" — ควรทำอย่างไรดี?",
+        "error_while_fetching_q": "พบข้อผิดพลาดบอกว่า \"error occured while fetching\" — ควรทำอย่างไรดี?",
+        "missing_old_pulls_q": "ฉันหาข้อมูลการสุ่มเก่าของฉันไม่เจอ — มันหายไปไหน?",
+        "support_other_imports_q": "รองรับการนำเข้าจากเว็บไซต์หรือแอปอื่นๆหรือไม่?",
+        "ps5_player_import_q": "ฉันสามารถนำเข้าข้อมูลผู้เล่น PlayStation 5 ได้หรือไม่?",
+        "other_q": "ปัญหาของฉันดูเหมือนจะไม่พบที่นี่ — ควรทำอย่างไรดี?"
       }
     },
     "migration": {
@@ -406,7 +406,7 @@
         "unluckier": "โชคร้ายกว่า {percentile}% ของผู้เล่นทั้งหมด",
         "avg_pity": "การันตีการสุ่มได้โดยเฉลี่ย",
         "avg_pity_description": "ค่าเฉลี่ยการสุ่มได้ {qualityLevel} ดาว (คำนวณจากการได้ {qualityLevel} ดาวทุกรอบ เฉลี่ยแล้วตกตัวละกี่โรล)",
-        "pull_ratio": "อัตราส่วนการสุ่มได้เทียบการสุ่มทั้งหมด",
+        "pull_ratio": "อัตราส่วนการสุ่มได้",
         "pull_ratio_description": "เปอร์เซ็นต์การสุ่มของคุณที่ได้ตัว {qualityLevel} ดาวต่อการสุ่มของคุณทั้งหมด",
         "coinflip_wins": "ไม่หลุดเรท 50/50",
         "coinflip_wins_description": "เปอร์เซ็นต์ที่คุณชนะการโดนหลุดเรท 50/50 เทียบจากสุ่มทั้งหมด",
@@ -509,13 +509,13 @@
       "airplane_mode": "ใช้โหมดเครื่องบิน",
       "download_ascent": "ดาวน์โหลดและใช้ Ascent เพื่อรับ URL ประวัติกาชาของคุณ",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "download_ascent_disclaimer": "หมายเหตุ: วิธีนี้รองรับเฉพาะ Android เวอร์ชัน 11 ขึ้นไป",
+      "download_ascent_troubleshooting": "หากวิธีนี้ทำงานไม่ถูกต้อง สามารถกดเช็คได้ที่ <link>Troubleshooting Section</link>.",
+      "ios_follow_tutorial_video": "ขั้นตอนแรก ทำตามวิดีสอนใช้งานของพวกเรา",
+      "ios_follow_tutorial_video_description": "วิธีจะคล้ายกับการรับประวัติใน Genshin Impact หรือ Honkai Star Rail สามารถทำตามวิดีโอแนะนำวิธีการนำเข้าข้อมูลใน iOS",
+      "ps5_press_the_options_button": "กดปุ่ม <code>Options</code> บนคอนโทรลเลอร์ของคุณ",
+      "ps5_click_on_page_information": "กดปุ่ม <code>Page Information</code>",
+      "ps5_enter_your_record_id": "กรอก <code>Player ID</code> และ <code>Record ID</code> ของคุณที่นี่"
     }
   },
   "metadata": {
@@ -524,19 +524,19 @@
     },
     "achievements": {
       "title": "ความสำเร็จ",
-      "description": "ติดตามความสำเร็จใน Wuthering Waves ของคุณนำเข้าหรือส่งออกข้อมูลของคุณระหว่างอุปกรณ์ได้อย่างอิสระ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
+      "description": "ติดตามความสำเร็จใน Wuthering Waves ของคุณนำเข้าหรือส่งออกข้อมูลของคุณระหว่างอุปกรณ์ได้อย่างอิสระ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการสุ่มของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title": "ติดตามประวัติการสุ่ม",
+        "description": "คุณสามารถดูสถิติการสุ่มและประวัติการสุ่มล่าสุดใน Wuthering Waves ของคุณและสามารถใช้แดชบอร์ดเพื่ออวดเพื่อนๆ ของคุณ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       },
       "global": {
         "title": "สถิติทั้งหมดโดยรวม",
-        "title_responsive": "<span>Global</span> Statistics",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title_responsive": "<span>สถิติทั้งหมดโดยรวม</span>",
+        "description": "เช็คสถิติทั่วโลกสำหรับตู้แบนเนอร์ {currentBanner} โดย {currentFeaturedResonator} เป็นตัวหน้าตู้ สามารถใช้แดชบอร์ดเพื่ออวดเพื่อนๆ ของคุณ!. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!",
+        "banner_title": "{name} กาชาสถิติ",
+        "banner_description": "เช็คสถิติทั่วโลกสำหรับตู้แบนเนอร์ {name} โดยเป็นตัวหน้าตู้ สามารถใช้แดชบอร์ดเพื่ออวดเพื่อนๆ ของคุณ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       }
     },
     "error": {
@@ -547,8 +547,8 @@
       "title": "นำเข้าข้อมูล",
       "description": "คู่มือแสดงข้อมูล Wuthering Waves และดูสถิติของคุณ แพลตฟอร์มเรารองรับการนำเข้าข้อมูลจาก PC, Android และ iOS ด้วยวิธีการอัตโนมัติ. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "title": "ไปที่การนำเข้าข้อมูล",
+        "description": "หากคุณเคยใช้เว็บไซต์ของเรามาก่อนและไม่พบข้อมูลการสุ่มในเว็บไซต์ใหม่ คุณควรทำตามคู่มือการนำเข้ารุ่นเก่าของเราที่นี่!"
       }
     },
     "not_found": {
@@ -574,24 +574,24 @@
     "wiki": {
       "resonator": {
         "title": "เรโซเนเตอร์",
-        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "ดูข้อมูลเรโซเนเตอร์ของ Wuthering Waves และใช้คำนวณวัตถุดิบผ่าน WuWa Tracker เพื่อวางแผนการอัพเกรดเรโซเนเตอร์ของคุณ. WuWa Tracker เป็น อุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       },
       "item": {
         "title": "ไอเทม",
-        "description": "View Wuthering Waves item information, drop locations, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "ดูข้อมูลไอเท็มของ Wuthering Waves. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       },
       "weapon": {
         "title": "อาวุธ",
-        "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "description": "ดูข้อมูลไอเท็มของ Wuthering Waves. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       }
     },
     "planner": {
       "title": "แพลนเนอร์จัดระเบียบ",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "description": "เครื่องคำนวณ Wuthering Waves ที่ทรงพลังที่สุด ใช้สำหรับการวางแผนจัดการเรโซเนเตอร์ สกิล และวัตถุดิบ EXP WuWa Tracker เป็นชุดเครื่องมือ Wuthering Waves ชั้นนำสำหรับผู้เล่นทุกคน"
     },
     "support": {
-      "title": "Support",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "title": "สนับสนุน",
+      "description": "ต้องการความช่วยเหลือในการดาวน์โหลดข้อมูลการสุ่มของ Wuthering Waves หรือไม่? ดูคำถามที่พบบ่อยของ WuWa Tracker ได้ที่นี่!"
     }
   }
 }
