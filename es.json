@@ -362,14 +362,14 @@
         "url_expired_q": "Un error dice \"URL probably expired\", ¿qué debería hacer?",
         "error_while_fetching_q": "Un error dice \"error occured while fetching\", ¿qué debería hacer?",
         "missing_old_pulls_q": "No puedo encontrar mis antiguas invocaciones, ¿dónde están?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
+        "support_other_imports_q": "¿Admiten la importación desde otras páginas web o aplicaciones?",
         "ps5_player_import_q": "¿Puedo importar como un jugador de PlayStation 5?",
         "other_q": "Mi problema no aparece aquí, ¿qué debería hacer?"
       }
     },
     "migration": {
       "legacy_migration": "Mejora tus antiguas tiradas al nuevo formato aquí",
-      "legacy": "Legacy",
+      "legacy": "Antiguo",
       "legacy_import": "Importar Invocaciones antiguas",
       "legacy_import_alert_title": "Solo para los usuarios de la antigua página web",
       "legacy_import_alert_description": "NO PODEMOS recuperar las tiradas después del período de caducidad de 6 meses. Este importador de tiradas antiguas es solo para los usuarios antiguos de WuWa Tracker."
@@ -427,7 +427,7 @@
       "welcome_rover": "Bienvenido, Errante.",
       "let_us_get_started": "Vamos a empezar, ¿de acuerdo?",
       "your_data_will_now_sync": "¡Ahora tus datos se sincronizarán cuando quieras!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "feature_header": "WuWa Tracker te ayuda a seguir tus <span></span>",
       "greeting": {
         "words": {
           "pulls": "tiradas",
@@ -440,24 +440,24 @@
         "description": "Un contador de pity para Wuthering Waves, usando los datos más recientes con las estadísticas globales, y más. Nuestro objetivo es proporcionar las mejores herramientas para mostrar tu progreso en Wuthering Waves a tus amigos."
       },
       "changelog": {
-        "title": "Changelogs"
+        "title": "Registro de cambios"
       },
       "about": {
-        "title": "About",
-        "what_is_wuwatracker": "What is WuWa Tracker?"
+        "title": "Sobre nosotros",
+        "what_is_wuwatracker": "¿Qué es WuWa Tracker?"
       },
       "credits": {
-        "title": "Credits",
-        "heading": "Credits & Attributions",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
-        "special_thanks": "Special Thanks"
+        "title": "Créditos",
+        "heading": "Créditos y reconocimientos",
+        "heading_description": "Esta página web se hizo gracias a todas estas increíbles personas. Si tu nombre no aparece aquí o deseas que te borren, por favor ponte en contacto con nosotros.",
+        "special_thanks": "Agradecimientos especiales"
       }
     },
     "settings": {
-      "submit_to_global_stats": "Submit pull data for global statistics",
-      "create_profile_dialog": "You don't have a site profile yet",
-      "create_profile_dialog_description": " We'll help you create one so that we can save your data",
-      "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
+      "submit_to_global_stats": "Añadir los datos de tus tiradas a las estadísticas globales",
+      "create_profile_dialog": "Aún no tienes un perfil",
+      "create_profile_dialog_description": " Te ayudaremos a crear uno para que puedas guardar tus datos",
+      "active_profile_delete_pulls": "Eliminar datos de tiradas en el perfil activo",
       "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
@@ -469,14 +469,14 @@
       "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Import User Profile",
-      "user_profile": "User Profile",
+      "user_profile": "Perfil de usuario",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
-      "pull_history": "Pull History Data",
+      "pull_history": "Datos del historial de invocación",
       "pull_history_description": "Upload & download your local data via Google or your local device",
-      "saves_your_pulls_to_google": "Saves your pulls to Google",
+      "saves_your_pulls_to_google": "Guardar tus tiradas en Google",
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
-      "pulls_file_import_dialog_title": "Import Local Pulls",
+      "pulls_file_import_dialog_title": "Importar Invocaciones locales",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
