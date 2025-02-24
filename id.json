@@ -355,7 +355,7 @@
   },
   "feature": {
     "support": {
-      "troubleshooting": "Penyelesaian Masalah",
+      "troubleshooting": "Pemecahan Masalah",
       "troubleshooting_description": "Jika Anda mengalami masalah saat mengimpor, bacalah panduan pemecahan masalah kami di sini.",
       "import": {
         "log_files_missing_q": "Skrip mengatakan \"install location not found or log files missing\" — apa yang harus saya lakukan?",
@@ -510,7 +510,7 @@
       "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
       "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>panduan oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
-      "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi penyelesaian masalah</link>.",
+      "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi pemecahan masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
       "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
       "ps5_press_the_options_button": "Tekan tombol <code>Options</code> pada kontroler Anda",
