@@ -1,7 +1,7 @@
 {
   "domain": {
     "term": {
-      "convenes": "Buluşma",
+      "convenes": "Buluşmalar",
       "convene_url": "Çağırı URL'si",
       "pulls": "Çağırılar",
       "astrites": "Astrite",
@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Nadirlik",
       "date_received": "Elde Ettiğin Tarih",
-      "recent_convenes": "Yakın Zamandaki Çağırılar"
+      "recent_convenes": "Yakın Zamanda Elde Ettiğin Karakterler"
     },
     "phrase": {
       "import_data": "Verileri İçe Aktar",
@@ -300,7 +300,7 @@
       }
     },
     "other": {
-      "name": "İsim",
+      "name": "Adı",
       "guest": "Misafir",
       "america": "Amerika",
       "europe": "Avrupa",
@@ -399,7 +399,7 @@
       "banner_summary": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Şans Derecelendirmesi",
+        "num_luck_rating_title": "{num}✦ Şans Oranların",
         "top": "Tepeden {percentile}%",
         "bottom": "Alttan {percentile}%",
         "luckier": "Oyuncuların {percentile}%'inden daha şanslısın",
@@ -427,7 +427,7 @@
       "welcome_rover": "Hoşgeldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
       "your_data_will_now_sync": "Artık verileriniz istek üzerine eşitlenecek!",
-      "feature_header": "WuWa Tracker takip etmene <span></span> yardım eder",
+      "feature_header": "WuWa Tracker şunları takip etmene yardım eder: <span></span>",
       "greeting": {
         "words": {
           "pulls": "çağırılar",
