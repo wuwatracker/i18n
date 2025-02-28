@@ -512,24 +512,24 @@
       "download_ascent_disclaimer": "NOT: Bu metod sadece Android 11 ve üstü modellerde geçerlidir.",
       "download_ascent_troubleshooting": "Eğer düzgün çalışmıyorsa <link>sorunçözüm bölümü</link> 'ne bak.",
       "ios_follow_tutorial_video": "Öğretici vidyomuzu takip et",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
-      "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
-      "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ios_follow_tutorial_video_description": "İOS'da Honka Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici vidyodaki adımları takip et.",
+      "ps5_press_the_options_button": "Oyun kolundaki <code>Ayarlar</code> düğmesine bas",
+      "ps5_click_on_page_information": "<code>Bilgi Sayfası</code> düğmesine bas",
+      "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya gir"
     }
   },
   "metadata": {
     "root": {
-      "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Synchronize your data across devices and share your pulls with your friends and track your account easily!"
+      "description": "Güncel ve küresel veriler kullanan Wuthering Waves için bir pity sayacı ve daha fazlası. Verilerini cihazların arası senkronize et ve arkadaşlarınla paylaş. Ayrıca hesabını kolaylıkla takip et!"
     },
     "achievements": {
       "title": "Achievements - WuWa Tracker",
-      "description": "Track your Wuthering Waves achievements and freely import & export your data across devices! WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "description": "Wuthering Waves başarımlarını takip et ve verilerini cihazlar arası özgürce içe & dışa aktar! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
-        "description": "Güncellenmiş çağırı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Wawes içinWuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
+        "title": "Çağırı Takip Sistemi",
+        "description": "Güncellenmiş çağırı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
       },
       "global": {
         "title": "Küresel İstatistikler",
