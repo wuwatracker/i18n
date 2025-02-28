@@ -1,28 +1,28 @@
 {
   "domain": {
     "term": {
-      "convenes": "Buluşma",
+      "convenes": "Buluşmalar",
       "convene_url": "Buluşma URL'si",
       "pulls": "Çağırılar",
       "astrites": "Astrite",
       "wuthering_waves": "Wuthering Wawes",
       "pull_history": "Çağırı Geçmişi",
       "pull_num": "Çağırı No.",
-      "item": "İtem",
+      "item": "Eşya",
       "pity": "Pity",
       "rarity": "Nadirlik",
-      "date_received": "Elde Ettiğin Tarih",
+      "date_received": "Elde Edilen Tarih",
       "recent_convenes": "Yakın Zamandaki Buluşmalar"
     },
     "phrase": {
       "import_data": "Verileri İçe Aktar",
       "import_data_description": "Daha önce dışa aktarılan verilerini kullan ve tarayınca kaydet",
-      "banner_list": "Etkinlik Çağırı Banner'i Listesi",
-      "no_pulls_yet": "Daha çağırı yapılmamış",
-      "rarity_pulls": "✦ Çağırılar",
+      "banner_list": "Banner Listesi",
+      "no_pulls_yet": "Daha çağrı yapılmamış",
+      "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Toplam Çağırılar",
-      "total_pulls_responsive": "<span>Toplam</span>Çağırılar",
+      "total_pulls": "Toplam Çağrılar",
+      "total_pulls_responsive": "<span>Toplam</span>Çağrılar",
       "total_astrites_responsive": "<span>Toplam</span>Astrite"
     },
     "name": {
@@ -54,7 +54,7 @@
         "Yangyang": "Yangyang",
         "Yinlin": "Yinlin",
         "Yuanwu": "Yuanwu",
-        "Zhezhi": "Zhehi",
+        "Zhezhi": "Zhezhi",
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
@@ -151,7 +151,7 @@
         "Permanent Resonator": "Kalıcı Rezonatör",
         "Permanent Weapon": "Kalıcı Silah",
         "Novice Convene": "Acemi Buluşması",
-        "Beginner's Choice": "Yeni Başlayanın Çağırısı",
+        "Beginner's Choice": "Yeni Başlayanın Seçimi",
         "Selector Ticket": "Seçme Bileti",
         "Tidal Chorus": "Gelgit Korosu",
         "Winter Brume": "Kış Sisi",
@@ -165,7 +165,7 @@
     "message": {
       "error": {
         "generic_title": "Bir hata oluştu",
-        "no_banner": "Banner Bulunamadı.",
+        "no_banner": "Banner bulunamadı.",
         "relogin_to_sync": "Eşitlemek için lütfen yeniden giriş yapın.",
         "no_auth_scopes": "Google Drive'a yüklemek için yetkiniz yok.",
         "auth_session_expired": "Giriş süreniz sona erdi.",
@@ -195,7 +195,7 @@
         "scroll_for_more": "Daha fazlası için kaydır",
         "no_filters": "hiç bir filitre seçilmedi",
         "no_records": "gösterecek kayıt yok",
-        "no_pulls_yet": "Daha çağırı yapılmamış",
+        "no_pulls_yet": "Daha çağrı yapılmamış",
         "no_pulls_found_in_google_drive": "Google Drive'da çağırı bulunamadı",
         "no_banner_luck_stats": "bu banner'in gösterilecek istatistikleri yok",
         "max_recent_pulls_disclaimer": "Bu özet sadece {num} tane geçmiş çağırıları gösteriyor.",
@@ -415,7 +415,7 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "✦ Çağırılar",
+      "rarity_pulls": "{num}✦ Çağrılar",
       "rarity_pulls_per_pity": "{num}✦ Pity Başına Düşen Çağırı",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
