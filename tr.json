@@ -2,33 +2,33 @@
   "domain": {
     "term": {
       "convenes": "Buluşmalar",
-      "convene_url": "Çağırı URL'si",
-      "pulls": "Çağırılar",
+      "convene_url": "Buluşma URL'si",
+      "pulls": "Çağrılar",
       "astrites": "Astrite",
-      "wuthering_waves": "Wuthering Wawes",
-      "pull_history": "Çağırı Geçmişi",
-      "pull_num": "Çağırı No.",
-      "item": "İtem",
+      "wuthering_waves": "Wuthering Waves",
+      "pull_history": "Çağrı Geçmişi",
+      "pull_num": "Çağrı No.",
+      "item": "Eşya",
       "pity": "Pity",
       "rarity": "Nadirlik",
-      "date_received": "Elde Ettiğin Tarih",
+      "date_received": "Elde Edilen Tarih",
       "recent_convenes": "Yakın Zamanda Elde Ettiğin Karakterler"
     },
     "phrase": {
       "import_data": "Verileri İçe Aktar",
       "import_data_description": "Daha önce dışa aktarılan verilerini kullan ve tarayınca kaydet",
-      "banner_list": "Etkinlik Çağırı Banner'i Listesi",
-      "no_pulls_yet": "Daha çağırı yapılmamış",
-      "rarity_pulls": "✦ Çağırılar",
+      "banner_list": "Banner Listesi",
+      "no_pulls_yet": "Daha çağrı yapılmamış",
+      "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Toplam Çağırılar",
-      "total_pulls_responsive": "<span>Toplam</span>Çağırılar",
-      "total_astrites_responsive": "<span>Toplam</span>Astrite"
+      "total_pulls": "Toplam Çağrılar",
+      "total_pulls_responsive": "<span>Toplam</span>Çağrılar",
+      "total_astrites_responsive": "<span>Toplam</span> Astrite"
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Gezgin-Kaos",
-        "Rover-Spectro": "Gezgin-Spektro",
+        "Rover-Havoc": "Gezgin-Havoc",
+        "Rover-Spectro": "Gezgin-Spectro",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -54,7 +54,7 @@
         "Yangyang": "Yangyang",
         "Yinlin": "Yinlin",
         "Yuanwu": "Yuanwu",
-        "Zhezhi": "Zhehi",
+        "Zhezhi": "Zhezhi",
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
@@ -150,14 +150,14 @@
         "Featured Weapon": "Öne Çıkan Silah",
         "Permanent Resonator": "Kalıcı Rezonatör",
         "Permanent Weapon": "Kalıcı Silah",
-        "Novice Convene": "Acemi Çağırısı",
-        "Beginner's Choice": "Yeni Başlayanın Çağırısı",
+        "Novice Convene": "Acemi Buluşması",
+        "Beginner's Choice": "Yeni Başlayanın Seçimi",
         "Selector Ticket": "Seçme Bileti",
         "Tidal Chorus": "Gelgit Korosu",
         "Winter Brume": "Kış Sisi",
         "Utterance of Marvels": "Mucizelerin Anlatısı",
-        "Beginner's Choice Convene": "Yeni Başlayanın Seçimi Çağırısı",
-        "Giveback Event Convene": "Hediye Etkinliği Çağırısı"
+        "Beginner's Choice Convene": "Yeni Başlayanın Seçimi Buluşması",
+        "Giveback Event Convene": "Hediye Etkinliği Buluşması"
       }
     }
   },
@@ -165,26 +165,26 @@
     "message": {
       "error": {
         "generic_title": "Bir hata oluştu",
-        "no_banner": "Banner Bulunamadı.",
+        "no_banner": "Banner bulunamadı.",
         "relogin_to_sync": "Eşitlemek için lütfen yeniden giriş yapın.",
         "no_auth_scopes": "Google Drive'a yüklemek için yetkiniz yok.",
-        "auth_session_expired": "Giriş süreniz sona erdi.",
+        "auth_session_expired": "Oturum süreniz sona erdi.",
         "invalid_input_format": "Girdiğiniz bilgi geçersiz",
         "unable_to_parse": "Verilerinizi işleyemiyoruz",
-        "unable_to_parse_remote_data": "Sunucudaki Verilerinizi işleyemiyoruz",
+        "unable_to_parse_remote_data": "Sunucudaki verilerinizi işleyemiyoruz",
         "download_failed": "İndirme başarısız oldu",
-        "client_log_required": "Client.log dosyasını yüklemelisin!",
-        "cannot_find_convene_url": "Çağırı URL'si bulamadık",
+        "client_log_required": "Bir Client.log dosyası yüklemelisin!",
+        "cannot_find_convene_url": "Buluşma URL'si bulamadık",
         "cannot_find_convene_url_description": "Geçmişini açtığın zaman Client.log'un güncellendiğinden emin ol. Güncellenmiyorsa yardım almak için ''Sorun Çözüm'' sekmesine git.",
         "convene_url_expired": "URL'en büyük ihtimalle zaman aşımına uğradı. Yeniden içe aktarmayı dene.",
         "use_valid_player_id": "İlk önce geçerli bir kullanıcı ID'si girmelisin",
         "no_profile_to_download": "İndirilecek profil bulunamadı.",
-        "no_pulls_to_download": "İndirilecek çağırı bulunamadı.",
+        "no_pulls_to_download": "İndirilecek çağrı bulunamadı.",
         "need_to_upload_specific_file": "Bir{file} yüklemelisin!",
-        "sync_no_pulls_to_upload": "Yüklenecek hiç çağırın yok.",
+        "sync_no_pulls_to_upload": "Yüklenecek hiç çağrın yok.",
         "sync_unavailable": "Şuan senkronize edemiyoruz.",
         "sync_no_remote_data_to_download": "Sunucuda indirilecek herhangi bir veriniz yok.",
-        "incorrect_input_file_description": "Burası sadece YENİ çağırı formatı içe aktarmak için!"
+        "incorrect_input_file_description": "Burası sadece YENİ çağrı formatını içe aktarmak için!"
       },
       "info": {
         "connecting_google": "Google Drive'a bağlanmaya çalışıyoruz",
@@ -195,12 +195,12 @@
         "scroll_for_more": "Daha fazlası için kaydır",
         "no_filters": "hiç bir filitre seçilmedi",
         "no_records": "gösterecek kayıt yok",
-        "no_pulls_yet": "Daha çağırı yapılmamış",
-        "no_pulls_found_in_google_drive": "Google Drive'da çağırı bulunamadı",
-        "no_banner_luck_stats": "bu banner'in gösterilecek istatistikleri yok",
-        "max_recent_pulls_disclaimer": "Bu özet sadece {num} tane geçmiş çağırıları gösteriyor.",
-        "pull_more_to_unlock": "Açmak için daha fazla çağırı yap",
-        "pull_more_to_view_statistics": "İstatistikleri görüntülemek için daha fazla çağırıya ihtiyacın var",
+        "no_pulls_yet": "Daha çağrı yapılmamış",
+        "no_pulls_found_in_google_drive": "Google Drive'da çağrı bulunamadı",
+        "no_banner_luck_stats": "bu banner'in gösterilecek şans istatistikleri yok",
+        "max_recent_pulls_disclaimer": "Bu özet yalnızca en son {num} çağrıyı gösterir.",
+        "pull_more_to_unlock": "Açmak için daha fazla çağrı yap",
+        "pull_more_to_view_statistics": "İstatistikleri görüntülemek için daha fazla çağrıya ihtiyacın var",
         "download_will_start_shortly": "İndirmen birazdan başlayacak.",
         "sync_already_synced": "Verilerin zaten eşitlenmiş.",
         "google_drive_last_updated_at": "Google Drive {date} güncellendi",
@@ -214,7 +214,7 @@
         "successfully_imported_profile": "Kullanıcı profilin başarılı bir şekilde içe aktarıldı.",
         "successfully_imported_gacha_records_redirecting": "Takip sistemine aktarılıyorsun.",
         "create_profile": "{playerId} için başarılı bir şekilde profil oluşturuldu.",
-        "delete_pulls": "{playerId} için başarılı bir şekilde tüm çağırılar silindi.",
+        "delete_pulls": "{playerId} için başarılı bir şekilde tüm çağrılar silindi.",
         "delete_profiles": "Başarılı bir şekilde tüm kullanıcı profilleri silindi.",
         "sync_successfully_downloaded_remote_data": "Sunucudaki verileriniz başarılı bir şekilde indirildi.",
         "sync_successfully_created_remote_data": "Google Drive'da başarılı bir şekilde {fileName} oluşturuldu.",
@@ -224,7 +224,7 @@
       "warn": {
         "this_cannot_be_undone": "Bu eylem geri alınamaz!",
         "disable_auto_profile_sync": "Günvenliğiniz için, bu ayrıca otomatik profil eşitlemeyi kapatacak!",
-        "this_does_not_include_your_pulls": "Bu senin çağırılarını içermiyor!"
+        "this_does_not_include_your_pulls": "Bu senin çağrılarını içermiyor!"
       }
     },
     "form": {
@@ -233,24 +233,24 @@
       "search": "Ara",
       "search_placeholder": "Birşey için ara...",
       "search_reset": "Aramayı sıfırla",
-      "your_player_id_placeholder": "9-haneli oyuncu ID'in (ie. 123456789)",
+      "your_player_id_placeholder": "9-haneli oyuncu ID'in (ör. 123456789)",
       "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
       "type_to_confirm": "Onaylamak için <strong></strong> yaz",
       "file_input": "Yüklemek için tıkla veya sürükleyip bırak",
       "select_profile_placeholder_empty": "Profil bulunamadı",
       "select_profile_placeholder_inactive": "Aktif profil seç",
-      "filters": "Filitreler",
-      "rows_per_page": "Sayfa başı sıralar"
+      "filters": "Filtreler",
+      "rows_per_page": "Sayfa başı sıra sayısı"
     },
     "button": {
       "go_home": "Eve Dön",
       "switch_theme": "Temayı Değiştir",
       "sign_in_google": "Google ile Kayıt Ol",
       "import_history": "Geçmişi İçe Aktar",
-      "filter_by_rarity_num": "Nadirliğe göre sırala {num}",
+      "filter_by_rarity_num": "Nadirliğe göre filtrele {num}",
       "import": "İçe Aktar",
       "export_json": "JSON Olarak Dışa Aktar",
-      "view_pull_history": "Çağırı Geçmişini Gör",
+      "view_pull_history": "Çağrı Geçmişini Gör",
       "sync_your_data": "Verilerini Eşitle",
       "support_us": "Bizi Destekle",
       "create_profile": "Profil Oluştur",
@@ -260,8 +260,8 @@
       "cancel": "Reddet",
       "download": "İndir",
       "import_from_file": "Dosyadan İçe Aktar",
-      "upload_to_google": "Google'ye Yükle",
-      "download_from_google": "Google'den İndir"
+      "upload_to_google": "Google'a Yükle",
+      "download_from_google": "Google'dan İndir"
     },
     "time": {
       "invalid_date": "Geçersiz tarih",
@@ -270,11 +270,11 @@
       "ends_in": "{timeLeft} 'de Bitiyor",
       "starts_in": "{timeLeft} 'de Başlıyor",
       "time_left": "{timeLeft} kaldı",
-      "event_has_ended": "Etklinlik sona erdi",
+      "event_has_ended": "Etkinlik sona erdi",
       "your_local_time": "Yerel Saatin",
-      "current_server_time": "Şuanki Sunucu Saati",
-      "resets_in": "Sıfırlanma süresi",
-      "some_time": "az buçuk zaman",
+      "current_server_time": "Şu Anki Sunucu Saati",
+      "resets_in": "Sıfırlanmaya kalan süre",
+      "some_time": "biraz zaman",
       "months": {
         "January": "Ocak",
         "February": "Şubat",
@@ -291,12 +291,12 @@
       },
       "days_short": {
         "Mo": "Pzt",
-        "Tu": "Sa",
-        "We": "Çr",
-        "Th": "Pe",
+        "Tu": "Sal",
+        "We": "Çar",
+        "Th": "Per",
         "Fr": "Cu",
-        "Sa": "Cm",
-        "Su": "Pz"
+        "Sa": "Cmt",
+        "Su": "Paz"
       }
     },
     "other": {
@@ -311,46 +311,46 @@
       "all": "Hepsi",
       "hidden": "Gizli",
       "visible": "Görünür",
-      "local_data": "Yerel veri",
+      "local_data": "Yerel Veri",
       "google_drive": "Google Drive",
       "from_file": "Dosyadan",
       "tutorial_video": "Öğretici Video",
-      "tutorial_video_description": "Bu adım adım öğretici videosunu burdan <link></link> izle.",
+      "tutorial_video_description": "Bu adım adım öğretici videosunu buradan <link></link> izle.",
       "edit_on_github": "Bu sayfayı GitHub üzerinden düzenle",
-      "social_discord_cta": "Discord'umuza katıl",
+      "social_discord_cta": "Discord Sunucumuza Katıl",
       "social_x_cta": "Bizi X(Twitter)'den takip et",
       "social_reddit_cta": "Reddit sunucumuza katıl",
-      "social_github_cta": "Github üzerinden katkıda bulun",
+      "social_github_cta": "GitHub üzerinden katkıda bulun",
       "community": "Topluluk",
       "contact": "İletişim",
-      "for_general_inquiries": "En çok sorulanlar için:",
+      "for_general_inquiries": "Sıkça Sorulan Sorular için:",
       "for_support": "Destek için:",
-      "supporters": "Kaktıda bulunanlar",
+      "supporters": "Katkıda bulunanlar",
       "no_particular_order": "belirli bir sıralamada değil",
-      "translators": "Çevirenler",
+      "translators": "Çevirmenler",
       "players": "Oyuncular",
       "event": "Etkinlik",
       "ongoing_events": "Devam eden etkinlikler",
-      "choose_a_method": "Bir Metod Seç",
+      "choose_a_method": "Bir Yöntem Seç",
       "automatic": "Otomatik",
       "manual": "Manuel",
       "data": "Veri",
       "preferences": "Tercihler",
       "advanced": "Gelişmiş",
-      "help_translate": "Çevirmeye yardım et",
+      "help_translate": "Çevirmeye Yardım Et",
       "switch_language": "Dili değiştir",
-      "just_taking_a_look_around": "Etrafa mı bakınıyorsun? :)",
+      "just_taking_a_look_around": "Etrafa mı bakınıyorsun?",
       "the_active_player_profile": "aktif oyuncu profili",
       "privacy": "Gizlilik",
       "on": "Açık",
       "off": "Kapalı",
       "toggle": "Aç/Kapa",
       "signed_out": "Çıkış yapıldı",
-      "out_of_sync": "Eşit değil",
+      "out_of_sync": "Eşitlenmemiş",
       "synced": "Eşitlendi",
-      "downloads_and_merges": "İndirir ve çağırılarını birleştirir",
-      "image_preview": "Resim Önizlemesi",
-      "close": "kapalı"
+      "downloads_and_merges": "İndirir ve çağrılarını birleştirir",
+      "image_preview": "Resim Ön İzlemesi",
+      "close": "kapat"
     }
   },
   "feature": {
@@ -358,21 +358,21 @@
       "troubleshooting": "Sorunçözüm",
       "troubleshooting_description": "İçe aktarmada sorun yaşıyorsan buradan sorunçözüm rehberimize başvur.",
       "import": {
-        "log_files_missing_q": "İleti \"indirilecek konum bulunamadı yada log dosyaları yok\" — diyor ne yapmalıyım?",
-        "url_expired_q": "Bir uyarı '' URL büyük ihtimalle zaman aşımına uğradı'' — diyor ne yapmalıyım?",
-        "error_while_fetching_q": "Bir uyarı '' veriler getirilirken bir sorun oluştu'' — diyor ne yapmalıyım?",
-        "missing_old_pulls_q": "Eski çağırılarımı bulamıyorum — neredeler?",
+        "log_files_missing_q": "İleti \"install location not found or log files missing\" — diyor ne yapmalıyım?",
+        "url_expired_q": "Bir uyarı '' URL probably expired'' — diyor ne yapmalıyım?",
+        "error_while_fetching_q": "Bir uyarı ''error occured while fetching'' — diyor ne yapmalıyım?",
+        "missing_old_pulls_q": "Eski çağrılarımı bulamıyorum — neredeler?",
         "support_other_imports_q": "Diğer sitelerden veya uygulamalardan içe aktarmayı destekliyor musunuz?",
         "ps5_player_import_q": "PlayStation 5 oyuncusu olarak içe aktarabilir miyim?",
-        "other_q": "Benim sorunum burda yok — ne yapmalıyım?"
+        "other_q": "Benim sorunum burada yok — ne yapmalıyım?"
       }
     },
     "migration": {
-      "legacy_migration": "Eski çağırılarını burdan yeni formata çevir",
-      "legacy": "Geçmiş",
-      "legacy_import": "Eski Çağırıları İçe Aktar",
-      "legacy_import_alert_title": "Sadece Eski Website Kullanıcıları İçin",
-      "legacy_import_alert_description": "Son kullanma süresi 6 ay geçmiş olan çağırıları KURTARAMAYIZ. Bu geçmiş çağırı içe aktarıcısı sadece eski WuWa Tracker kullanıcıları için."
+      "legacy_migration": "Eski çağrılarını buradan yeni biçime çevir",
+      "legacy": "Legacy",
+      "legacy_import": "Eski Çağrıları İçe Aktar",
+      "legacy_import_alert_title": "Sadece Eski Web Sitesi Kullanıcıları İçin",
+      "legacy_import_alert_description": "Son kullanma süresi 6 ay geçmiş olan çağrıları KURTARAMAYIZ. Bu legacy çağrı içe aktarıcısı sadece eski WuWa Tracker kullanıcıları için."
     },
     "layout": {
       "banners": {
@@ -383,7 +383,7 @@
       "guides": "Rehberler",
       "development": "Gelişim",
       "system_status": "Sistem Durumu",
-      "legal": "Legal",
+      "legal": "Yasal",
       "partners": "Ortaklar",
       "disclaimer": "Bu bağımsız bir fan projesi, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
     },
@@ -406,16 +406,16 @@
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
         "avg_pity_description": "Ortalama {qualityLevel}}✦ pity'in ne?",
-        "pull_ratio": "Çağırı Oranı",
+        "pull_ratio": "Çağrı Oranı",
         "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}}✦?",
         "coinflip_wins": "50/50 Kazanma",
-        "coinflip_wins_description": "50/50 çağırılarının yüzde kaçını kazandın?",
+        "coinflip_wins_description": "50/50 çağrılarının yüzde kaçını kazandın?",
         "rate_up_wins": "Yüksek-Oran Kazanmaları",
-        "rate_up_wins_description": "Çağırıların ne sıklıkla Yüksek-Oran dı?"
+        "rate_up_wins_description": "Çağrıların ne sıklıkla Yüksek-Oran dı?"
       }
     },
     "global_stats": {
-      "rarity_pulls": "✦ Çağırılar",
+      "rarity_pulls": "{num}✦ Çağrılar",
       "rarity_pulls_per_pity": "{num}✦ Çıkarmak İçin Gereken Ortalama Çağrı Sayısı",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
@@ -424,13 +424,13 @@
     "dashboard": {
       "title": "Kontrol Paneli",
       "stay_focused_rover": "Rover, odaklanmış kal.",
-      "welcome_rover": "Hoşgeldin, Rover.",
+      "welcome_rover": "Hoş Geldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
-      "your_data_will_now_sync": "Artık verileriniz istek üzerine eşitlenecek!",
+      "your_data_will_now_sync": "Verileriniz istek üzerine eşitlenecek!",
       "feature_header": "WuWa Tracker şunları takip etmene yardım eder: <span></span>",
       "greeting": {
         "words": {
-          "pulls": "çağırılar",
+          "pulls": "çağrılar",
           "pity": "pity",
           "events": "etkinlikler",
           "statistics": "istatistikler",
@@ -449,47 +449,47 @@
       "credits": {
         "title": "Krediler",
         "heading": "Krediler & Atıflar",
-        "heading_description": "Bu site burdaki tüm harikulade kişiler sayesinde mümkün oldu. Eğer ismin burda değilse veya isminin burdan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
+        "heading_description": "Bu site burdaki tüm harika kişiler sayesinde mümkün oldu. Eğer ismin burada değilse veya isminin buradan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
         "special_thanks": "Özel Teşekkürler"
       }
     },
     "settings": {
-      "submit_to_global_stats": "Küresel istatistikler için çağırı verilerini bağışla",
+      "submit_to_global_stats": "Küresel istatistikler için çağrı verilerini bağışla",
       "create_profile_dialog": "Henüz bir site profiliniz yok",
       "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
-      "active_profile_delete_pulls": "Aktif Profil için Çağırı Verilerini Sil",
+      "active_profile_delete_pulls": "Aktif Profil için Çağrı Verilerini Sil",
       "active_profile_delete_pulls_description": "Bu {playerId} ile alakalı TÜM çağırıları silecek. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
-      "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağırıları silmek istediğine emin misin?",
-      "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığıımızı kabul ediyorsun. Bu eylem geri alınamaz!",
-      "all_profiles_delete": "TÜM Kullanıcı Profiilerini Sil",
+      "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağrıları silmek istediğine emin misin?",
+      "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığımızı kabul ediyorsun. Bu eylem geri alınamaz!",
+      "all_profiles_delete": "TÜM Kullanıcı Profillerini Sil",
       "all_profiles_delete_description": "Bu TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "all_profiles_delete_confirm": "TÜM kullanıcı profillerini silmek istediğinden emin misin?",
-      "privacy_description": "Veri gizliliğinizle ilgili ayarları etkinleştirme veya devre dışı bırakma",
+      "privacy_description": "Veri gizliliğiniz ile ilgili ayarları etkinleştirme veya devre dışı bırakma",
       "privacy_global_stats": "Küresel İstatistiklere Katkıda Bulun",
       "privacy_global_stats_description": "Etkinleştirildiğinde, senin Buluşma URL'ni kullanarak küresel istatistikleri genişleteceğiz",
-      "privacy_footer_policy_link": "<link>Gizlilik Politikamız<link> bilgilerini nasıl işlediğimize dair daha fazla detaya sahip.",
+      "privacy_footer_policy_link": "<link>Gizlilik Politikamız</link> bilgilerini nasıl işlediğimize dair daha fazla detaya sahip.",
       "import_user_profile": "Kullanıcı Profilini İçe Aktar",
       "user_profile": "Kullanıcı Profili",
-      "user_profile_description": "Başarımlar, itemler ve çağrı takip sistemi için aktif profilini seç",
-      "pull_history": "Çağırı Geçmişi Verileri",
+      "user_profile_description": "Başarımlar, eşyalar ve çağrı takip sistemi için aktif profilini seç",
+      "pull_history": "Çağrı Geçmişi Verileri",
       "pull_history_description": "Bilgilerini Google veya yerel cihazın aracılığı ile yükle & indir",
-      "saves_your_pulls_to_google": "Çağırılarını Google'ye kayıt eder",
+      "saves_your_pulls_to_google": "Çağrılarını Google'a kayıt eder",
       "overwrite_google_drive_data": "Google Drive verilerinin üzerine yazmak ister misiniz?",
       "overwrite_google_drive_data_description": "Verilerinizi yüklemek Google Drive'daki verilerinin üzerine yerel cihazınızdaki verileri yazacak. İlk önce verilerinizin bir kopyasını indirmeni öneririz.",
-      "pulls_file_import_dialog_title": "Yerel Çağırıları İçe Aktar",
-      "pulls_file_import_dialog_description": "NOT: Bu sadece yeni formattaki çağırıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
+      "pulls_file_import_dialog_title": "Yerel Çağrıları İçe Aktar",
+      "pulls_file_import_dialog_description": "NOT: Bu sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
       "sync_preferences": "Eşitleme Tercihleri",
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
-      "sync_preferences_profile_description": "Profiller, ÇAĞIRI DIŞI verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
+      "sync_preferences_profile_description": "Profiller, ÇAĞRI DIŞI verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
       "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitlemeyi Tetikle tuşu</code> ile manuel olarak verilerini eşitleyebilirsin."
     },
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
-      "choose_server_timezone_description": "Senin zaman dilimine uyarlanmış saatlari göster",
-      "timeline_description": "Wuthering Wawes etkinliklerini kendi zaman dilimine göre veya diğer <link>Sunucu Zamanlarına</link> göre görüntüle.",
+      "choose_server_timezone_description": "Senin zaman dilimine uyarlanmış saatleri göster",
+      "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine göre veya diğer <link>Sunucu Zamanlarına</link> göre görüntüle.",
       "reset_timers": {
         "title": "Sunucu Günlük Sıfırlama Saatleri",
-        "description": "Bir sonraki maceranı planlamak için yerel saatini, Wuthering Wawes Sunucu saati ile karşılaştır.",
+        "description": "Bir sonraki maceranı planlamak için yerel saatini, Wuthering Waves Sunucu saati ile karşılaştır.",
         "disclaimer": "Diğer sunucu zamanlayıcıları kendi yerel saatlerinde gösterilir."
       }
     },
@@ -499,20 +499,20 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyun içi geçmiş detaylarını aç",
       "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metini yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez, Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metini <link>burdan</link> görebilirsin.",
+      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez, Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metini <link>buradan</link> görebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "press_the_import_history_button": "Sitedeki ''Geçmişi İçe Aktar'' tuşuna bas",
       "go_to_installation_directory": "Oyunu indirdiğin dosyalara git",
-      "go_to_installation_directory_description": "Wuthering Wawes Game Launcher'a sağ tıkla ve <code>Dosya yolunu aç</code> 'a tıkla. Orda <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görmelisin.",
+      "go_to_installation_directory_description": "Wuthering Waves Game Launcher'a sağ tıkla ve <code>Dosya yolunu aç</code> 'a tıkla. Orda <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görmelisin.",
       "search_for_log": "<code>Client.log</code> 'u arat ve buraya yükle",
       "airplane_mode": "Uçak Modu",
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
       "download_ascent_description": "<ascent>Ascent v2.1.6</ascent> 'yı indirip kullanmak ve URL'ni almak için, Genshin İmpact veya Honkai Star Rail'den geçmişini elde etmeye benzer şekilde bu <link>Mirai0999 tarfından yapılmış rehber</link> 'İ takip et.",
-      "download_ascent_disclaimer": "NOT: Bu metod sadece Android 11 ve üstü modellerde geçerlidir.",
+      "download_ascent_disclaimer": "NOT: Bu yöntem sadece Android 11 ve üstü modellerde geçerlidir.",
       "download_ascent_troubleshooting": "Eğer düzgün çalışmıyorsa <link>sorunçözüm bölümü</link> 'ne bak.",
-      "ios_follow_tutorial_video": "Öğretici vidyomuzu takip et",
-      "ios_follow_tutorial_video_description": "İOS'da Honka Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici vidyodaki adımları takip et.",
+      "ios_follow_tutorial_video": "Öğretici videomuzu takip et",
+      "ios_follow_tutorial_video_description": "İOS'da Honkai Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici videodaki adımları takip et.",
       "ps5_press_the_options_button": "Oyun kolundaki <code>Ayarlar</code> düğmesine bas",
       "ps5_click_on_page_information": "<code>Bilgi Sayfası</code> düğmesine bas",
       "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya gir"
@@ -524,36 +524,36 @@
     },
     "achievements": {
       "title": "Başarımlar",
-      "description": "Wuthering Waves başarımlarını takip et ve verilerini cihazlar arası özgürce içe & dışa aktar! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
+      "description": "Wuthering Waves başarımlarını takip et ve verilerini cihazlar arası özgürce içe & dışa aktar! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşların ile paylaş ve hesabını takip et!"
     },
     "tracker": {
       "index": {
-        "title": "Çağırı Takip Sistemi",
-        "description": "Güncellenmiş çağırı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
+        "title": "Çağrı Takip Sistemi",
+        "description": "Güncellenmiş çağrı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını akradaşların ile paylaş ve hesabını takip et!"
       },
       "global": {
         "title": "Küresel İstatistikler",
         "title_responsive": "<span>Küresel</span> İstatistikler",
-        "description": "{currentFeaturedResonator} 'ini öne çıkaran {currentBanner} banner'i için küresel çağırı istatistiklerini gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!",
+        "description": "{currentFeaturedResonator} 'ini öne çıkaran {currentBanner} banner'i için küresel çağrı istatistiklerini gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını akradaşların ile paylaş ve hesabını takip et!",
         "banner_title": "{name} Banner İstatistikleri",
-        "banner_description": "{name} banner'inin küresel çağırı istatistiklerini gör. Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
+        "banner_description": "{name} banner'inin küresel çağrı istatistiklerini gör. Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını arkadaşların ile paylaş ve hesabını takip et!"
       }
     },
     "error": {
       "title": "Bir Hata Oluştu",
-      "description": "WuWa Tracker'i kullanırken bir hata oluştu. Lütfen Discord serverimiz üzerinden bir rapor gönderinki sorunu tespit edebilelim."
+      "description": "WuWa Tracker'i kullanırken bir hata oluştu. Lütfen Discord serverimiz üzerinden bir rapor gönderin ki sorunu tespit edebilelim."
     },
     "import": {
       "title": "Çağrıları İçe Aktar",
-      "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Wawes için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
+      "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
       "legacy": {
-        "title": "Geçmiş İçe Aktarma Öğreticisi",
-        "description": "Eğer sitemizi önceden kullandıysan ve yeni sitemizde çağırı verilerini bulamıyorsan, buradan geçmiş içe aktarma rehberimizi izlemelisin!"
+        "title": "Legacy İçe Aktarma Öğreticisi",
+        "description": "Eğer sitemizi önceden kullandıysan ve yeni sitemizde çağrı verilerini bulamıyorsan, buradan legacy içe aktarma rehberimizi izlemelisin!"
       }
     },
     "not_found": {
       "title": "Bulunamadı",
-      "description": "Bu sayfa WuWa Tracker'da bulunamadı. Wutherin Waves Buluşma Geçmişi verilerinizi takip etmek için lütfen ana sayfaya dönün."
+      "description": "Bu sayfa WuWa Tracker'da bulunamadı. Wuthering Waves Buluşma Geçmişi verilerinizi takip etmek için lütfen ana sayfaya dönün."
     },
     "privacy_policy": {
       "title": "Gizlilik Politikası",
@@ -561,37 +561,37 @@
     },
     "settings": {
       "title": "Ayarlar",
-      "description": "Oturum açarak verilerinizi Google üzerinden senkronize edin. Wuthering Waves çağırı verilerinizi tek bir yerden yönetin. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+      "description": "Oturum açarak verilerinizi Google üzerinden senkronize edin. Wuthering Waves çağrı verilerinizi tek bir yerden yönetin. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "terms_and_conditions": {
       "title": "Şartlar & Koşullar",
-      "description": "Bu şartlar ve koşullar, WuWa Tracker'ın web sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
+      "description": "Bu şartlar ve koşullar, WuWa Tracker'ın internet sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
     },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
-      "description": "Yerel veya herhangi bir Wuthering Wawes sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyuniçi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+      "description": "Yerel veya herhangi bir Wuthering Waves sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyun içi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "wiki": {
       "resonator": {
         "title": "Rezonatörler",
-        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       },
       "item": {
         "title": "Eşyalar",
-        "description": "Wutherin Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       },
       "weapon": {
         "title": "Silahlar",
-        "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       }
     },
     "planner": {
       "title": "Materyal Planlayıcısı",
-      "description": "Rezonatör'ün sınır levelini, özllikleri ve EXP materyallerini hesaplamak için en iyi Wuthering Wawes hesap makinesi. Wuwa Tracker'de işine yarayacak ve oyun deneyemini iyileştirecek bir sürü alete sahip."
+      "description": "Rezonatör'ün sınır seviyesini, özelliklerini ve EXP materyallerini hesaplamak için en iyi Wuthering Waves hesap makinesi. Wuwa Tracker'de işine yarayacak ve oyun deneyimini iyileştirecek bir sürü alete sahip."
     },
     "support": {
       "title": "Destek",
-      "description": "Wutherin Wawes çağırı verilerini yüklemede yardıma mı ihtiyacın var? Wuwa Tracker bilgilerini nasıl kullanıyor öğrenmek mi istiyorsun? Buradan WuWa Tracker'in SSS'ine göz at!"
+      "description": "Wuthering Waves çağrı verilerini yüklemede yardıma mı ihtiyacın var? Wuwa Tracker bilgilerini nasıl kullanıyor öğrenmek mi istiyorsun? Buradan WuWa Tracker'in SSS'ine göz at!"
     }
   }
 }
