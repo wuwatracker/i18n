@@ -2,33 +2,33 @@
   "domain": {
     "term": {
       "convenes": "Buluşmalar",
-      "convene_url": "Buluşma URL'si",
+      "convene_url": "Çağırı URL'si",
       "pulls": "Çağırılar",
       "astrites": "Astrite",
       "wuthering_waves": "Wuthering Wawes",
       "pull_history": "Çağırı Geçmişi",
       "pull_num": "Çağırı No.",
-      "item": "Eşya",
+      "item": "İtem",
       "pity": "Pity",
       "rarity": "Nadirlik",
-      "date_received": "Elde Edilen Tarih",
-      "recent_convenes": "Yakın Zamandaki Buluşmalar"
+      "date_received": "Elde Ettiğin Tarih",
+      "recent_convenes": "Yakın Zamanda Elde Ettiğin Karakterler"
     },
     "phrase": {
       "import_data": "Verileri İçe Aktar",
       "import_data_description": "Daha önce dışa aktarılan verilerini kullan ve tarayınca kaydet",
-      "banner_list": "Banner Listesi",
-      "no_pulls_yet": "Daha çağrı yapılmamış",
-      "rarity_pulls": "{num}✦ Çağrılar",
+      "banner_list": "Etkinlik Çağırı Banner'i Listesi",
+      "no_pulls_yet": "Daha çağırı yapılmamış",
+      "rarity_pulls": "✦ Çağırılar",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Toplam Çağrılar",
-      "total_pulls_responsive": "<span>Toplam</span>Çağrılar",
+      "total_pulls": "Toplam Çağırılar",
+      "total_pulls_responsive": "<span>Toplam</span>Çağırılar",
       "total_astrites_responsive": "<span>Toplam</span>Astrite"
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Rover-Kaos",
-        "Rover-Spectro": "Rover-Spektro",
+        "Rover-Havoc": "Gezgin-Kaos",
+        "Rover-Spectro": "Gezgin-Spektro",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -54,7 +54,7 @@
         "Yangyang": "Yangyang",
         "Yinlin": "Yinlin",
         "Yuanwu": "Yuanwu",
-        "Zhezhi": "Zhezhi",
+        "Zhezhi": "Zhehi",
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
@@ -150,14 +150,14 @@
         "Featured Weapon": "Öne Çıkan Silah",
         "Permanent Resonator": "Kalıcı Rezonatör",
         "Permanent Weapon": "Kalıcı Silah",
-        "Novice Convene": "Acemi Buluşması",
-        "Beginner's Choice": "Yeni Başlayanın Seçimi",
+        "Novice Convene": "Acemi Çağırısı",
+        "Beginner's Choice": "Yeni Başlayanın Çağırısı",
         "Selector Ticket": "Seçme Bileti",
         "Tidal Chorus": "Gelgit Korosu",
         "Winter Brume": "Kış Sisi",
         "Utterance of Marvels": "Mucizelerin Anlatısı",
-        "Beginner's Choice Convene": "Yeni Başlayanın Seçimi Buluşması",
-        "Giveback Event Convene": "Hediye Etkinliği Buluşması"
+        "Beginner's Choice Convene": "Yeni Başlayanın Seçimi Çağırısı",
+        "Giveback Event Convene": "Hediye Etkinliği Çağırısı"
       }
     }
   },
@@ -165,7 +165,7 @@
     "message": {
       "error": {
         "generic_title": "Bir hata oluştu",
-        "no_banner": "Banner bulunamadı.",
+        "no_banner": "Banner Bulunamadı.",
         "relogin_to_sync": "Eşitlemek için lütfen yeniden giriş yapın.",
         "no_auth_scopes": "Google Drive'a yüklemek için yetkiniz yok.",
         "auth_session_expired": "Giriş süreniz sona erdi.",
@@ -174,7 +174,7 @@
         "unable_to_parse_remote_data": "Sunucudaki Verilerinizi işleyemiyoruz",
         "download_failed": "İndirme başarısız oldu",
         "client_log_required": "Client.log dosyasını yüklemelisin!",
-        "cannot_find_convene_url": "Buluşma URL'si bulamadık",
+        "cannot_find_convene_url": "Çağırı URL'si bulamadık",
         "cannot_find_convene_url_description": "Geçmişini açtığın zaman Client.log'un güncellendiğinden emin ol. Güncellenmiyorsa yardım almak için ''Sorun Çözüm'' sekmesine git.",
         "convene_url_expired": "URL'en büyük ihtimalle zaman aşımına uğradı. Yeniden içe aktarmayı dene.",
         "use_valid_player_id": "İlk önce geçerli bir kullanıcı ID'si girmelisin",
@@ -195,7 +195,7 @@
         "scroll_for_more": "Daha fazlası için kaydır",
         "no_filters": "hiç bir filitre seçilmedi",
         "no_records": "gösterecek kayıt yok",
-        "no_pulls_yet": "Daha çağrı yapılmamış",
+        "no_pulls_yet": "Daha çağırı yapılmamış",
         "no_pulls_found_in_google_drive": "Google Drive'da çağırı bulunamadı",
         "no_banner_luck_stats": "bu banner'in gösterilecek istatistikleri yok",
         "max_recent_pulls_disclaimer": "Bu özet sadece {num} tane geçmiş çağırıları gösteriyor.",
@@ -203,7 +203,7 @@
         "pull_more_to_view_statistics": "İstatistikleri görüntülemek için daha fazla çağırıya ihtiyacın var",
         "download_will_start_shortly": "İndirmen birazdan başlayacak.",
         "sync_already_synced": "Verilerin zaten eşitlenmiş.",
-        "google_drive_last_updated_at": "Google Drive güncellendi {date}",
+        "google_drive_last_updated_at": "Google Drive {date} güncellendi",
         "nothing_to_sync": "Şuan eşitlenecek birşey yok.",
         "sync_creating_file_in_google": "Google Drive'da {fileName} oluşturuluyor...",
         "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor..."
@@ -300,7 +300,7 @@
       }
     },
     "other": {
-      "name": "İsim",
+      "name": "Adı",
       "guest": "Misafir",
       "america": "Amerika",
       "europe": "Avrupa",
@@ -399,15 +399,15 @@
       "banner_summary": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Şans Derecelendirmesi",
+        "num_luck_rating_title": "{num}✦ Şans Oranların",
         "top": "Tepeden {percentile}%",
         "bottom": "Alttan {percentile}%",
         "luckier": "Oyuncuların {percentile}%'inden daha şanslısın",
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
-        "avg_pity_description": "Ortalama {qualityLevel}- yıldız pity'in ne?",
+        "avg_pity_description": "Ortalama {qualityLevel}}✦ pity'in ne?",
         "pull_ratio": "Çağırı Oranı",
-        "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}-yıldız?",
+        "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}}✦?",
         "coinflip_wins": "50/50 Kazanma",
         "coinflip_wins_description": "50/50 çağırılarının yüzde kaçını kazandın?",
         "rate_up_wins": "Yüksek-Oran Kazanmaları",
@@ -415,8 +415,8 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ Çağrılar",
-      "rarity_pulls_per_pity": "{num}✦ Pity Başına Düşen Çağırı",
+      "rarity_pulls": "✦ Çağırılar",
+      "rarity_pulls_per_pity": "{num}✦ Çıkarmak İçin Gereken Ortalama Çağrı Sayısı",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "view_your_statistics_responsive": "İstatistiklerini <span>Görüntüle</span>"
@@ -427,7 +427,7 @@
       "welcome_rover": "Hoşgeldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
       "your_data_will_now_sync": "Artık verileriniz istek üzerine eşitlenecek!",
-      "feature_header": "WuWa Tracker takip etmene <span></span> yardım eder",
+      "feature_header": "WuWa Tracker şunları takip etmene yardım eder: <span></span>",
       "greeting": {
         "words": {
           "pulls": "çağırılar",
@@ -458,11 +458,11 @@
       "create_profile_dialog": "Henüz bir site profiliniz yok",
       "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
       "active_profile_delete_pulls": "Aktif Profil için Çağırı Verilerini Sil",
-      "active_profile_delete_pulls_description": "Bu {playerId} ile alakalı TÜM çağırıları silecek. Lütfen verilerini yedekle ve dikkatle yaklaş.",
+      "active_profile_delete_pulls_description": "Bu {playerId} ile alakalı TÜM çağırıları silecek. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağırıları silmek istediğine emin misin?",
       "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığıımızı kabul ediyorsun. Bu eylem geri alınamaz!",
       "all_profiles_delete": "TÜM Kullanıcı Profiilerini Sil",
-      "all_profiles_delete_description": "Bu TÜM kullanıcı profillerini kalıcı olarak siler. Bu test amaçlı yaratıldı. Lütfen tüm verilerini yedekle ve dikkatli bir şekilde yaklaş.",
+      "all_profiles_delete_description": "Bu TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "all_profiles_delete_confirm": "TÜM kullanıcı profillerini silmek istediğinden emin misin?",
       "privacy_description": "Veri gizliliğinizle ilgili ayarları etkinleştirme veya devre dışı bırakma",
       "privacy_global_stats": "Küresel İstatistiklere Katkıda Bulun",
@@ -472,14 +472,14 @@
       "user_profile": "Kullanıcı Profili",
       "user_profile_description": "Başarımlar, itemler ve çağrı takip sistemi için aktif profilini seç",
       "pull_history": "Çağırı Geçmişi Verileri",
-      "pull_history_description": "Bilgilerini Google veya yerel cihazınız aracılığı ile yükle & indir",
+      "pull_history_description": "Bilgilerini Google veya yerel cihazın aracılığı ile yükle & indir",
       "saves_your_pulls_to_google": "Çağırılarını Google'ye kayıt eder",
       "overwrite_google_drive_data": "Google Drive verilerinin üzerine yazmak ister misiniz?",
       "overwrite_google_drive_data_description": "Verilerinizi yüklemek Google Drive'daki verilerinin üzerine yerel cihazınızdaki verileri yazacak. İlk önce verilerinizin bir kopyasını indirmeni öneririz.",
       "pulls_file_import_dialog_title": "Yerel Çağırıları İçe Aktar",
       "pulls_file_import_dialog_description": "NOT: Bu sadece yeni formattaki çağırıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
       "sync_preferences": "Eşitleme Tercihleri",
-      "sync_preferences_description": "Verilerinizle otomatik Google Drive eşlemesini etkinleştir veya devre dışı bırak",
+      "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
       "sync_preferences_profile_description": "Profiller, ÇAĞIRI DIŞI verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
       "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitlemeyi Tetikle tuşu</code> ile manuel olarak verilerini eşitleyebilirsin."
     },
@@ -506,9 +506,9 @@
       "go_to_installation_directory": "Oyunu indirdiğin dosyalara git",
       "go_to_installation_directory_description": "Wuthering Wawes Game Launcher'a sağ tıkla ve <code>Dosya yolunu aç</code> 'a tıkla. Orda <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görmelisin.",
       "search_for_log": "<code>Client.log</code> 'u arat ve buraya yükle",
-      "airplane_mode": "Airplane Mode",
+      "airplane_mode": "Uçak Modu",
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
+      "download_ascent_description": "<ascent>Ascent v2.1.6</ascent> 'yı indirip kullanmak ve URL'ni almak için, Genshin İmpact veya Honkai Star Rail'den geçmişini elde etmeye benzer şekilde bu <link>Mirai0999 tarfından yapılmış rehber</link> 'İ takip et.",
       "download_ascent_disclaimer": "NOT: Bu metod sadece Android 11 ve üstü modellerde geçerlidir.",
       "download_ascent_troubleshooting": "Eğer düzgün çalışmıyorsa <link>sorunçözüm bölümü</link> 'ne bak.",
       "ios_follow_tutorial_video": "Öğretici vidyomuzu takip et",
@@ -523,7 +523,7 @@
       "description": "Güncel ve küresel veriler kullanan Wuthering Waves için bir pity sayacı ve daha fazlası. Verilerini cihazların arası senkronize et ve arkadaşlarınla paylaş. Ayrıca hesabını kolaylıkla takip et!"
     },
     "achievements": {
-      "title": "Achievements - WuWa Tracker",
+      "title": "Başarımlar",
       "description": "Wuthering Waves başarımlarını takip et ve verilerini cihazlar arası özgürce içe & dışa aktar! Wuthering Wawes için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşlarınla paylaş ve hesabını takip et!"
     },
     "tracker": {
@@ -544,7 +544,7 @@
       "description": "WuWa Tracker'i kullanırken bir hata oluştu. Lütfen Discord serverimiz üzerinden bir rapor gönderinki sorunu tespit edebilelim."
     },
     "import": {
-      "title": "Import Convene History - WuWa Tracker",
+      "title": "Çağrıları İçe Aktar",
       "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Wawes için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
       "legacy": {
         "title": "Geçmiş İçe Aktarma Öğreticisi",
@@ -556,37 +556,37 @@
       "description": "Bu sayfa WuWa Tracker'da bulunamadı. Wutherin Waves Buluşma Geçmişi verilerinizi takip etmek için lütfen ana sayfaya dönün."
     },
     "privacy_policy": {
-      "title": "Privacy Policy - WuWa Tracker",
+      "title": "Gizlilik Politikası",
       "description": "Bu gizlilik politikası belgesi, WuWa Tracker tarafından alınan ve toplanan kişisel bilgi türlerini ve de bunların nasıl kullanıldığını özetlemektedir. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır."
     },
     "settings": {
-      "title": "Settings - WuWa Tracker",
+      "title": "Ayarlar",
       "description": "Oturum açarak verilerinizi Google üzerinden senkronize edin. Wuthering Waves çağırı verilerinizi tek bir yerden yönetin. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "terms_and_conditions": {
-      "title": "Terms & Conditions - WuWa Tracker",
+      "title": "Şartlar & Koşullar",
       "description": "Bu şartlar ve koşullar, WuWa Tracker'ın web sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
     },
     "timeline": {
-      "title": "Event Timeline - WuWa Tracker",
+      "title": "Etkinlik Zaman Çizelgesi",
       "description": "Yerel veya herhangi bir Wuthering Wawes sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyuniçi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators - WuWa Tracker",
+        "title": "Rezonatörler",
         "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       },
       "item": {
-        "title": "Items - WuWa Tracker",
+        "title": "Eşyalar",
         "description": "Wutherin Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       },
       "weapon": {
-        "title": "Weapons - WuWa Tracker",
+        "title": "Silahlar",
         "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağırılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
       }
     },
     "planner": {
-      "title": "Material Planner - WuWa Tracker",
+      "title": "Materyal Planlayıcısı",
       "description": "Rezonatör'ün sınır levelini, özllikleri ve EXP materyallerini hesaplamak için en iyi Wuthering Wawes hesap makinesi. Wuwa Tracker'de işine yarayacak ve oyun deneyemini iyileştirecek bir sürü alete sahip."
     },
     "support": {
