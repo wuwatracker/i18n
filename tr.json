@@ -22,7 +22,7 @@
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrılar",
-      "total_pulls_responsive": "<span>Toplam</span>Çağrılar",
+      "total_pulls_responsive": "<span>Toplam</span> Çağrılar",
       "total_astrites_responsive": "<span>Toplam</span> Astrite"
     },
     "name": {
@@ -405,9 +405,9 @@
         "luckier": "Oyuncuların {percentile}%'inden daha şanslısın",
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
-        "avg_pity_description": "Ortalama {qualityLevel}}✦ pity'in ne?",
+        "avg_pity_description": "Ortalama {qualityLevel}✦ pity'in ne?",
         "pull_ratio": "Çağrı Oranı",
-        "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}}✦?",
+        "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}✦?",
         "coinflip_wins": "50/50 Kazanma",
         "coinflip_wins_description": "50/50 çağrılarının yüzde kaçını kazandın?",
         "rate_up_wins": "Yüksek-Oran Kazanmaları",
