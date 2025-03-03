@@ -400,8 +400,8 @@
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "luck": {
         "num_luck_rating_title": "{num}✦ Şans Oranların",
-        "top": "Tepeden {percentile}%",
-        "bottom": "Alttan {percentile}%",
+        "top": "İlk %{percentile}",
+        "bottom": "Son %{percentile}",
         "luckier": "Oyuncuların {percentile}%'inden daha şanslısın",
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
