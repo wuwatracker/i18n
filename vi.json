@@ -396,7 +396,7 @@
       "no_achievements_found": "không phát hiện thành tựu"
     },
     "tracker": {
-      "banner_summary": "Banner Summary",
+      "banner_summary": "Tổng kết Banner",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "luck": {
         "num_luck_rating_title": "Tỉ lệ may mắn nhận được {num}✦",
@@ -417,7 +417,7 @@
     "global_stats": {
       "rarity_pulls": "Số lượt Triệu hồi {num}✦",
       "rarity_pulls_per_pity": "Số lượt Triệu hồi cho đến Pity {num}✦",
-      "banner_summary_title": "Banner Summary",
+      "banner_summary_title": "Tổng kết Banner",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "view_your_statistics_responsive": "<span>Xem</span> thống kê của bạn"
     },
@@ -447,16 +447,16 @@
         "what_is_wuwatracker": "WuWa Tracker là cái quéo gì vậy?"
       },
       "credits": {
-        "title": "Credits",
-        "heading": "Credits & Attributions",
+        "title": "Danh đề",
+        "heading": "Danh đề & Đóng góp",
         "heading_description": "Trang web này đã được thực hiện nhờ tất cả những người tuyệt vời này. Nếu tên của bạn không được liệt kê ở đây hoặc bạn muốn được xóa, vui lòng liên hệ với chúng tôi.",
         "special_thanks": "Đặc biệt cảm ơn"
       }
     },
     "settings": {
       "submit_to_global_stats": "Gửi lịch sử triệu hồi cho thống kê toàn cầu",
-      "create_profile_dialog": "You don't have a site profile yet",
-      "create_profile_dialog_description": " We'll help you create one so that we can save your data",
+      "create_profile_dialog": "Bạn chưa có hồ sơ web",
+      "create_profile_dialog_description": " Chúng tôi sẽ hỗ trợ bạn thiết lập tài khoản để sao lưu dữ liệu",
       "active_profile_delete_pulls": "Xóa dữ liệu triệu hồi của Hồ sơ đang hoạt động",
       "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
@@ -464,7 +464,7 @@
       "all_profiles_delete": "Xóa TẤT CẢ các hồ sơ người chơi",
       "all_profiles_delete_description": "Điều này sẽ xóa vĩnh viễn TẤT CẢ các hồ sơ người chơi. Điều này đã được tạo ra cho mục đích thử nghiệm. Vui lòng sao lưu dữ liệu của bạn trước và tiến hành thận trọng.",
       "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
-      "privacy_description": "Opt-in or out of settings related to your data privacy",
+      "privacy_description": "Bật hoặc tắt các cài đặt liên quan đến quyền riêng tư dữ liệu của bạn",
       "privacy_global_stats": "Đóng góp cho số liệu thống kê toàn cầu",
       "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
       "privacy_footer_policy_link": "<link>Chính sách quyền riêng tư</link> của chúng tôi có nhiều chi tiết hơn về cách chúng tôi xử lý dữ liệu của bạn.",
@@ -479,8 +479,8 @@
       "pulls_file_import_dialog_title": "Nhập dữ liệu Triệu hồi Cục bộ",
       "pulls_file_import_dialog_description": "Lưu ý: Hiện tại chúng tôi chỉ cho phép các Triệu Hồi theo định dạng mới. Đến trang <link>nhập dữ liệu cũ</link> nếu bạn muốn nhập các dữ liệu cũ được tạo trước <code></code>.",
       "sync_preferences": "Thiết lập đồng bộ",
-      "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
-      "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
+      "sync_preferences_description": "Bật hoặc tắt tính năng tự động đồng bộ Google Drive với dữ liệu của bạn",
+      "sync_preferences_profile_description": "Hồ sơ chứa dữ liệu KHÔNG-PHẢI-TRIỆU-HỒI, ví dụ như Thành tựu, Vật phẩm và các tính năng website khác.",
       "you_can_manually_sync_reminder": "Bạn có thể tự đồng bộ thủ công bằng cách nhấn vào nút <code>Trigger Sync</code> ở Menu Hồ sơ."
     },
     "timeline": {
@@ -534,7 +534,7 @@
       "global": {
         "title": "Thống Kê Toàn Cầu",
         "title_responsive": "Thống kê <span>Toàn cầu</span>",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "description": "Xem thống kê lượt quay toàn cầu cho banner {currentBanner}, với Resonator nổi bật {currentFeaturedResonator}! Sử dụng bảng điều khiển (dashboard) tích hợp sẵn chụp ảnh màn hình để khoe với bạn bè! Bộ đếm pity WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu cập nhật với thống kê toàn cầu và hơn thế nữa. Chia sẻ lượt quay của bạn với bạn bè và theo dõi tài khoản của bạn!",
         "banner_title": "Thống kê Banner {name}",
         "banner_description": "Xem thống kê toàn cầu cho banner {name}. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       }

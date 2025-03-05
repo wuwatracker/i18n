@@ -27,8 +27,8 @@
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Gezgin-Havoc",
-        "Rover-Spectro": "Gezgin-Spectro",
+        "Rover-Havoc": "Rover-Havoc",
+        "Rover-Spectro": "Rover-Spectro",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -372,7 +372,7 @@
       "legacy": "Legacy",
       "legacy_import": "Eski Çağrıları İçe Aktar",
       "legacy_import_alert_title": "Sadece Eski Web Sitesi Kullanıcıları İçin",
-      "legacy_import_alert_description": "Son kullanma süresi 6 ay geçmiş olan çağrıları KURTARAMAYIZ. Bu legacy çağrı içe aktarıcısı sadece eski WuWa Tracker kullanıcıları için."
+      "legacy_import_alert_description": "Son kullanma süresi olan 6 ayı geçmiş çağrıları KURTARAMAYIZ. Bu legacy çağrı içe aktarıcısı sadece eski WuWa Tracker kullanıcıları için."
     },
     "layout": {
       "banners": {
@@ -440,7 +440,7 @@
         "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacı. Wuthering Waves ilerlemenizi arkadaşlarınıza göstermeniz için en iyi araçları sağlamayı amaçlıyoruz."
       },
       "changelog": {
-        "title": "Değişiklikler"
+        "title": "Güncellemeler"
       },
       "about": {
         "title": "Hakkında",
@@ -480,7 +480,7 @@
       "pulls_file_import_dialog_description": "NOT: Bu sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
       "sync_preferences": "Eşitleme Tercihleri",
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
-      "sync_preferences_profile_description": "Profiller, ÇAĞRI DIŞI verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
+      "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
       "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitlemeyi Tetikle tuşu</code> ile manuel olarak verilerini eşitleyebilirsin."
     },
     "timeline": {
@@ -488,7 +488,7 @@
       "choose_server_timezone_description": "Senin zaman dilimine uyarlanmış saatleri göster",
       "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine göre veya diğer <link>Sunucu Zamanlarına</link> göre görüntüle.",
       "reset_timers": {
-        "title": "Sunucu Günlük Sıfırlama Saatleri",
+        "title": "Sunucu Sıfırlanma Saatleri",
         "description": "Bir sonraki maceranı planlamak için yerel saatini, Wuthering Waves Sunucu saati ile karşılaştır.",
         "disclaimer": "Diğer sunucu zamanlayıcıları kendi yerel saatlerinde gösterilir."
       }
@@ -496,10 +496,10 @@
     "import": {
       "logs_not_updating_alert": "URL Son Kullanma Tarihi",
       "logs_not_updating_alert_description": "14 Ocak 2025'den beri PC kullanıcıları Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorunçözme Rehberi</link> 'mize göz at.",
-      "first_open_game_history": "Öncelikle oyunu başlat ve oyun içi geçmiş detaylarını aç",
+      "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metini yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez, Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metini <link>buradan</link> görebilirsin.",
+      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metini <link>buradan</link> görebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "press_the_import_history_button": "Sitedeki ''Geçmişi İçe Aktar'' tuşuna bas",
