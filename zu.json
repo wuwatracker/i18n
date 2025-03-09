@@ -264,6 +264,8 @@
       "download_from_google": "crwdns6600:0crwdne6600:0"
     },
     "time": {
+      "all_time": "crwdns7120:0crwdne7120:0",
+      "last_num_days": "crwdns7122:0{num}crwdne7122:0",
       "invalid_date": "crwdns6602:0crwdne6602:0",
       "local_time": "crwdns6604:0crwdne6604:0",
       "server_time": "crwdns6606:0crwdne6606:0",
@@ -350,7 +352,9 @@
       "synced": "crwdns6754:0crwdne6754:0",
       "downloads_and_merges": "crwdns6756:0crwdne6756:0",
       "image_preview": "crwdns7088:0crwdne7088:0",
-      "close": "crwdns7090:0crwdne7090:0"
+      "close": "crwdns7090:0crwdne7090:0",
+      "portrait_view": "crwdns7124:0crwdne7124:0",
+      "tile_view": "crwdns7126:0crwdne7126:0"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "crwdns6842:0{num}crwdne6842:0",
       "rarity_pulls_per_pity": "crwdns6844:0{num}crwdne6844:0",
+      "rarity_pulls_per_pity_description": "crwdns7128:0crwdne7128:0",
       "banner_summary_title": "crwdns6846:0crwdne6846:0",
       "banner_summary_description": "crwdns6848:0crwdne6848:0",
-      "view_your_statistics_responsive": "crwdns6850:0crwdne6850:0"
+      "view_your_statistics_responsive": "crwdns6850:0crwdne6850:0",
+      "pulls_per_day": "crwdns7130:0crwdne7130:0",
+      "pulls_per_day_description": "crwdns7132:0crwdne7132:0",
+      "pulls_per_rarity": "crwdns7134:0crwdne7134:0",
+      "pulls_per_rarity_description": "crwdns7136:0crwdne7136:0",
+      "pulls_per_item_description": "crwdns7138:0crwdne7138:0"
     },
     "dashboard": {
       "title": "crwdns6852:0crwdne6852:0",
