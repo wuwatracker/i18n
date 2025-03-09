@@ -264,6 +264,8 @@
       "download_from_google": "구글에서 다운로드"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "유효하지 않은 날짜",
       "local_time": "현지 시간",
       "server_time": "서버 시간",
@@ -350,7 +352,9 @@
       "synced": "동기화됨",
       "downloads_and_merges": "뽑기 기록 다운로드 및 병합",
       "image_preview": "이미지 프리뷰",
-      "close": "닫힘"
+      "close": "닫힘",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 뽑은 수",
       "rarity_pulls_per_pity": "스택 별 {num}✦ 뽑은 횟수",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "배너 개요",
       "banner_summary_description": "통계를 보기 위해 배너를 선택해 주세요.",
-      "view_your_statistics_responsive": "<span>통계</span> 보기"
+      "view_your_statistics_responsive": "<span>통계</span> 보기",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "대시보드",
