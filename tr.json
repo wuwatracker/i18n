@@ -264,6 +264,8 @@
       "download_from_google": "Google'dan İndir"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "Geçersiz tarih",
       "local_time": "Yerel Saat",
       "server_time": "Sunucu Saati",
@@ -350,7 +352,9 @@
       "synced": "Eşitlendi",
       "downloads_and_merges": "İndirir ve çağrılarını birleştirir",
       "image_preview": "Resim Ön İzlemesi",
-      "close": "kapat"
+      "close": "kapat",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Çağrılar",
       "rarity_pulls_per_pity": "{num}✦ Çıkarmak İçin Gereken Ortalama Çağrı Sayısı",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
-      "view_your_statistics_responsive": "İstatistiklerini <span> Görüntüle</span>"
+      "view_your_statistics_responsive": "İstatistiklerini <span> Görüntüle</span>",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "Kontrol Paneli",
