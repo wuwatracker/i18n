@@ -264,6 +264,8 @@
       "download_from_google": "從Google下載"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "無效的日期",
       "local_time": "當地時間",
       "server_time": "伺服器時間",
@@ -350,7 +352,9 @@
       "synced": "已同步",
       "downloads_and_merges": "下載並整合您的資料",
       "image_preview": "圖片預覽",
-      "close": "關閉"
+      "close": "關閉",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 喚取",
       "rarity_pulls_per_pity": "{num}✦ 保底抽數",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "卡池總覽",
       "banner_summary_description": "選擇卡池以取得概覽與分析",
-      "view_your_statistics_responsive": "<span>檢視</span> 您的分析"
+      "view_your_statistics_responsive": "<span>檢視</span> 您的分析",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "首頁",

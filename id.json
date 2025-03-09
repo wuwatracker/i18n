@@ -264,6 +264,8 @@
       "download_from_google": "Unduh dari Google"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "Tanggal tidak valid",
       "local_time": "Waktu Lokal",
       "server_time": "Waktu Server",
@@ -350,7 +352,9 @@
       "synced": "Disinkronisasikan",
       "downloads_and_merges": "Unduh dan gabungkan pull Anda",
       "image_preview": "Pratinjau Gambar",
-      "close": "tutup"
+      "close": "tutup",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Pull",
       "rarity_pulls_per_pity": "{num}✦ Pull per Pity",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Ringkasan Banner",
       "banner_summary_description": "Pilih banner untuk mendapatkan ikhtisiar statistik.",
-      "view_your_statistics_responsive": "<span>Lihat</span> Statistik Anda"
+      "view_your_statistics_responsive": "<span>Lihat</span> Statistik Anda",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "Dasbor",

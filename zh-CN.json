@@ -264,6 +264,8 @@
       "download_from_google": "从 Google 下载"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "无效日期",
       "local_time": "本地时间",
       "server_time": "服务器时间",
@@ -350,7 +352,9 @@
       "synced": "已同步",
       "downloads_and_merges": "下载和合并您的唤取",
       "image_preview": "图片预览",
-      "close": "关闭"
+      "close": "关闭",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 唤取",
       "rarity_pulls_per_pity": "{num}✦ 唤取每保底",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "卡池汇总",
       "banner_summary_description": "选择一个卡池以查看统计概览。",
-      "view_your_statistics_responsive": "<span>查看</span>您的统计数据"
+      "view_your_statistics_responsive": "<span>查看</span>您的统计数据",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "仪表板",

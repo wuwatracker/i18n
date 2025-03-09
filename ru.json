@@ -264,6 +264,8 @@
       "download_from_google": "Скачать из Google"
     },
     "time": {
+      "all_time": "All time",
+      "last_num_days": "Last {num} days",
       "invalid_date": "Неправильная дата",
       "local_time": "Местное время",
       "server_time": "Время сервера",
@@ -350,7 +352,9 @@
       "synced": "Синхронизировано",
       "downloads_and_merges": "Скачивает и совмещает ваши крутки",
       "image_preview": "Предпросмотр",
-      "close": "закрыть"
+      "close": "закрыть",
+      "portrait_view": "Portrait view",
+      "tile_view": "Tile view"
     }
   },
   "feature": {
@@ -417,9 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Крутки",
       "rarity_pulls_per_pity": "{num}✦ Крутки по Гарантам",
+      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Select a banner to get an overview of the statistics.",
-      "view_your_statistics_responsive": "<span>Просмотреть</span> свою статистику"
+      "view_your_statistics_responsive": "<span>Просмотреть</span> свою статистику",
+      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
       "title": "Главная страница",
