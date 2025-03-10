@@ -3,7 +3,7 @@
     "term": {
       "convenes": "Buluşmalar",
       "convene_url": "Buluşma URL'si",
-      "pulls": "Çağrılar",
+      "pulls": "Çağrı",
       "astrites": "Astrite",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Çağrı Geçmişi",
@@ -353,8 +353,8 @@
       "downloads_and_merges": "İndirir ve çağrılarını birleştirir",
       "image_preview": "Resim Ön İzlemesi",
       "close": "kapat",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "portrait_view": "Portre görünümü",
+      "tile_view": "Karo görünümü"
     }
   },
   "feature": {
@@ -389,7 +389,7 @@
       "system_status": "Sistem Durumu",
       "legal": "Yasal",
       "partners": "Ortaklar",
-      "disclaimer": "Bu bağımsız bir fan projesi, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
+      "disclaimer": "WuwaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
     },
     "error": {
       "oops": "Abooov!",
@@ -421,15 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Çağrılar",
       "rarity_pulls_per_pity": "{num}✦ Çıkarmak İçin Gereken Ortalama Çağrı Sayısı",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "Pity sayısına göre öğe elde etme oranı dağılımı",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "view_your_statistics_responsive": "İstatistiklerini <span>Görüntüle</span>",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_day": "Günlere Göre Çağrı Sayısı",
+      "pulls_per_day_description": "Günlere göre çağrı sayısı ve nadirlik dağılımı",
+      "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
+      "pulls_per_rarity_description": "Nadirlik Dağılımı",
+      "pulls_per_item_description": "Öğe başına düşen çağrı sayısı"
     },
     "dashboard": {
       "title": "Kontrol Paneli",
