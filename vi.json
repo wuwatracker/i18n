@@ -3,7 +3,7 @@
     "term": {
       "convenes": "Triệu Hồi",
       "convene_url": "URL Triệu Hồi",
-      "pulls": "Đã Triệu Hồi",
+      "pulls": "Lượt Triệu Hồi",
       "astrites": "Tinh thạch",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Lịch sử Triệu hồi",
@@ -264,8 +264,8 @@
       "download_from_google": "Tải xuống từ Google"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "Toàn thời gian",
+      "last_num_days": "{num} ngày trước",
       "invalid_date": "Ngày không hợp lệ",
       "local_time": "Giờ địa phương",
       "server_time": "Giờ Server",
@@ -353,8 +353,8 @@
       "downloads_and_merges": "Tải xuống và gộp vào lịch sử triệu hồi của bạn",
       "image_preview": "Hình ảnh minh họa",
       "close": "đóng",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "portrait_view": "Xem hướng ngang",
+      "tile_view": "Xem hướng dọc"
     }
   },
   "feature": {
@@ -421,15 +421,15 @@
     "global_stats": {
       "rarity_pulls": "Số lượt Triệu hồi {num}✦",
       "rarity_pulls_per_pity": "Số lượt Triệu hồi cho đến Pity {num}✦",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "Xem tổng lượt Triệu hồi/Pity",
       "banner_summary_title": "Tổng kết Banner",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "view_your_statistics_responsive": "<span>Xem</span> thống kê của bạn",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_day": "Lượt Triệu hồi/Ngày",
+      "pulls_per_day_description": "Xem tổng lượt Triệu hồi/ Ngày và Triệu hồi/Pity",
+      "pulls_per_rarity": "Lượt Triệu hồi/ Độ hiếm",
+      "pulls_per_rarity_description": "Xem tổng Pity",
+      "pulls_per_item_description": "Xem lượt Triệu hồi/Vật Phẩm"
     },
     "dashboard": {
       "title": "Bảng điều khiển",
