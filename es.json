@@ -92,12 +92,12 @@
         "Legend of Drunken Hero": "Crónica del héroe ebrio",
         "Lunar Cutter": "Cortador Lunar",
         "Lumingloss": "Lumingloss",
-        "Luminous Hymn": "Luminous Hymn",
+        "Luminous Hymn": "Himno luminoso",
         "Lustrous Razor": "Navaja Brillante",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditaciones de la piedad",
         "Novaburst": "Novestallido",
-        "Ocean's Gift": "Ocean's Gift",
+        "Ocean's Gift": "Regalo del mar",
         "Originite: Type I": "Originite: Tipo I",
         "Originite: Type II": "Originite: Tipo II",
         "Originite: Type III": "Originite: Tipo II",
@@ -135,7 +135,7 @@
         "Tyro Rectifier": "Rectificador de principiante",
         "Tyro Sword": "Espada de principiante",
         "Undying Flame": "Llama eterna",
-        "Unflickering Valor": "Unflickering Valor",
+        "Unflickering Valor": "Valor inquebrantable",
         "Variation": "Variación",
         "Verdant Summit": "Cumbre verde",
         "Rime-Draped Sprouts": "Brotes escarchados",
@@ -264,8 +264,8 @@
       "download_from_google": "Descargar desde Google"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "Todos los tiempos",
+      "last_num_days": "Últimos {num} días",
       "invalid_date": "Fecha inválida",
       "local_time": "Hora local",
       "server_time": "Hora del servidor",
@@ -353,8 +353,8 @@
       "downloads_and_merges": "Descargar y juntar tus tiradas",
       "image_preview": "Vista previa de imagen",
       "close": "cerrar",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "portrait_view": "Vista vertical",
+      "tile_view": "Visca en mosaico"
     }
   },
   "feature": {
@@ -421,15 +421,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Tiradas",
       "rarity_pulls_per_pity": "{num}✦ Tiradas por pity",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "Mostrando todas las tiradas por pity",
       "banner_summary_title": "Resumen de banner",
       "banner_summary_description": "Selecciona un banner para obtener un resumen de las estadísticas.",
       "view_your_statistics_responsive": "<span>Ver</span> tus estadísticas",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_day": "Tiradas por día",
+      "pulls_per_day_description": "Mostrando tiradas por día y distribución de rareza",
+      "pulls_per_rarity": "Tiradas por rareza",
+      "pulls_per_rarity_description": "Mostrando la distribución de rareza",
+      "pulls_per_item_description": "Mostrando tiradas por objeto"
     },
     "dashboard": {
       "title": "Panel",
