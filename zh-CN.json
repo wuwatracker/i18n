@@ -19,7 +19,7 @@
       "import_data_description": "使用您以前导出的数据并保存到浏览器",
       "banner_list": "卡池列表",
       "no_pulls_yet": "目前无唤取",
-      "rarity_pulls": "{num}✦ 唤取",
+      "rarity_pulls": "{num}✦ 唤取次数",
       "num_pity": "{num}✦ 保底",
       "total_pulls": "总计唤取",
       "total_pulls_responsive": "<span>总计</span> 唤取",
@@ -264,8 +264,8 @@
       "download_from_google": "从 Google 下载"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "全部时间",
+      "last_num_days": "过去 {num} 日",
       "invalid_date": "无效日期",
       "local_time": "本地时间",
       "server_time": "服务器时间",
@@ -353,8 +353,8 @@
       "downloads_and_merges": "下载和合并您的唤取",
       "image_preview": "图片预览",
       "close": "关闭",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "portrait_view": "立绘视图",
+      "tile_view": "平铺视图"
     }
   },
   "feature": {
@@ -389,7 +389,7 @@
       "system_status": "系统状态",
       "legal": "法律",
       "partners": "伙伴们",
-      "disclaimer": "这是一个独立的粉丝项目，与库洛游戏没有关联或得到其授权。所有游戏资产、内容和商标均属于其各自的所有者。"
+      "disclaimer": "该项目为独立的爱好者项目，与库洛游戏并无关联，亦未获其授权。所有游戏资产、内容及商标各属其所有者。"
     },
     "error": {
       "oops": "糟糕！",
@@ -419,17 +419,17 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ 唤取",
-      "rarity_pulls_per_pity": "{num}✦ 唤取每保底",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls": "{num}✦ 唤取次数",
+      "rarity_pulls_per_pity": "按保底唤取次数统计的 {num}✦ 唤取次数",
+      "rarity_pulls_per_pity_description": "显示按保底次数统计的总抽卡次数",
       "banner_summary_title": "卡池汇总",
       "banner_summary_description": "选择一个卡池以查看统计概览。",
       "view_your_statistics_responsive": "<span>查看</span>您的统计数据",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_day": "每日唤取次数",
+      "pulls_per_day_description": "显示每日唤取次数及稀有度的分布",
+      "pulls_per_rarity": "各稀有度唤取次数",
+      "pulls_per_rarity_description": "显示稀有度的分布",
+      "pulls_per_item_description": "显示各物品的唤取次数"
     },
     "dashboard": {
       "title": "仪表板",
