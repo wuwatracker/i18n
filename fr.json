@@ -21,7 +21,7 @@
       "no_pulls_yet": "No pulls yet",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Total Pulls",
+      "total_pulls": "Invocations totales",
       "total_pulls_responsive": "<span>Total</span> Pulls",
       "total_astrites_responsive": "<span>Total</span> Astrites"
     },
@@ -188,7 +188,7 @@
       },
       "info": {
         "connecting_google": "Attemping to connect to Google Drive",
-        "sign_in_to_sync": "Sign in to sync",
+        "sign_in_to_sync": "Connectez-vous pour synchroniser",
         "loading": "Loading...",
         "import_loading": "Importing gacha records...",
         "import_loading_description": "This shouldn't take long!",
@@ -244,14 +244,14 @@
     },
     "button": {
       "go_home": "Go Home",
-      "switch_theme": "Switch Theme",
+      "switch_theme": "Changer de thème",
       "sign_in_google": "Sign in with Google",
-      "import_history": "Import History",
+      "import_history": "Importer votre historique",
       "filter_by_rarity_num": "Filter by rarity {num}",
       "import": "Import",
       "export_json": "Export JSON",
-      "view_pull_history": "View Pull History",
-      "sync_your_data": "Sync Your Data",
+      "view_pull_history": "Voir votre historique",
+      "sync_your_data": "Synchroniser vos données",
       "support_us": "Support Us",
       "create_profile": "Create Profile",
       "remind_me_later": "Remind me later",
@@ -271,7 +271,7 @@
       "server_time": "Server Time",
       "ends_in": "Ends in {timeLeft}",
       "starts_in": "Starts in {timeLeft}",
-      "time_left": "{timeLeft} left",
+      "time_left": "{timeLeft} restant",
       "event_has_ended": "Event has ended",
       "your_local_time": "Your Local Time",
       "current_server_time": "Current Server Time",
@@ -330,9 +330,9 @@
       "supporters": "Supporters",
       "no_particular_order": "in no particular order",
       "translators": "Translators",
-      "players": "Players",
+      "players": "Joueurs",
       "event": "Event",
-      "ongoing_events": "Ongoing Events",
+      "ongoing_events": "Événements en cours",
       "choose_a_method": "Choose a Method",
       "automatic": "Automatic",
       "manual": "Manual",
@@ -340,7 +340,7 @@
       "preferences": "Preferences",
       "advanced": "Advanced",
       "help_translate": "Help Translate",
-      "switch_language": "Switch language",
+      "switch_language": "Changer de langue",
       "just_taking_a_look_around": "Just taking a look around?",
       "the_active_player_profile": "the active player profile",
       "privacy": "Privacy",
@@ -372,24 +372,24 @@
       }
     },
     "migration": {
-      "legacy_migration": "Upgrade your old pulls to the new format here",
+      "legacy_migration": "Convertissez votre ancien historique au nouveau format ici",
       "legacy": "Legacy",
-      "legacy_import": "Import Old Pulls",
+      "legacy_import": "Import - ancienne version",
       "legacy_import_alert_title": "For Old Website Users Only",
       "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
     },
     "layout": {
       "banners": {
-        "close_banner": "Close banner"
+        "close_banner": "Fermer la bannière"
       },
-      "tools": "Tools",
-      "inventory": "Inventory",
+      "tools": "Outils",
+      "inventory": "Inventaire",
       "guides": "Guides",
-      "development": "Development",
-      "system_status": "System Status",
-      "legal": "Legal",
-      "partners": "Partners",
-      "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
+      "development": "Développement",
+      "system_status": "Statut du système",
+      "legal": "Légal",
+      "partners": "Partenaires",
+      "disclaimer": "Ce site est un projet de fan indépendant, non affilié ou approuvé par Kuro Games. Tous les éléments, contenus et marques du jeu appartiennent à leurs propriétaires respectifs."
     },
     "error": {
       "oops": "Whoops!",
@@ -432,12 +432,12 @@
       "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
-      "title": "Dashboard",
+      "title": "Tableau de bord",
       "stay_focused_rover": "Stay focused, Rover.",
-      "welcome_rover": "Welcome, Rover.",
-      "let_us_get_started": "Let's get you started, shall we?",
-      "your_data_will_now_sync": "Your data will now sync on demand!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "welcome_rover": "Bienvenue, Rover.",
+      "let_us_get_started": "Commençons, d'accord ?",
+      "your_data_will_now_sync": "Vos données se synchroniseront maintenant automatiquement !",
+      "feature_header": "WuWa tracker vous aide à suivre",
       "greeting": {
         "words": {
           "pulls": "pulls",
@@ -447,17 +447,17 @@
           "data": "data",
           "updates": "updates"
         },
-        "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. We aim to provide the best tools to showcase your Wuthering Waves progress to your friends."
+        "description": "Un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Nous voulons fournir les meilleurs outils pour partager votre progression dans Wuthering Waves à vos amis."
       },
       "changelog": {
-        "title": "Changelogs"
+        "title": "Mises à jour"
       },
       "about": {
-        "title": "About",
+        "title": "A propos",
         "what_is_wuwatracker": "What is WuWa Tracker?"
       },
       "credits": {
-        "title": "Credits",
+        "title": "Crédits",
         "heading": "Credits & Attributions",
         "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
         "special_thanks": "Special Thanks"
@@ -538,11 +538,11 @@
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
+        "title": "Suivi d'invocations",
         "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "global": {
-        "title": "Global Statistics",
+        "title": "Statistiques globales",
         "title_responsive": "<span>Global</span> Statistics",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
         "banner_title": "{name} Banner Statistics",
