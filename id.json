@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk diunggah.",
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
-        "incorrect_input_file_description": "Ini HANYA untuk megimpor riwayat pull dengan format terbaru saja!"
+        "incorrect_input_file_description": "Ini HANYA untuk megimpor riwayat pull dengan format terbaru saja!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
       "select_profile_placeholder_inactive": "Pilih profil yang aktif",
       "filters": "Filter",
@@ -246,12 +250,14 @@
       "go_home": "Pergi ke Home",
       "switch_theme": "Ganti Tema",
       "sign_in_google": "Masuk ke Google",
+      "log_out": "Log out",
       "import_history": "Impor Riwayat",
       "filter_by_rarity_num": "Filter berdasarkan kelangkaan {num}",
       "import": "Impor",
       "export_json": "Ekspor sebagai JSON",
       "view_pull_history": "Lihat Riwayat Pull",
       "sync_your_data": "Sinkronisasikan Data Anda",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Dukung Kami",
       "create_profile": "Buat Profil",
       "remind_me_later": "Ingatkan saya nanti",
@@ -261,7 +267,8 @@
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
       "upload_to_google": "Unggah ke Google",
-      "download_from_google": "Unduh dari Google"
+      "download_from_google": "Unduh dari Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Sepanjang waktu",
@@ -354,7 +361,10 @@
       "image_preview": "Pratinjau Gambar",
       "close": "tutup",
       "portrait_view": "Tampilan potret",
-      "tile_view": "Tampilan ubin"
+      "tile_view": "Tampilan ubin",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Material Planner",
-      "description": "Kalkulator Wuthering Waves yang paling unggul untuk merencanakan level Resonator Ascension, skill, dan material EXP Anda! WuWa Tracker memiliki serangkaian alat yang lengkap untuk meningkatkan pengalaman bermain game Anda."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Bantuan",
