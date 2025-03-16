@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "Vous n'avez pas d'invocations à télécharger.",
         "sync_unavailable": "Impossible de synchroniser pour le moment.",
         "sync_no_remote_data_to_download": "Vous n'avez pas de données en ligne à télécharger.",
-        "incorrect_input_file_description": "This is for new pull history format imports ONLY!"
+        "incorrect_input_file_description": "This is for new pull history format imports ONLY!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Tentative de connexion à Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "Click to upload or drag & drop",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Aucune invocation trouvée",
       "select_profile_placeholder_inactive": "Choisir un profil",
       "filters": "Filters",
@@ -246,12 +250,14 @@
       "go_home": "Go Home",
       "switch_theme": "Changer de thème",
       "sign_in_google": "Sign in with Google",
+      "log_out": "Log out",
       "import_history": "Importer votre historique",
       "filter_by_rarity_num": "Filtrer par rareté {num}",
       "import": "Importer",
       "export_json": "Exporter comme JSON",
       "view_pull_history": "Voir votre historique",
       "sync_your_data": "Synchroniser vos données",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Support Us",
       "create_profile": "Create Profile",
       "remind_me_later": "Remind me later",
@@ -261,7 +267,8 @@
       "download": "Download",
       "import_from_file": "Import From File",
       "upload_to_google": "Upload to Google",
-      "download_from_google": "Download from Google"
+      "download_from_google": "Download from Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Tout le temps",
@@ -354,7 +361,10 @@
       "image_preview": "Image Preview",
       "close": "close",
       "portrait_view": "Vue portrait",
-      "tile_view": "Tile view"
+      "tile_view": "Tile view",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Calculateur de matériaux",
-      "description": "Le plus puissant calculateur de Wuthering Waves pour planifier l'augmentation du niveau de vos résonateurs, vos compétences et vos matériaux d'EXP ! WuWa Tracker mets à disposition de nombreux outils pour améliorer votre expérience du jeu."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Support",
