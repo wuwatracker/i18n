@@ -12,7 +12,9 @@
       "pity": "Pity",
       "rarity": "Rarity",
       "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes"
+      "recent_convenes": "Recent Convenes",
+      "resonator": "Resonator",
+      "weapon": "Weapon"
     },
     "phrase": {
       "import_data": "Import Data",
@@ -244,7 +246,9 @@
       "select_profile_placeholder_empty": "No profiles found",
       "select_profile_placeholder_inactive": "Select active profile",
       "filters": "Filters",
-      "rows_per_page": "Rows per page"
+      "rows_per_page": "Rows per page",
+      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
+      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
     },
     "button": {
       "go_home": "Go Home",
@@ -364,6 +368,7 @@
       "tile_view": "Tile view",
       "planner": "Planner",
       "owned_num": "Owned: {num}",
+      "owned": "Owned",
       "required_num": "Required: {num}"
     }
   },
@@ -536,6 +541,16 @@
       "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
       "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
       "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+    },
+    "inventory": {
+      "new_plan": "New Plan",
+      "add_plan": "Add Plan",
+      "material_summary": "Material Summary",
+      "no_active_plans": "You don't have any active plans.",
+      "attributes": {
+        "ascension_level": "Ascension Level",
+        "level": "Level"
+      }
     }
   },
   "metadata": {
