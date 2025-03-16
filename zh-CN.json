@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "您没有可上传的唤取。",
         "sync_unavailable": "当前无法同步数据。",
         "sync_no_remote_data_to_download": "您没有可下载的远程数据。",
-        "incorrect_input_file_description": "这只适用于导入新格式的唤取历史！"
+        "incorrect_input_file_description": "这只适用于导入新格式的唤取历史！",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "您的 9 位数玩家 ID 必须以 1、5、6、7、8 或 9 开头",
       "type_to_confirm": "输入 <strong></strong> 以确认",
       "file_input": "点击上传或拖动文件至此",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "未找到玩家资料",
       "select_profile_placeholder_inactive": "选择使用的玩家资料",
       "filters": "筛选器",
@@ -246,12 +250,14 @@
       "go_home": "回到主页",
       "switch_theme": "切换主题",
       "sign_in_google": "使用 Google 登录",
+      "log_out": "Log out",
       "import_history": "导入历史记录",
       "filter_by_rarity_num": "按稀有度 {num} 筛选",
       "import": "导入",
       "export_json": "以 JSON 格式导出",
       "view_pull_history": "查看唤取历史",
       "sync_your_data": "同步数据",
+      "trigger_sync": "Trigger Sync",
       "support_us": "支持我们",
       "create_profile": "创建玩家资料",
       "remind_me_later": "稍后提醒我",
@@ -261,7 +267,8 @@
       "download": "下载",
       "import_from_file": "从文件导入",
       "upload_to_google": "上传到 Google",
-      "download_from_google": "从 Google 下载"
+      "download_from_google": "从 Google 下载",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "全部时间",
@@ -354,7 +361,10 @@
       "image_preview": "图片预览",
       "close": "关闭",
       "portrait_view": "立绘视图",
-      "tile_view": "平铺视图"
+      "tile_view": "平铺视图",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "材料规划工具",
-      "description": "功能最强大的《鸣潮》计算器，能够规划您在升级共鸣者时所消耗的等级突破材料、技能材料和经验材料。WuWa Tracker 拥有丰富的工具套件，能够让您游戏的体验更佳。"
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "支持",
