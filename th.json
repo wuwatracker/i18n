@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "ไม่พบการอัปโหลดประวัติการสุ่มใดๆ",
         "sync_unavailable": "ไม่สามารถ sync ได้ในขณะนี้",
         "sync_no_remote_data_to_download": "คุณไม่มี Remote data ที่จะดาวน์โหลด",
-        "incorrect_input_file_description": "สำหรับการนำเข้าประวัติการสุ่มใหม่เท่านั้น!"
+        "incorrect_input_file_description": "สำหรับการนำเข้าประวัติการสุ่มใหม่เท่านั้น!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "กำลังเชื่อมต่อเข้ากับ Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "Player ID 9 หลักต้องเริ่มด้วยเลข 1, 5, 6, 7, 8, 9",
       "type_to_confirm": "พิมพ์ <strong></strong> เพื่อยืนยัน",
       "file_input": "คลิกเพื่ออัปโหลดหรือลากและวาง",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "ไม่พบโปรไฟล์",
       "select_profile_placeholder_inactive": "เลือกโปรไฟล์ที่ใช้งานอยู่",
       "filters": "ตัวกรอง",
@@ -246,12 +250,14 @@
       "go_home": "หน้าแรก",
       "switch_theme": "เปลี่ยน Theme",
       "sign_in_google": "ลงชื่อเข้าใช้กับ Google",
+      "log_out": "Log out",
       "import_history": "นำเข้าประวัติ",
       "filter_by_rarity_num": "กรองจากความหายาก {num}",
       "import": "นำเข้า",
       "export_json": "แปรงข้อมูลเป็น JSON",
       "view_pull_history": "ตรวจสอบประวัติการสุ่ม",
       "sync_your_data": "Sync ข้อมูลของคุณ",
+      "trigger_sync": "Trigger Sync",
       "support_us": "สนับสนุนพวกเรา",
       "create_profile": "สร้างโปรไฟล์",
       "remind_me_later": "เตือนฉันในภายหลัง",
@@ -261,7 +267,8 @@
       "download": "ดาวน์โหลด",
       "import_from_file": "นำเข้าจากไฟล์",
       "upload_to_google": "อัปโหลดไปยัง Google",
-      "download_from_google": "ดาวน์โหลดจาก Google"
+      "download_from_google": "ดาวน์โหลดจาก Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "All time",
@@ -354,7 +361,10 @@
       "image_preview": "ตัวอย่างภาพ",
       "close": "ปืด",
       "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "tile_view": "Tile view",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "แพลนเนอร์จัดระเบียบ",
-      "description": "เครื่องคำนวณ Wuthering Waves ที่ทรงพลังที่สุด ใช้สำหรับการวางแผนจัดการเรโซเนเตอร์ สกิล และวัตถุดิบ EXP WuWa Tracker เป็นชุดเครื่องมือ Wuthering Waves ชั้นนำสำหรับผู้เล่นทุกคน"
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "สนับสนุน",
