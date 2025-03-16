@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "You don't have any pulls to upload.",
         "sync_unavailable": "Unable to sync at the moment.",
         "sync_no_remote_data_to_download": "You don't have any remote data to download.",
-        "incorrect_input_file_description": "This is for new pull history format imports ONLY!"
+        "incorrect_input_file_description": "This is for new pull history format imports ONLY!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Attemping to connect to Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "Click to upload or drag & drop",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Nincsenek profiljaid",
       "select_profile_placeholder_inactive": "Válassz egy profilt",
       "filters": "Szűrők",
@@ -246,12 +250,14 @@
       "go_home": "Főoldal",
       "switch_theme": "Téma átállítása",
       "sign_in_google": "Bejelentkezés a Google-lel",
+      "log_out": "Log out",
       "import_history": "Előzmények importálása",
       "filter_by_rarity_num": "Szűrés ritkaság szerint {num}",
       "import": "Importálás",
       "export_json": "Exportálás JSON-be",
       "view_pull_history": "View Pull History",
       "sync_your_data": "Sync Your Data",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Támogatás",
       "create_profile": "Profil létrehozása",
       "remind_me_later": "Emlékeztess később",
@@ -261,7 +267,8 @@
       "download": "Letöltés",
       "import_from_file": "Importálás fájlból",
       "upload_to_google": "Feltöltés Google-re",
-      "download_from_google": "Letöltés Google-ről"
+      "download_from_google": "Letöltés Google-ről",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Minden időszakban",
@@ -354,7 +361,10 @@
       "image_preview": "Kép előnézet",
       "close": "bezár",
       "portrait_view": "Portré nézet",
-      "tile_view": "Csempe nézet"
+      "tile_view": "Csempe nézet",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Alapanyag tervező",
-      "description": "A leghatékonyabb Wuthering Waves tervező a karakterfejlődési szint, készség és EXP anyagok tervezéséhez! A WuWa Tracker gazdag eszköztárral rendelkezik, hogy fokozza a játékélményt."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Support",
