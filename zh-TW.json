@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "您沒有任何的抽卡紀錄可上傳。",
         "sync_unavailable": "目前無法同步。",
         "sync_no_remote_data_to_download": "您沒有任何遠端資料可以下載。",
-        "incorrect_input_file_description": "只可以匯入新版喚取歷史的檔案格式！"
+        "incorrect_input_file_description": "只可以匯入新版喚取歷史的檔案格式！",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "正在嘗試連接到 Google 雲端",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "您的九碼遊戲UID必須以 1,5,6,7,8,9 開頭",
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "找不到帳號資料",
       "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
@@ -246,12 +250,14 @@
       "go_home": "回主選單",
       "switch_theme": "切換主題",
       "sign_in_google": "使用Google帳號登入",
+      "log_out": "Log out",
       "import_history": "匯入歷史紀錄",
       "filter_by_rarity_num": "以稀有度篩選 {num}",
       "import": "匯入",
       "export_json": "匯出 JSON 檔案",
       "view_pull_history": "檢視喚取記錄",
       "sync_your_data": "同步資料",
+      "trigger_sync": "Trigger Sync",
       "support_us": "支持我們",
       "create_profile": "建立帳號",
       "remind_me_later": "稍後提醒我",
@@ -261,7 +267,8 @@
       "download": "下載",
       "import_from_file": "從檔案匯入",
       "upload_to_google": "上傳至Google",
-      "download_from_google": "從Google下載"
+      "download_from_google": "從Google下載",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "All time",
@@ -354,7 +361,10 @@
       "image_preview": "圖片預覽",
       "close": "關閉",
       "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "tile_view": "Tile view",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "素材規劃",
-      "description": "最實用的《鳴潮》素材計算機，提前規劃共鳴者需要消耗的等級突破素材、技能和經驗材料！WuWa Tracker 擁有一套豐富的工具來提升你的遊戲體驗。"
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "支援",
