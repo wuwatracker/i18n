@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "Yüklenecek hiç çağrın yok.",
         "sync_unavailable": "Şuan senkronize edemiyoruz.",
         "sync_no_remote_data_to_download": "Sunucuda indirilecek herhangi bir veriniz yok.",
-        "incorrect_input_file_description": "Burası sadece YENİ çağrı formatını içe aktarmak için!"
+        "incorrect_input_file_description": "Burası sadece YENİ çağrı formatını içe aktarmak için!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Google Drive'a bağlanmaya çalışıyoruz",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
       "type_to_confirm": "Onaylamak için <strong></strong> yaz",
       "file_input": "Yüklemek için tıkla veya sürükleyip bırak",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Profil bulunamadı",
       "select_profile_placeholder_inactive": "Aktif profil seç",
       "filters": "Filtreler",
@@ -246,12 +250,14 @@
       "go_home": "Eve Dön",
       "switch_theme": "Temayı Değiştir",
       "sign_in_google": "Google ile Kayıt Ol",
+      "log_out": "Log out",
       "import_history": "Geçmişi İçe Aktar",
       "filter_by_rarity_num": "Nadirliğe göre filtrele {num}",
       "import": "İçe Aktar",
       "export_json": "JSON Olarak Dışa Aktar",
       "view_pull_history": "Çağrı Geçmişini Gör",
       "sync_your_data": "Verilerini Eşitle",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Bizi Destekle",
       "create_profile": "Profil Oluştur",
       "remind_me_later": "Daha sonra hatırlat",
@@ -261,7 +267,8 @@
       "download": "İndir",
       "import_from_file": "Dosyadan İçe Aktar",
       "upload_to_google": "Google'a Yükle",
-      "download_from_google": "Google'dan İndir"
+      "download_from_google": "Google'dan İndir",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Tüm Zamanlar",
@@ -354,7 +361,10 @@
       "image_preview": "Resim Ön İzlemesi",
       "close": "kapat",
       "portrait_view": "Portre görünümü",
-      "tile_view": "Karo görünümü"
+      "tile_view": "Karo görünümü",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Materyal Planlayıcısı",
-      "description": "Rezonatör'ün sınır seviyesini, özelliklerini ve EXP materyallerini hesaplamak için en iyi Wuthering Waves hesap makinesi. Wuwa Tracker'de işine yarayacak ve oyun deneyimini iyileştirecek bir sürü alete sahip."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Destek",
