@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "Hiện không có dữ liệu Lượt Triệu hồi để tải lên.",
         "sync_unavailable": "Hiện không có dữ liệu để đồng bộ.",
         "sync_no_remote_data_to_download": "Hiện không có dữ liệu từ xa để đồng bộ.",
-        "incorrect_input_file_description": "Đây CHỈ dành cho những lịch sử triệu hồi được nhập mới!"
+        "incorrect_input_file_description": "Đây CHỈ dành cho những lịch sử triệu hồi được nhập mới!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Đang cố gắng kết nối đến Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "ID người chơi 9 chữ số của bạn phải được bắt đầu với 1, 5, 6, 7, 8, hoặc 9",
       "type_to_confirm": "Nhập <strong></strong> để chấp nhận",
       "file_input": "Nhấn để tải lên hoặc kéo thả vào đây",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Không có hồ sơ người dùng",
       "select_profile_placeholder_inactive": "Chọn hồ sơ hoạt động",
       "filters": "Lọc",
@@ -246,12 +250,14 @@
       "go_home": "Về Trang chủ",
       "switch_theme": "Đổi chủ đề",
       "sign_in_google": "Đăng nhập bằng Google",
+      "log_out": "Log out",
       "import_history": "Nhập Lịch sử Triệu hồi",
       "filter_by_rarity_num": "Lọc theo độ hiếm {num}",
       "import": "Nhập",
       "export_json": "Xuất file JSON",
       "view_pull_history": "Xem lịch sử triệu hồi",
       "sync_your_data": "Đồng Bộ Dữ Liệu",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Ủng Hộ Chúng Tôi",
       "create_profile": "Tạo hồ sơ",
       "remind_me_later": "Nhắc tôi sau",
@@ -261,7 +267,8 @@
       "download": "Tải xuống",
       "import_from_file": "Nhập từ tệp",
       "upload_to_google": "Tải lên Google",
-      "download_from_google": "Tải xuống từ Google"
+      "download_from_google": "Tải xuống từ Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Toàn thời gian",
@@ -354,7 +361,10 @@
       "image_preview": "Hình ảnh minh họa",
       "close": "đóng",
       "portrait_view": "Xem hướng ngang",
-      "tile_view": "Xem hướng dọc"
+      "tile_view": "Xem hướng dọc",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Kế hoạch thu thập tài nguyên",
-      "description": "Hệ thống Wuthering Waves tối ưu hóa kế hoạch cho cấp độ thăng tiến, kỹ năng và vật liệu EXP cho Cộng hưởng Giả của bạn! WuWa Tracker có một bộ công cụ phong phú để nâng cao trải nghiệm chơi game của bạn."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Hỗ trợ",
