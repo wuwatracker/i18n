@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "Не найдено круток для загрузки.",
         "sync_unavailable": "Синхронизация пока недоступна.",
         "sync_no_remote_data_to_download": "Не найдено круток для загрузки.",
-        "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!"
+        "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Попытка подключения к Google Диску",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "Ваш 9-значный ИД должен начинаться с 1, 5, 6, 7, 8 или 9",
       "type_to_confirm": "Введите <strong></strong> для подтверждения",
       "file_input": "Нажмите для загрузки или перетащите сюда",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "Профили не найдены",
       "select_profile_placeholder_inactive": "Выбрать профиль",
       "filters": "Фильтры",
@@ -246,12 +250,14 @@
       "go_home": "Домой",
       "switch_theme": "Сменить тему",
       "sign_in_google": "Войти в Google",
+      "log_out": "Log out",
       "import_history": "Импортировать",
       "filter_by_rarity_num": "Фильтр по редкости {num}",
       "import": "Импорт",
       "export_json": "Сохранить в JSON",
       "view_pull_history": "История круток",
       "sync_your_data": "Синхронизировать",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Поддержите нас",
       "create_profile": "Создать профиль",
       "remind_me_later": "Напомнить позже",
@@ -261,7 +267,8 @@
       "download": "Скачать",
       "import_from_file": "Импорт из файла",
       "upload_to_google": "Загрузить в Google",
-      "download_from_google": "Скачать из Google"
+      "download_from_google": "Скачать из Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "All time",
@@ -354,7 +361,10 @@
       "image_preview": "Предпросмотр",
       "close": "закрыть",
       "portrait_view": "Portrait view",
-      "tile_view": "Tile view"
+      "tile_view": "Tile view",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Планировщик",
-      "description": "Лучший калькулятор для планирования возвышений и улучшений навыков ваших Резонаторов в Wuthering Waves! WuWa Tracker - главный набор инструментов для каждого игрока в Wuthering Waves."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Поддержка",
