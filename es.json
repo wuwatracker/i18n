@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "No tienes ninguna tirada que subir.",
         "sync_unavailable": "No pudimos sincronizar en estos momentos.",
         "sync_no_remote_data_to_download": "No tienes ningunos datos remotos que descargar.",
-        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!"
+        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
       },
       "info": {
         "connecting_google": "Intentando conectar a Google Drive",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "Tu ID de jugador de nueve dígitos debe empezar por 1, 5, 6, 7, 8 o 9",
       "type_to_confirm": "Escriba <strong></strong> para confirmar",
       "file_input": "Haz clic para subir o arrastra y suelta",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "No se han encontrado perfiles",
       "select_profile_placeholder_inactive": "Elige un perfil activo",
       "filters": "Filtros",
@@ -246,12 +250,14 @@
       "go_home": "Ir a la página principal",
       "switch_theme": "Cambiar tema",
       "sign_in_google": "Iniciar sesión con Google",
+      "log_out": "Log out",
       "import_history": "Importar historial",
       "filter_by_rarity_num": "Filtrar por rareza {num}",
       "import": "Importar",
       "export_json": "Exportar como JSON",
       "view_pull_history": "Ver historial de invocaciones",
       "sync_your_data": "Sincroniza tus datos",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Apóyanos",
       "create_profile": "Crear perfil",
       "remind_me_later": "Recuérdamelo más tarde",
@@ -261,7 +267,8 @@
       "download": "Descargar",
       "import_from_file": "Importar desde archivo",
       "upload_to_google": "Subir a Google",
-      "download_from_google": "Descargar desde Google"
+      "download_from_google": "Descargar desde Google",
+      "reset_tag_filters": "Reset Tag Filters"
     },
     "time": {
       "all_time": "Todos los tiempos",
@@ -354,7 +361,10 @@
       "image_preview": "Vista previa de imagen",
       "close": "cerrar",
       "portrait_view": "Vista vertical",
-      "tile_view": "Visca en mosaico"
+      "tile_view": "Visca en mosaico",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Support",
