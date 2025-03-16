@@ -184,7 +184,10 @@
         "sync_no_pulls_to_upload": "crwdns6468:0crwdne6468:0",
         "sync_unavailable": "crwdns6470:0crwdne6470:0",
         "sync_no_remote_data_to_download": "crwdns6472:0crwdne6472:0",
-        "incorrect_input_file_description": "crwdns6474:0crwdne6474:0"
+        "incorrect_input_file_description": "crwdns6474:0crwdne6474:0",
+        "files_no_upload": "crwdns7139:0crwdne7139:0",
+        "files_max_upload_num": "crwdns7141:0{num}crwdne7141:0",
+        "files_has_oversize_limit_num": "crwdns7143:0{num}crwdne7143:0"
       },
       "info": {
         "connecting_google": "crwdns6476:0crwdne6476:0",
@@ -237,6 +240,7 @@
       "your_player_id_validation": "crwdns6554:0crwdne6554:0",
       "type_to_confirm": "crwdns6556:0crwdne6556:0",
       "file_input": "crwdns6558:0crwdne6558:0",
+      "accepted_formats": "crwdns7145:0{formats}crwdne7145:0",
       "select_profile_placeholder_empty": "crwdns6560:0crwdne6560:0",
       "select_profile_placeholder_inactive": "crwdns6562:0crwdne6562:0",
       "filters": "crwdns7084:0crwdne7084:0",
@@ -246,12 +250,14 @@
       "go_home": "crwdns6564:0crwdne6564:0",
       "switch_theme": "crwdns6566:0crwdne6566:0",
       "sign_in_google": "crwdns6568:0crwdne6568:0",
+      "log_out": "crwdns7147:0crwdne7147:0",
       "import_history": "crwdns6570:0crwdne6570:0",
       "filter_by_rarity_num": "crwdns6572:0{num}crwdne6572:0",
       "import": "crwdns6574:0crwdne6574:0",
       "export_json": "crwdns6576:0crwdne6576:0",
       "view_pull_history": "crwdns6578:0crwdne6578:0",
       "sync_your_data": "crwdns6580:0crwdne6580:0",
+      "trigger_sync": "crwdns7149:0crwdne7149:0",
       "support_us": "crwdns6582:0crwdne6582:0",
       "create_profile": "crwdns6584:0crwdne6584:0",
       "remind_me_later": "crwdns6586:0crwdne6586:0",
@@ -261,7 +267,8 @@
       "download": "crwdns6594:0crwdne6594:0",
       "import_from_file": "crwdns6596:0crwdne6596:0",
       "upload_to_google": "crwdns6598:0crwdne6598:0",
-      "download_from_google": "crwdns6600:0crwdne6600:0"
+      "download_from_google": "crwdns6600:0crwdne6600:0",
+      "reset_tag_filters": "crwdns7151:0crwdne7151:0"
     },
     "time": {
       "all_time": "crwdns7120:0crwdne7120:0",
@@ -354,7 +361,10 @@
       "image_preview": "crwdns7088:0crwdne7088:0",
       "close": "crwdns7090:0crwdne7090:0",
       "portrait_view": "crwdns7124:0crwdne7124:0",
-      "tile_view": "crwdns7126:0crwdne7126:0"
+      "tile_view": "crwdns7126:0crwdne7126:0",
+      "planner": "crwdns7153:0crwdne7153:0",
+      "owned_num": "crwdns7155:0{num}crwdne7155:0",
+      "required_num": "crwdns7157:0{num}crwdne7157:0"
     }
   },
   "feature": {
@@ -596,8 +606,8 @@
       }
     },
     "planner": {
-      "title": "crwdns7060:0crwdne7060:0",
-      "description": "crwdns7062:0crwdne7062:0"
+      "title": "crwdns7159:0crwdne7159:0",
+      "description": "crwdns7161:0crwdne7161:0"
     },
     "support": {
       "title": "crwdns7064:0crwdne7064:0",
