@@ -12,7 +12,9 @@
       "pity": "Pity",
       "rarity": "Rarity",
       "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes"
+      "recent_convenes": "Recent Convenes",
+      "resonator": "Resonator",
+      "weapon": "Weapon"
     },
     "phrase": {
       "import_data": "Import Data",
@@ -187,7 +189,9 @@
         "incorrect_input_file_description": "This is for new pull history format imports ONLY!",
         "files_no_upload": "No files were uploaded.",
         "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB."
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
+        "inventory_item_does_not_exist": "That item does not exist!",
+        "planner_insufficient_materials": "Insufficient materials."
       },
       "info": {
         "connecting_google": "Attemping to connect to Google Drive",
@@ -209,7 +213,8 @@
         "google_drive_last_updated_at": "Google Drive was updated {date}",
         "nothing_to_sync": "Nothing to sync at the moment.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
-        "sync_updating_remote_file": "Updating remote copy for {fileName}..."
+        "sync_updating_remote_file": "Updating remote copy for {fileName}...",
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Successfully imported your achievements.",
@@ -222,12 +227,15 @@
         "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
         "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
         "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}."
+        "sync_success_updated_remote_file": "Updated remote copy for {fileName}.",
+        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
+        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
         "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
-        "this_does_not_include_your_pulls": "This does not include your pulls!"
+        "this_does_not_include_your_pulls": "This does not include your pulls!",
+        "planner_removed_plan_for_name": "Removed plan for {name}."
       }
     },
     "form": {
@@ -244,7 +252,9 @@
       "select_profile_placeholder_empty": "No profiles found",
       "select_profile_placeholder_inactive": "Select active profile",
       "filters": "Filters",
-      "rows_per_page": "Rows per page"
+      "rows_per_page": "Rows per page",
+      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
+      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
     },
     "button": {
       "go_home": "Go Home",
@@ -268,7 +278,12 @@
       "import_from_file": "Import From File",
       "upload_to_google": "Upload to Google",
       "download_from_google": "Download from Google",
-      "reset_tag_filters": "Reset Tag Filters"
+      "reset_tag_filters": "Reset Tag Filters",
+      "complete": "Complete",
+      "hide": "Hide",
+      "show": "Show",
+      "edit": "Edit",
+      "view_details": "View Details"
     },
     "time": {
       "all_time": "All time",
@@ -364,6 +379,7 @@
       "tile_view": "Tile view",
       "planner": "Planner",
       "owned_num": "Owned: {num}",
+      "owned": "Owned",
       "required_num": "Required: {num}"
     }
   },
@@ -536,6 +552,25 @@
       "ps5_press_the_options_button": "Press the <code>Options</code> button on your controller",
       "ps5_click_on_page_information": "Press the <code>Page Information</code> button",
       "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+    },
+    "inventory": {
+      "new_plan": "New Plan",
+      "add_plan": "Add Plan",
+      "material_summary": "Material Summary",
+      "no_active_plans": "You don't have any active plans.",
+      "nodes_to_unlock": "Nodes to Unlock",
+      "passive_skill": "Passive Skill",
+      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
+      "no_items_will_be_consumed": "No items will be consumed.",
+      "attributes": {
+        "ascension_level": "Ascension Level",
+        "level": "Level",
+        "basic_attack": "Basic Attack",
+        "resonance_skill": "Resonance Skill",
+        "forte_circuit": "Forte Circuit",
+        "resonance_liberation": "Resonance Liberation",
+        "intro_skill": "Intro Skill"
+      }
     }
   },
   "metadata": {
