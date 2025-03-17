@@ -12,7 +12,9 @@
       "pity": "crwdns6158:0crwdne6158:0",
       "rarity": "crwdns7076:0crwdne7076:0",
       "date_received": "crwdns6160:0crwdne6160:0",
-      "recent_convenes": "crwdns6162:0crwdne6162:0"
+      "recent_convenes": "crwdns6162:0crwdne6162:0",
+      "resonator": "crwdns7163:0crwdne7163:0",
+      "weapon": "crwdns7165:0crwdne7165:0"
     },
     "phrase": {
       "import_data": "crwdns6164:0crwdne6164:0",
@@ -184,7 +186,12 @@
         "sync_no_pulls_to_upload": "crwdns6468:0crwdne6468:0",
         "sync_unavailable": "crwdns6470:0crwdne6470:0",
         "sync_no_remote_data_to_download": "crwdns6472:0crwdne6472:0",
-        "incorrect_input_file_description": "crwdns6474:0crwdne6474:0"
+        "incorrect_input_file_description": "crwdns6474:0crwdne6474:0",
+        "files_no_upload": "crwdns7139:0crwdne7139:0",
+        "files_max_upload_num": "crwdns7141:0{num}crwdne7141:0",
+        "files_has_oversize_limit_num": "crwdns7143:0{num}crwdne7143:0",
+        "inventory_item_does_not_exist": "crwdns7167:0crwdne7167:0",
+        "planner_insufficient_materials": "crwdns7169:0crwdne7169:0"
       },
       "info": {
         "connecting_google": "crwdns6476:0crwdne6476:0",
@@ -206,7 +213,8 @@
         "google_drive_last_updated_at": "crwdns6508:0{date}crwdne6508:0",
         "nothing_to_sync": "crwdns6510:0crwdne6510:0",
         "sync_creating_file_in_google": "crwdns6512:0{fileName}crwdne6512:0",
-        "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0"
+        "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0",
+        "planner_edited_plan_for_name": "crwdns7171:0{todo.name}crwdne7171:0"
       },
       "success": {
         "successfully_imported_achievements": "crwdns6516:0crwdne6516:0",
@@ -219,12 +227,15 @@
         "sync_successfully_downloaded_remote_data": "crwdns6530:0crwdne6530:0",
         "sync_successfully_created_remote_data": "crwdns6532:0{fileName}crwdne6532:0",
         "sync_success": "crwdns6534:0crwdne6534:0",
-        "sync_success_updated_remote_file": "crwdns7070:0{fileName}crwdne7070:0"
+        "sync_success_updated_remote_file": "crwdns7070:0{fileName}crwdne7070:0",
+        "planner_successfully_completed_plan_for_name": "crwdns7173:0{name}crwdne7173:0",
+        "planner_successfully_created_plan_for_name": "crwdns7175:0{name}crwdne7175:0"
       },
       "warn": {
         "this_cannot_be_undone": "crwdns6538:0crwdne6538:0",
         "disable_auto_profile_sync": "crwdns7100:0crwdne7100:0",
-        "this_does_not_include_your_pulls": "crwdns6542:0crwdne6542:0"
+        "this_does_not_include_your_pulls": "crwdns6542:0crwdne6542:0",
+        "planner_removed_plan_for_name": "crwdns7177:0{name}crwdne7177:0"
       }
     },
     "form": {
@@ -237,21 +248,26 @@
       "your_player_id_validation": "crwdns6554:0crwdne6554:0",
       "type_to_confirm": "crwdns6556:0crwdne6556:0",
       "file_input": "crwdns6558:0crwdne6558:0",
+      "accepted_formats": "crwdns7145:0{formats}crwdne7145:0",
       "select_profile_placeholder_empty": "crwdns6560:0crwdne6560:0",
       "select_profile_placeholder_inactive": "crwdns6562:0crwdne6562:0",
       "filters": "crwdns7084:0crwdne7084:0",
-      "rows_per_page": "crwdns7086:0crwdne7086:0"
+      "rows_per_page": "crwdns7086:0crwdne7086:0",
+      "planner_previous_must_be_between_min_max": "crwdns7179:0{min}crwdnd7179:0{max}crwdne7179:0",
+      "planner_new_must_be_between_min_max": "crwdns7181:0{min}crwdnd7181:0{max}crwdne7181:0"
     },
     "button": {
       "go_home": "crwdns6564:0crwdne6564:0",
       "switch_theme": "crwdns6566:0crwdne6566:0",
       "sign_in_google": "crwdns6568:0crwdne6568:0",
+      "log_out": "crwdns7147:0crwdne7147:0",
       "import_history": "crwdns6570:0crwdne6570:0",
       "filter_by_rarity_num": "crwdns6572:0{num}crwdne6572:0",
       "import": "crwdns6574:0crwdne6574:0",
       "export_json": "crwdns6576:0crwdne6576:0",
       "view_pull_history": "crwdns6578:0crwdne6578:0",
       "sync_your_data": "crwdns6580:0crwdne6580:0",
+      "trigger_sync": "crwdns7149:0crwdne7149:0",
       "support_us": "crwdns6582:0crwdne6582:0",
       "create_profile": "crwdns6584:0crwdne6584:0",
       "remind_me_later": "crwdns6586:0crwdne6586:0",
@@ -261,7 +277,13 @@
       "download": "crwdns6594:0crwdne6594:0",
       "import_from_file": "crwdns6596:0crwdne6596:0",
       "upload_to_google": "crwdns6598:0crwdne6598:0",
-      "download_from_google": "crwdns6600:0crwdne6600:0"
+      "download_from_google": "crwdns6600:0crwdne6600:0",
+      "reset_tag_filters": "crwdns7151:0crwdne7151:0",
+      "complete": "crwdns7183:0crwdne7183:0",
+      "hide": "crwdns7185:0crwdne7185:0",
+      "show": "crwdns7187:0crwdne7187:0",
+      "edit": "crwdns7189:0crwdne7189:0",
+      "view_details": "crwdns7191:0crwdne7191:0"
     },
     "time": {
       "all_time": "crwdns7120:0crwdne7120:0",
@@ -354,7 +376,11 @@
       "image_preview": "crwdns7088:0crwdne7088:0",
       "close": "crwdns7090:0crwdne7090:0",
       "portrait_view": "crwdns7124:0crwdne7124:0",
-      "tile_view": "crwdns7126:0crwdne7126:0"
+      "tile_view": "crwdns7126:0crwdne7126:0",
+      "planner": "crwdns7153:0crwdne7153:0",
+      "owned_num": "crwdns7155:0{num}crwdne7155:0",
+      "owned": "crwdns7193:0crwdne7193:0",
+      "required_num": "crwdns7157:0{num}crwdne7157:0"
     }
   },
   "feature": {
@@ -526,6 +552,25 @@
       "ps5_press_the_options_button": "crwdns7092:0crwdne7092:0",
       "ps5_click_on_page_information": "crwdns7094:0crwdne7094:0",
       "ps5_enter_your_record_id": "crwdns7096:0crwdne7096:0"
+    },
+    "inventory": {
+      "new_plan": "crwdns7195:0crwdne7195:0",
+      "add_plan": "crwdns7197:0crwdne7197:0",
+      "material_summary": "crwdns7199:0crwdne7199:0",
+      "no_active_plans": "crwdns7201:0crwdne7201:0",
+      "nodes_to_unlock": "crwdns7203:0crwdne7203:0",
+      "passive_skill": "crwdns7205:0crwdne7205:0",
+      "plan_delete_name_confirm": "crwdns7207:0{name}crwdne7207:0",
+      "no_items_will_be_consumed": "crwdns7209:0crwdne7209:0",
+      "attributes": {
+        "ascension_level": "crwdns7211:0crwdne7211:0",
+        "level": "crwdns7213:0crwdne7213:0",
+        "basic_attack": "crwdns7215:0crwdne7215:0",
+        "resonance_skill": "crwdns7217:0crwdne7217:0",
+        "forte_circuit": "crwdns7219:0crwdne7219:0",
+        "resonance_liberation": "crwdns7221:0crwdne7221:0",
+        "intro_skill": "crwdns7223:0crwdne7223:0"
+      }
     }
   },
   "metadata": {
@@ -596,8 +641,8 @@
       }
     },
     "planner": {
-      "title": "crwdns7060:0crwdne7060:0",
-      "description": "crwdns7062:0crwdne7062:0"
+      "title": "crwdns7159:0crwdne7159:0",
+      "description": "crwdns7161:0crwdne7161:0"
     },
     "support": {
       "title": "crwdns7064:0crwdne7064:0",

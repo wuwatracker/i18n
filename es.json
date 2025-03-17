@@ -12,7 +12,9 @@
       "pity": "Pity",
       "rarity": "Rareza",
       "date_received": "Fecha",
-      "recent_convenes": "Invocaciones recientes"
+      "recent_convenes": "Invocaciones recientes",
+      "resonator": "Resonator",
+      "weapon": "Weapon"
     },
     "phrase": {
       "import_data": "Importar datos",
@@ -184,7 +186,12 @@
         "sync_no_pulls_to_upload": "No tienes ninguna tirada que subir.",
         "sync_unavailable": "No pudimos sincronizar en estos momentos.",
         "sync_no_remote_data_to_download": "No tienes ningunos datos remotos que descargar.",
-        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!"
+        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
+        "inventory_item_does_not_exist": "That item does not exist!",
+        "planner_insufficient_materials": "Insufficient materials."
       },
       "info": {
         "connecting_google": "Intentando conectar a Google Drive",
@@ -206,7 +213,8 @@
         "google_drive_last_updated_at": "Google Drive se actualizó el {date}",
         "nothing_to_sync": "No hay nada que sincronizar en este momento.",
         "sync_creating_file_in_google": "Creando {fileName} en Google Drive...",
-        "sync_updating_remote_file": "Actualizando la copia remota para {fileName}..."
+        "sync_updating_remote_file": "Actualizando la copia remota para {fileName}...",
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Se han importado tus logros exitosamente.",
@@ -219,12 +227,15 @@
         "sync_successfully_downloaded_remote_data": "Se ha descargado los datos remotos exitosamente.",
         "sync_successfully_created_remote_data": "Se ha creado {fileName} en Google Drive exitosamente.",
         "sync_success": "Sincronización exitosa.",
-        "sync_success_updated_remote_file": "Actualizado la copia remota para {fileName}."
+        "sync_success_updated_remote_file": "Actualizado la copia remota para {fileName}.",
+        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
+        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
       },
       "warn": {
         "this_cannot_be_undone": "¡Esta acción no se puede deshacer!",
         "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
-        "this_does_not_include_your_pulls": "¡Esto no incluye tus tiradas!"
+        "this_does_not_include_your_pulls": "¡Esto no incluye tus tiradas!",
+        "planner_removed_plan_for_name": "Removed plan for {name}."
       }
     },
     "form": {
@@ -237,21 +248,26 @@
       "your_player_id_validation": "Tu ID de jugador de nueve dígitos debe empezar por 1, 5, 6, 7, 8 o 9",
       "type_to_confirm": "Escriba <strong></strong> para confirmar",
       "file_input": "Haz clic para subir o arrastra y suelta",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "No se han encontrado perfiles",
       "select_profile_placeholder_inactive": "Elige un perfil activo",
       "filters": "Filtros",
-      "rows_per_page": "Filas por página"
+      "rows_per_page": "Filas por página",
+      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
+      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
     },
     "button": {
       "go_home": "Ir a la página principal",
       "switch_theme": "Cambiar tema",
       "sign_in_google": "Iniciar sesión con Google",
+      "log_out": "Log out",
       "import_history": "Importar historial",
       "filter_by_rarity_num": "Filtrar por rareza {num}",
       "import": "Importar",
       "export_json": "Exportar como JSON",
       "view_pull_history": "Ver historial de invocaciones",
       "sync_your_data": "Sincroniza tus datos",
+      "trigger_sync": "Trigger Sync",
       "support_us": "Apóyanos",
       "create_profile": "Crear perfil",
       "remind_me_later": "Recuérdamelo más tarde",
@@ -261,7 +277,13 @@
       "download": "Descargar",
       "import_from_file": "Importar desde archivo",
       "upload_to_google": "Subir a Google",
-      "download_from_google": "Descargar desde Google"
+      "download_from_google": "Descargar desde Google",
+      "reset_tag_filters": "Reset Tag Filters",
+      "complete": "Complete",
+      "hide": "Hide",
+      "show": "Show",
+      "edit": "Edit",
+      "view_details": "View Details"
     },
     "time": {
       "all_time": "Todos los tiempos",
@@ -354,7 +376,11 @@
       "image_preview": "Vista previa de imagen",
       "close": "cerrar",
       "portrait_view": "Vista vertical",
-      "tile_view": "Visca en mosaico"
+      "tile_view": "Visca en mosaico",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "owned": "Owned",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -526,6 +552,25 @@
       "ps5_press_the_options_button": "Presiona el botón de <code>Opciones</code> en tu mando",
       "ps5_click_on_page_information": "Presiona el botón de <code>Información de página</code>",
       "ps5_enter_your_record_id": "Introduce tu <code>player_id</code> y <code>record_id</code> aquí"
+    },
+    "inventory": {
+      "new_plan": "New Plan",
+      "add_plan": "Add Plan",
+      "material_summary": "Material Summary",
+      "no_active_plans": "You don't have any active plans.",
+      "nodes_to_unlock": "Nodes to Unlock",
+      "passive_skill": "Passive Skill",
+      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
+      "no_items_will_be_consumed": "No items will be consumed.",
+      "attributes": {
+        "ascension_level": "Ascension Level",
+        "level": "Level",
+        "basic_attack": "Basic Attack",
+        "resonance_skill": "Resonance Skill",
+        "forte_circuit": "Forte Circuit",
+        "resonance_liberation": "Resonance Liberation",
+        "intro_skill": "Intro Skill"
+      }
     }
   },
   "metadata": {
@@ -596,8 +641,8 @@
       }
     },
     "planner": {
-      "title": "Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Support",

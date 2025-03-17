@@ -12,7 +12,9 @@
       "pity": "保底",
       "rarity": "稀有度",
       "date_received": "获取日期",
-      "recent_convenes": "最近唤取"
+      "recent_convenes": "最近唤取",
+      "resonator": "Resonator",
+      "weapon": "Weapon"
     },
     "phrase": {
       "import_data": "导入数据",
@@ -184,7 +186,12 @@
         "sync_no_pulls_to_upload": "您没有可上传的唤取。",
         "sync_unavailable": "当前无法同步数据。",
         "sync_no_remote_data_to_download": "您没有可下载的远程数据。",
-        "incorrect_input_file_description": "这只适用于导入新格式的唤取历史！"
+        "incorrect_input_file_description": "这只适用于导入新格式的唤取历史！",
+        "files_no_upload": "No files were uploaded.",
+        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
+        "inventory_item_does_not_exist": "That item does not exist!",
+        "planner_insufficient_materials": "Insufficient materials."
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
@@ -206,7 +213,8 @@
         "google_drive_last_updated_at": "Google 云端硬盘在 {date} 更新",
         "nothing_to_sync": "目前没有需要同步的数据。",
         "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
-        "sync_updating_remote_file": "上传 {fileName} 的远程副本..."
+        "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
@@ -219,12 +227,15 @@
         "sync_successfully_downloaded_remote_data": "成功下载远程数据。",
         "sync_successfully_created_remote_data": "成功在 Google 云端硬盘创建 {fileName}。",
         "sync_success": "同步成功。",
-        "sync_success_updated_remote_file": "已上传 {fileName} 的远程副本。"
+        "sync_success_updated_remote_file": "已上传 {fileName} 的远程副本。",
+        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
+        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
       },
       "warn": {
         "this_cannot_be_undone": "此操作无法撤销！",
         "disable_auto_profile_sync": "为了数据安全，将会禁用自动资料同步！",
-        "this_does_not_include_your_pulls": "这不包括您的唤取！"
+        "this_does_not_include_your_pulls": "这不包括您的唤取！",
+        "planner_removed_plan_for_name": "Removed plan for {name}."
       }
     },
     "form": {
@@ -237,21 +248,26 @@
       "your_player_id_validation": "您的 9 位数玩家 ID 必须以 1、5、6、7、8 或 9 开头",
       "type_to_confirm": "输入 <strong></strong> 以确认",
       "file_input": "点击上传或拖动文件至此",
+      "accepted_formats": "Accepted formats: {formats}",
       "select_profile_placeholder_empty": "未找到玩家资料",
       "select_profile_placeholder_inactive": "选择使用的玩家资料",
       "filters": "筛选器",
-      "rows_per_page": "行每页"
+      "rows_per_page": "行每页",
+      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
+      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
     },
     "button": {
       "go_home": "回到主页",
       "switch_theme": "切换主题",
       "sign_in_google": "使用 Google 登录",
+      "log_out": "Log out",
       "import_history": "导入历史记录",
       "filter_by_rarity_num": "按稀有度 {num} 筛选",
       "import": "导入",
       "export_json": "以 JSON 格式导出",
       "view_pull_history": "查看唤取历史",
       "sync_your_data": "同步数据",
+      "trigger_sync": "Trigger Sync",
       "support_us": "支持我们",
       "create_profile": "创建玩家资料",
       "remind_me_later": "稍后提醒我",
@@ -261,7 +277,13 @@
       "download": "下载",
       "import_from_file": "从文件导入",
       "upload_to_google": "上传到 Google",
-      "download_from_google": "从 Google 下载"
+      "download_from_google": "从 Google 下载",
+      "reset_tag_filters": "Reset Tag Filters",
+      "complete": "Complete",
+      "hide": "Hide",
+      "show": "Show",
+      "edit": "Edit",
+      "view_details": "View Details"
     },
     "time": {
       "all_time": "全部时间",
@@ -354,7 +376,11 @@
       "image_preview": "图片预览",
       "close": "关闭",
       "portrait_view": "立绘视图",
-      "tile_view": "平铺视图"
+      "tile_view": "平铺视图",
+      "planner": "Planner",
+      "owned_num": "Owned: {num}",
+      "owned": "Owned",
+      "required_num": "Required: {num}"
     }
   },
   "feature": {
@@ -526,6 +552,25 @@
       "ps5_press_the_options_button": "按下您控制器上的<code>选项</code>按钮",
       "ps5_click_on_page_information": "按下<code>页面信息</code>按钮",
       "ps5_enter_your_record_id": "在此输入您的 <code>player_id</code> 和 <code>record_id</code>"
+    },
+    "inventory": {
+      "new_plan": "New Plan",
+      "add_plan": "Add Plan",
+      "material_summary": "Material Summary",
+      "no_active_plans": "You don't have any active plans.",
+      "nodes_to_unlock": "Nodes to Unlock",
+      "passive_skill": "Passive Skill",
+      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
+      "no_items_will_be_consumed": "No items will be consumed.",
+      "attributes": {
+        "ascension_level": "Ascension Level",
+        "level": "Level",
+        "basic_attack": "Basic Attack",
+        "resonance_skill": "Resonance Skill",
+        "forte_circuit": "Forte Circuit",
+        "resonance_liberation": "Resonance Liberation",
+        "intro_skill": "Intro Skill"
+      }
     }
   },
   "metadata": {
@@ -596,8 +641,8 @@
       }
     },
     "planner": {
-      "title": "材料规划工具",
-      "description": "功能最强大的《鸣潮》计算器，能够规划您在升级共鸣者时所消耗的等级突破材料、技能材料和经验材料。WuWa Tracker 拥有丰富的工具套件，能够让您游戏的体验更佳。"
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "支持",
