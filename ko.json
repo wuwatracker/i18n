@@ -507,6 +507,8 @@
       "import_user_profile": "유저 프로필 제출",
       "user_profile": "유저 프로필",
       "user_profile_description": "업적, 아이템 및 튜닝 트래커에 대한 활성 프로필을 선택하세요",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "뽑기 기록 데이터",
       "pull_history_description": "구글 또는 로컬 디바이스를 통해 로컬 데이터를 업로드 & 다운로드하세요",
       "saves_your_pulls_to_google": "구글에 뽑기 기록을 저장하세요",
