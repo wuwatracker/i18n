@@ -507,6 +507,8 @@
       "import_user_profile": "匯入使用者帳號",
       "user_profile": "使用者帳號",
       "user_profile_description": "選擇您的現行帳號用於成就、物品和抽卡追蹤",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "喚取歷史資料",
       "pull_history_description": "透過Google或者您的目前裝置上傳且下載您的本地資料",
       "saves_your_pulls_to_google": "儲存您的喚取資料至Google",
