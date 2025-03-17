@@ -507,6 +507,8 @@
       "import_user_profile": "导入用户资料",
       "user_profile": "用户资料",
       "user_profile_description": "选择您使用的玩家资料以查看成就、物品和唤取记录跟踪",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "唤取历史数据",
       "pull_history_description": "通过 Google 或您的本地设备上传和下载您的本地数据",
       "saves_your_pulls_to_google": "将您的唤取保存到 Google",
