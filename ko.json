@@ -13,8 +13,8 @@
       "rarity": "희귀도",
       "date_received": "시간",
       "recent_convenes": "최근 튜닝",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "공명자",
+      "weapon": "무기"
     },
     "phrase": {
       "import_data": "데이터 제출하기",
@@ -187,7 +187,7 @@
         "sync_unavailable": "현재 동기화할 수 없습니다.",
         "sync_no_remote_data_to_download": "다운로드할 원격 데이터가 없습니다.",
         "incorrect_input_file_description": "새로운 형식의 뽑기 기록을 제출해주세요.",
-        "files_no_upload": "No files were uploaded.",
+        "files_no_upload": "파일이 업로드되지 않았습니다.",
         "files_max_upload_num": "You can only upload up to {num} file(s).",
         "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
         "inventory_item_does_not_exist": "That item does not exist!",
@@ -260,7 +260,7 @@
       "go_home": "홈",
       "switch_theme": "테마 변경",
       "sign_in_google": "Google로 로그인",
-      "log_out": "Log out",
+      "log_out": "로그아웃",
       "import_history": "기록 제출하기",
       "filter_by_rarity_num": "{num} 희귀도로 필터링",
       "import": "제출",
