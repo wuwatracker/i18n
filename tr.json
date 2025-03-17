@@ -507,6 +507,8 @@
       "import_user_profile": "Kullanıcı Profilini İçe Aktar",
       "user_profile": "Kullanıcı Profili",
       "user_profile_description": "Başarımlar, eşyalar ve çağrı takip sistemi için aktif profilini seç",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Çağrı Geçmişi Verileri",
       "pull_history_description": "Bilgilerini Google veya yerel cihazın aracılığı ile yükle & indir",
       "saves_your_pulls_to_google": "Çağrılarını Google'a kayıt eder",
