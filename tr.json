@@ -214,7 +214,7 @@
         "nothing_to_sync": "Şuan eşitlenecek birşey yok.",
         "sync_creating_file_in_google": "Google Drive'da {fileName} oluşturuluyor...",
         "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor...",
-        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
+        "planner_edited_plan_for_name": "Plan ismi {todo.name} olarak değiştirildi."
       },
       "success": {
         "successfully_imported_achievements": "Başırımlarınız başarılı bir şekilde içe aktarıldı.",
@@ -260,14 +260,14 @@
       "go_home": "Eve Dön",
       "switch_theme": "Temayı Değiştir",
       "sign_in_google": "Google ile Kayıt Ol",
-      "log_out": "Log out",
+      "log_out": "Oturumu Kapat",
       "import_history": "Geçmişi İçe Aktar",
       "filter_by_rarity_num": "Nadirliğe göre filtrele {num}",
       "import": "İçe Aktar",
       "export_json": "JSON Olarak Dışa Aktar",
       "view_pull_history": "Çağrı Geçmişini Gör",
       "sync_your_data": "Verilerini Eşitle",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "Eşitle",
       "support_us": "Bizi Destekle",
       "create_profile": "Profil Oluştur",
       "remind_me_later": "Daha sonra hatırlat",
@@ -278,12 +278,12 @@
       "import_from_file": "Dosyadan İçe Aktar",
       "upload_to_google": "Google'a Yükle",
       "download_from_google": "Google'dan İndir",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "reset_tag_filters": "Arama Filtrelerini Sıfırla",
+      "complete": "Tamamla",
+      "hide": "Gizle",
+      "show": "Göster",
+      "edit": "Düzenle",
+      "view_details": "Detayları Görüntüle"
     },
     "time": {
       "all_time": "Tüm Zamanlar",
@@ -377,10 +377,10 @@
       "close": "kapat",
       "portrait_view": "Portre görünümü",
       "tile_view": "Karo görünümü",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "planner": "Planlayıcı",
+      "owned_num": "Sahip Olduğun: {num}",
+      "owned": "Sahip Olduğun",
+      "required_num": "Gerekli: {num}"
     }
   },
   "feature": {
@@ -517,7 +517,7 @@
       "sync_preferences": "Eşitleme Tercihleri",
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
       "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
-      "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitlemeyi Tetikle tuşu</code> ile manuel olarak verilerini eşitleyebilirsin."
+      "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitle</code> tuşu ile manuel olarak verilerini eşitleyebilirsin."
     },
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
@@ -554,14 +554,14 @@
       "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya gir"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "new_plan": "Yeni Plan",
+      "add_plan": "Plan Ekle",
+      "material_summary": "Materyal Özeti",
+      "no_active_plans": "Aktif bir planın yok.",
+      "nodes_to_unlock": "Açılacak Özellikler",
+      "passive_skill": "Pasif Skill",
+      "plan_delete_name_confirm": "{name} isimli planı silmek istediğinden emin misin?",
+      "no_items_will_be_consumed": "Hiçbir eşya harcanmayacak.",
       "attributes": {
         "ascension_level": "Ascension Level",
         "level": "Level",
@@ -641,8 +641,8 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "Geliştirme Planlayıcısi",
+      "description": "Rezonatör Ascension Level, skill ve EXP materyallerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
     },
     "support": {
       "title": "Destek",
