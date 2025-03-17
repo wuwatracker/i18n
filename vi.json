@@ -507,6 +507,8 @@
       "import_user_profile": "Nhập Hồ sơ người chơi",
       "user_profile": "Hồ sơ Người chơi",
       "user_profile_description": "Chọn hồ sơ hoạt động của bạn cho các thành tích, vật phẩm và lịch sử triệu hồi",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Dữ liệu Lịch sử Triệu hồi",
       "pull_history_description": "Tải lên/xuống dữ liệu cục bộ của bạn bằng Google hoặc ở thiết bị của bạn",
       "saves_your_pulls_to_google": "Lưu những lần triệu hồi của bạn lên Google",
