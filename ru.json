@@ -507,6 +507,8 @@
       "import_user_profile": "Импортировать профиль",
       "user_profile": "Профиль",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "История круток",
       "pull_history_description": "Upload & download your local data via Google or your local device",
       "saves_your_pulls_to_google": "Сохраняет ваши крутки на Google Диск",
