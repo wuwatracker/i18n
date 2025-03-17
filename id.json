@@ -507,6 +507,8 @@
       "import_user_profile": "Impor Profil Pengguna",
       "user_profile": "Profil Pengguna",
       "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Data Riwayat Pull",
       "pull_history_description": "Unggah dan unduh data lokal Anda melalui Google atau perangkat Anda",
       "saves_your_pulls_to_google": "Simpan riwayat pull ke Google",
