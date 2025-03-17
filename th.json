@@ -507,6 +507,8 @@
       "import_user_profile": "นำเข้าประวัติผู้ใช้",
       "user_profile": "โปรไฟล์ผู้ใช้งาน",
       "user_profile_description": "เลือกโปรไฟล์ที่ใช้งานอยู่ของคุณสำหรับการติดตามความสำเร็จ ไอเท็ม และข้อมูลการสุ่มกาชา",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "ข้อมูลประวัติการสุ่ม",
       "pull_history_description": "อัพโหลดและดาวน์โหลดข้อมูลของคุณผ่าน Google หรืออุปกรณ์ส่วนตัวของคุณ",
       "saves_your_pulls_to_google": "บันทึกข้อมูลการสุ่มของคุณไปยัง Google",
