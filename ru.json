@@ -189,7 +189,7 @@
         "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!",
         "files_no_upload": "Ошибка загрузки файлов.",
         "files_max_upload_num": "Вы можете загрузить до {num} файла(-ов).",
-        "files_has_oversize_limit_num": "Размер некоторых файлов превышает {num} МБ.",
+        "files_has_oversize_limit_num": "Размер некоторых файлов превышает лимит в {num} МБ.",
         "inventory_item_does_not_exist": "Такого предмета не существует!",
         "planner_insufficient_materials": "Недостаточно материалов."
       },
@@ -253,7 +253,7 @@
       "select_profile_placeholder_inactive": "Выбрать профиль",
       "filters": "Фильтры",
       "rows_per_page": "Строк на странице",
-      "planner_previous_must_be_between_min_max": "Предыдущий уровень должен быть между {min} и {max}.",
+      "planner_previous_must_be_between_min_max": "Начальный уровень должен быть между {min} и {max}.",
       "planner_new_must_be_between_min_max": "Новый уровень должен быть между {min} и {max}."
     },
     "button": {
@@ -452,10 +452,10 @@
       "banner_summary_description": "Выберите баннер для просмотра статистики.",
       "view_your_statistics_responsive": "<span>Просмотреть</span> свою статистику",
       "pulls_per_day": "Круток в день",
-      "pulls_per_day_description": "Распределение круток по дням и редкости",
+      "pulls_per_day_description": "Показывает распределение круток по дням и редкости",
       "pulls_per_rarity": "Крутки по редкости",
-      "pulls_per_rarity_description": "Распределение по редкости",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_rarity_description": "Показывает распределение по редкости",
+      "pulls_per_item_description": "Общее число выпадений"
     },
     "dashboard": {
       "title": "Главная страница",
@@ -500,7 +500,7 @@
       "all_profiles_delete": "Удалить ВСЕ профили",
       "all_profiles_delete_description": "Это навсегда удалит ВСЕ ваши профили. Эта функция создана для тестов. Пожалуйста, создайте резервную копию ваших данных и подумайте дважды.",
       "all_profiles_delete_confirm": "Вы уверены, что хотите удалить ВСЕ ваши профили?",
-      "privacy_description": "Opt-in or out of settings related to your data privacy",
+      "privacy_description": "Редактирование настроек касаемо конфиденциальности ваших данных",
       "privacy_global_stats": "Поделиться для глобальной статистики",
       "privacy_global_stats_description": "Когда включено, мы будем использовать вашу ссылку для подсчётов глобальной статистики",
       "privacy_footer_policy_link": "Наша <link>Политика конфиденциальности</link> содержит подробную информацию о том, как мы работаем с вашими данными.",
@@ -515,11 +515,11 @@
       "overwrite_google_drive_data": "Вы хотите перезаписать данные на Google Диске?",
       "overwrite_google_drive_data_description": "Загрузка данных на Google Диск перезапишет имеющиеся на нём данные имеющимися. Мы рекомендуем сначала скачать копию данных с Google Диска.",
       "pulls_file_import_dialog_title": "Импорт с устройства",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+      "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>legacy import</link>, если хотите восстановить данные, сохранённые до <code></code>.",
       "sync_preferences": "Настройки синхронизации",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
-      "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
+      "sync_preferences_profile_description": "Профили содержат информацию, не касающуюся круток, например достижения, предметы и прочее.",
+      "you_can_manually_sync_reminder": "Вы можете вручную синхронизировать данные с помощью кнопки <code>Синхронизировать</code> в меню профиля."
     },
     "timeline": {
       "choose_server_timezone": "Выбрать часовой пояс сервера",
@@ -556,10 +556,10 @@
       "ps5_enter_your_record_id": "Введите ваши <code>player_id(Ид игрока)</code> и <code>record_id(ИДдзаписи)</code> здесь"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
+      "new_plan": "Новый план",
+      "add_plan": "Добавить план",
+      "material_summary": "Всего материалов",
+      "no_active_plans": "У вас нет активных планов.",
       "nodes_to_unlock": "Nodes to Unlock",
       "passive_skill": "Passive Skill",
       "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
