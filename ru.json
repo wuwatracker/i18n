@@ -13,8 +13,8 @@
       "rarity": "Редкость",
       "date_received": "Дата и время получения",
       "recent_convenes": "Последние крутки",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "Резонатор",
+      "weapon": "Оружие"
     },
     "phrase": {
       "import_data": "Импорт",
@@ -187,11 +187,11 @@
         "sync_unavailable": "Синхронизация пока недоступна.",
         "sync_no_remote_data_to_download": "Не найдено круток для загрузки.",
         "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "files_no_upload": "Ошибка загрузки файлов.",
+        "files_max_upload_num": "Вы можете загрузить до {num} файла(-ов).",
+        "files_has_oversize_limit_num": "Размер некоторых файлов превышает {num} МБ.",
+        "inventory_item_does_not_exist": "Такого предмета не существует!",
+        "planner_insufficient_materials": "Недостаточно материалов."
       },
       "info": {
         "connecting_google": "Попытка подключения к Google Диску",
@@ -214,7 +214,7 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
+        "planner_edited_plan_for_name": "Список дел {todo.name} изменён."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
@@ -228,14 +228,14 @@
         "sync_successfully_created_remote_data": "Файл {fileName} успешно создан на Google Диске.",
         "sync_success": "Синхронизация успешна.",
         "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
-        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_completed_plan_for_name": "План для {name} выполнен!",
+        "planner_successfully_created_plan_for_name": "Создан план для {name}."
       },
       "warn": {
         "this_cannot_be_undone": "Это действие не может быть отменено!",
         "disable_auto_profile_sync": "Для вашей безопасности, это так же отключит автоматическую синхронизацию профиля!",
         "this_does_not_include_your_pulls": "Ваши крутки в это не входят!",
-        "planner_removed_plan_for_name": "Removed plan for {name}."
+        "planner_removed_plan_for_name": "План для {name} удалён."
       }
     },
     "form": {
@@ -248,26 +248,26 @@
       "your_player_id_validation": "Ваш 9-значный ИД должен начинаться с 1, 5, 6, 7, 8 или 9",
       "type_to_confirm": "Введите <strong></strong> для подтверждения",
       "file_input": "Нажмите для загрузки или перетащите сюда",
-      "accepted_formats": "Accepted formats: {formats}",
+      "accepted_formats": "Допустимые форматы: {formats}",
       "select_profile_placeholder_empty": "Профили не найдены",
       "select_profile_placeholder_inactive": "Выбрать профиль",
       "filters": "Фильтры",
       "rows_per_page": "Строк на странице",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "Предыдущий уровень должен быть между {min} и {max}.",
+      "planner_new_must_be_between_min_max": "Новый уровень должен быть между {min} и {max}."
     },
     "button": {
       "go_home": "Домой",
       "switch_theme": "Сменить тему",
       "sign_in_google": "Войти в Google",
-      "log_out": "Log out",
+      "log_out": "Выход",
       "import_history": "Импортировать",
       "filter_by_rarity_num": "Фильтр по редкости {num}",
       "import": "Импорт",
       "export_json": "Сохранить в JSON",
       "view_pull_history": "История круток",
       "sync_your_data": "Синхронизировать",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "Синхронизировать",
       "support_us": "Поддержите нас",
       "create_profile": "Создать профиль",
       "remind_me_later": "Напомнить позже",
@@ -278,16 +278,16 @@
       "import_from_file": "Импорт из файла",
       "upload_to_google": "Загрузить в Google",
       "download_from_google": "Скачать из Google",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "reset_tag_filters": "Очистить метки",
+      "complete": "Завершить",
+      "hide": "Скрыть",
+      "show": "Показать",
+      "edit": "Изменить",
+      "view_details": "Просмотреть"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "За всё время",
+      "last_num_days": "За последние {num} дней",
       "invalid_date": "Неправильная дата",
       "local_time": "Местное время",
       "server_time": "Время сервера",
@@ -375,12 +375,12 @@
       "downloads_and_merges": "Скачивает и совмещает ваши крутки",
       "image_preview": "Предпросмотр",
       "close": "закрыть",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "portrait_view": "Портретный вид",
+      "tile_view": "Плиточный вид",
+      "planner": "Планировщик",
+      "owned_num": "Имеется: {num}",
+      "owned": "Имеется",
+      "required_num": "Требуется: {num}"
     }
   },
   "feature": {
@@ -427,7 +427,7 @@
     },
     "tracker": {
       "banner_summary": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_description": "Выберите баннер для просмотра статистики.",
       "luck": {
         "num_luck_rating_title": "{num}✦ Удача",
         "top": "Top {percentile}%",
@@ -447,14 +447,14 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Крутки",
       "rarity_pulls_per_pity": "{num}✦ Крутки по Гарантам",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "Глобальная статистика выпадений на каждой крутке",
       "banner_summary_title": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_description": "Выберите баннер для просмотра статистики.",
       "view_your_statistics_responsive": "<span>Просмотреть</span> свою статистику",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_day": "Круток в день",
+      "pulls_per_day_description": "Распределение круток по дням и редкости",
+      "pulls_per_rarity": "Крутки по редкости",
+      "pulls_per_rarity_description": "Распределение по редкости",
       "pulls_per_item_description": "Showing pulls per item"
     },
     "dashboard": {
@@ -463,7 +463,7 @@
       "welcome_rover": "Добро пожаловать, Ровер.",
       "let_us_get_started": "Начнём?",
       "your_data_will_now_sync": "Ваши данные теперь будут синхронизироваться по запросу!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
+      "feature_header": "WuWa Tracker поможет вам <span></span> отслеживать",
       "greeting": {
         "words": {
           "pulls": "крутки",
@@ -514,7 +514,7 @@
       "saves_your_pulls_to_google": "Сохраняет ваши крутки на Google Диск",
       "overwrite_google_drive_data": "Вы хотите перезаписать данные на Google Диске?",
       "overwrite_google_drive_data_description": "Загрузка данных на Google Диск перезапишет имеющиеся на нём данные имеющимися. Мы рекомендуем сначала скачать копию данных с Google Диска.",
-      "pulls_file_import_dialog_title": "Import Local Pulls",
+      "pulls_file_import_dialog_title": "Импорт с устройства",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
       "sync_preferences": "Настройки синхронизации",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
