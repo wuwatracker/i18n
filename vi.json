@@ -13,8 +13,8 @@
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
       "recent_convenes": "Lượt Triệu hồi gần đây",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "Nhân vật",
+      "weapon": "Vũ khí"
     },
     "phrase": {
       "import_data": "Nhập dữ liệu",
@@ -281,9 +281,9 @@
       "reset_tag_filters": "Reset Tag Filters",
       "complete": "Complete",
       "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "show": "Hiển thị",
+      "edit": "Sửa",
+      "view_details": "Xem chi tiết"
     },
     "time": {
       "all_time": "Toàn thời gian",
@@ -377,10 +377,10 @@
       "close": "đóng",
       "portrait_view": "Xem hướng ngang",
       "tile_view": "Xem hướng dọc",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
+      "planner": "Kế hoạch",
+      "owned_num": "Đã có: {num}",
       "owned": "Owned",
-      "required_num": "Required: {num}"
+      "required_num": "Yêu cầu: {num}"
     }
   },
   "feature": {
@@ -483,7 +483,7 @@
         "what_is_wuwatracker": "WuWa Tracker là cái quéo gì vậy?"
       },
       "credits": {
-        "title": "Danh đề",
+        "title": "Xin cảm ơn",
         "heading": "Danh đề & Đóng góp",
         "heading_description": "Trang web này đã được thực hiện nhờ tất cả những người tuyệt vời này. Nếu tên của bạn không được liệt kê ở đây hoặc bạn muốn được xóa, vui lòng liên hệ với chúng tôi.",
         "special_thanks": "Đặc biệt cảm ơn"
@@ -494,12 +494,12 @@
       "create_profile_dialog": "Bạn chưa có hồ sơ web",
       "create_profile_dialog_description": " Chúng tôi sẽ hỗ trợ bạn thiết lập tài khoản để sao lưu dữ liệu",
       "active_profile_delete_pulls": "Xóa dữ liệu triệu hồi của Hồ sơ đang hoạt động",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "Điều này sẽ xóa vĩnh viễn TOÀN BỘ dữ liệu triệu hồi liên quan đến UID {playerId}. Hãy sao lưu dữ liệu của bạn trước và tiến hành một cách thận trọng.",
+      "active_profile_delete_pulls_confirm": "Bạn có chắc muốn xóa TẤT CẢ dữ liệu triệu hồi của UID {playerId} không?",
       "not_responsible_undone_disclaimer": "Bằng cách thực hiện, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho dữ liệu của bạn. Hành động này là một chiều và chúng tôi không thể hoàn tác!",
       "all_profiles_delete": "Xóa TẤT CẢ các hồ sơ người chơi",
       "all_profiles_delete_description": "Điều này sẽ xóa vĩnh viễn TẤT CẢ các hồ sơ người chơi. Điều này đã được tạo ra cho mục đích thử nghiệm. Vui lòng sao lưu dữ liệu của bạn trước và tiến hành thận trọng.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
+      "all_profiles_delete_confirm": "Bạn có chắc muốn xóa TẤT CẢ hồ sơ người dùng của bản thân không?",
       "privacy_description": "Bật hoặc tắt các cài đặt liên quan đến quyền riêng tư dữ liệu của bạn",
       "privacy_global_stats": "Đóng góp cho số liệu thống kê toàn cầu",
       "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
@@ -507,6 +507,8 @@
       "import_user_profile": "Nhập Hồ sơ người chơi",
       "user_profile": "Hồ sơ Người chơi",
       "user_profile_description": "Chọn hồ sơ hoạt động của bạn cho các thành tích, vật phẩm và lịch sử triệu hồi",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Hiển thị nhiều chú thích công cụ cho biết trạng thái đồng bộ hiện tại và mọi cập nhật có liên quan.",
       "pull_history": "Dữ liệu Lịch sử Triệu hồi",
       "pull_history_description": "Tải lên/xuống dữ liệu cục bộ của bạn bằng Google hoặc ở thiết bị của bạn",
       "saves_your_pulls_to_google": "Lưu những lần triệu hồi của bạn lên Google",
@@ -554,10 +556,10 @@
       "ps5_enter_your_record_id": "Nhập <code>player_id</code> và <code>record_id</code> của bạn tại đây"
     },
     "inventory": {
-      "new_plan": "New Plan",
+      "new_plan": "Kế hoạch mới",
       "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
+      "material_summary": "Tóm tắt lượng nguyên liệu cần thiết",
+      "no_active_plans": "Bạn không có bất kì kế hoạch nào đang hoạt động.",
       "nodes_to_unlock": "Nodes to Unlock",
       "passive_skill": "Passive Skill",
       "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
@@ -641,7 +643,7 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
+      "title": "Kế hoạch phát triển",
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {

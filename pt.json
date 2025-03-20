@@ -507,6 +507,8 @@
       "import_user_profile": "Importar Perfil de Usuário",
       "user_profile": "Perfil de Usuário",
       "user_profile_description": "Selecione o seu perfil ativo para as conquistas, items e contador de tiros",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Dados de Hitórico de Tiros",
       "pull_history_description": "Faça upload & download dos seus dados locais através do Google ou do seu dispositivo local",
       "saves_your_pulls_to_google": "Salva os seus tiros para o Google",

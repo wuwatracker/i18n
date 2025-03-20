@@ -507,6 +507,8 @@
       "import_user_profile": "Import User Profile",
       "user_profile": "User Profile",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Historique d'invocations",
       "pull_history_description": "Upload & download your local data via Google or your local device",
       "saves_your_pulls_to_google": "Saves your pulls to Google",
