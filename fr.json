@@ -13,8 +13,8 @@
       "rarity": "Rareté",
       "date_received": "Date",
       "recent_convenes": "Invocations récentes",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "Résonateur",
+      "weapon": "Arme"
     },
     "phrase": {
       "import_data": "Importer les données",
