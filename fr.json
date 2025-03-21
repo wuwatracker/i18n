@@ -188,9 +188,9 @@
         "sync_no_remote_data_to_download": "Vous n'avez pas de données en ligne à télécharger.",
         "incorrect_input_file_description": "Ça n'est que pour l'importation de l'historique au nouveau format !",
         "files_no_upload": "Aucun fichier n'a été téléchargé.",
-        "files_max_upload_num": "Vous ne pouvez que télécharger {num} fichier(s).",
-        "files_has_oversize_limit_num": "Certains fichiers dépassent la limite de taille de {num}MB.",
-        "inventory_item_does_not_exist": "Cet article n'existe pas !",
+        "files_max_upload_num": "Vous ne pouvez télécharger que {num} fichier(s).",
+        "files_has_oversize_limit_num": "Certains fichiers dépassent la limite de taille de {num}Mo.",
+        "inventory_item_does_not_exist": "Cet objet n'existe pas !",
         "planner_insufficient_materials": "Matériels insuffisants."
       },
       "info": {
@@ -209,10 +209,10 @@
         "pull_more_to_unlock": "Invoquez plus pour débloquer",
         "pull_more_to_view_statistics": "Vous avez besoin de plus d'invocations pour afficher les statistiques",
         "download_will_start_shortly": "Votre téléchargement va commencer.",
-        "sync_already_synced": "Vos donnés sont déjà synchronisé.",
-        "google_drive_last_updated_at": "Google Drive a été mis à jour {date}",
+        "sync_already_synced": "Vos donnés sont déjà synchronisées.",
+        "google_drive_last_updated_at": "Google Drive a été mis à jour le {date}",
         "nothing_to_sync": "Impossible de synchroniser pour le moment.",
-        "sync_creating_file_in_google": "Créer {fileName} dans Google Drive...",
+        "sync_creating_file_in_google": "En cours de création de {fileName} dans Google Drive...",
         "sync_updating_remote_file": "Mise à jour de la copie en ligne de {fileName}...",
         "planner_edited_plan_for_name": "Modifié \"à faire\" pour {todo.name}."
       },
@@ -226,7 +226,7 @@
         "delete_profiles": "Effacé tous les profils utilisateurs avec succès.",
         "sync_successfully_downloaded_remote_data": "Téléchargement des données en ligne réussi.",
         "sync_successfully_created_remote_data": "Création de {fileName} dans Google Drive réussie.",
-        "sync_success": "Synchronisme réussi.",
+        "sync_success": "Sync successful.",
         "sync_success_updated_remote_file": "La copie en ligne de {fileName} est mise à jour.",
         "planner_successfully_completed_plan_for_name": "Achèvement du plan pour {name} réussi !",
         "planner_successfully_created_plan_for_name": "Création du plan pour {name} réussie."
