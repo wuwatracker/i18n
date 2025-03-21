@@ -226,7 +226,7 @@
         "delete_profiles": "Effacé tous les profils utilisateurs avec succès.",
         "sync_successfully_downloaded_remote_data": "Téléchargement des données en ligne réussi.",
         "sync_successfully_created_remote_data": "Création de {fileName} dans Google Drive réussie.",
-        "sync_success": "Sync successful.",
+        "sync_success": "Synchronisation réussie.",
         "sync_success_updated_remote_file": "La copie en ligne de {fileName} est mise à jour.",
         "planner_successfully_completed_plan_for_name": "Achèvement du plan pour {name} réussi !",
         "planner_successfully_created_plan_for_name": "Création du plan pour {name} réussie."
