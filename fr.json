@@ -225,17 +225,17 @@
         "delete_pulls": "Effacé toutes les invocations pour {playerId} avec succès.",
         "delete_profiles": "Effacé tous les profils utilisateurs avec succès.",
         "sync_successfully_downloaded_remote_data": "Téléchargement des données en ligne réussi.",
-        "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
-        "sync_success": "Sync successful.",
+        "sync_successfully_created_remote_data": "Création de {fileName} dans Google Drive réussie.",
+        "sync_success": "Synchronisme réussi.",
         "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
-        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_completed_plan_for_name": "Achèvement du plan pour {name} réussi !",
+        "planner_successfully_created_plan_for_name": "Création du plan pour {name} réussie."
       },
       "warn": {
-        "this_cannot_be_undone": "This action cannot be undone!",
-        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
-        "this_does_not_include_your_pulls": "This does not include your pulls!",
-        "planner_removed_plan_for_name": "Removed plan for {name}."
+        "this_cannot_be_undone": "Cette action ne peut pas être défaite !",
+        "disable_auto_profile_sync": "Pour votre sauveté, ceci va aussi désactiver le synchronisme automatique du profil !",
+        "this_does_not_include_your_pulls": "Ceci n'inclut pas vos invocations !",
+        "planner_removed_plan_for_name": "Supprimé le plan pour {name}."
       }
     },
     "form": {
@@ -243,31 +243,31 @@
       "banner_search_placeholder": "Chercher une bannière...",
       "search": "Chercher",
       "search_placeholder": "Rechercher...",
-      "search_reset": "Reset search",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
-      "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
-      "type_to_confirm": "Type <strong></strong> to confirm",
-      "file_input": "Click to upload or drag & drop",
-      "accepted_formats": "Accepted formats: {formats}",
+      "search_reset": "Remettre la recherche",
+      "your_player_id_placeholder": "Votre identifiant de joueur à 9 chiffres (c.-à-d. 123456789)",
+      "your_player_id_validation": "Votre identifiant de joueur à 9 chiffres doit commencer avec 1, 5, 6, 7, 8, ou 9",
+      "type_to_confirm": "Tape <strong></strong> pour confirmer",
+      "file_input": "Clique pour télécharger ou glisser-déposer",
+      "accepted_formats": "Formats acceptés : {formats}",
       "select_profile_placeholder_empty": "Aucune invocation trouvée",
       "select_profile_placeholder_inactive": "Choisir un profil",
-      "filters": "Filters",
+      "filters": "Filtres",
       "rows_per_page": "Lignes par page",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "Le niveau précédent doit être entre {min} et {max}.",
+      "planner_new_must_be_between_min_max": "Le nouveau niveau doit être entre {min} et {max}."
     },
     "button": {
-      "go_home": "Go Home",
+      "go_home": "Rentre à L'Accueil",
       "switch_theme": "Changer de thème",
-      "sign_in_google": "Sign in with Google",
-      "log_out": "Log out",
+      "sign_in_google": "Connecter avec Google",
+      "log_out": "Déconnecter",
       "import_history": "Importer votre historique",
       "filter_by_rarity_num": "Filtrer par rareté {num}",
       "import": "Importer",
       "export_json": "Exporter comme JSON",
       "view_pull_history": "Voir votre historique",
       "sync_your_data": "Synchroniser vos données",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "Provoquer le Synchronisme",
       "support_us": "Support Us",
       "create_profile": "Create Profile",
       "remind_me_later": "Remind me later",
@@ -380,7 +380,7 @@
       "planner": "Planner",
       "owned_num": "Owned: {num}",
       "owned": "Owned",
-      "required_num": "Required: {num}"
+      "required_num": "Nécessaire : {num}"
     }
   },
   "feature": {
@@ -389,20 +389,20 @@
       "troubleshooting_description": "Si vous rencontrez des problèmes à l'importation, vous pouvez consulter notre guide de dépannage ici.",
       "import": {
         "log_files_missing_q": "Le script indique \"install location not found or log files missing\". Qu'est-ce que je dois faire ?",
-        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
-        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
-        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
-        "support_other_imports_q": "Do you support importing from other websites or apps?",
-        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
-        "other_q": "My problem doesn't seem to be here — what should I do?"
+        "url_expired_q": "Une erreur dit que mon \"adresse URL est probablement expiré\" — que dois-je faire ?",
+        "error_while_fetching_q": "Une erreur dit qu'une \"erreur s'est produit durant la récupération\" — que dois-je faire ?",
+        "missing_old_pulls_q": "Je ne trouve pas mes anciennes invocations — où sont-elles ?",
+        "support_other_imports_q": "Est-ce que vous supportez l'importation des autres sites ou applications ?",
+        "ps5_player_import_q": "Puis-je importer comme joueur PlayStation 5 ?",
+        "other_q": "Mon problème ne semble pas d'être ici — que dois-je faire ?"
       }
     },
     "migration": {
       "legacy_migration": "Convertissez votre ancien historique au nouveau format ici",
-      "legacy": "Legacy",
+      "legacy": "Héritage",
       "legacy_import": "Import - ancienne version",
-      "legacy_import_alert_title": "For Old Website Users Only",
-      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
+      "legacy_import_alert_title": "Que Pour Utilisateurs de l'Ancien Site",
+      "legacy_import_alert_description": "On ne peut PAS récupérer les invocations après la période d'expiration de 6 mois. Cet importateur des invocations héritages n'est que pour les utilisateurs de l'ancien WuWa Tracker."
     },
     "layout": {
       "banners": {
@@ -418,12 +418,12 @@
       "disclaimer": "Ce site est un projet de fan indépendant, non affilié ou approuvé par Kuro Games. Tous les éléments, contenus et marques du jeu appartiennent à leurs propriétaires respectifs."
     },
     "error": {
-      "oops": "Whoops!",
-      "an_error_occured": "An <highlight>error</highlight> occured.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "oops": "Oups !",
+      "an_error_occured": "Une <highlight>erreur</highlight> s'est produit.",
+      "join_discord": "S'il vous plaît <link>joignez notre serveur Discord</link> pour rédiger un rapport."
     },
     "achievements": {
-      "no_achievements_found": "no achievements found"
+      "no_achievements_found": "Aucun achèvement trouvé"
     },
     "tracker": {
       "banner_summary": "Résumé de bannière",
@@ -432,16 +432,16 @@
         "num_luck_rating_title": "Statistiques {num}✦",
         "top": "Top {percentile}%",
         "bottom": "{percentile}% derniers",
-        "luckier": "Luckier than {percentile}% of players",
-        "unluckier": "Unluckier than {percentile}% of players",
+        "luckier": "Plus chanceux que {percentile}% des joueurs",
+        "unluckier": "Moins chanceux que {percentile}% des joueurs",
         "avg_pity": "Pity moyenne",
-        "avg_pity_description": "What is your average {qualityLevel}-star pity?",
+        "avg_pity_description": "Quelle est votre pitié moyenne d'obtenir un {qualityLevel} étoiles ?",
         "pull_ratio": "Ratio d'invocation",
-        "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
+        "pull_ratio_description": "Quel pourcentage de vos invocations totales était des {qualityLevel} étoiles ?",
         "coinflip_wins": "50/50 gagnés",
-        "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
+        "coinflip_wins_description": "Quel pourcentage des 50/50 avez-vous gagné ?",
         "rate_up_wins": "En vedette",
-        "rate_up_wins_description": "How often were your pulls rate-up?"
+        "rate_up_wins_description": "Quel pourcentage de vos obtenus étaient sur la bannière ?"
       }
     },
     "global_stats": {
