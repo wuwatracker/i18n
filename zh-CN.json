@@ -560,10 +560,10 @@
       "add_plan": "新增计划",
       "material_summary": "完成全部计划所需材料",
       "no_active_plans": "您尚未设置任何计划，或您的计划未设置为显示状态。",
-      "nodes_to_unlock": "Nodes to Unlock",
+      "nodes_to_unlock": "待解锁的节点",
       "passive_skill": "被动技能",
       "plan_delete_name_confirm": "您真的希望删除 {name} 的培养计划吗？",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "no_items_will_be_consumed": "尚无物品将被消耗。",
       "attributes": {
         "ascension_level": "突破等阶",
         "level": "等级",
