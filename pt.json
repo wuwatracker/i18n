@@ -562,11 +562,11 @@
       "no_active_plans": "You don't have any active plans.",
       "nodes_to_unlock": "Nodes to Unlock",
       "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "plan_delete_name_confirm": "Tem certeza que quer apagar o plano {name}?",
+      "no_items_will_be_consumed": "Nenhum item será consumido.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
+        "ascension_level": "Nivel de Ascenção",
+        "level": "Nível",
         "basic_attack": "Basic Attack",
         "resonance_skill": "Resonance Skill",
         "forte_circuit": "Forte Circuit",
@@ -643,7 +643,7 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
+      "title": "Planeador de Ascenção",
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
