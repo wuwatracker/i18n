@@ -23,7 +23,7 @@
       "no_pulls_yet": "Daha çağrı yapılmamış",
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Toplam Çağrılar",
+      "total_pulls": "Toplam Çağrı",
       "total_pulls_responsive": "<span>Toplam</span> Çağrılar",
       "total_astrites_responsive": "<span>Toplam</span> Astrite"
     },
@@ -352,7 +352,7 @@
       "supporters": "Katkıda bulunanlar",
       "no_particular_order": "belirli bir sıralamada değil",
       "translators": "Çevirmenler",
-      "players": "Oyuncular",
+      "players": "Oyuncu",
       "event": "Etkinlik",
       "ongoing_events": "Devam eden etkinlikler",
       "choose_a_method": "Bir Yöntem Seç",
@@ -459,7 +459,7 @@
     },
     "dashboard": {
       "title": "Kontrol Paneli",
-      "stay_focused_rover": "Rover, odaklanmış kal.",
+      "stay_focused_rover": "Komutanım napıyorsunuz 😳",
       "welcome_rover": "Hoş Geldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
       "your_data_will_now_sync": "Verileriniz istek üzerine eşitlenecek!",
@@ -470,7 +470,7 @@
           "pity": "pity",
           "events": "etkinlikler",
           "statistics": "istatistikler",
-          "data": "veri",
+          "data": "verilerin",
           "updates": "güncellemeler"
         },
         "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacı. Wuthering Waves ilerlemenizi arkadaşlarınıza göstermeniz için en iyi araçları sağlamayı amaçlıyoruz."
