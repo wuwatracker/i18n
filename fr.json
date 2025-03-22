@@ -220,15 +220,15 @@
         "successfully_imported_achievements": "Importation de vos succès réussie.",
         "successfully_imported_gacha_records": "Importation de votre historique d'invocations réussie.",
         "successfully_imported_profile": "Importation de votre profil utilisateur réussie.",
-        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
+        "successfully_imported_gacha_records_redirecting": "Redirection vers le traqueur.",
         "create_profile": "Création du profil pour {playerId} réussie.",
-        "delete_pulls": "Successfully deleted all pulls for {playerId}.",
-        "delete_profiles": "Successfully deleted all user profiles.",
+        "delete_pulls": "Suppression de toutes les invocations de {playerId} avec succès.",
+        "delete_profiles": "Suppression réussie de tous les profils.",
         "sync_successfully_downloaded_remote_data": "Téléchargement des données en ligne réussi.",
         "sync_successfully_created_remote_data": "Création de {fileName} dans Google Drive réussie.",
         "sync_success": "Synchronisation réussie.",
         "sync_success_updated_remote_file": "La copie en ligne de {fileName} est mise à jour.",
-        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
+        "planner_successfully_completed_plan_for_name": "Plan pour {name} complet !",
         "planner_successfully_created_plan_for_name": "Création du plan pour {name} réussie."
       },
       "warn": {
@@ -298,7 +298,7 @@
       "your_local_time": "Votre heure locale",
       "current_server_time": "Heure du serveur",
       "resets_in": "Réinitialisation dans",
-      "some_time": "quelque temps",
+      "some_time": "indéterminé",
       "months": {
         "January": "Janvier",
         "February": "Février",
@@ -363,7 +363,7 @@
       "advanced": "Avancé",
       "help_translate": "Aidez à traduire",
       "switch_language": "Changer de langue",
-      "just_taking_a_look_around": "Just taking a look around?",
+      "just_taking_a_look_around": "Seulement en train de visiter ?",
       "the_active_player_profile": "le profil actif du joueur",
       "privacy": "Confidentialité",
       "on": "Activé",
@@ -399,10 +399,10 @@
     },
     "migration": {
       "legacy_migration": "Convertissez votre ancien historique au nouveau format ici",
-      "legacy": "Héritage",
+      "legacy": "Ancienne version",
       "legacy_import": "Import - ancienne version",
-      "legacy_import_alert_title": "For Old Website Users Only",
-      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
+      "legacy_import_alert_title": "Seulement pour les utilisateurs de l'ancien site web",
+      "legacy_import_alert_description": "Nous ne POUVONS PAS récupérer vos invocations d'il y a plus de 6 mois. Ce système est uniquement pour les utilisateurs de l'ancienne version de WuWa Tracker qui n'ont jamais converti leur historique."
     },
     "layout": {
       "banners": {
@@ -419,11 +419,11 @@
     },
     "error": {
       "oops": "Oups !",
-      "an_error_occured": "Une <highlight>erreur</highlight> s'est produit.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
+      "an_error_occured": "Une <highlight>erreur</highlight> s'est produite.",
+      "join_discord": "Veuillez <link>rejoindre notre serveur Discord</link> pour faire un rapport."
     },
     "achievements": {
-      "no_achievements_found": "no achievements found"
+      "no_achievements_found": "pas de succès trouvé"
     },
     "tracker": {
       "banner_summary": "Résumé de bannière",
@@ -484,19 +484,19 @@
       },
       "credits": {
         "title": "Crédits",
-        "heading": "Credits & Attributions",
-        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
-        "special_thanks": "Special Thanks"
+        "heading": "Crédits & remerciements",
+        "heading_description": "Ce site web a été rendu possible grâce à l'aide de toutes ces personnes fabuleuses. Si votre nom n'est pas listé ou si vous souhaitez être retiré, veuillez nous contacter.",
+        "special_thanks": "Remerciements spéciaux"
       }
     },
     "settings": {
       "submit_to_global_stats": "Partager vos données pour les statistiques globales",
       "create_profile_dialog": "Vous n'avez pas encore un profil sur le site",
-      "create_profile_dialog_description": " We'll help you create one so that we can save your data",
+      "create_profile_dialog_description": " Nous allons vous aider à créer un pour vous permettre de sauvegarder vos données",
       "active_profile_delete_pulls": "Supprimer les données d'invocations pour le profil actif",
       "active_profile_delete_pulls_description": "Cette action va supprimer TOUTES les invocations associées avec le profil {playerId} de manière définitive. Veuillez faire une sauvegarde de vos données et utilisez cette option avec précaution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
-      "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
+      "active_profile_delete_pulls_confirm": "Êtes-vous sûr de vouloir supprimer TOUTES vos invocations pour le profil {playerId} ?",
+      "not_responsible_undone_disclaimer": "En continuant, vous reconnaissez que nous ne sommes pas responsables de vos données. Cette action est irréversible !",
       "all_profiles_delete": "Supprimer TOUS les profils utilisateurs",
       "all_profiles_delete_description": "Cette option va supprimer de manière permanente TOUS vos profils utilisateur. Cette option a été créée à des fins de test. Veuillez faire une sauvegarde de vos données et utilisez cette option avec précaution.",
       "all_profiles_delete_confirm": "Êtes-vous certain que vous voulez supprimer TOUS vos profils utilisateurs ?",
@@ -546,32 +546,32 @@
       "search_for_log": "Recherchez le fichier <code>Client.log</code> et importez-le ici",
       "airplane_mode": "Mode avion",
       "download_ascent": "Téléchargez et utilisez Ascent pour obtenir l'URL de votre historique d'invocations",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link> to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
+      "download_ascent_description": "De la même manière que pour obtenir votre historique pour Genshin Impact ou Honkai Star Rail, suivez <link>ce guide de Mirai0009</link> pour télécharger et utiliser <ascent>Ascent v2.1.6</ascent> pour récupérer votre URL.",
       "download_ascent_disclaimer": "NOTE : Cette méthode supporte seulement les versions d'Android 11 ou ultérieures.",
       "download_ascent_troubleshooting": "Si cela ne fonctionne pas, consultez <link>la section de dépannage</link>.",
       "ios_follow_tutorial_video": "Suivez notre tutoriel vidéo",
       "ios_follow_tutorial_video_description": "Comme pour obtenir votre historique d'invocations pour Genshin Impact ou Honkai Star Rail, suivez ce tutoriel vidéo pour importer vos données sur iOS.",
       "ps5_press_the_options_button": "Appuyez sur le bouton <code>Options</code> de votre manette",
       "ps5_click_on_page_information": "Appuyez sur le bouton <code>Informations sur la page</code>",
-      "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
+      "ps5_enter_your_record_id": "Entrez votre <code>player_id</code> et le <code>record_id</code> ici"
     },
     "inventory": {
       "new_plan": "Nouveau plan",
       "add_plan": "Ajouter un plan",
       "material_summary": "Récapitulatif des matériaux",
       "no_active_plans": "Vous n'avez aucun plan actif.",
-      "nodes_to_unlock": "Nœuds à Débloquer",
-      "passive_skill": "Compétence Passive",
+      "nodes_to_unlock": "Nœuds à débloquer",
+      "passive_skill": "Compétence passive",
       "plan_delete_name_confirm": "Êtes-vous sûr de vouloir supprimer le plan {name} ?",
       "no_items_will_be_consumed": "Aucun objet ne sera utilisé.",
       "attributes": {
-        "ascension_level": "Niveau d'Ascension",
+        "ascension_level": "Niveau d'ascension",
         "level": "Niveau",
         "basic_attack": "Attaques normales",
         "resonance_skill": "Compétence résonatrice",
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Libération résonatrice",
-        "intro_skill": "Compétence d'Intro"
+        "intro_skill": "Compétence d'intro"
       }
     }
   },
@@ -592,8 +592,8 @@
         "title": "Statistiques globales",
         "title_responsive": "Statistiques globales",
         "description": "Consultez les statistiques mondiales pour la bannière {currentBanner}, mettant en vedette {currentFeaturedResonator} ! Utilisez le tableau de bord pour impressionner vos amis ! WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
-        "banner_title": "Statistiques de la Bannière {name}",
-        "banner_description": "Voyez les statistiques globales d'invocations pour la bannière de {name}. Compteur pitié WuWa Tracker pour Wuthering Waves, utilisant les données à jour avec les statistiques globales et plus. Partagez vos invocations avec vos amis et suivez votre compte !"
+        "banner_title": "Statistiques de la bannière {name}",
+        "banner_description": "Consultez les statistiques mondiales pour la bannière {name}. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
       }
     },
     "error": {
@@ -604,7 +604,7 @@
       "title": "Importer",
       "description": "Suivez notre tutoriel pour afficher vos données de Wuthering Waves et voir vos statistiques. Nous supportons les importations depuis les appareils Android, iOS et PC. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
       "legacy": {
-        "title": "Tutoriel d'Importation d'anciennes données",
+        "title": "Tutoriel d'importation d'anciennes données",
         "description": "Si vous avez déjà utilisé notre site par le passé et que vous ne trouvez pas vos données d'invocations sur le nouveau site, suivez notre guide d'importation d'anciennes données ici !"
       }
     },
@@ -613,7 +613,7 @@
       "description": "Cette page est introuvable sur WuWa Tracker. Veuillez revenir à la page principale pour commencer à suivre votre historique d'invocations Wuthering Waves."
     },
     "privacy_policy": {
-      "title": "Politique de Confidentialité - WuWa Tracker",
+      "title": "Politique de confidentialité - WuWa Tracker",
       "description": "Ce document de politique de confidentialité décrit les types d'informations personnelles reçues et collectées par WuWa Tracker et comment elles sont utilisées. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore."
     },
     "settings": {
