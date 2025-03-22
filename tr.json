@@ -233,7 +233,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "Bu eylem geri alınamaz!",
-        "disable_auto_profile_sync": "Günvenliğiniz için, bu ayrıca otomatik profil eşitlemeyi kapatacak!",
+        "disable_auto_profile_sync": "Bu seçenek otomatik profil eşitlemeyi de kapatacak!",
         "this_does_not_include_your_pulls": "Bu senin çağrılarını içermiyor!",
         "planner_removed_plan_for_name": "{name} planı silindi."
       }
@@ -242,7 +242,7 @@
       "banner_select_placeholder": "Banner seç",
       "banner_search_placeholder": "Banner ara...",
       "search": "Ara",
-      "search_placeholder": "Birşey için ara...",
+      "search_placeholder": "Ara",
       "search_reset": "Aramayı sıfırla",
       "your_player_id_placeholder": "9-haneli oyuncu ID'in (ör. 123456789)",
       "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
@@ -494,11 +494,11 @@
       "create_profile_dialog": "Henüz bir site profiliniz yok",
       "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
       "active_profile_delete_pulls": "Aktif Profil için Çağrı Verilerini Sil",
-      "active_profile_delete_pulls_description": "Bu {playerId} ile alakalı TÜM çağırıları silecek. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
+      "active_profile_delete_pulls_description": "Bu seçenek {playerId} ile alakalı TÜM çağrıları siler. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağrıları silmek istediğine emin misin?",
       "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığımızı kabul ediyorsun. Bu eylem geri alınamaz!",
       "all_profiles_delete": "TÜM Kullanıcı Profillerini Sil",
-      "all_profiles_delete_description": "Bu TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
+      "all_profiles_delete_description": "Bu seçenek TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "all_profiles_delete_confirm": "TÜM kullanıcı profillerini silmek istediğinden emin misin?",
       "privacy_description": "Veri gizliliğiniz ile ilgili ayarları etkinleştirme veya devre dışı bırakma",
       "privacy_global_stats": "Küresel İstatistiklere Katkıda Bulun",
@@ -507,8 +507,8 @@
       "import_user_profile": "Kullanıcı Profilini İçe Aktar",
       "user_profile": "Kullanıcı Profili",
       "user_profile_description": "Başarımlar, eşyalar ve çağrı takip sistemi için aktif profilini seç",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "sync_tooltips": "Eşitleme İpuçları",
+      "sync_tooltips_description": "Mevcut eşitleme durumunu ve yeni güncellemeleri içeren çeşitli ipuçlarını göster.",
       "pull_history": "Çağrı Geçmişi Verileri",
       "pull_history_description": "Bilgilerini Google veya yerel cihazın aracılığı ile yükle & indir",
       "saves_your_pulls_to_google": "Çağrılarını Google'a kayıt eder",
@@ -643,7 +643,7 @@
       }
     },
     "planner": {
-      "title": "Geliştirme Planlayıcısi",
+      "title": "Geliştirme Planlayıcısı",
       "description": "Rezonatör Ascension Level, skill ve EXP materyallerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
     },
     "support": {
