@@ -8,7 +8,7 @@
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Çağrı Geçmişi",
       "pull_num": "Çağrı No.",
-      "item": "Eşya",
+      "item": "Öğe",
       "pity": "Pity",
       "rarity": "Nadirlik",
       "date_received": "Elde Ettiğin Tarih",
@@ -24,7 +24,7 @@
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrı",
-      "total_pulls_responsive": "<span>Toplam</span> Çağrılar",
+      "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite"
     },
     "name": {
@@ -415,7 +415,7 @@
       "system_status": "Sistem Durumu",
       "legal": "Yasal",
       "partners": "Ortaklar",
-      "disclaimer": "WuwaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
+      "disclaimer": "WuWaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
     },
     "error": {
       "oops": "Abooov!",
@@ -533,7 +533,7 @@
     },
     "import": {
       "logs_not_updating_alert": "URL Son Kullanma Tarihi",
-      "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
+      "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı, 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
