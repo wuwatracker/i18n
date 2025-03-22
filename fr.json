@@ -209,7 +209,7 @@
         "pull_more_to_unlock": "Invoquez plus pour débloquer",
         "pull_more_to_view_statistics": "Vous avez besoin de plus d'invocations pour afficher les statistiques",
         "download_will_start_shortly": "Votre téléchargement va commencer.",
-        "sync_already_synced": "Vos donnés sont déjà synchronisées.",
+        "sync_already_synced": "Vos données sont déjà synchronisées.",
         "google_drive_last_updated_at": "Google Drive a été mis à jour le {date}",
         "nothing_to_sync": "Impossible de synchroniser pour le moment.",
         "sync_creating_file_in_google": "En cours de création de {fileName} dans Google Drive...",
@@ -217,25 +217,25 @@
         "planner_edited_plan_for_name": "Modifié \"à faire\" pour {todo.name}."
       },
       "success": {
-        "successfully_imported_achievements": "Importation de vos accomplissements réussie.",
+        "successfully_imported_achievements": "Importation de vos succès réussie.",
         "successfully_imported_gacha_records": "Importation de votre historique d'invocations réussie.",
         "successfully_imported_profile": "Importation de votre profil utilisateur réussie.",
-        "successfully_imported_gacha_records_redirecting": "Redirection du traqueur maintenant.",
+        "successfully_imported_gacha_records_redirecting": "Redirecting to your tracker now.",
         "create_profile": "Création du profil pour {playerId} réussie.",
-        "delete_pulls": "Effacé toutes les invocations pour {playerId} avec succès.",
-        "delete_profiles": "Effacé tous les profils utilisateurs avec succès.",
+        "delete_pulls": "Successfully deleted all pulls for {playerId}.",
+        "delete_profiles": "Successfully deleted all user profiles.",
         "sync_successfully_downloaded_remote_data": "Téléchargement des données en ligne réussi.",
         "sync_successfully_created_remote_data": "Création de {fileName} dans Google Drive réussie.",
-        "sync_success": "Synchronisme réussi.",
+        "sync_success": "Synchronisation réussie.",
         "sync_success_updated_remote_file": "La copie en ligne de {fileName} est mise à jour.",
-        "planner_successfully_completed_plan_for_name": "Achèvement du plan pour {name} réussi !",
+        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
         "planner_successfully_created_plan_for_name": "Création du plan pour {name} réussie."
       },
       "warn": {
-        "this_cannot_be_undone": "Cette action ne peut pas être défaite !",
-        "disable_auto_profile_sync": "Pour votre sauveté, ceci va aussi désactiver le synchronisme automatique du profil !",
+        "this_cannot_be_undone": "Cette action ne peut pas être annulée !",
+        "disable_auto_profile_sync": "Pour votre sécurité, cette action va aussi désactiver la synchronisation automatique du profil !",
         "this_does_not_include_your_pulls": "Ceci n'inclut pas vos invocations !",
-        "planner_removed_plan_for_name": "Supprimé le plan pour {name}."
+        "planner_removed_plan_for_name": "Plan supprimé pour {name}."
       }
     },
     "form": {
@@ -243,11 +243,11 @@
       "banner_search_placeholder": "Chercher une bannière...",
       "search": "Chercher",
       "search_placeholder": "Rechercher...",
-      "search_reset": "Remettre la recherche",
-      "your_player_id_placeholder": "Votre identifiant de joueur à 9 chiffres (c.-à-d. 123456789)",
-      "your_player_id_validation": "Votre identifiant de joueur à 9 chiffres doit commencer avec 1, 5, 6, 7, 8, ou 9",
-      "type_to_confirm": "Tape <strong></strong> pour confirmer",
-      "file_input": "Clique pour télécharger ou glisser-déposer",
+      "search_reset": "Réinitialiser la recherche",
+      "your_player_id_placeholder": "Votre identifiant de joueur à 9 chiffres (exemple : 123456789)",
+      "your_player_id_validation": "Votre identifiant de joueur à 9 chiffres doit commencer par 1, 5, 6, 7, 8 ou 9",
+      "type_to_confirm": "Tapez <strong></strong> pour confirmer",
+      "file_input": "Cliquez pour télécharger ou glissez-déposez",
       "accepted_formats": "Formats acceptés : {formats}",
       "select_profile_placeholder_empty": "Aucune invocation trouvée",
       "select_profile_placeholder_inactive": "Choisir un profil",
@@ -257,9 +257,9 @@
       "planner_new_must_be_between_min_max": "Le nouveau niveau doit être entre {min} et {max}."
     },
     "button": {
-      "go_home": "Rentre à L'Accueil",
+      "go_home": "Retour à l'accueil",
       "switch_theme": "Changer de thème",
-      "sign_in_google": "Connecter avec Google",
+      "sign_in_google": "Se connecter avec Google",
       "log_out": "Déconnecter",
       "import_history": "Importer votre historique",
       "filter_by_rarity_num": "Filtrer par rareté {num}",
@@ -267,7 +267,7 @@
       "export_json": "Exporter comme JSON",
       "view_pull_history": "Voir votre historique",
       "sync_your_data": "Synchroniser vos données",
-      "trigger_sync": "Lancer la Synchronisation",
+      "trigger_sync": "Lancer la synchronisation",
       "support_us": "Soutenez-nous",
       "create_profile": "Créer un profil",
       "remind_me_later": "Me le rappeler plus tard",
@@ -363,7 +363,7 @@
       "advanced": "Avancé",
       "help_translate": "Aidez à traduire",
       "switch_language": "Changer de langue",
-      "just_taking_a_look_around": "Vous jetez juste un coup d'œil ?",
+      "just_taking_a_look_around": "Just taking a look around?",
       "the_active_player_profile": "le profil actif du joueur",
       "privacy": "Confidentialité",
       "on": "Activé",
@@ -390,19 +390,19 @@
       "import": {
         "log_files_missing_q": "Le script indique \"install location not found or log files missing\". Qu'est-ce que je dois faire ?",
         "url_expired_q": "Une erreur dit \"URL probably expired\" — que dois-je faire ?",
-        "error_while_fetching_q": "Une erreur dit qu'une \"erreur s'est produit durant la récupération\" — que dois-je faire ?",
+        "error_while_fetching_q": "Une erreur dit \"error occured while fetching\" — que dois-je faire ?",
         "missing_old_pulls_q": "Je ne trouve pas mes anciennes invocations — où sont-elles ?",
-        "support_other_imports_q": "Est-ce que vous supportez l'importation des autres sites ou applications ?",
+        "support_other_imports_q": "Est-ce que vous supportez l'importation depuis d'autres sites ou applications ?",
         "ps5_player_import_q": "Puis-je importer comme joueur PlayStation 5 ?",
-        "other_q": "Mon problème ne semble pas d'être ici — que dois-je faire ?"
+        "other_q": "Mon problème ne semble pas être ici — que dois-je faire ?"
       }
     },
     "migration": {
       "legacy_migration": "Convertissez votre ancien historique au nouveau format ici",
       "legacy": "Héritage",
       "legacy_import": "Import - ancienne version",
-      "legacy_import_alert_title": "Que Pour Utilisateurs de l'Ancien Site",
-      "legacy_import_alert_description": "On ne peut PAS récupérer les invocations après la période d'expiration de 6 mois. Cet importateur des invocations héritages n'est que pour les utilisateurs de l'ancien WuWa Tracker."
+      "legacy_import_alert_title": "For Old Website Users Only",
+      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
     },
     "layout": {
       "banners": {
@@ -420,10 +420,10 @@
     "error": {
       "oops": "Oups !",
       "an_error_occured": "Une <highlight>erreur</highlight> s'est produit.",
-      "join_discord": "S'il vous plaît <link>joignez notre serveur Discord</link> pour rédiger un rapport."
+      "join_discord": "Please <link>join our Discord Server</link> to make a report."
     },
     "achievements": {
-      "no_achievements_found": "Aucun achèvement trouvé"
+      "no_achievements_found": "no achievements found"
     },
     "tracker": {
       "banner_summary": "Résumé de bannière",
@@ -435,7 +435,7 @@
         "luckier": "Plus chanceux que {percentile}% des joueurs",
         "unluckier": "Moins chanceux que {percentile}% des joueurs",
         "avg_pity": "Pity moyenne",
-        "avg_pity_description": "Quelle est votre pitié moyenne d'obtenir un {qualityLevel} étoiles ?",
+        "avg_pity_description": "Quelle est votre pity moyenne pour un {qualityLevel} étoiles ?",
         "pull_ratio": "Ratio d'invocation",
         "pull_ratio_description": "Quel pourcentage de vos invocations totales était des {qualityLevel} étoiles ?",
         "coinflip_wins": "50/50 gagnés",
@@ -467,7 +467,7 @@
       "greeting": {
         "words": {
           "pulls": "invocations",
-          "pity": "pitié",
+          "pity": "pity",
           "events": "événements",
           "statistics": "statistiques",
           "data": "données",
@@ -484,30 +484,30 @@
       },
       "credits": {
         "title": "Crédits",
-        "heading": "Générique et Attributions",
-        "heading_description": "Ce site est rendu possible grâce à toutes ces personnes formidables. Si votre nom n'apparaît pas ici ou si vous voulez que votre nom soit retiré, veuillez nous contacter.",
-        "special_thanks": "Remerciements Particuliers"
+        "heading": "Credits & Attributions",
+        "heading_description": "This website was made possible thanks to all of these amazing people. If your name was not listed here or you wish to be removed, please contact us.",
+        "special_thanks": "Special Thanks"
       }
     },
     "settings": {
       "submit_to_global_stats": "Partager vos données pour les statistiques globales",
       "create_profile_dialog": "Vous n'avez pas encore un profil sur le site",
-      "create_profile_dialog_description": " On vous aidera à en créer pour qu'on puisse sauver vos données",
-      "active_profile_delete_pulls": "Supprimer les Données d'Invocations pour le Profil Actif",
-      "active_profile_delete_pulls_description": "Ceci va supprimer TOUTES les invocations associées avec {playerId} en permanence. S'il vous plait sauvegardez vos données d'abord et procédez avec prudence.",
-      "active_profile_delete_pulls_confirm": "Êtes-vous certain que vous voulez supprimer TOUTES les invocations pour {playerId} ?",
-      "not_responsible_undone_disclaimer": "En procédant, vous reconnaissez que nous ne sommes pas responsables pour vos données. Cette action ne peut pas être défait !",
-      "all_profiles_delete": "Supprimer TOUS les Profils Utilisateurs",
-      "all_profiles_delete_description": "Ceci va supprimer TOUTES les invocations associées avec {playerId} en permanence. S'il vous plait sauvegardez vos données d'abord et procédez avec prudence. S'il vous plait sauvegardez vos données d'abord et procédez avec prudence.",
+      "create_profile_dialog_description": " We'll help you create one so that we can save your data",
+      "active_profile_delete_pulls": "Supprimer les données d'invocations pour le profil actif",
+      "active_profile_delete_pulls_description": "Cette action va supprimer TOUTES les invocations associées avec le profil {playerId} de manière définitive. Veuillez faire une sauvegarde de vos données et utilisez cette option avec précaution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
+      "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
+      "all_profiles_delete": "Supprimer TOUS les profils utilisateurs",
+      "all_profiles_delete_description": "Cette option va supprimer de manière permanente TOUS vos profils utilisateur. Cette option a été créée à des fins de test. Veuillez faire une sauvegarde de vos données et utilisez cette option avec précaution.",
       "all_profiles_delete_confirm": "Êtes-vous certain que vous voulez supprimer TOUS vos profils utilisateurs ?",
       "privacy_description": "Accepter ou refuser les paramètres liés à la confidentialité de vos données",
       "privacy_global_stats": "Contribuer aux statistiques globales",
       "privacy_global_stats_description": "Si activé, nous utiliserons vos statistiques d'invocations pour calculer les statistiques globales",
-      "privacy_footer_policy_link": "Notre <link>Politique de Confidentialité</link> contient plus de détails sur la manière dont nous traitons vos données.",
-      "import_user_profile": "Importer le Profil Utilisateur",
-      "user_profile": "Profil Utilisateur",
-      "user_profile_description": "Sélectionnez votre profil actif pour le suivi des succès, des objets et des invocations",
-      "sync_tooltips": "Infobulles de Synchronisation",
+      "privacy_footer_policy_link": "Notre <link>Politique de confidentialité</link> contient plus de détails sur la manière dont nous traitons vos données.",
+      "import_user_profile": "Importer le profil utilisateur",
+      "user_profile": "Profil utilisateur",
+      "user_profile_description": "Sélectionnez votre profil actif pour le suivi des succès, des matériaux et des invocations",
+      "sync_tooltips": "Infobulles de synchronisation",
       "sync_tooltips_description": "Afficher diverses infobulles indiquant l'état actuel de la synchronisation et les mises à jour pertinentes.",
       "pull_history": "Historique d'invocations",
       "pull_history_description": "Téléchargez et importez vos données locales via Google ou depuis votre appareil",
@@ -516,10 +516,10 @@
       "overwrite_google_drive_data_description": "Le téléchargement de vos données écrasera les données présentes sur votre Google Drive par vos données locales. Nous vous recommandons de télécharger une copie au préalable.",
       "pulls_file_import_dialog_title": "Importer les invocations locales",
       "pulls_file_import_dialog_description": "REMARQUE : Cet outil n'accepte que les invocations dans notre nouveau format. Rendez-vous sur la page <link>d'importation d'anciennes données</link> si vous souhaitez importer des données créées avant <code></code>.",
-      "sync_preferences": "Préférences de Synchronisation",
+      "sync_preferences": "Préférences de synchronisation",
       "sync_preferences_description": "Choisissez d'activer ou de désactiver la synchronisation automatique de vos données avec Google Drive",
-      "sync_preferences_profile_description": "Les profils contiennent des données autres que les invocations telles que les succès, les objets et d'autres fonctionnalités du site.",
-      "you_can_manually_sync_reminder": "Vous pouvez synchroniser manuellement avec le bouton <code>Lancer la Synchronisation</code> dans le menu du profil."
+      "sync_preferences_profile_description": "Les profils contiennent des données autres que les invocations telles que les succès, les matériaux et d'autres fonctionnalités du site.",
+      "you_can_manually_sync_reminder": "Vous pouvez synchroniser manuellement avec le bouton <code>Lancer la synchronisation</code> dans le menu du profil."
     },
     "timeline": {
       "choose_server_timezone": "Choisissez votre serveur",
@@ -545,20 +545,20 @@
       "go_to_installation_directory_description": "Clic droit sur le lanceur de Wuthering Waves et sélectionnez <code>Ouvrir l'emplacement du fichier</code>. Vous devriez voir le fichier <code>launcher.exe</code> et de nombreux fichiers <code>.dll</code>.",
       "search_for_log": "Recherchez le fichier <code>Client.log</code> et importez-le ici",
       "airplane_mode": "Mode avion",
-      "download_ascent": "Téléchargez et utilisez Ascent pour obtenir l'URL de votre historique de gacha",
-      "download_ascent_description": "Similaire à obtenir votre historique en Genshin Impact ou Honkai Star Rail, suivez ce <link>guide par Mirai0009</link> pour télécharger et utiliser <ascent>Ascent v2.1.6</ascent> pour obtenir votre adresse URL.",
+      "download_ascent": "Téléchargez et utilisez Ascent pour obtenir l'URL de votre historique d'invocations",
+      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link> to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "NOTE : Cette méthode supporte seulement les versions d'Android 11 ou ultérieures.",
       "download_ascent_troubleshooting": "Si cela ne fonctionne pas, consultez <link>la section de dépannage</link>.",
       "ios_follow_tutorial_video": "Suivez notre tutoriel vidéo",
       "ios_follow_tutorial_video_description": "Comme pour obtenir votre historique d'invocations pour Genshin Impact ou Honkai Star Rail, suivez ce tutoriel vidéo pour importer vos données sur iOS.",
       "ps5_press_the_options_button": "Appuyez sur le bouton <code>Options</code> de votre manette",
-      "ps5_click_on_page_information": "Appuyez sur le bouton <code>Informations sur la Page</code>",
+      "ps5_click_on_page_information": "Appuyez sur le bouton <code>Informations sur la page</code>",
       "ps5_enter_your_record_id": "Enter your <code>player_id</code> and <code>record_id</code> here"
     },
     "inventory": {
       "new_plan": "Nouveau plan",
       "add_plan": "Ajouter un plan",
-      "material_summary": "Récapitulatif des Matériaux",
+      "material_summary": "Récapitulatif des matériaux",
       "no_active_plans": "Vous n'avez aucun plan actif.",
       "nodes_to_unlock": "Nœuds à Débloquer",
       "passive_skill": "Compétence Passive",
@@ -643,7 +643,7 @@
       }
     },
     "planner": {
-      "title": "Planificateur d'Ascension",
+      "title": "Planificateur d'ascension",
       "description": "Un puissant calculateur pour Wuthering Waves, permettant de planifier tous les matériaux nécessaires pour le niveau, l'Ascension et les compétences de vos Résonateurs !"
     },
     "support": {
