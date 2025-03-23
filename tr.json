@@ -8,10 +8,10 @@
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Çağrı Geçmişi",
       "pull_num": "Çağrı No.",
-      "item": "Eşya",
+      "item": "Öğe",
       "pity": "Pity",
       "rarity": "Nadirlik",
-      "date_received": "Elde Edilen Tarih",
+      "date_received": "Elde Ettiğin Tarih",
       "recent_convenes": "Yakın Zamanda Elde Ettiğin Karakterler",
       "resonator": "Rezonatör",
       "weapon": "Silah"
@@ -23,8 +23,8 @@
       "no_pulls_yet": "Daha çağrı yapılmamış",
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Toplam Çağrılar",
-      "total_pulls_responsive": "<span>Toplam</span> Çağrılar",
+      "total_pulls": "Toplam Çağrı",
+      "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite"
     },
     "name": {
@@ -233,7 +233,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "Bu eylem geri alınamaz!",
-        "disable_auto_profile_sync": "Günvenliğiniz için, bu ayrıca otomatik profil eşitlemeyi kapatacak!",
+        "disable_auto_profile_sync": "Bu seçenek otomatik profil eşitlemeyi de kapatacak!",
         "this_does_not_include_your_pulls": "Bu senin çağrılarını içermiyor!",
         "planner_removed_plan_for_name": "{name} planı silindi."
       }
@@ -242,7 +242,7 @@
       "banner_select_placeholder": "Banner seç",
       "banner_search_placeholder": "Banner ara...",
       "search": "Ara",
-      "search_placeholder": "Birşey için ara...",
+      "search_placeholder": "Ara",
       "search_reset": "Aramayı sıfırla",
       "your_player_id_placeholder": "9-haneli oyuncu ID'in (ör. 123456789)",
       "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
@@ -352,7 +352,7 @@
       "supporters": "Katkıda bulunanlar",
       "no_particular_order": "belirli bir sıralamada değil",
       "translators": "Çevirmenler",
-      "players": "Oyuncular",
+      "players": "Oyuncu",
       "event": "Etkinlik",
       "ongoing_events": "Devam eden etkinlikler",
       "choose_a_method": "Bir Yöntem Seç",
@@ -380,7 +380,7 @@
       "planner": "Planlayıcı",
       "owned_num": "Sahip Olduğun: {num}",
       "owned": "Sahip Olduğun",
-      "required_num": "Gerekli: {num}"
+      "required_num": "Gereken: {num}"
     }
   },
   "feature": {
@@ -399,10 +399,10 @@
     },
     "migration": {
       "legacy_migration": "Eski çağrılarını buradan yeni biçime çevir",
-      "legacy": "Legacy",
+      "legacy": "Eski",
       "legacy_import": "Eski Çağrıları İçe Aktar",
       "legacy_import_alert_title": "Sadece Eski Web Sitesi Kullanıcıları İçin",
-      "legacy_import_alert_description": "Son kullanma süresi olan 6 ayı geçmiş çağrıları KURTARAMAYIZ. Bu legacy çağrı içe aktarıcısı sadece eski WuWa Tracker kullanıcıları için."
+      "legacy_import_alert_description": "Çağrıların son kullanma süresi 6 aydır. Bu süreyi geçmiş olan çağrıları KURTARAMAYIZ. Bu sekme sadece eski WuWa Tracker kullanıcıları için."
     },
     "layout": {
       "banners": {
@@ -415,7 +415,7 @@
       "system_status": "Sistem Durumu",
       "legal": "Yasal",
       "partners": "Ortaklar",
-      "disclaimer": "WuwaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
+      "disclaimer": "WuWaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
     },
     "error": {
       "oops": "Abooov!",
@@ -447,7 +447,7 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ Çağrılar",
       "rarity_pulls_per_pity": "{num}✦ Çıkarmak İçin Gereken Ortalama Çağrı Sayısı",
-      "rarity_pulls_per_pity_description": "Pity sayısına göre öğe elde etme oranı dağılımı",
+      "rarity_pulls_per_pity_description": "Pity sayısına göre öğe dağılımı",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
       "view_your_statistics_responsive": "İstatistiklerini <span>Görüntüle</span>",
@@ -455,11 +455,11 @@
       "pulls_per_day_description": "Günlere göre çağrı sayısı ve nadirlik dağılımı",
       "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
       "pulls_per_rarity_description": "Nadirlik Dağılımı",
-      "pulls_per_item_description": "Öğe başına düşen çağrı sayısı"
+      "pulls_per_item_description": "Karakter başına düşen çağrı sayısı"
     },
     "dashboard": {
       "title": "Kontrol Paneli",
-      "stay_focused_rover": "Rover, odaklanmış kal.",
+      "stay_focused_rover": "Komutanım napıyorsunuz 😳",
       "welcome_rover": "Hoş Geldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
       "your_data_will_now_sync": "Verileriniz istek üzerine eşitlenecek!",
@@ -470,7 +470,7 @@
           "pity": "pity",
           "events": "etkinlikler",
           "statistics": "istatistikler",
-          "data": "veri",
+          "data": "verilerin",
           "updates": "güncellemeler"
         },
         "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacı. Wuthering Waves ilerlemenizi arkadaşlarınıza göstermeniz için en iyi araçları sağlamayı amaçlıyoruz."
@@ -490,15 +490,15 @@
       }
     },
     "settings": {
-      "submit_to_global_stats": "Küresel istatistikler için çağrı verilerini bağışla",
+      "submit_to_global_stats": "Küresel istatistikler için çağrı verilerini bağışla.",
       "create_profile_dialog": "Henüz bir site profiliniz yok",
       "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
       "active_profile_delete_pulls": "Aktif Profil için Çağrı Verilerini Sil",
-      "active_profile_delete_pulls_description": "Bu {playerId} ile alakalı TÜM çağırıları silecek. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
+      "active_profile_delete_pulls_description": "Bu seçenek {playerId} ile alakalı TÜM çağrıları siler. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağrıları silmek istediğine emin misin?",
       "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığımızı kabul ediyorsun. Bu eylem geri alınamaz!",
       "all_profiles_delete": "TÜM Kullanıcı Profillerini Sil",
-      "all_profiles_delete_description": "Bu TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
+      "all_profiles_delete_description": "Bu seçenek TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
       "all_profiles_delete_confirm": "TÜM kullanıcı profillerini silmek istediğinden emin misin?",
       "privacy_description": "Veri gizliliğiniz ile ilgili ayarları etkinleştirme veya devre dışı bırakma",
       "privacy_global_stats": "Küresel İstatistiklere Katkıda Bulun",
@@ -507,8 +507,8 @@
       "import_user_profile": "Kullanıcı Profilini İçe Aktar",
       "user_profile": "Kullanıcı Profili",
       "user_profile_description": "Başarımlar, eşyalar ve çağrı takip sistemi için aktif profilini seç",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "sync_tooltips": "Eşitleme İpuçları",
+      "sync_tooltips_description": "Mevcut eşitleme durumunu ve yeni güncellemeleri içeren çeşitli ipuçlarını göster.",
       "pull_history": "Çağrı Geçmişi Verileri",
       "pull_history_description": "Bilgilerini Google veya yerel cihazın aracılığı ile yükle & indir",
       "saves_your_pulls_to_google": "Çağrılarını Google'a kayıt eder",
@@ -524,7 +524,7 @@
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
       "choose_server_timezone_description": "Senin zaman dilimine uyarlanmış saatleri göster",
-      "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine göre veya diğer <link>Sunucu Zamanlarına</link> göre görüntüle.",
+      "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine veya diğer <link>Sunucu Zamanlarına</link> göre görüntüle.",
       "reset_timers": {
         "title": "Sunucu Sıfırlanma Saatleri",
         "description": "Bir sonraki maceranı planlamak için yerel saatini, Wuthering Waves Sunucu saati ile karşılaştır.",
@@ -533,16 +533,16 @@
     },
     "import": {
       "logs_not_updating_alert": "URL Son Kullanma Tarihi",
-      "logs_not_updating_alert_description": "14 Ocak 2025'den bu yana PC kullanıcıları Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
+      "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı, 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
-      "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metini yapıştır.",
+      "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metini <link>buradan</link> görebilirsin.",
+      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metni <link>buradan</link> görebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "press_the_import_history_button": "Sitedeki ''Geçmişi İçe Aktar'' tuşuna bas",
       "go_to_installation_directory": "Oyunu indirdiğin dosyalara git",
-      "go_to_installation_directory_description": "Wuthering Waves Game Launcher'a sağ tıkla ve <code>Dosya yolunu aç</code> 'a tıkla. Orda <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görmelisin.",
+      "go_to_installation_directory_description": "Wuthering Waves Game Launcher'a sağ tıkla ve <code>Dosya konumunu aç</code> 'a tıkla. Orda <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görmelisin.",
       "search_for_log": "<code>Client.log</code> 'u arat ve buraya yükle",
       "airplane_mode": "Airplane",
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
@@ -552,8 +552,8 @@
       "ios_follow_tutorial_video": "Öğretici videomuzu takip et",
       "ios_follow_tutorial_video_description": "İOS'da, Honkai Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici videosundaki adımları takip et.",
       "ps5_press_the_options_button": "Oyun kolundaki <code>Ayarlar</code> düğmesine bas",
-      "ps5_click_on_page_information": "<code>Bilgi Sayfası</code> düğmesine bas",
-      "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya gir"
+      "ps5_click_on_page_information": "<code>Sayfa Hakkında</code> düğmesine bas",
+      "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya yaz"
     },
     "inventory": {
       "new_plan": "Yeni Plan",
@@ -604,7 +604,7 @@
       "title": "Çağrıları İçe Aktar",
       "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
       "legacy": {
-        "title": "Legacy İçe Aktarma Öğreticisi",
+        "title": "Eski Verileri İçe Aktarma",
         "description": "Eğer sitemizi önceden kullandıysan ve yeni sitemizde çağrı verilerini bulamıyorsan, buradan legacy içe aktarma rehberimizi izlemelisin!"
       }
     },
@@ -643,7 +643,7 @@
       }
     },
     "planner": {
-      "title": "Geliştirme Planlayıcısi",
+      "title": "Geliştirme Planlayıcısı",
       "description": "Rezonatör Ascension Level, skill ve EXP materyallerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
     },
     "support": {
