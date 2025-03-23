@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Nadirlik",
       "date_received": "Elde Ettiğin Tarih",
-      "recent_convenes": "Yakın Zamanda Elde Ettiğin Karakterler",
+      "recent_convenes": "Yakın Zamanda Elde Ettiklerin",
       "resonator": "Rezonatör",
       "weapon": "Silah"
     },
@@ -347,7 +347,7 @@
       "social_github_cta": "GitHub üzerinden katkıda bulun",
       "community": "Topluluk",
       "contact": "İletişim",
-      "for_general_inquiries": "Sıkça Sorulan Sorular için:",
+      "for_general_inquiries": "Genel problemler için:",
       "for_support": "Destek için:",
       "supporters": "Katkıda bulunanlar",
       "no_particular_order": "belirli bir sıralamada değil",
@@ -401,7 +401,7 @@
       "legacy_migration": "Eski çağrılarını buradan yeni biçime çevir",
       "legacy": "Eski",
       "legacy_import": "Eski Çağrıları İçe Aktar",
-      "legacy_import_alert_title": "Sadece Eski Web Sitesi Kullanıcıları İçin",
+      "legacy_import_alert_title": "Bu Sekme Sadece Eski Web Sitesi Kullanıcıları İçin",
       "legacy_import_alert_description": "Çağrıların son kullanma süresi 6 aydır. Bu süreyi geçmiş olan çağrıları KURTARAMAYIZ. Bu sekme sadece eski WuWa Tracker kullanıcıları için."
     },
     "layout": {
@@ -480,7 +480,7 @@
       },
       "about": {
         "title": "Hakkında",
-        "what_is_wuwatracker": "Wuwa Tracker ne?"
+        "what_is_wuwatracker": "WuWa Tracker ne?"
       },
       "credits": {
         "title": "Krediler",
@@ -552,7 +552,7 @@
       "ios_follow_tutorial_video": "Öğretici videomuzu takip et",
       "ios_follow_tutorial_video_description": "İOS'da, Honkai Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici videosundaki adımları takip et.",
       "ps5_press_the_options_button": "Oyun kolundaki <code>Ayarlar</code> düğmesine bas",
-      "ps5_click_on_page_information": "<code>Sayfa Hakkında</code> düğmesine bas",
+      "ps5_click_on_page_information": "<code>Sayfa Hakkında</code> seçeneğine tıkla",
       "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya yaz"
     },
     "inventory": {
@@ -604,7 +604,7 @@
       "title": "Çağrıları İçe Aktar",
       "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
       "legacy": {
-        "title": "Eski Verileri İçe Aktarma",
+        "title": "Eski Çağrıları İçe Aktarma",
         "description": "Eğer sitemizi önceden kullandıysan ve yeni sitemizde çağrı verilerini bulamıyorsan, buradan legacy içe aktarma rehberimizi izlemelisin!"
       }
     },
