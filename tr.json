@@ -318,7 +318,7 @@
         "Tu": "Sal",
         "We": "Çar",
         "Th": "Per",
-        "Fr": "Cu",
+        "Fr": "Cum",
         "Sa": "Cmt",
         "Su": "Paz"
       }
@@ -328,7 +328,7 @@
       "guest": "Misafir",
       "america": "Amerika",
       "europe": "Avrupa",
-      "asia_sea_regions": "Asya, Okyanusya, TW/HK/MO",
+      "asia_sea_regions": "Asya, Okyanusya, TV/HK/MO",
       "completed": "Tamamlandı",
       "incomplete": "Tamamlanmadı",
       "completion": "Tamamlama",
