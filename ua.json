@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "Ровер-Хаос",
         "Rover-Spectro": "Ровер-Спектро",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "Алто",
         "Baizhi": "Байджи",
         "Brant": "Brant",
@@ -66,6 +67,7 @@
         "Autumntrace": "Осінній слід",
         "Beguiling Melody": "Захоплююча мелодія",
         "Blazing Brilliance": "Палкий блиск",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "Широке лезо Ночі",
         "Broadblade of Voyager": "Широке лезо Вояджера",
         "Broadblade#41": "Широкий меч#41",
@@ -145,7 +147,8 @@
         "Augment": "Augment",
         "Endless Collapse": "Endless Collapse",
         "Waltz in Masquerade": "Waltz in Masquerade",
-        "Waning Redshift": "Waning Redshift"
+        "Waning Redshift": "Waning Redshift",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "Featured Resonator",
