@@ -31,7 +31,7 @@
       "items": {
         "Rover-Havoc": "Nomade-Havoc",
         "Rover-Spectro": "Nomade-Spectro",
-        "Rover-Aero": "Rover-Aero",
+        "Rover-Aero": "Nomade-Aero",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -148,7 +148,7 @@
         "Endless Collapse": "Effondrement éternel",
         "Waltz in Masquerade": "Valse en Masque",
         "Waning Redshift": "Spectre en déclin",
-        "Whispers of Sirens": "Whispers of Sirens"
+        "Whispers of Sirens": "Murmures des Sirènes"
       },
       "banners": {
         "Featured Resonator": "Résonateur limité",
