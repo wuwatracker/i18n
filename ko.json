@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "방랑자-인멸",
         "Rover-Spectro": "방랑자-회절",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "알토",
         "Baizhi": "설지",
         "Brant": "브렌트",
@@ -66,6 +67,7 @@
         "Autumntrace": "가을의 무늬",
         "Beguiling Melody": "천상의 음률",
         "Blazing Brilliance": "솟아오르는 화염",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "흑야의 대검 · 현명",
         "Broadblade of Voyager": "수행자의 대검 · 벽로",
         "Broadblade#41": "41형 대검 · 무거운 책임",
@@ -145,7 +147,8 @@
         "Augment": "청음",
         "Endless Collapse": "영원의 붕괴",
         "Waltz in Masquerade": "허위의 왈츠",
-        "Waning Redshift": "멸망의 주파수"
+        "Waning Redshift": "멸망의 주파수",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "캐릭터 이벤트 튜닝",
