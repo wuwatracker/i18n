@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "crwdns6182:0crwdne6182:0",
         "Rover-Spectro": "crwdns6184:0crwdne6184:0",
+        "Rover-Aero": "crwdns7229:0crwdne7229:0",
         "Aalto": "crwdns6186:0crwdne6186:0",
         "Baizhi": "crwdns6188:0crwdne6188:0",
         "Brant": "crwdns6190:0crwdne6190:0",
@@ -66,6 +67,7 @@
         "Autumntrace": "crwdns6250:0crwdne6250:0",
         "Beguiling Melody": "crwdns6252:0crwdne6252:0",
         "Blazing Brilliance": "crwdns6254:0crwdne6254:0",
+        "Bloodpact's Pledge": "crwdns7231:0crwdne7231:0",
         "Broadblade of Night": "crwdns6256:0crwdne6256:0",
         "Broadblade of Voyager": "crwdns6258:0crwdne6258:0",
         "Broadblade#41": "crwdns6260:0crwdne6260:0",
@@ -145,7 +147,8 @@
         "Augment": "crwdns6402:0crwdne6402:0",
         "Endless Collapse": "crwdns6404:0crwdne6404:0",
         "Waltz in Masquerade": "crwdns6406:0crwdne6406:0",
-        "Waning Redshift": "crwdns6408:0crwdne6408:0"
+        "Waning Redshift": "crwdns6408:0crwdne6408:0",
+        "Whispers of Sirens": "crwdns7233:0crwdne7233:0"
       },
       "banners": {
         "Featured Resonator": "crwdns6410:0crwdne6410:0",
