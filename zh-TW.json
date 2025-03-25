@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "漂泊者-湮灭",
         "Rover-Spectro": "漂泊者-衍射",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "秋水",
         "Baizhi": "白芷",
         "Brant": "布蘭特",
@@ -66,6 +67,7 @@
         "Autumntrace": "紋秋",
         "Beguiling Melody": "鈞天正音",
         "Blazing Brilliance": "赫奕流明",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "暗夜長刃．玄明",
         "Broadblade of Voyager": "遠行者長刃．闢路",
         "Broadblade#41": "重破刃-41型",
@@ -145,7 +147,8 @@
         "Augment": "清音",
         "Endless Collapse": "永續坍縮",
         "Waltz in Masquerade": "虛飾的華爾茲",
-        "Waning Redshift": "凋亡頻移"
+        "Waning Redshift": "凋亡頻移",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "限定共鳴者",
