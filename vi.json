@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "Rover-Havoc",
         "Rover-Spectro": "Rover-Spectro",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -66,6 +67,7 @@
         "Autumntrace": "Autumntrace",
         "Beguiling Melody": "Beguiling Melody",
         "Blazing Brilliance": "Ánh Dương Chói Lòa",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "Dạ trường Kiếm",
         "Broadblade of Voyager": "Du hành trường kiếm",
         "Broadblade#41": "Trường Kiếm số 41",
@@ -145,7 +147,8 @@
         "Augment": "Phóng Đại",
         "Endless Collapse": "Va Chạm Không Hồi Kết",
         "Waltz in Masquerade": "Vũ hội hóa trang",
-        "Waning Redshift": "Dịch Chuyển Đỏ Chậm Dần"
+        "Waning Redshift": "Dịch Chuyển Đỏ Chậm Dần",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "Nhân Vật Giới Hạn",
