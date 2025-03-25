@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "Rover-Havoc",
         "Rover-Spectro": "Rover-Spectro",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -66,6 +67,7 @@
         "Autumntrace": "Vestígio de Outono",
         "Beguiling Melody": "Melodia de Beguiling",
         "Blazing Brilliance": "Brilho Ardente",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "Espadão da Noite",
         "Broadblade of Voyager": "Espadão de Viajante",
         "Broadblade#41": "Espadão#41",
@@ -145,7 +147,8 @@
         "Augment": "Reforço",
         "Endless Collapse": "Colapso Eterno",
         "Waltz in Masquerade": "Valsa das Máscaras",
-        "Waning Redshift": "Vermelho Minguante"
+        "Waning Redshift": "Vermelho Minguante",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "Resonator Destacado",

@@ -13,8 +13,8 @@
       "rarity": "Rarity",
       "date_received": "実行時間",
       "recent_convenes": "最近の集音",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "共鳴者",
+      "weapon": "武器"
     },
     "phrase": {
       "import_data": "Import Data",
@@ -31,6 +31,7 @@
       "items": {
         "Rover-Havoc": "漂泊者・消滅",
         "Rover-Spectro": "漂泊者・回折",
+        "Rover-Aero": "Rover-Aero",
         "Aalto": "アールト",
         "Baizhi": "白芷",
         "Brant": "ブラント",
@@ -66,6 +67,7 @@
         "Autumntrace": "秋の名残",
         "Beguiling Melody": "天上の仙楽",
         "Blazing Brilliance": "赫く燃ゆる流光",
+        "Bloodpact's Pledge": "Bloodpact's Pledge",
         "Broadblade of Night": "暗夜の長刃・玄明",
         "Broadblade of Voyager": "探索者長刃・開拓",
         "Broadblade#41": "重破刃＃41",
@@ -145,7 +147,8 @@
         "Augment": "清らかな音",
         "Endless Collapse": "永遠を砕く重力崩壊",
         "Waltz in Masquerade": "虚飾のワルツ",
-        "Waning Redshift": "破滅に迫る赤方偏移"
+        "Waning Redshift": "破滅に迫る赤方偏移",
+        "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
         "Featured Resonator": "ピックアップ共鳴者",
@@ -241,7 +244,7 @@
     "form": {
       "banner_select_placeholder": "Select banner",
       "banner_search_placeholder": "Search banner...",
-      "search": "Search",
+      "search": "検索",
       "search_placeholder": "Search for something...",
       "search_reset": "Reset search",
       "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
