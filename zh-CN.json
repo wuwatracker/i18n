@@ -73,6 +73,7 @@
         "Broadblade#41": "重破刃-41型",
         "Cadenza": "华彩乐段",
         "Call of the Abyss": "渊海回声",
+        "Cantarella": "Cantarella",
         "Celestial Spiral": "尘云旋臂",
         "Commando of Conviction": "不归孤军",
         "Comet Flare": "异度",
@@ -217,7 +218,7 @@
         "nothing_to_sync": "目前没有需要同步的数据。",
         "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
         "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
-        "planner_edited_plan_for_name": "已编辑 {todo.name} 的培养计划。"
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
