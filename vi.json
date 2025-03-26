@@ -192,9 +192,9 @@
         "incorrect_input_file_description": "Đây CHỈ dành cho những lịch sử triệu hồi được nhập mới!",
         "files_no_upload": "Chưa có file nào được đăng tải.",
         "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "files_has_oversize_limit_num": "Một số file vượt quá giới hạn kích thước {num}MB.",
+        "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
+        "planner_insufficient_materials": "Nguyên liệu không phù hợp."
       },
       "info": {
         "connecting_google": "Đang cố gắng kết nối đến Google Drive",
