@@ -73,6 +73,7 @@
         "Broadblade#41": "crwdns6260:0crwdne6260:0",
         "Cadenza": "crwdns6262:0crwdne6262:0",
         "Call of the Abyss": "crwdns6264:0crwdne6264:0",
+        "Cantarella": "crwdns7235:0crwdne7235:0",
         "Celestial Spiral": "crwdns6266:0crwdne6266:0",
         "Commando of Conviction": "crwdns6268:0crwdne6268:0",
         "Comet Flare": "crwdns6270:0crwdne6270:0",
@@ -217,7 +218,7 @@
         "nothing_to_sync": "crwdns6510:0crwdne6510:0",
         "sync_creating_file_in_google": "crwdns6512:0{fileName}crwdne6512:0",
         "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0",
-        "planner_edited_plan_for_name": "crwdns7171:0{todo.name}crwdne7171:0"
+        "planner_edited_plan_for_name": "crwdns7237:0{name}crwdne7237:0"
       },
       "success": {
         "successfully_imported_achievements": "crwdns6516:0crwdne6516:0",
