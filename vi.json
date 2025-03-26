@@ -67,7 +67,7 @@
         "Autumntrace": "Autumntrace",
         "Beguiling Melody": "Beguiling Melody",
         "Blazing Brilliance": "Ánh Dương Chói Lòa",
-        "Bloodpact's Pledge": "Bloodpact's Pledge",
+        "Bloodpact's Pledge": "Lời Thề Huyết Thệ",
         "Broadblade of Night": "Dạ trường Kiếm",
         "Broadblade of Voyager": "Du hành trường kiếm",
         "Broadblade#41": "Trường Kiếm số 41",
@@ -148,7 +148,7 @@
         "Endless Collapse": "Va Chạm Không Hồi Kết",
         "Waltz in Masquerade": "Vũ hội hóa trang",
         "Waning Redshift": "Dịch Chuyển Đỏ Chậm Dần",
-        "Whispers of Sirens": "Whispers of Sirens"
+        "Whispers of Sirens": "Lời thì thầm của Mỹ nhân ngư"
       },
       "banners": {
         "Featured Resonator": "Nhân Vật Giới Hạn",
@@ -190,8 +190,8 @@
         "sync_unavailable": "Hiện không có dữ liệu để đồng bộ.",
         "sync_no_remote_data_to_download": "Hiện không có dữ liệu từ xa để đồng bộ.",
         "incorrect_input_file_description": "Đây CHỈ dành cho những lịch sử triệu hồi được nhập mới!",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
+        "files_no_upload": "Chưa có file nào được đăng tải.",
+        "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
         "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
         "inventory_item_does_not_exist": "That item does not exist!",
         "planner_insufficient_materials": "Insufficient materials."
