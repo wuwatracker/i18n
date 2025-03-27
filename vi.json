@@ -13,7 +13,7 @@
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
       "recent_convenes": "Lượt Triệu hồi gần đây",
-      "resonator": "Nhân vật",
+      "resonator": "Cộng Hưởng Giả",
       "weapon": "Vũ khí"
     },
     "phrase": {
@@ -218,7 +218,7 @@
         "nothing_to_sync": "Hiện không có dữ liệu để đồng bộ.",
         "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
         "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}."
       },
       "success": {
         "successfully_imported_achievements": "Nhập lịch sử thành tựu thành công.",
@@ -564,18 +564,18 @@
       "add_plan": "Thêm Kế hoạch",
       "material_summary": "Tóm tắt lượng nguyên liệu cần thiết",
       "no_active_plans": "Bạn không có bất kì kế hoạch nào đang hoạt động.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "nodes_to_unlock": "Mở khóa các Giao điểm",
+      "passive_skill": "Nội tại",
+      "plan_delete_name_confirm": "Bạn có chắc chắn muốn xóa kế hoạch {name}?",
+      "no_items_will_be_consumed": "Không có vật phẩm nào bị xóa.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "Cấp độ Thăng tiến",
+        "level": "Cấp độ",
+        "basic_attack": "Đòn đánh thường",
+        "resonance_skill": "Kỹ Năng Cộng Hưởng",
+        "forte_circuit": "Mạch Sở trường",
+        "resonance_liberation": "Giải Phóng Cộng Hưởng",
+        "intro_skill": "Kỹ Năng Mở Đầu"
       }
     }
   },
@@ -648,7 +648,7 @@
     },
     "planner": {
       "title": "Kế hoạch phát triển",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "description": "Công cụ lập kế hoạch đắc lực nhất để thăng tiến cấp độ, kỹ năng và nguyên liệu EXP cho Cộng Hưởng Giả Wuthering Waves của bạn!"
     },
     "support": {
       "title": "Hỗ trợ",
