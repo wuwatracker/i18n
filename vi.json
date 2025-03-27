@@ -13,7 +13,7 @@
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
       "recent_convenes": "Lượt Triệu hồi gần đây",
-      "resonator": "Nhân vật",
+      "resonator": "Cộng Hưởng Giả",
       "weapon": "Vũ khí"
     },
     "phrase": {
@@ -572,10 +572,10 @@
         "ascension_level": "Cấp độ Thăng tiến",
         "level": "Cấp độ",
         "basic_attack": "Đòn đánh thường",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "resonance_skill": "Kỹ Năng Cộng Hưởng",
+        "forte_circuit": "Mạch Sở trường",
+        "resonance_liberation": "Giải Phóng Cộng Hưởng",
+        "intro_skill": "Kỹ Năng Mở Đầu"
       }
     }
   },
@@ -648,7 +648,7 @@
     },
     "planner": {
       "title": "Kế hoạch phát triển",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "description": "Công cụ lập kế hoạch đắc lực nhất để thăng tiến cấp độ, kỹ năng và nguyên liệu EXP cho Cộng Hưởng Giả Wuthering Waves của bạn!"
     },
     "support": {
       "title": "Hỗ trợ",
