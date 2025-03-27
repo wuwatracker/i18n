@@ -218,7 +218,7 @@
         "nothing_to_sync": "Hiện không có dữ liệu để đồng bộ.",
         "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
         "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}."
       },
       "success": {
         "successfully_imported_achievements": "Nhập lịch sử thành tựu thành công.",
@@ -564,14 +564,14 @@
       "add_plan": "Thêm Kế hoạch",
       "material_summary": "Tóm tắt lượng nguyên liệu cần thiết",
       "no_active_plans": "Bạn không có bất kì kế hoạch nào đang hoạt động.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "nodes_to_unlock": "Mở khóa các Giao điểm",
+      "passive_skill": "Nội tại",
+      "plan_delete_name_confirm": "Bạn có chắc chắn muốn xóa kế hoạch {name}?",
+      "no_items_will_be_consumed": "Không có vật phẩm nào bị xóa.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
+        "ascension_level": "Cấp độ Thăng tiến",
+        "level": "Cấp độ",
+        "basic_attack": "Đòn đánh thường",
         "resonance_skill": "Resonance Skill",
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Resonance Liberation",
