@@ -221,7 +221,7 @@
         "nothing_to_sync": "Nothing to sync at the moment.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
         "sync_updating_remote_file": "Updating remote copy for {fileName}...",
-        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Successfully imported your achievements.",
