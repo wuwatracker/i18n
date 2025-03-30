@@ -8,8 +8,8 @@
       "wuthering_waves": "《鸣潮》",
       "pull_history": "唤取历史",
       "pull_num": "唤取序号",
-      "item": "名称",
-      "pity": "保底",
+      "item": "物品",
+      "pity": "保底唤取次数",
       "rarity": "稀有度",
       "date_received": "获取日期",
       "recent_convenes": "最近唤取",
@@ -331,9 +331,9 @@
       }
     },
     "other": {
-      "name": "名字",
+      "name": "名称",
       "guest": "游客",
-      "america": "美国",
+      "america": "美洲",
       "europe": "欧洲",
       "asia_sea_regions": "亚洲、东南亚、台湾/香港/澳门",
       "completed": "已完成",
