@@ -67,7 +67,7 @@
         "Autumntrace": "가을의 무늬",
         "Beguiling Melody": "천상의 음률",
         "Blazing Brilliance": "솟아오르는 화염",
-        "Bloodpact's Pledge": "Bloodpact's Pledge",
+        "Bloodpact's Pledge": "혈맹의 약속",
         "Broadblade of Night": "흑야의 대검 · 현명",
         "Broadblade of Voyager": "수행자의 대검 · 벽로",
         "Broadblade#41": "41형 대검 · 무거운 책임",
@@ -118,9 +118,9 @@
         "Red Spring": "날카로운 봄",
         "Relativistic Jet": "역설의 격류",
         "Romance in Farewell": "작별의 로맨스",
-        "Rover: Spectro": "Rover: Spectro",
-        "Rover: Havoc": "Rover: Havoc",
-        "Rover: Aero": "Rover: Aero",
+        "Rover: Spectro": "방랑자: 회절",
+        "Rover: Havoc": "방랑자: 인멸",
+        "Rover: Aero": "방랑자: 기류",
         "Somnoire Anchor": "마음의 닻",
         "Static Mist": "부동의 안개",
         "Stellar Symphony": "뭇별의 교향곡",
@@ -152,7 +152,7 @@
         "Endless Collapse": "영원의 붕괴",
         "Waltz in Masquerade": "허위의 왈츠",
         "Waning Redshift": "멸망의 주파수",
-        "Whispers of Sirens": "Whispers of Sirens"
+        "Whispers of Sirens": "바다의 속삭임"
       },
       "banners": {
         "Featured Resonator": "캐릭터 이벤트 튜닝",
@@ -197,8 +197,8 @@
         "files_no_upload": "파일이 업로드되지 않았습니다.",
         "files_max_upload_num": "You can only upload up to {num} file(s).",
         "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
+        "planner_insufficient_materials": "재료 부족."
       },
       "info": {
         "connecting_google": "구글 드라이브에 연결 시도중",
@@ -236,13 +236,13 @@
         "sync_success": "동기화 성공.",
         "sync_success_updated_remote_file": "{fileName}의 원격 복사본을 업데이트했습니다.",
         "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_created_plan_for_name": "성공적으로 {name}의 플랜을 생성했습니다."
       },
       "warn": {
         "this_cannot_be_undone": "이 작업은 되돌릴 수 없습니다!",
         "disable_auto_profile_sync": "안전을 위해 자동 프로필 동기화도 비활성화합니다!",
         "this_does_not_include_your_pulls": "여기에는 뽑기 기록이 포함되지 않습니다!",
-        "planner_removed_plan_for_name": "Removed plan for {name}."
+        "planner_removed_plan_for_name": "{name}의 플랜을 삭제했습니다."
       }
     },
     "form": {
@@ -255,13 +255,13 @@
       "your_player_id_validation": "9자리 UID는 반드시 1, 5, 6, 7, 8, 또는 9로 시작합니다",
       "type_to_confirm": "계속하려면 <strong></strong> 를 입력하세요",
       "file_input": "클릭하거나 드래그&드롭하여 업로드",
-      "accepted_formats": "Accepted formats: {formats}",
+      "accepted_formats": "지원하는 형식: {formats}",
       "select_profile_placeholder_empty": "프로필을 찾을 수 없습니다",
       "select_profile_placeholder_inactive": "프로필 선택",
       "filters": "필터",
       "rows_per_page": "페이지 당 행",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "현재 레벨은 반드시 {min}과 {max} 사이여야 합니다.",
+      "planner_new_must_be_between_min_max": "새 레벨은 반드시 {min}과 {max} 사이여야 합니다."
     },
     "button": {
       "go_home": "홈",
@@ -285,16 +285,16 @@
       "import_from_file": "파일에서 제출",
       "upload_to_google": "구글에 업로드",
       "download_from_google": "구글에서 다운로드",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
+      "reset_tag_filters": "태그 필터 리셋",
+      "complete": "완료",
+      "hide": "숨기기",
+      "show": "보이기",
+      "edit": "편집",
       "view_details": "View Details"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "전체 기간",
+      "last_num_days": "최근 {num} 일",
       "invalid_date": "유효하지 않은 날짜",
       "local_time": "현지 시간",
       "server_time": "서버 시간",
@@ -383,8 +383,8 @@
       "image_preview": "이미지 프리뷰",
       "close": "닫힘",
       "portrait_view": "Portrait view",
-      "tile_view": "Tile view",
-      "planner": "Planner",
+      "tile_view": "타일 뷰",
+      "planner": "플래너",
       "owned_num": "Owned: {num}",
       "owned": "Owned",
       "required_num": "Required: {num}"
@@ -514,7 +514,7 @@
       "import_user_profile": "유저 프로필 제출",
       "user_profile": "유저 프로필",
       "user_profile_description": "업적, 아이템 및 튜닝 트래커에 대한 활성 프로필을 선택하세요",
-      "sync_tooltips": "Sync Tooltips",
+      "sync_tooltips": "동기화 툴팁",
       "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "뽑기 기록 데이터",
       "pull_history_description": "구글 또는 로컬 디바이스를 통해 로컬 데이터를 업로드 & 다운로드하세요",
@@ -563,22 +563,22 @@
       "ps5_enter_your_record_id": "여기에 <code>Uid</code> 와 <code>레코드 id</code> 를 입력하세요"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
+      "new_plan": "새로운 플랜",
+      "add_plan": "플랜 추가하기",
       "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
+      "no_active_plans": "플랜이 없습니다.",
+      "nodes_to_unlock": "해제할 노드",
+      "passive_skill": "패시브 스킬",
+      "plan_delete_name_confirm": "정말 {name}플랜을 삭제하시겠습니까?",
       "no_items_will_be_consumed": "No items will be consumed.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "돌파 레벨",
+        "level": "레벨",
+        "basic_attack": "일반 공격",
+        "resonance_skill": "공명 스킬",
+        "forte_circuit": "공명 회로",
+        "resonance_liberation": "공명 해방",
+        "intro_skill": "변주 스킬"
       }
     }
   },
@@ -650,7 +650,7 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
+      "title": "돌파 플래너",
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
