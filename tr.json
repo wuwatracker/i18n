@@ -466,7 +466,7 @@
     },
     "dashboard": {
       "title": "Kontrol Paneli",
-      "stay_focused_rover": "Komutanım napıyorsunuz 😳",
+      "stay_focused_rover": "Rover napıyorsun 😳",
       "welcome_rover": "Hoş Geldin, Rover.",
       "let_us_get_started": "Başlayalım mı?",
       "your_data_will_now_sync": "Verileriniz istek üzerine eşitlenecek!",
@@ -497,7 +497,7 @@
       }
     },
     "settings": {
-      "submit_to_global_stats": "Küresel istatistikler için çağrı verilerini bağışla.",
+      "submit_to_global_stats": "Küresel istatistikler için çağrı verilerini bağışla",
       "create_profile_dialog": "Henüz bir site profiliniz yok",
       "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
       "active_profile_delete_pulls": "Aktif Profil için Çağrı Verilerini Sil",
