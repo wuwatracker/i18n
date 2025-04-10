@@ -221,7 +221,7 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "План для {name} изменён."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
@@ -568,8 +568,8 @@
       "material_summary": "Всего материалов",
       "no_active_plans": "У вас нет активных планов.",
       "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
+      "passive_skill": "Пассивный навык",
+      "plan_delete_name_confirm": "Вы уверены, что хотите удалить план для {name}?",
       "no_items_will_be_consumed": "No items will be consumed.",
       "attributes": {
         "ascension_level": "Ascension Level",
