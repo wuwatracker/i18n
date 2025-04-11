@@ -13,8 +13,8 @@
       "rarity": "Rareza",
       "date_received": "Fecha",
       "recent_convenes": "Invocaciones recientes",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "Resonador",
+      "weapon": "Arma"
     },
     "phrase": {
       "import_data": "Importar datos",
@@ -31,7 +31,7 @@
       "items": {
         "Rover-Havoc": "Errante-Destrucción",
         "Rover-Spectro": "Errante-Espectro",
-        "Rover-Aero": "Rover-Aero",
+        "Rover-Aero": "Errante-Aero",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -67,7 +67,7 @@
         "Autumntrace": "Rastro de Otoño",
         "Beguiling Melody": "Melodía Cautivadora",
         "Blazing Brilliance": "Brillo Abrasador",
-        "Bloodpact's Pledge": "Bloodpact's Pledge",
+        "Bloodpact's Pledge": "Pacto de sangre",
         "Broadblade of Night": "Mandoble de la Noche",
         "Broadblade of Voyager": "Mandoble del Viajero",
         "Broadblade#41": "Mandoble#41",
@@ -118,9 +118,9 @@
         "Red Spring": "Primavera roja",
         "Relativistic Jet": "Chorro relativista",
         "Romance in Farewell": "Romance de la despedida",
-        "Rover: Spectro": "Rover: Spectro",
-        "Rover: Havoc": "Rover: Havoc",
-        "Rover: Aero": "Rover: Aero",
+        "Rover: Spectro": "Errante: Espectro",
+        "Rover: Havoc": "Errante: Destrucción",
+        "Rover: Aero": "Errante: Aero",
         "Somnoire Anchor": "Ancla de Somnolencia",
         "Static Mist": "Niebla estática",
         "Stellar Symphony": "Sinfonia estelar",
