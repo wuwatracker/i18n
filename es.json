@@ -13,8 +13,8 @@
       "rarity": "Rareza",
       "date_received": "Fecha",
       "recent_convenes": "Invocaciones recientes",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "resonator": "Resonador",
+      "weapon": "Arma"
     },
     "phrase": {
       "import_data": "Importar datos",
@@ -31,7 +31,7 @@
       "items": {
         "Rover-Havoc": "Errante-Destrucción",
         "Rover-Spectro": "Errante-Espectro",
-        "Rover-Aero": "Rover-Aero",
+        "Rover-Aero": "Errante-Aero",
         "Aalto": "Aalto",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -67,7 +67,7 @@
         "Autumntrace": "Rastro de Otoño",
         "Beguiling Melody": "Melodía Cautivadora",
         "Blazing Brilliance": "Brillo Abrasador",
-        "Bloodpact's Pledge": "Bloodpact's Pledge",
+        "Bloodpact's Pledge": "Pacto de sangre",
         "Broadblade of Night": "Mandoble de la Noche",
         "Broadblade of Voyager": "Mandoble del Viajero",
         "Broadblade#41": "Mandoble#41",
@@ -118,9 +118,9 @@
         "Red Spring": "Primavera roja",
         "Relativistic Jet": "Chorro relativista",
         "Romance in Farewell": "Romance de la despedida",
-        "Rover: Spectro": "Rover: Spectro",
-        "Rover: Havoc": "Rover: Havoc",
-        "Rover: Aero": "Rover: Aero",
+        "Rover: Spectro": "Errante: Espectro",
+        "Rover: Havoc": "Errante: Destrucción",
+        "Rover: Aero": "Errante: Aero",
         "Somnoire Anchor": "Ancla de Somnolencia",
         "Static Mist": "Niebla estática",
         "Stellar Symphony": "Sinfonia estelar",
@@ -152,7 +152,7 @@
         "Endless Collapse": "Colapso interminable",
         "Waltz in Masquerade": "Vals enmascarado",
         "Waning Redshift": "Corrimiento al rojo",
-        "Whispers of Sirens": "Whispers of Sirens"
+        "Whispers of Sirens": "Susurros de sirenas"
       },
       "banners": {
         "Featured Resonator": "Resonador destacado",
@@ -194,9 +194,9 @@
         "sync_unavailable": "No pudimos sincronizar en estos momentos.",
         "sync_no_remote_data_to_download": "No tienes ningunos datos remotos que descargar.",
         "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
+        "files_no_upload": "No se subió ningún archivo.",
+        "files_max_upload_num": "Solo puedes subir hasta {num} archivo(s).",
+        "files_has_oversize_limit_num": "Algunos archivos superan el límite de tamaño de {num}MB.",
         "inventory_item_does_not_exist": "That item does not exist!",
         "planner_insufficient_materials": "Insufficient materials."
       },

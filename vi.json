@@ -161,7 +161,7 @@
         "Permanent Weapon": "Vũ Khí Tiêu Chuẩn",
         "Novice Convene": "Banner Tân thủ",
         "Beginner's Choice": "Tân thủ Tự chọn",
-        "Selector Ticket": "Vé Chọn",
+        "Selector Ticket": "Vé Chọn Nhân Vật",
         "Tidal Chorus": "Điệp Khúc Dòng Triều",
         "Winter Brume": "Sương Giá Ngày Đông",
         "Utterance of Marvels": "Kỳ Quan Vọng",
@@ -650,7 +650,7 @@
       }
     },
     "planner": {
-      "title": "Kế hoạch phát triển",
+      "title": "Kế hoạch bồi dưỡng nhân vật",
       "description": "Công cụ lập kế hoạch đắc lực nhất để thăng tiến cấp độ, kỹ năng và nguyên liệu EXP cho Cộng Hưởng Giả Wuthering Waves của bạn!"
     },
     "support": {

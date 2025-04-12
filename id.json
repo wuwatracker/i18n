@@ -14,7 +14,7 @@
       "date_received": "Tanggal Diterima",
       "recent_convenes": "Convene Terkini",
       "resonator": "Resonator",
-      "weapon": "Weapon"
+      "weapon": "Senjata"
     },
     "phrase": {
       "import_data": "Impor Data",
@@ -194,11 +194,11 @@
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
         "incorrect_input_file_description": "Ini HANYA untuk megimpor riwayat pull dengan format terbaru saja!",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "files_no_upload": "Tidak ada file yang diunggah.",
+        "files_max_upload_num": "Anda hanya bisa mengunggah sampai dengan {num} file.",
+        "files_has_oversize_limit_num": "Beberapa file melebihi batas ukuran {num}MB.",
+        "inventory_item_does_not_exist": "Item tidak ditemukan!",
+        "planner_insufficient_materials": "Material tidak cukup."
       },
       "info": {
         "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
@@ -221,7 +221,7 @@
         "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
         "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
         "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Plan {name} diedit."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
@@ -235,14 +235,14 @@
         "sync_successfully_created_remote_data": "Berhasil membuat {fileName} di Google Drive.",
         "sync_success": "Sinkronisasi berhasil.",
         "sync_success_updated_remote_file": "Salinan remote untuk {fileName} sudah diperbarui.",
-        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
+        "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}."
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
         "disable_auto_profile_sync": "Untuk keamanan Anda, ini juga akan mematikan sinkronisasi profil otomatis!",
         "this_does_not_include_your_pulls": "Ini tidak termasuk pull Anda!",
-        "planner_removed_plan_for_name": "Removed plan for {name}."
+        "planner_removed_plan_for_name": "Plan {name} dihapus."
       }
     },
     "form": {
@@ -255,26 +255,26 @@
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
-      "accepted_formats": "Accepted formats: {formats}",
+      "accepted_formats": "Format yang diterima: {formats}",
       "select_profile_placeholder_empty": "Tidak ada profil yang ditemukan",
       "select_profile_placeholder_inactive": "Pilih profil yang aktif",
       "filters": "Filter",
       "rows_per_page": "Baris per halaman",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "Level sebelumnya harus di antara {min} dan {max}.",
+      "planner_new_must_be_between_min_max": "Level baru harus di antara {min} dan {max}."
     },
     "button": {
       "go_home": "Pergi ke Home",
       "switch_theme": "Ganti Tema",
       "sign_in_google": "Masuk ke Google",
-      "log_out": "Log out",
+      "log_out": "Keluar",
       "import_history": "Impor Riwayat",
       "filter_by_rarity_num": "Filter berdasarkan kelangkaan {num}",
       "import": "Impor",
       "export_json": "Ekspor sebagai JSON",
       "view_pull_history": "Lihat Riwayat Pull",
       "sync_your_data": "Sinkronisasikan Data Anda",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "Mulai Sinkronisasi",
       "support_us": "Dukung Kami",
       "create_profile": "Buat Profil",
       "remind_me_later": "Ingatkan saya nanti",
@@ -285,12 +285,12 @@
       "import_from_file": "Impor Dari File",
       "upload_to_google": "Unggah ke Google",
       "download_from_google": "Unduh dari Google",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
+      "reset_tag_filters": "Reset Filter Tag",
+      "complete": "Selesai",
+      "hide": "Sembunyikan",
+      "show": "Tampilkan",
       "edit": "Edit",
-      "view_details": "View Details"
+      "view_details": "Lihat Detail"
     },
     "time": {
       "all_time": "Sepanjang waktu",
@@ -385,9 +385,9 @@
       "portrait_view": "Tampilan potret",
       "tile_view": "Tampilan ubin",
       "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "owned_num": "Dimiliki: {num}",
+      "owned": "Dimiliki",
+      "required_num": "Diperlukan: {num}"
     }
   },
   "feature": {
@@ -514,8 +514,8 @@
       "import_user_profile": "Impor Profil Pengguna",
       "user_profile": "Profil Pengguna",
       "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "sync_tooltips": "Sinkronisasi Tooltip",
+      "sync_tooltips_description": "Menampilkan berbagai tooltip yang menunjukkan status sinkronisasi saat ini dan setiap pembaruan yang relevan.",
       "pull_history": "Data Riwayat Pull",
       "pull_history_description": "Unggah dan unduh data lokal Anda melalui Google atau perangkat Anda",
       "saves_your_pulls_to_google": "Simpan riwayat pull ke Google",
@@ -563,16 +563,16 @@
       "ps5_enter_your_record_id": "Masukkan <code>player_id</code> dan <code>record_id</code> Anda di sini"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
+      "new_plan": "Plan Baru",
+      "add_plan": "Tambah Plan",
+      "material_summary": "Ringkasan Material",
+      "no_active_plans": "Anda tidak memiliki plan yang aktif.",
+      "nodes_to_unlock": "Node untuk Dibuka",
       "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "plan_delete_name_confirm": "Apakah Anda yakin ingin menghapus plan {name}?",
+      "no_items_will_be_consumed": "Tidak ada item yang akan digunakan.",
       "attributes": {
-        "ascension_level": "Ascension Level",
+        "ascension_level": "Level Ascension",
         "level": "Level",
         "basic_attack": "Basic Attack",
         "resonance_skill": "Resonance Skill",
@@ -650,8 +650,8 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "Planner Ascension",
+      "description": "Kalkulator Wuthering Waves terbaik untuk merencanakan Ascension Resonator, level, skill, dan material EXP Anda!"
     },
     "support": {
       "title": "Bantuan",
