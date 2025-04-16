@@ -195,8 +195,8 @@
         "sync_no_remote_data_to_download": "다운로드할 원격 데이터가 없습니다.",
         "incorrect_input_file_description": "새로운 형식의 뽑기 기록을 제출해주세요.",
         "files_no_upload": "파일이 업로드되지 않았습니다.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
+        "files_max_upload_num": "최대 {num}개의 파일만 업로드할 수 있습니다.\n",
+        "files_has_oversize_limit_num": "일부 파일이 {num}MB의 크기 제한을 초과합니다.\n",
         "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
         "planner_insufficient_materials": "재료 부족."
       },
@@ -221,7 +221,7 @@
         "nothing_to_sync": "현재 동기화할 것이 없습니다.\n",
         "sync_creating_file_in_google": "구글 드라이브에 {fileName}을 만드는 중...",
         "sync_updating_remote_file": "{fileName}의 원격 복사본을 업데이트중...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "{name} 에 대한 계획을 편집했습니다."
       },
       "success": {
         "successfully_imported_achievements": "성공적으로 업적을 제출했습니다.",
@@ -235,14 +235,14 @@
         "sync_successfully_created_remote_data": "성공적으로 구글 드라이브에 {fileName} 을 만들었습니다.",
         "sync_success": "동기화 성공.",
         "sync_success_updated_remote_file": "{fileName}의 원격 복사본을 업데이트했습니다.",
-        "planner_successfully_completed_plan_for_name": "성공적으로 {name} 플랜을 완료했습니다!",
-        "planner_successfully_created_plan_for_name": "성공적으로 {name}의 플랜을 생성했습니다."
+        "planner_successfully_completed_plan_for_name": "{name} 에 대한 계획이 성공적으로 완료되었습니다!\n",
+        "planner_successfully_created_plan_for_name": "{name} 에 대한 계획을 성공적으로 작성했습니다.\n"
       },
       "warn": {
         "this_cannot_be_undone": "이 작업은 되돌릴 수 없습니다!",
         "disable_auto_profile_sync": "안전을 위해 자동 프로필 동기화도 비활성화합니다!",
         "this_does_not_include_your_pulls": "여기에는 뽑기 기록이 포함되지 않습니다!",
-        "planner_removed_plan_for_name": "{name}의 플랜을 삭제했습니다."
+        "planner_removed_plan_for_name": "{name} 에 대한 계획이 제거되었습니다.\n"
       }
     },
     "form": {
@@ -382,12 +382,12 @@
       "downloads_and_merges": "뽑기 기록 다운로드 및 병합",
       "image_preview": "이미지 프리뷰",
       "close": "닫힘",
-      "portrait_view": "Portrait view",
+      "portrait_view": "초상화 보기",
       "tile_view": "타일 뷰",
       "planner": "플래너",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "owned_num": "보유중: {num}",
+      "owned": "보유중",
+      "required_num": "필요: {num}"
     }
   },
   "feature": {
@@ -565,11 +565,11 @@
     "inventory": {
       "new_plan": "새로운 플랜",
       "add_plan": "플랜 추가하기",
-      "material_summary": "Material Summary",
+      "material_summary": "재료 요약",
       "no_active_plans": "플랜이 없습니다.",
       "nodes_to_unlock": "해제할 노드",
       "passive_skill": "패시브 스킬",
-      "plan_delete_name_confirm": "정말 {name}플랜을 삭제하시겠습니까?",
+      "plan_delete_name_confirm": "정말 {name} 플랜을 삭제하시겠습니까?",
       "no_items_will_be_consumed": "No items will be consumed.",
       "attributes": {
         "ascension_level": "돌파 레벨",
@@ -651,7 +651,7 @@
     },
     "planner": {
       "title": "돌파 플래너",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "description": "공명자 레벨, 스킬, EXP 재료를 계획하는 데 가장 강력한 명조: 워더링 웨이브 계산기!"
     },
     "support": {
       "title": "지원",
