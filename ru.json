@@ -355,7 +355,7 @@
       "community": "Сообщество",
       "contact": "Контакты",
       "for_general_inquiries": "По общим вопросам:",
-      "for_support": "Для поддержки:",
+      "for_support": "Техподдержка:",
       "supporters": "Те, кто нас поддерживает",
       "no_particular_order": "в произвольном порядке",
       "translators": "Переводчики",
@@ -470,7 +470,7 @@
       "welcome_rover": "Добро пожаловать, Ровер.",
       "let_us_get_started": "Начнём?",
       "your_data_will_now_sync": "Ваши данные теперь будут синхронизироваться по запросу!",
-      "feature_header": "WuWa Tracker поможет вам <span></span> отслеживать",
+      "feature_header": "WuWa Tracker поможет <span></span> отслеживать",
       "greeting": {
         "words": {
           "pulls": "крутки",
@@ -513,7 +513,7 @@
       "privacy_footer_policy_link": "Наша <link>Политика конфиденциальности</link> содержит подробную информацию о том, как мы работаем с вашими данными.",
       "import_user_profile": "Импортировать профиль",
       "user_profile": "Профиль",
-      "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
+      "user_profile_description": "Выберите профиль для достижений, инвентаря и истории круток",
       "sync_tooltips": "Sync Tooltips",
       "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "История круток",
@@ -572,13 +572,13 @@
       "plan_delete_name_confirm": "Вы уверены, что хотите удалить план для {name}?",
       "no_items_will_be_consumed": "No items will be consumed.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "Уровень возвышения",
+        "level": "Уровень",
+        "basic_attack": "Базовая атака",
+        "resonance_skill": "Навык резонанса (Resonance Skill)",
+        "forte_circuit": "Цепь Форте(Forte Circuit)",
+        "resonance_liberation": "Освобождение резонанса (Resonance Liberation)",
+        "intro_skill": "Вступительный навык (Intro Skill)"
       }
     }
   },
@@ -650,7 +650,7 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
+      "title": "Планировщик",
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
