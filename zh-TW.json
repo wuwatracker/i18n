@@ -67,7 +67,7 @@
         "Autumntrace": "紋秋",
         "Beguiling Melody": "鈞天正音",
         "Blazing Brilliance": "赫奕流明",
-        "Bloodpact's Pledge": "Bloodpact's Pledge",
+        "Bloodpact's Pledge": "血誓盟約",
         "Broadblade of Night": "暗夜長刃．玄明",
         "Broadblade of Voyager": "遠行者長刃．闢路",
         "Broadblade#41": "重破刃-41型",
@@ -152,7 +152,7 @@
         "Endless Collapse": "永續坍縮",
         "Waltz in Masquerade": "虛飾的華爾茲",
         "Waning Redshift": "凋亡頻移",
-        "Whispers of Sirens": "Whispers of Sirens"
+        "Whispers of Sirens": "海的呢喃"
       },
       "banners": {
         "Featured Resonator": "限定共鳴者",
@@ -194,11 +194,11 @@
         "sync_unavailable": "目前無法同步。",
         "sync_no_remote_data_to_download": "您沒有任何遠端資料可以下載。",
         "incorrect_input_file_description": "只可以匯入新版喚取歷史的檔案格式！",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "files_no_upload": "檔案尚未上傳。",
+        "files_max_upload_num": "僅可上傳 {num} 個檔案",
+        "files_has_oversize_limit_num": "檔案超過限制大小 {num} MB",
+        "inventory_item_does_not_exist": "物品不存在！",
+        "planner_insufficient_materials": "材料不足。"
       },
       "info": {
         "connecting_google": "正在嘗試連接到 Google 雲端",
@@ -221,7 +221,7 @@
         "nothing_to_sync": "目前無需同步。",
         "sync_creating_file_in_google": "在 Google 硬碟建立 {fileName} ...",
         "sync_updating_remote_file": "正在更新遠端檔案 {fileName} ...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "編輯 {name} 計畫。"
       },
       "success": {
         "successfully_imported_achievements": "成功匯入您的成就。",
@@ -235,14 +235,14 @@
         "sync_successfully_created_remote_data": "成功在 Google 硬碟建立 {fileName} 檔案",
         "sync_success": "同步成功",
         "sync_success_updated_remote_file": "已更新遠端檔案 {fileName}。",
-        "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_completed_plan_for_name": "計畫 {name} 已成功完成！",
+        "planner_successfully_created_plan_for_name": "成功建立計畫 {name}。"
       },
       "warn": {
         "this_cannot_be_undone": "此動作無法復原！",
         "disable_auto_profile_sync": "為了資料安全，這將會同步關閉自動帳號同步！",
         "this_does_not_include_your_pulls": "這將不包含您的喚取紀錄！",
-        "planner_removed_plan_for_name": "Removed plan for {name}."
+        "planner_removed_plan_for_name": "移除計畫 {name} 。"
       }
     },
     "form": {
@@ -255,26 +255,26 @@
       "your_player_id_validation": "您的九碼遊戲UID必須以 1,5,6,7,8,9 開頭",
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
-      "accepted_formats": "Accepted formats: {formats}",
+      "accepted_formats": "接受格式: {formats}",
       "select_profile_placeholder_empty": "找不到帳號資料",
       "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
       "rows_per_page": "單頁列數",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "先前等級必須介於 {min} 到 {max} 之間。",
+      "planner_new_must_be_between_min_max": "新等級必須介於 {min} 到 {max} 之間。"
     },
     "button": {
       "go_home": "回主選單",
       "switch_theme": "切換主題",
       "sign_in_google": "使用Google帳號登入",
-      "log_out": "Log out",
+      "log_out": "登出",
       "import_history": "匯入歷史紀錄",
       "filter_by_rarity_num": "以稀有度篩選 {num}",
       "import": "匯入",
       "export_json": "匯出 JSON 檔案",
       "view_pull_history": "檢視喚取記錄",
       "sync_your_data": "同步資料",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "執行同步",
       "support_us": "支持我們",
       "create_profile": "建立帳號",
       "remind_me_later": "稍後提醒我",
@@ -285,16 +285,16 @@
       "import_from_file": "從檔案匯入",
       "upload_to_google": "上傳至Google",
       "download_from_google": "從Google下載",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "reset_tag_filters": "清除標籤過濾器",
+      "complete": "完成",
+      "hide": "隱藏",
+      "show": "顯示",
+      "edit": "編輯",
+      "view_details": "詳細資料"
     },
     "time": {
-      "all_time": "All time",
-      "last_num_days": "Last {num} days",
+      "all_time": "全部時間",
+      "last_num_days": "剩餘 {num} 天",
       "invalid_date": "無效的日期",
       "local_time": "當地時間",
       "server_time": "伺服器時間",
@@ -382,12 +382,12 @@
       "downloads_and_merges": "下載並整合您的資料",
       "image_preview": "圖片預覽",
       "close": "關閉",
-      "portrait_view": "Portrait view",
-      "tile_view": "Tile view",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "portrait_view": "垂直檢視",
+      "tile_view": "方塊檢視",
+      "planner": "規劃工具",
+      "owned_num": "已擁有: {num}",
+      "owned": "已擁有",
+      "required_num": "需求: {num}"
     }
   },
   "feature": {
@@ -454,15 +454,15 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 喚取",
       "rarity_pulls_per_pity": "{num}✦ 保底抽數",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "顯示每次保底的喚取數量",
       "banner_summary_title": "卡池總覽",
       "banner_summary_description": "選擇卡池以取得概覽與分析",
       "view_your_statistics_responsive": "<span>檢視</span> 您的分析",
-      "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_day": "每日喚取數量",
+      "pulls_per_day_description": "顯示每天的喚取數與稀有度分佈",
+      "pulls_per_rarity": "每種稀有度的喚取次數",
+      "pulls_per_rarity_description": "顯示稀有度分佈",
+      "pulls_per_item_description": "顯示每種物品的抽取數"
     },
     "dashboard": {
       "title": "首頁",
@@ -514,8 +514,8 @@
       "import_user_profile": "匯入使用者帳號",
       "user_profile": "使用者帳號",
       "user_profile_description": "選擇您的現行帳號用於成就、物品和抽卡追蹤",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "sync_tooltips": "同步提示資訊",
+      "sync_tooltips_description": "顯示各種提示資訊，標註目前的同步狀態以及任何相關的更新。",
       "pull_history": "喚取歷史資料",
       "pull_history_description": "透過Google或者您的目前裝置上傳且下載您的本地資料",
       "saves_your_pulls_to_google": "儲存您的喚取資料至Google",
@@ -563,22 +563,22 @@
       "ps5_enter_your_record_id": "在此輸入你的 <code>遊戲ID</code> 與 <code>紀錄ID</code>"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "new_plan": "新計劃",
+      "add_plan": "新增計劃",
+      "material_summary": "材料總和",
+      "no_active_plans": "您目前沒有任何計劃。",
+      "nodes_to_unlock": "解鎖節點",
+      "passive_skill": "被動技能",
+      "plan_delete_name_confirm": "確定要刪除計劃 {name} 嗎？",
+      "no_items_will_be_consumed": "不會消耗任何物品。",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "提昇等級",
+        "level": "等級",
+        "basic_attack": "基本攻擊",
+        "resonance_skill": "共鳴技能",
+        "forte_circuit": "共鳴迴路",
+        "resonance_liberation": "共鳴解放",
+        "intro_skill": "變奏技能"
       }
     }
   },
@@ -650,8 +650,8 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "升級規劃工具",
+      "description": "最好用的《鳴潮》規劃工具，用於規劃你的共鳴者升級等級、技能和經驗材料！"
     },
     "support": {
       "title": "支援",
