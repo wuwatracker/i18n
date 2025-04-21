@@ -447,8 +447,8 @@
         "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}✦?",
         "coinflip_wins": "50/50 Kazanma",
         "coinflip_wins_description": "50/50 çağrılarının yüzde kaçını kazandın?",
-        "rate_up_wins": "Yüksek-Oran Kazanmaları",
-        "rate_up_wins_description": "Çağrıların ne sıklıkla Yüksek-Oran dı?"
+        "rate_up_wins": "Rate-up Kazanmaları",
+        "rate_up_wins_description": "Çağrıların ne sıklıkla Rate-up dı?"
       }
     },
     "global_stats": {
