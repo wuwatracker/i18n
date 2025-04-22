@@ -252,7 +252,7 @@
       "banner_select_placeholder": "Banner seç",
       "banner_search_placeholder": "Banner ara...",
       "search": "Ara",
-      "search_placeholder": "Ara",
+      "search_placeholder": "Aramak için bir şeyler yaz...",
       "search_reset": "Aramayı sıfırla",
       "your_player_id_placeholder": "9-haneli oyuncu ID'in (ör. 123456789)",
       "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
@@ -341,10 +341,10 @@
       "asia_sea_regions": "Asya, Okyanusya, TV/HK/MO",
       "completed": "Tamamlandı",
       "incomplete": "Tamamlanmadı",
-      "completion": "Tamamlama",
+      "completion": "Tamamlanma Durumu",
       "all": "Hepsi",
       "hidden": "Gizli",
-      "visible": "Görünür",
+      "visible": "Gizli Değil",
       "local_data": "Yerel Veri",
       "google_drive": "Google Drive",
       "from_file": "Dosyadan",
@@ -425,7 +425,7 @@
       "system_status": "Sistem Durumu",
       "legal": "Yasal",
       "partners": "Ortaklar",
-      "disclaimer": "WuWaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yok. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
+      "disclaimer": "WuWaTracker bağımsız bir fan projesidir, Kuro Games ile hiçbir bağımız yoktur. Tüm oyun dosyaları, içerikleri vb... yasal sahiplerine aittir."
     },
     "error": {
       "oops": "Abooov!",
