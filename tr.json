@@ -224,7 +224,7 @@
         "nothing_to_sync": "Şuan eşitlenecek birşey yok.",
         "sync_creating_file_in_google": "Google Drive'da {fileName} oluşturuluyor...",
         "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor...",
-        "planner_edited_plan_for_name": "{name} planın düzenlendi."
+        "planner_edited_plan_for_name": "{todo.name} planın düzenlendi."
       },
       "success": {
         "successfully_imported_achievements": "Başırımlarınız başarılı bir şekilde içe aktarıldı.",
@@ -262,7 +262,7 @@
       "select_profile_placeholder_empty": "Profil bulunamadı",
       "select_profile_placeholder_inactive": "Aktif profil seç",
       "filters": "Filtreler",
-      "rows_per_page": "Sayfa başı sıra sayısı",
+      "rows_per_page": "Sayfa başına düşen sıra sayısı",
       "planner_previous_must_be_between_min_max": "Önceki seviye {min} ve {max} arasında olmalı.",
       "planner_new_must_be_between_min_max": "Yeni seviye {min} ve {max} arasında olmalı."
     },
@@ -447,10 +447,10 @@
         "avg_pity": "Ortalama Pity",
         "avg_pity_description": "Ortalama {qualityLevel}✦ pity'in ne?",
         "pull_ratio": "Çağrı Oranı",
-        "pull_ratio_description": "Toplam çağırılarının yüzde kaçı {qualityLevel}✦?",
+        "pull_ratio_description": "Toplam çağrılarının yüzde kaçı {qualityLevel}✦?",
         "coinflip_wins": "50/50 Kazanma",
         "coinflip_wins_description": "50/50 çağrılarının yüzde kaçını kazandın?",
-        "rate_up_wins": "Rate-up Kazanmaları",
+        "rate_up_wins": "Rate-up Kazanma",
         "rate_up_wins_description": "Çağrıların ne sıklıkla Rate-up dı?"
       }
     },
@@ -495,7 +495,7 @@
       "credits": {
         "title": "Krediler",
         "heading": "Krediler & Atıflar",
-        "heading_description": "Bu site burdaki tüm harika kişiler sayesinde mümkün oldu. Eğer ismin burada değilse veya isminin buradan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
+        "heading_description": "WuWa Tracker, buradaki tüm harika kişiler sayesinde mümkün oldu. Eğer ismin burada değilse veya isminin buradan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
         "special_thanks": "Özel Teşekkürler"
       }
     },
