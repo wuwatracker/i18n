@@ -68,7 +68,7 @@
         "Autumntrace": "纹秋",
         "Beguiling Melody": "钧天正音",
         "Blazing Brilliance": "赫奕流明",
-        "Blazing Justice": "Blazing Justice",
+        "Blazing Justice": "焰光裁定",
         "Bloodpact's Pledge": "血誓盟约",
         "Broadblade of Night": "暗夜长刃・玄明",
         "Broadblade of Voyager": "远行者长刃・辟路",
@@ -154,7 +154,7 @@
         "Endless Collapse": "永续坍缩",
         "Waltz in Masquerade": "虚饰的华尔兹",
         "Waning Redshift": "凋亡频移",
-        "Woodland Aria": "Woodland Aria",
+        "Woodland Aria": "林间的咏叹调",
         "Whispers of Sirens": "海的呢喃"
       },
       "banners": {
@@ -224,7 +224,7 @@
         "nothing_to_sync": "目前没有需要同步的数据。",
         "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
         "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
-        "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。"
+        "planner_edited_plan_for_name": "已编辑 {todo.name} 的培养计划。"
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
