@@ -40,7 +40,7 @@
         "Camellya": "카멜리아",
         "Changli": "장리",
         "Chixia": "치샤",
-        "Ciaccona": "Ciaccona",
+        "Ciaccona": "샤콘",
         "Danjin": "단근",
         "Encore": "앙코",
         "Jianxin": "감심",
@@ -68,7 +68,7 @@
         "Autumntrace": "가을의 무늬",
         "Beguiling Melody": "천상의 음률",
         "Blazing Brilliance": "솟아오르는 화염",
-        "Blazing Justice": "Blazing Justice",
+        "Blazing Justice": "불빛의 심판",
         "Bloodpact's Pledge": "혈맹의 약속",
         "Broadblade of Night": "흑야의 대검 · 현명",
         "Broadblade of Voyager": "수행자의 대검 · 벽로",
@@ -154,7 +154,7 @@
         "Endless Collapse": "영원의 붕괴",
         "Waltz in Masquerade": "허위의 왈츠",
         "Waning Redshift": "멸망의 주파수",
-        "Woodland Aria": "Woodland Aria",
+        "Woodland Aria": "숲속의 아리아",
         "Whispers of Sirens": "바다의 속삭임"
       },
       "banners": {
@@ -201,7 +201,7 @@
         "files_max_upload_num": "최대 {num}개의 파일만 업로드할 수 있습니다.\n",
         "files_has_oversize_limit_num": "일부 파일이 {num}MB의 크기 제한을 초과합니다.\n",
         "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
-        "planner_insufficient_materials": "재료 부족."
+        "planner_insufficient_materials": "재료가 부족합니다."
       },
       "info": {
         "connecting_google": "구글 드라이브에 연결 시도중",
@@ -277,7 +277,7 @@
       "export_json": "JSON 추출",
       "view_pull_history": "뽑기 기록 보기",
       "sync_your_data": "데이터 동기화",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "동기화 시작",
       "support_us": "지원하기",
       "create_profile": "프로필 생성",
       "remind_me_later": "나중에 다시 알림",
@@ -457,12 +457,12 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 뽑은 수",
       "rarity_pulls_per_pity": "스택 별 {num}✦ 뽑은 횟수",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "뽑기 횟수 별 총 뽑은 횟수",
       "banner_summary_title": "배너 개요",
       "banner_summary_description": "통계를 보기 위해 배너를 선택해 주세요.",
       "view_your_statistics_responsive": "<span>통계</span> 보기",
       "pulls_per_day": "Pulls per Day",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_day_description": "\"일별 뽑기 수 및 희귀도 분포",
       "pulls_per_rarity": "Pulls per Rarity",
       "pulls_per_rarity_description": "Showing rarity distribution",
       "pulls_per_item_description": "Showing pulls per item"
@@ -518,7 +518,7 @@
       "user_profile": "유저 프로필",
       "user_profile_description": "업적, 아이템 및 튜닝 트래커에 대한 활성 프로필을 선택하세요",
       "sync_tooltips": "동기화 툴팁",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "sync_tooltips_description": "현재 동기화 상태와 관련된 업데이트를 나타내는 다양한 툴팁을 보여줍니다.",
       "pull_history": "뽑기 기록 데이터",
       "pull_history_description": "구글 또는 로컬 디바이스를 통해 로컬 데이터를 업로드 & 다운로드하세요",
       "saves_your_pulls_to_google": "구글에 뽑기 기록을 저장하세요",
@@ -573,7 +573,7 @@
       "nodes_to_unlock": "해제할 노드",
       "passive_skill": "패시브 스킬",
       "plan_delete_name_confirm": "정말 {name} 플랜을 삭제하시겠습니까?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "no_items_will_be_consumed": "아무 아이템도 소모되지 않습니다.",
       "attributes": {
         "ascension_level": "돌파 레벨",
         "level": "레벨",

@@ -521,7 +521,7 @@
       "sync_tooltips_description": "展示多种工具提示，一览当前同步状态以及任何相关更新。",
       "pull_history": "唤取历史数据",
       "pull_history_description": "通过 Google 或您的本地设备上传和下载您的本地数据",
-      "saves_your_pulls_to_google": "将您的唤取保存到 Google",
+      "saves_your_pulls_to_google": "将您的唤取记录保存到 Google",
       "overwrite_google_drive_data": "您想覆写您的 Google 云端硬盘数据吗？",
       "overwrite_google_drive_data_description": "上传您的数据将会用您的本地数据覆写您的 Google 云端硬盘数据。我们建议您先下载一份副本。",
       "pulls_file_import_dialog_title": "导入本地唤取历史",
