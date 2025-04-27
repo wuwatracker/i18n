@@ -224,7 +224,7 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "План для {name} изменён."
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
