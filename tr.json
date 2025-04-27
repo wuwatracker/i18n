@@ -224,7 +224,7 @@
         "nothing_to_sync": "Şuan eşitlenecek birşey yok.",
         "sync_creating_file_in_google": "Google Drive'da {fileName} oluşturuluyor...",
         "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor...",
-        "planner_edited_plan_for_name": "{todo.name} planın düzenlendi."
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Başırımlarınız başarılı bir şekilde içe aktarıldı.",
