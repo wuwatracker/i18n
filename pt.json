@@ -224,7 +224,7 @@
         "nothing_to_sync": "Nada a sincronizar de momento.",
         "sync_creating_file_in_google": "Criando {fileName} no Google Drive...",
         "sync_updating_remote_file": "Atualizando cópia remota para {fileName}...",
-        "planner_edited_plan_for_name": "Plano editado para {name}."
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Conquistas importadas com sucesso.",
