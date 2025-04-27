@@ -224,7 +224,7 @@
         "nothing_to_sync": "crwdns6510:0crwdne6510:0",
         "sync_creating_file_in_google": "crwdns6512:0{fileName}crwdne6512:0",
         "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0",
-        "planner_edited_plan_for_name": "crwdns7250:0{todo.name}crwdne7250:0"
+        "planner_edited_plan_for_name": "crwdns7252:0{name}crwdne7252:0"
       },
       "success": {
         "successfully_imported_achievements": "crwdns6516:0crwdne6516:0",
