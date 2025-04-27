@@ -224,7 +224,7 @@
         "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
         "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
         "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
-        "planner_edited_plan_for_name": "Plan {name} diedit."
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
