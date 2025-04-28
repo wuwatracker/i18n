@@ -582,6 +582,15 @@
         "forte_circuit": "Цепь Форте(Forte Circuit)",
         "resonance_liberation": "Освобождение резонанса (Resonance Liberation)",
         "intro_skill": "Вступительный навык (Intro Skill)"
+      },
+      "item_tags": {
+        "Universal Currency": "Universal Currency",
+        "Skill Upgrade Material": "Skill Upgrade Material",
+        "Ascension Material": "Ascension Material",
+        "Resonator Ascension Material": "Resonator Ascension Material",
+        "Resonator EXP Material": "Resonator EXP Material",
+        "Weapon and Skill Material": "Weapon and Skill Material",
+        "Weapon EXP Material": "Weapon EXP Material"
       }
     }
   },
