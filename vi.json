@@ -582,6 +582,15 @@
         "forte_circuit": "Mạch Sở trường",
         "resonance_liberation": "Giải Phóng Cộng Hưởng",
         "intro_skill": "Kỹ Năng Mở Đầu"
+      },
+      "item_tags": {
+        "Universal Currency": "Universal Currency",
+        "Skill Upgrade Material": "Skill Upgrade Material",
+        "Ascension Material": "Ascension Material",
+        "Resonator Ascension Material": "Resonator Ascension Material",
+        "Resonator EXP Material": "Resonator EXP Material",
+        "Weapon and Skill Material": "Weapon and Skill Material",
+        "Weapon EXP Material": "Weapon EXP Material"
       }
     }
   },
