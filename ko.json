@@ -582,6 +582,15 @@
         "forte_circuit": "공명 회로",
         "resonance_liberation": "공명 해방",
         "intro_skill": "변주 스킬"
+      },
+      "item_tags": {
+        "Universal Currency": "Universal Currency",
+        "Skill Upgrade Material": "Skill Upgrade Material",
+        "Ascension Material": "Ascension Material",
+        "Resonator Ascension Material": "Resonator Ascension Material",
+        "Resonator EXP Material": "Resonator EXP Material",
+        "Weapon and Skill Material": "Weapon and Skill Material",
+        "Weapon EXP Material": "Weapon EXP Material"
       }
     }
   },
