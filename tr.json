@@ -587,10 +587,10 @@
         "Universal Currency": "Para",
         "Skill Upgrade Material": "Skill Geliştirme Malzemeleri",
         "Ascension Material": "Ascension Malzemeleri",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Resonator Ascension Material": "Rezonatör Ascension Malzemeleri",
+        "Resonator EXP Material": "Rezonatör EXP Malzemeleri",
+        "Weapon and Skill Material": "Silah ve Skill Malzemeleri",
+        "Weapon EXP Material": "Silah EXP Malzemeleri"
       }
     }
   },
