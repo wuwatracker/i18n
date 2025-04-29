@@ -224,7 +224,7 @@
         "nothing_to_sync": "crwdns6510:0crwdne6510:0",
         "sync_creating_file_in_google": "crwdns6512:0{fileName}crwdne6512:0",
         "sync_updating_remote_file": "crwdns7068:0{fileName}crwdne7068:0",
-        "planner_edited_plan_for_name": "crwdns7250:0{todo.name}crwdne7250:0"
+        "planner_edited_plan_for_name": "crwdns7252:0{name}crwdne7252:0"
       },
       "success": {
         "successfully_imported_achievements": "crwdns6516:0crwdne6516:0",
@@ -582,6 +582,15 @@
         "forte_circuit": "crwdns7219:0crwdne7219:0",
         "resonance_liberation": "crwdns7221:0crwdne7221:0",
         "intro_skill": "crwdns7223:0crwdne7223:0"
+      },
+      "item_tags": {
+        "Universal Currency": "crwdns7254:0crwdne7254:0",
+        "Skill Upgrade Material": "crwdns7256:0crwdne7256:0",
+        "Ascension Material": "crwdns7258:0crwdne7258:0",
+        "Resonator Ascension Material": "crwdns7260:0crwdne7260:0",
+        "Resonator EXP Material": "crwdns7262:0crwdne7262:0",
+        "Weapon and Skill Material": "crwdns7264:0crwdne7264:0",
+        "Weapon EXP Material": "crwdns7266:0crwdne7266:0"
       }
     }
   },

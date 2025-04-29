@@ -224,7 +224,7 @@
         "nothing_to_sync": "目前無需同步。",
         "sync_creating_file_in_google": "在 Google 硬碟建立 {fileName} ...",
         "sync_updating_remote_file": "正在更新遠端檔案 {fileName} ...",
-        "planner_edited_plan_for_name": "編輯 {name} 計畫。"
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "成功匯入您的成就。",
@@ -582,6 +582,15 @@
         "forte_circuit": "共鳴迴路",
         "resonance_liberation": "共鳴解放",
         "intro_skill": "變奏技能"
+      },
+      "item_tags": {
+        "Universal Currency": "Universal Currency",
+        "Skill Upgrade Material": "Skill Upgrade Material",
+        "Ascension Material": "Ascension Material",
+        "Resonator Ascension Material": "Resonator Ascension Material",
+        "Resonator EXP Material": "Resonator EXP Material",
+        "Weapon and Skill Material": "Weapon and Skill Material",
+        "Weapon EXP Material": "Weapon EXP Material"
       }
     }
   },

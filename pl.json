@@ -8,24 +8,24 @@
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Pull History",
       "pull_num": "Pull No.",
-      "item": "Item",
+      "item": "Przedmiot",
       "pity": "Pity",
-      "rarity": "Rarity",
-      "date_received": "Date Received",
+      "rarity": "Rzadkość",
+      "date_received": "Data Otrzymania",
       "recent_convenes": "Recent Convenes",
       "resonator": "Resonator",
-      "weapon": "Weapon"
+      "weapon": "Broń"
     },
     "phrase": {
-      "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
+      "import_data": "Zaimportuj Dane",
+      "import_data_description": "Użyj poprzednio wyeksportowane dane i zapisz je w swojej przeglądarce",
       "banner_list": "Banner List",
       "no_pulls_yet": "No pulls yet",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pulls",
       "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "total_astrites_responsive": "Łączne Astrity"
     },
     "name": {
       "items": {
@@ -582,6 +582,15 @@
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Resonance Liberation",
         "intro_skill": "Intro Skill"
+      },
+      "item_tags": {
+        "Universal Currency": "Universal Currency",
+        "Skill Upgrade Material": "Skill Upgrade Material",
+        "Ascension Material": "Ascension Material",
+        "Resonator Ascension Material": "Resonator Ascension Material",
+        "Resonator EXP Material": "Resonator EXP Material",
+        "Weapon and Skill Material": "Weapon and Skill Material",
+        "Weapon EXP Material": "Weapon EXP Material"
       }
     }
   },
