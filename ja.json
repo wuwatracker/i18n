@@ -213,7 +213,7 @@
         "no_filters": "no filters selected",
         "no_records": "no records to show",
         "no_pulls_yet": "No pulls yet",
-        "no_pulls_found_in_google_drive": "No pulls found in Google Drive",
+        "no_pulls_found_in_google_drive": "Google Driveに集音履歴がありません",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
         "pull_more_to_unlock": "Pull more to unlock",

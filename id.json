@@ -584,13 +584,13 @@
         "intro_skill": "Intro Skill"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "Mata Uang Universal",
+        "Skill Upgrade Material": "Bahan Peningkatan Skill",
+        "Ascension Material": "Bahan Kenaikan",
+        "Resonator Ascension Material": "Bahan Kenaikan Resonator",
+        "Resonator EXP Material": "Bahan EXP Resonator",
+        "Weapon and Skill Material": "Bahan Senjata dan Skill",
+        "Weapon EXP Material": "Bahan EXP Senjata"
       }
     }
   },
