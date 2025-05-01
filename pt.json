@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "Nome",
       "guest": "Convidado",
       "america": "América",
@@ -529,7 +530,8 @@
       "sync_preferences": "Sincronizar Preferências",
       "sync_preferences_description": "Aceitar ou recusar sincronização automática do Google Drive com os seus dados",
       "sync_preferences_profile_description": "Perfis contêm dados NÃO RELACIONADOS A TIROS como conquistas, items, entre outros.",
-      "you_can_manually_sync_reminder": "Pode sincronizar manualmente com o botão <code>Sincronizar</code> no menu do perfil."
+      "you_can_manually_sync_reminder": "Pode sincronizar manualmente com o botão <code>Sincronizar</code> no menu do perfil.",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "Escolher Fuso Horário do Servidor",
