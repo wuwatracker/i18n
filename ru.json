@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "(Название)",
       "guest": "Гость",
       "america": "Америка",
@@ -529,7 +530,8 @@
       "sync_preferences": "Настройки синхронизации",
       "sync_preferences_description": "Включите или отключите автоматическую синхронизацию ваших данных с Google Диском",
       "sync_preferences_profile_description": "Профили содержат информацию, не касающуюся круток, например достижения, предметы и прочее.",
-      "you_can_manually_sync_reminder": "Вы можете вручную синхронизировать данные с помощью кнопки <code>Синхронизировать</code> в меню профиля."
+      "you_can_manually_sync_reminder": "Вы можете вручную синхронизировать данные с помощью кнопки <code>Синхронизировать</code> в меню профиля.",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "Выбрать часовой пояс сервера",
