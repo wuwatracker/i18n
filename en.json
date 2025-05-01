@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "Name",
       "guest": "Guest",
       "america": "America",
@@ -529,7 +530,8 @@
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu."
+      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu.",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "Choose Server Timezone",
