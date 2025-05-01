@@ -334,7 +334,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Dikkat",
       "name": "Adı",
       "guest": "Misafir",
       "america": "Amerika",
@@ -531,7 +531,7 @@
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
       "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
       "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitle</code> tuşu ile manuel olarak verilerini eşitleyebilirsin.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Verilerini, cihazına son yedeklemenin üzerinden bir aydan fazla geçti! Şimdi indirmek ister misin?"
     },
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
