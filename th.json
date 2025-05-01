@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "ชื่อ",
       "guest": "ผู้มาเยือน",
       "america": "America",
@@ -529,7 +530,8 @@
       "sync_preferences": "การตั้งค่าการ Sync",
       "sync_preferences_description": "เลือกเปิดหรือไม่เปิดการซิงค์ข้อมูลอัตโนมัติเข้ากับ Google Drive ของคุณ",
       "sync_preferences_profile_description": "โปรไฟล์มีข้อมูลที่ไม่เกี่ยวข้องกับการสุ่มกาชา เช่น ความสำเร็จ ไอเท็ม และฟีเจอร์อื่นๆ ของเว็บไซต์",
-      "you_can_manually_sync_reminder": "คุณสามารถซิงค์ข้อมูลด้วยตนเองโดยใช้ปุ่ม <code>Trigger Sync</code> ในเมนูโปรไฟล์"
+      "you_can_manually_sync_reminder": "คุณสามารถซิงค์ข้อมูลด้วยตนเองโดยใช้ปุ่ม <code>Trigger Sync</code> ในเมนูโปรไฟล์",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "เลือกเขตเวลาเซิร์ฟเวอร์",
