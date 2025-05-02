@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "crwdns7268:0crwdne7268:0",
       "name": "crwdns7078:0crwdne7078:0",
       "guest": "crwdns6662:0crwdne6662:0",
       "america": "crwdns6664:0crwdne6664:0",
@@ -529,7 +530,8 @@
       "sync_preferences": "crwdns6938:0crwdne6938:0",
       "sync_preferences_description": "crwdns6940:0crwdne6940:0",
       "sync_preferences_profile_description": "crwdns6942:0crwdne6942:0",
-      "you_can_manually_sync_reminder": "crwdns6944:0crwdne6944:0"
+      "you_can_manually_sync_reminder": "crwdns6944:0crwdne6944:0",
+      "backup_reminder": "crwdns7270:0crwdne7270:0"
     },
     "timeline": {
       "choose_server_timezone": "crwdns6946:0crwdne6946:0",

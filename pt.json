@@ -68,7 +68,7 @@
         "Autumntrace": "Vestígio de Outono",
         "Beguiling Melody": "Melodia de Beguiling",
         "Blazing Brilliance": "Brilho Ardente",
-        "Blazing Justice": "Blazing Justice",
+        "Blazing Justice": "Justiça Flamejante",
         "Bloodpact's Pledge": "Pacto de Sangue",
         "Broadblade of Night": "Espadão da Noite",
         "Broadblade of Voyager": "Espadão de Viajante",
@@ -154,7 +154,7 @@
         "Endless Collapse": "Colapso Eterno",
         "Waltz in Masquerade": "Valsa das Máscaras",
         "Waning Redshift": "Vermelho Minguante",
-        "Woodland Aria": "Woodland Aria",
+        "Woodland Aria": "Ária da Floresta",
         "Whispers of Sirens": "Sussurros das Sereias"
       },
       "banners": {
@@ -224,7 +224,7 @@
         "nothing_to_sync": "Nada a sincronizar de momento.",
         "sync_creating_file_in_google": "Criando {fileName} no Google Drive...",
         "sync_updating_remote_file": "Atualizando cópia remota para {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Plano editado para {name}."
       },
       "success": {
         "successfully_imported_achievements": "Conquistas importadas com sucesso.",
@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alerta",
       "name": "Nome",
       "guest": "Convidado",
       "america": "América",
@@ -529,7 +530,8 @@
       "sync_preferences": "Sincronizar Preferências",
       "sync_preferences_description": "Aceitar ou recusar sincronização automática do Google Drive com os seus dados",
       "sync_preferences_profile_description": "Perfis contêm dados NÃO RELACIONADOS A TIROS como conquistas, items, entre outros.",
-      "you_can_manually_sync_reminder": "Pode sincronizar manualmente com o botão <code>Sincronizar</code> no menu do perfil."
+      "you_can_manually_sync_reminder": "Pode sincronizar manualmente com o botão <code>Sincronizar</code> no menu do perfil.",
+      "backup_reminder": "O seu último backup local foi à mais de um mês. Fazer download agora?"
     },
     "timeline": {
       "choose_server_timezone": "Escolher Fuso Horário do Servidor",
@@ -584,13 +586,13 @@
         "intro_skill": "Habilidade Intro"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "Moeda Universal",
+        "Skill Upgrade Material": "Material de Melhoria de Habilidades",
+        "Ascension Material": "Material de Ascensão",
+        "Resonator Ascension Material": "Material de Ascensão de Resonator",
+        "Resonator EXP Material": "Material de EXP de Resonator",
+        "Weapon and Skill Material": "Materiais de Armas e Habilidades",
+        "Weapon EXP Material": "Material de EXP de Arma"
       }
     }
   },
