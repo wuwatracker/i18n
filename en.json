@@ -528,7 +528,7 @@
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
       "pulls_file_import_dialog_title": "Import Local Pulls",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts <code></code> files. If your data is invalid, you can try to use our <link>legacy import</link> page.",
+      "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
