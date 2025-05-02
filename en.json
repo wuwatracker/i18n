@@ -184,6 +184,7 @@
         "invalid_input_format": "Your input data is invalid",
         "unable_to_parse": "We are unable to parse your data",
         "unable_to_parse_remote_data": "We are unable to parse your remote data",
+        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
         "download_failed": "The download failed",
         "client_log_required": "You need to upload a Client.log file!",
         "cannot_find_convene_url": "We could not find a Convene URL",
