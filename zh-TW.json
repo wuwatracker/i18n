@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "名稱",
       "guest": "訪客",
       "america": "美國",
@@ -529,7 +530,8 @@
       "sync_preferences": "同步設定",
       "sync_preferences_description": "選擇開啟或關閉自動與 Google 硬碟同步資料",
       "sync_preferences_profile_description": "帳號包含非抽卡數據，如成就、物品及其他網站功能。",
-      "you_can_manually_sync_reminder": "您可以使用在帳號菜單中的 <code>開始同步</code> 按鈕手動同步資料。"
+      "you_can_manually_sync_reminder": "您可以使用在帳號菜單中的 <code>開始同步</code> 按鈕手動同步資料。",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "選擇伺服器時區",

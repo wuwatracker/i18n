@@ -334,6 +334,7 @@
       }
     },
     "other": {
+      "alert": "Alert",
       "name": "名称",
       "guest": "游客",
       "america": "美洲",
@@ -529,7 +530,8 @@
       "sync_preferences": "同步偏好",
       "sync_preferences_description": "启用或禁用您的数据的 Google 云端硬盘自动同步",
       "sync_preferences_profile_description": "资料包含非唤取数据，如成就、物品和其他网站功能。",
-      "you_can_manually_sync_reminder": "您可以在玩家资料菜单中使用<code>触发同步</code>按钮手动同步。"
+      "you_can_manually_sync_reminder": "您可以在玩家资料菜单中使用<code>触发同步</code>按钮手动同步。",
+      "backup_reminder": "It's been over a month since your last local backup. Download now?"
     },
     "timeline": {
       "choose_server_timezone": "选择服务器时区",
