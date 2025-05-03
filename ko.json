@@ -21,7 +21,7 @@
       "import_data_description": "이전에 내보낸 데이터를 사용하여 브라우저에 저장하세요\n",
       "banner_list": "배너 리스트",
       "no_pulls_yet": "아직 뽑기 기록이 없음",
-      "rarity_pulls": "{num}✦ 뽑은 수",
+      "rarity_pulls": "{num}✦ 뽑은 횟수",
       "num_pity": "{num}✦ 천장",
       "total_pulls": "총 뽑기 수",
       "total_pulls_responsive": "<span>총</span> 뽑기 수",
@@ -184,7 +184,7 @@
         "invalid_input_format": "입력한 데이터가 잘못되었습니다",
         "unable_to_parse": "데이터를 분석할 수 없습니다",
         "unable_to_parse_remote_data": "원격 데이터를 분석할 수 없습니다\n",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "프로필 데이터 전용입니다. 가챠 기록 데이터에는 다른 가져오기 버튼을 사용하세요.",
         "download_failed": "다운로드 실패",
         "client_log_required": "Client.log 파일을 업로드해야 합니다",
         "cannot_find_convene_url": "튜닝 URL을 찾을 수 없습니다",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "알림",
       "name": "이름",
       "guest": "게스트",
       "america": "아메리카",
@@ -457,17 +457,17 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ 뽑은 수",
+      "rarity_pulls": "{num}✦ 뽑은 횟수",
       "rarity_pulls_per_pity": "스택 별 {num}✦ 뽑은 횟수",
       "rarity_pulls_per_pity_description": "뽑기 횟수 별 총 뽑은 횟수",
       "banner_summary_title": "배너 개요",
       "banner_summary_description": "통계를 보기 위해 배너를 선택해 주세요.",
       "view_your_statistics_responsive": "<span>통계</span> 보기",
-      "pulls_per_day": "Pulls per Day",
+      "pulls_per_day": "일별 뽑은 횟수",
       "pulls_per_day_description": "\"일별 뽑기 수 및 희귀도 분포",
-      "pulls_per_rarity": "Pulls per Rarity",
-      "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_rarity": "희귀도 별 뽑은 횟수",
+      "pulls_per_rarity_description": "희귀도 분포를 보여줍니다",
+      "pulls_per_item_description": "항목 별 뽑은 횟수"
     },
     "dashboard": {
       "title": "대시보드",
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "활성화되면, 튜닝 URL을 사용하여 글로벌 통계를 집계합니다.",
       "privacy_footer_policy_link": "당사의 <link>개인정보 보호정책</link>에는 당사가 귀하의 데이터를 처리하는 방법에 대한 자세한 내용이 나와 있습니다.",
       "import_user_profile": "유저 프로필 제출",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "참고: 업적, 인벤토리 및 플래너 데이터가 포함된 <code></code> 파일만 허용됩니다. 가챠 데이터를 가져오고 싶다면 다른 가져오기 버튼을 사용하세요.",
       "user_profile": "유저 프로필",
       "user_profile_description": "업적, 아이템 및 튜닝 트래커에 대한 활성 프로필을 선택하세요",
       "sync_tooltips": "동기화 툴팁",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "구글 드라이브와의 데이터 동기화 동의 여부",
       "sync_preferences_profile_description": "프로필에는 업적, 아이템 및 기타 웹사이트 기능과 같은 비ㅡ튜닝 데이터가 포함되어 있습니다.",
       "you_can_manually_sync_reminder": "프로필 메뉴에서 <code>동기화하기</code> 버튼을 통해 수동으로 동기화할 수 있습니다.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "마지막 로컬 백업을 한 지 한 달이 넘었습니다. 지금 다운로드하시겠습니까?"
     },
     "timeline": {
       "choose_server_timezone": "서버 시간대 선택",
