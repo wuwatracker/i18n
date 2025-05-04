@@ -184,7 +184,7 @@
         "invalid_input_format": "您的输入数据无效",
         "unable_to_parse": "我们无法解析您的数据",
         "unable_to_parse_remote_data": "我们无法解析您的远程数据",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "此处仅适用于档案数据。若需导入唤取历史数据，请使用另一个导入按钮。",
         "download_failed": "下载失败",
         "client_log_required": "您需要上传 Client.log 文件！",
         "cannot_find_convene_url": "我们找不到唤取 URL",
@@ -225,7 +225,7 @@
         "nothing_to_sync": "目前没有需要同步的数据。",
         "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
         "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
-        "planner_edited_plan_for_name": "已编辑 {todo.name} 的培养计划。"
+        "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。"
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "警报",
       "name": "名称",
       "guest": "游客",
       "america": "美洲",
@@ -497,7 +497,7 @@
       "credits": {
         "title": "致谢",
         "heading": "致谢与归属",
-        "heading_description": "这个网站得益于所有这些了不起的人们。如果您的名字未列在这里，或您希望被移除，请联系我们。",
+        "heading_description": "下列人士都非常了不起，而本网站得以创立离不开他们的帮助。如果您的名字未列于此，或您希望我们移除您的名字，请联系我们。",
         "special_thanks": "特别感谢"
       }
     },
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "启用后，我们将使用您的唤取 URL 来统计全球数据",
       "privacy_footer_policy_link": "我们的<link>隐私政策</link>详细说明了我们如何处理您的数据。",
       "import_user_profile": "导入用户资料",
-      "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
+      "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。若需导入唤取记录数据，请使用其他导入按钮。",
       "user_profile": "用户资料",
       "user_profile_description": "选择您使用的玩家资料以查看成就、物品和唤取记录跟踪",
       "sync_tooltips": "同步工具提示",
@@ -528,7 +528,7 @@
       "overwrite_google_drive_data": "您想覆写您的 Google 云端硬盘数据吗？",
       "overwrite_google_drive_data_description": "上传您的数据将会用您的本地数据覆写您的 Google 云端硬盘数据。我们建议您先下载一份副本。",
       "pulls_file_import_dialog_title": "导入本地唤取历史",
-      "pulls_file_import_dialog_description": "注意：这只接受以我们的新格式保存的唤取。如果您想要导入在<code></code>前创建的旧数据，请访问<link>旧版导入</link>页面。",
+      "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
       "sync_preferences": "同步偏好",
       "sync_preferences_description": "启用或禁用您的数据的 Google 云端硬盘自动同步",
       "sync_preferences_profile_description": "资料包含非唤取数据，如成就、物品和其他网站功能。",
@@ -589,12 +589,12 @@
       },
       "item_tags": {
         "Universal Currency": "通用货币",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Skill Upgrade Material": "技能升级材料",
+        "Ascension Material": "突破材料",
+        "Resonator Ascension Material": "共鸣者突破材料",
+        "Resonator EXP Material": "共鸣者经验材料",
+        "Weapon and Skill Material": "武器与技能材料",
+        "Weapon EXP Material": "武器经验材料"
       }
     }
   },
