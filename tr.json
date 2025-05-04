@@ -413,8 +413,8 @@
       "legacy_migration": "Eski çağrılarını buradan yeni biçime çevir",
       "legacy": "Eski",
       "legacy_import": "Eski Çağrıları İçe Aktar",
-      "legacy_import_alert_title": "Bu Sekme Sadece Eski Web Sitesi Kullanıcıları İçin",
-      "legacy_import_alert_description": "Çağrıların son kullanma süresi 6 aydır. Bu süreyi geçmiş olan çağrıları KURTARAMAYIZ. Bu sekme sadece eski WuWa Tracker kullanıcıları için."
+      "legacy_import_alert_title": "Bu Sekme Sadece Eski Web Sitesi Kullanıcıları İçindir",
+      "legacy_import_alert_description": "Çağrıların son kullanma süresi 6 aydır. Bu süreyi geçmiş olan çağrıları KURTARAMAYIZ. Bu sekme sadece eski WuWa Tracker kullanıcıları içindir."
     },
     "layout": {
       "banners": {
