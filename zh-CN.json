@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "启用后，我们将使用您的唤取 URL 来统计全球数据",
       "privacy_footer_policy_link": "我们的<link>隐私政策</link>详细说明了我们如何处理您的数据。",
       "import_user_profile": "导入用户资料",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
       "user_profile": "用户资料",
       "user_profile_description": "选择您使用的玩家资料以查看成就、物品和唤取记录跟踪",
       "sync_tooltips": "同步工具提示",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "启用或禁用您的数据的 Google 云端硬盘自动同步",
       "sync_preferences_profile_description": "资料包含非唤取数据，如成就、物品和其他网站功能。",
       "you_can_manually_sync_reminder": "您可以在玩家资料菜单中使用<code>触发同步</code>按钮手动同步。",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "您已有至少一个月未将数据下载到本地作为备份了。现在下载，如何？"
     },
     "timeline": {
       "choose_server_timezone": "选择服务器时区",
@@ -588,7 +588,7 @@
         "intro_skill": "变奏技能"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
+        "Universal Currency": "通用货币",
         "Skill Upgrade Material": "Skill Upgrade Material",
         "Ascension Material": "Ascension Material",
         "Resonator Ascension Material": "Resonator Ascension Material",
