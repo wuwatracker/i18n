@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
       "privacy_footer_policy_link": "<link>Chính sách quyền riêng tư</link> của chúng tôi có nhiều chi tiết hơn về cách chúng tôi xử lý dữ liệu của bạn.",
       "import_user_profile": "Nhập Hồ sơ người chơi",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "LƯU Ý: Chỉ chấp nhận các tệp <code></code> với thành tích, túi đồ và dữ liệu kế hoạch. Sử dụng nút nhập khác nếu bạn muốn nhập dữ liệu Triệu hồi.",
       "user_profile": "Hồ sơ Người chơi",
       "user_profile_description": "Chọn hồ sơ hoạt động của bạn cho các thành tích, vật phẩm và lịch sử triệu hồi",
       "sync_tooltips": "Đồng bộ Chú giải công cụ",
