@@ -184,7 +184,7 @@
         "invalid_input_format": "Dữ liệu đầu vào của bạn không hợp lệ",
         "unable_to_parse": "Chúng tôi không thể phân tích dữ liệu của bạn",
         "unable_to_parse_remote_data": "Chúng tôi không thể phân tích dữ liệu từ xa của bạn",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "Chỉ dành cho dữ liệu người dùng. Sử dụng nút nhập khác cho dữ liệu lịch sử Triệu hồi.",
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
         "cannot_find_convene_url": "Chúng tôi không tìm thấy Đường dẫn Triệu Hồi",
