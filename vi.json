@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Cảnh báo",
       "name": "Tên",
       "guest": "Khách",
       "america": "Châu Mĩ",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "Bật hoặc tắt tính năng tự động đồng bộ Google Drive với dữ liệu của bạn",
       "sync_preferences_profile_description": "Hồ sơ chứa dữ liệu KHÔNG-PHẢI-TRIỆU-HỒI, ví dụ như Thành tựu, Vật phẩm và các tính năng website khác.",
       "you_can_manually_sync_reminder": "Bạn có thể tự đồng bộ thủ công bằng cách nhấn vào nút <code>Trigger Sync</code> ở Menu Hồ sơ.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Đã hơn một tháng kể từ lần sao lưu cuối cùng của bạn. tải xuống ngay nhé?"
     },
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
