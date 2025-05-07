@@ -184,7 +184,7 @@
         "invalid_input_format": "Неверно введённая информация",
         "unable_to_parse": "Не вышло получить ваши данные",
         "unable_to_parse_remote_data": "Не вышло получить ваши данные с другого источника",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "Эта опция только для файлов с данными профиля. Используйте другую кнопку для импорта, чтобы загрузить историю круток.",
         "download_failed": "Ошибка загрузки",
         "client_log_required": "Вам необходимо загрузить файл Client.log!",
         "cannot_find_convene_url": "Ссылка на историю круток не найдена",
@@ -225,7 +225,7 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "План для {name} изменён."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Внимание",
       "name": "(Название)",
       "guest": "Гость",
       "america": "Америка",
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "Когда включено, мы будем использовать вашу ссылку для подсчётов глобальной статистики",
       "privacy_footer_policy_link": "Наша <link>Политика конфиденциальности</link> содержит подробную информацию о том, как мы обрабатываем ваши данные.",
       "import_user_profile": "Импортировать профиль",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки.",
       "user_profile": "Профиль",
       "user_profile_description": "Выберите профиль для достижений, инвентаря и истории круток",
       "sync_tooltips": "Индикаторы синхронизации",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "Включите или отключите автоматическую синхронизацию ваших данных с Google Диском",
       "sync_preferences_profile_description": "Профили содержат информацию, не касающуюся круток, например достижения, предметы и прочее.",
       "you_can_manually_sync_reminder": "Вы можете вручную синхронизировать данные с помощью кнопки <code>Синхронизировать</code> в меню профиля.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Прошёл уже месяц с тех пор, как вы в последний раз сохраняли локальную копию своих круток с сайта. Сохранить сейчас?"
     },
     "timeline": {
       "choose_server_timezone": "Выбрать часовой пояс сервера",
@@ -574,7 +574,7 @@
       "add_plan": "Добавить план",
       "material_summary": "Всего материалов",
       "no_active_plans": "У вас нет активных планов.",
-      "nodes_to_unlock": "Nodes to Unlock",
+      "nodes_to_unlock": "Узлы для разблокировки",
       "passive_skill": "Пассивный навык",
       "plan_delete_name_confirm": "Вы уверены, что хотите удалить план для {name}?",
       "no_items_will_be_consumed": "Предметы не будут потрачены.",
@@ -588,13 +588,13 @@
         "intro_skill": "Вступительный навык (Intro Skill)"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "Универсальная валюта",
+        "Skill Upgrade Material": "Материал для улучшения навыков",
+        "Ascension Material": "Материал для возвышения",
+        "Resonator Ascension Material": "Материал для возвышения Резонатора",
+        "Resonator EXP Material": "Материал для повышения уровня Резонатора",
+        "Weapon and Skill Material": "Материал для улучшения оружия и навыков",
+        "Weapon EXP Material": "Материал для повышения уровня оружия"
       }
     }
   },
@@ -615,7 +615,7 @@
         "title": "Глобальная статистика",
         "title_responsive": "<span>Глобальная</span> статистика",
         "description": "Просматривайте глобальную статистику выпадений для баннера {currentBanner}, с особенностью {currentFeaturedResonator}! Используйте панели с возможностью загрузки пользовательских изображений, чтобы покрасоваться перед друзьями! WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
-        "banner_title": "{name} Banner Statistics",
+        "banner_title": "{name} Статистика по баннеру",
         "banner_description": "Просматривайте глобальную статистику выпадений для баннера {name}. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими крутками с друзьями и отслеживайте прогресс своего аккаунта!"
       }
     },
@@ -627,8 +627,8 @@
       "title": "Импорт истории",
       "description": "Следуйте нашему интерактивному руководству для отображения вашей истории круток в Wuthering Waves и просмотра подробной статистики. Мы поддерживаем импорт данных с ПК, устройств Android и iOS при помощи автоматических и ручных методов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "title": "Руководство по импорту старых данных",
+        "description": "Если вы использовали наш сайт до его обновления и не можете найти свои старые крутки, вам стоит ознакомиться с руководством по импорту старых данных здесь!"
       }
     },
     "not_found": {
@@ -667,11 +667,11 @@
     },
     "planner": {
       "title": "Планировщик",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "description": "Самый продвинутый калькулятор для Wuthering Waves, позволяющий составить планы повышения уровней навыков, а также возвышения ваших Резонаторов и оружия!"
     },
     "support": {
       "title": "Поддержка",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "description": "Нужна помощь с импортом круток из Wuthering Waves? Хотите знать, как WuWa Tracker использует ваши данные? Ознакомьтесь с WuWaTracker FAQ здесь!"
     }
   }
 }
