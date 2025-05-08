@@ -184,7 +184,7 @@
         "invalid_input_format": "Dữ liệu đầu vào của bạn không hợp lệ",
         "unable_to_parse": "Chúng tôi không thể phân tích dữ liệu của bạn",
         "unable_to_parse_remote_data": "Chúng tôi không thể phân tích dữ liệu từ xa của bạn",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "Chỉ dành cho dữ liệu người dùng. Sử dụng nút nhập khác cho dữ liệu lịch sử Triệu hồi.",
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
         "cannot_find_convene_url": "Chúng tôi không tìm thấy Đường dẫn Triệu Hồi",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Cảnh báo",
       "name": "Tên",
       "guest": "Khách",
       "america": "Châu Mĩ",
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
       "privacy_footer_policy_link": "<link>Chính sách quyền riêng tư</link> của chúng tôi có nhiều chi tiết hơn về cách chúng tôi xử lý dữ liệu của bạn.",
       "import_user_profile": "Nhập Hồ sơ người chơi",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "LƯU Ý: Chỉ chấp nhận các tệp <code></code> với thành tích, túi đồ và dữ liệu kế hoạch. Sử dụng nút nhập khác nếu bạn muốn nhập dữ liệu Triệu hồi.",
       "user_profile": "Hồ sơ Người chơi",
       "user_profile_description": "Chọn hồ sơ hoạt động của bạn cho các thành tích, vật phẩm và lịch sử triệu hồi",
       "sync_tooltips": "Đồng bộ Chú giải công cụ",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "Bật hoặc tắt tính năng tự động đồng bộ Google Drive với dữ liệu của bạn",
       "sync_preferences_profile_description": "Hồ sơ chứa dữ liệu KHÔNG-PHẢI-TRIỆU-HỒI, ví dụ như Thành tựu, Vật phẩm và các tính năng website khác.",
       "you_can_manually_sync_reminder": "Bạn có thể tự đồng bộ thủ công bằng cách nhấn vào nút <code>Trigger Sync</code> ở Menu Hồ sơ.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Đã hơn một tháng kể từ lần sao lưu cuối cùng của bạn. tải xuống ngay nhé?"
     },
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
