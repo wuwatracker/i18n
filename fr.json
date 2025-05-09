@@ -533,7 +533,7 @@
       "sync_preferences_description": "Choisissez d'activer ou de désactiver la synchronisation automatique de vos données avec Google Drive",
       "sync_preferences_profile_description": "Les profils contiennent des données autres que les invocations telles que les succès, les matériaux et d'autres fonctionnalités du site.",
       "you_can_manually_sync_reminder": "Vous pouvez synchroniser manuellement avec le bouton <code>Lancer la synchronisation</code> dans le menu du profil.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Cela fait plus d’un mois depuis votre dernière sauvegarde locale. Voulez-vous la télécharger maintenant ?"
     },
     "timeline": {
       "choose_server_timezone": "Choisissez votre serveur",
