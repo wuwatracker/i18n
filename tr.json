@@ -575,7 +575,7 @@
       "material_summary": "Materyal Özeti",
       "no_active_plans": "Aktif bir planın yok.",
       "nodes_to_unlock": "Açılacak Özellikler",
-      "passive_skill": "Pasif Skill",
+      "passive_skill": "Pasif Yetenek",
       "plan_delete_name_confirm": "{name} isimli planı silmek istediğinden emin misin?",
       "no_items_will_be_consumed": "Hiçbir eşya harcanmayacak.",
       "attributes": {
@@ -589,11 +589,11 @@
       },
       "item_tags": {
         "Universal Currency": "Para",
-        "Skill Upgrade Material": "Skill Geliştirme Malzemeleri",
-        "Ascension Material": "Ascension Malzemeleri",
-        "Resonator Ascension Material": "Rezonatör Ascension Malzemeleri",
+        "Skill Upgrade Material": "Yetenek Geliştirme Malzemeleri",
+        "Ascension Material": "Yükseltme Malzemeleri",
+        "Resonator Ascension Material": "Rezonatör Yükseltme Malzemeleri",
         "Resonator EXP Material": "Rezonatör EXP Malzemeleri",
-        "Weapon and Skill Material": "Silah ve Skill Malzemeleri",
+        "Weapon and Skill Material": "Silah ve Yetenek Malzemeleri",
         "Weapon EXP Material": "Silah EXP Malzemeleri"
       }
     }
@@ -667,7 +667,7 @@
     },
     "planner": {
       "title": "Geliştirme Planlayıcısı",
-      "description": "Rezonatör Ascension Level, skill ve EXP materyallerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
+      "description": "Rezonatör Ascension Level, Yetenek ve EXP malzemelerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
     },
     "support": {
       "title": "Destek",
