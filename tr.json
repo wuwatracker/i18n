@@ -528,7 +528,7 @@
       "overwrite_google_drive_data": "Google Drive verilerinin üzerine yazmak ister misiniz?",
       "overwrite_google_drive_data_description": "Verilerinizi yüklemek, Google Drive'daki verilerinizin üzerine yerel cihazınızdaki verileri yazacak. İlk önce verilerinizin bir kopyasını indirmeni öneririz.",
       "pulls_file_import_dialog_title": "Yerel Çağrıları İçe Aktar",
-      "pulls_file_import_dialog_description": "NOT: Bu sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
+      "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'dan önceki verileri içe aktarmak istiyorsan <link>Eski Çağrıları İçe Aktarma</link> sekmesini ziyaret et.",
       "sync_preferences": "Eşitleme Tercihleri",
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
       "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
