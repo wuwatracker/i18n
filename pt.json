@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "Quando ativado, iremos usar o seu URL de Convocações para contar estatísticas globais",
       "privacy_footer_policy_link": "A nossa <link>Política de Privacidade</link> tem mais detalhes sobre como manejamos os seus dados.",
       "import_user_profile": "Importar Perfil de Usuário",
-      "import_user_profile_dialog_description": "NOTA: esta função aceita apenas arquivos <code></code> contendo dados de conquistas, inventário e do planejador. Para importar dados de invocações, use o outro botão de importação.",
+      "import_user_profile_dialog_description": "NOTA: Isso só aceita arquivos <code></code> com dados de conquistas, inventário e planejador. Use o outro botão de importação se quiser importar dados de invocações.",
       "user_profile": "Perfil de Usuário",
       "user_profile_description": "Selecione o seu perfil ativo para as conquistas, items e contador de tiros",
       "sync_tooltips": "Dicas de Sincronia",
