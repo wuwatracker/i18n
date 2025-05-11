@@ -647,6 +647,10 @@
       "title": "Điều khoản và Điều kiện",
       "description": "Những điều khoản và điều kiện này mô tả các quy định và quy tắc cho việc sử dụng trang web và dịch vụ của Wuwa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Dòng thời gian sự kiện",
       "description": "Sử dụng múi giờ địa phương của bạn hoặc bất kỳ múi giờ máy chủ Wuthering Waves nào để xem lịch biểu của từng biểu ngữ, các sự kiện trong trò chơi, Tower of Adversity & Depths of Illusive Realm - tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
