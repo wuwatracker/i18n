@@ -647,6 +647,10 @@
       "title": "Szerződési feltételek",
       "description": "Ezek a feltételek a WuWa Tracker weboldalának és szolgáltatásainak használatára vonatkozó szabályokat és előírásokat tartalmazzák."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Esemény idővonal",
       "description": "A helyi időzónádat vagy bármelyik Wuthering Waves szerver időzónáját használva egy helyen megtekinthetsz minden banner-programot, játékbeli eseményt, a Tower of Adversity és a Depths of Illusive Realm időszakát. WuWa Tracker kívánság számláló a Wuthering Waves számára, a naprakész adatok felhasználásával, globális statisztikákkal és egyebekkel. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!"
