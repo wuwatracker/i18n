@@ -647,6 +647,10 @@
       "title": "이용 약관",
       "description": "이 이용 약관은 WuWa Tracker 웹 사이트 및 서비스 사용에 대한 규칙과 규정을 명확히 합니다."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "이벤트 타임라인",
       "description": "현지 시간대 또는 게임의 서버 시간대를 통해 모든 배너 일정, 게임 이벤트, 역경의 탑 및 신비한 경지 오픈 기간을 한 곳에서 볼 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
