@@ -647,6 +647,10 @@
       "title": "Termos & Condições",
       "description": "Estes termos e condições descrevem as regras e regulações para o uso do site e serviços WuWa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Cronograma de Eventos",
       "description": "Usando o seu fuso horário local ou qualquer fuso horário dos servidores de Wuthering Waves, você pode ver os horários de todos os banners, eventos no jogo, períodos da Torre da Adversidade & Profundezas do Reino Ilusório - tudo num só lugar. WuWa Tracker, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros como os seus amigos e acompanhe sua conta!"
