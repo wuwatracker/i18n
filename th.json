@@ -647,6 +647,10 @@
       "title": "ข้อกำหนดและเงื่อนไข",
       "description": "ข้อกำหนดและเงื่อนไขเหล่านี้กำหนดกฎระเบียบและข้อบังคับสำหรับการใช้เว็บไซต์และบริการของ WuWa Tracker"
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "ไทม์ไลน์กิจกรรม",
       "description": "ด้วยเครื่องมือเช็คเวลาเวิร์ฟเวอร์และเวลาท้องถิ่นของคุณคุณสามารถดูตารางเวลาแบนเนอร์ทั้งหมด, กิจกรรมในเกม, Tower of Adversity & Depths of Illusive Realm ครบจบในที่เดียว. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
