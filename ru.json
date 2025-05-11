@@ -567,7 +567,7 @@
       "ios_follow_tutorial_video_description": "Так же, как и для Genshin Impact или Honkai Star Rail, следуйте этому видео-гайду, чтобы получить ссылку на вашу историю круток на iOS.",
       "ps5_press_the_options_button": "Нажмите кнопку <code>Options(Настройки)</code> на вашем контроллере",
       "ps5_click_on_page_information": "Нажмите кнопку <code>Page Information(Информация о странице)</code>",
-      "ps5_enter_your_record_id": "Введите ваши <code>player_id(Ид игрока)</code> и <code>record_id(ИДдзаписи)</code> здесь"
+      "ps5_enter_your_record_id": "Введите ваши <code>player_id(1)</code> и <code>record_id(2)</code> в поля ниже"
     },
     "inventory": {
       "new_plan": "Новый план",
