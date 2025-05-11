@@ -647,6 +647,10 @@
       "title": "Правила та Умови",
       "description": "Ці умови визначають правила та положення використання вебсайт та послуг WuWa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Розклад подій",
       "description": "Використовуючи свій місцевий часовий пояс або будь-який часовий пояс сервера Wuthering Waves, ви можете переглядати розклад кожного банера, внутрішньоігрові події, періоди проходження Вежі Нещасть та Глибин Ілюзорного царства - і все це в одному місці. WuWa Tracker лічильник гаранту для Wuthering Waves, що використовує актуальні дані з глобальною статистикою та багато іншого. Діліться своїми витягуваннями з друзями та відстежуйте свій акаунт!"
