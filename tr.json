@@ -647,6 +647,10 @@
       "title": "Şartlar & Koşullar",
       "description": "Bu şartlar ve koşullar, WuWa Tracker'ın internet sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
       "description": "Yerel veya herhangi bir Wuthering Waves sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyun içi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
