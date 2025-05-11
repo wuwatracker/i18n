@@ -648,8 +648,8 @@
       "description": "Bu şartlar ve koşullar, WuWa Tracker'ın internet sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Çerezleri Yönet",
+      "description": "Çerez tercihlerinizi istediğiniz zaman güncelleyerek, verilerinizi KVKK ve CCPA doğrultusunda nasıl topladığımızı ve kullandığımızı kontrol edebilirsin."
     },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
