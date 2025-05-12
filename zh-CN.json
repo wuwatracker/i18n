@@ -648,8 +648,8 @@
       "description": "本条款和条件列明在使用 WuWa Tracker 网站和服务时所需要遵守的规则和限制。"
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "管理 Cookies",
+      "description": "您可以随时更新您的 Cookie 偏好设置，以控制我们如何收集和使用您的数据来符合 GDPR 和 CCPA 等隐私法规。"
     },
     "timeline": {
       "title": "活动时间线",
