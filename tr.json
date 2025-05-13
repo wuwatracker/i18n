@@ -528,7 +528,7 @@
       "overwrite_google_drive_data": "Google Drive verilerinin üzerine yazmak ister misiniz?",
       "overwrite_google_drive_data_description": "Verilerinizi yüklemek, Google Drive'daki verilerinizin üzerine yerel cihazınızdaki verileri yazacak. İlk önce verilerinizin bir kopyasını indirmeni öneririz.",
       "pulls_file_import_dialog_title": "Yerel Çağrıları İçe Aktar",
-      "pulls_file_import_dialog_description": "NOT: Bu sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'den önceki verileri içe aktarmak istiyorsan <link>geçmiş içe aktarma</link> sitesini ziyaret et.",
+      "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'dan önceki verileri içe aktarmak istiyorsan <link>Eski Çağrıları İçe Aktarma</link> sekmesini ziyaret et.",
       "sync_preferences": "Eşitleme Tercihleri",
       "sync_preferences_description": "Verilerinizin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
       "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarılar, öğeler ve diğer site özellikleri gibi.",
@@ -575,7 +575,7 @@
       "material_summary": "Materyal Özeti",
       "no_active_plans": "Aktif bir planın yok.",
       "nodes_to_unlock": "Açılacak Özellikler",
-      "passive_skill": "Pasif Skill",
+      "passive_skill": "Pasif Yetenek",
       "plan_delete_name_confirm": "{name} isimli planı silmek istediğinden emin misin?",
       "no_items_will_be_consumed": "Hiçbir eşya harcanmayacak.",
       "attributes": {
@@ -589,11 +589,11 @@
       },
       "item_tags": {
         "Universal Currency": "Para",
-        "Skill Upgrade Material": "Skill Geliştirme Malzemeleri",
-        "Ascension Material": "Ascension Malzemeleri",
-        "Resonator Ascension Material": "Rezonatör Ascension Malzemeleri",
+        "Skill Upgrade Material": "Yetenek Geliştirme Malzemeleri",
+        "Ascension Material": "Yükseltme Malzemeleri",
+        "Resonator Ascension Material": "Rezonatör Yükseltme Malzemeleri",
         "Resonator EXP Material": "Rezonatör EXP Malzemeleri",
-        "Weapon and Skill Material": "Silah ve Skill Malzemeleri",
+        "Weapon and Skill Material": "Silah ve Yetenek Malzemeleri",
         "Weapon EXP Material": "Silah EXP Malzemeleri"
       }
     }
@@ -647,6 +647,10 @@
       "title": "Şartlar & Koşullar",
       "description": "Bu şartlar ve koşullar, WuWa Tracker'ın internet sitesi ve hizmetlerinin kullanımına ilişkin kural ve düzenlemeleri ana hatlarıyla belirtir."
     },
+    "manage_cookies": {
+      "title": "Çerezleri Yönet",
+      "description": "Çerez tercihlerinizi istediğiniz zaman güncelleyerek, verilerinizi KVKK ve CCPA doğrultusunda nasıl topladığımızı ve kullandığımızı kontrol edebilirsin."
+    },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
       "description": "Yerel veya herhangi bir Wuthering Waves sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyun içi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
@@ -667,7 +671,7 @@
     },
     "planner": {
       "title": "Geliştirme Planlayıcısı",
-      "description": "Rezonatör Ascension Level, skill ve EXP materyallerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
+      "description": "Rezonatör Ascension Level, Yetenek ve EXP malzemelerini planlamak için kullanabileceğiniz en iyi hesaplayıcı!"
     },
     "support": {
       "title": "Destek",

@@ -647,6 +647,10 @@
       "title": "Syarat & Ketentuan",
       "description": "Syarat dan ketentuan ini menguraikan aturan dan regulasi untuk penggunaan situs web dan layanan Wuwa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Linimasa Event",
       "description": "Dengan zona waktu lokal atau zona waktu server Wuthering Waves mana pun, Anda dapat melihat jadwal setiap banner, event dalam permainan, periode Tower of Adversity & Depths of Illusive Realm - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"

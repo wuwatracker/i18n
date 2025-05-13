@@ -647,6 +647,10 @@
       "title": "Conditions générales d'utilisation",
       "description": "Ces conditions générales décrivent les règles et règlements pour l'utilisation du site web et des services de WuWa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Calendrier",
       "description": "En utilisant votre fuseau horaire local ou tout autre horaire de serveur de Wuthering Waves, vous pouvez voir tous les calendriers des bannières, événements, périodes de la tour éprouvante et royaume fantôme. WuWa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"

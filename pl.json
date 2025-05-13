@@ -647,6 +647,10 @@
       "title": "Zasady i Warunki",
       "description": "Niniejsze warunki określają zasady i regulacje korzystania ze strony internetowej i usług WuWa Tracker."
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "Oś Czasu Wydarzeń",
       "description": "Korzystając z lokalnej strefy czasowej lub dowolnej strefy czasowej serwera Wuthering Waves, możesz przeglądać harmonogram wszystkich banerów, wydarzenia w grze, okresy Tower of Adversity oraz Depths of Illusive Realm - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"

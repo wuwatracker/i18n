@@ -647,6 +647,10 @@
       "title": "服務條款",
       "description": "本服務條款闡述了 WuWa Tracker 網站所提供的服務使用規則與規定。"
     },
+    "manage_cookies": {
+      "title": "Manage Cookies",
+      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+    },
     "timeline": {
       "title": "活動時間軸",
       "description": "使用你的本地時區或任何《鳴潮》伺服器時區，你可以在一個地方查看所有的卡池進度、遊戲內活動、逆境之塔與幻境深淵的時間軸。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"

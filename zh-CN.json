@@ -647,6 +647,10 @@
       "title": "条款和条件",
       "description": "本条款和条件列明在使用 WuWa Tracker 网站和服务时所需要遵守的规则和限制。"
     },
+    "manage_cookies": {
+      "title": "管理 Cookies",
+      "description": "您可以随时更新您的 Cookie 偏好设置，以控制我们如何收集和使用您的数据来符合 GDPR 和 CCPA 等隐私法规。"
+    },
     "timeline": {
       "title": "活动时间线",
       "description": "您可以使用您本地的时区或任何《鸣潮》服务器时区以查看每个横幅时间表、游戏内事件、逆境之塔和幻境深渊的期间 - 一切尽在一处。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
