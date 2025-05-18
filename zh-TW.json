@@ -40,7 +40,7 @@
         "Camellya": "椿",
         "Changli": "长离",
         "Chixia": "熾霞",
-        "Ciaccona": "Ciaccona",
+        "Ciaccona": "夏空",
         "Danjin": "丹瑾",
         "Encore": "安可",
         "Jianxin": "鑒心",
@@ -68,7 +68,7 @@
         "Autumntrace": "紋秋",
         "Beguiling Melody": "鈞天正音",
         "Blazing Brilliance": "赫奕流明",
-        "Blazing Justice": "Blazing Justice",
+        "Blazing Justice": "焰光裁定",
         "Bloodpact's Pledge": "血誓盟約",
         "Broadblade of Night": "暗夜長刃．玄明",
         "Broadblade of Voyager": "遠行者長刃．闢路",
@@ -154,7 +154,7 @@
         "Endless Collapse": "永續坍縮",
         "Waltz in Masquerade": "虛飾的華爾茲",
         "Waning Redshift": "凋亡頻移",
-        "Woodland Aria": "Woodland Aria",
+        "Woodland Aria": "林間的詠嘆調",
         "Whispers of Sirens": "海的呢喃"
       },
       "banners": {
@@ -184,7 +184,7 @@
         "invalid_input_format": "您的輸入資料不合法",
         "unable_to_parse": "您的資料無法被解析",
         "unable_to_parse_remote_data": "您的遠端資料無法被解析",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "此按鈕僅適用於帳號資料。喚取紀錄請使用其他匯入按鈕。",
         "download_failed": "下載失敗",
         "client_log_required": "您需要先上傳 Client.log 檔案！",
         "cannot_find_convene_url": "我們無法找到喚取URL",
@@ -225,7 +225,7 @@
         "nothing_to_sync": "目前無需同步。",
         "sync_creating_file_in_google": "在 Google 硬碟建立 {fileName} ...",
         "sync_updating_remote_file": "正在更新遠端檔案 {fileName} ...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "{name} 的編輯計劃。"
       },
       "success": {
         "successfully_imported_achievements": "成功匯入您的成就。",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "警告",
       "name": "名稱",
       "guest": "訪客",
       "america": "美國",
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "當啟用時，我們將使用您的喚取連結來統計全球數據",
       "privacy_footer_policy_link": "我們的 <link>隱私政策</link> 有更多的詳細資訊說明我們如何使用您的資料。",
       "import_user_profile": "匯入使用者帳號",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "說明：僅接受 <code></code> 關於成就, 倉庫, 資源規劃等資料。若您想要匯入喚取資料，請使用其他匯入按鈕。",
       "user_profile": "使用者帳號",
       "user_profile_description": "選擇您的現行帳號用於成就、物品和抽卡追蹤",
       "sync_tooltips": "同步提示資訊",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "選擇開啟或關閉自動與 Google 硬碟同步資料",
       "sync_preferences_profile_description": "帳號包含非抽卡數據，如成就、物品及其他網站功能。",
       "you_can_manually_sync_reminder": "您可以使用在帳號菜單中的 <code>開始同步</code> 按鈕手動同步資料。",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "已經超過一個月未進行本地備份，是否現在下載？"
     },
     "timeline": {
       "choose_server_timezone": "選擇伺服器時區",
@@ -588,13 +588,13 @@
         "intro_skill": "變奏技能"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "通用貨幣",
+        "Skill Upgrade Material": "技能升級材料",
+        "Ascension Material": "突破材料",
+        "Resonator Ascension Material": "共鳴者突破材料",
+        "Resonator EXP Material": "共鳴者經驗材料",
+        "Weapon and Skill Material": "武器與技能材料",
+        "Weapon EXP Material": "武器經驗材料"
       }
     }
   },
@@ -648,8 +648,8 @@
       "description": "本服務條款闡述了 WuWa Tracker 網站所提供的服務使用規則與規定。"
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "管理 Cookies",
+      "description": "您可以隨時更新您的 Cookie 偏好設定，以利於控制我們如何收集和使用您的數據，從而遵守 GDPR 和 CCPA 等隱私法規。"
     },
     "timeline": {
       "title": "活動時間軸",
