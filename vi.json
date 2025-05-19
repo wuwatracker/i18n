@@ -21,7 +21,7 @@
       "import_data_description": "Sử dụng dữ liệu đã xuất ra trước đó và lưu nó vào trình duyệt của bạn",
       "banner_list": "Danh sách Banner",
       "no_pulls_yet": "Lịch sử Triệu hồi trống",
-      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
+      "rarity_pulls": "Lượt Triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt Triệu hồi",
       "total_pulls_responsive": "<span>Tổng</span> Lượt triệu hồi",
