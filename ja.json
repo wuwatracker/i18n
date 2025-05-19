@@ -2,12 +2,12 @@
   "domain": {
     "term": {
       "convenes": "集音",
-      "convene_url": "Convene URL",
-      "pulls": "Pulls",
+      "convene_url": "集音URL",
+      "pulls": "集音",
       "astrites": "星声",
       "wuthering_waves": "鳴潮",
       "pull_history": "集音履歴",
-      "pull_num": "Pull No.",
+      "pull_num": "集音 No.",
       "item": "アイテム",
       "pity": "Pity",
       "rarity": "レアリティ",
@@ -17,10 +17,10 @@
       "weapon": "武器"
     },
     "phrase": {
-      "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
-      "banner_list": "Banner List",
-      "no_pulls_yet": "No pulls yet",
+      "import_data": "データをインポート",
+      "import_data_description": "エクスポートしたデータを使ってブラウザーに保存する",
+      "banner_list": "集音イベントのリスト",
+      "no_pulls_yet": "まだ引いていません",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pulls",
@@ -31,7 +31,7 @@
       "items": {
         "Rover-Havoc": "漂泊者・消滅",
         "Rover-Spectro": "漂泊者・回折",
-        "Rover-Aero": "Rover-Aero",
+        "Rover-Aero": "漂泊者・気動",
         "Aalto": "アールト",
         "Baizhi": "白芷",
         "Brant": "ブラント",
@@ -213,7 +213,7 @@
         "scroll_for_more": "Scroll For More",
         "no_filters": "no filters selected",
         "no_records": "no records to show",
-        "no_pulls_yet": "No pulls yet",
+        "no_pulls_yet": "まだ引いていません",
         "no_pulls_found_in_google_drive": "Google Driveに集音履歴がありません",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",

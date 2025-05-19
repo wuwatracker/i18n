@@ -21,7 +21,7 @@
       "import_data_description": "Sử dụng dữ liệu đã xuất ra trước đó và lưu nó vào trình duyệt của bạn",
       "banner_list": "Danh sách Banner",
       "no_pulls_yet": "Lịch sử Triệu hồi trống",
-      "rarity_pulls": "✦Đã Triệu hồi {num} lần",
+      "rarity_pulls": "Lượt Triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt Triệu hồi",
       "total_pulls_responsive": "<span>Tổng</span> Lượt triệu hồi",
@@ -197,7 +197,7 @@
         "sync_no_pulls_to_upload": "Hiện không có dữ liệu Lượt Triệu hồi để tải lên.",
         "sync_unavailable": "Hiện không thể đồng bộ.",
         "sync_no_remote_data_to_download": "Hiện không có dữ liệu từ xa để đồng bộ.",
-        "incorrect_input_file_description": "Đây CHỈ dành cho những lịch sử triệu hồi được nhập mới!",
+        "incorrect_input_file_description": "Đây CHỈ dành cho nhập lịch sử triệu hồi theo định dạng lịch sử pull mới!",
         "files_no_upload": "Chưa có file nào được tải lên.",
         "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
         "files_has_oversize_limit_num": "Một số file vượt quá giới hạn kích thước {num}MB.",
@@ -478,7 +478,7 @@
       "feature_header": "Wuwa Tracker giúp bạn theo dõi <span></span>",
       "greeting": {
         "words": {
-          "pulls": "đã Triệu Hồi",
+          "pulls": "lượt Triệu Hồi",
           "pity": "pity",
           "events": "sự kiện",
           "statistics": "thống kê",
@@ -496,7 +496,7 @@
       },
       "credits": {
         "title": "Xin cảm ơn",
-        "heading": "Danh đề & Đóng góp",
+        "heading": "Lời cảm ơn & Đóng góp",
         "heading_description": "Trang web này đã được thực hiện nhờ tất cả những người tuyệt vời này. Nếu tên của bạn không được liệt kê ở đây hoặc bạn muốn được xóa, vui lòng liên hệ với chúng tôi.",
         "special_thanks": "Đặc biệt cảm ơn"
       }
@@ -648,8 +648,8 @@
       "description": "Những điều khoản và điều kiện này mô tả các quy định và quy tắc cho việc sử dụng trang web và dịch vụ của Wuwa Tracker."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Quản Lý Cookie",
+      "description": "Bạn có thể cập nhật tùy chọn cookie bất cứ lúc nào để kiểm soát cách chúng tôi thu thập và sử dụng dữ liệu của bạn, tuân thủ các quy định về quyền riêng tư như GDPR và CCPA."
     },
     "timeline": {
       "title": "Dòng thời gian sự kiện",
