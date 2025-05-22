@@ -549,7 +549,7 @@
       "logs_not_updating_alert": "URL Son Kullanma Tarihi",
       "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı, 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
-      "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşşağıdaki metni yapıştır.",
+      "open_windows_powershell_and_run_script": "Ondan sonra Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
       "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metni <link>buradan</link> görebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
