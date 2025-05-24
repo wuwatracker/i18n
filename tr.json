@@ -302,7 +302,7 @@
       "invalid_date": "Geçersiz tarih",
       "local_time": "Yerel Saat",
       "server_time": "Sunucu Saati",
-      "ends_in": "{timeLeft} 'de Bitiyor",
+      "ends_in": "{timeLeft} sonra bitiyor",
       "starts_in": "{timeLeft} 'de Başlıyor",
       "time_left": "{timeLeft} kaldı",
       "event_has_ended": "Etkinlik sona erdi",
