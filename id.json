@@ -184,7 +184,7 @@
         "invalid_input_format": "Data yang diinput tidak valid",
         "unable_to_parse": "Kami tidak dapat mengurai data Anda",
         "unable_to_parse_remote_data": "Kami tidak dapat mengurai data remote Anda",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "Ini hanya untuk data profil. Gunakan tombol impor yang lain untuk menarik data riwayat.",
         "download_failed": "Unduhan gagal",
         "client_log_required": "Anda harus mengunggah file Client.log!",
         "cannot_find_convene_url": "Kami tidak dapat menemukan URL Convene",
@@ -225,7 +225,7 @@
         "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
         "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
         "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Perubahan rencana untuk {name}."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
@@ -335,7 +335,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Peringatan",
       "name": "Nama",
       "guest": "Tamu",
       "america": "Amerika",
@@ -517,7 +517,7 @@
       "privacy_global_stats_description": "Jika diaktifkan, kami akan menggunakan URL Convene Anda untuk menghitung statistik global",
       "privacy_footer_policy_link": "<link>Kebijakan Privasi</link> kami memiliki detail lebih lanjut tentang cara kami menangani data Anda.",
       "import_user_profile": "Impor Profil Pengguna",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "import_user_profile_dialog_description": "CATATAN: Ini hanya menerima berkas <code></code> yang berisi data pencapaian, inventaris, dan perencana. Gunakan tombol impor yang lain jika Anda ingin mengimpor data pull.",
       "user_profile": "Profil Pengguna",
       "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
       "sync_tooltips": "Sinkronisasi Tooltip",
@@ -533,7 +533,7 @@
       "sync_preferences_description": "Memilih untuk menggunakan atau tidak dalam sinkronisasi otomatis Google Drive dengan data Anda",
       "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur lainnya.",
       "you_can_manually_sync_reminder": "Anda dapat melakukan sinkronisasi secara manual dengan tombol <code>Trigger Sync</code> di menu profil.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Sudah lebih dari sebulan sejak cadangan lokal terakhir Anda. Download sekarang?"
     },
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
@@ -648,8 +648,8 @@
       "description": "Syarat dan ketentuan ini menguraikan aturan dan regulasi untuk penggunaan situs web dan layanan Wuwa Tracker."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Kelola Cookie",
+      "description": "Anda dapat memperbarui preferensi cookie kapan saja untuk mengontrol bagaimana kami mengumpulkan dan menggunakan data Anda, sesuai dengan peraturan privasi seperti GDPR dan CCPA."
     },
     "timeline": {
       "title": "Linimasa Event",
