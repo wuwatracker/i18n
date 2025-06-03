@@ -405,7 +405,7 @@
         "error_while_fetching_q": "錯誤顯示「error occured while fetching」— 我該怎麼做？",
         "missing_old_pulls_q": "我找不到我原本抽卡記錄—它們在哪裡？",
         "support_other_imports_q": "是否支援從其他網站或應用程式匯入？",
-        "ps5_player_import_q": "我有辦法匯入 PlayStation 5 的帳號嗎？",
+        "ps5_player_import_q": "我可以匯入 PS5 的帳號嗎？",
         "other_q": "找不到我的問題 — 我該怎麼做？"
       }
     },
@@ -418,20 +418,20 @@
     },
     "layout": {
       "banners": {
-        "close_banner": "已關閉卡池"
+        "close_banner": "已結束卡池"
       },
       "tools": "小工具",
-      "inventory": "物件",
+      "inventory": "物品欄",
       "guides": "指引",
       "development": "開發",
       "system_status": "系統狀態",
-      "legal": "法規",
+      "legal": "法律聲明",
       "partners": "合作夥伴",
       "disclaimer": "這是一個獨立的專案項目，與Kuro Games無關。所有遊戲資訊、內容和商標均屬於原始擁有者。"
     },
     "error": {
       "oops": "Whoops!",
-      "an_error_occured": "發生<highlight>錯誤</highlight>",
+      "an_error_occured": "發生<highlight>錯誤</highlight>。",
       "join_discord": "請 <link>加入我們的 Discord</link> 回報錯誤。"
     },
     "achievements": {
