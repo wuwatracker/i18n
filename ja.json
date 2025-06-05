@@ -350,7 +350,7 @@
       "local_data": "Local Data",
       "google_drive": "Google Drive",
       "from_file": "From File",
-      "tutorial_video": "Tutorial Video",
+      "tutorial_video": "チュートリアル動画",
       "tutorial_video_description": "Follow this step-by-step video tutorial by <link></link>.",
       "edit_on_github": "Edit this page on GitHub",
       "social_discord_cta": "Join our Discord Server",
@@ -368,8 +368,8 @@
       "event": "Event",
       "ongoing_events": "Ongoing Events",
       "choose_a_method": "Choose a Method",
-      "automatic": "Automatic",
-      "manual": "Manual",
+      "automatic": "自動",
+      "manual": "手動",
       "data": "Data",
       "preferences": "Preferences",
       "advanced": "Advanced",
@@ -397,7 +397,7 @@
   },
   "feature": {
     "support": {
-      "troubleshooting": "Troubleshooting",
+      "troubleshooting": "トラブルシューティング",
       "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
       "import": {
         "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
