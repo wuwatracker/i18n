@@ -648,8 +648,8 @@
       "description": "Эти условия и положения описывают правила и регламенты использования веб-сайта и услуг WuWa Tracker."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Управление файлами Cookie",
+      "description": "Вы можете в любое время обновить настройки файлов cookie, чтобы контролировать, как мы собираем и используем ваши данные, в соответствии с правилами конфиденциальности, такими как GDPR и CCPA."
     },
     "timeline": {
       "title": "Календарь событий",
