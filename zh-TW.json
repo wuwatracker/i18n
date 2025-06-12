@@ -37,6 +37,7 @@
         "Brant": "布蘭特",
         "Calcharo": "卡卡罗",
         "Carlotta": "珂萊塔",
+        "Cartethyia": "卡提希婭",
         "Camellya": "椿",
         "Changli": "长离",
         "Chixia": "熾霞",
@@ -48,6 +49,7 @@
         "Jiyan": "忌炎",
         "Lingyang": "凌陽",
         "Lumi": "燈燈",
+        "Lupa": "露帕",
         "Mortefi": "莫特斐",
         "Phoebe": "菲比",
         "Roccia": "洛可可",
@@ -81,6 +83,7 @@
         "Comet Flare": "異度",
         "Cosmic Ripples": "漪瀾浮錄",
         "Dauntless Evernight": "永夜長明",
+        "Defier's Thorn": "不屈命定之冠",
         "Discord": "異響空靈",
         "Emerald of Genesis": "千古洑流",
         "Fables of Wisdom": "風流的寓言詩",
@@ -154,6 +157,7 @@
         "Endless Collapse": "永續坍縮",
         "Waltz in Masquerade": "虛飾的華爾茲",
         "Waning Redshift": "凋亡頻移",
+        "Wildfire Mark": "焰痕",
         "Woodland Aria": "林間的詠嘆調",
         "Whispers of Sirens": "海的呢喃"
       },
@@ -190,7 +194,7 @@
         "cannot_find_convene_url": "我們無法找到喚取連結",
         "cannot_find_convene_url_description": "確認你的 Client.log 在你打開歷史記錄之後有被更新，否則，請查看疑難排解部分尋求幫助。",
         "convene_url_expired": "您的 URL 連結可能已失效，請重新匯入。",
-        "use_valid_player_id": "您必須使用合法的現行UID",
+        "use_valid_player_id": "您必須使用有效的玩家ID",
         "no_profile_to_download": "沒有帳號可以下載。",
         "no_pulls_to_download": "沒有紀錄可以下載。",
         "need_to_upload_specific_file": "您需要先上傳 {file}！",
@@ -430,7 +434,7 @@
       "disclaimer": "這是一個獨立的專案項目，與Kuro Games無關。所有遊戲資訊、內容和商標均屬於原始擁有者。"
     },
     "error": {
-      "oops": "Whoops!",
+      "oops": "哎呀！",
       "an_error_occured": "發生<highlight>錯誤</highlight>。",
       "join_discord": "請 <link>加入我們的 Discord</link> 回報錯誤。"
     },
@@ -474,7 +478,7 @@
       "stay_focused_rover": "保持專注，漂泊者。",
       "welcome_rover": "歡迎，漂泊者。",
       "let_us_get_started": "讓我們開始吧？如何？",
-      "your_data_will_now_sync": "您的資料將由手動同步！",
+      "your_data_will_now_sync": "您的資料將會手動同步！",
       "feature_header": "WuWa Tracker 協助您 <span></span> 紀錄",
       "greeting": {
         "words": {
@@ -485,7 +489,7 @@
           "data": "資料",
           "updates": "更新"
         },
-        "description": "結合即時全區域抽卡數據的鳴潮喚取分析平台，提供一個可以與朋友分享遊戲進度的最佳展示工具。"
+        "description": "結合即時全球數據的鳴潮喚取分析平台，提供一個可以與朋友分享遊戲進度的最佳展示工具。"
       },
       "changelog": {
         "title": "版本更新"
@@ -523,10 +527,10 @@
       "sync_tooltips": "同步提示資訊",
       "sync_tooltips_description": "顯示各種提示資訊，標註目前的同步狀態以及任何相關的更新。",
       "pull_history": "喚取歷史資料",
-      "pull_history_description": "透過Google或者您的目前裝置上傳且下載您的本地資料",
-      "saves_your_pulls_to_google": "儲存您的喚取資料至Google",
-      "overwrite_google_drive_data": "您想要覆寫您的 Google 硬碟資料嗎？",
-      "overwrite_google_drive_data_description": "上傳您的資料將會覆寫您的本地資料至Google硬碟上。我們建議您先下載一份副本。",
+      "pull_history_description": "透過 Google 或者您的目前裝置上傳和下載您的本地資料",
+      "saves_your_pulls_to_google": "儲存您的喚取資料至 Google",
+      "overwrite_google_drive_data": "您想要覆寫您的Google雲端硬碟資料嗎？",
+      "overwrite_google_drive_data_description": "上傳您的資料將會覆寫您的本地資料至Google雲端硬碟上。我們建議您先下載一份副本。",
       "pulls_file_import_dialog_title": "匯入本地喚取紀錄",
       "pulls_file_import_dialog_description": "提示：此僅接受新版喚取紀錄資料。如果您想匯入在舊版網頁生成的資料 <code></code> ，請至<link>舊版資料匯入</link>。",
       "sync_preferences": "同步設定",
@@ -558,10 +562,10 @@
       "go_to_installation_directory": "前往遊戲安裝目錄",
       "go_to_installation_directory_description": "右鍵點擊你的遊戲執行檔並選擇 <code>開啟檔案位置</code>。\n你將會看到 <code>launcher.exe</code> 以及很多的 <code>.dll</code> 檔案。",
       "search_for_log": "找到 <code>Client.log</code> 並上傳至此",
-      "airplane_mode": "Airplane Mode",
+      "airplane_mode": "飛行模式",
       "download_ascent": "下載並且使用 Ascent app 取得您的喚取歷史紀錄連結",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "提示：此方法僅支援 Android 11 版本以上的裝置。",
+      "download_ascent_description": "類似於《原神》或者《崩壞：星穹鐵道》取得歷史紀錄的方式，你可以參考 <link>Mirai0009提供的教學影片</link> 下載並使用 <ascent>Ascent v2.1.6</ascent> 來取得您的連結。",
+      "download_ascent_disclaimer": "提示：此方法僅支援 Android 11 版本或以上的裝置。",
       "download_ascent_troubleshooting": "如果它不能正常執行，請查看<link>問題排除</link>部分。",
       "ios_follow_tutorial_video": "觀看教學影片",
       "ios_follow_tutorial_video_description": "類似於在《原神》或《崩壞：星穹鐵道》中取得你的抽卡記錄，請按照這個教學影片來匯入你iOS上的資料。",
