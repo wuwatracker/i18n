@@ -308,7 +308,7 @@
       "server_time": "Szerver idő",
       "ends_in": "Véget ér {timeLeft}",
       "starts_in": "Elkezdődik {timeLeft}",
-      "time_left": "{tumeLeft} maradt",
+      "time_left": "{timeLeft} maradt",
       "event_has_ended": "Az esemény véget ért",
       "your_local_time": "Helyi idő",
       "current_server_time": "Jelenlegi szerver idő",
