@@ -537,7 +537,7 @@
       "sync_preferences_description": "Memilih untuk menggunakan atau tidak dalam sinkronisasi otomatis Google Drive dengan data Anda",
       "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur lainnya.",
       "you_can_manually_sync_reminder": "Anda dapat melakukan sinkronisasi secara manual dengan tombol <code>Trigger Sync</code> di menu profil.",
-      "backup_reminder": "Sudah lebih dari sebulan sejak cadangan lokal terakhir Anda. Download sekarang?"
+      "backup_reminder": "Sudah lebih dari sebulan sejak pencadangan lokal terakhir Anda. Unduh sekarang?"
     },
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
@@ -592,13 +592,13 @@
         "intro_skill": "Intro Skill"
       },
       "item_tags": {
-        "Universal Currency": "Mata Uang Universal",
-        "Skill Upgrade Material": "Bahan Peningkatan Skill",
-        "Ascension Material": "Bahan Kenaikan",
-        "Resonator Ascension Material": "Bahan Kenaikan Resonator",
-        "Resonator EXP Material": "Bahan EXP Resonator",
-        "Weapon and Skill Material": "Bahan Senjata dan Skill",
-        "Weapon EXP Material": "Bahan EXP Senjata"
+        "Universal Currency": "Kurs Universal",
+        "Skill Upgrade Material": "Material Peningkatan Skill",
+        "Ascension Material": "Material Ascension",
+        "Resonator Ascension Material": "Material Ascension Resonator",
+        "Resonator EXP Material": "Material EXP Resonator",
+        "Weapon and Skill Material": "Material Senjata dan Skill",
+        "Weapon EXP Material": "Material EXP Senjata"
       }
     }
   },
