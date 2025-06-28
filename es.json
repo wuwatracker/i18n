@@ -70,7 +70,7 @@
         "Autumntrace": "Rastro de Otoño",
         "Beguiling Melody": "Melodía Cautivadora",
         "Blazing Brilliance": "Brillo Abrasador",
-        "Blazing Justice": "Blazing Justice",
+        "Blazing Justice": "Veredicto del destello",
         "Bloodpact's Pledge": "Pacto de sangre",
         "Broadblade of Night": "Mandoble de la Noche",
         "Broadblade of Voyager": "Mandoble del Viajero",
@@ -83,7 +83,7 @@
         "Comet Flare": "Llamarada de Cometa",
         "Cosmic Ripples": "Ondas Cósmicas",
         "Dauntless Evernight": "Noche Intrépida",
-        "Defier's Thorn": "Defier's Thorn",
+        "Defier's Thorn": "Espina de la Desafiadora",
         "Discord": "Discord",
         "Emerald of Genesis": "Esmeralda del Génesis",
         "Fables of Wisdom": "Fábulas de sabiduría",
@@ -157,8 +157,8 @@
         "Endless Collapse": "Colapso interminable",
         "Waltz in Masquerade": "Vals enmascarado",
         "Waning Redshift": "Corrimiento al rojo",
-        "Wildfire Mark": "Wildfire Mark",
-        "Woodland Aria": "Woodland Aria",
+        "Wildfire Mark": "Marca de fuego salvaje",
+        "Woodland Aria": "Aria del bosque",
         "Whispers of Sirens": "Susurros de sirenas"
       },
       "banners": {
@@ -188,7 +188,7 @@
         "invalid_input_format": "Los datos introducidos son invalidos",
         "unable_to_parse": "No podemos analizar tus datos",
         "unable_to_parse_remote_data": "No podemos analizar tus datos remotos",
-        "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
+        "unable_to_parse_profile_data": "Esto es solo para los datos del perfil. Usa el otro botón de importar para los datos del historial de tiradas.",
         "download_failed": "La descarga ha fallado",
         "client_log_required": "¡Necesitas subir un archivo Client.log!",
         "cannot_find_convene_url": "No pudimos encontrar tu URL de invocación",
@@ -205,7 +205,7 @@
         "files_no_upload": "No se subió ningún archivo.",
         "files_max_upload_num": "Solo puedes subir hasta {num} archivo(s).",
         "files_has_oversize_limit_num": "Algunos archivos superan el límite de tamaño de {num}MB.",
-        "inventory_item_does_not_exist": "That item does not exist!",
+        "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Insufficient materials."
       },
       "info": {
