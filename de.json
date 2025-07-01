@@ -1,24 +1,24 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
+      "convenes": "Zusammenrufen",
       "convene_url": "Convene URL",
       "pulls": "Pulls",
-      "astrites": "Astrites",
+      "astrites": "Astrite",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Pull History",
       "pull_num": "Pull No.",
       "item": "Item",
       "pity": "Pity",
-      "rarity": "Rarity",
-      "date_received": "Date Received",
+      "rarity": "Seltenheit",
+      "date_received": "Datum erhalten",
       "recent_convenes": "Recent Convenes",
       "resonator": "Resonator",
-      "weapon": "Weapon"
+      "weapon": "Waffe"
     },
     "phrase": {
-      "import_data": "Import Data",
-      "import_data_description": "Use your previously exported data and save it to your browser",
+      "import_data": "Daten importieren",
+      "import_data_description": "Verwende deine exportierten Daten und speicher sie im Browser",
       "banner_list": "Banner List",
       "no_pulls_yet": "No pulls yet",
       "rarity_pulls": "{num}✦ Pulls",
@@ -29,7 +29,7 @@
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Rover-Havoc",
+        "Rover-Havoc": "Rover-Chaos",
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
@@ -145,7 +145,7 @@
         "Tyro Broadblade": "Tyro Broadblade",
         "Tyro Gauntlets": "Tyro Gauntlets",
         "Tyro Pistols": "Tyro Pistols",
-        "Tyro Rectifier": "Tyro Rectifier",
+        "Tyro Rectifier": "Tyro-Gleichrichter",
         "Tyro Sword": "Tyro Sword",
         "Undying Flame": "Unsterbliche Flamme",
         "Unflickering Valor": "Unflickering Valor",
@@ -180,14 +180,14 @@
   "common": {
     "message": {
       "error": {
-        "generic_title": "An error occured",
+        "generic_title": "Ein Fehler ist aufgetreten",
         "no_banner": "No banner found.",
-        "relogin_to_sync": "Please log in again to sync.",
+        "relogin_to_sync": "Zum synchronisieren bitte einloggen.",
         "no_auth_scopes": "You are not authorized to upload to Google Drive.",
-        "auth_session_expired": "Your login session expired.",
-        "invalid_input_format": "Your input data is invalid",
+        "auth_session_expired": "Die Login-Sitzung ist abgelaufen.",
+        "invalid_input_format": "Deine Eingabedaten sind ungültig",
         "unable_to_parse": "We are unable to parse your data",
-        "unable_to_parse_remote_data": "We are unable to parse your remote data",
+        "unable_to_parse_remote_data": "Wir können deine Remote-Daten nicht auswerten",
         "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
         "download_failed": "The download failed",
         "client_log_required": "You need to upload a Client.log file!",
