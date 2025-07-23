@@ -52,6 +52,7 @@
         "Lupa": "Lupa",
         "Mortefi": "Mortefi",
         "Phoebe": "Phoebe",
+        "Phrolova": "Phrolova",
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
         "Shorekeeper": "Shorekeeper",
@@ -100,6 +101,7 @@
         "Hollow Mirage": "Hollow Mirage",
         "Jinzhou Keeper": "Jinzhou Keeper",
         "Legend of Drunken Hero": "Legend of Drunken Hero",
+        "Lethean Elegy": "Lethean Elegy",
         "Lunar Cutter": "Lunar Cutter",
         "Lumingloss": "Lumingloss",
         "Luminous Hymn": "Luminous Hymn",
@@ -358,14 +360,14 @@
       "tutorial_video_description": "<link></link> tarafından sunulan öğretici videosunu buradan izle.",
       "edit_on_github": "Bu sayfayı GitHub üzerinden düzenle",
       "social_discord_cta": "Discord Sunucumuza Katıl",
-      "social_x_cta": "Bizi X(Twitter)'den takip et",
-      "social_reddit_cta": "Reddit sunucumuza katıl",
-      "social_github_cta": "GitHub üzerinden katkıda bulun",
+      "social_x_cta": "Bizi X(Twitter)'den Takip Et",
+      "social_reddit_cta": "Reddit Topluluğumuza Katıl",
+      "social_github_cta": "GitHub Üzerinden Katkıda Bulun",
       "community": "Topluluk",
       "contact": "İletişim",
       "for_general_inquiries": "Genel problemler için:",
       "for_support": "Destek için:",
-      "supporters": "Katkıda bulunanlar",
+      "supporters": "Destekçiler",
       "no_particular_order": "belirli bir sıralamada değil",
       "translators": "Çevirmenler",
       "players": "Oyuncu",
@@ -496,11 +498,11 @@
       },
       "about": {
         "title": "Hakkında",
-        "what_is_wuwatracker": "WuWa Tracker ne?"
+        "what_is_wuwatracker": "WuWa Tracker nedir?"
       },
       "credits": {
-        "title": "Krediler",
-        "heading": "Krediler & Atıflar",
+        "title": "Emeği Geçenler",
+        "heading": "Emeği Geçenler & Atıflar",
         "heading_description": "WuWa Tracker, buradaki tüm harika kişiler sayesinde mümkün oldu. Eğer ismin burada değilse veya isminin buradan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
         "special_thanks": "Özel Teşekkürler"
       }
