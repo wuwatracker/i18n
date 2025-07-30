@@ -270,14 +270,14 @@
       "select_profile_placeholder_inactive": "Elige un perfil activo",
       "filters": "Filtros",
       "rows_per_page": "Filas por página",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "El nivel anterior debe estar entre {min} y {max}.",
+      "planner_new_must_be_between_min_max": "El nivel nuevo debe de estar entre {min} y {max}."
     },
     "button": {
       "go_home": "Ir a la página principal",
       "switch_theme": "Cambiar tema",
       "sign_in_google": "Iniciar sesión con Google",
-      "log_out": "Log out",
+      "log_out": "Cerrar sesión",
       "import_history": "Importar historial",
       "filter_by_rarity_num": "Filtrar por rareza {num}",
       "import": "Importar",
@@ -295,12 +295,12 @@
       "import_from_file": "Importar desde archivo",
       "upload_to_google": "Subir a Google",
       "download_from_google": "Descargar desde Google",
-      "reset_tag_filters": "Reset Tag Filters",
+      "reset_tag_filters": "Restablecer los filtros de las etiquetas",
       "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "hide": "Ocultar",
+      "show": "Mostrar",
+      "edit": "Editar",
+      "view_details": "Ver detalles"
     },
     "time": {
       "all_time": "Todos los tiempos",
@@ -341,7 +341,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Alerta",
       "name": "Nombre",
       "guest": "Invitado",
       "america": "América",
@@ -395,10 +395,10 @@
       "close": "cerrar",
       "portrait_view": "Vista vertical",
       "tile_view": "Visca en mosaico",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "planner": "Planificador",
+      "owned_num": "En posesión: {num}",
+      "owned": "Poseído",
+      "required_num": "Requerido: {num}"
     }
   },
   "feature": {
@@ -516,34 +516,34 @@
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "Al continuar, reconoces que nosotros no nos hacemos responsables de tus datos. ¡Esta acción no se puede deshacer!",
       "all_profiles_delete": "Eliminar TODOS los perfiles de usuario",
-      "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
+      "all_profiles_delete_description": "Esto eliminará permanentemente TODOS tus perfiles de usuario. Esto fue creado con fines de prueba. Por favor, haz una copia de tus datos primero y procede con precaución.",
       "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
-      "privacy_global_stats": "Contribute to Global Statistics",
+      "privacy_global_stats": "Contribuir a las estadísticas globales",
       "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
-      "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
-      "import_user_profile": "Import User Profile",
+      "privacy_footer_policy_link": "Nuestra <link>política de privacidad</link> tiene más detalles sobre cómo manejamos tus datos.",
+      "import_user_profile": "Importar perfil de usuario",
       "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
       "user_profile": "Perfil de usuario",
       "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
       "sync_tooltips": "Sync Tooltips",
       "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
       "pull_history": "Datos del historial de invocación",
-      "pull_history_description": "Upload & download your local data via Google or your local device",
+      "pull_history_description": "Sube y descarga tus datos locales a través de Google o de tu dispositivo local",
       "saves_your_pulls_to_google": "Guardar tus tiradas en Google",
-      "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
-      "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
+      "overwrite_google_drive_data": "¿Quieres sobrescribir tus datos de Google Drive?",
+      "overwrite_google_drive_data_description": "La subida de tus datos sobrescribirá tus datos de Google Drive con los datos locales. Te recomendamos descargar primero una copia.",
       "pulls_file_import_dialog_title": "Importar Invocaciones locales",
       "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
       "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "backup_reminder": "Ha pasado más de un mes desde tu última copia de seguridad local. ¿Quieres descargarla ahora?"
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
+      "choose_server_timezone": "Elija la zona horaria del servidor",
+      "choose_server_timezone_description": "Mostrar los tiempos ajustados a tu zona horaria local",
       "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
       "reset_timers": {
         "title": "Server Daily Reset Timers",
