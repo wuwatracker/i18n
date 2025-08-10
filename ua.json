@@ -468,7 +468,7 @@
       "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Banner Summary",
       "banner_summary_description": "Select a banner to get an overview of the statistics.",
-      "view_your_statistics_responsive": "<span>View</span> Your Statistics",
+      "view_your_statistics_responsive": "<span>Переглянути</span> Вашу статистику",
       "pulls_per_day": "Pulls per Day",
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
       "pulls_per_rarity": "Pulls per Rarity",
@@ -491,7 +491,7 @@
           "data": "data",
           "updates": "updates"
         },
-        "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. We aim to provide the best tools to showcase your Wuthering Waves progress to your friends."
+        "description": "Лічильник гаранту для Wuthering Waves, використовує дані з глобальною статистикою та багато іншого. Ми прагнемо надати найкращі інструменти, щоб продемонструвати вашим друзям ваш прогрес у Wuthering Waves."
       },
       "changelog": {
         "title": "Changelogs"
@@ -508,7 +508,7 @@
       }
     },
     "settings": {
-      "submit_to_global_stats": "Submit pull data for global statistics",
+      "submit_to_global_stats": "Надіслати дані витягів для глобальної статистики",
       "create_profile_dialog": "You don't have a site profile yet",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
@@ -519,8 +519,8 @@
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
       "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
-      "privacy_global_stats": "Contribute to Global Statistics",
-      "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
+      "privacy_global_stats": "Зробити внесок до глобальної статистики",
+      "privacy_global_stats_description": "Якщо ця функція увімкнена, ми будемо використовувати вашу URL-адресу Скликань для підрахунку загальних статистичних даних",
       "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
       "import_user_profile": "Import User Profile",
       "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
@@ -619,9 +619,9 @@
       },
       "global": {
         "title": "Глобальна статистика",
-        "title_responsive": "<span>Global</span> Statistics",
+        "title_responsive": "<span>Глобальна</span> статистика",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
+        "banner_title": "Статистика банеру {name}",
         "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       }
     },
