@@ -24,8 +24,8 @@
       "rarity_pulls": "Виклики",
       "num_pity": "Гарант",
       "total_pulls": "Всі виклики",
-      "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "total_pulls_responsive": "<span>Загалом</span> Викликів",
+      "total_astrites_responsive": "<span>Загалом</span> Астритів"
     },
     "name": {
       "items": {
@@ -87,7 +87,7 @@
         "Defier's Thorn": "Танець Вільного Лицаря",
         "Discord": "Розбрат",
         "Emerald of Genesis": "Смарагд Буття",
-        "Fables of Wisdom": "Fables of Wisdom",
+        "Fables of Wisdom": "Байки Мудрості",
         "Fusion Accretion": "Fusion Accretion",
         "Gauntlets of Night": "Рукавиці Ночі",
         "Gauntlets of Voyager": "Рукавиці Вояджера",
@@ -142,13 +142,13 @@
         "Training Broadblade": "Тренувальний клинок",
         "Training Gauntlets": "Training Gauntlets",
         "Training Pistols": "Тренувальні Пістолети",
-        "Training Rectifier": "Training Rectifier",
+        "Training Rectifier": "Тренувальний Підсилювач",
         "Training Sword": "Тренувальний меч",
-        "Tyro Broadblade": "Tyro Broadblade",
-        "Tyro Gauntlets": "Tyro Gauntlets",
-        "Tyro Pistols": "Tyro Pistols",
-        "Tyro Rectifier": "Tyro Rectifier",
-        "Tyro Sword": "Tyro Sword",
+        "Tyro Broadblade": "Довгий Меч Новачка",
+        "Tyro Gauntlets": "Рукавиці Новачка",
+        "Tyro Pistols": "Пістолети Новачка",
+        "Tyro Rectifier": "Підсилювач Новачка",
+        "Tyro Sword": "Меч Новачка",
         "Undying Flame": "Невгасиме полум'я",
         "Unflickering Valor": "Unflickering Valor",
         "Variation": "Варіація",
@@ -168,7 +168,7 @@
         "Featured Weapon": "Обрана зброя",
         "Permanent Resonator": "Постійний резонатор",
         "Permanent Weapon": "Постійна зброя",
-        "Novice Convene": "Novice Convene",
+        "Novice Convene": "Скликання Новачка",
         "Beginner's Choice": "Beginner's Choice",
         "Selector Ticket": "Selector Ticket",
         "Tidal Chorus": "Tidal Chorus",
@@ -457,7 +457,7 @@
         "pull_ratio": "Pull Ratio",
         "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
         "coinflip_wins": "50/50 Wins",
-        "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
+        "coinflip_wins_description": "Який відсоток витягів 50/50 ви виграли?",
         "rate_up_wins": "Rate-up Wins",
         "rate_up_wins_description": "How often were your pulls rate-up?"
       }
@@ -618,7 +618,7 @@
         "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "global": {
-        "title": "Global Statistics",
+        "title": "Глобальна статистика",
         "title_responsive": "<span>Global</span> Statistics",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
         "banner_title": "{name} Banner Statistics",
