@@ -33,6 +33,7 @@
         "Rover-Spectro": "Errante-Espectro",
         "Rover-Aero": "Errante-Aero",
         "Aalto": "Aalto",
+        "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
         "Calcharo": "Calcharo",
@@ -44,6 +45,7 @@
         "Ciaccona": "Ciaccona",
         "Danjin": "Danjin",
         "Encore": "Encore",
+        "Iuno": "Iuno",
         "Jianxin": "Jianxin",
         "Jinhsi": "Jinhsi",
         "Jiyan": "Jiyan",
@@ -66,8 +68,10 @@
         "Youhu": "Youhu",
         "Zani": "Zani",
         "Abyss Surges": "Oleadas del Abismo",
+        "Aether Strike": "Golpe de Éter",
         "Ages of Harvest": "Eras de Cosecha",
         "Amity Accord": "Acuerdo de Amistad",
+        "Aureate Zenith": "Cenit Áureo",
         "Autumntrace": "Rastro de Otoño",
         "Beguiling Melody": "Melodía Cautivadora",
         "Blazing Brilliance": "Brillo Abrasador",
@@ -88,6 +92,7 @@
         "Discord": "Discord",
         "Emerald of Genesis": "Esmeralda del Génesis",
         "Fables of Wisdom": "Fábulas de sabiduría",
+        "Feather Edge": "Filo de Pluma",
         "Fusion Accretion": "Acreción de fusion",
         "Gauntlets of Night": "Brazales de la Noche",
         "Gauntlets of Voyager": "Brazales del Viajero",
@@ -101,13 +106,14 @@
         "Hollow Mirage": "Espejismo Hueco",
         "Jinzhou Keeper": "Guardián de Jinzhou",
         "Legend of Drunken Hero": "Crónica del héroe ebrio",
-        "Lethean Elegy": "Lethean Elegy",
+        "Lethean Elegy": "Elegía letea",
         "Lunar Cutter": "Cortador Lunar",
         "Lumingloss": "Lumingloss",
         "Luminous Hymn": "Himno luminoso",
         "Lustrous Razor": "Navaja Brillante",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditaciones de la piedad",
+        "Moongazer's Sigil": "Moongazer's Sigil",
         "Novaburst": "Novestallido",
         "Ocean's Gift": "Regalo del mar",
         "Originite: Type I": "Originite: Tipo I",
@@ -119,6 +125,7 @@
         "Pistols of Night": "Pistolas de la noche",
         "Pistols of Voyager": "Pistolas del viajero",
         "Pistols#26": "Pistolas #26",
+        "Radiant Dawn": "Amanecer Radiante",
         "Rectifier of Night": "Rectificador de la noche",
         "Rectifier of Voyager": "Rectificador del viajero",
         "Rectifier#25": "Rectificador #25",
@@ -129,6 +136,7 @@
         "Rover: Havoc": "Errante: Destrucción",
         "Rover: Aero": "Errante: Aero",
         "Somnoire Anchor": "Ancla de Somnolencia",
+        "Solar Flame": "Llama Solar",
         "Static Mist": "Niebla estática",
         "Stellar Symphony": "Sinfonia estelar",
         "Stonard": "Stonard",
@@ -137,6 +145,7 @@
         "Sword of Voyager": "Espada del viajero",
         "Sword#18": "Espada #18",
         "The Last Dance": "Último baile",
+        "Thunderflare Dominion": "Trueno de la Corona",
         "Thunderbolt": "Rayo",
         "Tragicomedy": "Tragicomedia",
         "Training Broadblade": "Mandoble de entrenamiento",
@@ -270,21 +279,21 @@
       "select_profile_placeholder_inactive": "Elige un perfil activo",
       "filters": "Filtros",
       "rows_per_page": "Filas por página",
-      "planner_previous_must_be_between_min_max": "Previous level must be between {min} and {max}.",
-      "planner_new_must_be_between_min_max": "New level must be between {min} and {max}."
+      "planner_previous_must_be_between_min_max": "El nivel anterior debe estar entre {min} y {max}.",
+      "planner_new_must_be_between_min_max": "El nivel nuevo debe de estar entre {min} y {max}."
     },
     "button": {
       "go_home": "Ir a la página principal",
       "switch_theme": "Cambiar tema",
       "sign_in_google": "Iniciar sesión con Google",
-      "log_out": "Log out",
+      "log_out": "Cerrar sesión",
       "import_history": "Importar historial",
       "filter_by_rarity_num": "Filtrar por rareza {num}",
       "import": "Importar",
       "export_json": "Exportar como JSON",
       "view_pull_history": "Ver historial de invocaciones",
       "sync_your_data": "Sincroniza tus datos",
-      "trigger_sync": "Trigger Sync",
+      "trigger_sync": "Sincronizar",
       "support_us": "Apóyanos",
       "create_profile": "Crear perfil",
       "remind_me_later": "Recuérdamelo más tarde",
@@ -295,12 +304,12 @@
       "import_from_file": "Importar desde archivo",
       "upload_to_google": "Subir a Google",
       "download_from_google": "Descargar desde Google",
-      "reset_tag_filters": "Reset Tag Filters",
-      "complete": "Complete",
-      "hide": "Hide",
-      "show": "Show",
-      "edit": "Edit",
-      "view_details": "View Details"
+      "reset_tag_filters": "Restablecer los filtros de las etiquetas",
+      "complete": "Completar",
+      "hide": "Ocultar",
+      "show": "Mostrar",
+      "edit": "Editar",
+      "view_details": "Ver detalles"
     },
     "time": {
       "all_time": "Todos los tiempos",
@@ -341,7 +350,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Alerta",
       "name": "Nombre",
       "guest": "Invitado",
       "america": "América",
@@ -395,10 +404,10 @@
       "close": "cerrar",
       "portrait_view": "Vista vertical",
       "tile_view": "Visca en mosaico",
-      "planner": "Planner",
-      "owned_num": "Owned: {num}",
-      "owned": "Owned",
-      "required_num": "Required: {num}"
+      "planner": "Planificador",
+      "owned_num": "En posesión: {num}",
+      "owned": "Poseído",
+      "required_num": "Requerido: {num}"
     }
   },
   "feature": {
@@ -516,52 +525,52 @@
       "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "Al continuar, reconoces que nosotros no nos hacemos responsables de tus datos. ¡Esta acción no se puede deshacer!",
       "all_profiles_delete": "Eliminar TODOS los perfiles de usuario",
-      "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
+      "all_profiles_delete_description": "Esto eliminará permanentemente TODOS tus perfiles de usuario. Esto fue creado con fines de prueba. Por favor, haz una copia de tus datos primero y procede con precaución.",
       "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
-      "privacy_description": "Opt-in or out of settings related to your data privacy",
-      "privacy_global_stats": "Contribute to Global Statistics",
-      "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
-      "privacy_footer_policy_link": "Our <link>Privacy Policy</link> has more details on how we handle your data.",
-      "import_user_profile": "Import User Profile",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+      "privacy_description": "Permite o no los ajustes relacionados con la privacidad de tus datos",
+      "privacy_global_stats": "Contribuir a las estadísticas globales",
+      "privacy_global_stats_description": "Cuando esté activado, usaremos tu URL de invocación para el conteo de las estadísticas globales",
+      "privacy_footer_policy_link": "Nuestra <link>política de privacidad</link> tiene más detalles sobre cómo manejamos tus datos.",
+      "import_user_profile": "Importar perfil de usuario",
+      "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las tiradas.",
       "user_profile": "Perfil de usuario",
-      "user_profile_description": "Select your active profile for the achievements, items, and pull tracker",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
+      "user_profile_description": "Selecciona tu perfil activo para los logros, objetos y rastreador de tiradas",
+      "sync_tooltips": "Sugerencias de sincronización",
+      "sync_tooltips_description": "Mostrar varias sugerencias que indican el estado actual de la sincronización y cualquier actualización relevante.",
       "pull_history": "Datos del historial de invocación",
-      "pull_history_description": "Upload & download your local data via Google or your local device",
+      "pull_history_description": "Sube y descarga tus datos locales a través de Google o de tu dispositivo local",
       "saves_your_pulls_to_google": "Guardar tus tiradas en Google",
-      "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
-      "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
+      "overwrite_google_drive_data": "¿Quieres sobrescribir tus datos de Google Drive?",
+      "overwrite_google_drive_data_description": "La subida de tus datos sobrescribirá tus datos de Google Drive con los datos locales. Te recomendamos descargar primero una copia.",
       "pulls_file_import_dialog_title": "Importar Invocaciones locales",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
-      "sync_preferences": "Sync Preferences",
-      "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
-      "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
-      "you_can_manually_sync_reminder": "You can manually sync with the <code>Trigger Sync</code> button in the profile menu.",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "pulls_file_import_dialog_description": "NOTA: Esto solo acepta las tiradas en nuestro nuevo formato. Visita el <link>antiguo importador</link> si quieres importar datos antiguos creados antes de <code></code>.",
+      "sync_preferences": "Preferencias de sincronización",
+      "sync_preferences_description": "Permite o no la sincronización automática de Google Drive con tus datos",
+      "sync_preferences_profile_description": "Los perfiles contienen datos AJENOS a las tiradas como los logros, los objetos, y otras funciones de la página web.",
+      "you_can_manually_sync_reminder": "Puedes sincronizar manualmente con el botón <code>Sincronizar</code> en el menú de perfil.",
+      "backup_reminder": "Ha pasado más de un mes desde tu última copia de seguridad local. ¿Quieres descargarla ahora?"
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
-      "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>.",
+      "choose_server_timezone": "Elija la zona horaria del servidor",
+      "choose_server_timezone_description": "Mostrar los tiempos ajustados a tu zona horaria local",
+      "timeline_description": "Mira los eventos de Wuthering Waves en tu zona horaria o en otras <link>Zonas Horarias</link>.",
       "reset_timers": {
-        "title": "Server Daily Reset Timers",
-        "description": "Compare your local time to the Wuthering Waves game servers to plan your next adventure.",
-        "disclaimer": "Other server timers are displayed in their local time."
+        "title": "Tiempos de reinicio diario de servidores",
+        "description": "Compara tu tiempo local con el tiempo del servidor de Wuthering Waves para planear tu siguiente aventura.",
+        "disclaimer": "Las horas de los otros servidores se muestran con su hora local."
       }
     },
     "import": {
-      "logs_not_updating_alert": "URL Expiration",
-      "logs_not_updating_alert_description": "As of January 14, 2025, PC users have been experiencing logging issues with their game due to a suspected update from Kuro Games. Read our <link>Troubleshooting Guide</link> to debug it.",
-      "first_open_game_history": "First, launch the game and open your in-game history details",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
-      "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
-      "paste_the_url_here": "Paste the URL here",
-      "paste_the_json_here": "Paste the JSON here",
-      "press_the_import_history_button": "Press the \"Import History\" button on this website",
-      "go_to_installation_directory": "Go to your game's installation directory",
+      "logs_not_updating_alert": "URL caducado",
+      "logs_not_updating_alert_description": "Desde el 14 de enero del 2025, los usuarios de ordenador han estado experimentando problemas de inicio de sesión debido a una presunta actualización de Kuro Games. Lea nuestra <link>Guía de soporte</link>  para poder solucionar el problema.",
+      "first_open_game_history": "Primero, inicia el juego y abre los detalles del historial dentro del juego",
+      "open_windows_powershell_and_run_script": "Después, abre Windows Powershell, y pega el siguiente script.",
+      "click_the_copy_button": "Haz clic en el botón de copiar a la derecha",
+      "powershell_script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script  <link>aquí</link>.",
+      "paste_the_url_here": "Pega la URL aquí",
+      "paste_the_json_here": "Pega el JSON aquí",
+      "press_the_import_history_button": "Pulsa el botón \"Importar historial\" en esta página web",
+      "go_to_installation_directory": "Ve a la carpeta de instalación del juego",
       "go_to_installation_directory_description": "Clic derecho en tu lanzador de Wuthering Waves y selecciona <code>Abrir la ubicación del archivo</code>. Deberías de ver <code>launcher.exe</code> y un muchos archivos <code>.dll</code>.",
       "search_for_log": "Busca por <code>Client.log</code> y súbelo aquí",
       "airplane_mode": "Airplane Mode",
@@ -576,31 +585,31 @@
       "ps5_enter_your_record_id": "Introduce tu <code>player_id</code> y <code>record_id</code> aquí"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "new_plan": "Nuevo plan",
+      "add_plan": "Añadir plan",
+      "material_summary": "Resumen de Material",
+      "no_active_plans": "No tienes ningún plan activo.",
+      "nodes_to_unlock": "Nodos a desbloquear",
+      "passive_skill": "Habilidad Pasiva",
+      "plan_delete_name_confirm": "¿Estás seguro de que quieres eliminar el plan {name}?",
+      "no_items_will_be_consumed": "No se consumirán objetos.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "Nivel de Ascensión",
+        "level": "Nivel",
+        "basic_attack": "Ataque normal",
+        "resonance_skill": "Habilidad de Resonancia",
+        "forte_circuit": "Circuito del Forte",
+        "resonance_liberation": "Liberación de Resonancia",
+        "intro_skill": "Habilidad Intro"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "Moneda Universal",
+        "Skill Upgrade Material": "Material de Mejora de Habilidad",
+        "Ascension Material": "Material de Ascensión",
+        "Resonator Ascension Material": "Material de Ascensión de Resonador",
+        "Resonator EXP Material": "Material de Mejora de Resonador",
+        "Weapon and Skill Material": "Material de Armas y Habilidad",
+        "Weapon EXP Material": "Material de Mejora de Armas"
       }
     }
   },
@@ -633,8 +642,8 @@
       "title": "Importar Historial de Invocaciones",
       "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
       "legacy": {
-        "title": "Legacy Import Tutorial",
-        "description": "If you've used our website before and can't find your pull data in the new website, you should follow our legacy import guide here!"
+        "title": "Tutorial de Importación Antigua",
+        "description": "Si has usado nuestro sitio web antes y no puedes encontrar los datos de tus tiradas en el nuevo sitio web, ¡deberías seguir nuestra guía de importación antigua aquí!"
       }
     },
     "not_found": {
@@ -654,8 +663,8 @@
       "description": "Estos términos y condiciones describen las reglas y regulaciones para el uso del sitio web y servicios de WuWa Tracker."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Administrar Cookies",
+      "description": "Puedes actualizar tus preferencias de cookies en cualquier momento para controlar como recopilamos y usamos tus datos, en cumplimiento de regulaciones de privacidad como el RGPD y la CCPA."
     },
     "timeline": {
       "title": "Cronograma de Eventos",
@@ -676,11 +685,11 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "Planificador de Ascensión",
+      "description": "¡La calculadora más potente de Wuthering Waves para planear el nivel de ascensión de tus Resonadores, habilidades, y materiales de mejora!"
     },
     "support": {
-      "title": "Support",
+      "title": "Soporte",
       "description": "¿Necesitas ayuda para descargar los datos de tus tiradas en Wuthering Waves? ¿Quieres conocer como WuWa Tracker usa tus datos? ¡Ve las preguntas frecuentes de Wuwa Tracker aquí!"
     }
   }
