@@ -113,7 +113,7 @@
         "Lustrous Razor": "仙境の湖光",
         "Marcato": "狂乱マルカート",
         "Meditations on Mercy": "寛恕のタ・エイス・ヘアウトン",
-        "Moongazer's Sigil": "Moongazer's Sigil",
+        "Moongazer's Sigil": "万物を書き留める月相",
         "Novaburst": "疾走の星",
         "Ocean's Gift": "海の恩恵",
         "Originite: Type I": "本源長刃・試作壱",
@@ -465,7 +465,7 @@
         "avg_pity_description": "あなたが★{qualityLevel}を引くのにかかった平均回数",
         "pull_ratio": "Pull Ratio",
         "pull_ratio_description": "全集音のうち、★{qualityLevel}が出た割合",
-        "coinflip_wins": "すり抜け回避した割合",
+        "coinflip_wins": "すり抜け回避率",
         "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
         "rate_up_wins": "Rate-up Wins",
         "rate_up_wins_description": "How often were your pulls rate-up?"
