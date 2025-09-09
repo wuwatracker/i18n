@@ -6,8 +6,8 @@
       "pulls": "Pulls",
       "astrites": "Astrite",
       "wuthering_waves": "Wuthering Waves",
-      "pull_history": "Pull History",
-      "pull_num": "Pull No.",
+      "pull_history": "Ziehverlauf",
+      "pull_num": "Ziehnr.",
       "item": "Item",
       "pity": "Pity",
       "rarity": "Seltenheit",
@@ -685,7 +685,7 @@
       }
     },
     "planner": {
-      "title": "Materialien Planer",
+      "title": "Planner",
       "description": "Der leistungsstärkste Wuthering Waves-Rechner für die Planung Ihre Resonator-Aufstiegsstufe, Fähigkeiten und EXP-Materialien! WuWa Tracker verfügt über eine Vielzahl von Hilfsmitteln, um Ihr Spielerlebnis zu verbessern."
     },
     "support": {
