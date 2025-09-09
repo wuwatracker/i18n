@@ -239,8 +239,8 @@
         "google_drive_last_updated_at": "Google Drive was updated {date}",
         "nothing_to_sync": "Nothing to sync at the moment.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
-        "sync_updating_remote_file": "Updating remote copy for {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Successfully imported your achievements.",
@@ -253,13 +253,13 @@
         "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
         "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
         "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}.",
+        "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
         "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
         "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
-        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "This does not include your pulls!",
         "planner_removed_plan_for_name": "Removed plan for {name}."
       }
@@ -270,7 +270,7 @@
       "search": "Search",
       "search_placeholder": "Search for something...",
       "search_reset": "Reset search",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "Click to upload or drag & drop",
@@ -521,12 +521,12 @@
       "create_profile_dialog": "You don't have a site profile yet",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
       "all_profiles_delete": "Delete ALL User Profiles",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
       "privacy_global_stats": "Contribute to Global Statistics",
       "privacy_global_stats_description": "When enabled, we'll use your Convene URL to tally global statistics",
@@ -543,7 +543,7 @@
       "overwrite_google_drive_data": "Would you like to overwrite your Google Drive data?",
       "overwrite_google_drive_data_description": "Uploading your data will overwrite your Google Drive data with your local data. We recommend you to download a copy first.",
       "pulls_file_import_dialog_title": "Import Local Pulls",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+      "pulls_file_import_dialog_description": "NOTE: This only accepts <code></code> files. If your data is invalid, you can try to use our <link>legacy import</link> page.",
       "sync_preferences": "Sync Preferences",
       "sync_preferences_description": "Opt-in or out of automatic Google Drive sync with your data",
       "sync_preferences_profile_description": "Profiles contain NON-PULL data like achievements, items, and other website features.",
@@ -573,9 +573,9 @@
       "go_to_installation_directory": "Go to your game's installation directory",
       "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
       "search_for_log": "Search for <code>Client.log</code> and upload it here",
-      "airplane_mode": "Airplane",
+      "airplane_mode": "Airplane Mode",
       "download_ascent": "Download and use Ascent to get your gacha history URL",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link> to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
+      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
       "download_ascent_troubleshooting": "If it's not working properly, check the <link>troubleshooting section</link>.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
@@ -685,8 +685,8 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
     },
     "support": {
       "title": "Support",
