@@ -240,7 +240,7 @@
         "nothing_to_sync": "Impossible de synchroniser pour le moment.",
         "sync_creating_file_in_google": "En cours de création de {fileName} dans Google Drive...",
         "sync_updating_remote_file": "Mise à jour de la copie en ligne de {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Modifié \"à faire\" pour {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Importation de vos succès réussie.",
@@ -302,7 +302,7 @@
       "cancel": "Annuler",
       "download": "Télécharger",
       "import_from_file": "Importer depuis un fichier",
-      "upload_to_google": "Télécharger sur Google",
+      "upload_to_google": "Envoyer sur Google",
       "download_from_google": "Télécharger depuis Google",
       "reset_tag_filters": "Réinitialiser les filtres",
       "complete": "Terminer",
@@ -314,7 +314,7 @@
     "time": {
       "all_time": "Tout le temps",
       "last_num_days": "{num} derniers jours",
-      "invalid_date": "Date invalide",
+      "invalid_date": "Date non valide",
       "local_time": "Heure locale",
       "server_time": "Heure du serveur",
       "ends_in": "Se termine dans {timeLeft}",
@@ -494,7 +494,7 @@
       "greeting": {
         "words": {
           "pulls": "invocations",
-          "pity": "pity",
+          "pity": "pitié",
           "events": "événements",
           "statistics": "statistiques",
           "data": "données",
