@@ -239,8 +239,8 @@
         "google_drive_last_updated_at": "Google Drive sudah diperbarui pada {date}",
         "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
         "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
-        "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
-        "planner_edited_plan_for_name": "Perubahan rencana untuk {name}."
+        "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
@@ -253,13 +253,13 @@
         "sync_successfully_downloaded_remote_data": "Berhasil mengunduh data remote.",
         "sync_successfully_created_remote_data": "Berhasil membuat {fileName} di Google Drive.",
         "sync_success": "Sinkronisasi berhasil.",
-        "sync_success_updated_remote_file": "Salinan remote untuk {fileName} sudah diperbarui.",
+        "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
         "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}."
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
-        "disable_auto_profile_sync": "Untuk keamanan Anda, ini juga akan mematikan sinkronisasi profil otomatis!",
+        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "Ini tidak termasuk pull Anda!",
         "planner_removed_plan_for_name": "Plan {name} dihapus."
       }
@@ -270,7 +270,7 @@
       "search": "Cari",
       "search_placeholder": "Cari sesuatu...",
       "search_reset": "Reset pencarian",
-      "your_player_id_placeholder": "9-digit ID pemain Anda (cth. 123456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
       "your_player_id_validation": "9-digit ID pemain Anda harus diawali dengan 1, 5, 6, 7, 8, atau 9",
       "type_to_confirm": "Ketik <strong></strong> untuk mengonfirmasi",
       "file_input": "Klik untuk unggah atau seret & lepas",
@@ -521,12 +521,12 @@
       "create_profile_dialog": "Anda belum memiliki situs profil",
       "create_profile_dialog_description": " Kami akan bantu membuatkannya agar kami bisa menyimpan data Anda",
       "active_profile_delete_pulls": "Hapus Data Pull untuk Profil yang Aktif",
-      "active_profile_delete_pulls_description": "Ini akan menghapus SEMUA riwayat pull yang terkait dengan {playerId} secara permanen. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "active_profile_delete_pulls_confirm": "Apakah Anda yakin ingin menghapus SEMUA riwayat pull untuk {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "Dengan melanjutkan, Anda mengetahui bahwa kami tidak bertanggung jawab atas data Anda. Tindakan ini tidak dapat dibatalkan!",
       "all_profiles_delete": "Hapus SEMUA profil pengguna",
       "all_profiles_delete_description": "Ini akan menghapus SEMUA profil pengguna Anda secara permanen. Ini hanya untuk keperluan pengujian. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "all_profiles_delete_confirm": "Apakah Anda yakin ingin menghapus SEMUA profil pengguna Anda?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
       "privacy_description": "Memilih untuk ikut atau tidak ikut serta dalam pengaturan yang terkait dengan privasi data Anda",
       "privacy_global_stats": "Kontribusi ke Statistik Global",
       "privacy_global_stats_description": "Jika diaktifkan, kami akan menggunakan URL Convene Anda untuk menghitung statistik global",
@@ -543,7 +543,7 @@
       "overwrite_google_drive_data": "Apakah Anda ingin menimpa data Google Drive Anda?",
       "overwrite_google_drive_data_description": "Mengunggah data Anda akan menimpa data Google Drive dengan data lokal Anda. Kami sarankan untuk mengunduh salinannya terlebih dahulu.",
       "pulls_file_import_dialog_title": "Impor Riwayat Pull Lokal",
-      "pulls_file_import_dialog_description": "CATATAN: Ini hanya menerima riwayat pull dengan format kami yang baru. Kunjungi halaman <link>impor legacy</link> jika Anda ingin mengimpor data lama sebelum <code></code>.",
+      "pulls_file_import_dialog_description": "NOTE: This only accepts <code></code> files. If your data is invalid, you can try to use our <link>legacy import</link> page.",
       "sync_preferences": "Sinkronisasikan Preferensi",
       "sync_preferences_description": "Memilih untuk menggunakan atau tidak dalam sinkronisasi otomatis Google Drive dengan data Anda",
       "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur lainnya.",
@@ -573,9 +573,9 @@
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
       "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
       "search_for_log": "Cari file <code>Client.log</code> lalu unggah ke sini",
-      "airplane_mode": "Mode Pesawat",
+      "airplane_mode": "Airplane Mode",
       "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
-      "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>panduan oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
+      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi pemecahan masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
@@ -685,8 +685,8 @@
       }
     },
     "planner": {
-      "title": "Planner Ascension",
-      "description": "Kalkulator Wuthering Waves terbaik untuk merencanakan Ascension Resonator, level, skill, dan material EXP Anda!"
+      "title": "Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
     },
     "support": {
       "title": "Bantuan",
