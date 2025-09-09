@@ -240,7 +240,7 @@
         "nothing_to_sync": "ไม่สามารถ sync ได้ในขณะนี้",
         "sync_creating_file_in_google": "กำลังสร้างไฟล์ {fileName} ใน Google Drive...",
         "sync_updating_remote_file": "กำลังอัปเดต Remote data สำหรับ {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "นำเข้าข้อมูลความสำเร็จของคุณเสร็จสิ้น",
@@ -412,7 +412,7 @@
   },
   "feature": {
     "support": {
-      "troubleshooting": "การแก้ไขปัญหา",
+      "troubleshooting": "สาเหตุและการแก้ปัญหา",
       "troubleshooting_description": "หากคุณประสบปัญหาในการนำเข้าประวัติ สามารถดูคู่มือการแก้ไขปัญหาได้ที่นี่",
       "import": {
         "log_files_missing_q": "สคริปต์แสดงข้อความว่า \"install location not found or log files missing\" — ควรทำอย่างไรดี?",
@@ -463,7 +463,7 @@
         "unluckier": "โชคร้ายกว่า {percentile}% ของผู้เล่นทั้งหมด",
         "avg_pity": "การันตีการสุ่มได้โดยเฉลี่ย",
         "avg_pity_description": "ค่าเฉลี่ยการสุ่มได้ {qualityLevel} ดาว (คำนวณจากการได้ {qualityLevel} ดาวทุกรอบ เฉลี่ยแล้วตกตัวละกี่โรล)",
-        "pull_ratio": "อัตราส่วนการสุ่มได้เทียบการสุ่มทั้งหมด",
+        "pull_ratio": "อัตราส่วนการสุ่มได้",
         "pull_ratio_description": "เปอร์เซ็นต์การสุ่มของคุณที่ได้ตัว {qualityLevel} ดาวต่อการสุ่มของคุณทั้งหมด",
         "coinflip_wins": "ไม่หลุดเรท 50/50",
         "coinflip_wins_description": "เปอร์เซ็นต์ที่คุณชนะการโดนหลุดเรท 50/50 เทียบจากสุ่มทั้งหมด",
@@ -685,8 +685,8 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "แพลนเนอร์จัดระเบียบ",
+      "description": "เครื่องคำนวณ Wuthering Waves ที่ทรงพลังที่สุด ใช้สำหรับการวางแผนจัดการเรโซเนเตอร์ สกิล และวัตถุดิบ EXP WuWa Tracker เป็นชุดเครื่องมือ Wuthering Waves ชั้นนำสำหรับผู้เล่นทุกคน"
     },
     "support": {
       "title": "สนับสนุน",
