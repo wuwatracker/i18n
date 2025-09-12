@@ -240,7 +240,7 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "План для {name} изменён."
+        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
@@ -259,7 +259,7 @@
       },
       "warn": {
         "this_cannot_be_undone": "Это действие не может быть отменено!",
-        "disable_auto_profile_sync": "Для вашей безопасности, это так же отключит автоматическую синхронизацию профиля!",
+        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "Ваши крутки в это не входят!",
         "planner_removed_plan_for_name": "План для {name} удалён."
       }
@@ -270,7 +270,7 @@
       "search": "Поиск",
       "search_placeholder": "Найти...",
       "search_reset": "Сброс поиска",
-      "your_player_id_placeholder": "Ваш 9-значный ИД (напр. 123456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
       "your_player_id_validation": "Ваш 9-значный ИД должен начинаться с 1, 5, 6, 7, 8 или 9",
       "type_to_confirm": "Введите <strong></strong> для подтверждения",
       "file_input": "Нажмите для загрузки или перетащите сюда",
@@ -367,7 +367,7 @@
       "from_file": "Из файла",
       "tutorial_video": "Видеогайд",
       "tutorial_video_description": "Следуйте этому пошаговому видеогайду, сделанному <link></link>.",
-      "edit_on_github": "Edit this page on GitHub",
+      "edit_on_github": "Редактировать эту страницу на GitHub",
       "social_discord_cta": "Вступайте в наш сервер Discord",
       "social_x_cta": "Подпишитесь на нас в X",
       "social_reddit_cta": "Вступайте в наш сабреддит",
@@ -457,8 +457,8 @@
       "banner_summary_description": "Выберите баннер для просмотра статистики.",
       "luck": {
         "num_luck_rating_title": "{num}✦ Удача",
-        "top": "Top {percentile}%",
-        "bottom": "Bottom {percentile}%",
+        "top": "Топ {percentile}%",
+        "bottom": "Топ {percentile}%",
         "luckier": "Удачливей, чем {percentile}% игроков",
         "unluckier": "Неудачливей, чем {percentile}% игроков",
         "avg_pity": "Средний гарант",
@@ -521,12 +521,12 @@
       "create_profile_dialog": "У вас ещё нет профиля на сайте",
       "create_profile_dialog_description": " Мы поможем создать его, чтобы вы могли сохранять свои данные",
       "active_profile_delete_pulls": "Удалить крутки для активного профиля",
-      "active_profile_delete_pulls_description": "Это навсегда удалит ВСЕ крутки, связанные с профилем {playerId}. Пожалуйста, сделайте резервную копию этих круток и подумайте дважды.",
-      "active_profile_delete_pulls_confirm": "Вы уверены, что хотите удалить ВСЕ крутки, связанные с профилем {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "Продолжая, вы соглашаетесь с тем, что мы не несём ответственность за ваши данные. Это действие нельзя отменить!",
       "all_profiles_delete": "Удалить ВСЕ профили",
       "all_profiles_delete_description": "Это навсегда удалит ВСЕ ваши профили. Эта функция создана для тестов. Пожалуйста, создайте резервную копию ваших данных и подумайте дважды.",
-      "all_profiles_delete_confirm": "Вы уверены, что хотите удалить ВСЕ ваши профили?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
       "privacy_description": "Включите или отключите настройки конфиденциальности ваших данных",
       "privacy_global_stats": "Делиться статистикой",
       "privacy_global_stats_description": "Когда включено, мы будем использовать вашу ссылку для подсчётов глобальной статистики",
@@ -543,7 +543,7 @@
       "overwrite_google_drive_data": "Вы хотите перезаписать данные на Google Диске?",
       "overwrite_google_drive_data_description": "Загрузка данных на Google Диск перезапишет имеющиеся на нём данные имеющимися. Мы рекомендуем сначала скачать копию данных с Google Диска.",
       "pulls_file_import_dialog_title": "Импорт с устройства",
-      "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>импорт старых круток</link>, если хотите восстановить данные, сохранённые до <code></code>.",
+      "pulls_file_import_dialog_description": "NOTE: This only accepts <code></code> files. If your data is invalid, you can try to use our <link>legacy import</link> page.",
       "sync_preferences": "Настройки синхронизации",
       "sync_preferences_description": "Включите или отключите автоматическую синхронизацию ваших данных с Google Диском",
       "sync_preferences_profile_description": "Профили содержат информацию, не касающуюся круток, например достижения, предметы и прочее.",
@@ -686,7 +686,7 @@
     },
     "planner": {
       "title": "Планировщик",
-      "description": "Самый продвинутый калькулятор для Wuthering Waves, позволяющий составить планы повышения уровней навыков, а также возвышения ваших Резонаторов и оружия!"
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
     },
     "support": {
       "title": "Поддержка",
