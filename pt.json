@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Resonators - WuWa Tracker",
-        "description": "Veja informações sobre os Resonators de Wuthering Waves, perfis, e use a calculadora de materiais de WuWa Tracker para planejar as melhorias de seus Resonators. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
+        "description": "Veja informações sobre os Resonators de Wuthering Waves, perfis, e use a calculadora de materiais de WuWa Tracker para planejar as melhorias de seus Resonators. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Items - WuWa Tracker",
-        "description": "Veja informações de items, localizações de drop, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
+        "description": "Veja informações de items, localizações de drop, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Armas",
-        "description": "Veja informações das armas, atributos, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
+        "description": "Veja informações das armas, atributos, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
