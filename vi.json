@@ -86,12 +86,12 @@
         "Celestial Spiral": "Xương Sống Thiên Không",
         "Commando of Conviction": "Biệt Kích Xác Tín",
         "Comet Flare": "Hào Quang Sao Chổi",
-        "Cosmic Ripples": "Cosmic Ripples",
+        "Cosmic Ripples": "Gợn Sóng Vũ Trụ",
         "Dauntless Evernight": "Dạ Kiếm Vĩnh Hằng",
         "Defier's Thorn": "Thách Thức Chông Gai",
-        "Discord": "Discord",
+        "Discord": "Bất Đồng",
         "Emerald of Genesis": "Lục Bảo Sáng Thế",
-        "Fables of Wisdom": "Fables of Wisdom",
+        "Fables of Wisdom": "Ngụ Ngôn Về Sự Thông Tuệ",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Hạt Nhân Bồi Tụ",
         "Gauntlets of Night": "Găng Của Đêm Đen",
@@ -104,8 +104,8 @@
         "Guardian Sword": "Đoản Kiếm Hộ Vệ",
         "Helios Cleaver": "Đoản Kiếm Helios",
         "Hollow Mirage": "Kính Hoa Thủy Nguyệt",
-        "Jinzhou Keeper": "Jinzhou Keeper",
-        "Legend of Drunken Hero": "Legend of Drunken Hero",
+        "Jinzhou Keeper": "Thủ Hộ Jinzhou",
+        "Legend of Drunken Hero": "Truyền Thuyết Tửu Hiệp",
         "Lethean Elegy": "Lethean Elegy",
         "Lunar Cutter": "Nguyệt Đao",
         "Lumingloss": "Minh Đao",
@@ -114,14 +114,14 @@
         "Marcato": "Marcato",
         "Meditations on Mercy": "Suy Niệm Về Đức Khoan Dung",
         "Moongazer's Sigil": "Moongazer's Sigil",
-        "Novaburst": "Novaburst",
+        "Novaburst": "Tân Tinh Bùng Nổ",
         "Ocean's Gift": "Món Quà Biển Khơi",
         "Originite: Type I": "Mẫu thử: Loại I",
         "Originite: Type II": "Mẫu thử: Loại II",
         "Originite: Type III": "Mẫu thử: Loại III",
         "Originite: Type IV": "Mẫu thử: Loại IV",
         "Originite: Type V": "Mẫu thử: Loại V",
-        "Overture": "Overture",
+        "Overture": "Khúc Nhạc Dạo",
         "Pistols of Night": "Súng ngắn Đêm Đen",
         "Pistols of Voyager": "Súng lục của Nhà Du hành",
         "Pistols#26": "Súng ngắn mẫu 26",
@@ -174,8 +174,8 @@
       },
       "banners": {
         "Featured Resonator": "Nhân Vật Giới Hạn",
-        "Featured Weapon": "Vũ Khí Giới Hạn",
         "Featured Character": "Nhân Vật Giới Hạn",
+        "Featured Weapon": "Vũ Khí Giới Hạn",
         "Permanent Resonator": "Nhân Vật Tiêu Chuẩn",
         "Permanent Weapon": "Vũ Khí Tiêu Chuẩn",
         "Novice Convene": "Banner Tân thủ",
@@ -183,7 +183,7 @@
         "Selector Ticket": "Vé Chọn Nhân Vật",
         "Tidal Chorus": "Điệp Khúc Dòng Triều",
         "Winter Brume": "Sương Giá Ngày Đông",
-        "Utterance of Marvels": "Utterance of Marvels",
+        "Utterance of Marvels": "Kỳ Quan Vọng",
         "Beginner's Choice Convene": "Banner Tự chọn Cho Tân thủ",
         "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn"
       }
@@ -218,10 +218,19 @@
         "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
         "files_has_oversize_limit_num": "Một số file vượt quá giới hạn kích thước {num}MB.",
         "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
-        "planner_insufficient_materials": "Nguyên liệu không phù hợp."
+        "planner_insufficient_materials": "Nguyên liệu không phù hợp.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "Đang cố gắng kết nối đến Google Drive",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Đăng nhập để đồng bộ",
         "loading": "Đang tải...",
         "import_loading": "Đang nhập lịch sử gacha...",
@@ -241,12 +250,18 @@
         "nothing_to_sync": "Hiện không có dữ liệu để đồng bộ.",
         "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
         "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
-        "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}."
+        "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "Nhập lịch sử thành tựu thành công.",
         "successfully_imported_gacha_records": "Nhập lịch sử gacha thành công.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Nhập hồ sơ người dùng thành công.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "Đang chuyển hướng tới với tracker.",
         "create_profile": "Tạo thành công hồ sơ của {playerId}.",
         "delete_pulls": "Xóa thành công lịch sử Triệu hồi của {playerId}.",
@@ -256,7 +271,8 @@
         "sync_success": "Đồng bộ hoàn tất.",
         "sync_success_updated_remote_file": "Đã cập nhật bản sao từ xa của {fileName}.",
         "planner_successfully_completed_plan_for_name": "Hoàn tất kế hoạch cho {name}!",
-        "planner_successfully_created_plan_for_name": "Tạo kế hoạch cho {name} thành công."
+        "planner_successfully_created_plan_for_name": "Tạo kế hoạch cho {name} thành công.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "Thao tác này không thể hoàn tác!",
@@ -336,7 +352,7 @@
         "July": "Tháng 7",
         "August": "Tháng 8",
         "September": "Tháng 9",
-        "October": "",
+        "October": "October",
         "November": "Tháng 11",
         "December": "Tháng 12"
       },
@@ -366,8 +382,6 @@
       "local_data": "Dữ liệu cục bộ",
       "google_drive": "Google Drive",
       "from_file": "Từ Tệp",
-      "tutorial_video": "Video hướng dẫn",
-      "tutorial_video_description": "Hãy làm theo video hướng dẫn từng bước này của <link></link>.",
       "edit_on_github": "Chỉnh sửa trang này trên GitHub",
       "social_discord_cta": "Tham gia máy chủ Discord của chúng tôi",
       "social_x_cta": "Theo dõi chúng tôi trên X",
@@ -408,7 +422,14 @@
       "planner": "Kế hoạch",
       "owned_num": "Đã có: {num}",
       "owned": "Đã sở hữu",
-      "required_num": "Yêu cầu: {num}"
+      "required_num": "Yêu cầu: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -485,71 +506,63 @@
       "pulls_per_rarity_description": "Xem tổng Pity",
       "pulls_per_item_description": "Xem lượt Triệu hồi/Vật Phẩm"
     },
-    "dashboard": {
-      "title": "Bảng điều khiển",
-      "stay_focused_rover": "Tập trung nào Rover.",
-      "welcome_rover": "Xin chào, Rover ~",
-      "let_us_get_started": "Chúng ta bắt đầu thôi, được chứ?",
-      "your_data_will_now_sync": "Dữ liệu sẽ được đồng bộ hóa theo yêu cầu!",
-      "feature_header": "Wuwa Tracker giúp bạn theo dõi <span></span>",
-      "greeting": {
-        "words": {
-          "pulls": "lượt quay",
-          "pity": "pity",
-          "events": "sự kiện",
-          "statistics": "thống kê",
-          "data": "dữ liệu",
-          "updates": "cập nhật"
-        },
-        "description": "Một bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu cập nhật với số liệu thống kê toàn cầu và hơn thế nữa. Chúng tôi mong muốn cung cấp những công cụ tốt nhất để giới thiệu tiến trình Wuthering Waves của bạn với bạn bè."
-      },
-      "changelog": {
-        "title": "Những thay đổi"
-      },
-      "about": {
-        "title": "Về chúng tôi",
-        "what_is_wuwatracker": "WuWa Tracker là cái quéo gì vậy?"
-      },
-      "credits": {
-        "title": "Xin cảm ơn",
-        "heading": "Lời cảm ơn & Đóng góp",
-        "heading_description": "Trang web này đã được thực hiện nhờ tất cả những người tuyệt vời này. Nếu tên của bạn không được liệt kê ở đây hoặc bạn muốn được xóa, vui lòng liên hệ với chúng tôi.",
-        "special_thanks": "Đặc biệt cảm ơn"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "Gửi lịch sử triệu hồi cho thống kê toàn cầu",
-      "create_profile_dialog": "Bạn chưa có hồ sơ web",
-      "create_profile_dialog_description": " Chúng tôi sẽ hỗ trợ bạn thiết lập tài khoản để sao lưu dữ liệu",
-      "active_profile_delete_pulls": "Xóa dữ liệu triệu hồi của Hồ sơ đang hoạt động",
-      "active_profile_delete_pulls_description": "Điều này sẽ xóa vĩnh viễn TOÀN BỘ dữ liệu triệu hồi liên quan đến UID {playerId}. Hãy sao lưu dữ liệu của bạn trước và tiến hành một cách thận trọng.",
-      "active_profile_delete_pulls_confirm": "Bạn có chắc muốn xóa TẤT CẢ dữ liệu triệu hồi của UID {playerId} không?",
-      "not_responsible_undone_disclaimer": "Bằng cách thực hiện, bạn thừa nhận rằng chúng tôi không chịu trách nhiệm cho dữ liệu của bạn. Hành động này là một chiều và chúng tôi không thể hoàn tác!",
-      "all_profiles_delete": "Xóa TẤT CẢ các hồ sơ người chơi",
-      "all_profiles_delete_description": "Điều này sẽ xóa vĩnh viễn TẤT CẢ các hồ sơ người chơi. Điều này đã được tạo ra cho mục đích thử nghiệm. Vui lòng sao lưu dữ liệu của bạn trước và tiến hành thận trọng.",
-      "all_profiles_delete_confirm": "Bạn có chắc muốn xóa TẤT CẢ hồ sơ người dùng của bản thân không?",
-      "privacy_description": "Bật hoặc tắt các cài đặt liên quan đến quyền riêng tư dữ liệu của bạn",
-      "privacy_global_stats": "Đóng góp cho số liệu thống kê toàn cầu",
-      "privacy_global_stats_description": "Khi được bật, chúng tôi sẽ sử dụng Đường dẫn Triệu hồi của bạn để kiểm tra số liệu thống kê toàn cầu",
-      "privacy_footer_policy_link": "<link>Chính sách quyền riêng tư</link> của chúng tôi có nhiều chi tiết hơn về cách chúng tôi xử lý dữ liệu của bạn.",
-      "import_user_profile": "Nhập Hồ sơ người chơi",
-      "import_user_profile_dialog_description": "LƯU Ý: Chỉ chấp nhận các tệp <code></code> với thành tích, túi đồ và dữ liệu kế hoạch. Sử dụng nút nhập khác nếu bạn muốn nhập dữ liệu Triệu hồi.",
-      "user_profile": "Hồ sơ Người chơi",
-      "user_profile_description": "Chọn hồ sơ hoạt động của bạn cho các thành tích, vật phẩm và lịch sử triệu hồi",
-      "sync_tooltips": "Đồng bộ Chú giải công cụ",
-      "sync_tooltips_description": "Hiển thị nhiều chú thích công cụ cho biết trạng thái đồng bộ hiện tại và mọi cập nhật có liên quan.",
-      "pull_history": "Dữ liệu Lịch sử Triệu hồi",
-      "pull_history_description": "Tải lên/xuống dữ liệu cục bộ của bạn bằng Google hoặc ở thiết bị của bạn",
-      "saves_your_pulls_to_google": "Lưu những lần triệu hồi của bạn lên Google",
-      "overwrite_google_drive_data": "Bạn có muốn ghi đè dữ liệu Google Drive của mình không?",
-      "overwrite_google_drive_data_description": "Tải dữ liệu của bạn sẽ ghi đè dữ liệu Google Drive của bạn bằng dữ liệu cục bộ của bạn. Chúng tôi khuyên bạn nên tải xuống một bản sao trước.",
-      "pulls_file_import_dialog_title": "Nhập dữ liệu Triệu hồi Cục bộ",
-      "pulls_file_import_dialog_description": "Lưu ý: Hiện tại chúng tôi chỉ cho phép các Triệu Hồi theo định dạng mới. Đến trang <link>nhập dữ liệu cũ</link> nếu bạn muốn nhập các dữ liệu cũ được tạo trước <code></code>.",
-      "sync_preferences": "Thiết lập đồng bộ",
-      "sync_preferences_description": "Bật hoặc tắt tính năng tự động đồng bộ Google Drive với dữ liệu của bạn",
-      "sync_preferences_profile_description": "Hồ sơ chứa dữ liệu KHÔNG-PHẢI-TRIỆU-HỒI, ví dụ như Thành tựu, Vật phẩm và các tính năng website khác.",
-      "you_can_manually_sync_reminder": "Bạn có thể tự đồng bộ thủ công bằng cách nhấn vào nút <code>Trigger Sync</code> ở Menu Hồ sơ.",
-      "backup_reminder": "Đã hơn một tháng kể từ lần sao lưu cuối cùng của bạn. tải xuống ngay nhé?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "Dữ liệu",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "Nâng cao",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
@@ -562,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "Hãy làm theo Video hướng dẫn",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "Thời gian hết hạn của đường dẫn",
       "logs_not_updating_alert_description": "Kể từ ngày 14 tháng 1 năm 2025, người dùng PC đã gặp vấn đề về ghi nhật ký với trò chơi của họ do một bản cập nhật bị nghi ngờ từ Kuro Games. Đọc </link>hướng dẫn khắc phục</link> của chúng tôi để gỡ lỗi.",
       "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
@@ -570,7 +591,6 @@
       "powershell_script_disclaimer": "Ghi chú: Đoạn script không chỉnh sửa file của bạn, nó đơn giản chỉ là trích xuất đường dẫn Lịch sử Triệu Hồi từ log. Bạn có thể <link>xem đoạn script ở đây</link>.",
       "paste_the_url_here": "Dán URL vào đây",
       "paste_the_json_here": "Dán JSON vào đây",
-      "press_the_import_history_button": "Bấm vào nút \"Nhập Lịch sử Triệu hồi\" trên website",
       "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
       "go_to_installation_directory_description": "Chuột phải vào launcher của Wuthering Waves và chọn <code>Open file location</code>. Bạn sẽ thấy <code>launcher.exe</code> và rất nhiều file <code>.dll</code>.",
       "search_for_log": "Tìm tệp <code>Client.log</code> và tải lên đây",
@@ -581,9 +601,15 @@
       "download_ascent_troubleshooting": "Nếu nó không hoạt động, hãy kiểm tra <link>hướng dẫn gỡ lỗi</link>.",
       "ios_follow_tutorial_video": "Hãy làm theo Video hướng dẫn",
       "ios_follow_tutorial_video_description": "Tương tự như lấy lịch sử triệu hồi trong Genshin Impact hoặc Honkai Star Rail, hãy làm theo video hướng dẫn để nhập dữ liệu trên iOS.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Nhấn nút <code>Options</code> trên cần điều khiển của bạn",
       "ps5_click_on_page_information": "Chọn vào <code>Page Information</code>",
-      "ps5_enter_your_record_id": "Nhập <code>player_id</code> và <code>record_id</code> của bạn tại đây"
+      "ps5_enter_your_record_id": "Nhập <code>player_id</code> và <code>record_id</code> của bạn tại đây",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "Kế hoạch mới",
@@ -612,6 +638,15 @@
         "Weapon and Skill Material": "Nguyên liệu cho Vũ Khí và Kĩ Năng",
         "Weapon EXP Material": "Nguyên liệu Tăng cấp cho Vũ Khí"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -620,6 +655,7 @@
     },
     "achievements": {
       "title": "Thành Tựu",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "Theo dõi thành tựu của bạn trong Wuthering Waves và nhập/xuất dữ liệu tự do qua các thiết bị! Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "tracker": {
@@ -641,11 +677,8 @@
     },
     "import": {
       "title": "Nhập Lịch sử Triệu Hồi",
-      "description": "Theo hướng dẫn tương tác của chúng tôi để hiển thị dữ liệu Wuthering Waves và xem thống kê của bạn. Chúng tôi hỗ trợ nhập từ các thiết bị PC, Android và iOS với các phương pháp tự động. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!",
-      "legacy": {
-        "title": "Hướng dẫn nhập các dữ liệu cũ",
-        "description": "Nếu bạn đã sử dụng website của chúng tôi từ trước đó và không tìm thấy dữ liệu triệu hồi ở website mới, bạn nên theo dõi hướng dẫn tại đây để nhập lại các dữ liệu cũ của mình!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "Theo hướng dẫn tương tác của chúng tôi để hiển thị dữ liệu Wuthering Waves và xem thống kê của bạn. Chúng tôi hỗ trợ nhập từ các thiết bị PC, Android và iOS với các phương pháp tự động. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "not_found": {
       "title": "Không tìm thấy",
@@ -657,6 +690,7 @@
     },
     "settings": {
       "title": "Cài đặt",
+      "page_header": "Manage your site preferences and data here",
       "description": "Đồng bộ hóa dữ liệu qua Google bằng cách đăng nhập. Quản lý dữ liệu rút thăm Wuthering Waves tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "terms_and_conditions": {
@@ -669,6 +703,7 @@
     },
     "timeline": {
       "title": "Dòng thời gian sự kiện",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Sử dụng múi giờ địa phương của bạn hoặc bất kỳ múi giờ máy chủ Wuthering Waves nào để xem lịch biểu của từng biểu ngữ, các sự kiện trong trò chơi, Tower of Adversity & Depths of Illusive Realm - tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "wiki": {
@@ -692,6 +727,41 @@
     "support": {
       "title": "Hỗ trợ",
       "description": "Cần hỗ trợ trong việc tải xuống dữ liệu triệu hồi của Wuthering Waves? Bạn muốn biết WuWa Tracker sử dụng dữ liệu của bạn như thế nào? Hãy xem phần Câu hỏi thường gặp của WuWa Tracker ở đây!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "Thống Kê Toàn Cầu",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "Vũ khí",
+      "Items": "Vật phẩm",
+      "Tools": "Công cụ",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Kế hoạch bồi dưỡng nhân vật",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "Trạng thái Hệ thống",
+        "Help Translate": "Hỗ trợ dịch thuật",
+        "Privacy Policy": "Chính sách bảo mật",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Bất Đồng",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "Cộng đồng"
+      }
     }
   }
 }
