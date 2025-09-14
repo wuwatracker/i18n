@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Karakterek",
-        "description": "Nézd meg a Wuthering Waves karakter információit, és használd a WuWa Tracker alapanyag tervezőjét a karakter-fejlesztések megtervezéséhez. WuWa Tracker kívánság számláló a Wuthering Waves számára, a naprakész adatok felhasználásával, globális statisztikákkal és egyebekkel. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!"
+        "description": "Nézd meg a Wuthering Waves karakter információit, és használd a WuWa Tracker alapanyag tervezőjét a karakter-fejlesztések megtervezéséhez. WuWa Tracker kívánság számláló a Wuthering Waves számára, a naprakész adatok felhasználásával, globális statisztikákkal és egyebekkel. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Eszközök",
-        "description": "Nézd meg a Wuthering Waves teszközinformációkat, a leadási helyeket, és kövesd a készletedet - mindezt egy helyen. WuWa Tracker kívánság számláló Wuthering Waves számára, a naprakész adatok felhasználásával globális statisztikák és több. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!"
+        "description": "Nézd meg a Wuthering Waves teszközinformációkat, a leadási helyeket, és kövesd a készletedet - mindezt egy helyen. WuWa Tracker kívánság számláló Wuthering Waves számára, a naprakész adatok felhasználásával globális statisztikák és több. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Fegyverek",
-        "description": "Nézd meg a Wuthering Waves fegyver információkat, a leadási helyeket, és kövesd a készletedet - mindezt egy helyen. WuWa Tracker kívánság számláló Wuthering Waves számára, a naprakész adatok felhasználásával globális statisztikák és több. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!"
+        "description": "Nézd meg a Wuthering Waves fegyver információkat, a leadási helyeket, és kövesd a készletedet - mindezt egy helyen. WuWa Tracker kívánság számláló Wuthering Waves számára, a naprakész adatok felhasználásával globális statisztikák és több. Oszd meg a húzásaidat barátaiddal, és kövesd a fiókodat!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
