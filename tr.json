@@ -429,7 +429,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "Kayıt Dosyasını İndir"
     }
   },
   "feature": {
@@ -525,7 +525,11 @@
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -640,13 +644,13 @@
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
-      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "hero_heading": "Wuthering Waves'e Dair Her Şey",
+      "hero_subheading": "WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel kaynakları kullanan yardımcı bir uygulamadır. Oyun deneyimini geliştirmek için çeşitli araçlarımızı kullan!",
+      "hero_cta_button": "Hemen başla",
+      "keep_up_with_the_latest_news": "Son haberleri kaçırma",
+      "quick_links": "Hızlı Erişim Menüsü",
+      "quick_links_description": "Önemli sayfa ve özellikleri hızlıca eriş",
+      "the_curent_events_and_activities": "Güncel etkinliker ve aktiviteler"
     }
   },
   "metadata": {
@@ -732,37 +736,37 @@
       "description": "Wuthering Waves çağrı verilerini yüklemede yardıma mı ihtiyacın var? Wuwa Tracker bilgilerini nasıl kullanıyor öğrenmek mi istiyorsun? Buradan WuWa Tracker'in SSS'ine göz at!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "Makaleler",
+      "description": "Wuthering Waves ile ilgili kılavuzları, ipuçlarını, haberleri, duyuruları ve daha fazlasını içeren makaleleri oku!"
     }
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
+      "Tracker": "Takip Sistemi",
       "Import Pulls": "Çağrıları İçe Aktar",
       "Global Statistics": "Küresel İstatistikler",
       "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Characters": "Rezonatörler",
       "Weapons": "Silahlar",
       "Items": "Eşyalar",
       "Tools": "Aletler",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "Başarım Takip Sistemi",
       "Ascension Planner": "Geliştirme Planlayıcısı",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "Etkinlikler",
+      "Articles": "Makaleler",
+      "Old Site": "Eski Site"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "Bizimle İletişime Geç",
         "System Status": "Sistem Durumu",
         "Help Translate": "Çevirmeye Yardım Et",
         "Privacy Policy": "Gizlilik Politikası",
-        "Terms of Service": "Terms of Service",
+        "Terms of Service": "Kullanım Koşulları",
         "Discord": "Discord",
         "GitHub": "GitHub",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Company": "Şirket",
+        "Resources": "Kaynaklar",
         "Community": "Topluluk"
       }
     }
