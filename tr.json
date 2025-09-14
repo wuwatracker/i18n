@@ -11,7 +11,7 @@
       "item": "Öğe",
       "pity": "Pity",
       "rarity": "Nadirlik",
-      "date_received": "Elde Edilen Tarih",
+      "date_received": "Elde Ettiğin Tarih",
       "recent_convenes": "Yakın Zamanda Elde Ettiklerin",
       "resonator": "Rezonatör",
       "weapon": "Silah"
@@ -174,6 +174,7 @@
       },
       "banners": {
         "Featured Resonator": "Öne Çıkan Rezonatör",
+        "Featured Character": "Öne Çıkan Rezonatör",
         "Featured Weapon": "Öne Çıkan Silah",
         "Permanent Resonator": "Kalıcı Rezonatör",
         "Permanent Weapon": "Kalıcı Silah",
@@ -217,10 +218,19 @@
         "files_max_upload_num": "En fazla {num} dosya yükleyebilirsin.",
         "files_has_oversize_limit_num": "Bazı dosyalar {num}MB olan limiti aşıyor.",
         "inventory_item_does_not_exist": "Öyle bir öğe yok!",
-        "planner_insufficient_materials": "Yetersiz materyal."
+        "planner_insufficient_materials": "Yetersiz materyal.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "Google Drive'a bağlanmaya çalışıyoruz",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Eşitlemek için kayıt ol",
         "loading": "Yükleniyor...",
         "import_loading": "Gacha kayıtları içe aktarılıyor...",
@@ -240,12 +250,18 @@
         "nothing_to_sync": "Şuan eşitlenecek birşey yok.",
         "sync_creating_file_in_google": "Google Drive'da {fileName} oluşturuluyor...",
         "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor...",
-        "planner_edited_plan_for_name": "{name} için düzenlendi."
+        "planner_edited_plan_for_name": "{name} için düzenlendi.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "Başırımlarınız başarılı bir şekilde içe aktarıldı.",
         "successfully_imported_gacha_records": "Gacha kayıtlarınız başarılı bir şekilde içe aktarıldı.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Kullanıcı profilin başarılı bir şekilde içe aktarıldı.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "Takip sistemine aktarılıyorsun.",
         "create_profile": "{playerId} için başarılı bir şekilde profil oluşturuldu.",
         "delete_pulls": "{playerId} için başarılı bir şekilde tüm çağrılar silindi.",
@@ -255,7 +271,8 @@
         "sync_success": "Eşitleme başarılı.",
         "sync_success_updated_remote_file": "{fileName} için sunucudaki kopyanız güncellendi.",
         "planner_successfully_completed_plan_for_name": "{name} planı başarılı bir şekilde tamamlandı!",
-        "planner_successfully_created_plan_for_name": "{name} planı başarılı bir şekilde oluşturuldu."
+        "planner_successfully_created_plan_for_name": "{name} planı başarılı bir şekilde oluşturuldu.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "Bu eylem geri alınamaz!",
@@ -365,8 +382,6 @@
       "local_data": "Yerel Veri",
       "google_drive": "Google Drive",
       "from_file": "Dosyadan",
-      "tutorial_video": "Öğretici Video",
-      "tutorial_video_description": "<link></link> tarafından sunulan öğretici videosunu buradan izle.",
       "edit_on_github": "Bu sayfayı GitHub üzerinden düzenle",
       "social_discord_cta": "Discord Sunucumuza Katıl",
       "social_x_cta": "Bizi X(Twitter)'den Takip Et",
@@ -407,7 +422,14 @@
       "planner": "Geliştirme Planlayıcısı",
       "owned_num": "Sahip Olduğun: {num}",
       "owned": "Sahip Olduğun",
-      "required_num": "Gereken: {num}"
+      "required_num": "Gereken: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -477,78 +499,70 @@
       "rarity_pulls_per_pity_description": "Pity sayısına göre öğe dağılımı grafiği",
       "banner_summary_title": "Banner Özeti",
       "banner_summary_description": "İstatistiklerine bakmak için bir banner seç.",
-      "view_your_statistics_responsive": "İstatistiklerini <span> Görüntüle</span>",
+      "view_your_statistics_responsive": "İstatistiklerini <span>Görüntüle</span>",
       "pulls_per_day": "Günlere Göre Çağrı Sayısı",
       "pulls_per_day_description": "Günlere göre çağrı sayısı ve nadirlik dağılımı grafiği",
       "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
       "pulls_per_rarity_description": "Nadirlik dağılımı grafiği",
       "pulls_per_item_description": "Öğe başına düşen çağrı sayıları ve oranları"
     },
-    "dashboard": {
-      "title": "Kontrol Paneli",
-      "stay_focused_rover": "Rover napıyorsun 😳",
-      "welcome_rover": "Hoş Geldin, Rover.",
-      "let_us_get_started": "Başlayalım mı?",
-      "your_data_will_now_sync": "Verileriniz istek üzerine eşitlenecek!",
-      "feature_header": "WuWa Tracker şunları takip etmene yardım eder: <span></span>",
-      "greeting": {
-        "words": {
-          "pulls": "çağrılar",
-          "pity": "pity",
-          "events": "etkinlikler",
-          "statistics": "istatistikler",
-          "data": "verilerin",
-          "updates": "güncellemeler"
-        },
-        "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacı. Wuthering Waves ilerlemenizi arkadaşlarınıza göstermeniz için en iyi araçları sağlamayı amaçlıyoruz."
-      },
-      "changelog": {
-        "title": "Güncellemeler"
-      },
-      "about": {
-        "title": "Hakkında",
-        "what_is_wuwatracker": "WuWa Tracker nedir?"
-      },
-      "credits": {
-        "title": "Emeği Geçenler",
-        "heading": "Emeği Geçenler & Atıflar",
-        "heading_description": "WuWa Tracker, buradaki tüm harika kişiler sayesinde mümkün oldu. Eğer ismin burada değilse veya isminin buradan kaldırılmasını istiyorsan lütfen bizimle iletişime geç.",
-        "special_thanks": "Özel Teşekkürler"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "Küresel istatistiklerin büyümesi için çağrı verilerini bağışla (Lütfenn~ 👉👈)",
-      "create_profile_dialog": "Henüz bir site profiliniz yok",
-      "create_profile_dialog_description": " Bir tane oluşturmada yardımcı olacağız, bu sayede verilerini kaydedebileceğiz",
-      "active_profile_delete_pulls": "Aktif Profil için Çağrı Verilerini Sil",
-      "active_profile_delete_pulls_description": "Bu seçenek {playerId} ile alakalı TÜM çağrıları siler. Lütfen verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
-      "active_profile_delete_pulls_confirm": "{playerId} için TÜM çağrıları silmek istediğine emin misin?",
-      "not_responsible_undone_disclaimer": "Devam ederek verilerinden bizim sorumlu olmadığımızı kabul ediyorsun. Bu eylem geri alınamaz!",
-      "all_profiles_delete": "TÜM Kullanıcı Profillerini Sil",
-      "all_profiles_delete_description": "Bu seçenek TÜM kullanıcı profillerini kalıcı olarak siler. Lütfen tüm verilerini yedekle ve ne yaptığını bilmiyorsan dokunma.",
-      "all_profiles_delete_confirm": "TÜM kullanıcı profillerini silmek istediğinden emin misin?",
-      "privacy_description": "Veri gizliliğiniz ile ilgili ayarları etkinleştirme veya devre dışı bırakma",
-      "privacy_global_stats": "Küresel İstatistiklere Katkıda Bulun",
-      "privacy_global_stats_description": "Etkinleştirildiğinde, senin Buluşma URL'ni kullanarak küresel istatistikleri genişleteceğiz",
-      "privacy_footer_policy_link": "<link>Gizlilik Politikamız</link> bilgilerini nasıl işlediğimize dair daha fazla detaya sahip.",
-      "import_user_profile": "Kullanıcı Profilini İçe Aktar",
-      "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece içerisinde başarımlarını, eşyalarını ve planlarını barındıran <code></code> dosyasını kabul eder. Çağrı geçmişini içe aktarmak istiyorsan diğer seçeneği kullanmalısın.",
-      "user_profile": "Kullanıcı Profili",
-      "user_profile_description": "Başarımlar, eşyalar ve çağrı takip sistemi için aktif profilini seç",
-      "sync_tooltips": "Eşitleme İpuçları",
-      "sync_tooltips_description": "Mevcut eşitleme durumunu ve yeni güncellemeleri içeren çeşitli ipuçlarını göster.",
-      "pull_history": "Çağrı Geçmişi Verileri",
-      "pull_history_description": "Verilerini, Google veya yerel cihazın aracılığı ile yükle & indir",
-      "saves_your_pulls_to_google": "Çağrılarını Google'a kayıt eder",
-      "overwrite_google_drive_data": "Google Drive'daki verilerinin üzerine yazmak ister misin?",
-      "overwrite_google_drive_data_description": "Verilerini yüklemek, Google Drive'daki verilerinin üzerine yerel cihazındaki verileri yazacak. İlk önce verilerinin bir kopyasını cihazına indirmeni öneririz.",
-      "pulls_file_import_dialog_title": "Yerel Çağrıları İçe Aktar",
-      "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni biçimdeki çağrıları kabul eder. <code></code> 'dan önceki verileri içe aktarmak istiyorsan <link>Eski Çağrıları İçe Aktarma</link> sekmesini ziyaret et.",
-      "sync_preferences": "Eşitleme Tercihleri",
-      "sync_preferences_description": "Verilerinin otomatik olarak Google Drive'a eşitlenmesini etkinleştirme veya devre dışı bırakma",
-      "sync_preferences_profile_description": "Profiller, ÇAĞRI HARİCİ verileri içerir; başarımlar, öğeler ve diğer site özellikleri gibi.",
-      "you_can_manually_sync_reminder": "Profil menüsündeki <code>Eşitle</code> tuşu ile manuel olarak verilerini eşitleyebilirsin.",
-      "backup_reminder": "Verilerini, cihazına son yedeklemenin üzerinden bir aydan fazla geçti! Şimdi indirmek ister misin?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "Veri",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "Gelişmiş",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
@@ -561,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "Öğretici videomuzu takip et",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "URL Son Kullanma Tarihi",
       "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı, 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
@@ -569,20 +591,25 @@
       "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metni <link>buradan</link> görebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
-      "press_the_import_history_button": "Sitedeki ''Geçmişi İçe Aktar'' tuşuna bas",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
       "go_to_installation_directory_description": "Wuthering Waves Game Launcher'a sağ tıkla ve <code>Dosya konumunu aç</code> 'a tıkla. Orada <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görüyor olmalısın.",
       "search_for_log": "<code>Client.log</code> 'u arat ve buraya yükle",
-      "airplane_mode": "Uçak Modu",
+      "airplane_mode": "Airplane",
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
       "download_ascent_description": "<ascent>Ascent v2.1.6</ascent> 'yı indirip kullanmak ve URL'ni elde etmek için, Genshin İmpact veya Honkai Star Rail'de geçmişini elde etmeye benzer bir şekilde, <link>Mirai0999 tarafından yapılmış rehber</link> 'deki adımları izle.",
       "download_ascent_disclaimer": "NOT: Bu yöntem sadece Android 11 ve üstü modellerde geçerlidir.",
       "download_ascent_troubleshooting": "Eğer düzgün çalışmıyorsa <link>Sorun-Çözüm bölümü</link> 'ne bak.",
       "ios_follow_tutorial_video": "Öğretici videomuzu takip et",
       "ios_follow_tutorial_video_description": "İOS'da, Honkai Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici videosundaki adımları takip et.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Oyun kolundaki <code>Ayarlar</code> düğmesine bas",
       "ps5_click_on_page_information": "<code>Sayfa Hakkında</code> seçeneğine tıkla",
-      "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya yaz"
+      "ps5_enter_your_record_id": "<code>player_id</code> 'ni ve <code>record_id</code> 'ni buraya yaz",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "Yeni Plan",
@@ -611,6 +638,15 @@
         "Weapon and Skill Material": "Silah ve Yetenek Malzemeleri",
         "Weapon EXP Material": "Silah EXP Malzemeleri"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -619,6 +655,7 @@
     },
     "achievements": {
       "title": "Başarımlar",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "Wuthering Waves başarımlarını takip et ve verilerini cihazlar arası özgürce içe & dışa aktar! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağırılarını akradaşların ile paylaş ve hesabını takip et!"
     },
     "tracker": {
@@ -640,11 +677,8 @@
     },
     "import": {
       "title": "Çağrıları İçe Aktar",
-      "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!",
-      "legacy": {
-        "title": "Eski Çağrıları İçe Aktarma",
-        "description": "Eğer sitemizi önceden kullandıysan ve yeni sitemizde çağrı verilerini bulamıyorsan, buradan legacy içe aktarma rehberimizi izlemelisin!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "Wuthering Waves verilerinizi ve istatistiklerinizi görüntülemek için interaktif öğreticimizi izleyin. Otomatik yöntemlerle PC, Android ve iOS cihazlardan içe aktarımları destekliyoruz. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir dilek sayacıdır. Elde ettiklerinizi arkadaşlarınızla paylaşın ve hesabınızdaki değişiklikleri takip edin!"
     },
     "not_found": {
       "title": "Bulunamadı",
@@ -656,6 +690,7 @@
     },
     "settings": {
       "title": "Ayarlar",
+      "page_header": "Manage your site preferences and data here",
       "description": "Oturum açarak verilerinizi Google üzerinden senkronize edin. Wuthering Waves çağrı verilerinizi tek bir yerden yönetin. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "terms_and_conditions": {
@@ -668,6 +703,7 @@
     },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Yerel veya herhangi bir Wuthering Waves sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyun içi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "wiki": {
@@ -691,6 +727,41 @@
     "support": {
       "title": "Destek",
       "description": "Wuthering Waves çağrı verilerini yüklemede yardıma mı ihtiyacın var? Wuwa Tracker bilgilerini nasıl kullanıyor öğrenmek mi istiyorsun? Buradan WuWa Tracker'in SSS'ine göz at!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "Küresel İstatistikler",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "Silahlar",
+      "Items": "Eşyalar",
+      "Tools": "Aletler",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Geliştirme Planlayıcısı",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "Sistem Durumu",
+        "Help Translate": "Çevirmeye Yardım Et",
+        "Privacy Policy": "Gizlilik Politikası",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Discord",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "Topluluk"
+      }
     }
   }
 }
