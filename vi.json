@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Cộng Hưởng Giả",
-        "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!"
+        "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Vật phẩm",
-        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
+        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Vũ khí",
-        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
+        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
