@@ -5,7 +5,7 @@
       "convene_url": "Buluşma URL'si",
       "pulls": "Çağrı",
       "astrites": "Astrite",
-      "wuthering_waves": "Wuthering Wawes",
+      "wuthering_waves": "Wuthering Waves",
       "pull_history": "Çağrı Geçmişi",
       "pull_num": "Çağrı No.",
       "item": "Öğe",
@@ -20,7 +20,7 @@
       "import_data": "Verileri İçe Aktar",
       "import_data_description": "Daha önce dışa aktarılan verilerini kullan ve tarayınca kaydet",
       "banner_list": "Banner Listesi",
-      "no_pulls_yet": "Daha çağrı yapılmamış",
+      "no_pulls_yet": "Henüz çağrı yapılmamış",
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrı",
@@ -29,8 +29,8 @@
     },
     "name": {
       "items": {
-        "Rover-Havoc": "Gezgin-Havoc",
-        "Rover-Spectro": "Gezgin-Spectro",
+        "Rover-Havoc": "Rover-Havoc",
+        "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
         "Augusta": "Augusta",
@@ -47,7 +47,7 @@
         "Encore": "Encore",
         "Iuno": "Iuno",
         "Jianxin": "Jianxin",
-        "Jinhsi": "Jinshi",
+        "Jinhsi": "Jinhsi",
         "Jiyan": "Jiyan",
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
@@ -63,12 +63,12 @@
         "Yangyang": "Yangyang",
         "Yinlin": "Yinlin",
         "Yuanwu": "Yuanwu",
-        "Zhezhi": "Zhehi",
+        "Zhezhi": "Zhezhi",
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
         "Abyss Surges": "Abyss Surges",
-        "Aether Strike": "Aerher Strike",
+        "Aether Strike": "Aether Strike",
         "Ages of Harvest": "Ages of Harvest",
         "Amity Accord": "Amity Accord",
         "Aureate Zenith": "Aureate Zenith",
@@ -82,7 +82,7 @@
         "Broadblade#41": "Broadblade#41",
         "Cadenza": "Cadenza",
         "Call of the Abyss": "Call of the Abyss",
-        "Cantarella": "Çanta",
+        "Cantarella": "Cantarella",
         "Celestial Spiral": "Celestial Spiral",
         "Commando of Conviction": "Commando of Conviction",
         "Comet Flare": "Comet Flare",
@@ -181,9 +181,9 @@
         "Novice Convene": "Acemi Buluşması",
         "Beginner's Choice": "Acemi'nin Seçimi",
         "Selector Ticket": "Seçme Bileti",
-        "Tidal Chorus": "Gelgit Korosu",
-        "Winter Brume": "Kış Sisi",
-        "Utterance of Marvels": "Mucizelerin Anlatısı",
+        "Tidal Chorus": "Tidal Chorus",
+        "Winter Brume": "Winter Brume",
+        "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Acemi'nin Seçimi Buluşması",
         "Giveback Event Convene": "Hediye Etkinliği Buluşması"
       }
@@ -211,7 +211,7 @@
         "no_pulls_to_download": "İndirilecek çağrı bulunamadı.",
         "need_to_upload_specific_file": "''{file}'' yüklemelisin!",
         "sync_no_pulls_to_upload": "Yüklenecek hiç çağrın yok.",
-        "sync_unavailable": "Şuan senkronize edemiyoruz.",
+        "sync_unavailable": "Şu an senkronize edemiyoruz.",
         "sync_no_remote_data_to_download": "Sunucuda indirilecek herhangi bir veriniz yok.",
         "incorrect_input_file_description": "Burası sadece YENİ çağrı formatını içe aktarmak için!",
         "files_no_upload": "Hiçbir dosya yüklenmedi.",
@@ -576,7 +576,7 @@
     },
     "import": {
       "select_a_method": "Select a method",
-      "tutorial_video": "Tutorial Video",
+      "tutorial_video": "Öğretici Video",
       "follow_our_video_tutorial": "Öğretici videomuzu takip et",
       "follow_our_video_tutorial_description": "This short video will guide you through the import process",
       "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
@@ -594,7 +594,7 @@
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
       "go_to_installation_directory_description": "Wuthering Waves Game Launcher'a sağ tıkla ve <code>Dosya konumunu aç</code> 'a tıkla. Orada <code>launcher.exe</code> 'yi ve bir sürü <code>.dll</code> dosyalarını görüyor olmalısın.",
       "search_for_log": "<code>Client.log</code> 'u arat ve buraya yükle",
-      "airplane_mode": "Airplane",
+      "airplane_mode": "Uçak Modu",
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
       "download_ascent_description": "<ascent>Ascent v2.1.6</ascent> 'yı indirip kullanmak ve URL'ni elde etmek için, Genshin İmpact veya Honkai Star Rail'de geçmişini elde etmeye benzer bir şekilde, <link>Mirai0999 tarafından yapılmış rehber</link> 'deki adımları izle.",
       "download_ascent_disclaimer": "NOT: Bu yöntem sadece Android 11 ve üstü modellerde geçerlidir.",
@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Rezonatörler",
-        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Eşyalar",
-        "description": "Wuthering Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Silahlar",
-        "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
+        "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
@@ -736,7 +739,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Import Pulls": "Çağrıları İçe Aktar",
       "Global Statistics": "Küresel İstatistikler",
       "Wiki": "Wiki",
       "Characters": "Characters",
