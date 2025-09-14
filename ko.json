@@ -174,6 +174,7 @@
       },
       "banners": {
         "Featured Resonator": "캐릭터 이벤트 튜닝",
+        "Featured Character": "캐릭터 이벤트 튜닝",
         "Featured Weapon": "무기 이벤트 튜닝",
         "Permanent Resonator": "캐릭터 레귤러 튜닝",
         "Permanent Weapon": "무기 레귤러 튜닝",
@@ -217,10 +218,19 @@
         "files_max_upload_num": "최대 {num}개의 파일만 업로드할 수 있습니다.\n",
         "files_has_oversize_limit_num": "일부 파일이 {num}MB의 크기 제한을 초과합니다.\n",
         "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
-        "planner_insufficient_materials": "재료가 부족합니다."
+        "planner_insufficient_materials": "재료가 부족합니다.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "구글 드라이브에 연결 시도중",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "동기화를 위해 로그인하세요",
         "loading": "로딩중...",
         "import_loading": "가챠 기록 제출하는중...",
@@ -240,12 +250,18 @@
         "nothing_to_sync": "현재 동기화할 것이 없습니다.\n",
         "sync_creating_file_in_google": "구글 드라이브에 {fileName}을 만드는 중...",
         "sync_updating_remote_file": "{fileName}의 원격 복사본을 업데이트중...",
-        "planner_edited_plan_for_name": "{name} 에 대한 계획을 편집했습니다."
+        "planner_edited_plan_for_name": "{name} 에 대한 계획을 편집했습니다.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "성공적으로 업적을 제출했습니다.",
         "successfully_imported_gacha_records": "성공적으로 가챠 기록을 제출했습니다.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "성공적으로 유저 프로필을 제출했습니다.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "트래커로 리디렉션 중입니다.",
         "create_profile": "성공적으로 {playerId}의 프로필을 생성했습니다.",
         "delete_pulls": "성공적으로 {playerId}의 모든 뽑기 기록을 삭제했습니다.",
@@ -255,7 +271,8 @@
         "sync_success": "동기화 성공.",
         "sync_success_updated_remote_file": "{fileName}의 원격 복사본을 업데이트했습니다.",
         "planner_successfully_completed_plan_for_name": "{name} 에 대한 계획이 성공적으로 완료되었습니다!\n",
-        "planner_successfully_created_plan_for_name": "{name} 에 대한 계획을 성공적으로 작성했습니다.\n"
+        "planner_successfully_created_plan_for_name": "{name} 에 대한 계획을 성공적으로 작성했습니다.\n",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "이 작업은 되돌릴 수 없습니다!",
@@ -365,8 +382,6 @@
       "local_data": "로컬 데이터",
       "google_drive": "구글 드라이브",
       "from_file": "파일에서",
-      "tutorial_video": "튜토리얼 영상",
-      "tutorial_video_description": "<link></link> 에서 제공하는 단계별 비디오 튜토리얼을 따라해보세요.",
       "edit_on_github": "GitHub에서 이 페이지를 편집하기",
       "social_discord_cta": "Discord 가입하기",
       "social_x_cta": "X 팔로우하기",
@@ -407,7 +422,14 @@
       "planner": "플래너",
       "owned_num": "보유중: {num}",
       "owned": "보유중",
-      "required_num": "필요: {num}"
+      "required_num": "필요: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -484,71 +506,63 @@
       "pulls_per_rarity_description": "희귀도 분포를 보여줍니다",
       "pulls_per_item_description": "항목 별 뽑은 횟수"
     },
-    "dashboard": {
-      "title": "대시보드",
-      "stay_focused_rover": "집중해요, 방랑자.",
-      "welcome_rover": "어서와요, 방랑자.",
-      "let_us_get_started": "어서오세요, 방랑자. 이제 시작하시겠어요?",
-      "your_data_will_now_sync": "이제 데이터가 요구에 따라 동기화됩니다!",
-      "feature_header": "WuWa Tracker helps you <span></span> track",
-      "greeting": {
-        "words": {
-          "pulls": "pulls",
-          "pity": "pity",
-          "events": "events",
-          "statistics": "statistics",
-          "data": "data",
-          "updates": "updates"
-        },
-        "description": "글로벌 통계 등이 포함된 최신 데이터를 사용한 명조: 워더링 웨이브 천장 카운터. 당신의 게임 진행 상황을 친구들에게 보여줄 수 있는 최고의 도구를 제공하는 것을 목표로 합니다."
-      },
-      "changelog": {
-        "title": "변경 사항"
-      },
-      "about": {
-        "title": "정보",
-        "what_is_wuwatracker": "WuWa Tracker 가 뭔가요?"
-      },
-      "credits": {
-        "title": "크레딧",
-        "heading": "크레딧 & 기여한 분들",
-        "heading_description": "이 웹사이트는 이 모든 뛰어난 분들 덕분에 만들어질 수 있었습니다. 여기에 이름이 등재되지 않았거나 삭제를 원하시는 분들은 저희에게 연락해 주세요.",
-        "special_thanks": "도움을 주신분들"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "글로벌 통계용으로 튜닝 데이터를 제공",
-      "create_profile_dialog": "아직 사이트 프로필이 없습니다",
-      "create_profile_dialog_description": " 데이터를 저장하기 위해 계정을 생성하도록 도와드리겠습니다.",
-      "active_profile_delete_pulls": "활성화 프로필의 뽑기 기록 삭제",
-      "active_profile_delete_pulls_description": "{playerId}와 관련된 \"모든\" 뽑기 기록이 영구적으로 삭제됩니다. 먼저 데이터를 백업하고 주의 깊게 진행해 주세요.",
-      "active_profile_delete_pulls_confirm": "{playerId}에 대한 모든 기록을 삭제하시겠습니까?",
-      "not_responsible_undone_disclaimer": "진행함으로써 우리는 당신의 데이터에 대해 책임이 없음을 인정합니다. 이 작업은 되돌릴 수 없습니다!",
-      "all_profiles_delete": "\"모든\" 유저 프로필 삭제",
-      "all_profiles_delete_description": "당신의 \"모든\" 유저 프로필이 영구적으로 삭제됩니다. 테스트 목적으로 만들어졌습니다. 먼저 데이터를 백업하고 주의 깊게 진행해 주세요.",
-      "all_profiles_delete_confirm": "정말 \"모든\" 유저 프로필을 삭제하시겠습니까?",
-      "privacy_description": "데이터 개인정보 보호와 관련된 동의 여부",
-      "privacy_global_stats": "글로벌 통계에 기여",
-      "privacy_global_stats_description": "활성화되면, 튜닝 URL을 사용하여 글로벌 통계를 집계합니다.",
-      "privacy_footer_policy_link": "당사의 <link>개인정보 보호정책</link>에는 당사가 귀하의 데이터를 처리하는 방법에 대한 자세한 내용이 나와 있습니다.",
-      "import_user_profile": "유저 프로필 제출",
-      "import_user_profile_dialog_description": "참고: 업적, 인벤토리 및 플래너 데이터가 포함된 <code></code> 파일만 허용됩니다. 가챠 데이터를 가져오고 싶다면 다른 가져오기 버튼을 사용하세요.",
-      "user_profile": "유저 프로필",
-      "user_profile_description": "업적, 아이템 및 튜닝 트래커에 대한 활성 프로필을 선택하세요",
-      "sync_tooltips": "동기화 툴팁",
-      "sync_tooltips_description": "현재 동기화 상태와 관련된 업데이트를 나타내는 다양한 툴팁을 보여줍니다.",
-      "pull_history": "뽑기 기록 데이터",
-      "pull_history_description": "구글 또는 로컬 디바이스를 통해 로컬 데이터를 업로드 & 다운로드하세요",
-      "saves_your_pulls_to_google": "구글에 뽑기 기록을 저장하세요",
-      "overwrite_google_drive_data": "구글 드라이브 데이터를 덮어쓰기 하시겠습니까?",
-      "overwrite_google_drive_data_description": "데이터를 업로드하는 것은 구글 드라이브 데이터와 로컬데이터를 덮어쓰기 할 것입니다. 먼저 복사본을 다운로드할 것을 추천합니다.",
-      "pulls_file_import_dialog_title": "로컬 튜닝 기록 가져오기",
-      "pulls_file_import_dialog_description": "참고: 이것은 새로운 형식의 기록만 허용합니다. <code></code> 이전에 만들어진 오래된 데이터를 가져오려면 <link>레거시 가져오기</link> 페이지를 방문하세요.",
-      "sync_preferences": "동기화 환경설정",
-      "sync_preferences_description": "구글 드라이브와의 데이터 동기화 동의 여부",
-      "sync_preferences_profile_description": "프로필에는 업적, 아이템 및 기타 웹사이트 기능과 같은 비ㅡ튜닝 데이터가 포함되어 있습니다.",
-      "you_can_manually_sync_reminder": "프로필 메뉴에서 <code>동기화하기</code> 버튼을 통해 수동으로 동기화할 수 있습니다.",
-      "backup_reminder": "마지막 로컬 백업을 한 지 한 달이 넘었습니다. 지금 다운로드하시겠습니까?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "데이터",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "고급",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "서버 시간대 선택",
@@ -561,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "비디오 튜토리얼을 따라해보세요",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "URL 만료",
       "logs_not_updating_alert_description": "2025년 1월 14일 기준, PC 사용자들은 Kuro Games의 업데이트로 인해 게임 로깅 문제를 겪고 있습니다. 이를 디버깅하려면 </link>문제 해결 가이드</link>를 읽어보세요.",
       "first_open_game_history": "먼저, 게임을 시작하고 게임 내 튜닝 기록을 여세요",
@@ -569,20 +591,25 @@
       "powershell_script_disclaimer": "참고: 이 스크립트는 파일을 조작하지 않으며, 간단히 로그에서 튜닝 기록 URL을 추출합니다. 스크립트는 <link>여기서 확인할 수 있습니다</link>.",
       "paste_the_url_here": "URL을 여기에 붙여넣으세요.",
       "paste_the_json_here": "JSON 파일을 여기에 붙여넣으세요.",
-      "press_the_import_history_button": "이 웹사이트의 \"기록 제출하기\" 버튼을 눌러주세요.",
       "go_to_installation_directory": "설치 경로를 찾으세요.",
       "go_to_installation_directory_description": "게임 런처를 우클릭 한 다음 <code>파일 위치 열기</code>를 클릭하세요. <code>launcher.exe</code>와 수많은 <code>.dll</code> 파일들을 볼 수 있습니다.",
       "search_for_log": "<code>Client.log</code>를 찾고 여기에 업로드하세요",
-      "airplane_mode": "비행기 모드",
+      "airplane_mode": "Airplane Mode",
       "download_ascent": "Ascent을 다운로드하고 사용하여 가챠 기록 URL을 가져오세요.",
-      "download_ascent_description": "원신이나 붕괴: 스타레일에서 뽑기 기록을 얻는 방법과 비슷합니다. <link>Mirai0009님의 이 동영상</link>을 따라,<ascent>Ascent v2.1.6</ascent>을 다운로드하고 URL을 얻어주세요.",
+      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "이 방법은 Android 11, 그 이상의 버전에서만 지원합니다.",
       "download_ascent_troubleshooting": "만약 제대로 작동하지 않는다면, <link>문제 해결</link>부분을 확인하세요.",
       "ios_follow_tutorial_video": "비디오 튜토리얼을 따라해보세요",
       "ios_follow_tutorial_video_description": "원신이나 붕괴: 스타레일에서 뽑기 기록을 얻는 방법과 비슷합니다.이 비디오 튜토리얼을 따라, iO에서 데이터를 제출하세요.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "컨트롤러의 <code>옵션</code> 버튼을 누르세요",
       "ps5_click_on_page_information": "<code>페이지 정보</code> 버튼을 누르세요",
-      "ps5_enter_your_record_id": "여기에 <code>Uid</code> 와 <code>레코드 id</code> 를 입력하세요"
+      "ps5_enter_your_record_id": "여기에 <code>Uid</code> 와 <code>레코드 id</code> 를 입력하세요",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "새로운 플랜",
@@ -611,6 +638,15 @@
         "Weapon and Skill Material": "무기 및 스킬 재료",
         "Weapon EXP Material": "무기 경험치 재료"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -619,6 +655,7 @@
     },
     "achievements": {
       "title": "업적",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "명조: 워더링 웨이브의 업적을 추적하고, 모든 기기에서 자유롭게 데이터를 가져오고 내보낼 수 있습니다! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "tracker": {
@@ -640,11 +677,8 @@
     },
     "import": {
       "title": "튜닝 기록 가져오기",
-      "description": "명조: 워더링 웨이브 데이터를 표시하고 통계를 보기 위해 상호작용 튜토리얼을 따라 주세요. PC, Android 및 iOS 기기에서 자동으로 제출하는 것을 도와드릴 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
-      "legacy": {
-        "title": "예전 기록 제출 튜토리얼",
-        "description": "이전에 웹사이트를 사용해 보았는데 새 웹사이트에서 가챠 데이터를 찾을 수 없다면, 여기에서 레거시 가져오기 가이드를 따라보세요!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "명조: 워더링 웨이브 데이터를 표시하고 통계를 보기 위해 상호작용 튜토리얼을 따라 주세요. PC, Android 및 iOS 기기에서 자동으로 제출하는 것을 도와드릴 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "not_found": {
       "title": "페이지를 찾을 수 없음",
@@ -656,6 +690,7 @@
     },
     "settings": {
       "title": "설정",
+      "page_header": "Manage your site preferences and data here",
       "description": "Google 로그인을 통해 데이터를 동기화하세요. 명조: 워더링 웨이브의 뽑기 데이터를 한 곳에서 관리하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "terms_and_conditions": {
@@ -668,6 +703,7 @@
     },
     "timeline": {
       "title": "이벤트 타임라인",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "현지 시간대 또는 게임의 서버 시간대를 통해 모든 배너 일정, 게임 이벤트, 역경의 탑 및 신비한 경지 오픈 기간을 한 곳에서 볼 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "wiki": {
@@ -685,12 +721,47 @@
       }
     },
     "planner": {
-      "title": "플래너",
+      "title": "돌파 플래너",
       "description": "공명자 레벨, 스킬, EXP 재료를 계획하는 데 가장 강력한 명조: 워더링 웨이브 계산기!"
     },
     "support": {
       "title": "지원",
       "description": "명조: 워더링 웨이브의 가챠 데이터를 다운로드하는 데 도움이 필요하신가요? WuWa Tracker 가 데이터를 어떻게 사용하는지 알고 싶으신가요? 여기에서 WuWa Tracker 의 FAQ를 확인하세요!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "글로벌 통계",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "무기",
+      "Items": "아이템",
+      "Tools": "도구",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "돌파 플래너",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "시스템 정보",
+        "Help Translate": "번역 돕기",
+        "Privacy Policy": "개인정보 보호 정책",
+        "Terms of Service": "Terms of Service",
+        "Discord": "기묘한 울림",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "커뮤니티"
+      }
     }
   }
 }
