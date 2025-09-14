@@ -175,6 +175,7 @@
       "banners": {
         "Featured Resonator": "Resonator Destacado",
         "Featured Weapon": "Arma Destacada",
+        "Featured Character": "Resonator Destacado",
         "Permanent Resonator": "Resonator Permanente",
         "Permanent Weapon": "Arma Permanente",
         "Novice Convene": "Convocação Inicial",
@@ -672,11 +673,11 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators - WuWa Tracker",
+        "title": "Resonators",
         "description": "Veja informações sobre os Resonators de Wuthering Waves, perfis, e use a calculadora de materiais de WuWa Tracker para planejar as melhorias de seus Resonators. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
       },
       "item": {
-        "title": "Items - WuWa Tracker",
+        "title": "Items",
         "description": "Veja informações de items, localizações de drop, e acompanhe o seu inventário - tudo num só lugar. WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe os seus tiros com seus amigos e acompanhe a sua conta!"
       },
       "weapon": {

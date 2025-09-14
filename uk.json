@@ -175,6 +175,7 @@
       "banners": {
         "Featured Resonator": "Обраний резонатор",
         "Featured Weapon": "Обрана зброя",
+        "Featured Character": "Обраний резонатор",
         "Permanent Resonator": "Постійний резонатор",
         "Permanent Weapon": "Постійна зброя",
         "Novice Convene": "Скликання Новачка",
@@ -239,8 +240,8 @@
         "google_drive_last_updated_at": "Google Диск було оновлено {date}",
         "nothing_to_sync": "Наразі нічого синхронізувати.",
         "sync_creating_file_in_google": "Створення {fileName} у Google Диску...",
-        "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
+        "sync_updating_remote_file": "Updating remote copy for {fileName}...",
+        "planner_edited_plan_for_name": "Edited plan for {name}."
       },
       "success": {
         "successfully_imported_achievements": "Successfully imported your achievements.",
@@ -253,13 +254,13 @@
         "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
         "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
         "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
+        "sync_success_updated_remote_file": "Updated remote copy for {fileName}.",
         "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
         "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
       },
       "warn": {
         "this_cannot_be_undone": "This action cannot be undone!",
-        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "For your safety, this will also disable automatic profile sync!",
         "this_does_not_include_your_pulls": "This does not include your pulls!",
         "planner_removed_plan_for_name": "Removed plan for {name}."
       }
@@ -270,7 +271,7 @@
       "search": "Search",
       "search_placeholder": "Search for something...",
       "search_reset": "Reset search",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
+      "your_player_id_placeholder": "Your 9-digit player ID (ie. 123456789)",
       "your_player_id_validation": "Your 9-digit player ID must start with 1, 5, 6, 7, 8, or 9",
       "type_to_confirm": "Type <strong></strong> to confirm",
       "file_input": "Click to upload or drag & drop",
@@ -521,12 +522,12 @@
       "create_profile_dialog": "You don't have a site profile yet",
       "create_profile_dialog_description": " We'll help you create one so that we can save your data",
       "active_profile_delete_pulls": "Delete Pull Data for the Active Profile",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
+      "active_profile_delete_pulls_description": "This will permanently delete ALL pulls associated with {playerId}. Please back up your data first and proceed with caution.",
+      "active_profile_delete_pulls_confirm": "Are you sure you want to delete ALL pulls for {playerId}?",
       "not_responsible_undone_disclaimer": "By proceeding, you acknowledge that we are not responsible for your data. This action cannot be undone!",
       "all_profiles_delete": "Delete ALL User Profiles",
       "all_profiles_delete_description": "This will permanently delete ALL your user profiles. This was created for testing purposes. Please back up your data first and proceed with caution.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
+      "all_profiles_delete_confirm": "Are you sure you want to delete ALL your user profiles?",
       "privacy_description": "Opt-in or out of settings related to your data privacy",
       "privacy_global_stats": "Зробити внесок до глобальної статистики",
       "privacy_global_stats_description": "Якщо ця функція увімкнена, ми будемо використовувати вашу URL-адресу Скликань для підрахунку загальних статистичних даних",
@@ -685,8 +686,8 @@
       }
     },
     "planner": {
-      "title": "Планер Матеріалів",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "title": "Ascension Planner",
+      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Support",
