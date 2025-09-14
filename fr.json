@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Résonateurs",
-        "description": "Consultez la liste des résonateurs de Wuthering Waves et utilisez le calculateur de materieux pour prévoir l'amélioration de vos résonateurs. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
+        "description": "Consultez la liste des résonateurs de Wuthering Waves et utilisez le calculateur de materieux pour prévoir l'amélioration de vos résonateurs. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Objets",
-        "description": "Consultez la liste des objets de Wuthering Waves et leurs emplacements et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
+        "description": "Consultez la liste des objets de Wuthering Waves et leurs emplacements et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Armes",
-        "description": "Consultez la liste les armes de Wuthering Waves, leurs atributs et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !"
+        "description": "Consultez la liste les armes de Wuthering Waves, leurs atributs et surveiller votre inventaire, tout au même endroit. Wuwa Tracker est un compteur de pity pour Wuthering Waves, utilisant les données les plus récentes avec des statistiques mondiales et plus encore. Partagez vos invocations avec vos amis et suivez votre compte !",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
