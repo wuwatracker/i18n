@@ -174,8 +174,8 @@
       },
       "banners": {
         "Featured Resonator": "Featured Resonator",
-        "Featured Weapon": "Featured Weapon",
         "Featured Character": "Featured Resonator",
+        "Featured Weapon": "Featured Weapon",
         "Permanent Resonator": "Permanent Resonator",
         "Permanent Weapon": "Permanent Weapon",
         "Novice Convene": "Novice Convene",
@@ -218,10 +218,19 @@
         "files_max_upload_num": "Anda hanya bisa mengunggah sampai dengan {num} file.",
         "files_has_oversize_limit_num": "Beberapa file melebihi batas ukuran {num}MB.",
         "inventory_item_does_not_exist": "Item tidak ditemukan!",
-        "planner_insufficient_materials": "Material tidak cukup."
+        "planner_insufficient_materials": "Material tidak cukup.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Masuk untuk sinkronisasi",
         "loading": "Memuat...",
         "import_loading": "Mengimpor riwayat pull...",
@@ -241,12 +250,18 @@
         "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
         "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
         "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
-        "planner_edited_plan_for_name": "Perubahan rencana untuk {name}."
+        "planner_edited_plan_for_name": "Perubahan rencana untuk {name}.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
         "successfully_imported_gacha_records": "Berhasil mengimpor riwayat pull Anda.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Berhasil mengimpor profil pengguna Anda.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "Mengalihkan kembali ke pelacak Anda.",
         "create_profile": "Berhasil membuat profil untuk {playerId}.",
         "delete_pulls": "Berhasil menghapus semua riwayat pull untuk {playerId}.",
@@ -256,7 +271,8 @@
         "sync_success": "Sinkronisasi berhasil.",
         "sync_success_updated_remote_file": "Salinan remote untuk {fileName} sudah diperbarui.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
-        "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}."
+        "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
@@ -366,8 +382,6 @@
       "local_data": "Data Lokal",
       "google_drive": "Google Drive",
       "from_file": "Dari File",
-      "tutorial_video": "Video Tutorial",
-      "tutorial_video_description": "Ikuti langkah-langkah pada video tutorial ini di <link></link>.",
       "edit_on_github": "Edit halaman ini di GitHub",
       "social_discord_cta": "Bergabung dengan Server Discord kami",
       "social_x_cta": "Ikuti kami di X",
@@ -408,7 +422,14 @@
       "planner": "Planner",
       "owned_num": "Dimiliki: {num}",
       "owned": "Dimiliki",
-      "required_num": "Diperlukan: {num}"
+      "required_num": "Diperlukan: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -485,71 +506,63 @@
       "pulls_per_rarity_description": "Menampilkan distribusi kelangkaan",
       "pulls_per_item_description": "Menampilkan pull per item"
     },
-    "dashboard": {
-      "title": "Dasbor",
-      "stay_focused_rover": "Tetaplah fokus, Rover.",
-      "welcome_rover": "Selamat datang, Rover.",
-      "let_us_get_started": "Bagaimana kalau kita mulai?",
-      "your_data_will_now_sync": "Data Anda akan tersinkronisasi secara otomatis!",
-      "feature_header": "WuWa Tracker membantu Anda <span></span> melacak",
-      "greeting": {
-        "words": {
-          "pulls": "pull",
-          "pity": "pity",
-          "events": "event",
-          "statistics": "statistik",
-          "data": "data",
-          "updates": "pembaruan"
-        },
-        "description": "Sebuah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Kami bertujuan untuk menyediakan alat terbaik untuk menunjukkan kemajuan Wuthering Waves Anda ke teman-teman."
-      },
-      "changelog": {
-        "title": "Catatan Perubahan"
-      },
-      "about": {
-        "title": "Tentang",
-        "what_is_wuwatracker": "Apa itu WuWa Tracker?"
-      },
-      "credits": {
-        "title": "Kredit",
-        "heading": "Kredit & Atribusi",
-        "heading_description": "Situs web ini dapat terwujud berkat orang-orang yang luar biasa. Jika nama Anda tidak tercantum di sini atau nama Anda ingin dihapus, silakan hubungi kami.",
-        "special_thanks": "Special Thanks"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "Kirimkan data pull untuk statistik global",
-      "create_profile_dialog": "Anda belum memiliki situs profil",
-      "create_profile_dialog_description": " Kami akan bantu membuatkannya agar kami bisa menyimpan data Anda",
-      "active_profile_delete_pulls": "Hapus Data Pull untuk Profil yang Aktif",
-      "active_profile_delete_pulls_description": "Ini akan menghapus SEMUA riwayat pull yang terkait dengan {playerId} secara permanen. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "active_profile_delete_pulls_confirm": "Apakah Anda yakin ingin menghapus SEMUA riwayat pull untuk {playerId}?",
-      "not_responsible_undone_disclaimer": "Dengan melanjutkan, Anda mengetahui bahwa kami tidak bertanggung jawab atas data Anda. Tindakan ini tidak dapat dibatalkan!",
-      "all_profiles_delete": "Hapus SEMUA profil pengguna",
-      "all_profiles_delete_description": "Ini akan menghapus SEMUA profil pengguna Anda secara permanen. Ini hanya untuk keperluan pengujian. Silakan cadangkan data Anda terlebih dahulu lalu lanjutkan dengan hati-hati.",
-      "all_profiles_delete_confirm": "Apakah Anda yakin ingin menghapus SEMUA profil pengguna Anda?",
-      "privacy_description": "Memilih untuk ikut atau tidak ikut serta dalam pengaturan yang terkait dengan privasi data Anda",
-      "privacy_global_stats": "Kontribusi ke Statistik Global",
-      "privacy_global_stats_description": "Jika diaktifkan, kami akan menggunakan URL Convene Anda untuk menghitung statistik global",
-      "privacy_footer_policy_link": "<link>Kebijakan Privasi</link> kami memiliki detail lebih lanjut tentang cara kami menangani data Anda.",
-      "import_user_profile": "Impor Profil Pengguna",
-      "import_user_profile_dialog_description": "CATATAN: Ini hanya menerima berkas <code></code> yang berisi data pencapaian, inventaris, dan perencana. Gunakan tombol impor yang lain jika Anda ingin mengimpor data pull.",
-      "user_profile": "Profil Pengguna",
-      "user_profile_description": "Pilih profil yang aktif untuk prestasi, item, dan pelacak pull",
-      "sync_tooltips": "Sinkronisasi Tooltip",
-      "sync_tooltips_description": "Menampilkan berbagai tooltip yang menunjukkan status sinkronisasi saat ini dan setiap pembaruan yang relevan.",
-      "pull_history": "Data Riwayat Pull",
-      "pull_history_description": "Unggah dan unduh data lokal Anda melalui Google atau perangkat Anda",
-      "saves_your_pulls_to_google": "Simpan riwayat pull ke Google",
-      "overwrite_google_drive_data": "Apakah Anda ingin menimpa data Google Drive Anda?",
-      "overwrite_google_drive_data_description": "Mengunggah data Anda akan menimpa data Google Drive dengan data lokal Anda. Kami sarankan untuk mengunduh salinannya terlebih dahulu.",
-      "pulls_file_import_dialog_title": "Impor Riwayat Pull Lokal",
-      "pulls_file_import_dialog_description": "CATATAN: Ini hanya menerima riwayat pull dengan format kami yang baru. Kunjungi halaman <link>impor legacy</link> jika Anda ingin mengimpor data lama sebelum <code></code>.",
-      "sync_preferences": "Sinkronisasikan Preferensi",
-      "sync_preferences_description": "Memilih untuk menggunakan atau tidak dalam sinkronisasi otomatis Google Drive dengan data Anda",
-      "sync_preferences_profile_description": "Profil mencakup data NON-PULL seperti pencapaian, item, dan fitur lainnya.",
-      "you_can_manually_sync_reminder": "Anda dapat melakukan sinkronisasi secara manual dengan tombol <code>Trigger Sync</code> di menu profil.",
-      "backup_reminder": "Sudah lebih dari sebulan sejak pencadangan lokal terakhir Anda. Unduh sekarang?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "Data",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "Lanjutan",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
@@ -562,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "Ikuti video tutorial kami",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "Kedaluwarsa URL",
       "logs_not_updating_alert_description": "Sejak 14 Januari 2025, pengguna PC telah mengalami masalah logging dengan game mereka yang diduga karena pembaruan dari Kuro Games. Baca <link>Panduan Pemecahan Masalah</link> untuk men-debugnya.",
       "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat pull in-game",
@@ -570,7 +591,6 @@
       "powershell_script_disclaimer": "CATATAN: Skrip ini tidak mengubah file Anda, file ini hanya mengekstrak URL Riwayat Convene dari log game. Anda bisa melihat skripnya <link>di sini</link>.",
       "paste_the_url_here": "Tempel URL di sini",
       "paste_the_json_here": "Tempel file JSON di sini",
-      "press_the_import_history_button": "Tekan tombol \"Impor Riwayat\" di situs web ini",
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
       "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
       "search_for_log": "Cari file <code>Client.log</code> lalu unggah ke sini",
@@ -581,9 +601,15 @@
       "download_ascent_troubleshooting": "Jika tidak bekerja semestinya, silakan cek <link>sesi pemecahan masalah</link>.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
       "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Tekan tombol <code>Options</code> pada kontroler Anda",
       "ps5_click_on_page_information": "Tekan tombol <code>Page Information</code>",
-      "ps5_enter_your_record_id": "Masukkan <code>player_id</code> dan <code>record_id</code> Anda di sini"
+      "ps5_enter_your_record_id": "Masukkan <code>player_id</code> dan <code>record_id</code> Anda di sini",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "Plan Baru",
@@ -612,6 +638,15 @@
         "Weapon and Skill Material": "Material Senjata dan Skill",
         "Weapon EXP Material": "Material EXP Senjata"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -620,6 +655,7 @@
     },
     "achievements": {
       "title": "Prestasi",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "Lacak prestasi Wuthering Waves Anda dan impor & ekspor data Anda dengan bebas di semua perangkat! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "tracker": {
@@ -641,11 +677,8 @@
     },
     "import": {
       "title": "Impor Riwayat Pull",
-      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!",
-      "legacy": {
-        "title": "Tutorial Impor Legacy",
-        "description": "Jika Anda pernah menggunakan situ web kami sebelumnya dan tidak dapat menemukan data pull Anda di situs web yang baru, Anda harus mengikuti panduan kami di sini!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "not_found": {
       "title": "Halaman Tidak Ditemukan",
@@ -657,6 +690,7 @@
     },
     "settings": {
       "title": "Pengaturan",
+      "page_header": "Manage your site preferences and data here",
       "description": "Sinkronkan data Anda melalui Google dengan masuk. Kelola data pull Wuthering Waves Anda di satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "terms_and_conditions": {
@@ -669,6 +703,7 @@
     },
     "timeline": {
       "title": "Linimasa Event",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Dengan zona waktu lokal atau zona waktu server Wuthering Waves mana pun, Anda dapat melihat jadwal setiap banner, event dalam permainan, periode Tower of Adversity & Depths of Illusive Realm - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "wiki": {
@@ -692,6 +727,41 @@
     "support": {
       "title": "Bantuan",
       "description": "Butuh bantuan untuk mengunduh data riwayat pull Wuthering Waves Anda? Ingin tahu bagaimana WuWa Tracker menggunakan data Anda? Lihat FAQ WuWa Tracker di sini!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "Statistik Global",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "Senjata",
+      "Items": "Item",
+      "Tools": "Alat",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Planner Ascension",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "Status Sistem",
+        "Help Translate": "Bantu Terjemahkan",
+        "Privacy Policy": "Kebijakan Privasi",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Discord",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "Komunitas"
+      }
     }
   }
 }

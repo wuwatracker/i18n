@@ -174,8 +174,8 @@
       },
       "banners": {
         "Featured Resonator": "ตู้กาชาตัวละครลิมิเต็ด",
-        "Featured Weapon": "ตู้กาชาอาวุธลิมิเต็ด",
         "Featured Character": "ตู้กาชาตัวละครลิมิเต็ด",
+        "Featured Weapon": "ตู้กาชาอาวุธลิมิเต็ด",
         "Permanent Resonator": "ตู้กาชาตัวละครถาวร",
         "Permanent Weapon": "ตู้กาชาอาวุธถาวร",
         "Novice Convene": "ตู้กาชาเริ่มต้น",
@@ -218,10 +218,19 @@
         "files_max_upload_num": "You can only upload up to {num} file(s).",
         "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
         "inventory_item_does_not_exist": "That item does not exist!",
-        "planner_insufficient_materials": "Insufficient materials."
+        "planner_insufficient_materials": "Insufficient materials.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "กำลังเชื่อมต่อเข้ากับ Google Drive",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "เข้าสู่ระบบเพื่อ sync",
         "loading": "กำลังโหลด...",
         "import_loading": "กำลังนำเข้าประวัติกาชา...",
@@ -241,12 +250,18 @@
         "nothing_to_sync": "ไม่สามารถ sync ได้ในขณะนี้",
         "sync_creating_file_in_google": "กำลังสร้างไฟล์ {fileName} ใน Google Drive...",
         "sync_updating_remote_file": "กำลังอัปเดต Remote data สำหรับ {fileName}...",
-        "planner_edited_plan_for_name": "Edited plan for {name}."
+        "planner_edited_plan_for_name": "Edited plan for {name}.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "นำเข้าข้อมูลความสำเร็จของคุณเสร็จสิ้น",
         "successfully_imported_gacha_records": "นำเข้าประวัติการสุ่มกาชาของคุณเสร็จสิ้น",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "นำเข้าข้อมูลของคุณเสร็จสิ้น",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "กำลังติดตามเข้าสู่ข้อมูลของคุณ",
         "create_profile": "สร้างโปรไฟล์สำหรับ {playerId} เสร็จสิ้น",
         "delete_pulls": "ลบประวัติการสุ่มทั้งหมดของ {playerId} เสร็จสิ้น",
@@ -256,7 +271,8 @@
         "sync_success": "Sync เสร็จสิ้น",
         "sync_success_updated_remote_file": "อัปเดต Remote data สำหรับ {fileName} เสร็จสิ้น",
         "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
-        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}."
+        "planner_successfully_created_plan_for_name": "Successfully created plan for {name}.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "ไม่สามารถยกเลิกได้!",
@@ -366,8 +382,6 @@
       "local_data": "ข้อมูลทั่วไป",
       "google_drive": "Google Drive",
       "from_file": "จากไฟล์",
-      "tutorial_video": "วิดีโอสอนใช้งาน",
-      "tutorial_video_description": "วิดีโอของ <link></link> คุณสามารถทำตามวิธีดังกล่าวเพื่อนำเข้าประวัติการสุ่มของคุณ",
       "edit_on_github": "แก้ไขหน้านี้บน GitHub",
       "social_discord_cta": "เข้าร่วม Discord ของเรา",
       "social_x_cta": "ติดตามเราใน X",
@@ -408,7 +422,14 @@
       "planner": "Planner",
       "owned_num": "Owned: {num}",
       "owned": "Owned",
-      "required_num": "Required: {num}"
+      "required_num": "Required: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -485,71 +506,63 @@
       "pulls_per_rarity_description": "Showing rarity distribution",
       "pulls_per_item_description": "Showing pulls per item"
     },
-    "dashboard": {
-      "title": "แดชบอร์ด",
-      "stay_focused_rover": "มุ่งมั่นเข้าไว้, โรเวอร์",
-      "welcome_rover": "ยินดีต้อนรับ, โรเวอร์",
-      "let_us_get_started": "มาเริ่มกันเลย",
-      "your_data_will_now_sync": "ข้อมูลของคุณจะถูกซิงค์โดยอัตโนมัติ!",
-      "feature_header": "WuWa Tracker ช่วย <span></span> ติดตาม",
-      "greeting": {
-        "words": {
-          "pulls": "จำนวนการสุ่ม",
-          "pity": "การการันตี",
-          "events": "กิจกรรม",
-          "statistics": "สถิติ",
-          "data": "ข้อมูล",
-          "updates": "การอัปเดต"
-        },
-        "description": "เครื่องมือจัดการประวัติการสุ่มสำหรับ Wuthering Waves และอื่นๆ โดยใช้ข้อมูลล่าสุดพร้อมเทียบสถิติโลก\nเรามุ่งมั่นที่จะให้เครื่องมือที่ดีที่สุดในการแสดงความคืบหน้าของคุณใน Wuthering Waves ให้เพื่อนๆ ของคุณได้เห็น!"
-      },
-      "changelog": {
-        "title": "บันทึกการเปลี่ยนแปลง"
-      },
-      "about": {
-        "title": "เกี่ยวกับ",
-        "what_is_wuwatracker": "WuWa Tracker คืออะไร?"
-      },
-      "credits": {
-        "title": "เครดิต",
-        "heading": "เครดิตและผู้มีส่วนร่วม",
-        "heading_description": "เว็บไซต์นี้เกิดขึ้นได้โดยบุคคลที่ยอดเยี่ยมเหล่านี้ เราขอขอบคุณผู้มีส่วนร่วมทุกท่านเป็นอย่างยิ่ง หากชื่อของคุณไม่ได้รับการระบุที่นี่ หรือหากคุณต้องการให้ชื่อของคุณถูกลบออก กรุณาติดต่อเรา",
-        "special_thanks": "ขอบคุณอย่างยิ่ง"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "ส่งข้อมูลการสุ่มของคุณให้กับทางเราเพื่อเก็บเป็นสถิติโดยรวม",
-      "create_profile_dialog": "คุณยังไม่มีโปรไฟล์ในเว็บไซต์",
-      "create_profile_dialog_description": " เราจะช่วยคุณสร้างโปรไฟล์เพื่อที่เราจะสามารถบันทึกข้อมูลของคุณได้",
-      "active_profile_delete_pulls": "ลบข้อมูลการสุ่มในโปรไฟล์ที่ใช้งานปัจจุบัน",
-      "active_profile_delete_pulls_description": "การกระทำนี้จะลบข้อมูลการสุ่มทั้งหมดกับ {playerId} อย่างถาวร กรุณาสำรองข้อมูลของคุณก่อนและดำเนินการด้วยความระมัดระวัง",
-      "active_profile_delete_pulls_confirm": "คุณแน่ใจที่ต้องการลบข้อมูลการสุ่มทั้งหมดสำหรับ {playerId} หรือไม่?",
-      "not_responsible_undone_disclaimer": "แจ้งให้คุณทราบว่า การดำเนินการต่อไปนี้ ทางเราไม่มีส่วนรับผิดชอบต่อข้อมูลของคุณและการกระทำนี้ไม่สามารถย้อนกลับได้!",
-      "all_profiles_delete": "ลบโปรไฟล์ผู้ใช้ทั้งหมด",
-      "all_profiles_delete_description": "การกระทำนี้จะลบโปรไฟล์ผู้ใช้ทั้งหมดของคุณอย่างถาวร กรุณาสำรองข้อมูลของคุณก่อนและดำเนินการด้วยความระมัดระวัง",
-      "all_profiles_delete_confirm": "คุณแน่ใจที่ต้องการลบโปรไฟล์ผู้ใช้ทั้งหมดของคุณหรือไม่?",
-      "privacy_description": "เลือกเข้าใช้หรือออกจากการตั้งค่าที่เกี่ยวข้องกับความเป็นส่วนตัวของข้อมูลของคุณ",
-      "privacy_global_stats": "มีส่วนร่วมในข้อมูลสถิติโลก",
-      "privacy_global_stats_description": "เมื่อเปิดใช้งาน เราจะใช้ URL การสุ่มของคุณในการคำนวณสถิติโลก",
-      "privacy_footer_policy_link": "<link>นโยบายความเป็นส่วนตัว</link>ของเรามีรายละเอียดเพิ่มเติมเกี่ยวกับวิธีที่เราจัดการข้อมูลของคุณ",
-      "import_user_profile": "นำเข้าประวัติผู้ใช้",
-      "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-      "user_profile": "โปรไฟล์ผู้ใช้งาน",
-      "user_profile_description": "เลือกโปรไฟล์ที่ใช้งานอยู่ของคุณสำหรับการติดตามความสำเร็จ ไอเท็ม และข้อมูลการสุ่มกาชา",
-      "sync_tooltips": "Sync Tooltips",
-      "sync_tooltips_description": "Show various tooltips indicating the current sync status and any relevant updates.",
-      "pull_history": "ข้อมูลประวัติการสุ่ม",
-      "pull_history_description": "อัพโหลดและดาวน์โหลดข้อมูลของคุณผ่าน Google หรืออุปกรณ์ส่วนตัวของคุณ",
-      "saves_your_pulls_to_google": "บันทึกข้อมูลการสุ่มของคุณไปยัง Google",
-      "overwrite_google_drive_data": "คุณต้องการเขียนทับข้อมูลใน Google Drive ของคุณหรือไม่?",
-      "overwrite_google_drive_data_description": "กำลังอัพโหลดข้อมูลเพื่อเขียนทับข้อมูลใน Google Drive ของคุณ เราขอแนะนำให้คุณดาวน์โหลดตัว Copy ก่อน",
-      "pulls_file_import_dialog_title": "นำเข้าข้อมูลการสุ่ม",
-      "pulls_file_import_dialog_description": "หมายเหตุ: ระบบนี้รับเฉพาะการดึงข้อมูลในรูปแบบใหม่ของเรา เท่านั้น หากคุณต้องการนำเข้าข้อมูลเก่าที่ทำขึ้นก่อนหน้านี้ โปรดไปที่<link>หน้าการนำเข้ารุ่นเก่า</link> <code></code>",
-      "sync_preferences": "การตั้งค่าการ Sync",
-      "sync_preferences_description": "เลือกเปิดหรือไม่เปิดการซิงค์ข้อมูลอัตโนมัติเข้ากับ Google Drive ของคุณ",
-      "sync_preferences_profile_description": "โปรไฟล์มีข้อมูลที่ไม่เกี่ยวข้องกับการสุ่มกาชา เช่น ความสำเร็จ ไอเท็ม และฟีเจอร์อื่นๆ ของเว็บไซต์",
-      "you_can_manually_sync_reminder": "คุณสามารถซิงค์ข้อมูลด้วยตนเองโดยใช้ปุ่ม <code>Trigger Sync</code> ในเมนูโปรไฟล์",
-      "backup_reminder": "It's been over a month since your last local backup. Download now?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "ข้อมูล",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "ขั้นสูง",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "เลือกเขตเวลาเซิร์ฟเวอร์",
@@ -562,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "ขั้นตอนแรก ทำตามวิดีสอนใช้งานของพวกเรา",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "ปัญหา URL ของคุณหมดอายุ",
       "logs_not_updating_alert_description": "ตั้งแต่วันที่ 14 มกราคม 2025 ผู้ใช้ PC จะประสบปัญหาการเข้าสู่ระบบในเกมเนื่องจากการอัปเดตจากทาง Kuro Games วิธีแก้สามารถอ่าน<link>คู่มือการแก้ไขปัญหาของเรา</link>เพื่อหาวิธีแก้ไข",
       "first_open_game_history": "ขั้นตอนแรกให้เปิดเกมและดูรายละเอียดประวัติในเกมของคุณ",
@@ -570,7 +591,6 @@
       "powershell_script_disclaimer": "หมายเหตุ: ตัว Script ของเราไม่ได้ยุ่งเกี่ยวกับการแก้ไขไฟล์ต่างๆ เป็นเพียงแค่ดึง URL ประวัติการสุ่มจากบันทึกของคุณ คุณสามารถ <link>ตรวจสอบ Script ได้ที่นี่</link>.",
       "paste_the_url_here": "วาง URL ที่นี่",
       "paste_the_json_here": "วางข้อมูล JSON ที่นี่",
-      "press_the_import_history_button": "กดปุ่ม \"นำเข้าประวัติ\" เพื่อเริ่มใช้งาน",
       "go_to_installation_directory": "ไปที่ตำแหน่งการติดตั้งเกมของคุณ",
       "go_to_installation_directory_description": "กดคลิกขวาที่ไอคอนเกม Wuthering Waves แล้วเลือก <code>Open file location</code> ตำแหน่งไฟล์เกมที่ถูกต้องนั้นจะประกอบไปด้วย <code>launcher.exe</code> และไฟล์ <code>.dll</code> จำนวนมาก",
       "search_for_log": "ค้นหา <code>Client.log</code> และอัปโหลดที่นี่",
@@ -581,9 +601,15 @@
       "download_ascent_troubleshooting": "หากวิธีนี้ทำงานไม่ถูกต้อง สามารถกดเช็คได้ที่ <link>Troubleshooting Section</link>.",
       "ios_follow_tutorial_video": "ขั้นตอนแรก ทำตามวิดีสอนใช้งานของพวกเรา",
       "ios_follow_tutorial_video_description": "วิธีจะคล้ายกับการรับประวัติใน Genshin Impact หรือ Honkai Star Rail สามารถทำตามวิดีโอแนะนำวิธีการนำเข้าข้อมูลใน iOS",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "กดปุ่ม <code>Options</code> บนคอนโทรลเลอร์ของคุณ",
       "ps5_click_on_page_information": "กดปุ่ม <code>Page Information</code>",
-      "ps5_enter_your_record_id": "กรอก <code>Player ID</code> และ <code>Record ID</code> ของคุณที่นี่"
+      "ps5_enter_your_record_id": "กรอก <code>Player ID</code> และ <code>Record ID</code> ของคุณที่นี่",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "New Plan",
@@ -612,6 +638,15 @@
         "Weapon and Skill Material": "Weapon and Skill Material",
         "Weapon EXP Material": "Weapon EXP Material"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -620,6 +655,7 @@
     },
     "achievements": {
       "title": "ความสำเร็จ",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "ติดตามความสำเร็จใน Wuthering Waves ของคุณนำเข้าหรือส่งออกข้อมูลของคุณระหว่างอุปกรณ์ได้อย่างอิสระ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการสุ่มของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
     },
     "tracker": {
@@ -641,11 +677,8 @@
     },
     "import": {
       "title": "นำเข้าข้อมูล",
-      "description": "คู่มือแสดงข้อมูล Wuthering Waves และดูสถิติของคุณ แพลตฟอร์มเรารองรับการนำเข้าข้อมูลจาก PC, Android และ iOS ด้วยวิธีการอัตโนมัติ. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!",
-      "legacy": {
-        "title": "ไปที่การนำเข้าข้อมูล",
-        "description": "หากคุณเคยใช้เว็บไซต์ของเรามาก่อนและไม่พบข้อมูลการสุ่มในเว็บไซต์ใหม่ คุณควรทำตามคู่มือการนำเข้ารุ่นเก่าของเราที่นี่!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "คู่มือแสดงข้อมูล Wuthering Waves และดูสถิติของคุณ แพลตฟอร์มเรารองรับการนำเข้าข้อมูลจาก PC, Android และ iOS ด้วยวิธีการอัตโนมัติ. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
     },
     "not_found": {
       "title": "ไม่พบหน้านี้",
@@ -657,6 +690,7 @@
     },
     "settings": {
       "title": "การตั้งค่า",
+      "page_header": "Manage your site preferences and data here",
       "description": "ซิงค์ข้อมูลของคุณผ่าน Google โดยการลงชื่อเข้าใช้ จัดการข้อมูลการดึงของ Wuthering Waves ของคุณทั้งหมดในที่เดียว. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
     },
     "terms_and_conditions": {
@@ -669,6 +703,7 @@
     },
     "timeline": {
       "title": "ไทม์ไลน์กิจกรรม",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "ด้วยเครื่องมือเช็คเวลาเวิร์ฟเวอร์และเวลาท้องถิ่นของคุณคุณสามารถดูตารางเวลาแบนเนอร์ทั้งหมด, กิจกรรมในเกม, Tower of Adversity & Depths of Illusive Realm ครบจบในที่เดียว. WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
     },
     "wiki": {
@@ -692,6 +727,41 @@
     "support": {
       "title": "สนับสนุน",
       "description": "ต้องการความช่วยเหลือในการดาวน์โหลดข้อมูลการสุ่มของ Wuthering Waves หรือไม่? ดูคำถามที่พบบ่อยของ WuWa Tracker ได้ที่นี่!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "สถิติทั้งหมดโดยรวม",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "อาวุธ",
+      "Items": "ไอเทม",
+      "Tools": "เครื่องมือ",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Ascension Planner",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "สถานะของระบบ",
+        "Help Translate": "ช่วยเหลือการแปล",
+        "Privacy Policy": "นโยบายความเป็นส่วนตัว",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Discord",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "คอมมูนิตี้"
+      }
     }
   }
 }

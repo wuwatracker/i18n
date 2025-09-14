@@ -174,8 +174,8 @@
       },
       "banners": {
         "Featured Resonator": "Resonador destacado",
-        "Featured Weapon": "Arma destacada",
         "Featured Character": "Resonador destacado",
+        "Featured Weapon": "Arma destacada",
         "Permanent Resonator": "Resonador permanente",
         "Permanent Weapon": "Arma permanente",
         "Novice Convene": "Invocación de novato",
@@ -218,10 +218,19 @@
         "files_max_upload_num": "Solo puedes subir hasta {num} archivo(s).",
         "files_has_oversize_limit_num": "Algunos archivos superan el límite de tamaño de {num}MB.",
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
-        "planner_insufficient_materials": "Materiales insuficientes."
+        "planner_insufficient_materials": "Materiales insuficientes.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "Intentando conectar a Google Drive",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Inicia sesión para sincronizar",
         "loading": "Cargando...",
         "import_loading": "Importando registros del gacha...",
@@ -241,12 +250,18 @@
         "nothing_to_sync": "No hay nada que sincronizar en este momento.",
         "sync_creating_file_in_google": "Creando {fileName} en Google Drive...",
         "sync_updating_remote_file": "Actualizando la copia remota para {fileName}...",
-        "planner_edited_plan_for_name": "Plan {name} editado."
+        "planner_edited_plan_for_name": "Plan {name} editado.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "Se han importado tus logros exitosamente.",
         "successfully_imported_gacha_records": "Se han importado tu historial de invocación exitosamente.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Se ha importado tu perfil de usuario exitosamente.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "Redirigiendo a tu tracker.",
         "create_profile": "Se ha creado un perfil exitosamente para {playerId}.",
         "delete_pulls": "Se ha borrado todas las tiradas de {playerId}.",
@@ -256,7 +271,8 @@
         "sync_success": "Sincronización exitosa.",
         "sync_success_updated_remote_file": "Actualizado la copia remota para {fileName}.",
         "planner_successfully_completed_plan_for_name": "¡Plan {name} completado exitosamente!",
-        "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}."
+        "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "¡Esta acción no se puede deshacer!",
@@ -366,8 +382,6 @@
       "local_data": "Datos locales",
       "google_drive": "Google Drive",
       "from_file": "Desde archivo",
-      "tutorial_video": "Videotutorial",
-      "tutorial_video_description": "Sigue paso a paso este videotutorial de <link></link>.",
       "edit_on_github": "Editar está página en GitHub",
       "social_discord_cta": "Únete a nuestro servidor de Discord",
       "social_x_cta": "Síguenos en X",
@@ -408,7 +422,14 @@
       "planner": "Planificador",
       "owned_num": "En posesión: {num}",
       "owned": "Poseído",
-      "required_num": "Requerido: {num}"
+      "required_num": "Requerido: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -485,71 +506,63 @@
       "pulls_per_rarity_description": "Mostrando la distribución de rareza",
       "pulls_per_item_description": "Mostrando tiradas por objeto"
     },
-    "dashboard": {
-      "title": "Panel",
-      "stay_focused_rover": "Mantente concentrado, Errante.",
-      "welcome_rover": "Bienvenido, Errante.",
-      "let_us_get_started": "Vamos a empezar, ¿de acuerdo?",
-      "your_data_will_now_sync": "¡Ahora tus datos se sincronizarán cuando quieras!",
-      "feature_header": "WuWa Tracker te ayuda a seguir tus <span></span>",
-      "greeting": {
-        "words": {
-          "pulls": "tiradas",
-          "pity": "pity",
-          "events": "eventos",
-          "statistics": "estadísticas",
-          "data": "datos",
-          "updates": "actualizaciones"
-        },
-        "description": "Un contador de pity para Wuthering Waves, usando los datos más recientes con las estadísticas globales, y más. Nuestro objetivo es proporcionar las mejores herramientas para mostrar tu progreso en Wuthering Waves a tus amigos."
-      },
-      "changelog": {
-        "title": "Registro de cambios"
-      },
-      "about": {
-        "title": "Sobre nosotros",
-        "what_is_wuwatracker": "¿Qué es WuWa Tracker?"
-      },
-      "credits": {
-        "title": "Créditos",
-        "heading": "Créditos y reconocimientos",
-        "heading_description": "Esta página web se hizo gracias a todas estas increíbles personas. Si tu nombre no aparece aquí o deseas que te borren, por favor ponte en contacto con nosotros.",
-        "special_thanks": "Agradecimientos especiales"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "Añadir los datos de tus tiradas a las estadísticas globales",
-      "create_profile_dialog": "Aún no tienes un perfil",
-      "create_profile_dialog_description": " Te ayudaremos a crear uno para que puedas guardar tus datos",
-      "active_profile_delete_pulls": "Eliminar datos de tiradas en el perfil activo",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
-      "not_responsible_undone_disclaimer": "Al continuar, reconoces que nosotros no nos hacemos responsables de tus datos. ¡Esta acción no se puede deshacer!",
-      "all_profiles_delete": "Eliminar TODOS los perfiles de usuario",
-      "all_profiles_delete_description": "Esto eliminará permanentemente TODOS tus perfiles de usuario. Esto fue creado con fines de prueba. Por favor, haz una copia de tus datos primero y procede con precaución.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
-      "privacy_description": "Permite o no los ajustes relacionados con la privacidad de tus datos",
-      "privacy_global_stats": "Contribuir a las estadísticas globales",
-      "privacy_global_stats_description": "Cuando esté activado, usaremos tu URL de invocación para el conteo de las estadísticas globales",
-      "privacy_footer_policy_link": "Nuestra <link>política de privacidad</link> tiene más detalles sobre cómo manejamos tus datos.",
-      "import_user_profile": "Importar perfil de usuario",
-      "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las tiradas.",
-      "user_profile": "Perfil de usuario",
-      "user_profile_description": "Selecciona tu perfil activo para los logros, objetos y rastreador de tiradas",
-      "sync_tooltips": "Sugerencias de sincronización",
-      "sync_tooltips_description": "Mostrar varias sugerencias que indican el estado actual de la sincronización y cualquier actualización relevante.",
-      "pull_history": "Datos del historial de invocación",
-      "pull_history_description": "Sube y descarga tus datos locales a través de Google o de tu dispositivo local",
-      "saves_your_pulls_to_google": "Guardar tus tiradas en Google",
-      "overwrite_google_drive_data": "¿Quieres sobrescribir tus datos de Google Drive?",
-      "overwrite_google_drive_data_description": "La subida de tus datos sobrescribirá tus datos de Google Drive con los datos locales. Te recomendamos descargar primero una copia.",
-      "pulls_file_import_dialog_title": "Importar Invocaciones locales",
-      "pulls_file_import_dialog_description": "NOTA: Esto solo acepta las tiradas en nuestro nuevo formato. Visita el <link>antiguo importador</link> si quieres importar datos antiguos creados antes de <code></code>.",
-      "sync_preferences": "Preferencias de sincronización",
-      "sync_preferences_description": "Permite o no la sincronización automática de Google Drive con tus datos",
-      "sync_preferences_profile_description": "Los perfiles contienen datos AJENOS a las tiradas como los logros, los objetos, y otras funciones de la página web.",
-      "you_can_manually_sync_reminder": "Puedes sincronizar manualmente con el botón <code>Sincronizar</code> en el menú de perfil.",
-      "backup_reminder": "Ha pasado más de un mes desde tu última copia de seguridad local. ¿Quieres descargarla ahora?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "Datos",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "Avanzado",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "Elija la zona horaria del servidor",
@@ -562,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "Sigue nuestro videotutorial",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "URL caducado",
       "logs_not_updating_alert_description": "Desde el 14 de enero del 2025, los usuarios de ordenador han estado experimentando problemas de inicio de sesión debido a una presunta actualización de Kuro Games. Lea nuestra <link>Guía de soporte</link>  para poder solucionar el problema.",
       "first_open_game_history": "Primero, inicia el juego y abre los detalles del historial dentro del juego",
@@ -570,7 +591,6 @@
       "powershell_script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script  <link>aquí</link>.",
       "paste_the_url_here": "Pega la URL aquí",
       "paste_the_json_here": "Pega el JSON aquí",
-      "press_the_import_history_button": "Pulsa el botón \"Importar historial\" en esta página web",
       "go_to_installation_directory": "Ve a la carpeta de instalación del juego",
       "go_to_installation_directory_description": "Clic derecho en tu lanzador de Wuthering Waves y selecciona <code>Abrir la ubicación del archivo</code>. Deberías de ver <code>launcher.exe</code> y un muchos archivos <code>.dll</code>.",
       "search_for_log": "Busca por <code>Client.log</code> y súbelo aquí",
@@ -581,9 +601,15 @@
       "download_ascent_troubleshooting": "Si no funciona correctamente, echa un vistazo a la <link>sección de solución de problemas</link>.",
       "ios_follow_tutorial_video": "Sigue nuestro videotutorial",
       "ios_follow_tutorial_video_description": "Similar a conseguir tu historial en Genshin Impact o Honkai Star Rail, sigue este videotutorial para importar tus datos en iOS.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Presiona el botón de <code>Opciones</code> en tu mando",
       "ps5_click_on_page_information": "Presiona el botón de <code>Información de página</code>",
-      "ps5_enter_your_record_id": "Introduce tu <code>player_id</code> y <code>record_id</code> aquí"
+      "ps5_enter_your_record_id": "Introduce tu <code>player_id</code> y <code>record_id</code> aquí",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "Nuevo plan",
@@ -612,6 +638,15 @@
         "Weapon and Skill Material": "Material de Armas y Habilidad",
         "Weapon EXP Material": "Material de Mejora de Armas"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -620,6 +655,7 @@
     },
     "achievements": {
       "title": "Logros",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "¡Sigue tus logros en Wuthering Waves e importa y exporta tus datos libremente entre dispositivos! WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "tracker": {
@@ -641,11 +677,8 @@
     },
     "import": {
       "title": "Importar Historial de Invocaciones",
-      "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
-      "legacy": {
-        "title": "Tutorial de Importación Antigua",
-        "description": "Si has usado nuestro sitio web antes y no puedes encontrar los datos de tus tiradas en el nuevo sitio web, ¡deberías seguir nuestra guía de importación antigua aquí!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "not_found": {
       "title": "No Encontrado",
@@ -657,6 +690,7 @@
     },
     "settings": {
       "title": "Configuraciones",
+      "page_header": "Manage your site preferences and data here",
       "description": "Sincroniza tus datos a través de Google iniciando sesión. Gestiona tus datos de invocaciones de Wuthering Waves todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "terms_and_conditions": {
@@ -669,6 +703,7 @@
     },
     "timeline": {
       "title": "Cronograma de Eventos",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Utilizando tu zona horaria local o cualquier zona horaria del servidor de Wuthering Waves, puedes ver cada calendario de banners, eventos del juego, periodos de la Torre de la Adversidad y Profundidades del Reino Ilusorio, todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "wiki": {
@@ -692,6 +727,41 @@
     "support": {
       "title": "Soporte",
       "description": "¿Necesitas ayuda para descargar los datos de tus tiradas en Wuthering Waves? ¿Quieres conocer como WuWa Tracker usa tus datos? ¡Ve las preguntas frecuentes de Wuwa Tracker aquí!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "Estadísticas globales",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "Armas",
+      "Items": "Objetos",
+      "Tools": "Herramientas",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Planificador de Ascensión",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "Estado del sistema",
+        "Help Translate": "Ayuda a traducir",
+        "Privacy Policy": "Políticas de Privacidad",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Discord",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "Comunidad"
+      }
     }
   }
 }
