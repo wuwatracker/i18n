@@ -733,6 +733,7 @@
       "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
     }
   },
+
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
