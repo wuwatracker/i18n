@@ -174,6 +174,7 @@
       },
       "banners": {
         "Featured Resonator": "Рекомендуемый Резонатор",
+        "Featured Character": "Рекомендуемый Резонатор",
         "Featured Weapon": "Рекомендуемое оружие",
         "Permanent Resonator": "Постоянный Резонатор",
         "Permanent Weapon": "Постоянное оружие",
@@ -217,10 +218,19 @@
         "files_max_upload_num": "Вы можете загрузить до {num} файла(-ов).",
         "files_has_oversize_limit_num": "Размер некоторых файлов превышает лимит в {num} МБ.",
         "inventory_item_does_not_exist": "Такого предмета не существует!",
-        "planner_insufficient_materials": "Недостаточно материалов."
+        "planner_insufficient_materials": "Недостаточно материалов.",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "Попытка подключения к Google Диску",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Войдите, чтобы синхронизировать",
         "loading": "Загрузка...",
         "import_loading": "Загрузка круток...",
@@ -240,12 +250,18 @@
         "nothing_to_sync": "Нет данных для синхронизации.",
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
-        "planner_edited_plan_for_name": "Edited todo for {todo.name}."
+        "planner_edited_plan_for_name": "План для {name} изменён.",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
         "successfully_imported_gacha_records": "Крутки успешно импортированы.",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Профиль успешно импортирован.",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "Переходим к истории круток.",
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
@@ -255,11 +271,12 @@
         "sync_success": "Синхронизация успешна.",
         "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
         "planner_successfully_completed_plan_for_name": "План для {name} выполнен!",
-        "planner_successfully_created_plan_for_name": "Создан план для {name}."
+        "planner_successfully_created_plan_for_name": "Создан план для {name}.",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "Это действие не может быть отменено!",
-        "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
+        "disable_auto_profile_sync": "Для вашей безопасности, это так же отключит автоматическую синхронизацию профиля!",
         "this_does_not_include_your_pulls": "Ваши крутки в это не входят!",
         "planner_removed_plan_for_name": "План для {name} удалён."
       }
@@ -270,7 +287,7 @@
       "search": "Поиск",
       "search_placeholder": "Найти...",
       "search_reset": "Сброс поиска",
-      "your_player_id_placeholder": "Your 9-digit player ID (ie. 12345456789)",
+      "your_player_id_placeholder": "Ваш 9-значный ИД (напр. 123456789)",
       "your_player_id_validation": "Ваш 9-значный ИД должен начинаться с 1, 5, 6, 7, 8 или 9",
       "type_to_confirm": "Введите <strong></strong> для подтверждения",
       "file_input": "Нажмите для загрузки или перетащите сюда",
@@ -365,8 +382,6 @@
       "local_data": "Локальные данные",
       "google_drive": "Google Диск",
       "from_file": "Из файла",
-      "tutorial_video": "Видеогайд",
-      "tutorial_video_description": "Следуйте этому пошаговому видеогайду, сделанному <link></link>.",
       "edit_on_github": "Редактировать эту страницу на GitHub",
       "social_discord_cta": "Вступайте в наш сервер Discord",
       "social_x_cta": "Подпишитесь на нас в X",
@@ -407,7 +422,14 @@
       "planner": "Планировщик",
       "owned_num": "Имеется: {num}",
       "owned": "Имеется",
-      "required_num": "Требуется: {num}"
+      "required_num": "Требуется: {num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -484,71 +506,63 @@
       "pulls_per_rarity_description": "Показывает распределение по редкости",
       "pulls_per_item_description": "Общее число выпадений"
     },
-    "dashboard": {
-      "title": "Главная страница",
-      "stay_focused_rover": "Не отвлекайся, Ровер.",
-      "welcome_rover": "Добро пожаловать, Ровер.",
-      "let_us_get_started": "Начнём?",
-      "your_data_will_now_sync": "Ваши данные теперь будут синхронизироваться по запросу!",
-      "feature_header": "WuWa Tracker поможет <span></span> отслеживать",
-      "greeting": {
-        "words": {
-          "pulls": "крутки",
-          "pity": "гарант",
-          "events": "события",
-          "statistics": "статистику",
-          "data": "данные",
-          "updates": "обновления"
-        },
-        "description": "Счётчик круток для Wuthering Waves с расширенными возможностями, а также доступом ко всей актуальной игровой информации. Мы стремимся развивать платформу, чтобы вы могли эффективно следить за своим аккаунтом и делиться достижениями с друзьями."
-      },
-      "changelog": {
-        "title": "Изменения"
-      },
-      "about": {
-        "title": "О нас",
-        "what_is_wuwatracker": "Что такое WuWa Tracker?"
-      },
-      "credits": {
-        "title": "Благодарности",
-        "heading": "Благодарности за вклад",
-        "heading_description": "Этот сайт появился благодаря всем этим замечательным людям. Если ваше имя не было указано или вы хотите убрать его отсюда - пожалуйста, свяжитесь с нами.",
-        "special_thanks": "Особая благодарность"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "Поделиться историей для глобальной статистики",
-      "create_profile_dialog": "У вас ещё нет профиля на сайте",
-      "create_profile_dialog_description": " Мы поможем создать его, чтобы вы могли сохранять свои данные",
-      "active_profile_delete_pulls": "Удалить крутки для активного профиля",
-      "active_profile_delete_pulls_description": "This will permanently delete ALL the pulls associated with {playerId}. Please back up your data first and proceed with caution.",
-      "active_profile_delete_pulls_confirm": "Are you sure you want to delete all pulls for {playerId}?",
-      "not_responsible_undone_disclaimer": "Продолжая, вы соглашаетесь с тем, что мы не несём ответственность за ваши данные. Это действие нельзя отменить!",
-      "all_profiles_delete": "Удалить ВСЕ профили",
-      "all_profiles_delete_description": "Это навсегда удалит ВСЕ ваши профили. Эта функция создана для тестов. Пожалуйста, создайте резервную копию ваших данных и подумайте дважды.",
-      "all_profiles_delete_confirm": "Are you sure you want to delete all user profiles?",
-      "privacy_description": "Включите или отключите настройки конфиденциальности ваших данных",
-      "privacy_global_stats": "Делиться статистикой",
-      "privacy_global_stats_description": "Когда включено, мы будем использовать вашу ссылку для подсчётов глобальной статистики",
-      "privacy_footer_policy_link": "Наша <link>Политика конфиденциальности</link> содержит подробную информацию о том, как мы обрабатываем ваши данные.",
-      "import_user_profile": "Импортировать профиль",
-      "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки.",
-      "user_profile": "Профиль",
-      "user_profile_description": "Выберите профиль для достижений, инвентаря и истории круток",
-      "sync_tooltips": "Индикаторы синхронизации",
-      "sync_tooltips_description": "Отображать различные индикаторы о текущем статусе синхронизации и любых обновлениях.",
-      "pull_history": "История круток",
-      "pull_history_description": "Скачайте свои крутки из Google или загрузите их туда с устройства",
-      "saves_your_pulls_to_google": "Сохраняет ваши крутки на Google Диск",
-      "overwrite_google_drive_data": "Вы хотите перезаписать данные на Google Диске?",
-      "overwrite_google_drive_data_description": "Загрузка данных на Google Диск перезапишет имеющиеся на нём данные имеющимися. Мы рекомендуем сначала скачать копию данных с Google Диска.",
-      "pulls_file_import_dialog_title": "Импорт с устройства",
-      "pulls_file_import_dialog_description": "NOTE: This only accepts <code></code> files. If your data is invalid, you can try to use our <link>legacy import</link> page.",
-      "sync_preferences": "Настройки синхронизации",
-      "sync_preferences_description": "Включите или отключите автоматическую синхронизацию ваших данных с Google Диском",
-      "sync_preferences_profile_description": "Профили содержат информацию, не касающуюся круток, например достижения, предметы и прочее.",
-      "you_can_manually_sync_reminder": "Вы можете вручную синхронизировать данные с помощью кнопки <code>Синхронизировать</code> в меню профиля.",
-      "backup_reminder": "Прошёл уже месяц с тех пор, как вы в последний раз сохраняли локальную копию своих круток с сайта. Сохранить сейчас?"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "Данные",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "Продвинутые",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "Выбрать часовой пояс сервера",
@@ -561,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "Следуйте нашему видео-гайду",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "Истечение срока действия ссылки",
       "logs_not_updating_alert_description": "Начиная с 14 января 2025 года, пользователи на ПК начали сталкиваться с проблемой ведения логов игрой из-за определённого обновления. Прочтите <link>Решение проблем</link> в случае, если импорт не выходит.",
       "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
@@ -569,7 +591,6 @@
       "powershell_script_disclaimer": "Примечание: скрипт лишь извлекает ссылку на вашу историю круток из журналов игры. Вы можете просмотреть его <link>здесь</link>.",
       "paste_the_url_here": "Вставьте ссылку сюда",
       "paste_the_json_here": "Вставьте сюда скопированное содержимое JSON",
-      "press_the_import_history_button": "Нажмите кнопку \"Импортировать\" для завершения",
       "go_to_installation_directory": "Найдите папку с игрой",
       "go_to_installation_directory_description": "Нажмите ПКМ по ярлыку запуска игры и выберите <code>Расположение файла</code>. В открывшейся папке вы должны увидеть <code>launcher.exe</code> и множество <code>.dll</code> файлов.",
       "search_for_log": "Найдите <code>Client.log</code> и загрузите его сюда",
@@ -580,9 +601,15 @@
       "download_ascent_troubleshooting": "Если что-то работает не так, проверьте <link>раздел Решение проблем</link>.",
       "ios_follow_tutorial_video": "Следуйте нашему видео-гайду",
       "ios_follow_tutorial_video_description": "Так же, как и для Genshin Impact или Honkai Star Rail, следуйте этому видео-гайду, чтобы получить ссылку на вашу историю круток на iOS.",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Нажмите кнопку <code>Options(Настройки)</code> на вашем контроллере",
       "ps5_click_on_page_information": "Нажмите кнопку <code>Page Information(Информация о странице)</code>",
-      "ps5_enter_your_record_id": "Введите ваши <code>player_id(1)</code> и <code>record_id(2)</code> в поля ниже"
+      "ps5_enter_your_record_id": "Введите ваши <code>player_id(1)</code> и <code>record_id(2)</code> в поля ниже",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "Новый план",
@@ -611,6 +638,15 @@
         "Weapon and Skill Material": "Материал для улучшения оружия и навыков",
         "Weapon EXP Material": "Материал для повышения уровня оружия"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -619,6 +655,7 @@
     },
     "achievements": {
       "title": "Достижения",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "Отслеживайте свои достижения в Wuthering Waves, а также свободно импортируйте и экспортируйте данные между устройствами! WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!"
     },
     "tracker": {
@@ -640,11 +677,8 @@
     },
     "import": {
       "title": "Импорт истории",
-      "description": "Следуйте нашему интерактивному руководству для отображения вашей истории круток в Wuthering Waves и просмотра подробной статистики. Мы поддерживаем импорт данных с ПК, устройств Android и iOS при помощи автоматических и ручных методов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
-      "legacy": {
-        "title": "Руководство по импорту старых данных",
-        "description": "Если вы использовали наш сайт до его обновления и не можете найти свои старые крутки, вам стоит ознакомиться с руководством по импорту старых данных здесь!"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "Следуйте нашему интерактивному руководству для отображения вашей истории круток в Wuthering Waves и просмотра подробной статистики. Мы поддерживаем импорт данных с ПК, устройств Android и iOS при помощи автоматических и ручных методов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "not_found": {
       "title": "Страница не найдена",
@@ -656,6 +690,7 @@
     },
     "settings": {
       "title": "Настройки",
+      "page_header": "Manage your site preferences and data here",
       "description": "Синхронизируйте свои данные через Google, войдя в аккаунт. Управляйте своей историей круток в Wuthering Waves в одном месте. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "terms_and_conditions": {
@@ -668,6 +703,7 @@
     },
     "timeline": {
       "title": "Календарь событий",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Используйте ваш часовой пояс или любой часовой пояс серверов Wuthering Waves, чтобы просматривать расписание каждого баннера, игровых событий, Башни Невзгод и Глубин Царства Иллюзий - все в одном месте. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "wiki": {
@@ -686,11 +722,46 @@
     },
     "planner": {
       "title": "Планировщик",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials! WuWa Tracker has a rich suite of tools to enhance your game experience."
+      "description": "Самый продвинутый калькулятор для Wuthering Waves, позволяющий составить планы повышения уровней навыков, а также возвышения ваших Резонаторов и оружия!"
     },
     "support": {
       "title": "Поддержка",
       "description": "Нужна помощь с импортом круток из Wuthering Waves? Хотите знать, как WuWa Tracker использует ваши данные? Ознакомьтесь с WuWa Tracker FAQ здесь!"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "Глобальная статистика",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "Оружие",
+      "Items": "Предметы",
+      "Tools": "Инструменты",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "Планировщик",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "Статус",
+        "Help Translate": "Помощь в переводе",
+        "Privacy Policy": "Политика конфиденциальности",
+        "Terms of Service": "Terms of Service",
+        "Discord": "Discord",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "Сообщество"
+      }
     }
   }
 }
