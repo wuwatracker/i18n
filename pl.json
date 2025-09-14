@@ -709,15 +709,18 @@
     "wiki": {
       "resonator": {
         "title": "Postacie",
-        "description": "Przeglądaj informace o postaciach Wuthering Waves oraz użyj planera materiałów WuWa Tracker aby zaplanować Swoje ulepszenia postaci. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
+        "description": "Przeglądaj informace o postaciach Wuthering Waves oraz użyj planera materiałów WuWa Tracker aby zaplanować Swoje ulepszenia postaci. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Rzeczy",
-        "description": "WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
+        "description": "WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Broń",
-        "description": "Wyświetl informację o broni w Wuthering Waves oraz śledź Swój ekwipunek - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
+        "description": "Wyświetl informację o broni w Wuthering Waves oraz śledź Swój ekwipunek - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
