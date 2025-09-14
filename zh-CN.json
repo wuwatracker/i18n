@@ -3,7 +3,7 @@
     "term": {
       "convenes": "唤取",
       "convene_url": "唤取 URL",
-      "pulls": "唤取次数",
+      "pulls": "抽次数",
       "astrites": "星声",
       "wuthering_waves": "《鸣潮》",
       "pull_history": "唤取历史",
@@ -174,8 +174,8 @@
       },
       "banners": {
         "Featured Resonator": "角色活动唤取",
-        "Featured Weapon": "武器活动唤取",
         "Featured Character": "角色活动唤取",
+        "Featured Weapon": "武器活动唤取",
         "Permanent Resonator": "角色常驻唤取",
         "Permanent Weapon": "武器常驻唤取",
         "Novice Convene": "新手唤取",
@@ -218,10 +218,19 @@
         "files_max_upload_num": "您仅可上传最多 {num} 个文件。",
         "files_has_oversize_limit_num": "部分文件超出 {num}MB 的大小限制。",
         "inventory_item_does_not_exist": "该物品不存在！",
-        "planner_insufficient_materials": "材料数量不足。"
+        "planner_insufficient_materials": "材料数量不足。",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
+        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
+        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
+        "sign_in_first": "Sign in first",
+        "already_linked": "Already linked",
+        "enable_email_link": "Enable email link",
         "sign_in_to_sync": "登入以同步",
         "loading": "加载中...",
         "import_loading": "导入抽卡记录...",
@@ -241,12 +250,18 @@
         "nothing_to_sync": "目前没有需要同步的数据。",
         "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
         "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
-        "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。"
+        "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。",
+        "unlinking_your_email": "Unlinking your email...",
+        "importing_cloud_data": "Importing cloud data from our database...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
         "successfully_imported_gacha_records": "成功导入您的抽卡记录。",
+        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "成功导入您的用户资料。",
+        "the_import_was_successful": "The import was successful!",
         "successfully_imported_gacha_records_redirecting": "正在重定向到您的记录。",
         "create_profile": "成功为 {playerId} 创建用户资料。",
         "delete_pulls": "成功删除 {playerId} 的所有唤取。",
@@ -256,7 +271,8 @@
         "sync_success": "同步成功。",
         "sync_success_updated_remote_file": "已上传 {fileName} 的远程副本。",
         "planner_successfully_completed_plan_for_name": "成功完成 {name} 的培养计划！",
-        "planner_successfully_created_plan_for_name": "成功创建 {name} 的培养计划。"
+        "planner_successfully_created_plan_for_name": "成功创建 {name} 的培养计划。",
+        "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
         "this_cannot_be_undone": "此操作无法撤销！",
@@ -366,8 +382,6 @@
       "local_data": "本地数据",
       "google_drive": "Google 云端硬盘",
       "from_file": "从文件",
-      "tutorial_video": "教程视频",
-      "tutorial_video_description": "按照 <link></link> 提供的这个逐步视频教程操作。",
       "edit_on_github": "在 GitHub 上编辑此页",
       "social_discord_cta": "加入我们的 Discord 服务器",
       "social_x_cta": "在 X 上关注我们",
@@ -408,7 +422,14 @@
       "planner": "培养规划工具",
       "owned_num": "现拥有：{num}",
       "owned": "已拥有",
-      "required_num": "需要：{num}"
+      "required_num": "需要：{num}",
+      "windows": "Windows",
+      "macos": "macOS",
+      "linux": "Linux",
+      "android": "Android",
+      "ios": "iOS",
+      "ps5": "PS5",
+      "download_logs": "Download Logs"
     }
   },
   "feature": {
@@ -485,71 +506,63 @@
       "pulls_per_rarity_description": "显示稀有度的分布",
       "pulls_per_item_description": "显示各物品的唤取次数"
     },
-    "dashboard": {
-      "title": "仪表板",
-      "stay_focused_rover": "时刻保持专注，漂泊者。",
-      "welcome_rover": "欢迎您，漂泊者。",
-      "let_us_get_started": "我们开始吧，好吗？",
-      "your_data_will_now_sync": "你的数据现在会按需同步！",
-      "feature_header": "WuWa Tracker 帮助您 <span></span> 记录",
-      "greeting": {
-        "words": {
-          "pulls": "唤取次数",
-          "pity": "保底",
-          "events": "活动",
-          "statistics": "统计数据",
-          "data": "数据",
-          "updates": "更新"
-        },
-        "description": "根据全球统计及更多数据，使用最新数据为《鸣潮》提供的保底计数器。我们致力于提供一个最棒的工具来让您向朋友们展示您的《鸣潮》进度。"
-      },
-      "changelog": {
-        "title": "变更日志"
-      },
-      "about": {
-        "title": "关于",
-        "what_is_wuwatracker": "什么是 WuWa Tracker？"
-      },
-      "credits": {
-        "title": "致谢",
-        "heading": "致谢与归属",
-        "heading_description": "下列人士都非常了不起，而本网站得以创立离不开他们的帮助。如果您的名字未列于此，或您希望我们移除您的名字，请联系我们。",
-        "special_thanks": "特别感谢"
-      }
-    },
     "settings": {
-      "submit_to_global_stats": "将唤取数据提交至全球统计数据",
-      "create_profile_dialog": "您还没有一个玩家资料",
-      "create_profile_dialog_description": " 我们会帮助您创建一个以便保存您的数据",
-      "active_profile_delete_pulls": "删除当前玩家资料的唤取数据",
-      "active_profile_delete_pulls_description": "这将永久删除与 {playerId} 关联的所有唤取记录。请先备份您的数据，并谨慎操作。",
-      "active_profile_delete_pulls_confirm": "您确定您想要删除 {playerId} 的所有唤取吗？",
-      "not_responsible_undone_disclaimer": "继续操作即表示您承认我们对您的数据不负责。此操作无法撤销！",
-      "all_profiles_delete": "删除全部用户资料",
-      "all_profiles_delete_description": "这将永久删除您所有的用户资料。此操作是为测试目的创建的。请先备份您的数据，并谨慎操作。",
-      "all_profiles_delete_confirm": "您确定要删除所有用户资料吗？",
-      "privacy_description": "选择加入或退出与您的数据隐私相关的设置",
-      "privacy_global_stats": "贡献到全球统计数据",
-      "privacy_global_stats_description": "启用后，我们将使用您的唤取 URL 来统计全球数据",
-      "privacy_footer_policy_link": "我们的<link>隐私政策</link>详细说明了我们如何处理您的数据。",
-      "import_user_profile": "导入用户资料",
-      "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。若需导入唤取记录数据，请使用其他导入按钮。",
-      "user_profile": "用户资料",
-      "user_profile_description": "选择您使用的玩家资料以查看成就、物品和唤取记录跟踪",
-      "sync_tooltips": "同步工具提示",
-      "sync_tooltips_description": "展示多种工具提示，一览当前同步状态以及任何相关更新。",
-      "pull_history": "唤取历史数据",
-      "pull_history_description": "通过 Google 或您的本地设备上传和下载您的本地数据",
-      "saves_your_pulls_to_google": "将您的唤取记录保存到 Google",
-      "overwrite_google_drive_data": "您想覆写您的 Google 云端硬盘数据吗？",
-      "overwrite_google_drive_data_description": "上传您的数据将会用您的本地数据覆写您的 Google 云端硬盘数据。我们建议您先下载一份副本。",
-      "pulls_file_import_dialog_title": "导入本地唤取历史",
-      "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
-      "sync_preferences": "同步偏好",
-      "sync_preferences_description": "启用或禁用您的数据的 Google 云端硬盘自动同步",
-      "sync_preferences_profile_description": "资料包含非唤取数据，如成就、物品和其他网站功能。",
-      "you_can_manually_sync_reminder": "您可以在玩家资料菜单中使用<code>触发同步</code>按钮手动同步。",
-      "backup_reminder": "您已有至少一个月未将数据下载到本地作为备份了。现在下载，如何？"
+      "general": {
+        "title": "General",
+        "site_language": "Site Language",
+        "site_language_description": "Select the language you'd like to use throughout the site",
+        "game_server_timezone": "Game Server Timezone",
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+      },
+      "data": {
+        "title": "数据",
+        "active_profile": "Active Profile",
+        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "import_profile": "Import Profile",
+        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "export_profile": "Export Profile",
+        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "import_pull_history": "Import Pull History",
+        "import_pull_history_description": "Upload your pull history through a supported file format",
+        "export_pull_history": "Export Pull History",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+      },
+      "connections": {
+        "title": "Connections",
+        "active_email": "Active Email",
+        "active_email_description": "This is the active email you're currently logged in with",
+        "linked_user_id": "Linked User ID",
+        "linked_user_id_description": "This is the user ID linked to your active email",
+        "link_your_email": "Link Your Email",
+        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
+        "unlink_email": "Unlink Email",
+        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "player_id": "Player ID",
+        "import_to_link": "Import to Link",
+        "sign_in_to_link": "Sign in to Link",
+        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "recover_pulls": "Recover Pulls"
+      },
+      "advanced": {
+        "title": "高级",
+        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
+        "website_version": "Website Version",
+        "website_version_description": "You're currently using this version of the site",
+        "session_logs": "Session Logs",
+        "session_logs_description": "You can download your logs for debugging purposes",
+        "delete_active_profile_data": "Delete Active Profile Data",
+        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
+        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
+        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "profile": "Profile",
+        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
+        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "delete_profile_data": "Delete Profile Data",
+        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features_description": "Opt-into new features before they're officially released"
+      }
     },
     "timeline": {
       "choose_server_timezone": "选择服务器时区",
@@ -562,6 +575,14 @@
       }
     },
     "import": {
+      "select_a_method": "Select a method",
+      "tutorial_video": "Tutorial Video",
+      "follow_our_video_tutorial": "参照我们的视频教程",
+      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "upload_your_client_log_file_here": "Upload your Client.log file here",
+      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "URL 到期失效",
       "logs_not_updating_alert_description": "截至 2025 年 1 月 14 日，PC 用户会遇到疑似因库洛游戏的更新引发的游戏日志问题。请阅读我们的<link>故障排除指南</link>进行调试。",
       "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
@@ -570,7 +591,6 @@
       "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
-      "press_the_import_history_button": "点击此网站上的“导入历史”按钮",
       "go_to_installation_directory": "进入您的游戏安装目录",
       "go_to_installation_directory_description": "右键点击《鸣潮》游戏启动器并选择 <code>打开文件位置</code>。你应该会看见 <code>launcher.exe</code> 以及很多 <code>.dll</code> 文件。",
       "search_for_log": "寻找 <code>Client.log</code> 并在这里上传它",
@@ -581,9 +601,15 @@
       "download_ascent_troubleshooting": "如果无法正确运行，请查看<link>故障排除板块</link>。",
       "ios_follow_tutorial_video": "参照我们的视频教程",
       "ios_follow_tutorial_video_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据此视频教程以在 iOS 上导入您的数据。",
+      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "按下您控制器上的<code>选项</code>按钮",
       "ps5_click_on_page_information": "按下<code>页面信息</code>按钮",
-      "ps5_enter_your_record_id": "在此输入您的 <code>player_id</code> 和 <code>record_id</code>"
+      "ps5_enter_your_record_id": "在此输入您的 <code>player_id</code> 和 <code>record_id</code>",
+      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
       "new_plan": "新建计划",
@@ -612,6 +638,15 @@
         "Weapon and Skill Material": "武器与技能材料",
         "Weapon EXP Material": "武器经验材料"
       }
+    },
+    "home_page": {
+      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
+      "hero_cta_button": "Start Tracking",
+      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "quick_links": "Quick Links",
+      "quick_links_description": "Access important pages and features quickly",
+      "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
@@ -620,6 +655,7 @@
     },
     "achievements": {
       "title": "成就",
+      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
       "description": "标记《鸣潮》游戏成就，以便随时检查未完成的成就，并自由地在设备之间导入或导出数据！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "tracker": {
@@ -641,11 +677,8 @@
     },
     "import": {
       "title": "导入唤取历史",
-      "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
-      "legacy": {
-        "title": "旧版导入教程",
-        "description": "如果您之前使用过我们的网站，并且在新网站上找不到您的唤取数据，请按照我们的旧版导入指南操作！"
-      }
+      "page_header": "Select your platform & preferred method to import your data",
+      "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "not_found": {
       "title": "未找到页面",
@@ -653,10 +686,11 @@
     },
     "privacy_policy": {
       "title": "隐私政策",
-      "description": "本隐私政策文件列明 WuWa Tracker 所接收并收集的个人信息所涉及的类型，以及 WuWa Tracker 使用该个人信息的方式。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "本隐私政策文件列明 WuWa Tracker 所接收并收集的个人信息所涉及的类型，以及 WuWa Tracker 使用该个人信息的方式。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。"
     },
     "settings": {
       "title": "设置",
+      "page_header": "Manage your site preferences and data here",
       "description": "通过登录到 Google 的方式同步您的数据。在同一位置管理您的《鸣潮》抽取数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "terms_and_conditions": {
@@ -669,6 +703,7 @@
     },
     "timeline": {
       "title": "活动时间线",
+      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "您可以使用您本地的时区或任何《鸣潮》服务器时区以查看每个横幅时间表、游戏内事件、逆境之塔和幻境深渊的期间 - 一切尽在一处。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "wiki": {
@@ -692,6 +727,41 @@
     "support": {
       "title": "支持",
       "description": "需要帮助下载您的《鸣潮》唤取数据吗？想了解 WuWa Tracker 如何使用您的数据？请在这里查看 WuWa Tracker 的常见问题解答！"
+    },
+    "articles": {
+      "title": "Articles",
+      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    }
+  },
+  "config": {
+    "navLinks": {
+      "Tracker": "Tracker",
+      "Import Pulls": "Import Pulls",
+      "Global Statistics": "全球统计数据",
+      "Wiki": "Wiki",
+      "Characters": "Characters",
+      "Weapons": "武器",
+      "Items": "物品",
+      "Tools": "工具",
+      "Achievements Tracker": "Achievements Tracker",
+      "Ascension Planner": "培养规划工具",
+      "Events": "Events",
+      "Articles": "Articles",
+      "Old Site": "Old Site"
+    },
+    "footer": {
+      "links": {
+        "Contact Us": "Contact Us",
+        "System Status": "系统状态",
+        "Help Translate": "帮助翻译",
+        "Privacy Policy": "隐私政策",
+        "Terms of Service": "Terms of Service",
+        "Discord": "异响空灵",
+        "GitHub": "GitHub",
+        "Company": "Company",
+        "Resources": "Resources",
+        "Community": "社区"
+      }
     }
   }
 }
