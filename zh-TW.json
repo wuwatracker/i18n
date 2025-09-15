@@ -525,7 +525,11 @@
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -709,15 +713,18 @@
     "wiki": {
       "resonator": {
         "title": "共鳴者",
-        "description": "查看《鳴潮》共鳴者資訊、角色詳情，並使用WuWa Tracker的素材計算機來規劃你的共鳴者突破。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
+        "description": "查看《鳴潮》共鳴者資訊、角色詳情，並使用WuWa Tracker的素材計算機來規劃你的共鳴者突破。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "物品",
-        "description": "查看《鳴潮》的物品資訊、掉落地點，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
+        "description": "查看《鳴潮》的物品資訊、掉落地點，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "武器",
-        "description": "查看《鳴潮》的武器資訊、屬性，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
+        "description": "查看《鳴潮》的武器資訊、屬性，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {

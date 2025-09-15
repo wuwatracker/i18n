@@ -525,7 +525,11 @@
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -709,15 +713,18 @@
     "wiki": {
       "resonator": {
         "title": "공명자",
-        "description": "명조: 워더링 웨이브의 공명자 정보, 프로필을 보고 공명자 업그레이드를 위해 WuWa Tracker의 재료 계산기를 사용해보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
+        "description": "명조: 워더링 웨이브의 공명자 정보, 프로필을 보고 공명자 업그레이드를 위해 WuWa Tracker의 재료 계산기를 사용해보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "아이템",
-        "description": "명조: 워더링 웨이브의 아이템 정보, 드랍 장소, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
+        "description": "명조: 워더링 웨이브의 아이템 정보, 드랍 장소, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "무기",
-        "description": "명조: 워더링 웨이브의 무기 정보, 속성, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
+        "description": "명조: 워더링 웨이브의 무기 정보, 속성, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {

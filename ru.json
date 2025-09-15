@@ -219,17 +219,17 @@
         "files_has_oversize_limit_num": "Размер некоторых файлов превышает лимит в {num} МБ.",
         "inventory_item_does_not_exist": "Такого предмета не существует!",
         "planner_insufficient_materials": "Недостаточно материалов.",
-        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
-        "failed_to_unlink_email": "Failed to unlink your email",
-        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
-        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
-        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "Используйте любой профиль, кроме гостевого, чтобы экспортировать историю",
+        "failed_to_unlink_email": "Не удалось отвязать ваш адрес электронной почты",
+        "failed_to_fetch_pulls_from_database": "Не удалось получить крутки из нашей базы данных",
+        "an_error_occured_while_merging_your_data": "Произошла ошибка при слиянии ваших данных",
+        "your_email_must_be_linked_to_import_pulls": "Ваш адрес электронной почты должен быть привязан для импорта круток",
+        "your_email_must_be_linked_to_import_pulls_description": "Пожалуйста, сначала войдите и привяжите свой UID."
       },
       "info": {
         "connecting_google": "Попытка подключения к Google Диску",
-        "sign_in_first": "Sign in first",
-        "already_linked": "Already linked",
+        "sign_in_first": "Сначала выполните вход",
+        "already_linked": "Уже привязан",
         "enable_email_link": "Enable email link",
         "sign_in_to_sync": "Войдите, чтобы синхронизировать",
         "loading": "Загрузка...",
@@ -251,17 +251,17 @@
         "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
         "planner_edited_plan_for_name": "План для {name} изменён.",
-        "unlinking_your_email": "Unlinking your email...",
-        "importing_cloud_data": "Importing cloud data from our database...",
-        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
-        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
+        "unlinking_your_email": "Отвязка вашей электронной почты...",
+        "importing_cloud_data": "Импортируются данные из облака...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "Это может занять некоторое время, если у вас много данных или сайт нагружен.",
+        "no_new_pulls_found_after_importing": "Не найдено новых круток после импорта."
       },
       "success": {
         "successfully_imported_achievements": "Достижения успешно импортированы.",
         "successfully_imported_gacha_records": "Крутки успешно импортированы.",
-        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
+        "successfully_imported_num_new_pulls": "Успешно импортировано {num} новых круток.",
         "successfully_imported_profile": "Профиль успешно импортирован.",
-        "the_import_was_successful": "The import was successful!",
+        "the_import_was_successful": "Импорт успешно завершен!",
         "successfully_imported_gacha_records_redirecting": "Переходим к истории круток.",
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
@@ -272,7 +272,7 @@
         "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
         "planner_successfully_completed_plan_for_name": "План для {name} выполнен!",
         "planner_successfully_created_plan_for_name": "Создан план для {name}.",
-        "successfully_unlinked_email": "Successfully unlinked your email"
+        "successfully_unlinked_email": "Привязка к адресу электр. почты убрана"
       },
       "warn": {
         "this_cannot_be_undone": "Это действие не может быть отменено!",
@@ -429,7 +429,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "Скачать логи"
     }
   },
   "feature": {
@@ -508,24 +508,28 @@
     },
     "settings": {
       "general": {
-        "title": "General",
-        "site_language": "Site Language",
-        "site_language_description": "Select the language you'd like to use throughout the site",
-        "game_server_timezone": "Game Server Timezone",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "title": "Общее",
+        "site_language": "Язык сайта",
+        "site_language_description": "Выберите язык, который вы хотите использовать для сайта",
+        "game_server_timezone": "Выбрать часовой пояс сервера",
+        "game_server_timezone_description": "Показать возможности, связанные с временем вашего игрового часового пояса"
       },
       "data": {
         "title": "Данные",
-        "active_profile": "Active Profile",
-        "active_profile_description": "Select the active profile you'd like to use throughout the site",
-        "import_profile": "Import Profile",
-        "import_profile_description": "Import a profile snapshot to restore or load another profile",
-        "export_profile": "Export Profile",
-        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
-        "import_pull_history": "Import Pull History",
-        "import_pull_history_description": "Upload your pull history through a supported file format",
-        "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "active_profile": "Активный профиль",
+        "active_profile_description": "Выберите профиль, который вы хотите использовать для сайта",
+        "import_profile": "Импортировать профиль",
+        "import_profile_description": "Импортировать файл профиля для восстановления старого или загрузки нового",
+        "export_profile": "Экспортировать профиль",
+        "export_profile_description": "Создайте файл активного профиля для резервного копирования или отправки",
+        "import_pull_history": "Импортировать крутки",
+        "import_pull_history_description": "Загрузите историю круток в поддерживаемом формате",
+        "export_pull_history": "Экспортировать крутки",
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -709,15 +713,18 @@
     "wiki": {
       "resonator": {
         "title": "Резонаторы",
-        "description": "Просматривайте информацию о Резонаторах в Wuthering Waves и используйте калькулятор WuWa Tracker, чтобы распланировать улучшения ваших Резонаторов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
+        "description": "Просматривайте информацию о Резонаторах в Wuthering Waves и используйте калькулятор WuWa Tracker, чтобы распланировать улучшения ваших Резонаторов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Предметы",
-        "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!"
+        "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Оружие",
-        "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!"
+        "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {

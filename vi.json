@@ -525,7 +525,11 @@
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -709,15 +713,18 @@
     "wiki": {
       "resonator": {
         "title": "Cộng Hưởng Giả",
-        "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!"
+        "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Vật phẩm",
-        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
+        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Vũ khí",
-        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!"
+        "description": "Xem thông tin về vật phẩm Wuthering Waves, vị trí rớt đồ và theo dõi kho đồ của bạn - tất cả trong một nơi. Bộ đếm pity của WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt rút của bạn với bạn bè và theo dõi tài khoản của bạn!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {

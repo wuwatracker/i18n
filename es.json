@@ -525,7 +525,11 @@
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping"
+        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
+        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
+        "import_user_profile": "Import User Profile",
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
       },
       "connections": {
         "title": "Connections",
@@ -709,15 +713,18 @@
     "wiki": {
       "resonator": {
         "title": "Resonadores",
-        "description": "Ve la información de los Resonadores de Wuthering Waves, perfiles, y usa la calculadora de materiales de WuWa Tracker para planear las mejoras de tu Resonador. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "description": "Ve la información de los Resonadores de Wuthering Waves, perfiles, y usa la calculadora de materiales de WuWa Tracker para planear las mejoras de tu Resonador. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "View all the Characters in Wuthering Waves"
       },
       "item": {
         "title": "Objetos",
-        "description": "Ve la información del objeto de Wuthering Waves, su localización, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "description": "Ve la información del objeto de Wuthering Waves, su localización, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "View all the Items in Wuthering Waves"
       },
       "weapon": {
         "title": "Armas",
-        "description": "Ve la información del arma de Wuthering Waves, sus estadísticas, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "description": "Ve la información del arma de Wuthering Waves, sus estadísticas, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "View all the Weapons in Wuthering Waves"
       }
     },
     "planner": {
