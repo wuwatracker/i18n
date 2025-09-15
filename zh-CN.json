@@ -220,7 +220,7 @@
         "inventory_item_does_not_exist": "该物品不存在！",
         "planner_insufficient_materials": "材料数量不足。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
-        "failed_to_unlink_email": "Failed to unlink your email",
+        "failed_to_unlink_email": "无法取消链接您的电子邮件",
         "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
         "an_error_occured_while_merging_your_data": "An error occured while merging your data",
         "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
