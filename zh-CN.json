@@ -259,9 +259,9 @@
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
         "successfully_imported_gacha_records": "成功导入您的抽卡记录。",
-        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
+        "successfully_imported_num_new_pulls": "成功导入 {num} 个新抽次数。",
         "successfully_imported_profile": "成功导入您的用户资料。",
-        "the_import_was_successful": "The import was successful!",
+        "the_import_was_successful": "导入成功！",
         "successfully_imported_gacha_records_redirecting": "正在重定向到您的记录。",
         "create_profile": "成功为 {playerId} 创建用户资料。",
         "delete_pulls": "成功删除 {playerId} 的所有唤取。",
@@ -509,7 +509,7 @@
     "settings": {
       "general": {
         "title": "General",
-        "site_language": "Site Language",
+        "site_language": "网站语言",
         "site_language_description": "Select the language you'd like to use throughout the site",
         "game_server_timezone": "Game Server Timezone",
         "game_server_timezone_description": "Show time-related features according to your game server's timezone"
@@ -580,9 +580,9 @@
     },
     "import": {
       "select_a_method": "Select a method",
-      "tutorial_video": "Tutorial Video",
+      "tutorial_video": "教程视频",
       "follow_our_video_tutorial": "参照我们的视频教程",
-      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
+      "follow_our_video_tutorial_description": "这个短视频将引导您完成导入过程",
       "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
       "press_the_import_data_button": "Press the \"Import Data\" button below",
       "upload_your_client_log_file_here": "Upload your Client.log file here",
@@ -737,28 +737,28 @@
     },
     "articles": {
       "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "description": "阅读有关鸣潮的最新文章，包括指南、提示、新闻、公告等！"
     }
   },
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Import Pulls": "导入唤取历史",
       "Global Statistics": "全球统计数据",
       "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Characters": "共鸣者",
       "Weapons": "武器",
       "Items": "物品",
       "Tools": "工具",
       "Achievements Tracker": "Achievements Tracker",
       "Ascension Planner": "培养规划工具",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "活动",
+      "Articles": "文章",
+      "Old Site": "旧网站"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "联系我们",
         "System Status": "系统状态",
         "Help Translate": "帮助翻译",
         "Privacy Policy": "隐私政策",
