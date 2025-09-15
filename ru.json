@@ -525,21 +525,21 @@
         "import_pull_history": "Импортировать крутки",
         "import_pull_history_description": "Загрузите историю круток в поддерживаемом формате",
         "export_pull_history": "Экспортировать крутки",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
-        "pulls_file_import_dialog_title": "Import Local Pulls",
-        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
-        "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
+        "export_pull_history_description": "Создайте резервную копию истории круток для безопасного хранения на устройстве",
+        "pulls_file_import_dialog_title": "Импортировать с устройства",
+        "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>импорт старых круток</link>, если хотите восстановить данные, сохранённые до <code></code>.",
+        "import_user_profile": "Импортировать профиль",
+        "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки."
       },
       "connections": {
-        "title": "Connections",
-        "active_email": "Active Email",
-        "active_email_description": "This is the active email you're currently logged in with",
-        "linked_user_id": "Linked User ID",
-        "linked_user_id_description": "This is the user ID linked to your active email",
-        "link_your_email": "Link Your Email",
-        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
-        "unlink_email": "Unlink Email",
+        "title": "Подключения",
+        "active_email": "Активная почта",
+        "active_email_description": "Это текущий адрес электронной почты, который используется для сайта",
+        "linked_user_id": "Связанный UID",
+        "linked_user_id_description": "Это текущий UID, связанный с текущим адресом электронной почты",
+        "link_your_email": "Свяжите со своей почтой",
+        "link_your_email_description": "Разблокируйте больше возможностей, связав ваш WuWa UID с вашей электронной почтой",
+        "unlink_email": "Отвязать электронную почту",
         "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
         "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
         "player_id": "Player ID",
@@ -736,38 +736,39 @@
       "description": "Нужна помощь с импортом круток из Wuthering Waves? Хотите знать, как WuWa Tracker использует ваши данные? Ознакомьтесь с WuWa Tracker FAQ здесь!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "Статьи",
+      "description": "Читайте последние статьи и обновления о Wuthering Waves, включая руководства, советы, новости, объявления и многое другое!"
     }
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Tracker": "Трекер",
+      "Import Pulls": "Импорт круток",
       "Global Statistics": "Глобальная статистика",
-      "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Wiki": "Вики",
+      "Characters": "Резонаторы",
       "Weapons": "Оружие",
       "Items": "Предметы",
       "Tools": "Инструменты",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "Трекер достижений",
       "Ascension Planner": "Планировщик",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "Ивенты",
+      "Articles": "Статьи",
+      "Old Site": "Старый сайт"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "Связаться с нами",
         "System Status": "Статус",
         "Help Translate": "Помощь в переводе",
         "Privacy Policy": "Политика конфиденциальности",
-        "Terms of Service": "Terms of Service",
+        "Terms of Service": "Условия предоставления услуг",
         "Discord": "Discord",
         "GitHub": "GitHub",
-        "Company": "Company",
-        "Resources": "Resources",
-        "Community": "Сообщество"
+        "Company": "Организация",
+        "Resources": "Материалы",
+        "Community": "Сообщество",
+        "Affiliates": "Affiliates"
       }
     }
   }
