@@ -228,7 +228,7 @@
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
-        "sign_in_first": "Sign in first",
+        "sign_in_first": "请先登录",
         "already_linked": "Already linked",
         "enable_email_link": "Enable email link",
         "sign_in_to_sync": "登入以同步",
@@ -253,7 +253,7 @@
         "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。",
         "unlinking_your_email": "Unlinking your email...",
         "importing_cloud_data": "Importing cloud data from our database...",
-        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "如果您有大量的数据或网站忙碌，这可能需要一些时间。",
         "no_new_pulls_found_after_importing": "No new pulls were found after importing."
       },
       "success": {
