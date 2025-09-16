@@ -712,9 +712,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Characters",
-        "description": "View Wuthering Waves Character information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "Items",
@@ -740,7 +740,6 @@
       "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
     }
   },
-
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
@@ -764,8 +763,6 @@
         "Help Translate": "Help Translate",
         "Privacy Policy": "Privacy Policy",
         "Terms of Service": "Terms of Service",
-        "Discord": "Discord",
-        "GitHub": "GitHub",
         "Company": "Company",
         "Resources": "Resources",
         "Community": "Community",
