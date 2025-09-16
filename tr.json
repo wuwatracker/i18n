@@ -707,24 +707,24 @@
     },
     "timeline": {
       "title": "Etkinlik Zaman Çizelgesi",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "Wuthering Waves'deki güncel olaylar ve etkinliklerden haberdar ol",
       "description": "Yerel veya herhangi bir Wuthering Waves sunucu saat dilimini kullanarak, tüm banner takvimlerini, oyun içi etkinlikleri. Tower of Adversity & Depths of Illusive Realm periyotlarını - tek bir yerde görebilirsin. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "wiki": {
       "resonator": {
         "title": "Rezonatörler",
-        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüleyin ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerinizi hesaplayın. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüle ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerini hesapla. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarını arkadaşlarınla paylaş ve hesabını takip et!",
+        "page_header": "Wuthering Waves'deki tüm Rezonatörleri görüntüle"
       },
       "item": {
         "title": "Eşyalar",
         "description": "Wuthering Waves item bilgilerini, düşürme yerlerini ve envanterindeki eşyaları - tek bir yerde görüntüle. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
-        "page_header": "View all the Items in Wuthering Waves"
+        "page_header": "Wuthering Waves'deki tüm Öğeleri görüntüle"
       },
       "weapon": {
         "title": "Silahlar",
         "description": "Wuthering Waves silah bilgilerini, özelliklerini ve envanterini - tek bir yerde görüntüle ve takip et. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "page_header": "Wuthering Waves'deki tüm Silahları görüntüle"
       }
     },
     "planner": {
