@@ -529,7 +529,9 @@
         "pulls_file_import_dialog_title": "Cihazındaki Çağrıları İçe Aktar",
         "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni formatımızdaki çağrıları kabul eder. <code></code> öncesinde oluşturduğun eski verilerini içe aktarmak istiyorsan, <link>eski çağrıları içe aktar</link> sayfasını ziyaret etmelisin.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
-        "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın."
+        "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
+        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
+        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
       },
       "connections": {
         "title": "Bağlantılar",
