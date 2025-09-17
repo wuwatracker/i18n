@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Pull Tracker",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "global": {
