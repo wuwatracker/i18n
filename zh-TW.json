@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "喚取追蹤",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "查看您在《鳴潮》中最近的喚取與統計。使用可以截圖的儀表板向你的朋友炫耀！WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
       },
       "global": {

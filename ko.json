@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "튜닝 트래커",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "업데이트된 명조: 워더링 웨이브 뽑기 통계 및 최근 튜닝 기록을 확인할 수 있습니다. 언제든 준비된 대시보드를 사용해 친구들에게 뽐내보세요! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       },
       "global": {

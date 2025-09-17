@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Theo dõi Triệu hồi",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "Xem thống kê về việc triệu hồi trong Wuthering Waves và lịch sử triệu hồi của Bạn. Sử dụng bảng điều khiển sẵn sàng cho ảnh chụp để khoe với bạn bè! WuWa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
       "global": {

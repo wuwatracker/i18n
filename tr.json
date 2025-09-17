@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Çağrı Takip Sistemi",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "Güncellenmiş çağrı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını akradaşların ile paylaş ve hesabını takip et!"
       },
       "global": {

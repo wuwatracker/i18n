@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Pelacak Pull",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
       "global": {
