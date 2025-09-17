@@ -68,10 +68,10 @@
         "Youhu": "釉瑚",
         "Zani": "ザンニー",
         "Abyss Surges": "怒涛の湖音",
-        "Aether Strike": "Aether Strike",
+        "Aether Strike": "舞い上がる大空",
         "Ages of Harvest": "歳華調和",
         "Amity Accord": "金鉄の志",
-        "Aureate Zenith": "Aureate Zenith",
+        "Aureate Zenith": "金の天穹",
         "Autumntrace": "秋の名残",
         "Beguiling Melody": "天上の仙楽",
         "Blazing Brilliance": "赫く燃ゆる流光",
@@ -92,7 +92,7 @@
         "Discord": "霊感ディスコード",
         "Emerald of Genesis": "千古の湖水",
         "Fables of Wisdom": "風刺のファブリオー",
-        "Feather Edge": "Feather Edge",
+        "Feather Edge": "鋭利な翼",
         "Fusion Accretion": "コアが溶融する降着円盤",
         "Gauntlets of Night": "暗夜の手甲・夜灯",
         "Gauntlets of Voyager": "探索者手甲・排除",
@@ -125,7 +125,7 @@
         "Pistols of Night": "暗夜の拳銃・闇星",
         "Pistols of Voyager": "探索者拳銃・洞察",
         "Pistols#26": "穿撃銃＃26",
-        "Radiant Dawn": "Radiant Dawn",
+        "Radiant Dawn": "弾む輝き",
         "Rectifier of Night": "暗夜の増幅器・冥光",
         "Rectifier of Voyager": "探索者増幅器・発見",
         "Rectifier#25": "鳴動儀＃25",
@@ -136,7 +136,7 @@
         "Rover: Havoc": "漂泊者: 消滅",
         "Rover: Aero": "漂泊者: 気動",
         "Somnoire Anchor": "心の錨",
-        "Solar Flame": "Solar Flame",
+        "Solar Flame": "紅炎",
         "Static Mist": "不変の湖煙",
         "Stellar Symphony": "星々のコンチェルト",
         "Stonard": "黄金の拳",
@@ -229,8 +229,8 @@
       "info": {
         "connecting_google": "Attemping to connect to Google Drive",
         "sign_in_first": "Sign in first",
-        "already_linked": "Already linked",
-        "enable_email_link": "Enable email link",
+        "already_linked": "連携済み",
+        "enable_email_link": "メールアドレス連携を有効にする",
         "sign_in_to_sync": "Sign in to sync",
         "loading": "Loading...",
         "import_loading": "Importing gacha records...",
@@ -245,7 +245,7 @@
         "pull_more_to_unlock": "Pull more to unlock",
         "pull_more_to_view_statistics": "You need more pulls to view statistics",
         "download_will_start_shortly": "Your download will start shortly.",
-        "sync_already_synced": "Your data is already synced.",
+        "sync_already_synced": "既に同期済みです。",
         "google_drive_last_updated_at": "Google Drive最終更新: {date}",
         "nothing_to_sync": "Nothing to sync at the moment.",
         "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
@@ -483,9 +483,9 @@
         "bottom": "下位{percentile}%",
         "luckier": "{percentile}%のプレイヤーよりも運が良い",
         "unluckier": "{percentile}%のプレイヤーよりも運が悪い",
-        "avg_pity": "Average Pity",
+        "avg_pity": "平均回数",
         "avg_pity_description": "あなたが★{qualityLevel}を引くのにかかった平均回数",
-        "pull_ratio": "Pull Ratio",
+        "pull_ratio": "排出率",
         "pull_ratio_description": "全集音のうち、★{qualityLevel}が出た割合",
         "coinflip_wins": "すり抜け回避率",
         "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
@@ -584,7 +584,7 @@
       "follow_our_video_tutorial": "Follow our video tutorial",
       "follow_our_video_tutorial_description": "This short video will guide you through the import process",
       "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
-      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "press_the_import_data_button": "下の「データをインポート」ボタンを押す",
       "upload_your_client_log_file_here": "Upload your Client.log file here",
       "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
       "logs_not_updating_alert": "URLの有効期限切れ",
@@ -610,10 +610,10 @@
       "ps5_press_the_options_button": "Press the 'Options' button on your controller",
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
-      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "open_terminal_and_open_script": "次にターミナルを起動し、以下のコマンドを貼り付けて実行する。",
       "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
     "inventory": {
       "new_plan": "New Plan",
@@ -645,7 +645,6 @@
     },
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
-      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Keep up with the latest news",
       "quick_links": "Quick Links",
@@ -655,7 +654,8 @@
   },
   "metadata": {
     "root": {
-      "description": "最新のデータとグローバル統計を使用したウーザリングウェーブスのピティカウンター。データをデバイス間で同期し、引き分け結果を友達と共有し、アカウントを簡単に追跡できます！"
+      "title": "Wuthering Waves Resource & Companion App",
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "実績",
@@ -681,7 +681,7 @@
     },
     "import": {
       "title": "集音履歴のインポート",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "プラットフォームとデータインポート方法を選択してください",
       "description": "操作しやすいチュートリアルに従って、鳴潮での統計情報を確認しましょう。PC、Android、iOS、どちらもサポートしています。最新のデータと世界の統計情報などを使用する鳴潮集音カウンター WuWa Tracker です。ガチャ履歴や実績を追跡し、友達と共有しましょう！"
     },
     "not_found": {
@@ -743,7 +743,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Import Pulls": "集音履歴のインポート",
       "Global Statistics": "グローバル統計",
       "Wiki": "Wiki",
       "Characters": "共鳴者",

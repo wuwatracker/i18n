@@ -224,7 +224,7 @@
         "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
         "an_error_occured_while_merging_your_data": "An error occured while merging your data",
         "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "your_email_must_be_linked_to_import_pulls_description": "请先登录并链接您的玩家 ID 。"
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
@@ -542,7 +542,7 @@
         "unlink_email": "Unlink Email",
         "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
         "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
-        "player_id": "Player ID",
+        "player_id": "玩家 ID",
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Cloud Pull Data",
@@ -552,7 +552,7 @@
       "advanced": {
         "title": "高级",
         "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "website_version": "Website Version",
+        "website_version": "网站版本",
         "website_version_description": "You're currently using this version of the site",
         "session_logs": "Session Logs",
         "session_logs_description": "You can download your logs for debugging purposes",
@@ -612,7 +612,7 @@
       "ps5_enter_your_record_id": "在此输入您的 player_id 和 record_id",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
       "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
-      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以在此处查看脚本。",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "inventory": {
@@ -645,17 +645,17 @@
     },
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
-      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
+      "quick_links": "快速链接",
       "quick_links_description": "Access important pages and features quickly",
       "the_curent_events_and_activities": "The current events and activities"
     }
   },
   "metadata": {
     "root": {
-      "description": "WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "title": "Wuthering Waves Resource & Companion App",
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "成就",
@@ -681,7 +681,7 @@
     },
     "import": {
       "title": "导入唤取历史",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "选择您的平台和首选方法导入您的数据",
       "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "not_found": {
@@ -736,7 +736,7 @@
       "description": "需要帮助下载您的《鸣潮》唤取数据吗？想了解 WuWa Tracker 如何使用您的数据？请在这里查看 WuWa Tracker 的常见问题解答！"
     },
     "articles": {
-      "title": "Articles",
+      "title": "文章",
       "description": "阅读有关鸣潮的最新文章，包括指南、提示、新闻、公告等！"
     }
   },
@@ -750,7 +750,7 @@
       "Weapons": "武器",
       "Items": "物品",
       "Tools": "工具",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "成就记录",
       "Ascension Planner": "培养规划工具",
       "Events": "活动",
       "Articles": "文章",
@@ -762,9 +762,9 @@
         "System Status": "系统状态",
         "Help Translate": "帮助翻译",
         "Privacy Policy": "隐私政策",
-        "Terms of Service": "Terms of Service",
+        "Terms of Service": "服务条款",
         "Company": "Company",
-        "Resources": "Resources",
+        "Resources": "资源",
         "Community": "社区",
         "Affiliates": "Affiliates"
       }
