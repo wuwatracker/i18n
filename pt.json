@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Contador de Tiros",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "Veja as suas estatísticas de tiros de Wuthering Waves atualizadas e Convocações recentes. Use painéis prontos para screenshots para se gabar para seus amigos! WuWa Tracker conta o pity de Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Compartilhe seus tiros com os seus amigos e acompanhe a sua conta!"
       },
       "global": {
