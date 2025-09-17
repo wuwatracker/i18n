@@ -592,7 +592,7 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu metin, dosyalarını değiştirmez. Sadece Buluşma Geçmişi URL'ni ayrıştırır. Metni <link>buradan</link> görebilirsin.",
+      "powershell_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerinizi okuyarak Buluşma Geçmişi URL'nizi çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <link>buradan</link> görüntüleyebilirsiniz.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
@@ -611,7 +611,7 @@
       "ps5_click_on_page_information": "\"Sayfa Hakkında\" seçeneğine tıkla",
       "ps5_enter_your_record_id": "'player_id' 'ni ve 'record_id' 'ni buraya yaz",
       "open_terminal_and_open_script": "Ardından terminal'i aç ve aşağıdaki metni yapıştır.",
-      "linux_script_disclaimer": "Bu komut dosyalarını düzenlemez, sadece oyun günlüğünden Buluşma Geçmişi URL'ni ayıklar. Komutu <script>buradan</script> görüntüleyebilirsin. <repo></repo> kodunu paylaştığı için <author></author>'ya teşekkür ederiz.",
+      "linux_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerinizi okuyarak Buluşma Geçmişi URL'nizi çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <script>buradan</script> görüntüleyebilirsiniz. <repo></repo>'ı paylaştığı için <author></author>'ya teşekkür ederiz.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresinizi kullanacağız."
     },
@@ -655,7 +655,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves Kaynak & Yardımcı Uygulaması",
-      "description": "WuWa Tracker, #1 Wuthering Waves çekiliş takipçisi ve pity sayacıdır. Çekilişlerinizi ve başarılarınızı takip edin, küresel istatistikleri görüntüleyin, yükseltme planlayıcı & hesap makinemizi kullanın ve rehberler, wiki ve haberleri keşfederek Wuthering Waves deneyiminizi optimize edin."
+      "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren güncel verileri kullanan bir pity sayacı. Verilerini cihazların arasında senkronize et, çağrılarını arkadaşlarınla paylaş ve hesabını kolayca takip et!"
     },
     "achievements": {
       "title": "Başarımlar",
@@ -665,7 +665,7 @@
     "tracker": {
       "index": {
         "title": "Çağrı Takip Sistemi",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
+        "page_header": "Yakın zamandaki çağrılarını görüntüle ve diğer oyuncularla karşılaştır.",
         "description": "Güncellenmiş çağrı istatistiklerini ve yakın zamandaki buluşmaları gör. Ekran Görüntüsü almaya hazır kontrol panellerini kullanarak arkadaşlarına hava at! Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını akradaşların ile paylaş ve hesabını takip et!"
       },
       "global": {
