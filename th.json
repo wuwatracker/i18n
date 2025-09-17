@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "ติดตามประวัติการสุ่ม",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "คุณสามารถดูสถิติการสุ่มและประวัติการสุ่มล่าสุดใน Wuthering Waves ของคุณและสามารถใช้แดชบอร์ดเพื่ออวดเพื่อนๆ ของคุณ! WuWa Tracker เป็นอุปกรณ์นับการันตีสำหรับเกม Wuthering Waves โดยใช้ข้อมูลที่อัปเดตล่าสุดพร้อมสถิติทั่วโลกและอื่นๆ แบ่งปันข้อมูลการดึงของคุณกับเพื่อนๆ และติดตามบัญชีของคุณ!"
       },
       "global": {
