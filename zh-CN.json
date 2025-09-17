@@ -224,7 +224,7 @@
         "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
         "an_error_occured_while_merging_your_data": "An error occured while merging your data",
         "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "your_email_must_be_linked_to_import_pulls_description": "请先登录并链接您的玩家 ID 。"
       },
       "info": {
         "connecting_google": "尝试连接到 Google 云端硬盘",
@@ -542,7 +542,7 @@
         "unlink_email": "Unlink Email",
         "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
         "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
-        "player_id": "Player ID",
+        "player_id": "玩家 ID",
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Cloud Pull Data",
@@ -552,7 +552,7 @@
       "advanced": {
         "title": "高级",
         "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "website_version": "Website Version",
+        "website_version": "网站版本",
         "website_version_description": "You're currently using this version of the site",
         "session_logs": "Session Logs",
         "session_logs_description": "You can download your logs for debugging purposes",
