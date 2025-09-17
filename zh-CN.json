@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "唤取记录",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "查看您最新的《鸣潮》抽取统计数据和最近的唤取记录。仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
       },
       "global": {
