@@ -645,7 +645,6 @@
     },
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
-      "hero_subheading": "WuWa Tracker is your ultimate resource & companion app for Wuthering Waves, using the up-to-date data with global statistics and more. Use our various tools to enhance your gameplay experience!",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Keep up with the latest news",
       "quick_links": "Quick Links",
@@ -655,7 +654,8 @@
   },
   "metadata": {
     "root": {
-      "description": "Um contador de pity para Wuthering Waves, usando dados atualizados com estatísticas globais e mais. Sincronize seus dados entre dispositivos, compartilhe seus tiros com os seus amigos e acompanhe sua conta facilmente!"
+      "title": "Wuthering Waves Resource & Companion App",
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "Conquistas",
