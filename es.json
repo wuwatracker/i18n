@@ -665,6 +665,7 @@
     "tracker": {
       "index": {
         "title": "Tracker de tiradas",
+        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
         "description": "¡Mira tus estadísticas y tus últimas invocaciones actualizadas en Wuthering Waves! Utiliza paneles listos para capturas de pantalla para presumir ante tus amigos. WuWa Tracker es un contador de pity para Wuthering Waves, utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
       },
       "global": {
