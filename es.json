@@ -89,7 +89,7 @@
         "Cosmic Ripples": "Ondas Cósmicas",
         "Dauntless Evernight": "Noche Intrépida",
         "Defier's Thorn": "Espina de la Desafiadora",
-        "Discord": "Discord",
+        "Discord": "Disonancia",
         "Emerald of Genesis": "Esmeralda del Génesis",
         "Fables of Wisdom": "Fábulas de sabiduría",
         "Feather Edge": "Filo de Pluma",
@@ -113,7 +113,7 @@
         "Lustrous Razor": "Navaja Brillante",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditaciones de la piedad",
-        "Moongazer's Sigil": "Moongazer's Sigil",
+        "Moongazer's Sigil": "Sigilo de la Miraluna",
         "Novaburst": "Novestallido",
         "Ocean's Gift": "Regalo del mar",
         "Originite: Type I": "Originite: Tipo I",
@@ -219,18 +219,18 @@
         "files_has_oversize_limit_num": "Algunos archivos superan el límite de tamaño de {num}MB.",
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Materiales insuficientes.",
-        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
-        "failed_to_unlink_email": "Failed to unlink your email",
-        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
-        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
-        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de extracciones",
+        "failed_to_unlink_email": "Error al desvincular tu correo electrónico",
+        "failed_to_fetch_pulls_from_database": "No se pudo obtener las extracciones de nuestra base de datos",
+        "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
+        "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las extracciones",
+        "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero."
       },
       "info": {
         "connecting_google": "Intentando conectar a Google Drive",
-        "sign_in_first": "Sign in first",
-        "already_linked": "Already linked",
-        "enable_email_link": "Enable email link",
+        "sign_in_first": "Inicia sesión primero",
+        "already_linked": "Ya vinculado",
+        "enable_email_link": "Habilita la vinculación del correo",
         "sign_in_to_sync": "Inicia sesión para sincronizar",
         "loading": "Cargando...",
         "import_loading": "Importando registros del gacha...",
@@ -251,17 +251,17 @@
         "sync_creating_file_in_google": "Creando {fileName} en Google Drive...",
         "sync_updating_remote_file": "Actualizando la copia remota para {fileName}...",
         "planner_edited_plan_for_name": "Plan {name} editado.",
-        "unlinking_your_email": "Unlinking your email...",
-        "importing_cloud_data": "Importing cloud data from our database...",
-        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
-        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
+        "unlinking_your_email": "Desvinculando tu correo...",
+        "importing_cloud_data": "Importando datos en la nube de nuestra base de datos...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "Esto puede tardar un poco si tienes muchos datos o si el sitio está ocupado.",
+        "no_new_pulls_found_after_importing": "No se encontraron nuevas extracciones después de importar."
       },
       "success": {
         "successfully_imported_achievements": "Se han importado tus logros exitosamente.",
         "successfully_imported_gacha_records": "Se han importado tu historial de invocación exitosamente.",
-        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
+        "successfully_imported_num_new_pulls": "Importados con éxito {num} nuevas extracciones.",
         "successfully_imported_profile": "Se ha importado tu perfil de usuario exitosamente.",
-        "the_import_was_successful": "The import was successful!",
+        "the_import_was_successful": "¡La importación fue un éxito!",
         "successfully_imported_gacha_records_redirecting": "Redirigiendo a tu tracker.",
         "create_profile": "Se ha creado un perfil exitosamente para {playerId}.",
         "delete_pulls": "Se ha borrado todas las tiradas de {playerId}.",
@@ -272,7 +272,7 @@
         "sync_success_updated_remote_file": "Actualizado la copia remota para {fileName}.",
         "planner_successfully_completed_plan_for_name": "¡Plan {name} completado exitosamente!",
         "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}.",
-        "successfully_unlinked_email": "Successfully unlinked your email"
+        "successfully_unlinked_email": "Se desvinculó correctamente tu correo electrónico"
       },
       "warn": {
         "this_cannot_be_undone": "¡Esta acción no se puede deshacer!",
@@ -429,7 +429,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "Descargar Registros"
     }
   },
   "feature": {
@@ -463,7 +463,7 @@
       "development": "Desarrollo",
       "system_status": "Estado del sistema",
       "legal": "Legal",
-      "partners": "Partners",
+      "partners": "Socios",
       "disclaimer": "Este es un proyecto independiente de fans, no está afiliado ni respaldado por Kuro Games. Todos los activos del juego, contenido y marcas registradas pertenecen a sus respectivos propietarios."
     },
     "error": {
@@ -509,30 +509,30 @@
     "settings": {
       "general": {
         "title": "General",
-        "site_language": "Site Language",
-        "site_language_description": "Select the language you'd like to use throughout the site",
-        "game_server_timezone": "Game Server Timezone",
+        "site_language": "Idioma del Sitio",
+        "site_language_description": "Seleccione el idioma que desea utilizar en el sitio",
+        "game_server_timezone": "Zona horaria del servidor del juego",
         "game_server_timezone_description": "Show time-related features according to your game server's timezone"
       },
       "data": {
         "title": "Datos",
-        "active_profile": "Active Profile",
-        "active_profile_description": "Select the active profile you'd like to use throughout the site",
-        "import_profile": "Import Profile",
+        "active_profile": "Perfil Activo",
+        "active_profile_description": "Seleccione el perfil activo que desea utilizar en el sitio",
+        "import_profile": "Importar Perfil",
         "import_profile_description": "Import a profile snapshot to restore or load another profile",
-        "export_profile": "Export Profile",
-        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
-        "import_pull_history": "Import Pull History",
-        "import_pull_history_description": "Upload your pull history through a supported file format",
-        "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
-        "pulls_file_import_dialog_title": "Import Local Pulls",
-        "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
-        "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
-        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
-        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
+        "export_profile": "Exportar Perfil",
+        "export_profile_description": "Crear una instantánea de los datos de tu perfil activo para compartir o respaldar",
+        "import_pull_history": "Importar Historial de Extracción",
+        "import_pull_history_description": "Sube tu historial de extracciones a través de un formato de archivo compatible",
+        "export_pull_history": "Exportar Historial de Extracción",
+        "export_pull_history_description": "Crear una copia de seguridad local de tu historial de extracciones como respaldo",
+        "pulls_file_import_dialog_title": "Importar Extracciones Locales",
+        "pulls_file_import_dialog_description": "NOTA: Esto solo acepta las extracciones en nuestro nuevo formato. Visita el <link>antiguo importador</link> si quieres importar datos antiguos creados antes de <code></code>.",
+        "import_user_profile": "Importar Perfil de Usuario",
+        "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las extracciones.",
+        "profile_data_will_not_sync_callout_description": "Tus cambios solo se almacenan de manera local. Para sincronizar los datos de tu perfil:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Inicia sesión</link> con tu cuenta",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Vincula tu UID</link> a tu cuenta",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
@@ -651,9 +651,9 @@
       "hero_heading": "Your Wuthering Waves Resource",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "quick_links": "Enlaces Rápidos",
+      "quick_links_description": "Accede rápidamente a las páginas y funciones importantes",
+      "the_curent_events_and_activities": "Los eventos y actividades actuales"
     }
   },
   "metadata": {
@@ -663,7 +663,7 @@
     },
     "achievements": {
       "title": "Logros",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "Sigue tus logros del juego y ve todas las recompensas que has ganado hasta ahora",
       "description": "¡Sigue tus logros en Wuthering Waves e importa y exporta tus datos libremente entre dispositivos! WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "tracker": {
@@ -751,27 +751,27 @@
       "Import Pulls": "Import Pulls",
       "Global Statistics": "Estadísticas globales",
       "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Characters": "Resonadores",
       "Weapons": "Armas",
       "Items": "Objetos",
       "Tools": "Herramientas",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "Seguidor de Logros",
       "Ascension Planner": "Planificador de Ascensión",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "Eventos",
+      "Articles": "Artículos",
+      "Old Site": "Sitio Antiguo"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "Contacta con Nosotros",
         "System Status": "Estado del sistema",
         "Help Translate": "Ayuda a traducir",
         "Privacy Policy": "Políticas de Privacidad",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Terms of Service": "Términos de servicio",
+        "Company": "Empresa",
+        "Resources": "Recursos",
         "Community": "Comunidad",
-        "Affiliates": "Affiliates"
+        "Affiliates": "Afiliados"
       }
     }
   }
