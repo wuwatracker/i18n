@@ -594,7 +594,7 @@
       "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
       "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
-      "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
       "go_to_installation_directory": "进入您的游戏安装目录",
