@@ -594,7 +594,7 @@
       "first_open_game_history": "ขั้นตอนแรกให้เปิดเกมและดูรายละเอียดประวัติในเกมของคุณ",
       "open_windows_powershell_and_run_script": "จากนั้น ให้ทำการกดปุ่ม Win + S เพื่อ Search หา Windows PowerShell แล้วคัดลอก Script ดังกล่าวไปวางในนั้น",
       "click_the_copy_button": "กดปุ่มด้านขวาเพื่อคัดลอกข้อความทั้งหมด",
-      "powershell_script_disclaimer": "หมายเหตุ: ตัว Script ของเราไม่ได้ยุ่งเกี่ยวกับการแก้ไขไฟล์ต่างๆ เป็นเพียงแค่ดึง URL ประวัติการสุ่มจากบันทึกของคุณ คุณสามารถ <link>ตรวจสอบ Script ได้ที่นี่</link>.",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "วาง URL ที่นี่",
       "paste_the_json_here": "วางข้อมูล JSON ที่นี่",
       "go_to_installation_directory": "ไปที่ตำแหน่งการติดตั้งเกมของคุณ",
