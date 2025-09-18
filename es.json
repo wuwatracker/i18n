@@ -3,7 +3,7 @@
     "term": {
       "convenes": "Invocaciones",
       "convene_url": "URL de invocación",
-      "pulls": "Tiradas",
+      "pulls": "Invocaciones",
       "astrites": "Astritas",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Historial de invocación",
@@ -21,10 +21,10 @@
       "import_data_description": "Usa tus datos exportados previamente y guárdalos en tu navegador",
       "banner_list": "Lista de banners",
       "no_pulls_yet": "Aún no se ha invocado",
-      "rarity_pulls": "{num}✦ Tiradas",
+      "rarity_pulls": "{num}✦ Invocaciones",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Tiradas totales",
-      "total_pulls_responsive": "Tiradas <span>totales</span>",
+      "total_pulls": "Invocaciones Totales",
+      "total_pulls_responsive": "Invocaciones <span>Totales</span>",
       "total_astrites_responsive": "Astritas <span>totales</span>"
     },
     "name": {
@@ -208,22 +208,22 @@
         "convene_url_expired": "Tu URL probablemente ha expirado.",
         "use_valid_player_id": "Debes usar un ID de jugador activo válido",
         "no_profile_to_download": "No hay perfil para descargar.",
-        "no_pulls_to_download": "No hay tiradas que descargar.",
+        "no_pulls_to_download": "No hay invocaciones que descargar.",
         "need_to_upload_specific_file": "¡Tienes que subir un {file}!",
-        "sync_no_pulls_to_upload": "No tienes ninguna tirada que subir.",
+        "sync_no_pulls_to_upload": "No tienes invocaciones que subir.",
         "sync_unavailable": "No pudimos sincronizar en estos momentos.",
         "sync_no_remote_data_to_download": "No tienes ningunos datos remotos que descargar.",
-        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de tiradas!",
+        "incorrect_input_file_description": "¡Esto es SOLO para el nuevo formato de importación del historial de invocaciones!",
         "files_no_upload": "No se subió ningún archivo.",
         "files_max_upload_num": "Solo puedes subir hasta {num} archivo(s).",
         "files_has_oversize_limit_num": "Algunos archivos superan el límite de tamaño de {num}MB.",
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Materiales insuficientes.",
-        "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de extracciones",
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de invocaciones",
         "failed_to_unlink_email": "Error al desvincular tu correo electrónico",
         "failed_to_fetch_pulls_from_database": "No se pudo obtener las extracciones de nuestra base de datos",
         "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
-        "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las extracciones",
+        "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las invocaciones",
         "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero."
       },
       "info": {
@@ -239,11 +239,11 @@
         "no_filters": "no se ha seleccionado ningún filtro",
         "no_records": "no hay registros que mostrar",
         "no_pulls_yet": "Aún no se ha invocado",
-        "no_pulls_found_in_google_drive": "No se ha encontrado ninguna tirada en Google Drive",
+        "no_pulls_found_in_google_drive": "No se ha encontrado ninguna invocacion en Google Drive",
         "no_banner_luck_stats": "este banner no tiene estadísticas de suerte",
-        "max_recent_pulls_disclaimer": "Este resumen solo muestra hasta {num} tiradas recientes.",
+        "max_recent_pulls_disclaimer": "Este resumen solo muestra hasta {num} invocaciones recientes.",
         "pull_more_to_unlock": "Invoca más para desbloquear",
-        "pull_more_to_view_statistics": "Necesitas más tiradas para ver las estadísticas",
+        "pull_more_to_view_statistics": "Necesitas más invocaciones para ver las estadísticas",
         "download_will_start_shortly": "Tu descarga comenzará en breve.",
         "sync_already_synced": "Tus datos ya están sincronizados.",
         "google_drive_last_updated_at": "Google Drive se actualizó el {date}",
@@ -254,17 +254,17 @@
         "unlinking_your_email": "Desvinculando tu correo...",
         "importing_cloud_data": "Importando datos en la nube de nuestra base de datos...",
         "this_may_take_some_time_if_you_have_a_lot_of_data": "Esto puede tardar un poco si tienes muchos datos o si el sitio está ocupado.",
-        "no_new_pulls_found_after_importing": "No se encontraron nuevas extracciones después de importar."
+        "no_new_pulls_found_after_importing": "No se encontraron nuevas invocaciones después de importar."
       },
       "success": {
         "successfully_imported_achievements": "Se han importado tus logros exitosamente.",
         "successfully_imported_gacha_records": "Se han importado tu historial de invocación exitosamente.",
-        "successfully_imported_num_new_pulls": "Importados con éxito {num} nuevas extracciones.",
+        "successfully_imported_num_new_pulls": "Importados con éxito {num} nuevas invocaciones.",
         "successfully_imported_profile": "Se ha importado tu perfil de usuario exitosamente.",
         "the_import_was_successful": "¡La importación fue un éxito!",
         "successfully_imported_gacha_records_redirecting": "Redirigiendo a tu tracker.",
         "create_profile": "Se ha creado un perfil exitosamente para {playerId}.",
-        "delete_pulls": "Se ha borrado todas las tiradas de {playerId}.",
+        "delete_pulls": "Se han borrado todas las invocaciones de {playerId}.",
         "delete_profiles": "Se ha eliminado todos los perfiles de usuario exitosamente.",
         "sync_successfully_downloaded_remote_data": "Se ha descargado los datos remotos exitosamente.",
         "sync_successfully_created_remote_data": "Se ha creado {fileName} en Google Drive exitosamente.",
@@ -277,7 +277,7 @@
       "warn": {
         "this_cannot_be_undone": "¡Esta acción no se puede deshacer!",
         "disable_auto_profile_sync": "For your safety, will also disable automatic profile sync!",
-        "this_does_not_include_your_pulls": "¡Esto no incluye tus tiradas!",
+        "this_does_not_include_your_pulls": "¡Esto no incluye tus invocaciones!",
         "planner_removed_plan_for_name": "Plan {name} eliminado."
       }
     },
@@ -414,7 +414,7 @@
       "signed_out": "Sesión cerrada",
       "out_of_sync": "Desincronizado",
       "synced": "Sincronizado",
-      "downloads_and_merges": "Descargar y juntar tus tiradas",
+      "downloads_and_merges": "Descargar y juntar tus invocaciones",
       "image_preview": "Vista previa de imagen",
       "close": "cerrar",
       "portrait_view": "Vista vertical",
@@ -447,11 +447,11 @@
       }
     },
     "migration": {
-      "legacy_migration": "Mejora tus antiguas tiradas al nuevo formato aquí",
+      "legacy_migration": "Actualiza tus invocaciones antiguas al nuevo formato aquí",
       "legacy": "Antiguo",
       "legacy_import": "Importar Invocaciones antiguas",
       "legacy_import_alert_title": "Solo para los usuarios de la antigua página web",
-      "legacy_import_alert_description": "NO PODEMOS recuperar las tiradas después del período de caducidad de 6 meses. Este importador de tiradas antiguas es solo para los usuarios antiguos de WuWa Tracker."
+      "legacy_import_alert_description": "NO PODEMOS recuperar las invocaciones después del período de caducidad de 6 meses. Este importador de invocaciones antiguas es solo para los usuarios antiguos de WuWa Tracker."
     },
     "layout": {
       "banners": {
@@ -486,25 +486,25 @@
         "avg_pity": "Pity promedio",
         "avg_pity_description": "¿Cuál es tu promedio de pity de {qualityLevel}-estrellas?",
         "pull_ratio": "Tasa de invocación",
-        "pull_ratio_description": "¿Qué porcentaje de todas tus tiradas fueron {qualityLevel}-estrellas?",
+        "pull_ratio_description": "¿Qué porcentaje de todas tus invocaciones fueron {qualityLevel}-estrellas?",
         "coinflip_wins": "50/50 Ganados",
-        "coinflip_wins_description": "¿Qué porcentaje de tus tiradas 50/50 has ganado?",
+        "coinflip_wins_description": "¿Cuál es el porcentaje de tus invocaciones en el que has ganado el 50/50?",
         "rate_up_wins": "Personajes destacados ganados",
-        "rate_up_wins_description": "¿Qué tan seguidos fueron tus tiradas destacadas?"
+        "rate_up_wins_description": "¿Cómo de seguidos fueron tus invocaciones destacadas?"
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ Tiradas",
-      "rarity_pulls_per_pity": "{num}✦ Tiradas por pity",
-      "rarity_pulls_per_pity_description": "Mostrando todas las tiradas por pity",
+      "rarity_pulls": "{num}✦ Invocaciones",
+      "rarity_pulls_per_pity": "{num}✦ Invocaciones por Pity",
+      "rarity_pulls_per_pity_description": "Mostrando todas las invocaciones por pity",
       "banner_summary_title": "Resumen de banner",
       "banner_summary_description": "Selecciona un banner para obtener un resumen de las estadísticas.",
       "view_your_statistics_responsive": "<span>Ver</span> tus estadísticas",
-      "pulls_per_day": "Tiradas por día",
-      "pulls_per_day_description": "Mostrando tiradas por día y distribución de rareza",
-      "pulls_per_rarity": "Tiradas por rareza",
+      "pulls_per_day": "Invocaciones por día",
+      "pulls_per_day_description": "Mostrando invocaciones por día y distribución de rareza",
+      "pulls_per_rarity": "Invocaciones por rareza",
       "pulls_per_rarity_description": "Mostrando la distribución de rareza",
-      "pulls_per_item_description": "Mostrando tiradas por objeto"
+      "pulls_per_item_description": "Mostrando invocaciones por objeto"
     },
     "settings": {
       "general": {
@@ -522,54 +522,54 @@
         "import_profile_description": "Import a profile snapshot to restore or load another profile",
         "export_profile": "Exportar Perfil",
         "export_profile_description": "Crear una instantánea de los datos de tu perfil activo para compartir o respaldar",
-        "import_pull_history": "Importar Historial de Extracción",
-        "import_pull_history_description": "Sube tu historial de extracciones a través de un formato de archivo compatible",
-        "export_pull_history": "Exportar Historial de Extracción",
-        "export_pull_history_description": "Crear una copia de seguridad local de tu historial de extracciones como respaldo",
-        "pulls_file_import_dialog_title": "Importar Extracciones Locales",
-        "pulls_file_import_dialog_description": "NOTA: Esto solo acepta las extracciones en nuestro nuevo formato. Visita el <link>antiguo importador</link> si quieres importar datos antiguos creados antes de <code></code>.",
+        "import_pull_history": "Importar Historial de Invocaciones",
+        "import_pull_history_description": "Sube tu historial de invocaciones a través de un formato de archivo compatible",
+        "export_pull_history": "Exportar Historial de Invocaciones",
+        "export_pull_history_description": "Crea una copia de seguridad local de tu historial de invocaciones como respaldo",
+        "pulls_file_import_dialog_title": "Importar Invocaciones Locales",
+        "pulls_file_import_dialog_description": "NOTA: Esto solo acepta las invocaciones en nuestro nuevo formato. Visita el <link>antiguo importador</link> si quieres importar datos antiguos creados antes de <code></code>.",
         "import_user_profile": "Importar Perfil de Usuario",
-        "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las extracciones.",
+        "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las invocaciones.",
         "profile_data_will_not_sync_callout_description": "Tus cambios solo se almacenan de manera local. Para sincronizar los datos de tu perfil:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Inicia sesión</link> con tu cuenta",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Vincula tu UID</link> a tu cuenta",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
-        "title": "Connections",
-        "active_email": "Active Email",
-        "active_email_description": "This is the active email you're currently logged in with",
-        "linked_user_id": "Linked User ID",
-        "linked_user_id_description": "This is the user ID linked to your active email",
-        "link_your_email": "Link Your Email",
-        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
-        "unlink_email": "Unlink Email",
-        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
-        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
-        "player_id": "Player ID",
-        "import_to_link": "Import to Link",
-        "sign_in_to_link": "Sign in to Link",
-        "cloud_pull_data": "Cloud Pull Data",
-        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
-        "recover_pulls": "Recover Pulls"
+        "title": "Conexiones",
+        "active_email": "Correo activo",
+        "active_email_description": "Este es el correo electrónico activo con el que estás conectado actualmente",
+        "linked_user_id": "ID de Usuario Vinculado",
+        "linked_user_id_description": "Este es el ID de usuario vinculado a tu correo electrónico activo",
+        "link_your_email": "Vincula tu correo electrónico",
+        "link_your_email_description": "Desbloquea más funciones vinculando tu ID de jugador de Wuthering Waves a tu correo electrónico",
+        "unlink_email": "Desvincular correo electrónico",
+        "unlink_email_confirm_description": "Perderás el acceso a varias funciones del sitio. Para continuar, por favor escribe <strong></strong> para confirmar.",
+        "unlink_email_confirm_input_placeholder": "Escribe {password} para confirmar",
+        "player_id": "ID de Jugador",
+        "import_to_link": "Importar para Vincular",
+        "sign_in_to_link": "Inicia sesión para Vincular",
+        "cloud_pull_data": "Datos de Invocaciones en la Nube",
+        "cloud_pull_data_description": "Puedes recuperar tus datos de invocaciones de nuestra base de datos si tu correo electrónico está vinculado",
+        "recover_pulls": "Recuperar Invocaciones"
       },
       "advanced": {
         "title": "Avanzado",
-        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "website_version": "Website Version",
-        "website_version_description": "You're currently using this version of the site",
-        "session_logs": "Session Logs",
-        "session_logs_description": "You can download your logs for debugging purposes",
-        "delete_active_profile_data": "Delete Active Profile Data",
-        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data.",
-        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
-        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
-        "profile": "Profile",
-        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
-        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
-        "delete_profile_data": "Delete Profile Data",
-        "enable_beta_features": "Enable Beta Features",
-        "enable_beta_features_description": "Opt-into new features before they're officially released"
+        "successfully_deleted_active_profile_data": "Se han eliminado correctamente los datos de {activeProfileId}",
+        "website_version": "Versión del Sitio Web",
+        "website_version_description": "Actualmente estás usando esta versión del sitio",
+        "session_logs": "Registros de Sesión",
+        "session_logs_description": "Puedes descargar tus registros con propósitos de depuración",
+        "delete_active_profile_data": "Eliminar Datos del Perfil Activo",
+        "delete_active_profile_data_description": "Puedes eliminar los datos de perfil del sitio web activo, SÓLO incluyendo todos los datos que no tengan nada que ver con las invocaciones.",
+        "delete_active_profile_data_confirm_title": "¿Estás seguro de que quieres eliminar los datos de {activeProfileId}?",
+        "delete_active_profile_data_confirm_description": "Todos los datos asociados para <strong></strong> se eliminarán. Esta acción no se puede deshacer.",
+        "profile": "Perfil",
+        "type_active_profile_to_confirm": "Escribe {activeProfileId} para confirmar",
+        "delete_active_profile_data_confirm_text": "Eliminar los Datos de {activeProfileId}",
+        "delete_profile_data": "Eliminar Datos del Perfil",
+        "enable_beta_features": "Habilitar Funcionalidades Beta",
+        "enable_beta_features_description": "Opta por probar nuevas funciones antes de que sean oficialmente estrenadas"
       }
     },
     "timeline": {
@@ -649,8 +649,8 @@
     },
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "hero_cta_button": "Comienza el Seguimiento",
+      "keep_up_with_the_latest_news": "Mantente al día con las últimas noticias",
       "quick_links": "Enlaces Rápidos",
       "quick_links_description": "Accede rápidamente a las páginas y funciones importantes",
       "the_curent_events_and_activities": "Los eventos y actividades actuales"
@@ -659,7 +659,7 @@
   "metadata": {
     "root": {
       "title": "Aplicación de recursos y compañero de Wuthering Waves",
-      "description": "WuWaTracker es el #1 rastreador de tiradas y contador de piedad para Wuthering Waves. Rastrea tus tiradas y logros, consulta estadísticas globales, usa nuestro planificador y calculadora de ascensión, y explora guías, wiki y noticias para optimizar tu experiencia en Wuthering Waves."
+      "description": "WuWaTracker es el #1 rastreador de invocaciones y contador de piedad para Wuthering Waves. Rastrea tus invocaciones y logros, consulta estadísticas globales, usa nuestro planificador y calculadora de ascensión, y explora nuestras guías, wiki, y articulos para optimizar tu experiencia en Wuthering Waves."
     },
     "achievements": {
       "title": "Logros",
@@ -668,16 +668,16 @@
     },
     "tracker": {
       "index": {
-        "title": "Tracker de tiradas",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
-        "description": "¡Mira tus estadísticas y tus últimas invocaciones actualizadas en Wuthering Waves! Utiliza paneles listos para capturas de pantalla para presumir ante tus amigos. WuWa Tracker es un contador de pity para Wuthering Waves, utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "title": "Seguidor de Invocaciones",
+        "page_header": "Mira las estadísticas de tus invocaciones recientes en comparación con otros usuarios de WuWa Tracker.",
+        "description": "¡Mira tus estadísticas y tus últimas invocaciones actualizadas en Wuthering Waves! Utiliza paneles preparados para hacer capturas de pantalla y presume ante tus amigos. WuWa Tracker es un contador de pity para Wuthering Waves, utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
       },
       "global": {
         "title": "Estadísticas globales",
         "title_responsive": "Estadísticas <span>globales</span>",
-        "description": "¡Mira estadísticas globales de invocaciones para el banner {currentBanner}, con {currentFeaturedResonator}! Utiliza paneles listos para capturas de pantalla y presume ante tus amigos. WuWa Tracker es un contador de pity para Wuthering Waves, utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "description": "¡Mira las estadísticas globales de invocaciones para el banner {currentBanner}, con {currentFeaturedResonator}! Utiliza paneles preparados para hacer capturas de pantalla y presume ante tus amigos. WuWa Tracker es un contador de pity para Wuthering Waves, utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
         "banner_title": "Estadísticas del banner de {name}",
-        "banner_description": "Mira estadísticas globales de invocaciones para el banner {name}. WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+        "banner_description": "Mira las estadísticas globales de invocaciones para el banner {name}. WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
       }
     },
     "error": {
@@ -686,7 +686,7 @@
     },
     "import": {
       "title": "Importar Historial de Invocaciones",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "Selecciona tu plataforma y el método preferido para importar tus datos",
       "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "not_found": {
@@ -699,7 +699,7 @@
     },
     "settings": {
       "title": "Configuraciones",
-      "page_header": "Manage your site preferences and data here",
+      "page_header": "Gestiona tus preferencias y datos aquí",
       "description": "Sincroniza tus datos a través de Google iniciando sesión. Gestiona tus datos de invocaciones de Wuthering Waves todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "terms_and_conditions": {
@@ -712,24 +712,24 @@
     },
     "timeline": {
       "title": "Cronograma de Eventos",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "Mantente actualizado con los últimos eventos y actividades de Wuthering Waves",
       "description": "Utilizando tu zona horaria local o cualquier zona horaria del servidor de Wuthering Waves, puedes ver cada calendario de banners, eventos del juego, periodos de la Torre de la Adversidad y Profundidades del Reino Ilusorio, todo en un solo lugar. WuWa Tracker es un contador de pity para Wuthering Waves, utilizando los datos más actualizados con estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
     },
     "wiki": {
       "resonator": {
         "title": "Resonadores",
-        "description": "Ve la información de los Resonadores de Wuthering Waves, perfiles, y usa la calculadora de materiales de WuWa Tracker para planear las mejoras de tu Resonador. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "description": "Ve la información de los Resonadores de Wuthering Waves, sus perfiles, y usa la calculadora de materiales de WuWa Tracker para planear las mejoras de tu Resonador. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "Mira a todos los Resonadores de Wuthering Waves"
       },
       "item": {
         "title": "Objetos",
-        "description": "Ve la información del objeto de Wuthering Waves, su localización, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
-        "page_header": "View all the Items in Wuthering Waves"
+        "description": "Ve la información de los objetos de Wuthering Waves, su localización, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "Mira todos los Objetos de Wuthering Waves"
       },
       "weapon": {
         "title": "Armas",
-        "description": "Ve la información del arma de Wuthering Waves, sus estadísticas, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "description": "Ve la información de las armas de Wuthering Waves, sus estadísticas, y sigue tu inventario - todo en un solo lugar. El contador de pity de WuWa Tracker, usando los datos más recientes con las estadísticas globales y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!",
+        "page_header": "Mira a todas las Armas de Wuthering Waves"
       }
     },
     "planner": {
@@ -738,17 +738,17 @@
     },
     "support": {
       "title": "Soporte",
-      "description": "¿Necesitas ayuda para descargar los datos de tus tiradas en Wuthering Waves? ¿Quieres conocer como WuWa Tracker usa tus datos? ¡Ve las preguntas frecuentes de Wuwa Tracker aquí!"
+      "description": "¿Necesitas ayuda para descargar los datos de tus invocaciones en Wuthering Waves? ¿Quieres conocer como WuWa Tracker usa tus datos? ¡Ve las preguntas frecuentes de Wuwa Tracker aquí!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "Artículos",
+      "description": "¡Lee los últimos artículos y actualizaciones sobre Wuthering Waves, incluyendo guías, consejos, noticias, anuncios y más!"
     }
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Tracker": "Seguidor",
+      "Import Pulls": "Importar Invocaciones",
       "Global Statistics": "Estadísticas globales",
       "Wiki": "Wiki",
       "Characters": "Resonadores",
