@@ -530,8 +530,10 @@
         "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>импорт старых круток</link>, если хотите восстановить данные, сохранённые до <code></code>.",
         "import_user_profile": "Импортировать профиль",
         "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки.",
-        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
-        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
         "title": "Подключения",
