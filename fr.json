@@ -594,7 +594,7 @@
       "first_open_game_history": "Commencez par lancer le jeu et ouvrir votre historique en jeu",
       "open_windows_powershell_and_run_script": "Ensuite, ouvrez Windows PowerShell, et collez-y le script suivant.",
       "click_the_copy_button": "Cliquez sur le bouton de copie à droite",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "Note : Le script ne modifie pas vos fichiers, il extrait simplement l'URL de vos historiques. Vous pouvez <link>voir le script ici</link>.",
       "paste_the_url_here": "Collez l'URL ici",
       "paste_the_json_here": "Collez vos données JSON ici",
       "go_to_installation_directory": "Accédez à votre répertoire d'installation",
