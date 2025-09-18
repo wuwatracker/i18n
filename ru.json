@@ -594,7 +594,7 @@
       "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
       "open_windows_powershell_and_run_script": "После этого, откройте Windows PowerShell и вставьте следующий скрипт.",
       "click_the_copy_button": "Нажмите на кнопку \"Копировать\" справа",
-      "powershell_script_disclaimer": "Примечание: скрипт лишь извлекает ссылку на вашу историю круток из журналов игры. Вы можете просмотреть его <link>здесь</link>.",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "Вставьте ссылку сюда",
       "paste_the_json_here": "Вставьте сюда скопированное содержимое JSON",
       "go_to_installation_directory": "Найдите папку с игрой",
