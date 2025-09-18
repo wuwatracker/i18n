@@ -594,7 +594,7 @@
       "first_open_game_history": "First, launch the game and open your in-game history details",
       "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
       "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "Paste the URL here",
       "paste_the_json_here": "Paste the JSON here",
       "go_to_installation_directory": "Go to your game's installation directory",
