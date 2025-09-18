@@ -594,7 +594,7 @@
       "first_open_game_history": "먼저, 게임을 시작하고 게임 내 튜닝 기록을 여세요",
       "open_windows_powershell_and_run_script": "그 다음, Windows PowerShell을 열고, 아래의 스크립트를 붙여넣으세요.",
       "click_the_copy_button": "오른쪽의 복사 버튼을 클릭하세요.",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "참고: 이 스크립트는 파일을 조작하지 않으며, 간단히 로그에서 튜닝 기록 URL을 추출합니다. 스크립트는 <link>여기서 확인할 수 있습니다</link>.",
       "paste_the_url_here": "URL을 여기에 붙여넣으세요.",
       "paste_the_json_here": "JSON 파일을 여기에 붙여넣으세요.",
       "go_to_installation_directory": "설치 경로를 찾으세요.",
