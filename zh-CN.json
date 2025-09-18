@@ -530,8 +530,10 @@
         "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
         "import_user_profile": "导入用户资料",
         "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
-        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
-        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
         "title": "连接",
