@@ -529,7 +529,9 @@
         "pulls_file_import_dialog_title": "Import Local Pulls",
         "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
         "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
+        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
       },
       "connections": {
         "title": "Connections",
@@ -592,7 +594,7 @@
       "first_open_game_history": "Commencez par lancer le jeu et ouvrir votre historique en jeu",
       "open_windows_powershell_and_run_script": "Ensuite, ouvrez Windows PowerShell, et collez-y le script suivant.",
       "click_the_copy_button": "Cliquez sur le bouton de copie à droite",
-      "powershell_script_disclaimer": "Note : Le script ne modifie pas vos fichiers, il extrait simplement l'URL de vos historiques. Vous pouvez <link>voir le script ici</link>.",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "Collez l'URL ici",
       "paste_the_json_here": "Collez vos données JSON ici",
       "go_to_installation_directory": "Accédez à votre répertoire d'installation",

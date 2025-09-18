@@ -529,7 +529,9 @@
         "pulls_file_import_dialog_title": "Import Local Pulls",
         "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
         "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data."
+        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
+        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
+        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
       },
       "connections": {
         "title": "Connections",
