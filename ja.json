@@ -594,7 +594,7 @@
       "first_open_game_history": "まず始めにゲームを起動し、集音履歴画面を開く",
       "open_windows_powershell_and_run_script": "次に「Windows PowerShell」を起動し、以下のコマンドを貼り付けて実行する。",
       "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログからURLを取得するだけです。スクリプトの内容は <link>こちら</link> で確認できます。",
+      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
       "paste_the_url_here": "URLをここに貼り付ける",
       "paste_the_json_here": "JSONをここに貼り付ける",
       "go_to_installation_directory": "ゲームのインストール先ディレクトリを開く",
