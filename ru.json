@@ -530,7 +530,7 @@
         "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>импорт старых круток</link>, если хотите восстановить данные, сохранённые до <code></code>.",
         "import_user_profile": "Импортировать профиль",
         "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
