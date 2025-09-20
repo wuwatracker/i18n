@@ -530,8 +530,10 @@
         "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni formatımızdaki çağrıları kabul eder. <code></code> öncesinde oluşturduğun eski verilerini içe aktarmak istiyorsan, <link>eski çağrıları içe aktar</link> sayfasını ziyaret etmelisin.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
         "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
-        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
-        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
         "title": "Bağlantılar",
@@ -594,7 +596,7 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerinizi okuyarak Buluşma Geçmişi URL'nizi çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <link>buradan</link> görüntüleyebilirsiniz.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
@@ -616,6 +618,10 @@
       "linux_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerinizi okuyarak Buluşma Geçmişi URL'nizi çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <script>buradan</script> görüntüleyebilirsiniz. <repo></repo>'ı paylaştığı için <author></author>'ya teşekkür ederiz.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresinizi kullanacağız."
+    },
+    "planner": {
+      "move_up": "Move Up",
+      "move_down": "Move Down"
     },
     "inventory": {
       "new_plan": "Yeni Plan",

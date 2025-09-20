@@ -530,8 +530,10 @@
         "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
         "import_user_profile": "导入用户资料",
         "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
-        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
-        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>登录</link>到您的帐户",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>将您的 UID 链接</link>到您的帐户",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>在您的设置中</link>选择您链接的玩家资料 ({sessionPlayerId})"
       },
       "connections": {
         "title": "连接",
@@ -594,7 +596,7 @@
       "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
       "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
       "go_to_installation_directory": "进入您的游戏安装目录",
@@ -613,9 +615,13 @@
       "ps5_click_on_page_information": "按下“页面信息”按钮",
       "ps5_enter_your_record_id": "在此输入您的 player_id 和 record_id",
       "open_terminal_and_open_script": "接着，打开终端，然后粘贴下面的脚本：",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "该脚本不会编辑您的文件，它只是从您的游戏日志中提取您的唤取历史 URL。您可以在<script>此处</script>查看该脚本。感谢 <author></author> 分享其 <repo></repo> 代码。",
       "script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。",
       "email_link_description": "这将使我们能够保存您的数据到我们的数据库并在每次导入时自动备份您的数据。 如果您的玩家 ID 已经链接到另一个电子邮件地址，我们将移除旧链接并使用您的新电子邮件地址。"
+    },
+    "planner": {
+      "move_up": "Move Up",
+      "move_down": "Move Down"
     },
     "inventory": {
       "new_plan": "新建计划",
@@ -717,7 +723,7 @@
       "resonator": {
         "title": "共鸣者",
         "description": "查看《鸣潮》游戏中共鸣者的信息和档案，并使用 WuWa Tracker 的材料计算器来对您升级共鸣者时所消耗的资源进行规划。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "page_header": "查看《鸣潮》中的所有共鸣者"
       },
       "item": {
         "title": "物品",
@@ -748,7 +754,7 @@
       "Tracker": "追踪器",
       "Import Pulls": "导入唤取历史",
       "Global Statistics": "全球统计数据",
-      "Wiki": "Wiki",
+      "Wiki": "百科",
       "Characters": "共鸣者",
       "Weapons": "武器",
       "Items": "物品",

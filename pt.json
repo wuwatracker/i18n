@@ -530,8 +530,10 @@
         "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
         "import_user_profile": "Import User Profile",
         "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "create_profile_reminder_dialog_title": "We don't sync Guest account data",
-        "create_profile_reminder_dialog_description": "You must import & link your UID to an email account in order to back up your data and sync across all your devices."
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
       },
       "connections": {
         "title": "Connections",
@@ -594,7 +596,7 @@
       "first_open_game_history": "Primeiro, inicie o jogo e abra o seu histórico no jogo",
       "open_windows_powershell_and_run_script": "Depois, abra o Windows PowerShell, e cole o seguinte script.",
       "click_the_copy_button": "Clique no botão de copiar canto no inferior direito",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTA: O script não edita os seus ficheiros, simplesmente extrai o seu URL do Histórico de Convocações dos registos do seu jogo. Pode ver o script <link>aqui</link>.",
       "paste_the_url_here": "Cole o URL aqui",
       "paste_the_json_here": "Cole o JSON aqui",
       "go_to_installation_directory": "Vá para o seu diretório de instalação do jogo",
@@ -616,6 +618,10 @@
       "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+    },
+    "planner": {
+      "move_up": "Move Up",
+      "move_down": "Move Down"
     },
     "inventory": {
       "new_plan": "Novo Plano",
