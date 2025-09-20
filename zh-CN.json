@@ -530,7 +530,7 @@
         "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
         "import_user_profile": "导入用户资料",
         "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "您的更改仅存储在本地。要同步您的玩家资料数据：",
         "profile_data_will_not_sync_callout_sign_in": "<link>登录</link>到您的帐户",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>将您的 UID 链接</link>到您的帐户",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>在您的设置中</link>选择您链接的玩家资料 ({sessionPlayerId})"
