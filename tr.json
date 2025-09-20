@@ -530,7 +530,7 @@
         "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni formatımızdaki çağrıları kabul eder. <code></code> öncesinde oluşturduğun eski verilerini içe aktarmak istiyorsan, <link>eski çağrıları içe aktar</link> sayfasını ziyaret etmelisin.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
         "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
