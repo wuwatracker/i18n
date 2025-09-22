@@ -642,22 +642,22 @@
         "intro_skill": "変奏スキル"
       },
       "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
+        "Universal Currency": "通貨",
+        "Skill Upgrade Material": "スキルレベルアップ素材",
+        "Ascension Material": "突破素材",
+        "Resonator Ascension Material": "共鳴者突破素材",
+        "Resonator EXP Material": "共鳴者EXP素材",
+        "Weapon and Skill Material": "武器・スキル素材",
+        "Weapon EXP Material": "武器EXP素材"
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "hero_heading": "あなたの 鳴潮 リソース",
+      "hero_cta_button": "トラッキング開始",
+      "keep_up_with_the_latest_news": "最新のニュースを見る",
+      "quick_links": "クイックリンク",
+      "quick_links_description": "重要なページや機能にすばやくアクセス",
+      "the_curent_events_and_activities": "現在のイベントとアクティビティ"
     }
   },
   "metadata": {
@@ -667,21 +667,21 @@
     },
     "achievements": {
       "title": "実績",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "ゲーム内の実績を追跡し、これまでに獲得したすべての報酬を表示します",
       "description": "鳴潮での実績を追跡し、複数のデバイス間で自由にインポート＆エクスポート！最新のデータと世界の統計情報などを使用する鳴潮集音カウンター WuWa Tracker です。ガチャ履歴や実績を追跡し、友達と共有しましょう！"
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title": "集音トラッカー",
+        "page_header": "あなたの最近の集音履歴と統計を他のWuWa Trackerユーザーと比較して表示します。",
+        "description": "更新された鳴潮のガチャ統計と集音履歴を確認しよう。スクリーンショット対応のダッシュボードで友達に自慢しよう! 鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!"
       },
       "global": {
         "title": "グローバル統計",
-        "title_responsive": "<span>Global</span> Statistics",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title_responsive": "<span>全体</span>の統計",
+        "description": "{currentFeaturedResonator} がピックアップされている {currentBanner} ガチャのグローバルな統計データを確認! スクリーンショット対応ダッシュボードで友達に自慢しよう! 鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!",
+        "banner_title": "{name} ガチャの統計",
+        "banner_description": "{name} ガチャのグローバルな統計データを確認しよう。鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!"
       }
     },
     "error": {
@@ -699,7 +699,7 @@
     },
     "privacy_policy": {
       "title": "プライバシーポリシー",
-      "description": "This privacy policy document outlines the types of personal information that is received and collected by WuWa Tracker and how it is used. WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more."
+      "description": "このプライバシーポリシー文書では、WuWa Tracker が受け取り、収集する個人情報の種類とその使用方法について説明しています。WuWa Tracker は最新のグローバルな統計を使用した鳴潮のガチャカウンターです。"
     },
     "settings": {
       "title": "設定",
@@ -751,7 +751,7 @@
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
+      "Tracker": "トラッカー",
       "Import Pulls": "集音履歴のインポート",
       "Global Statistics": "グローバル統計",
       "Wiki": "Wiki",
@@ -759,23 +759,23 @@
       "Weapons": "武器",
       "Items": "アイテム",
       "Tools": "ツール",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "実績トラッカー",
       "Ascension Planner": "育成計画",
-      "Events": "Events",
+      "Events": "イベント",
       "Articles": "記事",
-      "Old Site": "Old Site"
+      "Old Site": "古いサイト"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "お問い合わせ",
         "System Status": "システムステータス",
         "Help Translate": "翻訳を手伝う",
         "Privacy Policy": "プライバシーポリシー",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Terms of Service": "利用規約",
+        "Company": "会社概要",
+        "Resources": "リソース",
         "Community": "コミュニティ",
-        "Affiliates": "Affiliates"
+        "Affiliates": "アフィリエイト"
       }
     }
   }
