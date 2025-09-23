@@ -530,7 +530,7 @@
         "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
         "import_user_profile": "导入用户资料",
         "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "您的更改仅存储在本地。要同步您的玩家资料数据：",
         "profile_data_will_not_sync_callout_sign_in": "<link>登录</link>到您的帐户",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>将您的 UID 链接</link>到您的帐户",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>在您的设置中</link>选择您链接的玩家资料 ({sessionPlayerId})"
@@ -596,7 +596,7 @@
       "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
       "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
-      "powershell_script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。你可以<link>在此处</link>查看脚本。",
+      "powershell_script_disclaimer": "注意：本脚本只会从您的游戏日志中提取唤取历史 URL。进行 SHA256 检查确保脚本未被篡改。您可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
       "go_to_installation_directory": "进入您的游戏安装目录",
@@ -615,13 +615,13 @@
       "ps5_click_on_page_information": "按下“页面信息”按钮",
       "ps5_enter_your_record_id": "在此输入您的 player_id 和 record_id",
       "open_terminal_and_open_script": "接着，打开终端，然后粘贴下面的脚本：",
-      "linux_script_disclaimer": "该脚本不会编辑您的文件，它只是从您的游戏日志中提取您的唤取历史 URL。您可以在<script>此处</script>查看该脚本。感谢 <author></author> 分享其 <repo></repo> 代码。",
+      "linux_script_disclaimer": "注意：本脚本只会从您的游戏日志中提取唤取历史 URL。进行 SHA256 检查确保脚本未被篡改。您可以<script>在此处</script>查看脚本。感谢 <author></author> 分享他们的 <repo></repo> 代码。",
       "script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。",
       "email_link_description": "这将使我们能够保存您的数据到我们的数据库并在每次导入时自动备份您的数据。 如果您的玩家 ID 已经链接到另一个电子邮件地址，我们将移除旧链接并使用您的新电子邮件地址。"
     },
     "planner": {
-      "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_up": "上移",
+      "move_down": "下移"
     },
     "inventory": {
       "new_plan": "新建计划",
@@ -663,7 +663,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves 资源与助手应用",
-      "description": "WuWa Tracker 是 #1 Wuthering Waves 抽卡追踪器和保底计算器。追踪抽卡和成就，查看全球统计，使用突破规划器与计算器，并探索攻略、百科和新闻，优化你的 Wuthering Waves 体验。"
+      "description": "《鸣潮》保底计数器，使用全球统计的最新数据以及更多。您可以跨设备同步您的数据、与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "achievements": {
       "title": "成就",
