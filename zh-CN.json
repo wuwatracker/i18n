@@ -45,6 +45,7 @@
         "Ciaccona": "夏空",
         "Danjin": "丹瑾",
         "Encore": "安可",
+        "Galbrena": "Galbrena",
         "Iuno": "尤诺",
         "Jianxin": "鉴心",
         "Jinhsi": "今汐",
@@ -55,6 +56,7 @@
         "Mortefi": "莫特斐",
         "Phoebe": "菲比",
         "Phrolova": "弗洛洛",
+        "Qiuyuan": "Qiuyuan",
         "Roccia": "洛可可",
         "Sanhua": "散华",
         "Shorekeeper": "守岸人",
@@ -91,6 +93,7 @@
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "异响空灵",
         "Emerald of Genesis": "千古洑流",
+        "Emerald Sentence": "Emerald Sentence",
         "Fables of Wisdom": "风流的寓言诗",
         "Feather Edge": "翼锋",
         "Fusion Accretion": "核熔星盘",
@@ -111,6 +114,7 @@
         "Lumingloss": "飞景",
         "Luminous Hymn": "和光回唱",
         "Lustrous Razor": "浩境粼光",
+        "Lux & Umbra": "Lux & Umbra",
         "Marcato": "呼啸重音",
         "Meditations on Mercy": "容赦的沉思录",
         "Moongazer's Sigil": "万物持存的注释",
@@ -185,7 +189,9 @@
         "Winter Brume": "冬湖烟波",
         "Utterance of Marvels": "万象新声",
         "Beginner's Choice Convene": "新手自选唤取",
-        "Giveback Event Convene": "感恩定向唤取"
+        "Giveback Event Convene": "感恩定向唤取",
+        "New Voyage Weapon": "New Voyage Weapon",
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },

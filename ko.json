@@ -45,6 +45,7 @@
         "Ciaccona": "샤콘",
         "Danjin": "단근",
         "Encore": "앙코",
+        "Galbrena": "Galbrena",
         "Iuno": "유노",
         "Jianxin": "감심",
         "Jinhsi": "금희",
@@ -55,6 +56,7 @@
         "Mortefi": "모르테피",
         "Phoebe": "페비",
         "Phrolova": "플로로",
+        "Qiuyuan": "Qiuyuan",
         "Roccia": "로코코",
         "Sanhua": "산화",
         "Shorekeeper": "파수인",
@@ -91,6 +93,7 @@
         "Defier's Thorn": "숙명에 맞서는 관",
         "Discord": "기묘한 울림",
         "Emerald of Genesis": "천년의 회류",
+        "Emerald Sentence": "Emerald Sentence",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Fusion Accretion": "융합의 원반",
@@ -111,6 +114,7 @@
         "Lumingloss": "천공의 광경",
         "Luminous Hymn": "광휘의 찬송가",
         "Lustrous Razor": "푸른물결의 빛",
+        "Lux & Umbra": "Lux & Umbra",
         "Marcato": "바람의 악센트",
         "Meditations on Mercy": "용서의 명상록",
         "Moongazer's Sigil": "세상 만물의 진리",
@@ -185,7 +189,9 @@
         "Winter Brume": "동연 배너",
         "Utterance of Marvels": "새로운 소리",
         "Beginner's Choice Convene": "초보자 자유 선택 튜닝",
-        "Giveback Event Convene": "감사 타겟 튜닝"
+        "Giveback Event Convene": "감사 타겟 튜닝",
+        "New Voyage Weapon": "New Voyage Weapon",
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },

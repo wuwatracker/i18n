@@ -45,6 +45,7 @@
         "Ciaccona": "Ciaccona",
         "Danjin": "Danjin",
         "Encore": "Encore",
+        "Galbrena": "Galbrena",
         "Iuno": "Iuno",
         "Jianxin": "Jianxin",
         "Jinhsi": "Jinshi",
@@ -55,6 +56,7 @@
         "Mortefi": "Mortefi",
         "Phoebe": "Phoebe",
         "Phrolova": "Phrolova",
+        "Qiuyuan": "Qiuyuan",
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
         "Shorekeeper": "Shorekeeper",
@@ -91,6 +93,7 @@
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Smaragd der Genesis",
+        "Emerald Sentence": "Emerald Sentence",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -111,6 +114,7 @@
         "Lumingloss": "Lichtverlust",
         "Luminous Hymn": "Luminous Hymn",
         "Lustrous Razor": "Glanzvolle Rasierklinge",
+        "Lux & Umbra": "Lux & Umbra",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Meditations on Mercy",
         "Moongazer's Sigil": "Moongazer's Sigil",
@@ -185,7 +189,9 @@
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Beginner's Choice Convene",
-        "Giveback Event Convene": "Giveback Event Convene"
+        "Giveback Event Convene": "Giveback Event Convene",
+        "New Voyage Weapon": "New Voyage Weapon",
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },

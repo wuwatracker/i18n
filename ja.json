@@ -45,6 +45,7 @@
         "Ciaccona": "シャコンヌ",
         "Danjin": "丹瑾",
         "Encore": "アンコ",
+        "Galbrena": "Galbrena",
         "Iuno": "ユーノ",
         "Jianxin": "鑑心",
         "Jinhsi": "今汐",
@@ -55,6 +56,7 @@
         "Mortefi": "モルトフィー",
         "Phoebe": "フィービー",
         "Phrolova": "フローヴァ",
+        "Qiuyuan": "Qiuyuan",
         "Roccia": "ロココ",
         "Sanhua": "散華",
         "Shorekeeper": "ショアキーパー",
@@ -91,6 +93,7 @@
         "Defier's Thorn": "定めを覆す荊冠",
         "Discord": "霊感ディスコード",
         "Emerald of Genesis": "千古の湖水",
+        "Emerald Sentence": "Emerald Sentence",
         "Fables of Wisdom": "風刺のファブリオー",
         "Feather Edge": "鋭利な翼",
         "Fusion Accretion": "コアが溶融する降着円盤",
@@ -111,6 +114,7 @@
         "Lumingloss": "万象変遷",
         "Luminous Hymn": "光のハルモニア",
         "Lustrous Razor": "仙境の湖光",
+        "Lux & Umbra": "Lux & Umbra",
         "Marcato": "狂乱マルカート",
         "Meditations on Mercy": "寛恕のタ・エイス・ヘアウトン",
         "Moongazer's Sigil": "万物を書き留める月相",
@@ -185,7 +189,9 @@
         "Winter Brume": "丁々発止",
         "Utterance of Marvels": "驚異の言葉",
         "Beginner's Choice Convene": "初心者応援セレクト集音",
-        "Giveback Event Convene": "感謝セレクト集音"
+        "Giveback Event Convene": "感謝セレクト集音",
+        "New Voyage Weapon": "New Voyage Weapon",
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },

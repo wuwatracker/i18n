@@ -45,6 +45,7 @@
         "Ciaccona": "Ciaccona",
         "Danjin": "Danjin",
         "Encore": "Encore",
+        "Galbrena": "Galbrena",
         "Iuno": "Iuno",
         "Jianxin": "Jianxin",
         "Jinhsi": "Jinhsi",
@@ -55,6 +56,7 @@
         "Mortefi": "Mortefi",
         "Phoebe": "Phoebe",
         "Phrolova": "Phrolova",
+        "Qiuyuan": "Qiuyuan",
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
         "Shorekeeper": "Shorekeeper",
@@ -91,6 +93,7 @@
         "Defier's Thorn": "Thách Thức Chông Gai",
         "Discord": "Bất Đồng",
         "Emerald of Genesis": "Lục Bảo Sáng Thế",
+        "Emerald Sentence": "Emerald Sentence",
         "Fables of Wisdom": "Ngụ Ngôn Về Sự Thông Tuệ",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Hạt Nhân Bồi Tụ",
@@ -111,6 +114,7 @@
         "Lumingloss": "Minh Đao",
         "Luminous Hymn": "Thánh Ca Ánh Dương",
         "Lustrous Razor": "Ánh Đao",
+        "Lux & Umbra": "Lux & Umbra",
         "Marcato": "Marcato",
         "Meditations on Mercy": "Suy Niệm Về Đức Khoan Dung",
         "Moongazer's Sigil": "Moongazer's Sigil",
@@ -185,7 +189,9 @@
         "Winter Brume": "Sương Giá Ngày Đông",
         "Utterance of Marvels": "Kỳ Quan Vọng",
         "Beginner's Choice Convene": "Banner Tự chọn Cho Tân thủ",
-        "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn"
+        "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn",
+        "New Voyage Weapon": "New Voyage Weapon",
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },
