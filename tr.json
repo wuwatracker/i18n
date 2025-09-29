@@ -660,7 +660,7 @@
       "hero_cta_button": "Hemen başla",
       "keep_up_with_the_latest_news": "Son haberleri kaçırma",
       "quick_links": "Hızlı Erişim Menüsü",
-      "quick_links_description": "Önemli sayfa ve özellikleri hızlıca eriş",
+      "quick_links_description": "Önemli sayfa ve özelliklere hızlıca eriş",
       "the_curent_events_and_activities": "Güncel etkinliker ve aktiviteler"
     }
   },
@@ -707,7 +707,7 @@
     },
     "settings": {
       "title": "Ayarlar",
-      "page_header": "Sitedeki tercihlerini ve verilerini buradan kontrol et",
+      "page_header": "Sitedeki tercihlerini ve verilerini yönet",
       "description": "Oturum açarak verilerinizi Google üzerinden senkronize edin. Wuthering Waves çağrı verilerinizi tek bir yerden yönetin. WuWa Tracker, Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarınızı arkadaşlarınızla paylaşın ve hesabınızı takip edin!"
     },
     "terms_and_conditions": {
