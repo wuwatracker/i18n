@@ -620,8 +620,8 @@
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
     "planner": {
-      "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_up": "위로 이동",
+      "move_down": "아래로 이동"
     },
     "inventory": {
       "new_plan": "새로운 플랜",
@@ -653,11 +653,11 @@
     },
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "hero_cta_button": "추적 시작하기",
+      "keep_up_with_the_latest_news": "최신 소식을 받아보세요",
+      "quick_links": "빠른 링크",
+      "quick_links_description": "중요한 페이지와 기능에 빠르게 접근하세요",
+      "the_curent_events_and_activities": "현재 진행 중인 이벤트와 활동"
     }
   },
   "metadata": {
@@ -667,13 +667,13 @@
     },
     "achievements": {
       "title": "업적",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "게임 내 업적을 추적하고 지금까지 획득한 모든 보상을 확인하세요",
       "description": "명조: 워더링 웨이브의 업적을 추적하고, 모든 기기에서 자유롭게 데이터를 가져오고 내보낼 수 있습니다! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "tracker": {
       "index": {
         "title": "튜닝 트래커",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
+        "page_header": "최근 튜닝과 통계를 다른 WuWa Tracker 사용자들과 비교해 보세요.",
         "description": "업데이트된 명조: 워더링 웨이브 뽑기 통계 및 최근 튜닝 기록을 확인할 수 있습니다. 언제든 준비된 대시보드를 사용해 친구들에게 뽐내보세요! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       },
       "global": {
@@ -690,7 +690,7 @@
     },
     "import": {
       "title": "튜닝 기록 가져오기",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "데이터를 가져올 플랫폼과 선호하는 방법을 선택하세요",
       "description": "명조: 워더링 웨이브 데이터를 표시하고 통계를 보기 위해 상호작용 튜토리얼을 따라 주세요. PC, Android 및 iOS 기기에서 자동으로 제출하는 것을 도와드릴 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "not_found": {
@@ -703,7 +703,7 @@
     },
     "settings": {
       "title": "설정",
-      "page_header": "Manage your site preferences and data here",
+      "page_header": "사이트 환경설정과 데이터를 여기에서 관리하세요",
       "description": "Google 로그인을 통해 데이터를 동기화하세요. 명조: 워더링 웨이브의 뽑기 데이터를 한 곳에서 관리하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "terms_and_conditions": {
@@ -716,7 +716,7 @@
     },
     "timeline": {
       "title": "이벤트 타임라인",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "명조: 워더링 웨이브의 최신 이벤트와 활동을 확인하세요",
       "description": "현지 시간대 또는 게임의 서버 시간대를 통해 모든 배너 일정, 게임 이벤트, 역경의 탑 및 신비한 경지 오픈 기간을 한 곳에서 볼 수 있습니다. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
     },
     "wiki": {
@@ -728,12 +728,12 @@
       "item": {
         "title": "아이템",
         "description": "명조: 워더링 웨이브의 아이템 정보, 드랍 장소, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
-        "page_header": "View all the Items in Wuthering Waves"
+        "page_header": "명조: 워더링 웨이브의 모든 아이템 보기"
       },
       "weapon": {
         "title": "무기",
         "description": "명조: 워더링 웨이브의 무기 정보, 속성, 그리고 당신의 인벤토리를 확인하세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "page_header": "명조: 워더링 웨이브의 모든 무기 보기"
       }
     },
     "planner": {
@@ -745,37 +745,37 @@
       "description": "명조: 워더링 웨이브의 가챠 데이터를 다운로드하는 데 도움이 필요하신가요? WuWa Tracker 가 데이터를 어떻게 사용하는지 알고 싶으신가요? 여기에서 WuWa Tracker 의 FAQ를 확인하세요!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "기사들",
+      "description": "명조: 워더링 웨이브의 최신 기사와 업데이트를 확인하세요. 가이드, 팁, 소식, 공지 등 다양한 정보를 포함합니다!"
     }
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Tracker": "트래커",
+      "Import Pulls": "튜닝 기록 가져오기",
       "Global Statistics": "글로벌 통계",
-      "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Wiki": "위키",
+      "Characters": "공명자",
       "Weapons": "무기",
       "Items": "아이템",
       "Tools": "도구",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "업적 트래커",
       "Ascension Planner": "돌파 플래너",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "이벤트",
+      "Articles": "기사들",
+      "Old Site": "예전 사이트"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "연락하기",
         "System Status": "시스템 정보",
         "Help Translate": "번역 돕기",
         "Privacy Policy": "개인정보 보호 정책",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Terms of Service": "서비스 이용 약관",
+        "Company": "회사",
+        "Resources": "리소스",
         "Community": "커뮤니티",
-        "Affiliates": "Affiliates"
+        "Affiliates": "제휴사"
       }
     }
   }
