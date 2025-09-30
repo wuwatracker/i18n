@@ -45,7 +45,7 @@
         "Ciaccona": "夏空",
         "Danjin": "丹瑾",
         "Encore": "安可",
-        "Galbrena": "Galbrena",
+        "Galbrena": "嘉贝莉娜",
         "Iuno": "尤诺",
         "Jianxin": "鉴心",
         "Jinhsi": "今汐",
@@ -56,7 +56,7 @@
         "Mortefi": "莫特斐",
         "Phoebe": "菲比",
         "Phrolova": "弗洛洛",
-        "Qiuyuan": "Qiuyuan",
+        "Qiuyuan": "仇远",
         "Roccia": "洛可可",
         "Sanhua": "散华",
         "Shorekeeper": "守岸人",
@@ -93,7 +93,7 @@
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "异响空灵",
         "Emerald of Genesis": "千古洑流",
-        "Emerald Sentence": "Emerald Sentence",
+        "Emerald Sentence": "裁竹",
         "Fables of Wisdom": "风流的寓言诗",
         "Feather Edge": "翼锋",
         "Fusion Accretion": "核熔星盘",
@@ -114,7 +114,7 @@
         "Lumingloss": "飞景",
         "Luminous Hymn": "和光回唱",
         "Lustrous Razor": "浩境粼光",
-        "Lux & Umbra": "Lux & Umbra",
+        "Lux & Umbra": "光影双生",
         "Marcato": "呼啸重音",
         "Meditations on Mercy": "容赦的沉思录",
         "Moongazer's Sigil": "万物持存的注释",
@@ -190,8 +190,8 @@
         "Utterance of Marvels": "万象新声",
         "Beginner's Choice Convene": "新手自选唤取",
         "Giveback Event Convene": "感恩定向唤取",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "新旅唤取武器",
+        "New Voyage Resonator": "新旅唤取共鸣者"
       }
     }
   },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves 资源与助手应用",
-      "description": "《鸣潮》保底计数器，使用全球统计的最新数据以及更多。您可以跨设备同步您的数据、与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "WuWa Tracker 是 #1 Wuthering Waves 抽卡追踪器和保底计算器。追踪抽卡和成就，查看全球统计，使用突破规划器与计算器，并探索攻略、百科和新闻，优化你的 Wuthering Waves 体验。"
     },
     "achievements": {
       "title": "成就",
