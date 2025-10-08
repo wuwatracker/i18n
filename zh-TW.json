@@ -93,7 +93,7 @@
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "异响空灵",
         "Emerald of Genesis": "千古洑流",
-        "Emerald Sentence": "Emerald Sentence",
+        "Emerald Sentence": "裁竹",
         "Fables of Wisdom": "風流的寓言詩",
         "Feather Edge": "翼鋒",
         "Fusion Accretion": "核熔星盘",
@@ -432,10 +432,10 @@
       "windows": "Windows",
       "macos": "macOS",
       "linux": "Linux",
-      "android": "Android",
+      "android": "安卓",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "下載日誌"
     }
   },
   "feature": {
