@@ -550,10 +550,10 @@
         "link_your_email": "Свяжите со своей почтой",
         "link_your_email_description": "Разблокируйте больше возможностей, связав ваш WuWa UID с вашей электронной почтой",
         "unlink_email": "Отвязать электронную почту",
-        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "unlink_email_confirm_description": "Вы потеряете доступ к различным функциям сайта. Чтобы продолжить, пожалуйста, введите <strong></strong> для подтверждения.",
         "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
         "player_id": "Player ID",
-        "import_to_link": "Import to Link",
+        "import_to_link": "Импорт по ссылке",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Cloud Pull Data",
         "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
@@ -660,7 +660,7 @@
     "home_page": {
       "hero_heading": "Your Wuthering Waves Resource",
       "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
+      "keep_up_with_the_latest_news": "Будьте в курсе последних новостей",
       "quick_links": "Quick Links",
       "quick_links_description": "Access important pages and features quickly",
       "the_curent_events_and_activities": "The current events and activities"
@@ -673,7 +673,7 @@
     },
     "achievements": {
       "title": "Достижения",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "Отслеживайте игровые достижения и просматривайте все награды, которые Вы заработали на данный момент",
       "description": "Отслеживайте свои достижения в Wuthering Waves, а также свободно импортируйте и экспортируйте данные между устройствами! WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!"
     },
     "tracker": {
@@ -696,7 +696,7 @@
     },
     "import": {
       "title": "Импорт истории",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "Выберите Вашу платформу и предпочтительный метод импорта ваших данных",
       "description": "Следуйте нашему интерактивному руководству для отображения вашей истории круток в Wuthering Waves и просмотра подробной статистики. Мы поддерживаем импорт данных с ПК, устройств Android и iOS при помощи автоматических и ручных методов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "not_found": {
@@ -709,7 +709,7 @@
     },
     "settings": {
       "title": "Настройки",
-      "page_header": "Manage your site preferences and data here",
+      "page_header": "Управление настройками и данными сайта",
       "description": "Синхронизируйте свои данные через Google, войдя в аккаунт. Управляйте своей историей круток в Wuthering Waves в одном месте. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "terms_and_conditions": {
@@ -722,24 +722,24 @@
     },
     "timeline": {
       "title": "Календарь событий",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "Будьте в курсе последних событий и активностей",
       "description": "Используйте ваш часовой пояс или любой часовой пояс серверов Wuthering Waves, чтобы просматривать расписание каждого баннера, игровых событий, Башни Невзгод и Глубин Царства Иллюзий - все в одном месте. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
     },
     "wiki": {
       "resonator": {
         "title": "Резонаторы",
         "description": "Просматривайте информацию о Резонаторах в Wuthering Waves и используйте калькулятор WuWa Tracker, чтобы распланировать улучшения ваших Резонаторов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "page_header": "Просмотрите всех Резонаторов"
       },
       "item": {
         "title": "Предметы",
         "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!",
-        "page_header": "View all the Items in Wuthering Waves"
+        "page_header": "Просмотрите всех предметов"
       },
       "weapon": {
         "title": "Оружие",
         "description": "Просматривайте информацию о предметах и местах их получения в Wuthering Waves. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и следите за прогрессом своего аккаунта!",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "page_header": "Просмотрите всех оружий"
       }
     },
     "planner": {
