@@ -662,8 +662,8 @@
       "hero_cta_button": "開始分析",
       "keep_up_with_the_latest_news": "了解最新消息",
       "quick_links": "快速連結",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "quick_links_description": "快速進入主要頁面以及功能",
+      "the_curent_events_and_activities": "目前相關活動"
     }
   },
   "metadata": {
@@ -673,13 +673,13 @@
     },
     "achievements": {
       "title": "成就",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "分析您的遊戲成就並檢視至今您已經獲得的獎勵",
       "description": "追蹤您在鳴潮中的成就，自由跨裝置匯入/匯出資料！WuWa Tracker 是鳴潮的喚取分析平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
     },
     "tracker": {
       "index": {
         "title": "喚取追蹤",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
+        "page_header": "檢視近期喚取並與其他玩家分析比較。",
         "description": "查看您在《鳴潮》中最近的喚取與統計。使用可以截圖的儀表板向你的朋友炫耀！WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
       },
       "global": {
@@ -696,7 +696,7 @@
     },
     "import": {
       "title": "匯入喚取紀錄 - WuWa Tracker",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "選擇您喜歡的方法與平台匯入您的資料",
       "description": "按照我們的互動教學顯示您的鳴潮分析資料。我們支援從 PC、Android 和 iOS 設備匯入資料。WuWa Tracker 是鳴潮的喚取分析平台，使用全球統計的最新數據，與朋友分享抽卡結果，輕鬆了解您的帳號！"
     },
     "not_found": {
@@ -709,7 +709,7 @@
     },
     "settings": {
       "title": "設定",
-      "page_header": "Manage your site preferences and data here",
+      "page_header": "在此管理您的喜好設定",
       "description": "通過登入Google來同步你的資料。一站式管理您的《鳴潮》抽卡分析。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
     },
     "terms_and_conditions": {
@@ -722,24 +722,24 @@
     },
     "timeline": {
       "title": "活動時間軸",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "隨時了解鳴潮的最新活動",
       "description": "使用你的本地時區或任何《鳴潮》伺服器時區，你可以在一個地方查看所有的卡池進度、遊戲內活動、逆境之塔與幻境深淵的時間軸。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
     },
     "wiki": {
       "resonator": {
         "title": "共鳴者",
         "description": "查看《鳴潮》共鳴者資訊、角色詳情，並使用WuWa Tracker的素材計算機來規劃你的共鳴者突破。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "page_header": "檢視鳴潮的所有角色"
       },
       "item": {
         "title": "物品",
         "description": "查看《鳴潮》的物品資訊、掉落地點，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
-        "page_header": "View all the Items in Wuthering Waves"
+        "page_header": "檢視鳴潮的所有物品"
       },
       "weapon": {
         "title": "武器",
         "description": "查看《鳴潮》的武器資訊、屬性，您可以在此一站式的完成您的資源管理。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "page_header": "檢視鳴潮的所有武器"
       }
     },
     "planner": {
@@ -751,37 +751,37 @@
       "description": "需要協助下載您的《鳴潮》喚取紀錄嗎？想知道WuWa Tracker如何使用你的資料？查看WuWa Tracker的常見問題解答！"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "主題",
+      "description": "閱讀鳴潮的最新情報與更新，包含指引、技巧、新聞、公告與更多！"
     }
   },
   "config": {
     "navLinks": {
-      "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Tracker": "分析系統",
+      "Import Pulls": "匯入喚取紀錄",
       "Global Statistics": "全球數據",
       "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Characters": "共鳴者",
       "Weapons": "武器",
       "Items": "物品",
       "Tools": "小工具",
-      "Achievements Tracker": "Achievements Tracker",
+      "Achievements Tracker": "成就分析",
       "Ascension Planner": "升級規劃工具",
-      "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Events": "活動",
+      "Articles": "主題",
+      "Old Site": "舊版網站"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "聯絡我們",
         "System Status": "系統狀態",
         "Help Translate": "協助翻譯",
         "Privacy Policy": "隱私政策",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Terms of Service": "使用條款",
+        "Company": "公司",
+        "Resources": "相關資源",
         "Community": "社群",
-        "Affiliates": "Affiliates"
+        "Affiliates": "合作夥伴"
       }
     }
   }
