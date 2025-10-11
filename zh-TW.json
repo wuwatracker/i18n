@@ -669,16 +669,16 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves 資源與夥伴應用程式",
-      "description": "WuWa Tracker 是 #1 Wuthering Waves 抽卡追蹤器和保底計算器。追蹤抽卡與成就，查看全球統計，使用突破規劃器與計算器，並探索攻略、百科與新聞，最佳化你的 Wuthering Waves 體驗。"
+      "description": "WuWa Tracker 是 #1 Wuthering Waves 喚取分析和保底計算工具。分析抽卡與成就，查看全球統計，可使用養成規劃與素材計算工具，並探索攻略、百科與新聞，最佳化你的 Wuthering Waves 體驗。"
     },
     "achievements": {
       "title": "成就",
       "page_header": "分析您的遊戲成就並檢視至今您已經獲得的獎勵",
-      "description": "追蹤您在鳴潮中的成就，自由跨裝置匯入/匯出資料！WuWa Tracker 是鳴潮的喚取分析平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆追蹤您的帳戶！"
+      "description": "統計您在鳴潮中的成就，自由跨裝置匯入/匯出資料！WuWa Tracker 是鳴潮的喚取分析平台，使用全球統計的最新數據。與朋友分享抽卡結果，輕鬆分析您的帳號！"
     },
     "tracker": {
       "index": {
-        "title": "喚取追蹤",
+        "title": "喚取分析",
         "page_header": "檢視近期喚取並與其他玩家分析比較。",
         "description": "查看您在《鳴潮》中最近的喚取與統計。使用可以截圖的儀表板向你的朋友炫耀！WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
       },
