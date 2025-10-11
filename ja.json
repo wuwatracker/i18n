@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "注意: これは新しいフォーマットの集音のみを受け付けます。 <code></code> より前に作られた古いデータをインポートしたい場合は、 <link>レガシーインポート</link> ページを参照してください。",
         "import_user_profile": "ユーザープロファイルのインポート",
         "import_user_profile_dialog_description": "注意: アチーブメント、インベントリ、計算機データを含む <code></code> ファイルのみを受け付けます。集音データをインポートする場合は、他のインポートボタンを使用してください。",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "アカウントに<link>サインイン</link>する",
         "profile_data_will_not_sync_callout_link_your_uid": "アカウントに<link>UIDを紐付ける</link>",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>設定</link>でリンクされたプロファイル ({sessionPlayerId}) を選択します"
@@ -602,7 +602,7 @@
       "first_open_game_history": "まず始めにゲームを起動し、集音履歴画面を開く",
       "open_windows_powershell_and_run_script": "次に「Windows PowerShell」を起動し、以下のコマンドを貼り付けて実行する。",
       "click_the_copy_button": "右側のコピーボタンをクリック",
-      "powershell_script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログからURLを取得するだけです。スクリプトの内容は <link>こちら</link> で確認できます。",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "URLをここに貼り付ける",
       "paste_the_json_here": "JSONをここに貼り付ける",
       "go_to_installation_directory": "ゲームのインストール先ディレクトリを開く",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
       "open_terminal_and_open_script": "次にターミナルを起動し、以下のコマンドを貼り付けて実行する。",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログから集音履歴URLを取得するだけです。",
       "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves リソース＆コンパニオンアプリ",
-      "description": "WuWaTracker は #1 の Wuthering Waves ガチャ履歴トラッカー＆天井カウンターです。引き履歴や実績を追跡し、グローバル統計を確認、育成計画ツールや計算機を活用し、ガイド・Wiki・ニュース記事で Wuthering Waves の体験を最適化しましょう。"
+      "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Synchronize your data across devices and share your pulls with your friends and track your account easily!"
     },
     "achievements": {
       "title": "実績",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "共鳴者",
-        "description": "鳴潮の共鳴者の情報やプロフィールを確認し、WuWa Tracker の素材計算機で共鳴者の強化計画を立てよう。WuWa Trackerの集音カウンターは、最新のグローバル統計データなどを活用。集音結果を友達と共有し、アカウントを追跡しよう!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "アイテム",
