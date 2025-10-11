@@ -45,7 +45,7 @@
         "Ciaccona": "샤콘",
         "Danjin": "단근",
         "Encore": "앙코",
-        "Galbrena": "Galbrena",
+        "Galbrena": "갈브레나",
         "Iuno": "유노",
         "Jianxin": "감심",
         "Jinhsi": "금희",
@@ -56,7 +56,7 @@
         "Mortefi": "모르테피",
         "Phoebe": "페비",
         "Phrolova": "플로로",
-        "Qiuyuan": "Qiuyuan",
+        "Qiuyuan": "구원",
         "Roccia": "로코코",
         "Sanhua": "산화",
         "Shorekeeper": "파수인",
@@ -93,7 +93,7 @@
         "Defier's Thorn": "숙명에 맞서는 관",
         "Discord": "기묘한 울림",
         "Emerald of Genesis": "천년의 회류",
-        "Emerald Sentence": "Emerald Sentence",
+        "Emerald Sentence": "푸른 의지",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Fusion Accretion": "융합의 원반",
@@ -114,7 +114,7 @@
         "Lumingloss": "천공의 광경",
         "Luminous Hymn": "광휘의 찬송가",
         "Lustrous Razor": "푸른물결의 빛",
-        "Lux & Umbra": "Lux & Umbra",
+        "Lux & Umbra": "얽혀진 빛과 그림자",
         "Marcato": "바람의 악센트",
         "Meditations on Mercy": "용서의 명상록",
         "Moongazer's Sigil": "세상 만물의 진리",
@@ -190,8 +190,8 @@
         "Utterance of Marvels": "새로운 소리",
         "Beginner's Choice Convene": "초보자 자유 선택 튜닝",
         "Giveback Event Convene": "감사 타겟 튜닝",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "새출발의 무기",
+        "New Voyage Resonator": "새출발의 약속"
       }
     }
   },
@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "참고: 이는 새로운 형식의 튜닝만 허용합니다. <link>이전 가져오기</link> 페이지를 방문하여 <code></code> 이전에 생성된 데이터를 가져올 수 있습니다.",
         "import_user_profile": "유저 프로필 가져오기",
         "import_user_profile_dialog_description": "참고: 이는 업적, 인벤토리, 플래너 데이터가 포함된 <code></code> 파일만 허용합니다 튜닝 데이터를 가져오려면 다른 가져오기 버튼을 사용하세요.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "변경 사항은 로컬에만 저장됩니다. 프로필 데이터를 동기화하려면:",
         "profile_data_will_not_sync_callout_sign_in": "<link>계정 </link> 로그인",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>UID </link>를 계정에 연결",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "연결된 프로필 ({sessionPlayerId})을 <link>설정에서 선택</link>"
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "페이지 정보버튼을 누르세요",
       "ps5_enter_your_record_id": "여기에 'player_id' 와 'record_id' 를 입력하세요",
       "open_terminal_and_open_script": "그 다음 terminal 을 열고, 다음 스크립트를 붙여 넣으세요:",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "이 스크립트는 파일을 수정하지 않고, 게임 로그에서 튜닝 기록 URL만 추출합니다. 스크립트는 <script>여기</script>에서 확인할 수 있습니다. <repo></repo> 코드를 공유해 주신 <author></author>님께 감사드립니다.",
       "script_disclaimer": "이 스크립트는 파일을 수정하지 않고, 로그 파일에서튜닝 기록 URL만 추출합니다.",
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
@@ -729,7 +729,7 @@
       "resonator": {
         "title": "공명자",
         "description": "명조: 워더링 웨이브의 공명자 정보, 프로필을 보고 공명자 업그레이드를 위해 WuWa Tracker의 재료 계산기를 사용해보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "page_header": "명조: 워더링 웨이브의 모든 공명자 보기"
       },
       "item": {
         "title": "아이템",
