@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "참고: 이는 새로운 형식의 튜닝만 허용합니다. <link>이전 가져오기</link> 페이지를 방문하여 <code></code> 이전에 생성된 데이터를 가져올 수 있습니다.",
         "import_user_profile": "유저 프로필 가져오기",
         "import_user_profile_dialog_description": "참고: 이는 업적, 인벤토리, 플래너 데이터가 포함된 <code></code> 파일만 허용합니다 튜닝 데이터를 가져오려면 다른 가져오기 버튼을 사용하세요.",
-        "profile_data_will_not_sync_callout_description": "변경 사항은 로컬에만 저장됩니다. 프로필 데이터를 동기화하려면:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>계정 </link> 로그인",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>UID </link>를 계정에 연결",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "연결된 프로필 ({sessionPlayerId})을 <link>설정에서 선택</link>"
@@ -602,7 +602,7 @@
       "first_open_game_history": "먼저, 게임을 시작하고 게임 내 튜닝 기록을 여세요",
       "open_windows_powershell_and_run_script": "그 다음, Windows PowerShell을 열고, 아래의 스크립트를 붙여넣으세요.",
       "click_the_copy_button": "오른쪽의 복사 버튼을 클릭하세요.",
-      "powershell_script_disclaimer": "참고: 이 스크립트는 파일을 조작하지 않으며, 간단히 로그에서 튜닝 기록 URL을 추출합니다. 스크립트는 <link>여기서 확인할 수 있습니다</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "URL을 여기에 붙여넣으세요.",
       "paste_the_json_here": "JSON 파일을 여기에 붙여넣으세요.",
       "go_to_installation_directory": "설치 경로를 찾으세요.",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "페이지 정보버튼을 누르세요",
       "ps5_enter_your_record_id": "여기에 'player_id' 와 'record_id' 를 입력하세요",
       "open_terminal_and_open_script": "그 다음 terminal 을 열고, 다음 스크립트를 붙여 넣으세요:",
-      "linux_script_disclaimer": "이 스크립트는 파일을 수정하지 않고, 게임 로그에서 튜닝 기록 URL만 추출합니다. 스크립트는 <script>여기</script>에서 확인할 수 있습니다. <repo></repo> 코드를 공유해 주신 <author></author>님께 감사드립니다.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "이 스크립트는 파일을 수정하지 않고, 로그 파일에서튜닝 기록 URL만 추출합니다.",
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves 리소스 & 동반자 앱",
-      "description": "WuWa Tracker는 #1 Wuthering Waves 뽑기 추적기 및 천장 카운터입니다. 뽑기와 업적을 추적하고, 글로벌 통계를 확인하며, 승급 플래너와 계산기를 사용하고, 가이드, 위키, 뉴스를 탐색하여 Wuthering Waves 경험을 최적화하세요."
+      "description": "A pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Synchronize your data across devices and share your pulls with your friends and track your account easily!"
     },
     "achievements": {
       "title": "업적",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "공명자",
-        "description": "명조: 워더링 웨이브의 공명자 정보, 프로필을 보고 공명자 업그레이드를 위해 WuWa Tracker의 재료 계산기를 사용해보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
-        "page_header": "명조: 워더링 웨이브의 모든 공명자 보기"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "아이템",
