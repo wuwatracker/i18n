@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "NOT: Bu seçenek, sadece yeni formatımızdaki çağrıları kabul eder. <code></code> öncesinde oluşturduğun eski verilerini içe aktarmak istiyorsan, <link>eski çağrıları içe aktar</link> sayfasını ziyaret etmelisin.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
         "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
-        "profile_data_will_not_sync_callout_description": "Değişikliklerin cihazınızda kaydediliyor ve hesabınızdan çıkış yaptığında kaybolacak. Profil verilerini eşitlemek için:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "Hesabına <link>giriş yap</link>",
         "profile_data_will_not_sync_callout_link_your_uid": "Hesabına <link>UID'ni eşle</link>",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>Ayarlardan</link> eşlenmiş ({sessionPlayerId}) profilini seç"
@@ -602,7 +602,7 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerini okuyarak Buluşma Geçmişi URL'ni çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <link>buradan</link> görüntüleyebilirsin.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "\"Sayfa Hakkında\" seçeneğine tıkla",
       "ps5_enter_your_record_id": "'player_id' 'ni ve 'record_id' 'ni buraya yaz",
       "open_terminal_and_open_script": "Ardından terminal'i aç ve aşağıdaki metni yapıştır.",
-      "linux_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerini okuyarak Buluşma Geçmişi URL'ni çıkarır. SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <script>buradan</script> görüntüleyebilirsin. <repo></repo>'ı paylaştığı için <author></author>'ya teşekkür ederiz.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves Kaynak & Yardımcı Uygulaması",
-      "description": "Wuthering Waves için, küresel istatistikler ve daha fazlasını içeren güncel verileri kullanan bir pity sayacı. Verilerini cihazların arasında senkronize et, çağrılarını arkadaşlarınla paylaş ve hesabını kolayca takip et!"
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "Başarımlar",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Rezonatörler",
-        "description": "Wuthering Waves Rezonatör bilgilerini, profillerini görüntüle ve WuWa Tracker'ın materyal hesaplayıcısını kullanarak Rezonatör yükseltmelerini hesapla. WuWa Tracker Wuthering Waves için küresel istatistikler ve daha fazlasını içeren, güncel veriler kullanan bir pity sayacıdır. Çağrılarını arkadaşlarınla paylaş ve hesabını takip et!",
-        "page_header": "Wuthering Waves'deki tüm Rezonatörleri görüntüle"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "Eşyalar",
