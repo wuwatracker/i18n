@@ -226,7 +226,7 @@
         "inventory_item_does_not_exist": "物品不存在！",
         "planner_insufficient_materials": "材料不足。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "您必須使用非訪客模式匯出您的喚取紀錄",
-        "failed_to_unlink_email": "解除email綁定失敗",
+        "failed_to_unlink_email": "解除電子郵件綁定失敗",
         "failed_to_fetch_pulls_from_database": "資料同步失敗",
         "an_error_occured_while_merging_your_data": "合併資料失敗",
         "your_email_must_be_linked_to_import_pulls": "您必須連結您的email才可以匯入喚取資料",
