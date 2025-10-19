@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
         "import_user_profile": "Import User Profile",
         "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
@@ -602,7 +602,7 @@
       "first_open_game_history": "First, launch the game and open your in-game history details",
       "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
       "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "Paste the URL here",
       "paste_the_json_here": "Paste the JSON here",
       "go_to_installation_directory": "Go to your game's installation directory",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Додаток-ресурс і супутник Wuthering Waves",
-      "description": "WuWa Tracker — це #1 трекер випадків та pity-лічильник для Wuthering Waves. Відстежуйте свої випадки та досягнення, переглядайте глобальну статистику, використовуйте планувальник та калькулятор піднесення, а також досліджуйте гайди, вікі та новини, щоб оптимізувати свій досвід у Wuthering Waves."
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "Досягнення",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Резонатори",
-        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "Предмети",

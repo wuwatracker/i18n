@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "NOTE: This only accepts pulls in our new format. Visit the <link>legacy import</link> page if you want to import old data made before <code></code>.",
         "import_user_profile": "Import User Profile",
         "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
@@ -602,7 +602,7 @@
       "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
       "open_windows_powershell_and_run_script": "Sau đó, mở Windows PowerShell, và dán đoạn script này vào.",
       "click_the_copy_button": "Bấm vào nút sao chép bên phải",
-      "powershell_script_disclaimer": "Ghi chú: Đoạn script không chỉnh sửa file của bạn, nó đơn giản chỉ là trích xuất đường dẫn Lịch sử Triệu Hồi từ log. Bạn có thể <link>xem đoạn script ở đây</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "Dán URL vào đây",
       "paste_the_json_here": "Dán JSON vào đây",
       "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "Chọn vào 'Page Information'",
       "ps5_enter_your_record_id": "Nhập 'player_id' và 'record_id' của bạn tại đây",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Ứng dụng Tài nguyên & Đồng hành Wuthering Waves",
-      "description": "WuWa Tracker là trình theo dõi lượt quay & bộ đếm pity #1 cho Wuthering Waves. Theo dõi lượt quay và thành tựu của bạn, xem thống kê toàn cầu, sử dụng công cụ lập kế hoạch & tính toán đột phá, và khám phá hướng dẫn, wiki, tin tức để tối ưu hóa trải nghiệm Wuthering Waves của bạn."
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "Thành Tựu",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Cộng Hưởng Giả",
-        "description": "Xem thông tin về Cộng hưởng giả Wuthering Waves, hồ sơ, và sử dụng hệ thống tính toán của WuWa Tracker để lên kế hoạch nâng cấp Cộng hưởng giả của bạn. WuWa Tracker là hệ thống ghi lại pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều hơn nữa. Chia sẻ lượt Quay của bạn với bạn bè cũng như theo dõi tài khoản!",
-        "page_header": "View all the Characters in Wuthering Waves"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "Vật phẩm",

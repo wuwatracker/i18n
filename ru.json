@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "ПОМЕТКА: Принимаются только крутки, записанные в новом формате. Перейдите на страницу <link>импорт старых круток</link>, если хотите восстановить данные, сохранённые до <code></code>.",
         "import_user_profile": "Импортировать профиль",
         "import_user_profile_dialog_description": "ПОМЕТКА: Здесь принимаются только <code></code> файлы, содержащие данные о достижениях, инвентаре и записях в планировщике. Используйте другую кнопку для импорта, чтобы импортировать свои крутки.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
@@ -602,7 +602,7 @@
       "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
       "open_windows_powershell_and_run_script": "После этого, откройте Windows PowerShell и вставьте следующий скрипт.",
       "click_the_copy_button": "Нажмите на кнопку \"Копировать\" справа",
-      "powershell_script_disclaimer": "Примечание: скрипт лишь извлекает ссылку на вашу историю круток из журналов игры. Вы можете просмотреть его <link>здесь</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
       "paste_the_url_here": "Вставьте ссылку сюда",
       "paste_the_json_here": "Вставьте сюда скопированное содержимое JSON",
       "go_to_installation_directory": "Найдите папку с игрой",
@@ -621,7 +621,7 @@
       "ps5_click_on_page_information": "Нажмите кнопку Page Information(Информация о странице)",
       "ps5_enter_your_record_id": "Введите ваши player_id(1) и record_id(2) в поля ниже",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your game logs. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Приложение-спутник и ресурс для Wuthering Waves",
-      "description": "WuWa Tracker — это #1 трекер молитв и pity-счётчик для Wuthering Waves. Отслеживайте свои молитвы и достижения, просматривайте глобальную статистику, используйте планировщик и калькулятор возвышения, а также изучайте гайды, вики и новости, чтобы улучшить свой опыт в Wuthering Waves."
+      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
       "title": "Достижения",
@@ -727,9 +727,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Резонаторы",
-        "description": "Просматривайте информацию о Резонаторах в Wuthering Waves и используйте калькулятор WuWa Tracker, чтобы распланировать улучшения ваших Резонаторов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!",
-        "page_header": "Просмотрите всех Резонаторов"
+        "title": "Resonators",
+        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
+        "page_header": "View all the Resonators in Wuthering Waves"
       },
       "item": {
         "title": "Предметы",

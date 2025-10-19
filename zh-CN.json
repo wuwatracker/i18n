@@ -536,7 +536,7 @@
         "pulls_file_import_dialog_description": "注意：此处仅接受以我们的新格式保存的唤取记录。若需导入创建于 <code></code> 前的旧数据，请访问<link>旧版导入</link>页面。",
         "import_user_profile": "导入用户资料",
         "import_user_profile_dialog_description": "注意：本功能仅接受包含成就、物品栏和规划工具数据的 <code></code> 文件。如果您希望导入唤取记录数据，请使用其他导入按钮。",
-        "profile_data_will_not_sync_callout_description": "您的更改仅存储在本地。要同步您的玩家资料数据：",
+        "profile_data_will_not_sync_callout_description": "您的更改仅存储在本地且会在您登录时丢失。要同步您的玩家资料数据：",
         "profile_data_will_not_sync_callout_sign_in": "<link>登录</link>到您的帐户",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>将您的 UID 链接</link>到您的帐户",
         "profile_data_will_not_sync_callout_select_your_linked_profile": "<link>在您的设置中</link>选择您链接的玩家资料 ({sessionPlayerId})"
@@ -669,7 +669,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves 资源与助手应用",
-      "description": "WuWa Tracker 是 #1 Wuthering Waves 抽卡追踪器和保底计算器。追踪抽卡和成就，查看全球统计，使用突破规划器与计算器，并探索攻略、百科和新闻，优化你的 Wuthering Waves 体验。"
+      "description": "《鸣潮》保底计数器，使用全球统计的最新数据以及更多。您可以跨设备同步您的数据、与朋友分享你的抽卡记录，并轻松追踪您的账户！"
     },
     "achievements": {
       "title": "成就",
