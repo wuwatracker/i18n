@@ -3,7 +3,7 @@
     "term": {
       "convenes": "喚取",
       "convene_url": "喚取網址",
-      "pulls": "喚取",
+      "pulls": "抽取",
       "astrites": "星聲",
       "wuthering_waves": "鳴潮",
       "pull_history": "喚取紀錄",
@@ -255,7 +255,7 @@
         "google_drive_last_updated_at": "Google 硬碟資料已被更新 {date}",
         "nothing_to_sync": "目前無需同步。",
         "sync_creating_file_in_google": "在 Google 硬碟建立 {fileName} ...",
-        "sync_updating_remote_file": "正在更新雲端檔案 {fileName}...",
+        "sync_updating_remote_file": "正在更新雲端檔案 {fileName}……",
         "planner_edited_plan_for_name": "{name} 的編輯計劃。",
         "unlinking_your_email": "解除email連結……",
         "importing_cloud_data": "正在匯入雲端資料……",
@@ -293,8 +293,8 @@
       "search": "搜尋",
       "search_placeholder": "搜尋您想找的...",
       "search_reset": "重新搜尋",
-      "your_player_id_placeholder": "您的九碼遊戲UID (例：123456789)",
-      "your_player_id_validation": "您的九碼遊戲UID必須以 1,5,6,7,8,9 開頭",
+      "your_player_id_placeholder": "您的9碼遊戲UID（例如：123456789）",
+      "your_player_id_validation": "您的9碼遊戲UID必須以 1、5、6、7、8或者9 開頭",
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
       "accepted_formats": "可接受格式: {formats}",
@@ -448,7 +448,7 @@
         "error_while_fetching_q": "錯誤顯示「error occured while fetching」— 我該怎麼做？",
         "missing_old_pulls_q": "我找不到我原本抽卡記錄—它們在哪裡？",
         "support_other_imports_q": "是否支援從其他網站或應用程式匯入？",
-        "ps5_player_import_q": "我可以匯入 PS5 的帳號嗎？",
+        "ps5_player_import_q": "我可以匯入PS5的帳號嗎？",
         "other_q": "找不到我的問題 — 我該怎麼做？"
       }
     },
