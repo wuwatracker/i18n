@@ -238,8 +238,8 @@
         "already_linked": "已連結",
         "enable_email_link": "啟用email連結",
         "sign_in_to_sync": "登入以同步",
-        "loading": "讀取中...",
-        "import_loading": "正在匯入抽取紀錄...",
+        "loading": "讀取中……",
+        "import_loading": "正在匯入卡池紀錄……",
         "import_loading_description": "這不會花費太多的時間...",
         "scroll_for_more": "下拉瀏覽更多",
         "no_filters": "無篩選條件",
@@ -289,9 +289,9 @@
     },
     "form": {
       "banner_select_placeholder": "選擇卡池",
-      "banner_search_placeholder": "搜尋卡池...",
+      "banner_search_placeholder": "搜尋卡池……",
       "search": "搜尋",
-      "search_placeholder": "搜尋您想找的...",
+      "search_placeholder": "搜尋某物……",
       "search_reset": "重新搜尋",
       "your_player_id_placeholder": "您的9碼遊戲UID（例如：123456789）",
       "your_player_id_validation": "您的9碼遊戲UID必須以 1、5、6、7、8或者9 開頭",
@@ -482,7 +482,7 @@
     },
     "tracker": {
       "banner_summary": "卡池總覽",
-      "banner_summary_description": "選擇卡池以取得概覽與分析",
+      "banner_summary_description": "選擇卡池以取得概覽與分析。",
       "luck": {
         "num_luck_rating_title": "{num}✦ 運氣評分",
         "top": "前 {percentile}%",
@@ -493,10 +493,10 @@
         "avg_pity_description": "你的 {qualityLevel} 星平均保底是多少？",
         "pull_ratio": "抽取機率",
         "pull_ratio_description": "抽中 {qualityLevel} 星的機率是多少？",
-        "coinflip_wins": "不歪機率",
-        "coinflip_wins_description": "小保底喚取沒有歪的機率是多少？",
-        "rate_up_wins": "UP獲得機率",
-        "rate_up_wins_description": "抽中UP角色的機率是多少?"
+        "coinflip_wins": "50/50機率",
+        "coinflip_wins_description": "你贏了50/50抽取的百分之多少？",
+        "rate_up_wins": "UP池獲得",
+        "rate_up_wins_description": "抽中UP角色的機率是多少？"
       }
     },
     "global_stats": {
@@ -504,7 +504,7 @@
       "rarity_pulls_per_pity": "{num}✦ 保底抽數",
       "rarity_pulls_per_pity_description": "顯示每次保底的喚取數量",
       "banner_summary_title": "卡池總覽",
-      "banner_summary_description": "選擇卡池以取得概覽與分析",
+      "banner_summary_description": "選擇卡池以取得概覽與分析。",
       "view_your_statistics_responsive": "<span>檢視</span> 您的分析",
       "pulls_per_day": "每日喚取數量",
       "pulls_per_day_description": "顯示每天的喚取數與稀有度分佈",
@@ -533,7 +533,7 @@
         "export_pull_history": "匯出喚取紀錄",
         "export_pull_history_description": "建立您的喚取紀錄的本機備份以防遺失",
         "pulls_file_import_dialog_title": "匯入本地喚取紀錄",
-        "pulls_file_import_dialog_description": "提示：此僅接受新版喚取紀錄資料。如果您想匯入在舊版網頁生成的資料 <code></code> ，請至<link>舊版資料匯入</link>。",
+        "pulls_file_import_dialog_description": "注意：這只接受我們新格式的抽取。 如果您想導入<code></code>之前創建的舊數據，請訪問<link>舊版導入</link>頁面。",
         "import_user_profile": "匯入設定檔",
         "import_user_profile_dialog_description": "說明：僅接受 <code></code> 關於成就, 倉庫, 資源規劃等資料。若您想要匯入喚取資料，請使用其他匯入按鈕。",
         "profile_data_will_not_sync_callout_description": "您的變更僅會儲存在本機。若要同步您的設定：",
@@ -581,10 +581,10 @@
     "timeline": {
       "choose_server_timezone": "選擇伺服器時區",
       "choose_server_timezone_description": "顯示調整到你的本地時區的時間",
-      "timeline_description": "在您的時區或者<link>其他時區</link>檢視鳴潮活動",
+      "timeline_description": "在您的時區或者<link>其他時區</link>檢視鳴潮活動。",
       "reset_timers": {
         "title": "伺服器每日重置計時器",
-        "description": "比對您的時區與鳴潮伺服器的時間以規劃您的下次冒險",
+        "description": "比對您的時區與鳴潮伺服器的時間以規劃您的下次冒險。",
         "disclaimer": "其他伺服器時間以其當地時間顯示。"
       }
     },
@@ -600,7 +600,7 @@
       "logs_not_updating_alert": "紀錄連結已過期",
       "logs_not_updating_alert_description": "截至2025年1月14日，可能來自庫洛的遊戲更新導致電腦端玩家在登入遊戲時遇到了一些問題。請閱讀我們的<link>問題排除指引</link>來解決它。",
       "first_open_game_history": "首先，啟動遊戲並打開你的遊戲內喚取歷史紀錄",
-      "open_windows_powershell_and_run_script": "之後，打開 Windows PowerShell 並貼上以下指令",
+      "open_windows_powershell_and_run_script": "之後，打開 Windows PowerShell 並貼上以下指令。",
       "click_the_copy_button": "點擊右邊的複製按鈕",
       "powershell_script_disclaimer": "提示：程式不會修改您的任何檔案，只會從紀錄中擷取紀錄連結。您可以在<link>這裡</link>查看原始碼。",
       "paste_the_url_here": "在這裡貼上連結",
