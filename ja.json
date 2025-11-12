@@ -36,13 +36,13 @@
         "Augusta": "オーガスタ",
         "Baizhi": "白芷",
         "Brant": "ブラント",
-        "Buling": "Buling",
+        "Buling": "卜霊",
         "Calcharo": "カカロ",
         "Carlotta": "カルロッタ",
         "Cartethyia": "カルテジア",
         "Camellya": "ツバキ",
         "Changli": "長離",
-        "Chisa": "Chisa",
+        "Chisa": "千咲",
         "Chixia": "熾霞",
         "Ciaccona": "シャコンヌ",
         "Danjin": "丹瑾",
@@ -730,7 +730,7 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
+        "title": "共鳴者",
         "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
         "page_header": "View all the Resonators in Wuthering Waves"
       },
