@@ -110,7 +110,7 @@
         "Helios Cleaver": "逆行の星",
         "Hollow Mirage": "驚異の星",
         "Jinzhou Keeper": "今州の衛士",
-        "Kumokiri": "Kumokiri",
+        "Kumokiri": "曇斬",
         "Legend of Drunken Hero": "酩酊のエポス",
         "Lethean Elegy": "幽冥の忘憂曲",
         "Lunar Cutter": "倒錯の星",
@@ -732,7 +732,7 @@
       "resonator": {
         "title": "共鳴者",
         "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
-        "page_header": "View all the Resonators in Wuthering Waves"
+        "page_header": "鳴潮内のすべての共鳴者を表示"
       },
       "item": {
         "title": "アイテム",
