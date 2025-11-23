@@ -642,7 +642,7 @@
       "plan_delete_name_confirm": "プラン {name} を削除してもよろしいですか？",
       "no_items_will_be_consumed": "アイテムは消費されません。",
       "attributes": {
-        "ascension_level": "共鳴チェーン",
+        "ascension_level": "突破ランク",
         "level": "レベル",
         "basic_attack": "通常攻撃",
         "resonance_skill": "共鳴スキル",
@@ -732,7 +732,7 @@
       "resonator": {
         "title": "共鳴者",
         "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
-        "page_header": "View all the Resonators in Wuthering Waves"
+        "page_header": "鳴潮内のすべての共鳴者を表示"
       },
       "item": {
         "title": "アイテム",
