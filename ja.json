@@ -642,7 +642,7 @@
       "plan_delete_name_confirm": "プラン {name} を削除してもよろしいですか？",
       "no_items_will_be_consumed": "アイテムは消費されません。",
       "attributes": {
-        "ascension_level": "共鳴チェーン",
+        "ascension_level": "突破ランク",
         "level": "レベル",
         "basic_attack": "通常攻撃",
         "resonance_skill": "共鳴スキル",
