@@ -95,7 +95,7 @@
         "Defier's Thorn": "Espina de la Desafiadora",
         "Discord": "Disonancia",
         "Emerald of Genesis": "Esmeralda del Génesis",
-        "Emerald Sentence": "Emerald Sentence",
+        "Emerald Sentence": "Sentencia Esmeralda",
         "Fables of Wisdom": "Fábulas de sabiduría",
         "Feather Edge": "Filo de Pluma",
         "Fusion Accretion": "Acreción de fusion",
@@ -193,8 +193,8 @@
         "Utterance of Marvels": "Declaración de maravillas",
         "Beginner's Choice Convene": "Invocación de elección de novato",
         "Giveback Event Convene": "Evento de gratitud",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "Arma del Nuevo Viaje",
+        "New Voyage Resonator": "Resonador del Nuevo Viaje"
       }
     }
   },
@@ -521,14 +521,14 @@
         "site_language": "Idioma del Sitio",
         "site_language_description": "Seleccione el idioma que desea utilizar en el sitio",
         "game_server_timezone": "Zona horaria del servidor del juego",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "game_server_timezone_description": "Mostrar características relacionadas con el tiempo de acuerdo a la zona horaria del servidor de tu juego"
       },
       "data": {
         "title": "Datos",
         "active_profile": "Perfil Activo",
         "active_profile_description": "Seleccione el perfil activo que desea utilizar en el sitio",
         "import_profile": "Importar Perfil",
-        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "import_profile_description": "Importar una instantánea de perfil para restaurar o cargar otro perfil",
         "export_profile": "Exportar Perfil",
         "export_profile_description": "Crear una instantánea de los datos de tu perfil activo para compartir o respaldar",
         "import_pull_history": "Importar Historial de Extracción",
@@ -536,13 +536,13 @@
         "export_pull_history": "Exportar Historial de Invocaciones",
         "export_pull_history_description": "Crear una copia de seguridad local de tu historial de extracciones como respaldo",
         "pulls_file_import_dialog_title": "Importar Extracciones Locales",
-        "pulls_file_import_dialog_description_supported_files": "This accepts <code>wuwatracker-pulls</code> and <code>wuwatracker-convene-history</code> JSON files following our website's format.",
+        "pulls_file_import_dialog_description_supported_files": "Esto acepta archivos JSON <code>wuwatracker-pulls</code> y <code>wuwatracker-convene-history</code> siguiendo el formato de nuestro sitio web.",
         "import_user_profile": "Importar Perfil de Usuario",
         "import_user_profile_dialog_description": "NOTA: Esto solo acepta archivos <code></code> con logros, inventario, y datos del planificador. Usa el otro botón de importación si quieres importar los datos de las invocaciones.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
+        "profile_data_will_not_sync_callout_description": "Tus cambios solo se almacenan de manera local y se perderán cuando inicies sesión. Para sincronizar los datos de tu perfil:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Inicia sesión</link> con tu cuenta",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>Vincula tu UID</link> a tu cuenta",
-        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Selecciona tu perfil vinculado ({sessionPlayerId}) <link>en tus ajustes</link>"
       },
       "connections": {
         "title": "Conexiones",
@@ -570,7 +570,7 @@
         "session_logs": "Registros de Sesión",
         "session_logs_description": "Puedes descargar tus registros con propósitos de depuración",
         "delete_active_profile_data": "Eliminar Datos del Perfil Activo",
-        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data",
+        "delete_active_profile_data_description": "Puedes eliminar los datos de perfil del sitio web activo, SÓLO incluyendo todos los datos que no tengan nada que ver con las invocaciones",
         "delete_active_profile_data_confirm_title": "¿Estás seguro de que quieres eliminar los datos de {activeProfileId}?",
         "delete_active_profile_data_confirm_description": "Todos los datos asociados para <strong></strong> se eliminarán. Esta acción no se puede deshacer.",
         "profile": "Perfil",
@@ -592,20 +592,20 @@
       }
     },
     "import": {
-      "select_a_method": "Select a method",
-      "tutorial_video": "Tutorial Video",
+      "select_a_method": "Selecciona un método",
+      "tutorial_video": "Videotutorial",
       "follow_our_video_tutorial": "Sigue nuestro videotutorial",
-      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
-      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
-      "press_the_import_data_button": "Press the \"Import Data\" button below",
-      "upload_your_client_log_file_here": "Upload your Client.log file here",
-      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
+      "follow_our_video_tutorial_description": "Este breve video te guiará a través del proceso de importación",
+      "follow_this_video_tutorial_by_name": "Sigue este video tutorial de {name}",
+      "press_the_import_data_button": "Pulse el botón de \"Importar datos\"",
+      "upload_your_client_log_file_here": "Sube aquí tu archivo Client.log",
+      "we_will_search_your_logs_and_extract_the_import_url": "Buscaremos en tus registros y extraeremos la URL de importación por ti",
       "logs_not_updating_alert": "URL caducado",
       "logs_not_updating_alert_description": "Desde el 14 de enero del 2025, los usuarios de ordenador han estado experimentando problemas de inicio de sesión debido a una presunta actualización de Kuro Games. Lea nuestra <link>Guía de soporte</link>  para poder solucionar el problema.",
       "first_open_game_history": "Primero, inicia el juego y abre los detalles del historial dentro del juego",
       "open_windows_powershell_and_run_script": "Después, abre Windows Powershell, y pega el siguiente script.",
       "click_the_copy_button": "Haz clic en el botón de copiar a la derecha",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Una comprobación SHA256 asegura que el script no haya sido manipulado. Puedes ver el script <link>aquí</link>.",
       "paste_the_url_here": "Pega la URL aquí",
       "paste_the_json_here": "Pega el JSON aquí",
       "go_to_installation_directory": "Ve a la carpeta de instalación del juego",
@@ -618,19 +618,19 @@
       "download_ascent_troubleshooting": "Si no funciona correctamente, echa un vistazo a la <link>sección de solución de problemas</link>.",
       "ios_follow_tutorial_video": "Sigue nuestro videotutorial",
       "ios_follow_tutorial_video_description": "Similar a conseguir tu historial en Genshin Impact o Honkai Star Rail, sigue este videotutorial para importar tus datos en iOS.",
-      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
-      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
+      "ios_certificate_disclaimer": "NOTA: Debes usar Safari al descargar el archivo de certificado. Otros navegadores como Google Chrome pueden no funcionar.",
+      "ps5_credits": "Un agradecimiento especial a <link></link> por compartir la metodología y las imágenes para este tutorial de PlayStation 5.",
       "ps5_press_the_options_button": "Presiona el botón de 'Opciones' en tu mando",
       "ps5_click_on_page_information": "Presiona el botón de 'Información de página'",
       "ps5_enter_your_record_id": "Introduce tu 'player_id' y 'record_id' aquí",
-      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
-      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "open_terminal_and_open_script": "Después, abre tu terminal, y pega el siguiente script:",
+      "linux_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Una comprobación SHA256 asegura que el script no haya sido manipulado. Puedes ver el script <script>aquí</script>. Créditos a <author></author> por compartir su <repo></repo> código.",
+      "script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script aquí.",
+      "email_link_description": "Esto nos permitirá guardar sus datos en nuestra base de datos y automáticamente hacer una copia de seguridad de sus datos cada vez que importe. Si tu ID de jugador ya está vinculada a otra dirección de correo electrónico, eliminaremos el enlace antiguo y usaremos tu nueva dirección de correo electrónico."
     },
     "planner": {
-      "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_up": "Subir",
+      "move_down": "Bajar"
     },
     "inventory": {
       "new_plan": "Nuevo plan",
@@ -661,7 +661,7 @@
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_heading": "Tus recursos de Wuthering Waves",
       "hero_cta_button": "Comienza el Seguimiento",
       "keep_up_with_the_latest_news": "Mantente al día con las últimas noticias",
       "quick_links": "Enlaces Rápidos",
@@ -672,7 +672,7 @@
   "metadata": {
     "root": {
       "title": "Aplicación de recursos y compañero de Wuthering Waves",
-      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
+      "description": "WuWaTracker es el #1 rastreador de invocaciones y contador de piedad para Wuthering Waves. Rastrea tus invocaciones y logros, consulta estadísticas globales, usa nuestro planificador y calculadora de ascensión, y explora nuestras guías, wiki, y articulos para optimizar tu experiencia en Wuthering Waves."
     },
     "achievements": {
       "title": "Logros",
@@ -730,9 +730,9 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
-        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
-        "page_header": "View all the Resonators in Wuthering Waves"
+        "title": "Resonadores",
+        "description": "¡Vea la información de los Resonadores de Wuthering Waves y utilice la calculadora de materiales para planificar las mejoras de su Resonador!",
+        "page_header": "Mira a todos los Resonadores de Wuthering Waves"
       },
       "item": {
         "title": "Objetos",
