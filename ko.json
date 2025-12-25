@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "프로필 선택",
       "filters": "필터",
       "rows_per_page": "페이지 당 행",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "현재 레벨은 반드시 {min}과 {max} 사이여야 합니다.",
       "planner_new_must_be_between_min_max": "새 레벨은 반드시 {min}과 {max} 사이여야 합니다."
     },
