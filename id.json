@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "Pilih profil yang aktif",
       "filters": "Filter",
       "rows_per_page": "Baris per halaman",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "Level sebelumnya harus di antara {min} dan {max}.",
       "planner_new_must_be_between_min_max": "Level baru harus di antara {min} dan {max}."
     },
