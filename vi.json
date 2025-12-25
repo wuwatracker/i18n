@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "Chọn hồ sơ hoạt động",
       "filters": "Lọc",
       "rows_per_page": "Số hàng trên trang",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "Cấp độ trước phải nằm trong khoảng từ {min} đến {max}.",
       "planner_new_must_be_between_min_max": "Cấp độ mới phải nằm trong khoảng từ {min} đến {max}."
     },
@@ -777,10 +778,10 @@
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
-      "Import Pulls": "Import Pulls",
+      "Import Pulls": "Nhập lượt Triệu Hồi",
       "Global Statistics": "Thống Kê Toàn Cầu",
       "Wiki": "Wiki",
-      "Characters": "Characters",
+      "Characters": "Nhân vật",
       "Weapons": "Vũ khí",
       "Items": "Vật phẩm",
       "Tools": "Công cụ",
