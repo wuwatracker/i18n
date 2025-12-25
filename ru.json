@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "Выбрать профиль",
       "filters": "Фильтры",
       "rows_per_page": "Строк на странице",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "Начальный уровень должен быть между {min} и {max}.",
       "planner_new_must_be_between_min_max": "Новый уровень должен быть между {min} и {max}."
     },
