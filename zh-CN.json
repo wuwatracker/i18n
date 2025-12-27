@@ -313,7 +313,8 @@
       "select_profile_placeholder_empty": "未找到玩家资料",
       "select_profile_placeholder_inactive": "选择使用的玩家资料",
       "filters": "筛选器",
-      "rows_per_page": "行每页",
+      "rows_per_page": "每页行数",
+      "items_per_page": "每页项数",
       "planner_previous_must_be_between_min_max": "培养计划的起始等级必须介于 {min} 和 {max} 之间。",
       "planner_new_must_be_between_min_max": "培养计划的结束等级必须介于 {min} 和 {max} 之间。"
     },

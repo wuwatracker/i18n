@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "Elige un perfil activo",
       "filters": "Filtros",
       "rows_per_page": "Filas por página",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "El nivel anterior debe estar entre {min} y {max}.",
       "planner_new_must_be_between_min_max": "El nivel nuevo debe de estar entre {min} y {max}."
     },

@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "アクティブプロファイルを選択",
       "filters": "フィルター",
       "rows_per_page": "1ページ毎の行数",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "古いレベルは {min} から {max} までにしてください。",
       "planner_new_must_be_between_min_max": "新しいレベルは {min} から {max} までにしてください。"
     },

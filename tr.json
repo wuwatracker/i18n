@@ -314,6 +314,7 @@
       "select_profile_placeholder_inactive": "Aktif profili seç",
       "filters": "Filtreler",
       "rows_per_page": "Sayfa başına düşen sıra sayısı",
+      "items_per_page": "Items per page",
       "planner_previous_must_be_between_min_max": "Önceki seviye {min} ve {max} arasında olmalı.",
       "planner_new_must_be_between_min_max": "Yeni seviye {min} ve {max} arasında olmalı."
     },
