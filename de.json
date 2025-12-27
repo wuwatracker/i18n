@@ -2,7 +2,7 @@
   "domain": {
     "term": {
       "convenes": "Zusammenrufen",
-      "convene_url": "Convene URL",
+      "convene_url": "Zusammenruf URL",
       "pulls": "Pulls",
       "astrites": "Astrite",
       "wuthering_waves": "Wuthering Waves",
@@ -12,20 +12,20 @@
       "pity": "Pity",
       "rarity": "Seltenheit",
       "date_received": "Datum erhalten",
-      "recent_convenes": "Recent Convenes",
+      "recent_convenes": "Kürzliche Zusammenrufe",
       "resonator": "Resonator",
       "weapon": "Waffe"
     },
     "phrase": {
       "import_data": "Daten importieren",
       "import_data_description": "Verwende deine exportierten Daten und speicher sie im Browser",
-      "banner_list": "Banner List",
-      "no_pulls_yet": "No pulls yet",
+      "banner_list": "Bannerliste",
+      "no_pulls_yet": "Noch keine Pulls",
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
-      "total_pulls": "Total Pulls",
-      "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "total_pulls": "Gesamt Pulls",
+      "total_pulls_responsive": "<span>Gesamt</span> Pulls",
+      "total_astrites_responsive": "<span>Gesamt</span> Astriten"
     },
     "name": {
       "items": {
@@ -256,7 +256,7 @@
         "scroll_for_more": "Scroll For More",
         "no_filters": "no filters selected",
         "no_records": "no records to show",
-        "no_pulls_yet": "No pulls yet",
+        "no_pulls_yet": "Noch keine Pulls",
         "no_pulls_found_in_google_drive": "No pulls found in Google Drive",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
