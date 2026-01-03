@@ -684,6 +684,10 @@
       "quick_links": "Hızlı Erişim Menüsü",
       "quick_links_description": "Önemli sayfa ve özelliklere hızlıca eriş",
       "the_curent_events_and_activities": "Güncel etkinliker ve aktiviteler"
+    },
+    "banners": {
+      "newest_first": "Newest First",
+      "since_last_appearance": "Since Last Appearance"
     }
   },
   "metadata": {
@@ -773,6 +777,11 @@
     "articles": {
       "title": "Makaleler",
       "description": "Wuthering Waves ile ilgili kılavuzları, ipuçlarını, haberleri, duyuruları ve daha fazlasını içeren makaleleri oku!"
+    },
+    "banners": {
+      "title": "Banner History",
+      "page_header": "Track banner history & reruns in Wuthering Waves",
+      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
   "config": {
