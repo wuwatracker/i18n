@@ -684,6 +684,10 @@
       "quick_links": "Quick Links",
       "quick_links_description": "Access important pages and features quickly",
       "the_curent_events_and_activities": "The current events and activities"
+    },
+    "banners": {
+      "newest_first": "Newest First",
+      "since_last_appearance": "Since Last Appearance"
     }
   },
   "metadata": {
@@ -773,6 +777,11 @@
     "articles": {
       "title": "Articles",
       "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+    },
+    "banners": {
+      "title": "Banner History",
+      "page_header": "Track banner history & reruns in Wuthering Waves",
+      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
   "config": {
