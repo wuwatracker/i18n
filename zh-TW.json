@@ -684,6 +684,10 @@
       "quick_links": "快速連結",
       "quick_links_description": "快速進入主要頁面以及功能",
       "the_curent_events_and_activities": "目前相關活動"
+    },
+    "banners": {
+      "newest_first": "Newest First",
+      "since_last_appearance": "Since Last Appearance"
     }
   },
   "metadata": {
@@ -773,6 +777,11 @@
     "articles": {
       "title": "主題",
       "description": "閱讀鳴潮的最新情報與更新，包含指引、技巧、新聞、公告與更多！"
+    },
+    "banners": {
+      "title": "Banner History",
+      "page_header": "Track banner history & reruns in Wuthering Waves",
+      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
   "config": {
