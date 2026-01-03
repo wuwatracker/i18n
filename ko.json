@@ -684,6 +684,10 @@
       "quick_links": "빠른 링크",
       "quick_links_description": "중요한 페이지와 기능에 빠르게 접근하세요",
       "the_curent_events_and_activities": "현재 진행 중인 이벤트와 활동"
+    },
+    "banners": {
+      "newest_first": "Newest First",
+      "since_last_appearance": "Since Last Appearance"
     }
   },
   "metadata": {
@@ -773,6 +777,11 @@
     "articles": {
       "title": "기사들",
       "description": "명조: 워더링 웨이브의 최신 기사와 업데이트를 확인하세요. 가이드, 팁, 소식, 공지 등 다양한 정보를 포함합니다!"
+    },
+    "banners": {
+      "title": "Banner History",
+      "page_header": "Track banner history & reruns in Wuthering Waves",
+      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
   "config": {
