@@ -311,7 +311,7 @@
       "file_input": "Nhấn để tải lên hoặc kéo thả vào đây",
       "accepted_formats": "Duyệt định dạng: {formats}",
       "select_profile_placeholder_empty": "Không có hồ sơ người dùng",
-      "select_profile_placeholder_inactive": "Chọn hồ sơ hoạt động",
+      "select_profile_placeholder_inactive": "Chọn hồ sơ hiện tại",
       "filters": "Lọc",
       "rows_per_page": "Số hàng trên trang",
       "items_per_page": "Số mục trên mỗi trang",
@@ -425,7 +425,7 @@
       "help_translate": "Hỗ trợ dịch thuật",
       "switch_language": "Chuyển ngôn ngữ",
       "just_taking_a_look_around": "Bạn chỉ nhìn xung quanh thôi sao?",
-      "the_active_player_profile": "người chơi đang hoạt động",
+      "the_active_player_profile": "hồ sơ người chơi đang hoạt động",
       "privacy": "Quyền riêng tư",
       "on": "Bật",
       "off": "Tắt",
@@ -448,7 +448,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Tải file Logs"
+      "download_logs": "Tải tệp Nhật ký (Logs)"
     }
   },
   "feature": {
@@ -541,18 +541,18 @@
         "import_profile_description": "Nhập bản sao hồ sơ để khôi phục hoặc tải hồ sơ khác",
         "export_profile": "Xuất hồ sơ",
         "export_profile_description": "Tạo bản sao dữ liệu hồ sơ hiện tại để chia sẻ hoặc sao lưu",
-        "import_pull_history": "Import Pull History",
-        "import_pull_history_description": "Upload your pull history through a supported file format",
-        "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
-        "pulls_file_import_dialog_title": "Import Local Pulls",
-        "pulls_file_import_dialog_description_supported_files": "This accepts <code>wuwatracker-pulls</code> and <code>wuwatracker-convene-history</code> JSON files following our website's format.",
-        "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
-        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
-        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
-        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
+        "import_pull_history": "Nhập lịch sử lượt triệu hồi",
+        "import_pull_history_description": "Tải lên lịch sử lượt triệu hồi của bạn qua định dạng tệp được hỗ trợ",
+        "export_pull_history": "Xuất lịch sử lượt triệu hồi",
+        "export_pull_history_description": "Tạo bản sao lưu cục bộ của lịch sử lượt triệu hồi để giữ an toàn",
+        "pulls_file_import_dialog_title": "Nhập lượt triệu hồi từ tệp cục bộ",
+        "pulls_file_import_dialog_description_supported_files": "Chấp nhận các tệp JSON <code>wuwatracker-pulls</code> và <code>wuwatracker-convene-history</code> theo định dạng của trang web.",
+        "import_user_profile": "",
+        "import_user_profile_dialog_description": "LƯU Ý: Chỉ hỗ trợ các tệp <code></code> chứa dữ liệu thành tựu, kho đồ và kế hoạch. Hãy sử dụng nút nhập khác nếu bạn muốn nhập dữ liệu lượt triệu hồi.",
+        "profile_data_will_not_sync_callout_description": "Các thay đổi của bạn hiện chỉ được lưu cục bộ và sẽ mất khi bạn đăng nhập. Để đồng bộ dữ liệu hồ sơ:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Đăng nhập</link> vào tài khoản của bạn",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Liên kết UID</link> với tài khoản của bạn",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Chọn hồ sơ đã liên kết ({sessionPlayerId}) <link>trong phần cài đặt</link>"
       },
       "connections": {
         "title": "Kết nối",
@@ -566,36 +566,36 @@
         "unlink_email_confirm_description": "Bạn sẽ mất quyền truy cập vào một số tính năng của trang web. Để tiếp tục, vui lòng nhập <strong></strong> để xác nhận.",
         "unlink_email_confirm_input_placeholder": "Nhập {password} để xác nhận",
         "player_id": "ID người chơi",
-        "import_to_link": "Import to Link",
-        "sign_in_to_link": "Sign in to Link",
+        "import_to_link": "Nhập để liên kết",
+        "sign_in_to_link": "Đăng nhập để liên kết",
         "cloud_pull_data": "Dữ liệu Triệu hồi Đám mây",
         "cloud_pull_data_description": "Bạn có thể khôi phục dữ liệu lượt triệu hồi từ hệ thống nếu email đã được liên kết",
-        "recover_pulls": "Recover Pulls"
+        "recover_pulls": "Khôi phục lượt triệu hồi"
       },
       "advanced": {
         "title": "Nâng cao",
-        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
-        "website_version": "Website Version",
-        "website_version_description": "You're currently using this version of the site",
-        "session_logs": "Session Logs",
-        "session_logs_description": "You can download your logs for debugging purposes",
-        "delete_active_profile_data": "Delete Active Profile Data",
-        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data",
-        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
-        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "successfully_deleted_active_profile_data": "Đã xóa thành công dữ liệu của {activeProfileId}",
+        "successfully_deleted_active_profile_pull_data": "Đã xóa thành công dữ liệu lượt triệu hồi của {activeProfileId}",
+        "website_version": "Phiên bản trang web",
+        "website_version_description": "Bạn đang sử dụng phiên bản này của trang web",
+        "session_logs": "Nhật ký phiên làm việc",
+        "session_logs_description": "Bạn có thể tải xuống nhật ký (logs) để phục vụ việc gỡ lỗi",
+        "delete_active_profile_data": "Xoá dữ liệu hồ sơ hiện tại",
+        "delete_active_profile_data_description": "Bạn có thể xóa dữ liệu hồ sơ hiện tại trên trang web, CHỈ bao gồm toàn bộ dữ liệu liên quan đến lượt triệu hồi",
+        "delete_active_profile_data_confirm_title": "Bạn có chắc chắn muốn xóa dữ liệu của {activeProfileId} không?",
+        "delete_active_profile_data_confirm_description": "Toàn bộ dữ liệu liên quan đến <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
+        "delete_active_profile_pull_data": "Xóa dữ liệu lượt triệu hồi của hồ sơ hiện tại",
+        "delete_active_profile_pull_data_description": "Bạn có thể xóa dữ liệu lượt triệu hồi của hồ sơ hiện tại khỏi bộ nhớ trình duyệt",
+        "delete_active_profile_pull_data_confirm_title": "Bạn có chắc chắn muốn xóa dữ liệu lượt triệu hồi của {activeProfileId} không?",
+        "delete_active_profile_pull_data_confirm_description": "Toàn bộ lịch sử lượt triệu hồi của <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
+        "delete_active_profile_pull_data_confirm_text": "Xóa dữ liệu lượt triệu hồi của  {activeProfileId}",
         "profile": "Hồ sơ",
-        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
-        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
-        "delete_profile_data": "Delete Profile Data",
+        "type_active_profile_to_confirm": "Nhập {activeProfileId} để xác nhận",
+        "delete_active_profile_data_confirm_text": "Xoá dữ liệu của {activeProfileId}",
+        "delete_profile_data": "Xoá dữ liệu Hồ sơ",
         "delete_pull_data": "Xoá dữ liệu Triều hồi",
         "enable_beta_features": "Bật tính năng Beta",
-        "enable_beta_features_description": "Opt-into new features before they're officially released"
+        "enable_beta_features_description": "Trải nghiệm các tính năng mới trước khi được phát hành chính thức"
       }
     },
     "timeline": {
@@ -609,14 +609,14 @@
       }
     },
     "import": {
-      "select_a_method": "Select a method",
+      "select_a_method": "Chọn một phương pháp",
       "tutorial_video": "Video Hướng dẫn",
       "follow_our_video_tutorial": "Hãy làm theo Video hướng dẫn",
-      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
-      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
+      "follow_our_video_tutorial_description": "Video ngắn này sẽ hướng dẫn bạn từng bước trong quá trình nhập dữ liệu",
+      "follow_this_video_tutorial_by_name": "Làm theo video hướng dẫn của {name}",
       "press_the_import_data_button": "Nhấn nút ‘Nhập dữ liệu’ bên dưới",
-      "upload_your_client_log_file_here": "Upload your Client.log file here",
-      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
+      "upload_your_client_log_file_here": "Tải tệp Client.log của bạn lên đây",
+      "we_will_search_your_logs_and_extract_the_import_url": "Chúng tôi sẽ tìm trong tệp nhật ký (logs) và trích xuất URL nhập dữ liệu cho bạn",
       "logs_not_updating_alert": "Thời gian hết hạn của đường dẫn",
       "logs_not_updating_alert_description": "Kể từ ngày 14 tháng 1 năm 2025, người dùng PC đã gặp vấn đề về ghi nhật ký với trò chơi của họ do một bản cập nhật bị nghi ngờ từ Kuro Games. Đọc </link>hướng dẫn khắc phục</link> của chúng tôi để gỡ lỗi.",
       "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
@@ -631,7 +631,7 @@
       "airplane_mode": "Chế độ Máy bay",
       "download_ascent": "Tải xuống và sử dụng Ascent để lấy đường dẫn lịch sử triệu hồi của bạn",
       "download_ascent_description": "Tương tự như việc lấy lịch sử Gacha của Genshin Impact hoặc Honkai: Star Rail, hãy làm theo <link>hướng dẫn bởi Mirai0009</link> để tải xuống và sử dụng <ascent>Ascent</ascent> để lấy đường dẫn triệu hồi của bạn.",
-      "download_ascent_disclaimer": "Lưu ý: Phương pháp này chỉ hỗ trợ phiên bản Android 11 trở lên.",
+      "download_ascent_disclaimer": "LƯU Ý: Phương pháp này chỉ hỗ trợ phiên bản Android 11 trở lên.",
       "download_ascent_troubleshooting": "Nếu nó không hoạt động, hãy kiểm tra <link>hướng dẫn gỡ lỗi</link>.",
       "ios_follow_tutorial_video": "Hãy làm theo Video hướng dẫn",
       "ios_follow_tutorial_video_description": "Tương tự như lấy lịch sử triệu hồi trong Genshin Impact hoặc Honkai Star Rail, hãy làm theo video hướng dẫn để nhập dữ liệu trên iOS.",
@@ -646,8 +646,8 @@
       "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
     "planner": {
-      "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_up": "Di chuyển lên",
+      "move_down": "Di chuyển xuống"
     },
     "inventory": {
       "new_plan": "Kế hoạch mới",
@@ -678,22 +678,22 @@
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "hero_heading": "Tài Nguyên Wuthering Waves Của Bạn",
+      "hero_cta_button": "Bắt đầu theo dõi",
+      "keep_up_with_the_latest_news": "Cập nhật tin tức mới nhất",
+      "quick_links": "Truy cập nhanh",
+      "quick_links_description": "Truy cập nhanh vào các trang và tính năng quan trọng",
+      "the_curent_events_and_activities": "Các sự kiện và hoạt động đang diễn ra"
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "Mới nhất trước",
+      "since_last_appearance": "Kể từ lần xuất hiện cuối"
     }
   },
   "metadata": {
     "root": {
       "title": "Ứng dụng Tài nguyên & Đồng hành Wuthering Waves",
-      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
+      "description": "WuWa Tracker là công cụ theo dõi lượt triệu hồi & bộ đếm pity số 1 cho Wuthering Waves. Theo dõi lượt triệu hồi và thành tựu của bạn, xem thống kê may mắn toàn cầu, sử dụng công cụ lập kế hoạch thăng cấp & tính toán, và khám phá hướng dẫn, wiki, cùng các bài viết tin tức để tối ưu hóa trải nghiệm Wuthering Waves của bạn."
     },
     "achievements": {
       "title": "Thành Tựu",
