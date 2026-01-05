@@ -248,7 +248,7 @@
         "connecting_google": "Đang cố gắng kết nối với Google Drive",
         "sign_in_first": "Vui lòng đăng nhập trước",
         "already_linked": "Đã liên kết",
-        "enable_email_link": "Kích hoạt liên kết email",
+        "enable_email_link": "Bật liên kết email",
         "sign_in_to_sync": "Đăng nhập để đồng bộ",
         "loading": "Đang tải...",
         "import_loading": "Đang nhập lịch sử gacha...",
@@ -589,12 +589,12 @@
         "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
         "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
         "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
-        "profile": "Profile",
+        "profile": "Hồ sơ",
         "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
         "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
         "delete_profile_data": "Delete Profile Data",
         "delete_pull_data": "Xoá dữ liệu Triều hồi",
-        "enable_beta_features": "Enable Beta Features",
+        "enable_beta_features": "Bật tính năng Beta",
         "enable_beta_features_description": "Opt-into new features before they're officially released"
       }
     },
@@ -751,7 +751,7 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
+        "title": "Cộng Hưởng Giả",
         "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
         "page_header": "View all the Resonators in Wuthering Waves"
       },
@@ -775,13 +775,13 @@
       "description": "Cần hỗ trợ trong việc tải xuống dữ liệu triệu hồi của Wuthering Waves? Bạn muốn biết WuWa Tracker sử dụng dữ liệu của bạn như thế nào? Hãy xem phần Câu hỏi thường gặp của WuWa Tracker ở đây!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "Bài viết",
+      "description": "Đọc các bài viết mới nhất và cập nhật về Wuthering Waves, bao gồm hướng dẫn, mẹo chơi, tin tức, thông báo và nhiều hơn thế nữa!"
     },
     "banners": {
-      "title": "Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "Lịch sử Banner",
+      "page_header": "Theo dõi lịch sử banner & các đợt rerun trong Wuthering Waves",
+      "description": "Xem toàn bộ banner cũ và hiện tại của Wuthering Waves với biểu đồ trực quan theo từng phiên bản và giai đoạn Banner. Lập kế hoạch lượt triệu hồi dựa trên thời điểm banner có khả năng rerun cao nhất."
     }
   },
   "config": {
@@ -797,8 +797,8 @@
       "Achievements Tracker": "Theo dõi Thành Tựu",
       "Ascension Planner": "Kế hoạch bồi dưỡng nhân vật",
       "Events": "Sự kiện",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Articles": "Bài viết",
+      "Old Site": "Trang web cũ"
     },
     "footer": {
       "links": {
@@ -808,9 +808,9 @@
         "Privacy Policy": "Chính sách bảo mật",
         "Terms of Service": "Điều khoản dịch vụ",
         "Company": "Công ty",
-        "Resources": "Resources",
+        "Resources": "Tài nguyên",
         "Community": "Cộng đồng",
-        "Affiliates": "Affiliates"
+        "Affiliates": "Đối tác liên kết"
       }
     }
   }
