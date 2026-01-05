@@ -448,7 +448,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "Tải file Logs"
     }
   },
   "feature": {
@@ -535,12 +535,12 @@
       },
       "data": {
         "title": "Dữ liệu",
-        "active_profile": "Active Profile",
-        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "active_profile": "Hồ sơ hiện tại",
+        "active_profile_description": "Chọn hồ sơ mà bạn muốn sử dụng trên toàn bộ trang web",
         "import_profile": "Nhập hồ sơ",
-        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "import_profile_description": "Nhập bản sao hồ sơ để khôi phục hoặc tải hồ sơ khác",
         "export_profile": "Xuất hồ sơ",
-        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "export_profile_description": "Tạo bản sao dữ liệu hồ sơ hiện tại để chia sẻ hoặc sao lưu",
         "import_pull_history": "Import Pull History",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
