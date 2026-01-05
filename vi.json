@@ -237,18 +237,18 @@
         "files_has_oversize_limit_num": "Một số file vượt quá giới hạn kích thước {num}MB.",
         "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
         "planner_insufficient_materials": "Nguyên liệu không phù hợp.",
-        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
-        "failed_to_unlink_email": "Failed to unlink your email",
-        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
-        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
-        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "Bạn cần sử dụng tài khoản chính thức để xuất lịch sử lượt triệu hồi",
+        "failed_to_unlink_email": "Hủy liên kết email thất bại",
+        "failed_to_fetch_pulls_from_database": "Không thể lấy dữ liệu lượt triệu hồi từ hệ thống",
+        "an_error_occured_while_merging_your_data": "Đã xảy ra lỗi khi đồng bộ dữ liệu của bạn",
+        "your_email_must_be_linked_to_import_pulls": "Bạn cần liên kết email để nhập dữ liệu lượt triệu hồi",
+        "your_email_must_be_linked_to_import_pulls_description": "Vui lòng đăng nhập và liên kết ID người chơi trước."
       },
       "info": {
-        "connecting_google": "Đang cố gắng kết nối đến Google Drive",
-        "sign_in_first": "Sign in first",
-        "already_linked": "Already linked",
-        "enable_email_link": "Enable email link",
+        "connecting_google": "Đang cố gắng kết nối với Google Drive",
+        "sign_in_first": "Vui lòng đăng nhập trước",
+        "already_linked": "Đã liên kết",
+        "enable_email_link": "Kích hoạt liên kết email",
         "sign_in_to_sync": "Đăng nhập để đồng bộ",
         "loading": "Đang tải...",
         "import_loading": "Đang nhập lịch sử gacha...",
@@ -269,17 +269,17 @@
         "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
         "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
         "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}.",
-        "unlinking_your_email": "Unlinking your email...",
-        "importing_cloud_data": "Importing cloud data from our database...",
-        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
-        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
+        "unlinking_your_email": "Đang huỷ liên kết email...",
+        "importing_cloud_data": "Đang nhập dữ liệu đám mây từ hệ thống...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "Quá trình này có thể mất chút thời gian nếu bạn có nhiều dữ liệu hoặc khi hệ thống đang bận.",
+        "no_new_pulls_found_after_importing": "Không tìm thấy lượt triệu hồi mới nào sau khi nhập."
       },
       "success": {
         "successfully_imported_achievements": "Nhập lịch sử thành tựu thành công.",
         "successfully_imported_gacha_records": "Nhập lịch sử gacha thành công.",
-        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
+        "successfully_imported_num_new_pulls": "Đã nhập thành công {num} lượt triệu hồi mới.",
         "successfully_imported_profile": "Nhập hồ sơ người dùng thành công.",
-        "the_import_was_successful": "The import was successful!",
+        "the_import_was_successful": "Nhập dữ liệu thành công!",
         "successfully_imported_gacha_records_redirecting": "Đang chuyển hướng tới với tracker.",
         "create_profile": "Tạo thành công hồ sơ của {playerId}.",
         "delete_pulls": "Xóa thành công lịch sử Triệu hồi của {playerId}.",
@@ -290,7 +290,7 @@
         "sync_success_updated_remote_file": "Đã cập nhật bản sao từ xa của {fileName}.",
         "planner_successfully_completed_plan_for_name": "Hoàn tất kế hoạch cho {name}!",
         "planner_successfully_created_plan_for_name": "Tạo kế hoạch cho {name} thành công.",
-        "successfully_unlinked_email": "Successfully unlinked your email"
+        "successfully_unlinked_email": "Hủy liên kết email thành công"
       },
       "warn": {
         "this_cannot_be_undone": "Thao tác này không thể hoàn tác!",
@@ -314,7 +314,7 @@
       "select_profile_placeholder_inactive": "Chọn hồ sơ hoạt động",
       "filters": "Lọc",
       "rows_per_page": "Số hàng trên trang",
-      "items_per_page": "Items per page",
+      "items_per_page": "Số mục trên mỗi trang",
       "planner_previous_must_be_between_min_max": "Cấp độ trước phải nằm trong khoảng từ {min} đến {max}.",
       "planner_new_must_be_between_min_max": "Cấp độ mới phải nằm trong khoảng từ {min} đến {max}."
     },
@@ -569,7 +569,7 @@
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Dữ liệu Triệu hồi Đám mây",
-        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "cloud_pull_data_description": "Bạn có thể khôi phục dữ liệu lượt triệu hồi từ hệ thống nếu email đã được liên kết",
         "recover_pulls": "Recover Pulls"
       },
       "advanced": {
@@ -643,7 +643,7 @@
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
       "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
     "planner": {
       "move_up": "Move Up",
