@@ -3,7 +3,7 @@
     "term": {
       "convenes": "唤取",
       "convene_url": "唤取 URL",
-      "pulls": "抽次数",
+      "pulls": "唤取次数",
       "astrites": "星声",
       "wuthering_waves": "《鸣潮》",
       "pull_history": "唤取历史",
@@ -277,7 +277,7 @@
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
         "successfully_imported_gacha_records": "成功导入您的抽卡记录。",
-        "successfully_imported_num_new_pulls": "成功导入 {num} 个新抽次数。",
+        "successfully_imported_num_new_pulls": "成功导入 {num} 个新唤取次数。",
         "successfully_imported_profile": "成功导入您的用户资料。",
         "the_import_was_successful": "导入成功！",
         "successfully_imported_gacha_records_redirecting": "正在重定向到您的记录。",
@@ -515,7 +515,7 @@
     "global_stats": {
       "rarity_pulls": "{num}✦ 唤取次数",
       "rarity_pulls_per_pity": "按保底唤取次数统计的 {num}✦ 唤取次数",
-      "rarity_pulls_per_pity_description": "显示按保底次数统计的总抽卡次数",
+      "rarity_pulls_per_pity_description": "显示按保底次数统计的总唤取次数",
       "banner_summary_title": "卡池汇总",
       "banner_summary_description": "选择一个卡池以查看统计概览。",
       "view_your_statistics_responsive": "<span>查看</span>您的统计数据",
@@ -686,8 +686,8 @@
       "the_curent_events_and_activities": "当前事件和活动"
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "从新到旧",
+      "since_last_appearance": "自上次出现"
     }
   },
   "metadata": {
@@ -779,9 +779,9 @@
       "description": "阅读有关鸣潮的最新文章，包括指南、提示、新闻、公告等！"
     },
     "banners": {
-      "title": "Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "卡池历史",
+      "page_header": "跟踪《鸣潮》的卡池历史和复刻",
+      "description": "查看《鸣潮》过往及当前的所有卡池，通过直观的图表展示全部游戏版本与卡池阶段。根据卡池最有可能复刻的时间来规划您的唤取。"
     }
   },
   "config": {
