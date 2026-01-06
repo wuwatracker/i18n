@@ -7,12 +7,12 @@
       "astrites": "Tinh thạch",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Lịch sử Triệu hồi",
-      "pull_num": "Lượt Triệu hồi thứ.",
+      "pull_num": "Lượt Triệu hồi thứ",
       "item": "Vật phẩm",
-      "pity": "Pity",
+      "pity": "Vật phẩm",
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
-      "recent_convenes": "Lượt Triệu hồi gần đây",
+      "recent_convenes": "Lượt triệu hồi gần đây",
       "resonator": "Cộng Hưởng Giả",
       "weapon": "Vũ khí"
     },
@@ -593,7 +593,7 @@
         "type_active_profile_to_confirm": "Nhập {activeProfileId} để xác nhận",
         "delete_active_profile_data_confirm_text": "Xoá dữ liệu của {activeProfileId}",
         "delete_profile_data": "Xoá dữ liệu Hồ sơ",
-        "delete_pull_data": "Xoá dữ liệu Triều hồi",
+        "delete_pull_data": "Xoá dữ liệu Triệu hồi",
         "enable_beta_features": "Bật tính năng Beta",
         "enable_beta_features_description": "Trải nghiệm các tính năng mới trước khi được phát hành chính thức"
       }
@@ -702,7 +702,7 @@
     },
     "tracker": {
       "index": {
-        "title": "Theo dõi Triệu hồi",
+        "title": "唤取记录",
         "page_header": "Xem các lượt triệu hồi gần đây và so sánh thống kê với người dùng WuWa Tracker khác.",
         "description": "Xem thống kê về việc triệu hồi trong Wuthering Waves và lịch sử triệu hồi của Bạn. Sử dụng bảng điều khiển sẵn sàng cho ảnh chụp để khoe với bạn bè! WuWa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
@@ -786,24 +786,24 @@
   },
   "config": {
     "navLinks": {
-      "Tracker": "Theo dõi",
-      "Import Pulls": "Nhập lượt Triệu Hồi",
+      "Tracker": "Theo Dõi",
+      "Import Pulls": "Nhập Lượt Triệu Hồi",
       "Global Statistics": "Thống Kê Toàn Cầu",
       "Wiki": "Wiki",
-      "Characters": "Nhân vật",
-      "Weapons": "Vũ khí",
-      "Items": "Vật phẩm",
-      "Tools": "Công cụ",
-      "Achievements Tracker": "Theo dõi Thành Tựu",
-      "Ascension Planner": "Kế hoạch bồi dưỡng nhân vật",
-      "Events": "Sự kiện",
-      "Articles": "Bài viết",
-      "Old Site": "Trang web cũ"
+      "Characters": "Nhân Vật",
+      "Weapons": "Vũ Khí",
+      "Items": "Vật Phẩm",
+      "Tools": "Công Cụ",
+      "Achievements Tracker": "Theo Dõi Thành Tựu",
+      "Ascension Planner": "Kế Hoạch Thăng Cấp",
+      "Events": "Sự Kiện",
+      "Articles": "Bài Viết",
+      "Old Site": "Trang Web Cũ"
     },
     "footer": {
       "links": {
         "Contact Us": "Liên hệ với chúng tôi",
-        "System Status": "Trạng thái Hệ thống",
+        "System Status": "Trạng thái hệ thống",
         "Help Translate": "Hỗ trợ dịch thuật",
         "Privacy Policy": "Chính sách bảo mật",
         "Terms of Service": "Điều khoản dịch vụ",
