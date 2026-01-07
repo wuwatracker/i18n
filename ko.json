@@ -314,7 +314,7 @@
       "select_profile_placeholder_inactive": "프로필 선택",
       "filters": "필터",
       "rows_per_page": "페이지 당 행",
-      "items_per_page": "Items per page",
+      "items_per_page": "페이지당 항목 수",
       "planner_previous_must_be_between_min_max": "현재 레벨은 반드시 {min}과 {max} 사이여야 합니다.",
       "planner_new_must_be_between_min_max": "새 레벨은 반드시 {min}과 {max} 사이여야 합니다."
     },
@@ -684,6 +684,10 @@
       "quick_links": "빠른 링크",
       "quick_links_description": "중요한 페이지와 기능에 빠르게 접근하세요",
       "the_curent_events_and_activities": "현재 진행 중인 이벤트와 활동"
+    },
+    "banners": {
+      "newest_first": "최신순",
+      "since_last_appearance": "마지막 등장 이후"
     }
   },
   "metadata": {
@@ -773,6 +777,11 @@
     "articles": {
       "title": "기사들",
       "description": "명조: 워더링 웨이브의 최신 기사와 업데이트를 확인하세요. 가이드, 팁, 소식, 공지 등 다양한 정보를 포함합니다!"
+    },
+    "banners": {
+      "title": "배너 기록",
+      "page_header": "Wuthering Waves의 배너 기록과 복각 추적",
+      "description": "모든 게임 버전과 배너 단계가 포함된 직관적인 차트로 Wuthering Waves의 과거 및 현재 모든 배너를 확인하세요. 배너가 다시 등장할 가능성이 높은 시점을 기준으로 튜닝 계획을 세워보세요."
     }
   },
   "config": {
