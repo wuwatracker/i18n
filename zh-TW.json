@@ -687,7 +687,7 @@
     },
     "banners": {
       "newest_first": "最新優先",
-      "since_last_appearance": "Since Last Appearance"
+      "since_last_appearance": "自上次出現"
     }
   },
   "metadata": {
@@ -779,10 +779,10 @@
       "description": "閱讀鳴潮的最新情報與更新，包含指引、技巧、新聞、公告與更多！"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "page_header_title": "Banner History",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "《明潮》卡池歷史",
+      "page_header": "跟踪《鳴潮》的卡池歷史和複刻",
+      "page_header_title": "卡池歷史",
+      "description": "查看《鳴潮》過往及當前的所有卡池，通過直觀的圖表展示全部遊戲版本與卡池階段。 根據卡池最有可能複刻的時間來規劃您的喚取。"
     }
   },
   "config": {
