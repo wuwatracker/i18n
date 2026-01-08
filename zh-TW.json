@@ -55,8 +55,8 @@
         "Lingyang": "凌陽",
         "Lumi": "燈燈",
         "Lupa": "露帕",
-        "Lynae": "Lynae",
-        "Mornye": "Mornye",
+        "Lynae": "琳奈",
+        "Mornye": "莫寧",
         "Mortefi": "莫特斐",
         "Phoebe": "菲比",
         "Phrolova": "弗洛洛",
@@ -113,7 +113,7 @@
         "Helios Cleaver": "東落",
         "Hollow Mirage": "駭行",
         "Jinzhou Keeper": "今州守望",
-        "Kumokiri": "Kumokiri",
+        "Kumokiri": "曇切",
         "Laser Shearer": "Laser Shearer",
         "Legend of Drunken Hero": "酩酊的英雄志",
         "Lethean Elegy": "幽冥的忘憂章",
@@ -151,7 +151,7 @@
         "Rover: Aero": "漂泊者: 氣動",
         "Somnoire Anchor": "心之錨",
         "Solar Flame": "陽焰",
-        "Spectrum Blaster": "Spectrum Blaster",
+        "Spectrum Blaster": "溢彩熒輝",
         "Starfield Calibrator": "Starfield Calibrator",
         "Static Mist": "停駐之煙",
         "Stellar Symphony": "星序協響",
@@ -314,7 +314,7 @@
       "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
       "rows_per_page": "單頁列數",
-      "items_per_page": "Items per page",
+      "items_per_page": "每頁項目數",
       "planner_previous_must_be_between_min_max": "先前等級必須介於 {min} 到 {max} 之間。",
       "planner_new_must_be_between_min_max": "新等級必須介於 {min} 到 {max} 之間。"
     },
@@ -575,7 +575,7 @@
       "advanced": {
         "title": "進階選項",
         "successfully_deleted_active_profile_data": "成功刪除{activeProfileId}的資料",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_pull_data": "已成功删除{activeProfileId}的拉取數據",
         "website_version": "網站版本",
         "website_version_description": "您目前在網站中使用此版本",
         "session_logs": "會話紀錄",
@@ -584,16 +584,16 @@
         "delete_active_profile_data_description": "您可以刪除您的作用中設定檔，\"僅\"包含所有非喚取相關紀錄。",
         "delete_active_profile_data_confirm_title": "您確定要刪除{activeProfileId}的資料嗎？",
         "delete_active_profile_data_confirm_description": "所有與<strong></strong>的相關資料將會被刪除。此動作無法復原。",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data": "删除啟動的玩家資料喚取數據",
+        "delete_active_profile_pull_data_description": "您可以從您的瀏覽器的localStorage中删除您啟動的玩家資料喚取數據",
+        "delete_active_profile_pull_data_confirm_title": "您確定要刪除{activeProfileId}的資料嗎？",
+        "delete_active_profile_pull_data_confirm_description": "將删除<strong></strong>的所有拉取歷史資料。 此操作無法撤銷。",
+        "delete_active_profile_pull_data_confirm_text": "刪除{activeProfileId}的換取資料",
         "profile": "設定檔",
         "type_active_profile_to_confirm": "輸入{activeProfileId}以確認",
         "delete_active_profile_data_confirm_text": "刪除{activeProfileId}的資料",
         "delete_profile_data": "刪除設定檔資料",
-        "delete_pull_data": "Delete Pull Data",
+        "delete_pull_data": "刪除換取數據",
         "enable_beta_features": "啟用測試版功能",
         "enable_beta_features_description": "在新功能正式發布前進行測試"
       }
@@ -686,7 +686,7 @@
       "the_curent_events_and_activities": "目前相關活動"
     },
     "banners": {
-      "newest_first": "Newest First",
+      "newest_first": "最新優先",
       "since_last_appearance": "Since Last Appearance"
     }
   },
