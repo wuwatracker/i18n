@@ -779,8 +779,9 @@
       "description": "Đọc các bài viết mới nhất và cập nhật về Wuthering Waves, bao gồm hướng dẫn, mẹo chơi, tin tức, thông báo và nhiều hơn thế nữa!"
     },
     "banners": {
-      "title": "Lịch sử Banner",
+      "title": "Wuthering Waves Banner History",
       "page_header": "Theo dõi lịch sử banner và các đợt rerun trong Wuthering Waves",
+      "page_header_title": "Banner History",
       "description": "Xem toàn bộ banner cũ và hiện tại của Wuthering Waves với biểu đồ trực quan theo từng phiên bản và giai đoạn Banner. Lập kế hoạch lượt triệu hồi dựa trên thời điểm banner có khả năng rerun cao nhất."
     }
   },

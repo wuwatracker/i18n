@@ -779,8 +779,9 @@
       "description": "Читайте последние статьи и обновления о Wuthering Waves, включая руководства, советы, новости, объявления и многое другое!"
     },
     "banners": {
-      "title": "Banner History",
+      "title": "Wuthering Waves Banner History",
       "page_header": "Track banner history & reruns in Wuthering Waves",
+      "page_header_title": "Banner History",
       "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
