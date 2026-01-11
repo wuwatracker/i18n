@@ -7,7 +7,7 @@
       "astrites": "Tinh thạch",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Lịch sử Triệu hồi",
-      "pull_num": "Lượt Triệu hồi thứ",
+      "pull_num": "Lượt triệu hồi thứ",
       "item": "Vật phẩm",
       "pity": "Pity",
       "rarity": "Độ hiếm",
@@ -21,11 +21,11 @@
       "import_data_description": "Sử dụng dữ liệu đã xuất ra trước đó và lưu nó vào trình duyệt của bạn",
       "banner_list": "Danh sách Banner",
       "no_pulls_yet": "Chưa có lượt triệu hồi nào",
-      "rarity_pulls": "Lượt Triệu hồi {num}✦",
+      "rarity_pulls": "Lượt triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
-      "total_pulls": "Tổng số lượt Triệu hồi",
-      "total_pulls_responsive": "<span>Tổng</span> Lượt triệu hồi",
-      "total_astrites_responsive": "<span>Tổng</span> số Tinh thạch"
+      "total_pulls": "Tổng số lượt triệu hồi",
+      "total_pulls_responsive": "<span>Tổng</span> lượt triệu hồi",
+      "total_astrites_responsive": "<span>Tổng</span> số tinh thạch"
     },
     "name": {
       "items": {
@@ -319,17 +319,17 @@
       "planner_new_must_be_between_min_max": "Cấp độ mới phải nằm trong khoảng từ {min} đến {max}."
     },
     "button": {
-      "go_home": "Về Trang chủ",
+      "go_home": "Về trang chủ",
       "switch_theme": "Đổi chủ đề",
       "sign_in_google": "Đăng nhập bằng Google",
       "log_out": "Đăng xuất",
-      "import_history": "Nhập Lịch sử Triệu hồi",
+      "import_history": "Nhập lịch sử triệu hồi",
       "filter_by_rarity_num": "Lọc theo độ hiếm {num}",
       "import": "Nhập",
       "export_json": "Xuất file JSON",
       "view_pull_history": "Xem lịch sử triệu hồi",
-      "sync_your_data": "Đồng Bộ Dữ Liệu",
-      "trigger_sync": "Khởi chạy Đồng bộ",
+      "sync_your_data": "Đồng bộ dữ liệu",
+      "trigger_sync": "Khởi chạy đồng bộ",
       "support_us": "Ủng Hộ Chúng Tôi",
       "create_profile": "Tạo hồ sơ",
       "remind_me_later": "Nhắc tôi sau",
@@ -340,7 +340,7 @@
       "import_from_file": "Nhập từ tệp",
       "upload_to_google": "Tải lên Google",
       "download_from_google": "Tải xuống từ Google",
-      "reset_tag_filters": "Đặt lại Thẻ bộ lọc",
+      "reset_tag_filters": "Đặt lại thẻ bộ lọc",
       "complete": "Hoàn tất",
       "hide": "Ẩn",
       "show": "Hiển thị",
@@ -391,7 +391,7 @@
       "guest": "Khách",
       "america": "Châu Mĩ",
       "europe": "Châu Âu",
-      "asia_sea_regions": "Châu Á, Đông Nam Á, Đài Loan/ Hồng Kông/ Ma Cao",
+      "asia_sea_regions": "Châu Á, Đông Nam Á, Đài Loan/Hồng Kông/Ma Cao",
       "completed": "Hoàn tất",
       "incomplete": "Chưa hoàn tất",
       "completion": "Tiến độ",
@@ -400,7 +400,7 @@
       "visible": "Hiện",
       "local_data": "Dữ liệu cục bộ",
       "google_drive": "Google Drive",
-      "from_file": "Từ Tệp",
+      "from_file": "Từ tệp",
       "edit_on_github": "Chỉnh sửa trang này trên GitHub",
       "social_discord_cta": "Tham gia máy chủ Discord của chúng tôi",
       "social_x_cta": "Theo dõi chúng tôi trên X",
@@ -480,10 +480,10 @@
       "inventory": "Túi đồ",
       "guides": "Hướng dẫn",
       "development": "Phát triển",
-      "system_status": "Trạng thái Hệ thống",
+      "system_status": "Trạng thái hệ thống",
       "legal": "Pháp lý",
       "partners": "Đối tác",
-      "disclaimer": "Đây là một dự án độc lập do người hâm mộ thực hiện, không liên quan hoặc được xác nhận bởi Kuro Games. Tất cả các tài nguyên, nội dung và nhãn hiệu trò chơi thuộc về chủ sở hữu tương ứng của họ."
+      "disclaimer": "Đây là một dự án độc lập do người hâm mộ thực hiện, không liên quan hoặc được xác nhận bởi Kuro Games. Tất cả các tài nguyên, nội dung và thương hiệu trò chơi thuộc về chủ sở hữu tương ứng."
     },
     "error": {
       "oops": "Ôi!!!!",
@@ -513,17 +513,17 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "Số lượt Triệu hồi {num}✦",
-      "rarity_pulls_per_pity": "Số lượt Triệu hồi cho đến Pity {num}✦",
-      "rarity_pulls_per_pity_description": "Xem tổng lượt Triệu hồi/Pity",
+      "rarity_pulls": "Lượt triệu hồi {num}✦",
+      "rarity_pulls_per_pity": "Lượt triệu hồi cho mỗi pity {num}✦",
+      "rarity_pulls_per_pity_description": "Hiển thị tổng lượt triệu hồi theo mỗi Pity",
       "banner_summary_title": "Tổng kết Banner",
-      "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
+      "banner_summary_description": "Chọn một banner để xem tổng quan thống kê.",
       "view_your_statistics_responsive": "<span>Xem</span> thống kê của bạn",
       "pulls_per_day": "Lượt Triệu hồi/Ngày",
-      "pulls_per_day_description": "Xem tổng lượt Triệu hồi/ Ngày và Triệu hồi/Pity",
-      "pulls_per_rarity": "Lượt Triệu hồi/ Độ hiếm",
-      "pulls_per_rarity_description": "Xem tổng Pity",
-      "pulls_per_item_description": "Xem lượt Triệu hồi/Vật Phẩm"
+      "pulls_per_day_description": "Hiển thị tổng số lượt triệu hồi Triệu hồi/Ngày và Triệu hồi/Pity",
+      "pulls_per_rarity": "Lượt Triệu hồi/Độ hiếm",
+      "pulls_per_rarity_description": "Hiển thị phân bố độ hiếm",
+      "pulls_per_item_description": "Hiển thị lượt triệu hồi theo vật phẩm"
     },
     "settings": {
       "general": {
@@ -547,7 +547,7 @@
         "export_pull_history_description": "Tạo bản sao lưu cục bộ của lịch sử lượt triệu hồi để giữ an toàn",
         "pulls_file_import_dialog_title": "Nhập lượt triệu hồi từ tệp cục bộ",
         "pulls_file_import_dialog_description_supported_files": "Chấp nhận các tệp JSON <code>wuwatracker-pulls</code> và <code>wuwatracker-convene-history</code> theo định dạng của trang web.",
-        "import_user_profile": "",
+        "import_user_profile": "Nhập hồ sơ người dùng",
         "import_user_profile_dialog_description": "LƯU Ý: Chỉ hỗ trợ các tệp <code></code> chứa dữ liệu thành tựu, kho đồ và kế hoạch. Hãy sử dụng nút nhập khác nếu bạn muốn nhập dữ liệu lượt triệu hồi.",
         "profile_data_will_not_sync_callout_description": "Các thay đổi của bạn hiện chỉ được lưu cục bộ và sẽ mất khi bạn đăng nhập. Để đồng bộ dữ liệu hồ sơ:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Đăng nhập</link> vào tài khoản của bạn",
@@ -568,7 +568,7 @@
         "player_id": "ID người chơi",
         "import_to_link": "Nhập để liên kết",
         "sign_in_to_link": "Đăng nhập để liên kết",
-        "cloud_pull_data": "Dữ liệu Triệu hồi Đám mây",
+        "cloud_pull_data": "Dữ liệu triệu hồi Đám mây",
         "cloud_pull_data_description": "Bạn có thể khôi phục dữ liệu lượt triệu hồi từ hệ thống nếu email đã được liên kết",
         "recover_pulls": "Khôi phục lượt triệu hồi"
       },
@@ -577,23 +577,23 @@
         "successfully_deleted_active_profile_data": "Đã xóa thành công dữ liệu của {activeProfileId}",
         "successfully_deleted_active_profile_pull_data": "Đã xóa thành công dữ liệu lượt triệu hồi của {activeProfileId}",
         "website_version": "Phiên bản trang web",
-        "website_version_description": "Bạn đang sử dụng phiên bản này của trang web",
+        "website_version_description": "Bạn đang sử dụng phiên bản hiện tại của trang web",
         "session_logs": "Nhật ký phiên làm việc",
         "session_logs_description": "Bạn có thể tải xuống nhật ký (logs) để phục vụ việc gỡ lỗi",
         "delete_active_profile_data": "Xoá dữ liệu hồ sơ hiện tại",
         "delete_active_profile_data_description": "Bạn có thể xóa dữ liệu hồ sơ hiện tại trên trang web, CHỈ bao gồm toàn bộ dữ liệu liên quan đến lượt triệu hồi",
         "delete_active_profile_data_confirm_title": "Bạn có chắc chắn muốn xóa dữ liệu của {activeProfileId} không?",
-        "delete_active_profile_data_confirm_description": "Toàn bộ dữ liệu liên quan đến <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
+        "delete_active_profile_data_confirm_description": "Tất cả dữ liệu liên quan đến <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
         "delete_active_profile_pull_data": "Xóa dữ liệu lượt triệu hồi của hồ sơ hiện tại",
         "delete_active_profile_pull_data_description": "Bạn có thể xóa dữ liệu lượt triệu hồi của hồ sơ hiện tại khỏi bộ nhớ trình duyệt",
         "delete_active_profile_pull_data_confirm_title": "Bạn có chắc chắn muốn xóa dữ liệu lượt triệu hồi của {activeProfileId} không?",
-        "delete_active_profile_pull_data_confirm_description": "Toàn bộ lịch sử lượt triệu hồi của <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
+        "delete_active_profile_pull_data_confirm_description": "Tất cả lịch sử lượt triệu hồi của <strong></strong> sẽ bị xóa. Hành động này không thể hoàn tác.",
         "delete_active_profile_pull_data_confirm_text": "Xóa dữ liệu lượt triệu hồi của  {activeProfileId}",
         "profile": "Hồ sơ",
         "type_active_profile_to_confirm": "Nhập {activeProfileId} để xác nhận",
         "delete_active_profile_data_confirm_text": "Xoá dữ liệu của {activeProfileId}",
-        "delete_profile_data": "Xoá dữ liệu Hồ sơ",
-        "delete_pull_data": "Xoá dữ liệu Triệu hồi",
+        "delete_profile_data": "Xoá dữ liệu hồ sơ",
+        "delete_pull_data": "Xoá dữ liệu triệu hồi",
         "enable_beta_features": "Bật tính năng Beta",
         "enable_beta_features_description": "Trải nghiệm các tính năng mới trước khi được phát hành chính thức"
       }
@@ -635,7 +635,7 @@
       "download_ascent_troubleshooting": "Nếu nó không hoạt động, hãy kiểm tra <link>hướng dẫn gỡ lỗi</link>.",
       "ios_follow_tutorial_video": "Hãy làm theo Video hướng dẫn",
       "ios_follow_tutorial_video_description": "Tương tự như lấy lịch sử triệu hồi trong Genshin Impact hoặc Honkai Star Rail, hãy làm theo video hướng dẫn để nhập dữ liệu trên iOS.",
-      "ios_certificate_disclaimer": "LƯU Ý: Bạn phải dùng Safari khi tải tệp chứng chỉ. Các trình duyệt khác như Google Chrome có thể không hoạt động.",
+      "ios_certificate_disclaimer": "LƯU Ý: Bạn phải dùng Safari khi tải tệp chứng chỉ (certificate). Các trình duyệt khác như Google Chrome có thể không hoạt động.",
       "ps5_credits": "Trân trọng cảm ơn <link></link> đã chia sẻ phương pháp và hình ảnh minh họa cho hướng dẫn PlayStation 5 này.",
       "ps5_press_the_options_button": "Nhấn nút 'Options' trên cần điều khiển của bạn",
       "ps5_click_on_page_information": "Chọn vào 'Page Information'",
@@ -651,7 +651,7 @@
     },
     "inventory": {
       "new_plan": "Kế hoạch mới",
-      "add_plan": "Thêm Kế hoạch",
+      "add_plan": "Thêm kế hoạch",
       "material_summary": "Tóm tắt lượng nguyên liệu cần thiết",
       "no_active_plans": "Bạn không có bất kì kế hoạch nào đang hoạt động.",
       "nodes_to_unlock": "Mở khóa các Giao điểm",
@@ -672,7 +672,7 @@
         "Skill Upgrade Material": "Nguyên liệu Tăng cấp Kĩ Năng",
         "Ascension Material": "Nguyên liệu đột phá",
         "Resonator Ascension Material": "Nguyên liệu đột phá Nhân vật",
-        "Resonator EXP Material": "Nguyên liệu Tăng cấp cho Nhân vật",
+        "Resonator EXP Material": "Nguyên liệu tăng cấp cho Nhân vật",
         "Weapon and Skill Material": "Nguyên liệu cho Vũ Khí và Kĩ Năng",
         "Weapon EXP Material": "Nguyên liệu Tăng cấp cho Vũ Khí"
       }
@@ -693,23 +693,23 @@
   "metadata": {
     "root": {
       "title": "Ứng dụng Tài nguyên & Đồng hành Wuthering Waves",
-      "description": "WuWa Tracker là công cụ theo dõi lượt triệu hồi và bộ đếm pity số 1 cho Wuthering Waves. Theo dõi lượt triệu hồi và thành tựu của bạn, xem thống kê may mắn toàn cầu, sử dụng công cụ lập kế hoạch thăng cấp & tính toán, và khám phá hướng dẫn, wiki, cùng các bài viết tin tức để tối ưu hóa trải nghiệm Wuthering Waves của bạn."
+      "description": "WuWa Tracker là công cụ theo dõi lượt triệu hồi và bộ đếm pity số 1 Wuthering Waves. Theo dõi lượt triệu hồi và thành tựu của bạn, xem thống kê may mắn toàn cầu, sử dụng công cụ lập kế hoạch thăng cấp và tính toán, khám phá hướng dẫn, wiki, cùng các bài viết tin tức để tối ưu hóa trải nghiệm Wuthering Waves của bạn."
     },
     "achievements": {
       "title": "Thành Tựu",
-      "page_header": "Theo dõi các thành tựu trong game và xem toàn bộ phần thưởng bạn đã nhận được tính đến nay",
+      "page_header": "Theo dõi các thành tựu trong game và xem tất cả phần thưởng bạn đã nhận được tính đến nay",
       "description": "Theo dõi thành tựu của bạn trong Wuthering Waves và nhập/xuất dữ liệu tự do qua các thiết bị! Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
     "tracker": {
       "index": {
-        "title": "唤取记录",
+        "title": "Theo Dõi Triệu Hồi",
         "page_header": "Xem các lượt triệu hồi gần đây và so sánh thống kê với người dùng WuWa Tracker khác.",
         "description": "Xem thống kê về việc triệu hồi trong Wuthering Waves và lịch sử triệu hồi của Bạn. Sử dụng bảng điều khiển sẵn sàng cho ảnh chụp để khoe với bạn bè! WuWa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
       "global": {
         "title": "Thống Kê Toàn Cầu",
         "title_responsive": "Thống kê <span>Toàn cầu</span>",
-        "description": "Xem thống kê lượt quay toàn cầu cho banner {currentBanner}, với Resonator nổi bật {currentFeaturedResonator}! Sử dụng bảng điều khiển (dashboard) tích hợp sẵn chụp ảnh màn hình để khoe với bạn bè! Bộ đếm pity WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu cập nhật với thống kê toàn cầu và hơn thế nữa. Chia sẻ lượt quay của bạn với bạn bè và theo dõi tài khoản của bạn!",
+        "description": "Xem thống kê lượt quay toàn cầu cho banner {currentBanner}, với nhân vật nổi bật {currentFeaturedResonator}! Sử dụng bảng điều khiển (dashboard) tích hợp sẵn chụp ảnh màn hình để khoe với bạn bè! Bộ đếm pity WuWa Tracker cho Wuthering Waves, sử dụng dữ liệu cập nhật với thống kê toàn cầu và hơn thế nữa. Chia sẻ lượt quay của bạn với bạn bè và theo dõi tài khoản của bạn!",
         "banner_title": "Thống kê Banner {name}",
         "banner_description": "Xem thống kê toàn cầu cho banner {name}. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       }
@@ -767,22 +767,22 @@
       }
     },
     "planner": {
-      "title": "Kế hoạch bồi dưỡng nhân vật",
-      "description": "Công cụ lập kế hoạch đắc lực nhất để thăng tiến cấp độ, kỹ năng và nguyên liệu EXP cho Cộng Hưởng Giả Wuthering Waves của bạn!"
+      "title": "Kế Hoạch Thăng Cấp",
+      "description": "Công cụ lập kế hoạch đắc lực nhất để thăng tiến cấp độ, kỹ năng và nguyên liệu EXP cho Nhân vật Wuthering Waves của bạn!"
     },
     "support": {
       "title": "Hỗ trợ",
       "description": "Cần hỗ trợ trong việc tải xuống dữ liệu triệu hồi của Wuthering Waves? Bạn muốn biết WuWa Tracker sử dụng dữ liệu của bạn như thế nào? Hãy xem phần Câu hỏi thường gặp của WuWa Tracker ở đây!"
     },
     "articles": {
-      "title": "Bài viết",
+      "title": "Bài Viết",
       "description": "Đọc các bài viết mới nhất và cập nhật về Wuthering Waves, bao gồm hướng dẫn, mẹo chơi, tin tức, thông báo và nhiều hơn thế nữa!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
+      "title": "Lịch sử banner Wuthering Waves",
       "page_header": "Theo dõi lịch sử banner và các đợt rerun trong Wuthering Waves",
-      "page_header_title": "Banner History",
-      "description": "Xem toàn bộ banner cũ và hiện tại của Wuthering Waves với biểu đồ trực quan theo từng phiên bản và giai đoạn Banner. Lập kế hoạch lượt triệu hồi dựa trên thời điểm banner có khả năng rerun cao nhất."
+      "page_header_title": "Lịch Sử Banner",
+      "description": "Xem tất cả banner cũ và hiện tại của Wuthering Waves với biểu đồ trực quan theo từng phiên bản và giai đoạn Banner. Lập kế hoạch lượt triệu hồi dựa trên thời điểm banner có khả năng rerun cao nhất."
     }
   },
   "config": {

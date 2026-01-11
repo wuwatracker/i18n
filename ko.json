@@ -779,9 +779,9 @@
       "description": "명조: 워더링 웨이브의 최신 기사와 업데이트를 확인하세요. 가이드, 팁, 소식, 공지 등 다양한 정보를 포함합니다!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
+      "title": "명조: 워더링 웨이브 배너 역사",
       "page_header": "Wuthering Waves의 배너 기록과 복각 추적",
-      "page_header_title": "Banner History",
+      "page_header_title": "배너 역사",
       "description": "모든 게임 버전과 배너 단계가 포함된 직관적인 차트로 Wuthering Waves의 과거 및 현재 모든 배너를 확인하세요. 배너가 다시 등장할 가능성이 높은 시점을 기준으로 튜닝 계획을 세워보세요."
     }
   },

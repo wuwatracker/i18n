@@ -575,7 +575,7 @@
       "advanced": {
         "title": "高度",
         "successfully_deleted_active_profile_data": "{activeProfileId} のデータを削除しました",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_pull_data": "{activeProfileId}の集音履歴データを削除しました",
         "website_version": "Webサイト バージョン",
         "website_version_description": "現在このバージョンのサイトを使用しています",
         "session_logs": "セッションログ",
@@ -593,7 +593,7 @@
         "type_active_profile_to_confirm": "{activeProfileId} と入力して確認します",
         "delete_active_profile_data_confirm_text": "{activeProfileId} のデータを削除",
         "delete_profile_data": "プロファイルデータを削除する",
-        "delete_pull_data": "Delete Pull Data",
+        "delete_pull_data": "集音履歴データの削除",
         "enable_beta_features": "ベータ版の機能を有効にする",
         "enable_beta_features_description": "正式リリース前の新機能を使用します"
       }
