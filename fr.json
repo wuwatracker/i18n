@@ -397,6 +397,7 @@
       "completion": "Complétion",
       "all": "Tous",
       "hidden": "Caché",
+      "variant": "Variant",
       "visible": "Affiché",
       "local_data": "Données locales",
       "google_drive": "Google Drive",
