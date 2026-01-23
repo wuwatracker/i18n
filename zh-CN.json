@@ -397,6 +397,7 @@
       "completion": "完成状态",
       "all": "全部",
       "hidden": "隐藏",
+      "variant": "Variant",
       "visible": "可见",
       "local_data": "本地数据",
       "google_drive": "Google 云端硬盘",

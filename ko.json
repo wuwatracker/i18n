@@ -397,6 +397,7 @@
       "completion": "완료",
       "all": "전체",
       "hidden": "히든",
+      "variant": "Variant",
       "visible": "일반",
       "local_data": "로컬 데이터",
       "google_drive": "구글 드라이브",

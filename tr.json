@@ -397,6 +397,7 @@
       "completion": "Tamamlanma Durumu",
       "all": "Hepsi",
       "hidden": "Gizli",
+      "variant": "Variant",
       "visible": "Gizli Değil",
       "local_data": "Yerel Veri",
       "google_drive": "Google Drive",

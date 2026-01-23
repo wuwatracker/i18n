@@ -397,6 +397,7 @@
       "completion": "進捗",
       "all": "すべて",
       "hidden": "非表示",
+      "variant": "Variant",
       "visible": "表示",
       "local_data": "ローカルデータ",
       "google_drive": "Google Drive",
