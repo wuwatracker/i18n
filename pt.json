@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Resolução de Problemas",
-      "troubleshooting_description": "Se estiver experienciando problemas importando, consulte o nosso guia de resolução de problemas aqui.",
-      "import": {
-        "log_files_missing_q": "O script diz \"localização de instalação não encontrada ou ficheiros log faltando\" — o que devo fazer?",
-        "url_expired_q": "Um erro diz que o meu \"URL provavelmente expirou\" — o que devo fazer?",
-        "error_while_fetching_q": "Um erro diz que \"ocorreu um erro enquanto procurava\" — o que devo fazer?",
-        "missing_old_pulls_q": "Não consigo achar os meus tiros antigos — onde eles estão?",
-        "support_other_imports_q": "Suporta importações de outros websites ou apps?",
-        "ps5_player_import_q": "Consigo importar sendo um jogador na PlayStation 5?",
-        "other_q": "O meu problema não está aqui — o que devo fazer?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Atualize os seus tiros antigos para o novo formato aqui",
-      "legacy": "Legado",
-      "legacy_import": "Importar Tiros Antigos",
-      "legacy_import_alert_title": "Apenas Para Usuários do Website Antigo",
-      "legacy_import_alert_description": "Nós NÃO CONSEGUIMOS recuperar tiros após o período de 6 meses de validade. Este importador de legado de tiros é feito apenas para usuários antigos do WuWa Tracker."
-    },
     "layout": {
       "banners": {
         "close_banner": "Fechar banner"
