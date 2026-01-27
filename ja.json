@@ -691,8 +691,8 @@
         "daily_reset": "Daily Reset"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "結晶波長板",
+        "stamina_extra": "結晶波長精錬板"
       }
     }
   },
