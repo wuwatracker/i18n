@@ -453,6 +453,26 @@
     }
   },
   "feature": {
+    "support": {
+      "troubleshooting": "Troubleshooting",
+      "troubleshooting_description": "If you are experiencing issues with importing, consult our troubleshooting guide here.",
+      "import": {
+        "log_files_missing_q": "The script says \"install location not found or log files missing\" — what should I do?",
+        "url_expired_q": "An error says my \"URL probably expired\" — what should I do?",
+        "error_while_fetching_q": "An error says an \"error occured while fetching\" — what should I do?",
+        "missing_old_pulls_q": "I can't find my old pulls — where are they?",
+        "support_other_imports_q": "Do you support importing from other websites or apps?",
+        "ps5_player_import_q": "Can I import as a PlayStation 5 player?",
+        "other_q": "My problem doesn't seem to be here — what should I do?"
+      }
+    },
+    "migration": {
+      "legacy_migration": "Upgrade your old pulls to the new format here",
+      "legacy": "Legacy",
+      "legacy_import": "Import Old Pulls",
+      "legacy_import_alert_title": "For Old Website Users Only",
+      "legacy_import_alert_description": "We CANNOT recover pulls past the 6-month expiry period. This legacy pull importer is only meant for old WuWa Tracker users."
+    },
     "layout": {
       "banners": {
         "close_banner": "Close banner"
