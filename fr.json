@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "Choisissez votre serveur",
       "choose_server_timezone_description": "Ajuster l'heure en fonction de votre fuseau horaire",
-      "timeline_description": "Suivez les événements de Wuthering Waves sur votre fuseau horaire ou avec d'autres <link>horaires de serveur</link>.",
-      "reset_timers": {
-        "title": "Horloge de réinitialisation quotidienne des serveurs",
-        "description": "Comparez votre fuseau horaire à ceux des serveurs de Wuthering Waves pour planifier votre prochaine aventure.",
-        "disclaimer": "Les horloges des autres serveurs sont affichées dans leurs heures locales."
-      }
+      "timeline_description": "Suivez les événements de Wuthering Waves sur votre fuseau horaire ou avec d'autres <link>horaires de serveur</link>."
     },
     "import": {
       "select_a_method": "Select a method",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
