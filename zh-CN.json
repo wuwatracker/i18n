@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "选择服务器时区",
       "choose_server_timezone_description": "显示匹配您本地时区的时间",
-      "timeline_description": "以您本地的时区或其他<link>服务器时间</link>查看《鸣潮》的活动。",
-      "reset_timers": {
-        "title": "服务器每日刷新计时器",
-        "description": "将您本地的时间与《鸣潮》游戏服务器进行比较，并以此规划您接下来的冒险旅程。",
-        "disclaimer": "其他服务器计时器以其当地时间显示。"
-      }
+      "timeline_description": "以您本地的时区或其他<link>服务器时间</link>查看《鸣潮》的活动。"
     },
     "import": {
       "select_a_method": "选择方式",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "从新到旧",
       "since_last_appearance": "自上次出现"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
