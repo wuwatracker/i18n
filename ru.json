@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "Выбрать часовой пояс сервера",
       "choose_server_timezone_description": "Показать время с учетом вашего часового пояса",
-      "timeline_description": "Просматривайте даты внутриигровых событий по своему часовому поясу, или используя один из <link>часовых поясов серверов игры</link>.",
-      "reset_timers": {
-        "title": "Таймеры ежедневного обновления серверов",
-        "description": "Сравните свое местное время со временем игровых серверов Wuthering Waves, чтобы спланировать свое следующее приключение.",
-        "disclaimer": "На других серверах указывается их местное время."
-      }
+      "timeline_description": "Просматривайте даты внутриигровых событий по своему часовому поясу, или используя один из <link>часовых поясов серверов игры</link>."
     },
     "import": {
       "select_a_method": "Select a method",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
