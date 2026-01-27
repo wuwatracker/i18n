@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "เลือกเขตเวลาเซิร์ฟเวอร์",
       "choose_server_timezone_description": "แสดงเวลาโดยปรับให้ตรงกับเขตเวลาท้องถิ่นของคุณ",
-      "timeline_description": "แสดงกิจกรรมต่างๆของเกม Wuthering Waves ในเขตเวลาท้องถิ่นของคุณหรือใน <link>เวลาของเซิร์ฟเวอร์</link>.",
-      "reset_timers": {
-        "title": "ตัวจับเวลารีเซ็ตประจำวันของเซิร์ฟเวอร์",
-        "description": "เปรียบเทียบเวลาท้องถิ่นของคุณกับเซิร์ฟเวอร์เกม Wuthering Waves เพื่อวางแผนการผจญภัยครั้งถัดไป",
-        "disclaimer": "ตัวจับเวลาของเซิร์ฟเวอร์อื่นๆ จะแสดงในเวลาในท้องถิ่นของพวกเขา"
-      }
+      "timeline_description": "แสดงกิจกรรมต่างๆของเกม Wuthering Waves ในเขตเวลาท้องถิ่นของคุณหรือใน <link>เวลาของเซิร์ฟเวอร์</link>."
     },
     "import": {
       "select_a_method": "Select a method",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
