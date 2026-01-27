@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
       "choose_server_timezone_description": "Hiện thời gian được điều chỉnh dựa trên giờ địa phương",
-      "timeline_description": "Xem các sự kiện của Wuthering Waves theo giờ địa phương hoặc <link>giờ của máy chủ</link> khác.",
-      "reset_timers": {
-        "title": "Bộ đếm thời gian của các Server",
-        "description": "So sánh giờ địa phương của bạn với máy chủ Wuthering Waves để lên kế hoạch cho cuộc phiêu lưu tiếp theo của bạn.",
-        "disclaimer": "Giờ của các server khác được điều chỉnh theo giờ địa phương của server."
-      }
+      "timeline_description": "Xem các sự kiện của Wuthering Waves theo giờ địa phương hoặc <link>giờ của máy chủ</link> khác."
     },
     "import": {
       "select_a_method": "Chọn một phương pháp",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Mới nhất trước",
       "since_last_appearance": "Kể từ lần xuất hiện cuối"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {

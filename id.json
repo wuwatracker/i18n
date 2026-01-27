@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "Pilih Zona Waktu Server",
       "choose_server_timezone_description": "Tampilkan waktu yang sudah disesuaikan dengan zona waktu lokal Anda",
-      "timeline_description": "Lihat event Wuthering Waves dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain.",
-      "reset_timers": {
-        "title": "Timer Reset Harian Server",
-        "description": "Bandingkan waktu lokal Anda dengan server game Wuthering Waves untuk merencanakan petualangan berikutnya.",
-        "disclaimer": "Timer waktu server lain ditampilkan dalam waktu setempat."
-      }
+      "timeline_description": "Lihat event Wuthering Waves dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain."
     },
     "import": {
       "select_a_method": "Select a method",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {

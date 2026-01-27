@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "서버 시간대 선택",
       "choose_server_timezone_description": "현지 시간대에 기반하여 시간을 보기",
-      "timeline_description": "게임 내 이벤트를 현지 시간이나 <link>서버 시간</link>으로 보세요.",
-      "reset_timers": {
-        "title": "일일 서버 초기화 타이머",
-        "description": "다음 여정에 대비해 현지 시간과 일일 서버 초기화 시간을 비교하세요.",
-        "disclaimer": "다른 서버 시간 타이머는 그들의 현지 시간에 따라 표시됩니다."
-      }
+      "timeline_description": "게임 내 이벤트를 현지 시간이나 <link>서버 시간</link>으로 보세요."
     },
     "import": {
       "select_a_method": "방법 선택",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "최신순",
       "since_last_appearance": "마지막 등장 이후"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {

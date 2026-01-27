@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "サーバーのタイムゾーンを選択",
       "choose_server_timezone_description": "時刻の表示をあなたの現地時間に調整する",
-      "timeline_description": "現地時間か <link>サーバー時間</link> で鳴潮のイベントを確認しよう",
-      "reset_timers": {
-        "title": "サーバーの日付更新時間",
-        "description": "次の冒険に備えてサーバーの日付更新時間を比べよう。",
-        "disclaimer": "他のサーバー時間はそれぞれの現地時間で表示されています。"
-      }
+      "timeline_description": "現地時間か <link>サーバー時間</link> で鳴潮のイベントを確認しよう"
     },
     "import": {
       "select_a_method": "方法を選択",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {

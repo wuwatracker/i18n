@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "選擇伺服器時區",
       "choose_server_timezone_description": "顯示調整到你的本地時區的時間",
-      "timeline_description": "在您的時區或者<link>其他時區</link>檢視鳴潮活動。",
-      "reset_timers": {
-        "title": "伺服器每日重置計時器",
-        "description": "比對您的時區與鳴潮伺服器的時間以規劃您的下次冒險。",
-        "disclaimer": "其他伺服器時間以其當地時間顯示。"
-      }
+      "timeline_description": "在您的時區或者<link>其他時區</link>檢視鳴潮活動。"
     },
     "import": {
       "select_a_method": "選擇方式",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "最新優先",
       "since_last_appearance": "自上次出現"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
