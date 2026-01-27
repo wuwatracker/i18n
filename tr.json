@@ -602,12 +602,7 @@
     "timeline": {
       "choose_server_timezone": "Sunucu Zaman Dilimi Seç",
       "choose_server_timezone_description": "Senin zaman dilimine uyarlanmış saatleri göster",
-      "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine veya diğer <link>Sunucu Zaman Dilimlerine</link> göre görüntüle.",
-      "reset_timers": {
-        "title": "Sunucu Sıfırlanma Saatleri",
-        "description": "Bir sonraki maceranı planlamak için yerel saatini, Wuthering Waves Sunucu saatleri ile karşılaştır.",
-        "disclaimer": "Diğer sunucu zamanlayıcıları kendi yerel saatlerinde gösterilir."
-      }
+      "timeline_description": "Wuthering Waves etkinliklerini kendi zaman dilimine veya diğer <link>Sunucu Zaman Dilimlerine</link> göre görüntüle."
     },
     "import": {
       "select_a_method": "Bir Yöntem Seç",
@@ -689,6 +684,16 @@
     "banners": {
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
+    },
+    "timers": {
+      "reset_timers": {
+        "weekly_reset": "Weekly Reset",
+        "daily_reset": "Daily Reset"
+      },
+      "waveplates": {
+        "stamina": "Waveplates",
+        "stamina_extra": "Waveplate Crystals"
+      }
     }
   },
   "metadata": {
