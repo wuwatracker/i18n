@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "故障排除",
-      "troubleshooting_description": "如果您在导入过程中遇到问题，请在这里查阅我们的故障排除指南。",
-      "import": {
-        "log_files_missing_q": "脚本显示“install location not found or log files missing”——我该怎么做？",
-        "url_expired_q": "有错误提示我的”URL 可能已过期“——我该怎么做？",
-        "error_while_fetching_q": "有错误提示“在获取时发生错误”——我该怎么办？",
-        "missing_old_pulls_q": "我找不到我的旧唤取记录——它们在哪？",
-        "support_other_imports_q": "你们支持从其他网站或应用导入吗？",
-        "ps5_player_import_q": "我能以 PlayStation 5 玩家身份导入吗？",
-        "other_q": "我的问题似乎不在这——我该做什么？"
-      }
-    },
-    "migration": {
-      "legacy_migration": "在这里将您的旧唤取记录升级到新的格式",
-      "legacy": "旧版",
-      "legacy_import": "导入旧版唤取历史",
-      "legacy_import_alert_title": "仅限旧网站用户",
-      "legacy_import_alert_description": "我们无法恢复超过 6 个月的已过期唤取记录。此旧版唤取导入工具仅适用于旧版 WuWa Tracker 用户。"
-    },
     "layout": {
       "banners": {
         "close_banner": "关闭卡池"
