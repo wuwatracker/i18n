@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Pemecahan Masalah",
-      "troubleshooting_description": "Jika Anda mengalami masalah saat mengimpor, bacalah panduan pemecahan masalah kami di sini.",
-      "import": {
-        "log_files_missing_q": "Skrip mengatakan \"install location not found or log files missing\" — apa yang harus saya lakukan?",
-        "url_expired_q": "Ada kesalahan muncul mengatakan \"URL probably expired\" — apa yang harus saya lakukan?",
-        "error_while_fetching_q": "Ada kesalahan muncul mengatakan \"error occured while fetching\" — apa yang harus saya lakukan?",
-        "missing_old_pulls_q": "Saya tidak bisa menemukan riwayat pull lama saya — di mana mereka?",
-        "support_other_imports_q": "Apakah Anda mendukung pengimporan dari situs web atau aplikasi lain?",
-        "ps5_player_import_q": "Sebagai pemain PlayStation 5, apakah saya bisa mengimpor juga?",
-        "other_q": "Masalah yang saya alami sepertinya tidak tercantum di sini — apa yang harus saya lakukan?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Tingkatkan riwayat pull lama Anda ke format yang baru di sini",
-      "legacy": "Legacy",
-      "legacy_import": "Impor Riwayat Pull Lama",
-      "legacy_import_alert_title": "Hanya Untuk Pengguna Situs Web Lawas",
-      "legacy_import_alert_description": "Kami TIDAK dapat memulihkan riwayat pull yang telah melewati masa kedaluwarsa 6 bulan. Legacy pull importer ini ditujukan untuk pengguna WuWa Tracker yang lawas."
-    },
     "layout": {
       "banners": {
         "close_banner": "Tutup banner"
