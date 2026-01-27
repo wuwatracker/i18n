@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Sorun-Çözüm",
-      "troubleshooting_description": "İçe aktarmada sorun yaşıyorsan buradan Sorun-Çözüm rehberimize başvur.",
-      "import": {
-        "log_files_missing_q": "İleti \"install location not found or log files missing\" — diyor ne yapmalıyım?",
-        "url_expired_q": "Bir uyarı '' URL probably expired'' — diyor ne yapmalıyım?",
-        "error_while_fetching_q": "Bir uyarı ''error occured while fetching'' — diyor ne yapmalıyım?",
-        "missing_old_pulls_q": "Eski çağrılarımı bulamıyorum — neredeler?",
-        "support_other_imports_q": "Diğer sitelerden veya uygulamalardan içe aktarmayı destekliyor musunuz?",
-        "ps5_player_import_q": "PlayStation 5 oyuncusu olarak içe aktarabilir miyim?",
-        "other_q": "Benim sorunum burada yok — ne yapmalıyım?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Eski çağrılarını buradan yeni biçime çevir",
-      "legacy": "Eski",
-      "legacy_import": "Eski Çağrıları İçe Aktar",
-      "legacy_import_alert_title": "Bu Sekme Sadece Eski Web Sitesi Kullanıcıları İçindir",
-      "legacy_import_alert_description": "Çağrıların son kullanma süresi 6 aydır. Bu süreyi geçmiş olan çağrıları KURTARAMAYIZ. Bu sekme sadece eski WuWa Tracker kullanıcıları içindir."
-    },
     "layout": {
       "banners": {
         "close_banner": "Banner'i kapat"
