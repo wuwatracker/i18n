@@ -667,8 +667,8 @@
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "每周重置",
-        "daily_reset": "每日重置"
+        "weekly_reset": "每周任务重置",
+        "daily_reset": "每日任务重置"
       },
       "waveplates": {
         "stamina": "结晶波片",
