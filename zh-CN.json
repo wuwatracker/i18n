@@ -397,7 +397,7 @@
       "completion": "完成状态",
       "all": "全部",
       "hidden": "隐藏",
-      "variant": "Variant",
+      "variant": "变体",
       "visible": "可见",
       "local_data": "本地数据",
       "google_drive": "Google 云端硬盘",
@@ -667,12 +667,12 @@
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "每周重置",
+        "daily_reset": "每日重置"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "结晶波片",
+        "stamina_extra": "结晶单质"
       }
     }
   },
