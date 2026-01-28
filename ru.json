@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Решение проблем",
-      "troubleshooting_description": "Если у вас возникают проблемы с импортом, ознакомьтесь с возможными решениями ниже.",
-      "import": {
-        "log_files_missing_q": "В скрипте написано \"install location not found or log files missing\" — что делать?",
-        "url_expired_q": "В ошибке сказано \"URL probably expired\" — что делать?",
-        "error_while_fetching_q": "В ошибке сказано \"error occured while fetching\" — что делать?",
-        "missing_old_pulls_q": "Не могу найти свои старые крутки — где они?",
-        "support_other_imports_q": "У вас есть поддержка импорта с других сайтов или приложений?",
-        "ps5_player_import_q": "Будучи игроком на PlayStation 5, могу ли я импортировать крутки?",
-        "other_q": "Моей проблемы нет здесь — что мне делать?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Обновите свои старые крутки до нового формата здесь",
-      "legacy": "Старое",
-      "legacy_import": "Импорт старых круток",
-      "legacy_import_alert_title": "Только для пользователей старой версии сайта",
-      "legacy_import_alert_description": "Мы НЕ МОЖЕМ восстановить крутки, которые были сделаны более 6 месяцев назад. Этот сервис предназначен только для пользователей старой версии сайта."
-    },
     "layout": {
       "banners": {
         "close_banner": "Закрыть баннер"

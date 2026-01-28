@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "トラブルシューティング",
-      "troubleshooting_description": "インポート時に問題が発生する場合は、こちらのトラブルシューティングガイドを参照してください。",
-      "import": {
-        "log_files_missing_q": "スクリプトで「install location not found or log files missing」と表示されます。どうすればいいですか?",
-        "url_expired_q": "「URLはおそらく期限切れです」というエラーが表示されます。どうすればいいですか?",
-        "error_while_fetching_q": "「取得中にエラーが発生しました」というエラーが表示されます。どうすればよいですか?",
-        "missing_old_pulls_q": "古い集音履歴が見当たりません。どこにあるんですか?",
-        "support_other_imports_q": "他のサイトやアプリからのインポートに対応していますか?",
-        "ps5_player_import_q": "PlayStation 5プレイヤーとしてインポートすることはできますか?",
-        "other_q": "私の問題はここにはないようですが、どうすればいいですか?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "古い集音データをここで新しいフォーマットにアップグレードしてください",
-      "legacy": "レガシー",
-      "legacy_import": "古い集音データのインポート",
-      "legacy_import_alert_title": "古いサイトのユーザーのみ",
-      "legacy_import_alert_description": "6ヶ月の有効期限を過ぎた集音履歴を回復することはできません。このレガシー集音データインポーターは、古いWuWa Trackerユーザー向けにのみ使用されます。"
-    },
     "layout": {
       "banners": {
         "close_banner": "バナーを閉じる"

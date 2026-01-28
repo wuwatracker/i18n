@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "問題排除",
-      "troubleshooting_description": "如果您遇到匯入的問題，請查看我們的問題排除頁面。",
-      "import": {
-        "log_files_missing_q": "如果程式顯示「install location not found or log files missing」— 我該怎麼做？",
-        "url_expired_q": "錯誤顯示\"您的紀錄連結可能已失效\" — 我該怎麼做？",
-        "error_while_fetching_q": "錯誤顯示「error occured while fetching」— 我該怎麼做？",
-        "missing_old_pulls_q": "我找不到我原本抽卡記錄—它們在哪裡？",
-        "support_other_imports_q": "是否支援從其他網站或應用程式匯入？",
-        "ps5_player_import_q": "我可以匯入PS5的帳號嗎？",
-        "other_q": "找不到我的問題 — 我該怎麼做？"
-      }
-    },
-    "migration": {
-      "legacy_migration": "在此更新您的舊紀錄至新版格式",
-      "legacy": "傳統模式",
-      "legacy_import": "匯入舊喚取紀錄",
-      "legacy_import_alert_title": "僅限舊網站使用者",
-      "legacy_import_alert_description": "我們無法恢復超過6個月的過往抽卡記錄。此抽卡匯入工具僅供舊版的WuWa Tracker使用者使用。"
-    },
     "layout": {
       "banners": {
         "close_banner": "已結束卡池"

@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "การแก้ไขปัญหา",
-      "troubleshooting_description": "หากคุณประสบปัญหาในการนำเข้าประวัติ สามารถดูคู่มือการแก้ไขปัญหาได้ที่นี่",
-      "import": {
-        "log_files_missing_q": "สคริปต์แสดงข้อความว่า \"install location not found or log files missing\" — ควรทำอย่างไรดี?",
-        "url_expired_q": "พบข้อผิดพลาดบอกว่า \"URL probably expired\" — ควรทำอย่างไรดี?",
-        "error_while_fetching_q": "พบข้อผิดพลาดบอกว่า \"error occured while fetching\" — ควรทำอย่างไรดี?",
-        "missing_old_pulls_q": "ฉันหาข้อมูลการสุ่มเก่าของฉันไม่เจอ — มันหายไปไหน?",
-        "support_other_imports_q": "รองรับการนำเข้าจากเว็บไซต์หรือแอปอื่นๆหรือไม่?",
-        "ps5_player_import_q": "ฉันสามารถนำเข้าข้อมูลผู้เล่น PlayStation 5 ได้หรือไม่?",
-        "other_q": "ปัญหาของฉันดูเหมือนจะไม่พบที่นี่ — ควรทำอย่างไรดี?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "อัพเกรดประวัติการสุ่มเก่าของคุณเป็นรูปแบบใหม่ที่นี่",
-      "legacy": "Legacy",
-      "legacy_import": "นำเข้าข้อมูลการสุ่มเก่า",
-      "legacy_import_alert_title": "สำหรับผู้ใช้งานตัวเว็บไซต์เก่าเท่านั้น",
-      "legacy_import_alert_description": "ทางเราไม่สามารถกู้คืนประวัติการสุ่มที่เกินระยะเวลา 6 เดือนได้ ระบบ legacy pull importer นี้มีไว้สำหรับผู้ใช้งานเก่าของ WuWa Tracker เท่านั้น"
-    },
     "layout": {
       "banners": {
         "close_banner": "ปิดตู้กาชา"

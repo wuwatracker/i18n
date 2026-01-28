@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Dépannage",
-      "troubleshooting_description": "Si vous rencontrez des problèmes à l'importation, vous pouvez consulter notre guide de dépannage ici.",
-      "import": {
-        "log_files_missing_q": "Le script indique \"install location not found or log files missing\". Qu'est-ce que je dois faire ?",
-        "url_expired_q": "Une erreur dit \"URL probably expired\" — que dois-je faire ?",
-        "error_while_fetching_q": "Une erreur dit \"error occured while fetching\" — que dois-je faire ?",
-        "missing_old_pulls_q": "Je ne trouve pas mes anciennes invocations — où sont-elles ?",
-        "support_other_imports_q": "Est-ce que vous supportez l'importation depuis d'autres sites ou applications ?",
-        "ps5_player_import_q": "Puis-je importer comme joueur PlayStation 5 ?",
-        "other_q": "Mon problème ne semble pas être ici — que dois-je faire ?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Convertissez votre ancien historique au nouveau format ici",
-      "legacy": "Ancienne version",
-      "legacy_import": "Import - ancienne version",
-      "legacy_import_alert_title": "Seulement pour les utilisateurs de l'ancien site web",
-      "legacy_import_alert_description": "Nous ne POUVONS PAS récupérer vos invocations d'il y a plus de 6 mois. Ce système est uniquement pour les utilisateurs de l'ancienne version de WuWa Tracker qui n'ont jamais converti leur historique."
-    },
     "layout": {
       "banners": {
         "close_banner": "Fermer la bannière"

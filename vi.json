@@ -453,26 +453,6 @@
     }
   },
   "feature": {
-    "support": {
-      "troubleshooting": "Gỡ lỗi",
-      "troubleshooting_description": "Nếu bạn đang gặp vấn đề với việc nhập dữ liệu, hãy tham khảo hướng dẫn gỡ lỗi của chúng tôi ở đây.",
-      "import": {
-        "log_files_missing_q": "Script cho biết \"install location not found or log files missing\" — Tôi nên làm gì?",
-        "url_expired_q": "Một lỗi cho biết rằng \"đường dẫn có thể đã bị hết hạn\" — Tôi nên làm gì?",
-        "error_while_fetching_q": "Một lỗi cho biết rằng \"có lỗi xảy ra khi truy xuất\" —Tôi nên làm gì?",
-        "missing_old_pulls_q": "Tôi không thấy những lượt triệu hồi cũ — Nó đi đâu rồi?",
-        "support_other_imports_q": "Liệu bạn có hỗ trợ việc nhập dữ liệu từ những ứng dụng hoặc website khác không?",
-        "ps5_player_import_q": "Liệu tôi có thể nhập dữ liệu với tư cách là người dùng PlayStation 5 không?",
-        "other_q": "Vấn đề của của tôi nó không nằm trong này! Tôi nên làm gì bây giờ?"
-      }
-    },
-    "migration": {
-      "legacy_migration": "Nâng cấp những lượt triệu hồi cũ của bạn lên định dạng mới ở đây",
-      "legacy": "Cũ",
-      "legacy_import": "Nhập dữ liệu triệu hồi cũ",
-      "legacy_import_alert_title": "Chỉ dành cho người dùng Website cũ",
-      "legacy_import_alert_description": "Chúng tôi KHÔNG THỂ phục hồi các lượt triệu hồi đã quá thời hạn 6 tháng. Trình Nhập dữ liệu Triệu hồi cũ này chỉ dành cho người dùng WuWa Tracker cũ."
-    },
     "layout": {
       "banners": {
         "close_banner": "Đóng banner"
