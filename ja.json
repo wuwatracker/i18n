@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ 天井",
       "total_pulls": "合計集音数",
       "total_pulls_responsive": "<span>合計</span> 集音数",
-      "total_astrites_responsive": "<span>合計</span> 星声"
+      "total_astrites_responsive": "<span>合計</span> 星声",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "漂泊者・回折",
         "Rover-Aero": "漂泊者・気動",
         "Aalto": "アールト",
+        "Aemeath": "Aemeath",
         "Augusta": "オーガスタ",
         "Baizhi": "白芷",
         "Brant": "ブラント",
@@ -55,6 +57,7 @@
         "Lingyang": "凌陽",
         "Lumi": "灯灯",
         "Lupa": "ルパ",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "リンネー",
         "Mornye": "モーニエ",
         "Mortefi": "モルトフィー",
@@ -95,10 +98,12 @@
         "Comet Flare": "変化の星",
         "Cosmic Ripples": "栄枯の湖岸",
         "Dauntless Evernight": "長夜の灯火",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "定めを覆す荊冠",
         "Discord": "霊感ディスコード",
         "Emerald of Genesis": "千古の湖水",
         "Emerald Sentence": "破敵の鋭竹",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "風刺のファブリオー",
         "Feather Edge": "鋭利な翼",
         "Fusion Accretion": "コアが溶融する降着円盤",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "エラーが発生しました。",
         "no_banner": "バナーが見つかりません。",
-        "relogin_to_sync": "同期するために、もう一度ログインしてください。",
-        "no_auth_scopes": "Googleドライブへのアップロード権限がありません。",
-        "auth_session_expired": "ログイン期限が切れました。",
         "invalid_input_format": "入力データが無効です",
         "unable_to_parse": "データの解析に失敗しました",
-        "unable_to_parse_remote_data": "リモートデータの解析に失敗しました",
         "unable_to_parse_profile_data": "これはプロフィールデータ専用です。集音履歴データは別のインポートボタンを使ってください。",
         "download_failed": "ダウンロードに失敗しました",
         "client_log_required": "Client.logファイルをアップロードしてください！",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "ダウンロードするプロフィールがありません。",
         "no_pulls_to_download": "ダウンロードする集音がありません。",
         "need_to_upload_specific_file": "{file} をアップロードする必要があります!",
-        "sync_no_pulls_to_upload": "アップロードする集音はありません。",
         "sync_unavailable": "現在同期できません。",
-        "sync_no_remote_data_to_download": "ダウンロードするリモートデータがありません。",
         "incorrect_input_file_description": "これは新しい集音履歴フォーマットのインポートにのみ使用されます!",
         "files_no_upload": "アップロードされたファイルはありません。",
         "files_max_upload_num": "最大 {num} ファイルまでアップロードできます。",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "まずはログインしてプレイヤーIDをリンクしてください。"
       },
       "info": {
-        "connecting_google": "Google ドライブに接続しようとしています",
         "sign_in_first": "まずはサインインしてください",
         "already_linked": "連携済み",
         "enable_email_link": "メールアドレス連携を有効にする",
@@ -257,16 +255,12 @@
         "no_filters": "フィルター未選択",
         "no_records": "表示する記録がありません",
         "no_pulls_yet": "まだ引いていません",
-        "no_pulls_found_in_google_drive": "Google Driveに集音履歴がありません",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "この概要は直近 {num} 件の集音のみを表示します。",
         "pull_more_to_unlock": "Pull more to unlock",
         "pull_more_to_view_statistics": "統計を表示するにはもっと集音する必要があります",
         "download_will_start_shortly": "ダウンロードはまもなく開始されます。",
         "sync_already_synced": "既に同期済みです。",
-        "google_drive_last_updated_at": "Google Drive最終更新: {date}",
-        "nothing_to_sync": "現在同期するものはありません。",
-        "sync_creating_file_in_google": "Google ドライブに {fileName} を作成しています...",
         "sync_updating_remote_file": "{fileName} のリモートコピーを更新しています...",
         "planner_edited_plan_for_name": "{name} のプランを編集しました。",
         "unlinking_your_email": "メールアドレスのリンクを解除しています...",
@@ -284,10 +278,6 @@
         "create_profile": "{playerId} のプロファイルを作成しました。",
         "delete_pulls": "{playerId} の全ての集音履歴を削除しました。",
         "delete_profiles": "すべてのユーザープロファイルを削除しました。",
-        "sync_successfully_downloaded_remote_data": "リモートデータは正常にダウンロードされました。",
-        "sync_successfully_created_remote_data": "Google ドライブに {fileName} を作成しました。",
-        "sync_success": "同期に成功しました。",
-        "sync_success_updated_remote_file": "{fileName} のリモートコピーを更新しました。",
         "planner_successfully_completed_plan_for_name": "{name} のプランが正常に完了しました!",
         "planner_successfully_created_plan_for_name": "{name} のプランを作成しました。",
         "successfully_unlinked_email": "メールアドレスのリンクを解除しました"
@@ -329,7 +319,6 @@
       "export_json": "JSONでエクスポート",
       "view_pull_history": "集音履歴を表示",
       "sync_your_data": "データを同期する",
-      "trigger_sync": "同期をトリガー",
       "support_us": "寄付",
       "create_profile": "プロファイルを作成",
       "remind_me_later": "後で通知する",
@@ -338,8 +327,6 @@
       "cancel": "キャンセル",
       "download": "ダウンロード",
       "import_from_file": "ファイルからインポート",
-      "upload_to_google": "Googleへアップロード",
-      "download_from_google": "Googleからダウンロード",
       "reset_tag_filters": "タグフィルターをリセット",
       "complete": "完了",
       "hide": "非表示",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "表示",
       "local_data": "ローカルデータ",
-      "google_drive": "Google Drive",
       "from_file": "ファイルから",
       "edit_on_github": "GitHubでこのページを編集する",
       "social_discord_cta": "Discord サーバーに参加する",
@@ -425,7 +411,6 @@
       "advanced": "高度",
       "help_translate": "翻訳を手伝う",
       "switch_language": "言語の切り替え",
-      "just_taking_a_look_around": "Just taking a look around?",
       "the_active_player_profile": "アクティブプレイヤープロファイル",
       "privacy": "プライバシー",
       "on": "オン",
@@ -465,11 +450,6 @@
       "legal": "法的事項",
       "partners": "パートナー",
       "disclaimer": "これは独立したファンメイドのプロジェクトであり、KURO GAMES と提携または承認されたものではありません。すべてのゲームアセット、コンテンツ、および商標はそれぞれの所有者に帰属します。"
-    },
-    "error": {
-      "oops": "うわー!",
-      "an_error_occured": "<highlight>エラー</highlight> が発生しました。",
-      "join_discord": "報告するために<link>Discordサーバー</link>に参加してください。"
     },
     "achievements": {
       "no_achievements_found": "アチーブメントが見つかりません"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "最新のニュースを見る",
       "quick_links": "クイックリンク",
       "quick_links_description": "重要なページや機能にすばやくアクセス",
-      "the_curent_events_and_activities": "現在のイベントとアクティビティ"
+      "the_curent_events_and_activities": "現在のイベントとアクティビティ",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "Newest First",
