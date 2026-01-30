@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pulls",
       "total_pulls_responsive": "<span>Total</span> Pulls",
-      "total_astrites_responsive": "<span>Total</span> Astrites"
+      "total_astrites_responsive": "<span>Total</span> Astrites",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
+        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -55,6 +57,7 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -95,10 +98,12 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "An error occured",
         "no_banner": "No banner found.",
-        "relogin_to_sync": "Please log in again to sync.",
-        "no_auth_scopes": "You are not authorized to upload to Google Drive.",
-        "auth_session_expired": "Your login session expired.",
         "invalid_input_format": "Your input data is invalid",
         "unable_to_parse": "We are unable to parse your data",
-        "unable_to_parse_remote_data": "We are unable to parse your remote data",
         "unable_to_parse_profile_data": "This is for profile data only. Use the other import button for pull history data.",
         "download_failed": "The download failed",
         "client_log_required": "You need to upload a Client.log file!",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "No profile to download.",
         "no_pulls_to_download": "No pulls to download.",
         "need_to_upload_specific_file": "You need to upload a {file}!",
-        "sync_no_pulls_to_upload": "You don't have any pulls to upload.",
         "sync_unavailable": "Unable to sync at the moment.",
-        "sync_no_remote_data_to_download": "You don't have any remote data to download.",
         "incorrect_input_file_description": "This is for new pull history format imports ONLY!",
         "files_no_upload": "No files were uploaded.",
         "files_max_upload_num": "You can only upload up to {num} file(s).",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
-        "connecting_google": "Attemping to connect to Google Drive",
         "sign_in_first": "Sign in first",
         "already_linked": "Already linked",
         "enable_email_link": "Enable email link",
@@ -257,16 +255,12 @@
         "no_filters": "no filters selected",
         "no_records": "no records to show",
         "no_pulls_yet": "No pulls yet",
-        "no_pulls_found_in_google_drive": "No pulls found in Google Drive",
         "no_banner_luck_stats": "this banner has no luck stats",
         "max_recent_pulls_disclaimer": "This summary only shows up to {num} recent pulls.",
         "pull_more_to_unlock": "Pull more to unlock",
         "pull_more_to_view_statistics": "You need more pulls to view statistics",
         "download_will_start_shortly": "Your download will start shortly.",
         "sync_already_synced": "Your data is already synced.",
-        "google_drive_last_updated_at": "Google Drive was updated {date}",
-        "nothing_to_sync": "Nothing to sync at the moment.",
-        "sync_creating_file_in_google": "Creating {fileName} in Google Drive...",
         "sync_updating_remote_file": "Updating remote copy for {fileName}...",
         "planner_edited_plan_for_name": "Edited plan for {name}.",
         "unlinking_your_email": "Unlinking your email...",
@@ -284,10 +278,6 @@
         "create_profile": "Succesfully created a profile for {playerId}.",
         "delete_pulls": "Successfully deleted all pulls for {playerId}.",
         "delete_profiles": "Successfully deleted all user profiles.",
-        "sync_successfully_downloaded_remote_data": "Successfully downloaded remote data.",
-        "sync_successfully_created_remote_data": "Successfully created {fileName} in Google Drive.",
-        "sync_success": "Sync successful.",
-        "sync_success_updated_remote_file": "Updated remote copy for {fileName}.",
         "planner_successfully_completed_plan_for_name": "Successfully completed plan for {name}!",
         "planner_successfully_created_plan_for_name": "Successfully created plan for {name}.",
         "successfully_unlinked_email": "Successfully unlinked your email"
@@ -329,7 +319,6 @@
       "export_json": "Export JSON",
       "view_pull_history": "View Pull History",
       "sync_your_data": "Sync Your Data",
-      "trigger_sync": "Trigger Sync",
       "support_us": "Support Us",
       "create_profile": "Create Profile",
       "remind_me_later": "Remind me later",
@@ -338,8 +327,6 @@
       "cancel": "Cancel",
       "download": "Download",
       "import_from_file": "Import From File",
-      "upload_to_google": "Upload to Google",
-      "download_from_google": "Download from Google",
       "reset_tag_filters": "Reset Tag Filters",
       "complete": "Complete",
       "hide": "Hide",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "Visible",
       "local_data": "Local Data",
-      "google_drive": "Google Drive",
       "from_file": "From File",
       "edit_on_github": "Edit this page on GitHub",
       "social_discord_cta": "Join our Discord Server",
@@ -425,7 +411,6 @@
       "advanced": "Advanced",
       "help_translate": "Help Translate",
       "switch_language": "Switch language",
-      "just_taking_a_look_around": "Just taking a look around?",
       "the_active_player_profile": "the active player profile",
       "privacy": "Privacy",
       "on": "On",
@@ -465,11 +450,6 @@
       "legal": "Legal",
       "partners": "Partners",
       "disclaimer": "This is an independent fan project, not affiliated with or endorsed by Kuro Games. All game assets, content, and trademarks belong to their respective owners."
-    },
-    "error": {
-      "oops": "Whoops!",
-      "an_error_occured": "An <highlight>error</highlight> occured.",
-      "join_discord": "Please <link>join our Discord Server</link> to make a report."
     },
     "achievements": {
       "no_achievements_found": "no achievements found"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "Keep up with the latest news",
       "quick_links": "Quick Links",
       "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "the_curent_events_and_activities": "The current events and activities",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "Newest First",
