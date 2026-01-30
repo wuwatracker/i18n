@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ 천장",
       "total_pulls": "총 뽑기 수",
       "total_pulls_responsive": "<span>총</span> 뽑기 수",
-      "total_astrites_responsive": "<span>총</span> 별의 소리"
+      "total_astrites_responsive": "<span>총</span> 별의 소리",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "방랑자-회절",
         "Rover-Aero": "방랑자-기류",
         "Aalto": "알토",
+        "Aemeath": "Aemeath",
         "Augusta": "아우구스타",
         "Baizhi": "설지",
         "Brant": "브렌트",
@@ -55,6 +57,7 @@
         "Lingyang": "능양",
         "Lumi": "루미",
         "Lupa": "루파",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "린네",
         "Mornye": "모니에",
         "Mortefi": "모르테피",
@@ -95,10 +98,12 @@
         "Comet Flare": "굉음",
         "Cosmic Ripples": "파도의 기록",
         "Dauntless Evernight": "장야의 불빛",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "숙명에 맞서는 관",
         "Discord": "기묘한 울림",
         "Emerald of Genesis": "천년의 회류",
         "Emerald Sentence": "푸른 의지",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Fusion Accretion": "융합의 원반",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "오류 발생",
         "no_banner": "배너를 찾을 수 없습니다.",
-        "relogin_to_sync": "동기화를 위해 다시 로그인 해주세요.",
-        "no_auth_scopes": "구글 드라이브에 업로드할 권한이 없습니다.",
-        "auth_session_expired": "로그인 세션이 만료되었습니다.",
         "invalid_input_format": "입력한 데이터가 잘못되었습니다",
         "unable_to_parse": "데이터를 분석할 수 없습니다",
-        "unable_to_parse_remote_data": "원격 데이터를 분석할 수 없습니다\n",
         "unable_to_parse_profile_data": "프로필 데이터 전용입니다. 가챠 기록 데이터에는 다른 가져오기 버튼을 사용하세요.",
         "download_failed": "다운로드 실패",
         "client_log_required": "Client.log 파일을 업로드해야 합니다",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "다운로드할 프로필이 없습니다.",
         "no_pulls_to_download": "다운로드할 뽑기 기록이 없습니다.",
         "need_to_upload_specific_file": "{file}을 업로드해야 합니다!",
-        "sync_no_pulls_to_upload": "업로드할 뽑기 기록이 없습니다.",
         "sync_unavailable": "현재 동기화할 수 없습니다.",
-        "sync_no_remote_data_to_download": "다운로드할 원격 데이터가 없습니다.",
         "incorrect_input_file_description": "새로운 형식의 뽑기 기록을 제출해주세요.",
         "files_no_upload": "파일이 업로드되지 않았습니다.",
         "files_max_upload_num": "최대 {num}개의 파일만 업로드할 수 있습니다.\n",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "먼저 로그인하고 플레이어 ID를 연결해 주세요."
       },
       "info": {
-        "connecting_google": "구글 드라이브에 연결 시도중",
         "sign_in_first": "먼저 로그인하세요",
         "already_linked": "이미 연결됨",
         "enable_email_link": "이메일 연결 활성화",
@@ -257,16 +255,12 @@
         "no_filters": "필터가 선택되지 않았습니다",
         "no_records": "표시할 기록이 없습니다",
         "no_pulls_yet": "아직 뽑기 기록이 없음",
-        "no_pulls_found_in_google_drive": "구글 드라이브에서 기록을 찾을 수 없습니다",
         "no_banner_luck_stats": "이 배너는 행운 통계가 없습니다",
         "max_recent_pulls_disclaimer": "이 목록은 최근{num} 회까지만 표시됩니다.",
         "pull_more_to_unlock": "통계를 위해 더 뽑아주세요",
         "pull_more_to_view_statistics": "통계를 보기 위해서 더 많은 뽑기 횟수가 필요합니다",
         "download_will_start_shortly": "곧 다운로드가 시작됩니다.",
         "sync_already_synced": "데이터가 이미 동기화 되었습니다.",
-        "google_drive_last_updated_at": "구글 드라이브가 {date}에 업데이트 되었습니다",
-        "nothing_to_sync": "현재 동기화할 것이 없습니다.\n",
-        "sync_creating_file_in_google": "구글 드라이브에 {fileName}을 만드는 중...",
         "sync_updating_remote_file": "{fileName}의 원격 복사본을 업데이트중...",
         "planner_edited_plan_for_name": "{name} 에 대한 계획을 편집했습니다.",
         "unlinking_your_email": "이메일 연결 해제 중…",
@@ -284,10 +278,6 @@
         "create_profile": "성공적으로 {playerId}의 프로필을 생성했습니다.",
         "delete_pulls": "성공적으로 {playerId}의 모든 뽑기 기록을 삭제했습니다.",
         "delete_profiles": "성공적으로 유저 프로필을 삭제했습니다.",
-        "sync_successfully_downloaded_remote_data": "성공적으로 원격 데이터를 다운로드 했습니다.",
-        "sync_successfully_created_remote_data": "성공적으로 구글 드라이브에 {fileName} 을 만들었습니다.",
-        "sync_success": "동기화 성공.",
-        "sync_success_updated_remote_file": "{fileName}의 원격 복사본을 업데이트했습니다.",
         "planner_successfully_completed_plan_for_name": "{name} 에 대한 계획이 성공적으로 완료되었습니다!\n",
         "planner_successfully_created_plan_for_name": "{name} 에 대한 계획을 성공적으로 작성했습니다.\n",
         "successfully_unlinked_email": "이메일 연결이 성공적으로 해제되었습니다"
@@ -329,7 +319,6 @@
       "export_json": "JSON 추출",
       "view_pull_history": "뽑기 기록 보기",
       "sync_your_data": "데이터 동기화",
-      "trigger_sync": "동기화 시작",
       "support_us": "지원하기",
       "create_profile": "프로필 생성",
       "remind_me_later": "나중에 다시 알림",
@@ -338,8 +327,6 @@
       "cancel": "취소",
       "download": "다운로드",
       "import_from_file": "파일에서 가져오기",
-      "upload_to_google": "구글에 업로드",
-      "download_from_google": "구글에서 다운로드",
       "reset_tag_filters": "태그 필터 리셋",
       "complete": "완료",
       "hide": "숨기기",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "일반",
       "local_data": "로컬 데이터",
-      "google_drive": "구글 드라이브",
       "from_file": "파일에서",
       "edit_on_github": "GitHub에서 이 페이지를 편집하기",
       "social_discord_cta": "Discord 가입하기",
@@ -425,7 +411,6 @@
       "advanced": "고급",
       "help_translate": "번역 돕기",
       "switch_language": "언어 변경",
-      "just_taking_a_look_around": "그냥 둘러보는 건가요?",
       "the_active_player_profile": "활성화 플레이어 프로필",
       "privacy": "개인정보",
       "on": "켜짐",
@@ -465,11 +450,6 @@
       "legal": "법",
       "partners": "파트너",
       "disclaimer": "이것은 쿠로 게임즈와 제휴하거나 후원하지 않는 독립 팬 프로젝트입니다. 모든 게임 에셋, 콘텐츠와 소재의 트레이드마크와 저작권은 Kuro Games에 있습니다."
-    },
-    "error": {
-      "oops": "이런!",
-      "an_error_occured": "<highlight>오류</highlight> 발생.",
-      "join_discord": "보고를 위해 <link>Discord 서버에</link> 방문해주세요."
     },
     "achievements": {
       "no_achievements_found": "업적을 찾을 수 없습니다"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "최신 소식을 받아보세요",
       "quick_links": "빠른 링크",
       "quick_links_description": "중요한 페이지와 기능에 빠르게 접근하세요",
-      "the_curent_events_and_activities": "현재 진행 중인 이벤트와 활동"
+      "the_curent_events_and_activities": "현재 진행 중인 이벤트와 활동",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "최신순",
