@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pull",
       "total_pulls_responsive": "<span>Total</span> Pull",
-      "total_astrites_responsive": "<span>Total</span> Astrite"
+      "total_astrites_responsive": "<span>Total</span> Astrite",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
+        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -55,6 +57,7 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -95,10 +98,12 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "Terjadi kesalahan",
         "no_banner": "Tidak ada banner yang ditemukan.",
-        "relogin_to_sync": "Silakan masuk kembali untuk menyinkronkan.",
-        "no_auth_scopes": "Anda tidak memiliki izin untuk mengunggah ke Google Drive.",
-        "auth_session_expired": "Sesi masuk Anda telah berakhir.",
         "invalid_input_format": "Data yang diinput tidak valid",
         "unable_to_parse": "Kami tidak dapat mengurai data Anda",
-        "unable_to_parse_remote_data": "Kami tidak dapat mengurai data remote Anda",
         "unable_to_parse_profile_data": "Ini hanya untuk data profil. Gunakan tombol impor yang lain untuk menarik data riwayat.",
         "download_failed": "Unduhan gagal",
         "client_log_required": "Anda harus mengunggah file Client.log!",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "Tidak ada profil untuk diunduh.",
         "no_pulls_to_download": "Tidak ada riwayat pull untuk diunduh.",
         "need_to_upload_specific_file": "Anda harus mengunggah file {file}!",
-        "sync_no_pulls_to_upload": "Anda tidak memiliki riwayat pull untuk diunggah.",
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
-        "sync_no_remote_data_to_download": "Anda tidak memiliki data remote untuk diunduh.",
         "incorrect_input_file_description": "Ini HANYA untuk megimpor riwayat pull dengan format terbaru saja!",
         "files_no_upload": "Tidak ada file yang diunggah.",
         "files_max_upload_num": "Anda hanya bisa mengunggah sampai dengan {num} file.",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
       },
       "info": {
-        "connecting_google": "Mencoba untuk menghubungkan ke Google Drive",
         "sign_in_first": "Sign in first",
         "already_linked": "Already linked",
         "enable_email_link": "Enable email link",
@@ -257,16 +255,12 @@
         "no_filters": "tidak ada filter yang dipilih",
         "no_records": "tidak ada riwayat untuk ditampilkan",
         "no_pulls_yet": "Belum ada pull",
-        "no_pulls_found_in_google_drive": "Tidak ada riwayat pull yang ditemukan di Google Drive",
         "no_banner_luck_stats": "banner ini tidak memiliki statistik keberuntungan",
         "max_recent_pulls_disclaimer": "Ringkasan ini hanya menampilkan hingga {num} pull terkini.",
         "pull_more_to_unlock": "Pull lebih banyak lagi untuk membuka",
         "pull_more_to_view_statistics": "Anda memerlukan lebih banyak pull untuk melihat statistik",
         "download_will_start_shortly": "Pengunduhan Anda akan segera dimulai.",
         "sync_already_synced": "Data Anda sudah disinkronisasikan.",
-        "google_drive_last_updated_at": "Google Drive sudah diperbarui pada {date}",
-        "nothing_to_sync": "Tidak ada yang perlu disinkronkan saat ini.",
-        "sync_creating_file_in_google": "Membuat {fileName} di Google Drive...",
         "sync_updating_remote_file": "Memperbarui salinan remote untuk {fileName}...",
         "planner_edited_plan_for_name": "Perubahan rencana untuk {name}.",
         "unlinking_your_email": "Unlinking your email...",
@@ -284,10 +278,6 @@
         "create_profile": "Berhasil membuat profil untuk {playerId}.",
         "delete_pulls": "Berhasil menghapus semua riwayat pull untuk {playerId}.",
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
-        "sync_successfully_downloaded_remote_data": "Berhasil mengunduh data remote.",
-        "sync_successfully_created_remote_data": "Berhasil membuat {fileName} di Google Drive.",
-        "sync_success": "Sinkronisasi berhasil.",
-        "sync_success_updated_remote_file": "Salinan remote untuk {fileName} sudah diperbarui.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
         "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}.",
         "successfully_unlinked_email": "Successfully unlinked your email"
@@ -329,7 +319,6 @@
       "export_json": "Ekspor sebagai JSON",
       "view_pull_history": "Lihat Riwayat Pull",
       "sync_your_data": "Sinkronisasikan Data Anda",
-      "trigger_sync": "Mulai Sinkronisasi",
       "support_us": "Dukung Kami",
       "create_profile": "Buat Profil",
       "remind_me_later": "Ingatkan saya nanti",
@@ -338,8 +327,6 @@
       "cancel": "Batalkan",
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
-      "upload_to_google": "Unggah ke Google",
-      "download_from_google": "Unduh dari Google",
       "reset_tag_filters": "Reset Filter Tag",
       "complete": "Selesai",
       "hide": "Sembunyikan",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "Terlihat",
       "local_data": "Data Lokal",
-      "google_drive": "Google Drive",
       "from_file": "Dari File",
       "edit_on_github": "Edit halaman ini di GitHub",
       "social_discord_cta": "Bergabung dengan Server Discord kami",
@@ -425,7 +411,6 @@
       "advanced": "Lanjutan",
       "help_translate": "Bantu Terjemahkan",
       "switch_language": "Ganti bahasa",
-      "just_taking_a_look_around": "Hanya melihat-lihat saja?",
       "the_active_player_profile": "profil pemain yang aktif",
       "privacy": "Privasi",
       "on": "Aktif",
@@ -465,11 +450,6 @@
       "legal": "Hukum",
       "partners": "Partner",
       "disclaimer": "Ini adalah fan project independen, kami tidak berafiliasi atau didukung oleh Kuro Games. Semua aset, konten, dan merek dagang game adalah milik dari pemiliknya masing-masing."
-    },
-    "error": {
-      "oops": "Ups!",
-      "an_error_occured": "Terjadi sebuah <highlight>kesalahan</highlight>.",
-      "join_discord": "Silakan <link>bergabung ke Server Discord kami</link> untuk membuat laporan."
     },
     "achievements": {
       "no_achievements_found": "tidak ada pencapaian ditemukan"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "Keep up with the latest news",
       "quick_links": "Quick Links",
       "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "the_curent_events_and_activities": "The current events and activities",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "Newest First",
