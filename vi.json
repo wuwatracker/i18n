@@ -25,7 +25,8 @@
       "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt triệu hồi",
       "total_pulls_responsive": "<span>Tổng</span> lượt triệu hồi",
-      "total_astrites_responsive": "<span>Tổng</span> số Astrites"
+      "total_astrites_responsive": "<span>Tổng</span> số Astrites",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
+        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -55,6 +57,7 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -95,10 +98,12 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "Đã xảy ra lỗi",
         "no_banner": "Không tìm thấy Banner.",
-        "relogin_to_sync": "Vui lòng đăng nhập để đồng bộ.",
-        "no_auth_scopes": "Bạn không có quyền để tải lên Google Drive.",
-        "auth_session_expired": "Phiên đăng nhập đã hết hạn.",
         "invalid_input_format": "Dữ liệu đầu vào của bạn không hợp lệ",
         "unable_to_parse": "Chúng tôi không thể phân tích dữ liệu của bạn",
-        "unable_to_parse_remote_data": "Chúng tôi không thể phân tích dữ liệu từ xa của bạn",
         "unable_to_parse_profile_data": "Chỉ dành cho dữ liệu người dùng. Sử dụng nút nhập khác cho dữ liệu lịch sử Triệu hồi.",
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "Không có dữ liệu để tải xuống.",
         "no_pulls_to_download": "Không có dữ liệu Lượt Triệu hồi để tải xuống.",
         "need_to_upload_specific_file": "Bạn cần tải lên {file}!",
-        "sync_no_pulls_to_upload": "Hiện không có dữ liệu Lượt Triệu hồi để tải lên.",
         "sync_unavailable": "Hiện không thể đồng bộ.",
-        "sync_no_remote_data_to_download": "Hiện không có dữ liệu từ xa để đồng bộ.",
         "incorrect_input_file_description": "Đây CHỈ dành cho nhập lịch sử triệu hồi theo định dạng lịch sử pull mới!",
         "files_no_upload": "Chưa có file nào được tải lên.",
         "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "Vui lòng đăng nhập và liên kết ID người chơi trước."
       },
       "info": {
-        "connecting_google": "Đang cố gắng kết nối với Google Drive",
         "sign_in_first": "Vui lòng đăng nhập trước",
         "already_linked": "Đã liên kết",
         "enable_email_link": "Bật liên kết email",
@@ -257,16 +255,12 @@
         "no_filters": "không có bộ lọc được chọn",
         "no_records": "hiện không có dữ liệu",
         "no_pulls_yet": "Lịch sử Triệu hồi trống",
-        "no_pulls_found_in_google_drive": "Không có lịch sử Triệu hồi từ Google Drive",
         "no_banner_luck_stats": "banner nay không có dữ liệu may rủi",
         "max_recent_pulls_disclaimer": "Tóm tắt này chỉ hiển thị {num} lượt Triệu hồi gần đây.",
         "pull_more_to_unlock": "Triệu hồi thêm để mở khóa",
         "pull_more_to_view_statistics": "Bạn cần nhiều lượt Triệu hồi hơn để xem số liệu này",
         "download_will_start_shortly": "Quá trình tải xuống sẽ bắt đầu ngay thôi.",
         "sync_already_synced": "Dữ liệu của bạn đã được đồng bộ.",
-        "google_drive_last_updated_at": "Google Drive đã được cập nhật {date}",
-        "nothing_to_sync": "Hiện không có dữ liệu để đồng bộ.",
-        "sync_creating_file_in_google": "Đang tạo file {fileName} trên Google Drive...",
         "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
         "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}.",
         "unlinking_your_email": "Đang huỷ liên kết email...",
@@ -284,10 +278,6 @@
         "create_profile": "Tạo thành công hồ sơ của {playerId}.",
         "delete_pulls": "Xóa thành công lịch sử Triệu hồi của {playerId}.",
         "delete_profiles": "Xóa tất cả dữ liệu người dùng thành công.",
-        "sync_successfully_downloaded_remote_data": "Tải xuống dữ liệu từ xa thành công.",
-        "sync_successfully_created_remote_data": "Tạo {fileName} trên Google Drive thành công.",
-        "sync_success": "Đồng bộ hoàn tất.",
-        "sync_success_updated_remote_file": "Đã cập nhật bản sao từ xa của {fileName}.",
         "planner_successfully_completed_plan_for_name": "Hoàn tất kế hoạch cho {name}!",
         "planner_successfully_created_plan_for_name": "Tạo kế hoạch cho {name} thành công.",
         "successfully_unlinked_email": "Hủy liên kết email thành công"
@@ -329,7 +319,6 @@
       "export_json": "Xuất file JSON",
       "view_pull_history": "Xem lịch sử triệu hồi",
       "sync_your_data": "Đồng bộ dữ liệu",
-      "trigger_sync": "Khởi chạy đồng bộ",
       "support_us": "Ủng Hộ Chúng Tôi",
       "create_profile": "Tạo hồ sơ",
       "remind_me_later": "Nhắc tôi sau",
@@ -338,8 +327,6 @@
       "cancel": "Hủy",
       "download": "Tải xuống",
       "import_from_file": "Nhập từ tệp",
-      "upload_to_google": "Tải lên Google",
-      "download_from_google": "Tải xuống từ Google",
       "reset_tag_filters": "Đặt lại thẻ bộ lọc",
       "complete": "Hoàn tất",
       "hide": "Ẩn",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "Hiện",
       "local_data": "Dữ liệu cục bộ",
-      "google_drive": "Google Drive",
       "from_file": "Từ tệp",
       "edit_on_github": "Chỉnh sửa trang này trên GitHub",
       "social_discord_cta": "Tham gia máy chủ Discord của chúng tôi",
@@ -425,7 +411,6 @@
       "advanced": "Nâng cao",
       "help_translate": "Hỗ trợ dịch thuật",
       "switch_language": "Chuyển ngôn ngữ",
-      "just_taking_a_look_around": "Bạn chỉ nhìn xung quanh thôi sao?",
       "the_active_player_profile": "hồ sơ người chơi đang hoạt động",
       "privacy": "Quyền riêng tư",
       "on": "Bật",
@@ -465,11 +450,6 @@
       "legal": "Pháp lý",
       "partners": "Đối tác",
       "disclaimer": "Đây là một dự án độc lập do người hâm mộ thực hiện, không liên quan hoặc được xác nhận bởi Kuro Games. Tất cả các tài nguyên, nội dung và thương hiệu trò chơi thuộc về chủ sở hữu tương ứng."
-    },
-    "error": {
-      "oops": "Ôi!!!!",
-      "an_error_occured": "Đã xảy ra <highlight>lỗi</highlight>.",
-      "join_discord": "Hãy tham gia <link>Máy chủ Discord của chúng tôi </link> để tạo một báo cáo."
     },
     "achievements": {
       "no_achievements_found": "không phát hiện thành tựu"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "Cập nhật tin tức mới nhất",
       "quick_links": "Truy cập nhanh",
       "quick_links_description": "Truy cập nhanh vào các trang và tính năng quan trọng",
-      "the_curent_events_and_activities": "Các sự kiện và hoạt động đang diễn ra"
+      "the_curent_events_and_activities": "Các sự kiện và hoạt động đang diễn ra",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "Mới nhất trước",
