@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ Гарант",
       "total_pulls": "Всего круток",
       "total_pulls_responsive": "<span>Всего</span> круток",
-      "total_astrites_responsive": "<span>Всего</span> Астрита"
+      "total_astrites_responsive": "<span>Всего</span> Астрита",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
+        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -55,6 +57,7 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -95,10 +98,12 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "Произошла ошибка",
         "no_banner": "Баннеры не найдены.",
-        "relogin_to_sync": "Пожалуйста, войдите в аккаунт снова для синхронизации.",
-        "no_auth_scopes": "Нет прав на загрузку в Google Диск.",
-        "auth_session_expired": "Время сессии истекло.",
         "invalid_input_format": "Неверно введённая информация",
         "unable_to_parse": "Не вышло получить ваши данные",
-        "unable_to_parse_remote_data": "Не вышло получить ваши данные с другого источника",
         "unable_to_parse_profile_data": "Эта опция только для файлов с данными профиля. Используйте другую кнопку для импорта, чтобы загрузить историю круток.",
         "download_failed": "Ошибка загрузки",
         "client_log_required": "Вам необходимо загрузить файл Client.log!",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "Нет профилей для загрузки.",
         "no_pulls_to_download": "Нет круток для загрузки.",
         "need_to_upload_specific_file": "Вам нужно загрузить {file}!",
-        "sync_no_pulls_to_upload": "Не найдено круток для загрузки.",
         "sync_unavailable": "Синхронизация пока недоступна.",
-        "sync_no_remote_data_to_download": "Не найдено круток для загрузки.",
         "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!",
         "files_no_upload": "Ошибка загрузки файлов.",
         "files_max_upload_num": "Вы можете загрузить до {num} файла(-ов).",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "Пожалуйста, сначала войдите и привяжите свой UID."
       },
       "info": {
-        "connecting_google": "Попытка подключения к Google Диску",
         "sign_in_first": "Сначала выполните вход",
         "already_linked": "Уже привязан",
         "enable_email_link": "Enable email link",
@@ -257,16 +255,12 @@
         "no_filters": "фильтры не выбраны",
         "no_records": "нет записей",
         "no_pulls_yet": "Круток не было",
-        "no_pulls_found_in_google_drive": "Круток на Google Диске не найдено",
         "no_banner_luck_stats": "у этого баннера нет показателей удачи",
         "max_recent_pulls_disclaimer": "Данная сводка показывает до {num} последних круток.",
         "pull_more_to_unlock": "Открутите больше для разблокировки",
         "pull_more_to_view_statistics": "Вам нужно сделать больше круток, чтобы увидеть статистику",
         "download_will_start_shortly": "Ваша загрузка скоро начнётся.",
         "sync_already_synced": "Ваши данные уже синхронизированы.",
-        "google_drive_last_updated_at": "Google Диск был обновлён {date}",
-        "nothing_to_sync": "Нет данных для синхронизации.",
-        "sync_creating_file_in_google": "Создание {fileName} на Google Диске...",
         "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
         "planner_edited_plan_for_name": "План для {name} изменён.",
         "unlinking_your_email": "Отвязка вашей электронной почты...",
@@ -284,10 +278,6 @@
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
         "delete_profiles": "Все профили успешно удалены.",
-        "sync_successfully_downloaded_remote_data": "Данные успешно получены.",
-        "sync_successfully_created_remote_data": "Файл {fileName} успешно создан на Google Диске.",
-        "sync_success": "Синхронизация успешна.",
-        "sync_success_updated_remote_file": "Updated remote copy for ${fileName}.",
         "planner_successfully_completed_plan_for_name": "План для {name} выполнен!",
         "planner_successfully_created_plan_for_name": "Создан план для {name}.",
         "successfully_unlinked_email": "Привязка к адресу электр. почты убрана"
@@ -329,7 +319,6 @@
       "export_json": "Сохранить в JSON",
       "view_pull_history": "История круток",
       "sync_your_data": "Синхронизировать",
-      "trigger_sync": "Синхронизировать",
       "support_us": "Поддержите нас",
       "create_profile": "Создать профиль",
       "remind_me_later": "Напомнить позже",
@@ -338,8 +327,6 @@
       "cancel": "Отмена",
       "download": "Скачать",
       "import_from_file": "Импорт из файла",
-      "upload_to_google": "Загрузить в Google",
-      "download_from_google": "Скачать из Google",
       "reset_tag_filters": "Очистить метки",
       "complete": "Завершить",
       "hide": "Скрыть",
@@ -400,7 +387,6 @@
       "variant": "Variant",
       "visible": "Видимые",
       "local_data": "Локальные данные",
-      "google_drive": "Google Диск",
       "from_file": "Из файла",
       "edit_on_github": "Редактировать эту страницу на GitHub",
       "social_discord_cta": "Вступайте в наш сервер Discord",
@@ -425,7 +411,6 @@
       "advanced": "Продвинутые",
       "help_translate": "Помощь в переводе",
       "switch_language": "Сменить язык",
-      "just_taking_a_look_around": "Просто осматриваетесь?",
       "the_active_player_profile": "активный профиль",
       "privacy": "Настройки приватности",
       "on": "Включено",
@@ -465,11 +450,6 @@
       "legal": "Документация",
       "partners": "Партнёры",
       "disclaimer": "Это независимый фанатский проект, никак не связанный с Kuro Games. Все игровые ресурсы, контент и товарные знаки принадлежат их законным владельцам."
-    },
-    "error": {
-      "oops": "Уупс!",
-      "an_error_occured": "Произошла <highlight>ошибка</highlight>.",
-      "join_discord": "Пожалуйста, <link>вступите на наш Discord сервер</link> и сообщите нам об ошибке."
     },
     "achievements": {
       "no_achievements_found": "достижений не найдено"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "Будьте в курсе последних новостей",
       "quick_links": "Quick Links",
       "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities"
+      "the_curent_events_and_activities": "The current events and activities",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "Newest First",
