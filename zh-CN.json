@@ -25,7 +25,8 @@
       "num_pity": "{num}✦ 保底",
       "total_pulls": "总计唤取",
       "total_pulls_responsive": "<span>总计</span> 唤取",
-      "total_astrites_responsive": "<span>总计</span> 星声"
+      "total_astrites_responsive": "<span>总计</span> 星声",
+      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
     },
     "name": {
       "items": {
@@ -33,6 +34,7 @@
         "Rover-Spectro": "漂泊者-衍射",
         "Rover-Aero": "漂泊者-气动",
         "Aalto": "秋水",
+        "Aemeath": "Aemeath",
         "Augusta": "奥古斯塔",
         "Baizhi": "白芷",
         "Brant": "布兰特",
@@ -55,6 +57,7 @@
         "Lingyang": "凌阳",
         "Lumi": "灯灯",
         "Lupa": "露帕",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "琳奈",
         "Mornye": "莫宁",
         "Mortefi": "莫特斐",
@@ -95,10 +98,12 @@
         "Comet Flare": "异度",
         "Cosmic Ripples": "漪澜浮录",
         "Dauntless Evernight": "永夜长明",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "异响空灵",
         "Emerald of Genesis": "千古洑流",
         "Emerald Sentence": "裁竹",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "风流的寓言诗",
         "Feather Edge": "翼锋",
         "Fusion Accretion": "核熔星盘",
@@ -212,12 +217,8 @@
       "error": {
         "generic_title": "发生错误",
         "no_banner": "未找到卡池。",
-        "relogin_to_sync": "请重新登录以同步。",
-        "no_auth_scopes": "您没有上传到 Google 云端硬盘的许可。",
-        "auth_session_expired": "您的登录已过期。",
         "invalid_input_format": "您的输入数据无效",
         "unable_to_parse": "我们无法解析您的数据",
-        "unable_to_parse_remote_data": "我们无法解析您的远程数据",
         "unable_to_parse_profile_data": "此处仅适用于档案数据。若需导入唤取历史数据，请使用另一个导入按钮。",
         "download_failed": "下载失败",
         "client_log_required": "您需要上传 Client.log 文件！",
@@ -228,9 +229,7 @@
         "no_profile_to_download": "无可下载的玩家资料。",
         "no_pulls_to_download": "无可下载的唤取。",
         "need_to_upload_specific_file": "您需要上传 {file}！",
-        "sync_no_pulls_to_upload": "您没有可上传的唤取。",
         "sync_unavailable": "当前无法同步数据。",
-        "sync_no_remote_data_to_download": "您没有可下载的远程数据。",
         "incorrect_input_file_description": "这只适用于导入新格式的唤取历史！",
         "files_no_upload": "未上传任何文件。",
         "files_max_upload_num": "您仅可上传最多 {num} 个文件。",
@@ -245,7 +244,6 @@
         "your_email_must_be_linked_to_import_pulls_description": "请先登录并链接您的玩家 ID 。"
       },
       "info": {
-        "connecting_google": "尝试连接到 Google 云端硬盘",
         "sign_in_first": "请先登录",
         "already_linked": "已链接",
         "enable_email_link": "启用电子邮件链接",
@@ -257,16 +255,12 @@
         "no_filters": "未选择过滤条件",
         "no_records": "无记录",
         "no_pulls_yet": "目前无唤取",
-        "no_pulls_found_in_google_drive": "未在 Google 云端硬盘找到唤取",
         "no_banner_luck_stats": "该卡池无幸运统计数据",
         "max_recent_pulls_disclaimer": "此摘要最多仅显示最近 {num} 次唤取。",
         "pull_more_to_unlock": "继续唤取以解锁",
         "pull_more_to_view_statistics": "您需要更多唤取记录来显示统计数据",
         "download_will_start_shortly": "下载即将开始。",
         "sync_already_synced": "您的数据已经同步了。",
-        "google_drive_last_updated_at": "Google 云端硬盘在 {date} 更新",
-        "nothing_to_sync": "目前没有需要同步的数据。",
-        "sync_creating_file_in_google": "在 Google 云端硬盘创建 {fileName}...",
         "sync_updating_remote_file": "上传 {fileName} 的远程副本...",
         "planner_edited_plan_for_name": "已编辑 {name} 的培养计划。",
         "unlinking_your_email": "取消链接您的电子邮件...",
@@ -284,10 +278,6 @@
         "create_profile": "成功为 {playerId} 创建用户资料。",
         "delete_pulls": "成功删除 {playerId} 的所有唤取。",
         "delete_profiles": "成功删除所有的用户资料。",
-        "sync_successfully_downloaded_remote_data": "成功下载远程数据。",
-        "sync_successfully_created_remote_data": "成功在 Google 云端硬盘创建 {fileName}。",
-        "sync_success": "同步成功。",
-        "sync_success_updated_remote_file": "已上传 {fileName} 的远程副本。",
         "planner_successfully_completed_plan_for_name": "成功完成 {name} 的培养计划！",
         "planner_successfully_created_plan_for_name": "成功创建 {name} 的培养计划。",
         "successfully_unlinked_email": "成功取消链接您的电子邮件"
@@ -329,7 +319,6 @@
       "export_json": "以 JSON 格式导出",
       "view_pull_history": "查看唤取历史",
       "sync_your_data": "同步数据",
-      "trigger_sync": "触发同步",
       "support_us": "支持我们",
       "create_profile": "创建玩家资料",
       "remind_me_later": "稍后提醒我",
@@ -338,8 +327,6 @@
       "cancel": "取消",
       "download": "下载",
       "import_from_file": "从文件导入",
-      "upload_to_google": "上传到 Google",
-      "download_from_google": "从 Google 下载",
       "reset_tag_filters": "重置标签筛选器",
       "complete": "完成",
       "hide": "隐藏",
@@ -400,7 +387,6 @@
       "variant": "变体",
       "visible": "可见",
       "local_data": "本地数据",
-      "google_drive": "Google 云端硬盘",
       "from_file": "从文件",
       "edit_on_github": "在 GitHub 上编辑此页",
       "social_discord_cta": "加入我们的 Discord 服务器",
@@ -425,7 +411,6 @@
       "advanced": "高级",
       "help_translate": "帮助翻译",
       "switch_language": "切换语言",
-      "just_taking_a_look_around": "只是随便看看吗？",
       "the_active_player_profile": "当前使用的玩家资料",
       "privacy": "隐私",
       "on": "开",
@@ -465,11 +450,6 @@
       "legal": "法律",
       "partners": "伙伴们",
       "disclaimer": "该项目为独立的爱好者项目，与库洛游戏并无关联，亦未获其授权。所有游戏资产、内容及商标各属其所有者。"
-    },
-    "error": {
-      "oops": "糟糕！",
-      "an_error_occured": "发生<highlight>错误</highlight>。",
-      "join_discord": "请<link>加入我们的 Discord 服务器</link>以进行报告。"
     },
     "achievements": {
       "no_achievements_found": "未找到成就"
@@ -659,7 +639,46 @@
       "keep_up_with_the_latest_news": "跟上最新新闻",
       "quick_links": "快速链接",
       "quick_links_description": "快速访问重要页面和功能",
-      "the_curent_events_and_activities": "当前事件和活动"
+      "the_curent_events_and_activities": "当前事件和活动",
+      "frequently_asked_questions": {
+        "title": "Frequently Asked Questions",
+        "description": "Find answers to common questions about WuWa Tracker",
+        "still_need_help": "Still need help?",
+        "join_our_discord": "Join our Discord Server and ask for help there",
+        "item_1": {
+          "title": "Is WuWa Tracker safe to use?",
+          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+        },
+        "item_2": {
+          "title": "What devices and regions are supported?",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+        },
+        "item_3": {
+          "title": "How do I import or export my data?",
+          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+        },
+        "item_4": {
+          "title": "How do I sync across devices?",
+          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+        },
+        "item_5": {
+          "title": "How do I fix my import issues?",
+          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+        },
+        "item_6": {
+          "title": "Can I recover pulls older than 6 months?",
+          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+        },
+        "item_7": {
+          "title": "Why are my statistics inaccurate?",
+          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+        }
+      }
     },
     "banners": {
       "newest_first": "从新到旧",
