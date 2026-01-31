@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ Pulls",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pulls",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>Total</span> Pulls",
       "total_astrites_responsive": "<span>Total</span> Astrites",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -463,7 +464,9 @@
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
       "pulls_per_rarity": "Pulls per Rarity",
       "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_item_description": "Showing pulls per item",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
