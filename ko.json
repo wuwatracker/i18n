@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ 뽑은 횟수",
       "num_pity": "{num}✦ 천장",
       "total_pulls": "총 뽑기 수",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>총</span> 뽑기 수",
       "total_astrites_responsive": "<span>총</span> 별의 소리",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -219,17 +220,9 @@
         "download_failed": "다운로드 실패",
         "client_log_required": "Client.log 파일을 업로드해야 합니다",
         "cannot_find_convene_url": "튜닝 URL을 찾을 수 없습니다",
-        "cannot_find_convene_url_description": "과거 기록을 열 때 Client.log 파일을 업데이트 해주세요. 또는 문제해결 부분에서 도움을 받아보세요.",
-        "convene_url_expired": "URL이 만료되었을 수 있습니다. 다시 제출해주세요.",
-        "use_valid_player_id": "먼저 유효한 플레이어 ID를 사용해야 합니다",
-        "no_profile_to_download": "다운로드할 프로필이 없습니다.",
         "no_pulls_to_download": "다운로드할 뽑기 기록이 없습니다.",
         "need_to_upload_specific_file": "{file}을 업로드해야 합니다!",
         "sync_unavailable": "현재 동기화할 수 없습니다.",
-        "incorrect_input_file_description": "새로운 형식의 뽑기 기록을 제출해주세요.",
-        "files_no_upload": "파일이 업로드되지 않았습니다.",
-        "files_max_upload_num": "최대 {num}개의 파일만 업로드할 수 있습니다.\n",
-        "files_has_oversize_limit_num": "일부 파일이 {num}MB의 크기 제한을 초과합니다.\n",
         "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
         "planner_insufficient_materials": "재료가 부족합니다.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "튜닝 기록을 추출하려면 로그인된 프로필을 사용해야 합니다",
@@ -256,8 +249,6 @@
         "pull_more_to_unlock": "통계를 위해 더 뽑아주세요",
         "pull_more_to_view_statistics": "통계를 보기 위해서 더 많은 뽑기 횟수가 필요합니다",
         "download_will_start_shortly": "곧 다운로드가 시작됩니다.",
-        "sync_already_synced": "데이터가 이미 동기화 되었습니다.",
-        "sync_updating_remote_file": "{fileName}의 원격 복사본을 업데이트중...",
         "planner_edited_plan_for_name": "{name} 에 대한 계획을 편집했습니다.",
         "unlinking_your_email": "이메일 연결 해제 중…",
         "importing_cloud_data": "클라우드 데이터 불러오는 중…",
@@ -270,7 +261,6 @@
         "successfully_imported_num_new_pulls": "{num}개의 새로운 튜닝을 성공적으로 가져왔습니다.",
         "successfully_imported_profile": "성공적으로 유저 프로필을 가져왔습니다.",
         "the_import_was_successful": "가져오기가 성공적으로 완료되었습니다!",
-        "successfully_imported_gacha_records_redirecting": "트래커로 리디렉션 중입니다.",
         "create_profile": "성공적으로 {playerId}의 프로필을 생성했습니다.",
         "delete_pulls": "성공적으로 {playerId}의 모든 뽑기 기록을 삭제했습니다.",
         "delete_profiles": "성공적으로 유저 프로필을 삭제했습니다.",
@@ -280,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "이 작업은 되돌릴 수 없습니다!",
-        "disable_auto_profile_sync": "안전을 위해 자동 프로필 동기화도 비활성화합니다!",
-        "this_does_not_include_your_pulls": "여기에는 뽑기 기록이 포함되지 않습니다!",
         "planner_removed_plan_for_name": "{name} 에 대한 계획이 제거되었습니다.\n"
       }
     },
@@ -291,13 +279,9 @@
       "search": "검색",
       "search_placeholder": "검색하기",
       "search_reset": "검색 초기화",
-      "your_player_id_placeholder": "9자리 UID (예: 123456789)",
-      "your_player_id_validation": "9자리 UID는 반드시 1, 5, 6, 7, 8, 또는 9로 시작합니다",
       "type_to_confirm": "계속하려면 <strong></strong> 를 입력하세요",
       "file_input": "클릭하거나 드래그&드롭하여 업로드",
       "accepted_formats": "지원하는 형식: {formats}",
-      "select_profile_placeholder_empty": "프로필을 찾을 수 없습니다",
-      "select_profile_placeholder_inactive": "프로필 선택",
       "filters": "필터",
       "rows_per_page": "페이지 당 행",
       "items_per_page": "페이지당 항목 수",
@@ -480,7 +464,9 @@
       "pulls_per_day_description": "\"일별 뽑기 수 및 희귀도 분포",
       "pulls_per_rarity": "희귀도 별 뽑은 횟수",
       "pulls_per_rarity_description": "희귀도 분포를 보여줍니다",
-      "pulls_per_item_description": "항목 별 뽑은 횟수"
+      "pulls_per_item_description": "항목 별 뽑은 횟수",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -569,12 +555,10 @@
       "press_the_import_data_button": "아래의 \"데이터 가져오기\" 버튼을 누르세요",
       "upload_your_client_log_file_here": "여기에 Client.log 파일을 업로드하세요",
       "we_will_search_your_logs_and_extract_the_import_url": "로그를 검색하여 가져오기 URL을 추출해드립니다",
-      "logs_not_updating_alert": "URL 만료",
-      "logs_not_updating_alert_description": "2025년 1월 14일 기준, PC 사용자들은 Kuro Games의 업데이트로 인해 게임 로깅 문제를 겪고 있습니다. 이를 디버깅하려면 </link>문제 해결 가이드</link>를 읽어보세요.",
       "first_open_game_history": "먼저, 게임을 시작하고 게임 내 튜닝 기록을 여세요",
       "open_windows_powershell_and_run_script": "그 다음, Windows PowerShell을 열고, 아래의 스크립트를 붙여넣으세요.",
       "click_the_copy_button": "오른쪽의 복사 버튼을 클릭하세요.",
-      "powershell_script_disclaimer": "참고: 이 스크립트는 게임 로그를 읽어 튜닝 기록 URL만 추출합니다. SHA256 검사를 통해 스크립트가 변조되지 않았음을 확인합니다. 스크립트는 <link>여기</link>에서 확인할 수 있습니다.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "URL을 여기에 붙여넣으세요.",
       "paste_the_json_here": "JSON 파일을 여기에 붙여넣으세요.",
       "go_to_installation_directory": "설치 경로를 찾으세요.",
@@ -584,7 +568,6 @@
       "download_ascent": "Ascent을 다운로드하고 사용하여 가챠 기록 URL을 가져오세요.",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "이 방법은 Android 11, 그 이상의 버전에서만 지원합니다.",
-      "download_ascent_troubleshooting": "만약 제대로 작동하지 않는다면, <link>문제 해결</link>부분을 확인하세요.",
       "ios_follow_tutorial_video": "비디오 튜토리얼을 따라해보세요",
       "ios_follow_tutorial_video_description": "원신이나 붕괴: 스타레일에서 뽑기 기록을 얻는 방법과 비슷합니다.이 비디오 튜토리얼을 따라, iO에서 데이터를 제출하세요.",
       "ios_certificate_disclaimer": "참고: 인증서 파일을 다운로드할 때는 Safari를 사용해야 합니다. Google Chrome 등 다른 브라우저는 작동하지 않을 수 있습니다.",
@@ -593,7 +576,7 @@
       "ps5_click_on_page_information": "페이지 정보버튼을 누르세요",
       "ps5_enter_your_record_id": "여기에 'player_id' 와 'record_id' 를 입력하세요",
       "open_terminal_and_open_script": "그 다음 terminal 을 열고, 다음 스크립트를 붙여 넣으세요:",
-      "linux_script_disclaimer": "참고: 이 스크립트는 게임 로그를 읽어 튜닝 기록 URL만 추출합니다. SHA256 검사를 통해 스크립트가 변조되지 않았음을 확인합니다. 스크립트는 <script>여기</script>에서 확인할 수 있습니다. <repo></repo> 코드를 공유해 주신 <author></author>님께 감사드립니다.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "이 스크립트는 파일을 수정하지 않고, 로그 파일에서튜닝 기록 URL만 추출합니다.",
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
@@ -618,15 +601,6 @@
         "forte_circuit": "공명 회로",
         "resonance_liberation": "공명 해방",
         "intro_skill": "변주 스킬"
-      },
-      "item_tags": {
-        "Universal Currency": "통용 화폐",
-        "Skill Upgrade Material": "스킬 업그레이드 재료",
-        "Ascension Material": "돌파 재료",
-        "Resonator Ascension Material": "공명자 돌파 재료",
-        "Resonator EXP Material": "공명자 경험치 재료",
-        "Weapon and Skill Material": "무기 및 스킬 재료",
-        "Weapon EXP Material": "무기 경험치 재료"
       }
     },
     "home_page": {
@@ -799,8 +773,7 @@
       "Achievements Tracker": "업적 트래커",
       "Ascension Planner": "돌파 플래너",
       "Events": "이벤트",
-      "Articles": "기사들",
-      "Old Site": "예전 사이트"
+      "Articles": "기사들"
     },
     "footer": {
       "links": {
