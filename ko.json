@@ -34,7 +34,6 @@
         "Rover-Spectro": "방랑자-회절",
         "Rover-Aero": "방랑자-기류",
         "Aalto": "알토",
-        "Aemeath": "Aemeath",
         "Augusta": "아우구스타",
         "Baizhi": "설지",
         "Brant": "브렌트",
@@ -57,7 +56,6 @@
         "Lingyang": "능양",
         "Lumi": "루미",
         "Lupa": "루파",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "린네",
         "Mornye": "모니에",
         "Mortefi": "모르테피",
@@ -98,12 +96,10 @@
         "Comet Flare": "굉음",
         "Cosmic Ripples": "파도의 기록",
         "Dauntless Evernight": "장야의 불빛",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "숙명에 맞서는 관",
         "Discord": "기묘한 울림",
         "Emerald of Genesis": "천년의 회류",
         "Emerald Sentence": "푸른 의지",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Fusion Accretion": "융합의 원반",
@@ -672,10 +668,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
