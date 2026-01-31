@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ 集音数",
       "num_pity": "{num}✦ 天井",
       "total_pulls": "合計集音数",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>合計</span> 集音数",
       "total_astrites_responsive": "<span>合計</span> 星声",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "漂泊者・回折",
         "Rover-Aero": "漂泊者・気動",
         "Aalto": "アールト",
-        "Aemeath": "Aemeath",
         "Augusta": "オーガスタ",
         "Baizhi": "白芷",
         "Brant": "ブラント",
@@ -57,7 +57,6 @@
         "Lingyang": "凌陽",
         "Lumi": "灯灯",
         "Lupa": "ルパ",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "リンネー",
         "Mornye": "モーニエ",
         "Mortefi": "モルトフィー",
@@ -98,12 +97,10 @@
         "Comet Flare": "変化の星",
         "Cosmic Ripples": "栄枯の湖岸",
         "Dauntless Evernight": "長夜の灯火",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "定めを覆す荊冠",
         "Discord": "霊感ディスコード",
         "Emerald of Genesis": "千古の湖水",
         "Emerald Sentence": "破敵の鋭竹",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "風刺のファブリオー",
         "Feather Edge": "鋭利な翼",
         "Fusion Accretion": "コアが溶融する降着円盤",
@@ -223,17 +220,9 @@
         "download_failed": "ダウンロードに失敗しました",
         "client_log_required": "Client.logファイルをアップロードしてください！",
         "cannot_find_convene_url": "ConveneのURLが見つかりませんでした",
-        "cannot_find_convene_url_description": "履歴を開くときにClient.logが更新されていることを確認してください。更新されていない場合は、トラブルシューティングセクションを参照してください。",
-        "convene_url_expired": "URLの有効期限が切れている可能性があります。もう一度インポートしてください。",
-        "use_valid_player_id": "まず有効なアクティブプレイヤーIDを使用してください",
-        "no_profile_to_download": "ダウンロードするプロフィールがありません。",
         "no_pulls_to_download": "ダウンロードする集音がありません。",
         "need_to_upload_specific_file": "{file} をアップロードする必要があります!",
         "sync_unavailable": "現在同期できません。",
-        "incorrect_input_file_description": "これは新しい集音履歴フォーマットのインポートにのみ使用されます!",
-        "files_no_upload": "アップロードされたファイルはありません。",
-        "files_max_upload_num": "最大 {num} ファイルまでアップロードできます。",
-        "files_has_oversize_limit_num": "一部のファイルが {num} MB のサイズ制限を超えています。",
         "inventory_item_does_not_exist": "そのアイテムは存在しません!",
         "planner_insufficient_materials": "必要な材料が足りません。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "集音履歴をエクスポートするには、ゲスト以外のプロファイルを使用する必要があります",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "Pull more to unlock",
         "pull_more_to_view_statistics": "統計を表示するにはもっと集音する必要があります",
         "download_will_start_shortly": "ダウンロードはまもなく開始されます。",
-        "sync_already_synced": "既に同期済みです。",
-        "sync_updating_remote_file": "{fileName} のリモートコピーを更新しています...",
         "planner_edited_plan_for_name": "{name} のプランを編集しました。",
         "unlinking_your_email": "メールアドレスのリンクを解除しています...",
         "importing_cloud_data": "データベースからクラウドデータをインポートしています...",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "{num} 件の新しい集音履歴を正常にインポートしました。",
         "successfully_imported_profile": "ユーザープロファイルを正常にインポートしました。",
         "the_import_was_successful": "インポートに成功しました!",
-        "successfully_imported_gacha_records_redirecting": "トラッカーにリダイレクトしています。",
         "create_profile": "{playerId} のプロファイルを作成しました。",
         "delete_pulls": "{playerId} の全ての集音履歴を削除しました。",
         "delete_profiles": "すべてのユーザープロファイルを削除しました。",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "この操作は元に戻せません!",
-        "disable_auto_profile_sync": "安全のため、プロファイルの自動同期も無効になります!",
-        "this_does_not_include_your_pulls": "This does not include your pulls!",
         "planner_removed_plan_for_name": "{name} のプランを削除しました。"
       }
     },
@@ -295,13 +279,9 @@
       "search": "検索",
       "search_placeholder": "何かを検索...",
       "search_reset": "検索をリセット",
-      "your_player_id_placeholder": "9桁のユーザーID (例: 123456789)",
-      "your_player_id_validation": "9桁のユーザーIDは1, 5, 6, 7, 8, 9で始まる必要があります",
       "type_to_confirm": "<strong></strong> と入力して確認します",
       "file_input": "クリックしてアップロードまたはドラッグ&ドロップ",
       "accepted_formats": "許可された形式: {formats}",
-      "select_profile_placeholder_empty": "プロファイルが見つかりません。",
-      "select_profile_placeholder_inactive": "アクティブプロファイルを選択",
       "filters": "フィルター",
       "rows_per_page": "1ページ毎の行数",
       "items_per_page": "Items per page",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "日ごとの集音数とレア度分布を表示",
       "pulls_per_rarity": "レア度ごとの集音数",
       "pulls_per_rarity_description": "レア度分布を表示",
-      "pulls_per_item_description": "アイテムごとの集音数を表示"
+      "pulls_per_item_description": "アイテムごとの集音数を表示",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "下の「データをインポート」ボタンを押す",
       "upload_your_client_log_file_here": "ここにClient.logファイルをアップロード",
       "we_will_search_your_logs_and_extract_the_import_url": "ログを検索し、インポートURLを抽出します",
-      "logs_not_updating_alert": "URLの有効期限切れ",
-      "logs_not_updating_alert_description": "2025年1月14日現在、PCユーザーにおいて、KURO GAMESによるアップデートが原因と思われるゲーム内のログ記録に関する問題が発生しています。解決方法については<link>トラブルシューティングガイド</link>をご参照ください。",
       "first_open_game_history": "まず始めにゲームを起動し、集音履歴画面を開く",
       "open_windows_powershell_and_run_script": "次に「Windows PowerShell」を起動し、以下のコマンドを貼り付けて実行する。",
       "click_the_copy_button": "右側のコピーボタンをクリック",
-      "powershell_script_disclaimer": "注意:本スクリプトはゲームログを読み取り、集音履歴URLを抽出します。また、SHA256により本スクリプトが改ざんされていないことが保証されており、内容は<link>はこちら</link> から確認できます。",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "URLをここに貼り付ける",
       "paste_the_json_here": "JSONをここに貼り付ける",
       "go_to_installation_directory": "ゲームのインストール先ディレクトリを開く",
@@ -588,7 +568,6 @@
       "download_ascent": "集音履歴URLを取得するには、Ascent をダウンロードして使用してください",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "注意: この方法はAndroid バージョン 11以降のみ対応しています。",
-      "download_ascent_troubleshooting": "正常に動作しない場合は、 <link>トラブルシューティングセクション</link> を確認してください。",
       "ios_follow_tutorial_video": "チュートリアル動画に沿って操作を行ってください",
       "ios_follow_tutorial_video_description": "原神や崩壊：スターレイルで祈願履歴を取得するのと同じように、このチュートリアル動画に従ってiOSでデータをインポートしてください。",
       "ios_certificate_disclaimer": "注意: 証明書ファイルのダウンロードには Safari を使用する必要があります。Google Chrome のような他のブラウザでは動作しない場合があります。",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
       "open_terminal_and_open_script": "次にターミナルを起動し、以下のコマンドを貼り付けて実行する。",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログから集音履歴URLを取得するだけです。",
       "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "共鳴回路",
         "resonance_liberation": "共鳴解放",
         "intro_skill": "変奏スキル"
-      },
-      "item_tags": {
-        "Universal Currency": "通貨",
-        "Skill Upgrade Material": "スキルレベルアップ素材",
-        "Ascension Material": "突破素材",
-        "Resonator Ascension Material": "共鳴者突破素材",
-        "Resonator EXP Material": "共鳴者EXP素材",
-        "Weapon and Skill Material": "武器・スキル素材",
-        "Weapon EXP Material": "武器EXP素材"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "実績トラッカー",
       "Ascension Planner": "育成計画",
       "Events": "イベント",
-      "Articles": "記事",
-      "Old Site": "古いサイト"
+      "Articles": "記事"
     },
     "footer": {
       "links": {
