@@ -34,7 +34,6 @@
         "Rover-Spectro": "Ровер-Спектро",
         "Rover-Aero": "Ровер-Аеро",
         "Aalto": "Аалто",
-        "Aemeath": "Aemeath",
         "Augusta": "Авґуста",
         "Baizhi": "Байджи",
         "Brant": "Брант",
@@ -57,7 +56,6 @@
         "Lingyang": "Лін'ян",
         "Lumi": "Люмі",
         "Lupa": "Люпа",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Мортефі",
@@ -98,12 +96,10 @@
         "Comet Flare": "Спалах комети",
         "Cosmic Ripples": "Космічні хвилі",
         "Dauntless Evernight": "Безстрашна ніч",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Танець Вільного Лицаря",
         "Discord": "Розбрат",
         "Emerald of Genesis": "Смарагд Буття",
         "Emerald Sentence": "Emerald Sentence",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Байки Мудрості",
         "Feather Edge": "Лезо пера",
         "Fusion Accretion": "Вогнянний посилювач",
@@ -672,10 +668,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
