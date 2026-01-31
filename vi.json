@@ -24,6 +24,7 @@
       "rarity_pulls": "Lượt triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt triệu hồi",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>Tổng</span> lượt triệu hồi",
       "total_astrites_responsive": "<span>Tổng</span> số Astrites",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -219,17 +220,9 @@
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
         "cannot_find_convene_url": "Chúng tôi không tìm thấy Đường dẫn Triệu Hồi",
-        "cannot_find_convene_url_description": "Hãy chắc chắn rằng tệp Client.log cập nhật khi bạn mở lịch sử của mình, nếu không, kiểm tra phần gỡ lỗi để được trợ giúp.",
-        "convene_url_expired": "Đường dẫn của bạn có thể đã bị hết hạn. Hãy thử nhập lại.",
-        "use_valid_player_id": "Bạn phải sử dụng một ID người chơi tồn tại trước",
-        "no_profile_to_download": "Không có dữ liệu để tải xuống.",
         "no_pulls_to_download": "Không có dữ liệu Lượt Triệu hồi để tải xuống.",
         "need_to_upload_specific_file": "Bạn cần tải lên {file}!",
         "sync_unavailable": "Hiện không thể đồng bộ.",
-        "incorrect_input_file_description": "Đây CHỈ dành cho nhập lịch sử triệu hồi theo định dạng lịch sử pull mới!",
-        "files_no_upload": "Chưa có file nào được tải lên.",
-        "files_max_upload_num": "Bạn chỉ có thể đăng tải {num} file.",
-        "files_has_oversize_limit_num": "Một số file vượt quá giới hạn kích thước {num}MB.",
         "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
         "planner_insufficient_materials": "Nguyên liệu không phù hợp.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Bạn cần sử dụng tài khoản chính thức để xuất lịch sử lượt triệu hồi",
@@ -256,8 +249,6 @@
         "pull_more_to_unlock": "Triệu hồi thêm để mở khóa",
         "pull_more_to_view_statistics": "Bạn cần nhiều lượt Triệu hồi hơn để xem số liệu này",
         "download_will_start_shortly": "Quá trình tải xuống sẽ bắt đầu ngay thôi.",
-        "sync_already_synced": "Dữ liệu của bạn đã được đồng bộ.",
-        "sync_updating_remote_file": "Đang cập nhật bản sao từ xa của {fileName}...",
         "planner_edited_plan_for_name": "Tùy chỉnh kế hoạch cho {name}.",
         "unlinking_your_email": "Đang huỷ liên kết email...",
         "importing_cloud_data": "Đang nhập dữ liệu đám mây từ hệ thống...",
@@ -270,7 +261,6 @@
         "successfully_imported_num_new_pulls": "Đã nhập thành công {num} lượt triệu hồi mới.",
         "successfully_imported_profile": "Nhập hồ sơ người dùng thành công.",
         "the_import_was_successful": "Nhập dữ liệu thành công!",
-        "successfully_imported_gacha_records_redirecting": "Đang chuyển hướng tới với tracker.",
         "create_profile": "Tạo thành công hồ sơ của {playerId}.",
         "delete_pulls": "Xóa thành công lịch sử Triệu hồi của {playerId}.",
         "delete_profiles": "Xóa tất cả dữ liệu người dùng thành công.",
@@ -280,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "Thao tác này không thể hoàn tác!",
-        "disable_auto_profile_sync": "Để đảm bảo an toàn, chúng tôi cũng sẽ tự động tắt đồng bộ dữ liệu người dùng!",
-        "this_does_not_include_your_pulls": "Phần này không bao gồm các Lượt Triệu hồi!",
         "planner_removed_plan_for_name": "Xóa kế hoạch cho {name}."
       }
     },
@@ -291,13 +279,9 @@
       "search": "Tìm kiếm",
       "search_placeholder": "Tìm cái gì đó...",
       "search_reset": "Làm mới thanh tìm kiếm",
-      "your_player_id_placeholder": "ID người chơi 9 chữ số của bạn (ví dụ 123456789)",
-      "your_player_id_validation": "ID người chơi 9 chữ số của bạn phải được bắt đầu với 1, 5, 6, 7, 8, hoặc 9",
       "type_to_confirm": "Nhập <strong></strong> để chấp nhận",
       "file_input": "Nhấn để tải lên hoặc kéo thả vào đây",
       "accepted_formats": "Duyệt định dạng: {formats}",
-      "select_profile_placeholder_empty": "Không có hồ sơ người dùng",
-      "select_profile_placeholder_inactive": "Chọn hồ sơ hiện tại",
       "filters": "Lọc",
       "rows_per_page": "Số hàng trên trang",
       "items_per_page": "Số mục trên mỗi trang",
@@ -480,7 +464,9 @@
       "pulls_per_day_description": "Hiển thị tổng số lượt triệu hồi Triệu hồi/Ngày và Triệu hồi/Pity",
       "pulls_per_rarity": "Lượt Triệu hồi/Độ hiếm",
       "pulls_per_rarity_description": "Hiển thị phân bố độ hiếm",
-      "pulls_per_item_description": "Hiển thị lượt triệu hồi theo vật phẩm"
+      "pulls_per_item_description": "Hiển thị lượt triệu hồi theo vật phẩm",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -569,12 +555,10 @@
       "press_the_import_data_button": "Nhấn nút ‘Nhập dữ liệu’ bên dưới",
       "upload_your_client_log_file_here": "Tải tệp Client.log của bạn lên đây",
       "we_will_search_your_logs_and_extract_the_import_url": "Chúng tôi sẽ tìm trong tệp nhật ký (logs) và trích xuất URL nhập dữ liệu cho bạn",
-      "logs_not_updating_alert": "Thời gian hết hạn của đường dẫn",
-      "logs_not_updating_alert_description": "Kể từ ngày 14 tháng 1 năm 2025, người dùng PC đã gặp vấn đề về ghi nhật ký với trò chơi của họ do một bản cập nhật bị nghi ngờ từ Kuro Games. Đọc </link>hướng dẫn khắc phục</link> của chúng tôi để gỡ lỗi.",
       "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
       "open_windows_powershell_and_run_script": "Sau đó, mở Windows PowerShell, và dán đoạn script này vào.",
       "click_the_copy_button": "Bấm vào nút sao chép bên phải",
-      "powershell_script_disclaimer": "Script này chỉ đọc tệp nhật ký (logs) của bạn để trích xuất URL Lịch sử triệu hồi. Kiểm tra SHA256 để đảm bảo script không bị chỉnh sửa. Bạn có thể xem script <link>tại đây</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "Dán URL vào đây",
       "paste_the_json_here": "Dán JSON vào đây",
       "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
@@ -584,7 +568,6 @@
       "download_ascent": "Tải xuống và sử dụng Ascent để lấy đường dẫn lịch sử triệu hồi của bạn",
       "download_ascent_description": "Tương tự như việc lấy lịch sử Gacha của Genshin Impact hoặc Honkai: Star Rail, hãy làm theo <link>hướng dẫn bởi Mirai0009</link> để tải xuống và sử dụng <ascent>Ascent</ascent> để lấy đường dẫn triệu hồi của bạn.",
       "download_ascent_disclaimer": "LƯU Ý: Phương pháp này chỉ hỗ trợ phiên bản Android 11 trở lên.",
-      "download_ascent_troubleshooting": "Nếu nó không hoạt động, hãy kiểm tra <link>hướng dẫn gỡ lỗi</link>.",
       "ios_follow_tutorial_video": "Hãy làm theo Video hướng dẫn",
       "ios_follow_tutorial_video_description": "Tương tự như lấy lịch sử triệu hồi trong Genshin Impact hoặc Honkai Star Rail, hãy làm theo video hướng dẫn để nhập dữ liệu trên iOS.",
       "ios_certificate_disclaimer": "LƯU Ý: Bạn phải dùng Safari khi tải tệp chứng chỉ (certificate). Các trình duyệt khác như Google Chrome có thể không hoạt động.",
@@ -593,7 +576,7 @@
       "ps5_click_on_page_information": "Chọn vào 'Page Information'",
       "ps5_enter_your_record_id": "Nhập 'player_id' và 'record_id' của bạn tại đây",
       "open_terminal_and_open_script": "Sau đó, mở Terminal của bạn và dán đoạn script sau:",
-      "linux_script_disclaimer": "LƯU Ý:",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "Script này không chỉnh sửa bất kỳ tệp nào của bạn, nó chỉ trích xuất URL Lịch sử triệu hồi từ các tệp nhật ký (logs).",
       "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
@@ -618,15 +601,6 @@
         "forte_circuit": "Mạch Sở trường",
         "resonance_liberation": "Giải Phóng Cộng Hưởng",
         "intro_skill": "Kỹ Năng Mở Đầu"
-      },
-      "item_tags": {
-        "Universal Currency": "Tiền tệ",
-        "Skill Upgrade Material": "Nguyên liệu Tăng cấp Kĩ Năng",
-        "Ascension Material": "Nguyên liệu đột phá",
-        "Resonator Ascension Material": "Nguyên liệu đột phá Nhân vật",
-        "Resonator EXP Material": "Nguyên liệu tăng cấp cho Nhân vật",
-        "Weapon and Skill Material": "Nguyên liệu cho Vũ Khí và Kĩ Năng",
-        "Weapon EXP Material": "Nguyên liệu Tăng cấp cho Vũ Khí"
       }
     },
     "home_page": {
@@ -799,8 +773,7 @@
       "Achievements Tracker": "Theo Dõi Thành Tựu",
       "Ascension Planner": "Kế Hoạch Thăng Cấp",
       "Events": "Sự Kiện",
-      "Articles": "Bài Viết",
-      "Old Site": "Trang Web Cũ"
+      "Articles": "Bài Viết"
     },
     "footer": {
       "links": {
