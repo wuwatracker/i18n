@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrı",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
-        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -57,7 +57,6 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -98,12 +97,10 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -223,17 +220,9 @@
         "download_failed": "İndirme başarısız oldu",
         "client_log_required": "''Client.log'' dosyası yüklemelisin!",
         "cannot_find_convene_url": "Buluşma URL'si bulamadık",
-        "cannot_find_convene_url_description": "Geçmişini açtığın zaman Client.log'un güncellendiğinden emin ol. Eğer güncellenmiyorsa yardım almak için ''Sorun-Çözüm'' sekmesine göz at.",
-        "convene_url_expired": "URL'n büyük ihtimalle zaman aşımına uğradı. Yeniden içe aktarmayı dene.",
-        "use_valid_player_id": "İlk önce geçerli bir oyuncu ID'si kullanmalısın",
-        "no_profile_to_download": "İndirilecek profil bulunamadı.",
         "no_pulls_to_download": "İndirilecek çağrı bulunamadı.",
         "need_to_upload_specific_file": "''{file}'' yüklemelisin!",
         "sync_unavailable": "Şu an senkronize edemiyoruz.",
-        "incorrect_input_file_description": "Burası sadece YENİ çağrı formatını içe aktarmak için!",
-        "files_no_upload": "Hiçbir dosya yüklenmedi.",
-        "files_max_upload_num": "En fazla {num} dosya yükleyebilirsin.",
-        "files_has_oversize_limit_num": "Bazı dosyalar {num}MB olan limiti aşıyor.",
         "inventory_item_does_not_exist": "Öyle bir öğe yok!",
         "planner_insufficient_materials": "Yetersiz materyal.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Çağrı geçmişini dışa aktarmak için misafir OLMAYAN bir profil kullanmalısın",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "Açmak için daha fazla çağrı yap",
         "pull_more_to_view_statistics": "İstatistikleri görüntülemek için daha fazla çağrıya ihtiyacın var",
         "download_will_start_shortly": "İndirmen birazdan başlayacak.",
-        "sync_already_synced": "Verilerin zaten eşitlenmiş.",
-        "sync_updating_remote_file": "{fileName} için sunucudaki kopyanız güncelleniyor...",
         "planner_edited_plan_for_name": "{name} için düzenlendi.",
         "unlinking_your_email": "Eşlenmen kaldırılıyor...",
         "importing_cloud_data": "Veritabanımızdan bulut verilerini içe aktarıyoruz...",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "Başarıyla yeni {num} çağrı içe aktarıldı.",
         "successfully_imported_profile": "Kullanıcı profilin başarılı bir şekilde içe aktarıldı.",
         "the_import_was_successful": "İçe aktarma başarılı!",
-        "successfully_imported_gacha_records_redirecting": "Takip sistemine aktarılıyorsun.",
         "create_profile": "{playerId} için başarılı bir şekilde profil oluşturuldu.",
         "delete_pulls": "{playerId} için başarılı bir şekilde tüm çağrılar silindi.",
         "delete_profiles": "Başarılı bir şekilde tüm kullanıcı profilleri silindi.",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "Bu eylem geri alınamaz!",
-        "disable_auto_profile_sync": "Bu seçenek otomatik profil eşitlemeyi de kapatacak!",
-        "this_does_not_include_your_pulls": "Bu senin çağrılarını içermiyor!",
         "planner_removed_plan_for_name": "{name} planı silindi."
       }
     },
@@ -295,13 +279,9 @@
       "search": "Ara",
       "search_placeholder": "Aramak için bir şeyler yaz",
       "search_reset": "Aramayı sıfırla",
-      "your_player_id_placeholder": "9-haneli oyuncu ID'in (ör. 123456789)",
-      "your_player_id_validation": "9-haneli oyuncu ID'in 1, 5, 6, 7, 8, veya 9 ile başlamalı",
       "type_to_confirm": "Onaylamak için <strong></strong> yaz",
       "file_input": "Yüklemek için tıkla & sürükleyip bırak",
       "accepted_formats": "Geçerli biçimler: {formats}",
-      "select_profile_placeholder_empty": "Profil bulunamadı",
-      "select_profile_placeholder_inactive": "Aktif profili seç",
       "filters": "Filtreler",
       "rows_per_page": "Sayfa başına düşen sıra sayısı",
       "items_per_page": "Items per page",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "Günlere göre çağrı sayısı ve nadirlik dağılımı grafiği",
       "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
       "pulls_per_rarity_description": "Nadirlik dağılımı grafiği",
-      "pulls_per_item_description": "Öğe başına düşen çağrı sayıları ve oranları"
+      "pulls_per_item_description": "Öğe başına düşen çağrı sayıları ve oranları",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "Aşağıdaki \"Verileri İçe Aktar\" butonuna bas",
       "upload_your_client_log_file_here": "Client.log dosyanı buraya yükle",
       "we_will_search_your_logs_and_extract_the_import_url": "Senin için dosyanı inceleyip Buluşma URL'ni bulacağız",
-      "logs_not_updating_alert": "URL Son Kullanma Tarihi",
-      "logs_not_updating_alert_description": "Kuro Games'in yeni getirdiği şüphelenilen bir güncellemeden dolayı, 14 Ocak 2025'den bu yana PC kullanıcıları oyuna giriş yapma sorunları yaşıyor. Bu sorunu çözmek için <link>Sorun-Çözüm Rehberi</link> 'mize göz at.",
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerini okuyarak Buluşma Geçmişi URL'ni ayrıştırır. Bir SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <link>buradan</link> görüntüleyebilirsin.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
@@ -588,7 +568,6 @@
       "download_ascent": "Gacha geçmişi URL'ne erişmek için Ascent'i indir ve kullan",
       "download_ascent_description": "<ascent>Ascent v2.1.6</ascent> 'yı indirip kullanmak ve URL'ni elde etmek için, Genshin İmpact veya Honkai Star Rail'de geçmişini elde etmeye benzer bir şekilde, <link>Mirai0999 tarafından yapılmış rehber</link> 'deki adımları izle.",
       "download_ascent_disclaimer": "NOT: Bu yöntem sadece Android 11 ve üstü modellerde geçerlidir.",
-      "download_ascent_troubleshooting": "Eğer düzgün çalışmıyorsa <link>Sorun-Çözüm bölümü</link> 'ne bak.",
       "ios_follow_tutorial_video": "Öğretici videomuzu takip et",
       "ios_follow_tutorial_video_description": "İOS'da, Honkai Star Rail ve Genshin İmpact'a benzer şekilde geçmişine ulaşmak ve içe aktarmak için bu öğretici videosundaki adımları takip et.",
       "ios_certificate_disclaimer": "NOT: Sertifika dosyasını indirirken Safari Tarayıcı kullanman gerekli. Google Chrome, Firefox vb... gibi diğer tarayıcılar çalışmayabilir.",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "\"Sayfa Hakkında\" seçeneğine tıkla",
       "ps5_enter_your_record_id": "'player_id' 'ni ve 'record_id' 'ni buraya yaz",
       "open_terminal_and_open_script": "Ardından terminal'i aç ve aşağıdaki metni yapıştır.",
-      "linux_script_disclaimer": "NOT: Bu komut dizini, yalnızca oyun günlüklerini okuyarak Buluşma Geçmişi URL'ni ayrıştırır. Bir SHA256 kontrolü, komut dizininin üzerinde değişiklik yapılmadığını garanti eder. Komut dizinini <script>buradan</script> görüntüleyebilirsin. <repo></repo>'ı paylaştığı için <author></author>'ya teşekkür ederiz.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Resonance Liberation",
         "intro_skill": "Intro Skill"
-      },
-      "item_tags": {
-        "Universal Currency": "Para",
-        "Skill Upgrade Material": "Yetenek Geliştirme Malzemeleri",
-        "Ascension Material": "Yükseltme Malzemeleri",
-        "Resonator Ascension Material": "Rezonatör Yükseltme Malzemeleri",
-        "Resonator EXP Material": "Rezonatör EXP Malzemeleri",
-        "Weapon and Skill Material": "Silah ve Yetenek Malzemeleri",
-        "Weapon EXP Material": "Silah EXP Malzemeleri"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "Başarım Takip Sistemi",
       "Ascension Planner": "Geliştirme Planlayıcısı",
       "Events": "Etkinlikler",
-      "Articles": "Makaleler",
-      "Old Site": "Eski Site"
+      "Articles": "Makaleler"
     },
     "footer": {
       "links": {

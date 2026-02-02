@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ 喚取",
       "num_pity": "{num}✦ 保底",
       "total_pulls": "累積喚取",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>累積</span> 喚取",
       "total_astrites_responsive": "<span>累積</span> 星聲",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "漂泊者-衍射",
         "Rover-Aero": "漂泊者-氣動",
         "Aalto": "秋水",
-        "Aemeath": "Aemeath",
         "Augusta": "奧古斯塔",
         "Baizhi": "白芷",
         "Brant": "布蘭特",
@@ -57,7 +57,6 @@
         "Lingyang": "凌陽",
         "Lumi": "燈燈",
         "Lupa": "露帕",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "琳奈",
         "Mornye": "莫寧",
         "Mortefi": "莫特斐",
@@ -98,12 +97,10 @@
         "Comet Flare": "異度",
         "Cosmic Ripples": "漪瀾浮錄",
         "Dauntless Evernight": "永夜長明",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "異響空靈",
         "Emerald of Genesis": "千古洑流",
         "Emerald Sentence": "裁竹",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "風流的寓言詩",
         "Feather Edge": "翼鋒",
         "Fusion Accretion": "核熔星盤",
@@ -223,17 +220,9 @@
         "download_failed": "下載失敗",
         "client_log_required": "您需要先上傳 Client.log 檔案！",
         "cannot_find_convene_url": "我們無法找到喚取連結",
-        "cannot_find_convene_url_description": "確認你的 Client.log 在你打開歷史記錄之後有被更新，否則，請查看疑難排解部分尋求協助。",
-        "convene_url_expired": "您的 URL 連結可能已失效，請重新匯入。",
-        "use_valid_player_id": "您必須使用有效的玩家ID",
-        "no_profile_to_download": "沒有設定檔可以下載。",
         "no_pulls_to_download": "沒有紀錄可以下載。",
         "need_to_upload_specific_file": "您需要先上傳 {file}！",
         "sync_unavailable": "目前無法同步。",
-        "incorrect_input_file_description": "只可以匯入新版喚取歷史的檔案格式！",
-        "files_no_upload": "檔案尚未上傳。",
-        "files_max_upload_num": "僅可上傳 {num} 個檔案。",
-        "files_has_oversize_limit_num": "檔案超過限制大小 {num} MB。",
         "inventory_item_does_not_exist": "物品不存在！",
         "planner_insufficient_materials": "材料不足。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "您必須使用非訪客模式匯出您的喚取紀錄",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "喚取更多以解鎖",
         "pull_more_to_view_statistics": "需要更多喚取資料進行分析",
         "download_will_start_shortly": "下載即將開始。",
-        "sync_already_synced": "資料已同步。",
-        "sync_updating_remote_file": "正在更新雲端檔案 {fileName}……",
         "planner_edited_plan_for_name": "{name} 的編輯計劃。",
         "unlinking_your_email": "解除email連結……",
         "importing_cloud_data": "正在匯入雲端資料……",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "成功匯入{num}筆喚取資料。",
         "successfully_imported_profile": "成功匯入您的帳號。",
         "the_import_was_successful": "匯入成功！",
-        "successfully_imported_gacha_records_redirecting": "正在重新導向至您的分析頁面。",
         "create_profile": "成功建立帳號 {playerId}。",
         "delete_pulls": "成功刪除 {playerId} 的所有喚取紀錄。",
         "delete_profiles": "成功刪除所有帳號資料。",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "此動作無法復原！",
-        "disable_auto_profile_sync": "為了資料安全，這將會同步關閉自動帳號同步！",
-        "this_does_not_include_your_pulls": "這將不包含您的喚取紀錄！",
         "planner_removed_plan_for_name": "移除計畫 {name} 。"
       }
     },
@@ -295,13 +279,9 @@
       "search": "搜尋",
       "search_placeholder": "搜尋某物……",
       "search_reset": "重新搜尋",
-      "your_player_id_placeholder": "您的9碼遊戲UID（例如：123456789）",
-      "your_player_id_validation": "您的9碼遊戲UID必須以 1、5、6、7、8或者9 開頭",
       "type_to_confirm": "輸入 <strong></strong> 以繼續",
       "file_input": "點擊上傳或者拖拉至此",
       "accepted_formats": "可接受格式: {formats}",
-      "select_profile_placeholder_empty": "找不到帳號資料",
-      "select_profile_placeholder_inactive": "選擇帳號",
       "filters": "篩選器",
       "rows_per_page": "單頁列數",
       "items_per_page": "每頁項目數",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "顯示每天的喚取數與稀有度分佈",
       "pulls_per_rarity": "每種稀有度的喚取次數",
       "pulls_per_rarity_description": "顯示稀有度分佈",
-      "pulls_per_item_description": "顯示每種物品的抽取數"
+      "pulls_per_item_description": "顯示每種物品的抽取數",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "點選下方的 『匯入資料』按鈕",
       "upload_your_client_log_file_here": "在此上傳您的 Client.log 檔案 ",
       "we_will_search_your_logs_and_extract_the_import_url": "我們將會搜尋您的紀錄並產出您的匯入URL",
-      "logs_not_updating_alert": "紀錄連結已過期",
-      "logs_not_updating_alert_description": "截至2025年1月14日，可能來自庫洛的遊戲更新導致電腦端玩家在登入遊戲時遇到了一些問題。請閱讀我們的<link>問題排除指引</link>來解決它。",
       "first_open_game_history": "首先，啟動遊戲並打開你的遊戲內喚取歷史紀錄",
       "open_windows_powershell_and_run_script": "之後，打開 Windows PowerShell 並貼上以下指令。",
       "click_the_copy_button": "點擊右邊的複製按鈕",
-      "powershell_script_disclaimer": "提示：程式不會修改您的任何檔案，只會從紀錄中擷取紀錄連結。您可以在<link>這裡</link>查看原始碼。",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "在這裡貼上連結",
       "paste_the_json_here": "在這裡貼上 JSON 資料",
       "go_to_installation_directory": "前往遊戲安裝目錄",
@@ -588,7 +568,6 @@
       "download_ascent": "下載並且使用 Ascent app 取得您的喚取歷史紀錄連結",
       "download_ascent_description": "類似於《原神》或者《崩壞：星穹鐵道》取得歷史紀錄的方式，你可以參考 <link>Mirai0009提供的教學影片</link> 下載並使用 <ascent>Ascent v2.1.6</ascent> 來取得您的連結。",
       "download_ascent_disclaimer": "提示：此方法僅支援 Android 11 版本或以上的裝置。",
-      "download_ascent_troubleshooting": "如果它不能正常執行，請查看<link>問題排除</link>部分。",
       "ios_follow_tutorial_video": "觀看教學影片",
       "ios_follow_tutorial_video_description": "類似於在《原神》或《崩壞：星穹鐵道》中取得你的抽卡記錄，請按照這個教學影片來匯入你iOS上的資料。",
       "ios_certificate_disclaimer": "提示：您必須使用Safari瀏覽器下載證書檔案。其他的瀏覽器像是Google Chrome可能無法成功。",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "點擊頁面資訊按鈕",
       "ps5_enter_your_record_id": "在此輸入你的遊戲ID與紀錄ID",
       "open_terminal_and_open_script": "接下來，開啟 Windows PowerShell，並貼上以下的指令：",
-      "linux_script_disclaimer": "這個程式不會編輯您的任何檔案，它僅簡單的讀取您的遊戲喚取紀錄。您可以檢視此<script>程式的原始碼</script>。感謝<author></author>分享他們的<repo></repo>原始碼。",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "此程式不會修改您的任何檔案，它僅從您的喚取紀錄中擷取紀錄連結。",
       "email_link_description": "這將會允許我們儲存您的資料至我們的資料庫並且在每次您匯入資料時自動備份 。如果您的UID已經連結到另外的email，我們將會移除舊的連結並使用您的新email地址。"
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "共鳴迴路",
         "resonance_liberation": "共鳴解放",
         "intro_skill": "變奏技能"
-      },
-      "item_tags": {
-        "Universal Currency": "通用貨幣",
-        "Skill Upgrade Material": "技能升級材料",
-        "Ascension Material": "突破材料",
-        "Resonator Ascension Material": "共鳴者突破材料",
-        "Resonator EXP Material": "共鳴者經驗材料",
-        "Weapon and Skill Material": "武器與技能材料",
-        "Weapon EXP Material": "武器經驗材料"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "成就分析",
       "Ascension Planner": "升級規劃工具",
       "Events": "活動",
-      "Articles": "主題",
-      "Old Site": "舊版網站"
+      "Articles": "主題"
     },
     "footer": {
       "links": {

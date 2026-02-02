@@ -24,6 +24,7 @@
       "rarity_pulls": "จำนวน {num}✦ ที่ได้รับจากตู้",
       "num_pity": "การันตี {num}✦",
       "total_pulls": "จำนวนสุ่มทั้งหมด",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>จำนวน</span>สุ่มทั้งหมด",
       "total_astrites_responsive": "<span>จำนวน</span> Astrite ที่ใช้ทั้งหมด",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
-        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "ไป๋จื๋อ",
         "Brant": "แบรน",
@@ -57,7 +57,6 @@
         "Lingyang": "หลิงหยาง",
         "Lumi": "ลูมิ",
         "Lupa": "Lupa",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "มอร์เตฟี่",
@@ -98,12 +97,10 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -223,17 +220,9 @@
         "download_failed": "ดาวน์โหลดล้มเหลว",
         "client_log_required": "โปรดอัปโหลดไฟล์ Client.log",
         "cannot_find_convene_url": "ไม่พบ URL ประวัติการสุ่ม",
-        "cannot_find_convene_url_description": "ตรวจสอบให้แน่ใจว่า Client.log อัปเดตเมื่อคุณเปิดประวัติการสุ่ม หากพบปัญหา โปรดไปที่หมวดการแก้ไขปัญหาเพื่อรับความช่วยเหลือ",
-        "convene_url_expired": "URL ของคุณหมดอายุแล้ว โปรดนำเข้าอีกครั้ง",
-        "use_valid_player_id": "โปรดใช้ Player ID ที่ถูกต้อง",
-        "no_profile_to_download": "ไม่มีโปรไฟล์ให้ดาวน์โหลด",
         "no_pulls_to_download": "ไม่มีจำนวนการสุ่มให้ดาวน์โหลด",
         "need_to_upload_specific_file": "คุณต้องอัปโหลด {file}!",
         "sync_unavailable": "ไม่สามารถ sync ได้ในขณะนี้",
-        "incorrect_input_file_description": "สำหรับการนำเข้าประวัติการสุ่มใหม่เท่านั้น!",
-        "files_no_upload": "No files were uploaded.",
-        "files_max_upload_num": "You can only upload up to {num} file(s).",
-        "files_has_oversize_limit_num": "Some files exceed the size limit of {num}MB.",
         "inventory_item_does_not_exist": "That item does not exist!",
         "planner_insufficient_materials": "Insufficient materials.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "สุ่มเพิ่มเพื่อปลดล็อค",
         "pull_more_to_view_statistics": "คุณต้องสุ่มเพิ่มเพื่อดูสถิติ",
         "download_will_start_shortly": "การดาวน์โหลดของคุณจะเริ่มในไม่ช้า",
-        "sync_already_synced": "ข้อมูลของคุณได้รับการซิงค์แล้ว",
-        "sync_updating_remote_file": "กำลังอัปเดต Remote data สำหรับ {fileName}...",
         "planner_edited_plan_for_name": "Edited plan for {name}.",
         "unlinking_your_email": "Unlinking your email...",
         "importing_cloud_data": "Importing cloud data from our database...",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "นำเข้าข้อมูลของคุณเสร็จสิ้น",
         "the_import_was_successful": "The import was successful!",
-        "successfully_imported_gacha_records_redirecting": "กำลังติดตามเข้าสู่ข้อมูลของคุณ",
         "create_profile": "สร้างโปรไฟล์สำหรับ {playerId} เสร็จสิ้น",
         "delete_pulls": "ลบประวัติการสุ่มทั้งหมดของ {playerId} เสร็จสิ้น",
         "delete_profiles": "ลบโปรไฟล์ทั้งหมดเสร็จสิ้น",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "ไม่สามารถยกเลิกได้!",
-        "disable_auto_profile_sync": "เพื่อความปลอดภัย ระบบจะปิดการใช้งานการซิงค์โปรไฟล์อัตโนมัติ!",
-        "this_does_not_include_your_pulls": "ไม่รวมถึงจำนวนการสุ่มของคุณ!",
         "planner_removed_plan_for_name": "Removed plan for {name}."
       }
     },
@@ -295,13 +279,9 @@
       "search": "ค้นหาความสำเร็จ",
       "search_placeholder": "ค้นหาความสำเร็จที่ต้องการ",
       "search_reset": "รีเซ็ตการค้นหา",
-      "your_player_id_placeholder": "Player ID 9 หลัก (ต.ย. 900xxxxxx)",
-      "your_player_id_validation": "Player ID 9 หลักต้องเริ่มด้วยเลข 1, 5, 6, 7, 8, 9",
       "type_to_confirm": "พิมพ์ <strong></strong> เพื่อยืนยัน",
       "file_input": "คลิกเพื่ออัปโหลดหรือลากและวาง",
       "accepted_formats": "Accepted formats: {formats}",
-      "select_profile_placeholder_empty": "ไม่พบโปรไฟล์",
-      "select_profile_placeholder_inactive": "เลือกโปรไฟล์ที่ใช้งานอยู่",
       "filters": "ตัวกรอง",
       "rows_per_page": "แถวต่อหน้า",
       "items_per_page": "Items per page",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
       "pulls_per_rarity": "Pulls per Rarity",
       "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item"
+      "pulls_per_item_description": "Showing pulls per item",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "Press the \"Import Data\" button below",
       "upload_your_client_log_file_here": "Upload your Client.log file here",
       "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
-      "logs_not_updating_alert": "ปัญหา URL ของคุณหมดอายุ",
-      "logs_not_updating_alert_description": "ตั้งแต่วันที่ 14 มกราคม 2025 ผู้ใช้ PC จะประสบปัญหาการเข้าสู่ระบบในเกมเนื่องจากการอัปเดตจากทาง Kuro Games วิธีแก้สามารถอ่าน<link>คู่มือการแก้ไขปัญหาของเรา</link>เพื่อหาวิธีแก้ไข",
       "first_open_game_history": "ขั้นตอนแรกให้เปิดเกมและดูรายละเอียดประวัติในเกมของคุณ",
       "open_windows_powershell_and_run_script": "จากนั้น ให้ทำการกดปุ่ม Win + S เพื่อ Search หา Windows PowerShell แล้วคัดลอก Script ดังกล่าวไปวางในนั้น",
       "click_the_copy_button": "กดปุ่มด้านขวาเพื่อคัดลอกข้อความทั้งหมด",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "วาง URL ที่นี่",
       "paste_the_json_here": "วางข้อมูล JSON ที่นี่",
       "go_to_installation_directory": "ไปที่ตำแหน่งการติดตั้งเกมของคุณ",
@@ -588,7 +568,6 @@
       "download_ascent": "ดาวน์โหลดและใช้ Ascent เพื่อรับ URL ประวัติกาชาของคุณ",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "หมายเหตุ: วิธีนี้รองรับเฉพาะ Android เวอร์ชัน 11 ขึ้นไป",
-      "download_ascent_troubleshooting": "หากวิธีนี้ทำงานไม่ถูกต้อง สามารถกดเช็คได้ที่ <link>Troubleshooting Section</link>.",
       "ios_follow_tutorial_video": "ขั้นตอนแรก ทำตามวิดีสอนใช้งานของพวกเรา",
       "ios_follow_tutorial_video_description": "วิธีจะคล้ายกับการรับประวัติใน Genshin Impact หรือ Honkai Star Rail สามารถทำตามวิดีโอแนะนำวิธีการนำเข้าข้อมูลใน iOS",
       "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "กดปุ่ม 'Page Information'",
       "ps5_enter_your_record_id": "กรอก 'player_id' และ 'record_id' ของคุณที่นี่",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Resonance Liberation",
         "intro_skill": "Intro Skill"
-      },
-      "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "Achievements Tracker",
       "Ascension Planner": "Ascension Planner",
       "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Articles": "Articles"
     },
     "footer": {
       "links": {

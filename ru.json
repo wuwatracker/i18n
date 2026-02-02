@@ -24,6 +24,7 @@
       "rarity_pulls": "{num}✦ Крутки",
       "num_pity": "{num}✦ Гарант",
       "total_pulls": "Всего круток",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "<span>Всего</span> круток",
       "total_astrites_responsive": "<span>Всего</span> Астрита",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
-        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -57,7 +57,6 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -98,12 +97,10 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -223,17 +220,9 @@
         "download_failed": "Ошибка загрузки",
         "client_log_required": "Вам необходимо загрузить файл Client.log!",
         "cannot_find_convene_url": "Ссылка на историю круток не найдена",
-        "cannot_find_convene_url_description": "Убедитесь, что ваш Client.log обновляется после открытия истории круток в игре, в противном случае проверьте секцию Решения проблем.",
-        "convene_url_expired": "Скорее всего, срок действия вашей ссылки истёк. Попробуйте импортировать её снова.",
-        "use_valid_player_id": "Сначала вы должны использовать верный ИД игрока",
-        "no_profile_to_download": "Нет профилей для загрузки.",
         "no_pulls_to_download": "Нет круток для загрузки.",
         "need_to_upload_specific_file": "Вам нужно загрузить {file}!",
         "sync_unavailable": "Синхронизация пока недоступна.",
-        "incorrect_input_file_description": "Это ТОЛЬКО для загрузки файлов с новым форматом записи круток!",
-        "files_no_upload": "Ошибка загрузки файлов.",
-        "files_max_upload_num": "Вы можете загрузить до {num} файла(-ов).",
-        "files_has_oversize_limit_num": "Размер некоторых файлов превышает лимит в {num} МБ.",
         "inventory_item_does_not_exist": "Такого предмета не существует!",
         "planner_insufficient_materials": "Недостаточно материалов.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Используйте любой профиль, кроме гостевого, чтобы экспортировать историю",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "Открутите больше для разблокировки",
         "pull_more_to_view_statistics": "Вам нужно сделать больше круток, чтобы увидеть статистику",
         "download_will_start_shortly": "Ваша загрузка скоро начнётся.",
-        "sync_already_synced": "Ваши данные уже синхронизированы.",
-        "sync_updating_remote_file": "Updating remote copy for ${fileName}...",
         "planner_edited_plan_for_name": "План для {name} изменён.",
         "unlinking_your_email": "Отвязка вашей электронной почты...",
         "importing_cloud_data": "Импортируются данные из облака...",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "Успешно импортировано {num} новых круток.",
         "successfully_imported_profile": "Профиль успешно импортирован.",
         "the_import_was_successful": "Импорт успешно завершен!",
-        "successfully_imported_gacha_records_redirecting": "Переходим к истории круток.",
         "create_profile": "Профиль для игрока {playerId} успешно создан.",
         "delete_pulls": "Все крутки игрока {playerId} успешно удалены.",
         "delete_profiles": "Все профили успешно удалены.",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "Это действие не может быть отменено!",
-        "disable_auto_profile_sync": "Для вашей безопасности, это так же отключит автоматическую синхронизацию профиля!",
-        "this_does_not_include_your_pulls": "Ваши крутки в это не входят!",
         "planner_removed_plan_for_name": "План для {name} удалён."
       }
     },
@@ -295,13 +279,9 @@
       "search": "Поиск",
       "search_placeholder": "Найти...",
       "search_reset": "Сброс поиска",
-      "your_player_id_placeholder": "Ваш 9-значный ИД (напр. 123456789)",
-      "your_player_id_validation": "Ваш 9-значный ИД должен начинаться с 1, 5, 6, 7, 8 или 9",
       "type_to_confirm": "Введите <strong></strong> для подтверждения",
       "file_input": "Нажмите для загрузки или перетащите сюда",
       "accepted_formats": "Допустимые форматы: {formats}",
-      "select_profile_placeholder_empty": "Профили не найдены",
-      "select_profile_placeholder_inactive": "Выбрать профиль",
       "filters": "Фильтры",
       "rows_per_page": "Строк на странице",
       "items_per_page": "Items per page",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "Показывает распределение круток по дням и редкости",
       "pulls_per_rarity": "Крутки по редкости",
       "pulls_per_rarity_description": "Показывает распределение по редкости",
-      "pulls_per_item_description": "Общее число выпадений"
+      "pulls_per_item_description": "Общее число выпадений",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "Press the \"Import Data\" button below",
       "upload_your_client_log_file_here": "Upload your Client.log file here",
       "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
-      "logs_not_updating_alert": "Истечение срока действия ссылки",
-      "logs_not_updating_alert_description": "Начиная с 14 января 2025 года, пользователи на ПК начали сталкиваться с проблемой ведения логов игрой из-за определённого обновления. Прочтите <link>Решение проблем</link> в случае, если импорт не выходит.",
       "first_open_game_history": "Для начала, запустите игру и откройте вашу историю круток",
       "open_windows_powershell_and_run_script": "После этого, откройте Windows PowerShell и вставьте следующий скрипт.",
       "click_the_copy_button": "Нажмите на кнопку \"Копировать\" справа",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "Вставьте ссылку сюда",
       "paste_the_json_here": "Вставьте сюда скопированное содержимое JSON",
       "go_to_installation_directory": "Найдите папку с игрой",
@@ -588,7 +568,6 @@
       "download_ascent": "Скачайте и используйте Ascent для получения ссылки на вашу историю круток",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "Этот метод поддерживает только устройства с версией Android 11 и выше.",
-      "download_ascent_troubleshooting": "Если что-то работает не так, проверьте <link>раздел Решение проблем</link>.",
       "ios_follow_tutorial_video": "Следуйте нашему видео-гайду",
       "ios_follow_tutorial_video_description": "Так же, как и для Genshin Impact или Honkai Star Rail, следуйте этому видео-гайду, чтобы получить ссылку на вашу историю круток на iOS.",
       "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "Нажмите кнопку Page Information(Информация о странице)",
       "ps5_enter_your_record_id": "Введите ваши player_id(1) и record_id(2) в поля ниже",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "Цепь Форте(Forte Circuit)",
         "resonance_liberation": "Освобождение резонанса (Resonance Liberation)",
         "intro_skill": "Вступительный навык (Intro Skill)"
-      },
-      "item_tags": {
-        "Universal Currency": "Универсальная валюта",
-        "Skill Upgrade Material": "Материал для улучшения навыков",
-        "Ascension Material": "Материал для возвышения",
-        "Resonator Ascension Material": "Материал для возвышения Резонатора",
-        "Resonator EXP Material": "Материал для повышения уровня Резонатора",
-        "Weapon and Skill Material": "Материал для улучшения оружия и навыков",
-        "Weapon EXP Material": "Материал для повышения уровня оружия"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "Трекер достижений",
       "Ascension Planner": "Планировщик",
       "Events": "Ивенты",
-      "Articles": "Статьи",
-      "Old Site": "Старый сайт"
+      "Articles": "Статьи"
     },
     "footer": {
       "links": {

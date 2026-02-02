@@ -24,6 +24,7 @@
       "rarity_pulls": "Invocations {num}✦",
       "num_pity": "Pity {num}✦",
       "total_pulls": "Invocations totales",
+      "total_users_responsive": "<span>Total</span> Users",
       "total_pulls_responsive": "Invocations totales",
       "total_astrites_responsive": "Astrites totales",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
@@ -34,7 +35,6 @@
         "Rover-Spectro": "Nomade-Spectro",
         "Rover-Aero": "Nomade-Aero",
         "Aalto": "Aalto",
-        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -57,7 +57,6 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
-        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -98,12 +97,10 @@
         "Comet Flare": "Comète éclatant",
         "Cosmic Ripples": "Ondes cosmiques",
         "Dauntless Evernight": "Intrépide éternel",
-        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discorde",
         "Emerald of Genesis": "Émeraude éternelle",
         "Emerald Sentence": "Emerald Sentence",
-        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables de Sagesse",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Accrétion de fusion",
@@ -223,17 +220,9 @@
         "download_failed": "Le téléchargement a échoué",
         "client_log_required": "Vous devez télécharger votre fichier Client.log !",
         "cannot_find_convene_url": "URL d'invocations introuvable",
-        "cannot_find_convene_url_description": "Vérifiez que votre fichier Client.log se met à jour quand vous ouvrez votre historique, sinon, consultez la section de dépannage pour obtenir de l'aide.",
-        "convene_url_expired": "Votre URL est expirée. Importez à nouveau.",
-        "use_valid_player_id": "Vous devez utiliser un player ID correct et valide.",
-        "no_profile_to_download": "Pas de profil à importer.",
         "no_pulls_to_download": "Pas d'invocations à importer.",
         "need_to_upload_specific_file": "Vous devez télécharger {file} !",
         "sync_unavailable": "Impossible de synchroniser pour le moment.",
-        "incorrect_input_file_description": "Ça n'est que pour l'importation de l'historique au nouveau format !",
-        "files_no_upload": "Aucun fichier n'a été téléchargé.",
-        "files_max_upload_num": "Vous ne pouvez télécharger que {num} fichier(s).",
-        "files_has_oversize_limit_num": "Certains fichiers dépassent la limite de taille de {num}Mo.",
         "inventory_item_does_not_exist": "Cet objet n'existe pas !",
         "planner_insufficient_materials": "Matériels insuffisants.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
@@ -260,8 +249,6 @@
         "pull_more_to_unlock": "Invoquez plus pour débloquer",
         "pull_more_to_view_statistics": "Vous avez besoin de plus d'invocations pour afficher les statistiques",
         "download_will_start_shortly": "Votre téléchargement va commencer.",
-        "sync_already_synced": "Vos données sont déjà synchronisées.",
-        "sync_updating_remote_file": "Mise à jour de la copie en ligne de {fileName}...",
         "planner_edited_plan_for_name": "Edited plan for {name}.",
         "unlinking_your_email": "Unlinking your email...",
         "importing_cloud_data": "Importing cloud data from our database...",
@@ -274,7 +261,6 @@
         "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
         "successfully_imported_profile": "Importation de votre profil utilisateur réussie.",
         "the_import_was_successful": "The import was successful!",
-        "successfully_imported_gacha_records_redirecting": "Redirection vers le traqueur.",
         "create_profile": "Création du profil pour {playerId} réussie.",
         "delete_pulls": "Suppression de toutes les invocations de {playerId} avec succès.",
         "delete_profiles": "Suppression réussie de tous les profils.",
@@ -284,8 +270,6 @@
       },
       "warn": {
         "this_cannot_be_undone": "Cette action ne peut pas être annulée !",
-        "disable_auto_profile_sync": "Pour votre sécurité, cette action va aussi désactiver la synchronisation automatique du profil !",
-        "this_does_not_include_your_pulls": "Ceci n'inclut pas vos invocations !",
         "planner_removed_plan_for_name": "Plan supprimé pour {name}."
       }
     },
@@ -295,13 +279,9 @@
       "search": "Chercher",
       "search_placeholder": "Rechercher...",
       "search_reset": "Réinitialiser la recherche",
-      "your_player_id_placeholder": "Votre identifiant de joueur à 9 chiffres (exemple : 123456789)",
-      "your_player_id_validation": "Votre identifiant de joueur à 9 chiffres doit commencer par 1, 5, 6, 7, 8 ou 9",
       "type_to_confirm": "Tapez <strong></strong> pour confirmer",
       "file_input": "Cliquez pour télécharger ou glissez-déposez",
       "accepted_formats": "Formats acceptés : {formats}",
-      "select_profile_placeholder_empty": "Aucune invocation trouvée",
-      "select_profile_placeholder_inactive": "Choisir un profil",
       "filters": "Filtres",
       "rows_per_page": "Lignes par page",
       "items_per_page": "Items per page",
@@ -484,7 +464,9 @@
       "pulls_per_day_description": "Affiche le nombre d'invocations par jour et la distribution de rareté des invocations",
       "pulls_per_rarity": "Invocations par rareté",
       "pulls_per_rarity_description": "Affiche la distribution de la rareté des invocations",
-      "pulls_per_item_description": "Affiche le nombre d'invocations par objet"
+      "pulls_per_item_description": "Affiche le nombre d'invocations par objet",
+      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
@@ -573,12 +555,10 @@
       "press_the_import_data_button": "Press the \"Import Data\" button below",
       "upload_your_client_log_file_here": "Upload your Client.log file here",
       "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
-      "logs_not_updating_alert": "Expiration des URL",
-      "logs_not_updating_alert_description": "À partir du 14 janvier 2025, les utilisateurs PC ont rencontré des difficultés à récupérer leur historique en raison d'une possible mise à jour de Kuro Games. Lisez notre <link>Guide de dépannage</link> pour le comprendre.",
       "first_open_game_history": "Commencez par lancer le jeu et ouvrir votre historique en jeu",
       "open_windows_powershell_and_run_script": "Ensuite, ouvrez Windows PowerShell, et collez-y le script suivant.",
       "click_the_copy_button": "Cliquez sur le bouton de copie à droite",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
       "paste_the_url_here": "Collez l'URL ici",
       "paste_the_json_here": "Collez vos données JSON ici",
       "go_to_installation_directory": "Accédez à votre répertoire d'installation",
@@ -588,7 +568,6 @@
       "download_ascent": "Téléchargez et utilisez Ascent pour obtenir l'URL de votre historique d'invocations",
       "download_ascent_description": "De la même manière que pour obtenir votre historique pour Genshin Impact ou Honkai Star Rail, suivez <link>ce guide de Mirai0009</link> pour télécharger et utiliser <ascent>Ascent v2.1.6</ascent> pour récupérer votre URL.",
       "download_ascent_disclaimer": "NOTE : Cette méthode supporte seulement les versions d'Android 11 ou ultérieures.",
-      "download_ascent_troubleshooting": "Si cela ne fonctionne pas, consultez <link>la section de dépannage</link>.",
       "ios_follow_tutorial_video": "Suivez notre tutoriel vidéo",
       "ios_follow_tutorial_video_description": "Comme pour obtenir votre historique d'invocations pour Genshin Impact ou Honkai Star Rail, suivez ce tutoriel vidéo pour importer vos données sur iOS.",
       "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
@@ -597,7 +576,7 @@
       "ps5_click_on_page_information": "Appuyez sur le bouton 'Informations sur la page'",
       "ps5_enter_your_record_id": "Entrez votre 'player_id' et le 'record_id' ici",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. A SHA256 check ensures the script has not been tampered with. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
@@ -622,15 +601,6 @@
         "forte_circuit": "Forte Circuit",
         "resonance_liberation": "Libération résonatrice",
         "intro_skill": "Compétence d'intro"
-      },
-      "item_tags": {
-        "Universal Currency": "Universal Currency",
-        "Skill Upgrade Material": "Skill Upgrade Material",
-        "Ascension Material": "Ascension Material",
-        "Resonator Ascension Material": "Resonator Ascension Material",
-        "Resonator EXP Material": "Resonator EXP Material",
-        "Weapon and Skill Material": "Weapon and Skill Material",
-        "Weapon EXP Material": "Weapon EXP Material"
       }
     },
     "home_page": {
@@ -672,10 +642,10 @@
         "item_6": {
           "title": "Can I recover pulls older than 6 months?",
           "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are my statistics inaccurate?",
+          "title": "Why are some of my statistics inaccurate?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
@@ -803,8 +773,7 @@
       "Achievements Tracker": "Achievements Tracker",
       "Ascension Planner": "Planificateur d'ascension",
       "Events": "Events",
-      "Articles": "Articles",
-      "Old Site": "Old Site"
+      "Articles": "Articles"
     },
     "footer": {
       "links": {
