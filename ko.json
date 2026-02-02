@@ -491,7 +491,7 @@
         "pulls_file_import_dialog_title": "로컬 튜닝 기록 가져오기",
         "pulls_file_import_dialog_description_supported_files": "이는 우리 사이트 형식을 따르는 <code>wuwatracker-pulls</code> 및 <code>wuwatracker-convene-history</code> JSON 파일을 허용합니다.",
         "import_user_profile": "유저 프로필 가져오기",
-        "import_user_profile_dialog_description": "참고: 이는 업적, 인벤토리, 플래너 데이터가 포함된 <code></code> 파일만 허용합니다 튜닝 데이터를 가져오려면 다른 가져오기 버튼을 사용하세요.",
+        "import_user_profile_dialog_description": "",
         "profile_data_will_not_sync_callout_description": "변경 사항은 로컬에만 저장되며, 로그인 시 사라집니다. 프로필 데이터를 동기화하려면:",
         "profile_data_will_not_sync_callout_sign_in": "<link>계정 </link> 로그인",
         "profile_data_will_not_sync_callout_link_your_uid": "<link>UID </link>를 계정에 연결",
@@ -640,12 +640,12 @@
           "content_2": "여전히 문제가 있다면 <link>Discord 서버</link>에서 언제든지 도움을 요청해 주세요."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "6개월 이전의 튜닝 기록을 복구할 수 있나요?",
+          "content_1": "이전에 WuWa Tracker에 데이터를 가져온 적이 있다면, 오래된 튜닝 기록도 이미 UID에 백업되어 있습니다. UID에 이메일을 연결한 후 <link>Connections Settings</link>를 통해 언제든지 복구할 수 있습니다.",
+          "content_2": "그렇지 않은 경우, 즉 이번이 사이트를 처음 이용하는 경우에는 현재 게임 내 기록에서 확인할 수 있는 데이터만 접근할 수 있습니다. Kuro Games의 보관 정책에 따라 6개월이 지난 튜닝 기록은 더 이상 복구할 수 없습니다."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
+          "title": "일부 통계가 왜 정확하지 않은가요?",
           "content": "행운 지수나 글로벌 통계와 같은 일부 통계는 성능 향상을 위해 서버에 캐시됩니다. 새로운 튜닝을 가져온 후 이러한 값이 업데이트되기까지 몇 분이 걸릴 수 있습니다. 페이지를 새로고침하거나 몇 시간 후에 다시 확인해 보세요."
         }
       }
@@ -660,8 +660,8 @@
         "daily_reset": "일일 초기화"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "결정 웨이브 플레이트",
+        "stamina_extra": "결정 단체"
       }
     }
   },
