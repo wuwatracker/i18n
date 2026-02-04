@@ -288,7 +288,7 @@
       "accepted_formats": "Formatos aceptados: {formats}",
       "filters": "Filtros",
       "rows_per_page": "Filas por página",
-      "items_per_page": "Items per page",
+      "items_per_page": "Elementos por página",
       "planner_previous_must_be_between_min_max": "El nivel anterior debe estar entre {min} y {max}.",
       "planner_new_must_be_between_min_max": "El nivel nuevo debe de estar entre {min} y {max}."
     },
@@ -368,7 +368,7 @@
       "completion": "Estado",
       "all": "Todo",
       "hidden": "Oculto",
-      "variant": "Variant",
+      "variant": "Variante",
       "visible": "Visible",
       "local_data": "Datos locales",
       "from_file": "Desde archivo",
@@ -562,7 +562,7 @@
       "first_open_game_history": "Primero, inicia el juego y abre los detalles del historial dentro del juego",
       "open_windows_powershell_and_run_script": "Después, abre Windows Powershell, y pega el siguiente script.",
       "click_the_copy_button": "Haz clic en el botón de copiar a la derecha",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Puedes ver el script <link>aquí</link>.",
       "paste_the_url_here": "Pega la URL aquí",
       "paste_the_json_here": "Pega el JSON aquí",
       "go_to_installation_directory": "Ve a la carpeta de instalación del juego",
@@ -580,7 +580,7 @@
       "ps5_click_on_page_information": "Presiona el botón de 'Información de página'",
       "ps5_enter_your_record_id": "Introduce tu 'player_id' y 'record_id' aquí",
       "open_terminal_and_open_script": "Después, abre tu terminal, y pega el siguiente script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Puedes ver el script <script>aquí</script>. Créditos a <author></author> por compartir su <repo></repo> código.",
       "script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script aquí.",
       "email_link_description": "Esto nos permitirá guardar sus datos en nuestra base de datos y automáticamente hacer una copia de seguridad de sus datos cada vez que importe. Si tu ID de jugador ya está vinculada a otra dirección de correo electrónico, eliminaremos el enlace antiguo y usaremos tu nueva dirección de correo electrónico."
     },
@@ -615,32 +615,32 @@
       "quick_links_description": "Accede rápidamente a las páginas y funciones importantes",
       "the_curent_events_and_activities": "Los eventos y actividades actuales",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Preguntas Frecuentes",
+        "description": "Encuentra respuestas a las preguntas más comunes sobre WuWa Tracker",
+        "still_need_help": "¿Aún necesitas ayuda?",
+        "join_our_discord": "Únete a nuestro servidor de Discord y pide ayuda allí",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
+          "title": "¿Es seguro usar WuWa Tracker?",
           "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
+          "title": "¿Qué dispositivos y regiones son compatibles?",
           "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "content_2": "Estamos activos en todas las regiones y servidores de juegos incluyendo: América, Asia, Europa, SEA, HK/TW/MO y CN."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "¿Cómo puedo importar o exportar mis datos?",
+          "content": "Puedes importar o exportar tus datos usando la <link>Configuración de datos</link>. Le recomendamos que exporte sus datos regularmente como una copia de seguridad y que los guarde en múltiples ubicaciones."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
+          "title": "¿Cómo puedo sincronizar entre dispositivos?",
           "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
           "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
+          "title": "¿Cómo puedo solucionar mis problemas de importación?",
+          "content_1": "La mayoría de los problemas de importación se pueden resolver siguiendo nuestra <link>Guía de solución de problemas de importación</link>, que cubre problemas comunes y soluciones paso a paso.",
           "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
         },
         "item_6": {
@@ -649,18 +649,18 @@
           "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
+          "title": "¿Por qué son algunos de mis estadísticas inexactas?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "Más reciente primero",
+      "since_last_appearance": "Desde la última Aparición"
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
+        "weekly_reset": "Reinicio Semanal",
         "daily_reset": "Daily Reset"
       },
       "waveplates": {
