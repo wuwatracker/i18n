@@ -35,6 +35,7 @@
         "Rover-Spectro": "Rover-Spectro",
         "Rover-Aero": "Rover-Aero",
         "Aalto": "Aalto",
+        "Aemeath": "Aemeath",
         "Augusta": "Augusta",
         "Baizhi": "Baizhi",
         "Brant": "Brant",
@@ -57,6 +58,7 @@
         "Lingyang": "Lingyang",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
+        "Luuk Herssen": "Luuk Herssen",
         "Lynae": "Lynae",
         "Mornye": "Mornye",
         "Mortefi": "Mortefi",
@@ -97,10 +99,12 @@
         "Comet Flare": "Comet Flare",
         "Cosmic Ripples": "Cosmic Ripples",
         "Dauntless Evernight": "Dauntless Evernight",
+        "Daybreaker's Spine": "Daybreaker's Spine",
         "Defier's Thorn": "Defier's Thorn",
         "Discord": "Discord",
         "Emerald of Genesis": "Emerald of Genesis",
         "Emerald Sentence": "Emerald Sentence",
+        "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
         "Fusion Accretion": "Fusion Accretion",
@@ -720,7 +724,7 @@
       "description": "Bạn có thể cập nhật tùy chọn cookie bất cứ lúc nào để kiểm soát cách chúng tôi thu thập và sử dụng dữ liệu của bạn, tuân thủ các quy định về quyền riêng tư như GDPR và CCPA."
     },
     "timeline": {
-      "title": "Dòng thời gian sự kiện",
+      "title": "Dòng Thời Gian Sự Kiện",
       "page_header": "Cập nhật các sự kiện và hoạt động mới nhất trong Wuthering Waves",
       "description": "Sử dụng múi giờ địa phương của bạn hoặc bất kỳ múi giờ máy chủ Wuthering Waves nào để xem lịch biểu của từng biểu ngữ, các sự kiện trong trò chơi, Tower of Adversity & Depths of Illusive Realm - tất cả trong một nơi. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
     },
