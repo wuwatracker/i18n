@@ -24,10 +24,10 @@
       "rarity_pulls": "{num}✦ 唤取次数",
       "num_pity": "{num}✦ 保底",
       "total_pulls": "总计唤取",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "<span>总计</span> 用户",
       "total_pulls_responsive": "<span>总计</span> 唤取",
       "total_astrites_responsive": "<span>总计</span> 星声",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
+      "invalid_pity_number": "由于唤取历史不一致，此保底数无效。"
     },
     "name": {
       "items": {
@@ -35,7 +35,7 @@
         "Rover-Spectro": "漂泊者-衍射",
         "Rover-Aero": "漂泊者-气动",
         "Aalto": "秋水",
-        "Aemeath": "Aemeath",
+        "Aemeath": "爱弥斯",
         "Augusta": "奥古斯塔",
         "Baizhi": "白芷",
         "Brant": "布兰特",
@@ -58,7 +58,7 @@
         "Lingyang": "凌阳",
         "Lumi": "灯灯",
         "Lupa": "露帕",
-        "Luuk Herssen": "Luuk Herssen",
+        "Luuk Herssen": "陆·赫斯",
         "Lynae": "琳奈",
         "Mornye": "莫宁",
         "Mortefi": "莫特斐",
@@ -99,12 +99,12 @@
         "Comet Flare": "异度",
         "Cosmic Ripples": "漪澜浮录",
         "Dauntless Evernight": "永夜长明",
-        "Daybreaker's Spine": "Daybreaker's Spine",
+        "Daybreaker's Spine": "白昼之脊",
         "Defier's Thorn": "不屈命定之冠",
         "Discord": "异响空灵",
         "Emerald of Genesis": "千古洑流",
         "Emerald Sentence": "裁竹",
-        "Everbright Polestar": "Everbright Polestar",
+        "Everbright Polestar": "永远的启明星",
         "Fables of Wisdom": "风流的寓言诗",
         "Feather Edge": "翼锋",
         "Fusion Accretion": "核熔星盘",
@@ -469,8 +469,8 @@
       "pulls_per_rarity": "各稀有度唤取次数",
       "pulls_per_rarity_description": "显示稀有度的分布",
       "pulls_per_item_description": "显示各物品的唤取次数",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "数据可能会在 {finalAggregationDate} 之前发生变化",
+      "data_may_change_until_description": "唤取历史记录在 6 个月后过期，因此随着更多用户导入他们的数据，数据仍在持续汇总中。"
     },
     "settings": {
       "general": {
@@ -562,7 +562,7 @@
       "first_open_game_history": "首先，启动游戏并打开您的游戏内唤取历史记录详情",
       "open_windows_powershell_and_run_script": "接着，打开 Windows PowerShell，然后粘贴下面的脚本。",
       "click_the_copy_button": "点击右边的复制按钮",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "注意：本脚本只会从您的游戏日志中提取唤取历史 URL。您可以<link>在此处</link>查看脚本。",
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
       "go_to_installation_directory": "进入您的游戏安装目录",
@@ -580,7 +580,7 @@
       "ps5_click_on_page_information": "按下“页面信息”按钮",
       "ps5_enter_your_record_id": "在此输入您的 player_id 和 record_id",
       "open_terminal_and_open_script": "接着，打开终端，然后粘贴下面的脚本：",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "注意：本脚本只会从您的游戏日志中提取唤取历史 URL。您可以<script>在此处</script>查看脚本。感谢 <author></author> 分享他们的 <repo></repo> 代码。",
       "script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。",
       "email_link_description": "这将使我们能够保存您的数据到我们的数据库并在每次导入时自动备份您的数据。 如果您的玩家 ID 已经链接到另一个电子邮件地址，我们将移除旧链接并使用您的新电子邮件地址。"
     },
@@ -615,18 +615,18 @@
       "quick_links_description": "快速访问重要页面和功能",
       "the_curent_events_and_activities": "当前事件和活动",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "常见问题",
+        "description": "找到关于 WuWa Tracker 常见问题的答案",
+        "still_need_help": "仍然需要帮助？",
+        "join_our_discord": "加入我们的 Discord 服务器并在那里寻求帮助",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "title": "WuWa Tracker 是否安全？",
+          "content_1": "WuWa Tracker <link>自 2024 年 5 月 30 日起开始运营</link>，至今未收到任何用户反馈账号问题。我们只读取您的唤取记录 URL，也就是游戏本身用于展示唤取历史的同一个网页。我们<strong>绝不会</strong>向你索要《鸣潮》的登录凭据。",
+          "content_2": "您的数据保留在您的设备上，除非您选择将电子邮件链接到您的 UID 以在不同设备之间进行同步。每次导入时，我们只会收集匿名化的全局统计数据。我们建议您在使用我们的网站之前审查我们的<privacy>隐私政策</privacy>和<terms>服务条款</terms>。"
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "title": "支持哪些设备和服务器区域？",
+          "content_1": "目前，我们的<link>导入教程</link>支持所有主流设备和平台，包括：Windows、macOS、Linux、Android、iOS 以及 PlayStation 5。此外，我们还支持使用开源自动化脚本导入，或通过手动文件上传的方式导入，并提供逐步讲解的视频教程。",
           "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
         },
         "item_3": {
