@@ -24,9 +24,9 @@
       "rarity_pulls": "{num}✦ 唤取次数",
       "num_pity": "{num}✦ 保底",
       "total_pulls": "总计唤取",
-      "total_users_responsive": "<span>总计</span> 用户",
-      "total_pulls_responsive": "<span>总计</span> 唤取",
-      "total_astrites_responsive": "<span>总计</span> 星声",
+      "total_users_responsive": "<span>总计</span>用户",
+      "total_pulls_responsive": "<span>总计</span>唤取",
+      "total_astrites_responsive": "<span>总计</span>星声",
       "invalid_pity_number": "由于唤取历史不一致，此保底数无效。"
     },
     "name": {
@@ -242,7 +242,7 @@
         "enable_email_link": "启用电子邮件链接",
         "sign_in_to_sync": "登入以同步",
         "loading": "加载中...",
-        "import_loading": "导入抽卡记录...",
+        "import_loading": "导入唤取记录...",
         "import_loading_description": "这不会太久！",
         "scroll_for_more": "滚动以查看更多",
         "no_filters": "未选择过滤条件",
@@ -261,7 +261,7 @@
       },
       "success": {
         "successfully_imported_achievements": "成功导入您的成就。",
-        "successfully_imported_gacha_records": "成功导入您的抽卡记录。",
+        "successfully_imported_gacha_records": "成功导入您的唤取记录。",
         "successfully_imported_num_new_pulls": "成功导入 {num} 个新唤取次数。",
         "successfully_imported_profile": "成功导入您的用户资料。",
         "the_import_was_successful": "导入成功！",
@@ -362,7 +362,7 @@
       "guest": "游客",
       "america": "美洲",
       "europe": "欧洲",
-      "asia_sea_regions": "亚洲、东南亚、台湾/香港/澳门",
+      "asia_sea_regions": "Asia、SEA、TW/HK/MO",
       "completed": "已完成",
       "incomplete": "未完成",
       "completion": "完成状态",
@@ -566,10 +566,10 @@
       "paste_the_url_here": "将 URL 粘贴至此处",
       "paste_the_json_here": "将 JSON 粘贴至此处",
       "go_to_installation_directory": "进入您的游戏安装目录",
-      "go_to_installation_directory_description": "右键点击《鸣潮》游戏启动器并选择 <code>打开文件位置</code>。你应该会看见 <code>launcher.exe</code> 以及很多 <code>.dll</code> 文件。",
+      "go_to_installation_directory_description": "右键点击《鸣潮》游戏启动器并选择 <code>打开文件位置</code>。您应该会看见 <code>launcher.exe</code> 以及很多 <code>.dll</code> 文件。",
       "search_for_log": "寻找 <code>Client.log</code> 并在这里上传它",
       "airplane_mode": "飞行模式",
-      "download_ascent": "下载并使用 Ascent 获取您的抽卡历史 URL",
+      "download_ascent": "下载并使用 Ascent 获取您的唤取历史 URL",
       "download_ascent_description": "类似于从《原神》或《崩坏：星穹铁道》中获取历史记录，请根据 <link>Mirai0009 的视频教程</link>来下载并使用 <ascent>Ascent v2.1.6</ascent> 来得到您的 URL。",
       "download_ascent_disclaimer": "注意：此方法仅适用于 Android 11 及以上版本。",
       "ios_follow_tutorial_video": "参照我们的视频教程",
@@ -627,30 +627,30 @@
         "item_2": {
           "title": "支持哪些设备和服务器区域？",
           "content_1": "目前，我们的<link>导入教程</link>支持所有主流设备和平台，包括：Windows、macOS、Linux、Android、iOS 以及 PlayStation 5。此外，我们还支持使用开源自动化脚本导入，或通过手动文件上传的方式导入，并提供逐步讲解的视频教程。",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "content_2": "我们支持所有游戏区域和服务器，包括 America、Asia、Europe、SEA、HK/TW/MO 和 CN。"
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "如何导入或导出我的数据？",
+          "content": "您可以使用您的<link>数据设置</link>导入或导出数据。我们建议您定期导出数据作为备份并将其保存到多个位置。"
         },
         "item_4": {
-          "title": "How do I sync across devices?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "title": "如何在不同设备之间同步？",
+          "content_1": "要在多台设备之间同步您的数据，必须先将您的 UID 绑定到一个电子邮箱地址。您需要先通过我们的社交登录方式（如 Google 或 GitHub）登录您的电子邮箱账户，然后即可在<connections>连接设置</connections>中绑定邮箱，或在按照我们的<import>导入教程</import>操作时启用邮箱绑定。",
+          "content_2": "当您进行导入，或在<link>连接设置</link>中手动点击 {recoverPulls} 按钮时，您的唤取数据将会自动同步。"
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "如何解决我的导入问题？",
+          "content_1": "大多数导入问题都可以通过遵循我们的<link>导入疑难解答指南</link>来解决，该指南涵盖共同的问题和逐步解决方法。",
+          "content_2": "如果您仍然遇到麻烦，请随时加入我们的<link>Discord 服务器</link>以获得进一步的帮助。"
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "我能恢复超过 6 个月的唤取吗？",
+          "content_1": "如果您以前已经将您的数据导入到 WuWa Tracker，您的旧唤取已经被备份到您的 UID。您可以随时通过您的<link>连接设置</link>恢复它们，然后将您的电子邮件链接到您的 UID。",
+          "content_2": "否则，如果这是您第一次使用我们的网站，很遗憾我们只能读取您当前在游戏内仍可查看的历史记录。由于库洛游戏的数据保留策略，超过 6 个月的唤取记录将无法再被获取。"
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "为什么我的一些统计数字不准确？",
+          "content": "为提升性能，一些统计数据（例如运气评分和全球统计）会缓存在我们的服务器上。在导入新的唤取记录后，这些数值可能需要几分钟才能更新。请尝试刷新页面，或在数小时后再查看。"
         }
       }
     },
@@ -672,25 +672,25 @@
   "metadata": {
     "root": {
       "title": "《鸣潮》资源与助手应用",
-      "description": "《鸣潮》保底计数器，使用全球统计的最新数据以及更多。您可以跨设备同步您的数据、与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "WuWa Tracker 是排名第一的《鸣潮》唤取记录与保底计数工具。您可以追踪唤取记录与成就、查看全球幸运统计，使用我们的突破规划器与计算器，并浏览攻略、百科和新闻内容，全方位优化您的《鸣潮》游戏体验。"
     },
     "achievements": {
       "title": "成就",
       "page_header": "追踪您在游戏中的成就并查看您迄今获得的所有奖励",
-      "description": "标记《鸣潮》游戏成就，以便随时检查未完成的成就，并自由地在设备之间导入或导出数据！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "标记《鸣潮》游戏成就，以便随时检查未完成的成就，并自由地在设备之间导入或导出数据！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
     },
     "tracker": {
       "index": {
         "title": "唤取记录",
         "page_header": "与其他的 WuWa Tracker 用户比较，查看您最近的唤取和统计。",
-        "description": "查看您最新的《鸣潮》抽取统计数据和最近的唤取记录。仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+        "description": "查看您最新的《鸣潮》唤取统计数据和最近的唤取记录。仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
       },
       "global": {
         "title": "全球统计数据",
         "title_responsive": "<span>全球</span>统计数据",
-        "description": "查看 {currentBanner} 卡池的全球抽卡统计数据，包含当期共鸣者 {currentFeaturedResonator}！仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
+        "description": "查看 {currentBanner} 卡池的全球唤取统计数据，包含当期共鸣者 {currentFeaturedResonator}！仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！",
         "banner_title": "{name} 卡池统计数据",
-        "banner_description": "查看 {name} 卡池的全球抽卡统计数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+        "banner_description": "查看 {name} 卡池的全球唤取统计数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
       }
     },
     "error": {
@@ -700,7 +700,7 @@
     "import": {
       "title": "导入唤取历史",
       "page_header": "选择您的平台和首选方法以导入您的数据",
-      "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "跟随我们的交互式教程显示您的《鸣潮》数据，并查看您的统计信息。我们支持从 PC、Android 和 iOS 设备自动导入数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
     },
     "not_found": {
       "title": "未找到页面",
@@ -713,7 +713,7 @@
     "settings": {
       "title": "设置",
       "page_header": "在此管理您的网站首选项和数据",
-      "description": "通过登录到 Google 的方式同步您的数据。在同一位置管理您的《鸣潮》抽取数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "通过登录到 Google 的方式同步您的数据。在同一位置管理您的《鸣潮》唤取数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
     },
     "terms_and_conditions": {
       "title": "条款和条件",
@@ -726,22 +726,22 @@
     "timeline": {
       "title": "活动时间线",
       "page_header": "随时了解《鸣潮》最新事件和活动",
-      "description": "您可以使用您本地的时区或任何《鸣潮》服务器时区以查看每个横幅时间表、游戏内事件、逆境之塔和幻境深渊的期间 - 一切尽在一处。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！"
+      "description": "您可以使用您本地的时区或任何《鸣潮》服务器时区以查看每个卡池时间表、游戏内事件、逆境之塔和幻境深渊的周期 - 一切尽在一处。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
     },
     "wiki": {
       "resonator": {
         "title": "共鸣者",
-        "description": "查看《鸣潮》游戏中共鸣者的信息和档案，并使用 WuWa Tracker 的材料计算器来对您升级共鸣者时所消耗的资源进行规划。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
+        "description": "查看《鸣潮》游戏中共鸣者的信息和档案，并使用 WuWa Tracker 的材料计算器来对您升级共鸣者时所消耗的资源进行规划！",
         "page_header": "查看《鸣潮》中的所有共鸣者"
       },
       "item": {
         "title": "物品",
-        "description": "查看《鸣潮》物品的信息及其掉落位置，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
+        "description": "查看《鸣潮》物品的信息及其掉落位置，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！",
         "page_header": "查看《鸣潮》中的所有物品"
       },
       "weapon": {
         "title": "武器",
-        "description": "查看《鸣潮》武器的信息及属性，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享你的抽卡记录，并轻松追踪您的账户！",
+        "description": "查看《鸣潮》武器的信息及属性，并追踪您的物品栏，且上述操作均可于本网站的同一处完成，免去切换网页或工具的麻烦。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！",
         "page_header": "查看《鸣潮》中的所有武器"
       }
     },
