@@ -580,7 +580,7 @@
       "ps5_click_on_page_information": "\"Sayfa Hakkında\" seçeneğine tıkla",
       "ps5_enter_your_record_id": "'player_id' 'ni ve 'record_id' 'ni buraya yaz",
       "open_terminal_and_open_script": "Ardından terminal'i aç ve aşağıdaki metni yapıştır.",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOT: Bu metin sadece kayıtlarını okuyup Çağrı Geçmişi URL'ni ayıklar. Metni <script>buradan</script> görüntüleyebilirsin. <repo></repo> kodunu paylaştığı için <author></author>'ya teşekkür ediyoruz.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
@@ -615,17 +615,17 @@
       "quick_links_description": "Önemli sayfa ve özelliklere hızlıca eriş",
       "the_curent_events_and_activities": "Güncel etkinliker ve aktiviteler",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Sıkça Sorulan Sorular",
+        "description": "WuWa Tracker hakkında sıkça sorulan soruların cevaplarını bul",
+        "still_need_help": "Hâlâ yardıma mı ihtiyacın var?",
+        "join_our_discord": "Discord Sunucumuza katıl ve orada yardım iste",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "title": "WuWa Tracker'i kullanmak güvenli mi?",
+          "content_1": "WuWa Tracker </link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ.",
+          "content_2": "UID'nize bir e-posta adresi eşleyerek cihazlar arasında senkronizasyon yapmayı seçmediğiniz sürece verileriniz cihazınızda kalır. İçe aktarma yaptığınızda yalnızca anonimleştirilmiş genel istatistikler toplanır. Sitemizi kullanmadan önce <privacy>Gizlilik Politikamızı</privacy> ve <terms>Hizmet Şartlarımızı</terms> incelemenizi öneririz."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
+          "title": "Hangi cihazlar ve bölgeler destekleniyor?",
           "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
         },
