@@ -24,10 +24,10 @@
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrı",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "<span>Toplam</span> Oyuncu",
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
+      "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış."
     },
     "name": {
       "items": {
@@ -208,8 +208,8 @@
         "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Acemi'nin Seçimi Buluşması",
         "Giveback Event Convene": "Hediye Etkinliği Buluşması",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "New Voyage Silahı",
+        "New Voyage Resonator": "New Voyage Rezonatörü"
       }
     }
   },
@@ -288,7 +288,7 @@
       "accepted_formats": "Geçerli biçimler: {formats}",
       "filters": "Filtreler",
       "rows_per_page": "Sayfa başına düşen sıra sayısı",
-      "items_per_page": "Items per page",
+      "items_per_page": "Sayfa başı öğe sayısı",
       "planner_previous_must_be_between_min_max": "Önceki seviye {min} ve {max} arasında olmalı.",
       "planner_new_must_be_between_min_max": "Yeni seviye {min} ve {max} arasında olmalı."
     },
@@ -368,7 +368,7 @@
       "completion": "Tamamlanma Durumu",
       "all": "Hepsi",
       "hidden": "Gizli",
-      "variant": "Variant",
+      "variant": "Varyant",
       "visible": "Gizli Değil",
       "local_data": "Yerel Veri",
       "from_file": "Dosyadan",
@@ -469,8 +469,8 @@
       "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
       "pulls_per_rarity_description": "Nadirlik dağılımı grafiği",
       "pulls_per_item_description": "Öğe başına düşen çağrı sayıları ve oranları",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "Veriler {finalAggregationDate} tarihine kadar değişiklik gösterebilir",
+      "data_may_change_until_description": "Çağrı geçmişlerinin 6 aylık kullanım süresi vardır; bundan dolayı yeni veriler eklendikçe elimizdeki veriler değişiklik gösterebilir."
     },
     "settings": {
       "general": {
@@ -522,7 +522,7 @@
       "advanced": {
         "title": "Gelişmiş",
         "successfully_deleted_active_profile_data": "Başarılı bir şekilde {activeProfileId}'nin verileri silindi",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_pull_data": "{activeProfileId} kullanıcısının verileri başarıyla silindi",
         "website_version": "Website Sürümü",
         "website_version_description": "Şu an, sitemizin bu sürümünü kullanıyorsun",
         "session_logs": "Oturum Kayıtları",
@@ -531,16 +531,16 @@
         "delete_active_profile_data_description": "Aktif profil verilerini silebilirsin, bu veriler SADECE çağrı dışı verileri içerir.",
         "delete_active_profile_data_confirm_title": "{activeProfileId} profilinin tüm verilerini silmek istediğinden emin misin?",
         "delete_active_profile_data_confirm_description": "<strong></strong> ile ilişkili tüm veriler silinecek. Bu işlem GERİ ALINAMAZ.",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data": "Aktif Kullanıcı Profil Verilerini Sil",
+        "delete_active_profile_pull_data_description": "Akitf profilinin çağrı verilerini tarayıcının lokal verilerinden silebilirsin",
+        "delete_active_profile_pull_data_confirm_title": "{activeProfileId} kullanıcısının çağrı verilerini gerçekten silmek istiyor musun?",
+        "delete_active_profile_pull_data_confirm_description": "<strong></strong> için tüm çağrı geçmişi silinecek. Bu eylem geri alınamaz.",
+        "delete_active_profile_pull_data_confirm_text": "{activeProfileId} Kullanıcısının Çağrı Verilerini Sil",
         "profile": "Profil",
         "type_active_profile_to_confirm": "Onaylamak için {activeProfileId} yaz",
         "delete_active_profile_data_confirm_text": "{activeProfileId} profilinin verilerini sil",
         "delete_profile_data": "Profil Verilerini Sil",
-        "delete_pull_data": "Delete Pull Data",
+        "delete_pull_data": "Çağrı Verilerini Sil",
         "enable_beta_features": "Beta Özelliklerini Etkinleştir",
         "enable_beta_features_description": "Yeni özelliklere erken erişim sağla"
       }
@@ -562,7 +562,7 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOT: Bu metin sadece kayıtlarını okuyup Çağrı Geçmişi URL'ni ayıklar. Metni <link>buradan</link> görüntüleyebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
