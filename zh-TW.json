@@ -67,7 +67,7 @@
         "Qiuyuan": "仇遠",
         "Roccia": "洛可可",
         "Sanhua": "散华",
-        "Shorekeeper": "守㟁人",
+        "Shorekeeper": "守岸人",
         "Taoqi": "桃祈",
         "Verina": "维里奈",
         "Yangyang": "秧秧",
@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "物品不存在！",
         "planner_insufficient_materials": "材料不足。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "您必須使用非訪客模式匯出您的喚取紀錄",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "解除郵箱綁失敗",
         "failed_to_fetch_pulls_from_database": "資料同步失敗",
         "an_error_occured_while_merging_your_data": "合併資料失敗",
         "your_email_must_be_linked_to_import_pulls": "您必須連結您的email才可以匯入喚取資料",
-        "your_email_must_be_linked_to_import_pulls_description": "請先登入並連結您的UID。"
+        "your_email_must_be_linked_to_import_pulls_description": "請先登入並連結您的UID。",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "請先登入",
@@ -270,6 +274,8 @@
         "delete_profiles": "成功刪除所有帳號資料。",
         "planner_successfully_completed_plan_for_name": "計畫 {name} 已成功完成！",
         "planner_successfully_created_plan_for_name": "成功建立計畫 {name}。",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "成功解除email綁定"
       },
       "warn": {
