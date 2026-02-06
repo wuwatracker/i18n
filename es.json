@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Materiales insuficientes.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de invocaciones",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "Error al desvincular tu correo electrónico",
         "failed_to_fetch_pulls_from_database": "No se pudo obtener las extracciones de nuestra base de datos",
         "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
         "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las invocaciones",
-        "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero."
+        "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero.",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "Inicia sesión primero",
@@ -270,6 +274,8 @@
         "delete_profiles": "Se ha eliminado todos los perfiles de usuario exitosamente.",
         "planner_successfully_completed_plan_for_name": "¡Plan {name} completado exitosamente!",
         "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}.",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "Se desvinculó correctamente tu correo electrónico"
       },
       "warn": {
