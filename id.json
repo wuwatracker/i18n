@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "Item tidak ditemukan!",
         "planner_insufficient_materials": "Material tidak cukup.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "Failed to unlink your email",
         "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
         "an_error_occured_while_merging_your_data": "An error occured while merging your data",
         "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first."
+        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first.",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "Sign in first",
@@ -270,6 +274,8 @@
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
         "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}.",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "Successfully unlinked your email"
       },
       "warn": {
