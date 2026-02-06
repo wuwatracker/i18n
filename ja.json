@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "そのアイテムは存在しません!",
         "planner_insufficient_materials": "必要な材料が足りません。",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "集音履歴をエクスポートするには、ゲスト以外のプロファイルを使用する必要があります",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "メールアドレスのリンクを解除できませんでした",
         "failed_to_fetch_pulls_from_database": "データベースからの集音の取得に失敗しました",
         "an_error_occured_while_merging_your_data": "データ結合中にエラーが発生しました",
         "your_email_must_be_linked_to_import_pulls": "集音履歴をインポートするにはメールアドレスをリンクする必要があります",
-        "your_email_must_be_linked_to_import_pulls_description": "まずはログインしてプレイヤーIDをリンクしてください。"
+        "your_email_must_be_linked_to_import_pulls_description": "まずはログインしてプレイヤーIDをリンクしてください。",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "まずはサインインしてください",
@@ -270,6 +274,8 @@
         "delete_profiles": "すべてのユーザープロファイルを削除しました。",
         "planner_successfully_completed_plan_for_name": "{name} のプランが正常に完了しました!",
         "planner_successfully_created_plan_for_name": "{name} のプランを作成しました。",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "メールアドレスのリンクを解除しました"
       },
       "warn": {
