@@ -19,15 +19,15 @@
     "phrase": {
       "import_data": "Importar datos",
       "import_data_description": "Usa tus datos exportados previamente y guárdalos en tu navegador",
-      "banner_list": "Lista de banners",
+      "banner_list": "Lista de Banners",
       "no_pulls_yet": "Aún no se ha invocado",
       "rarity_pulls": "{num}✦ Invocaciones",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Invocaciones Totales",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "Usuarios <span>Totales</span>",
       "total_pulls_responsive": "Invocaciones <span>Totales</span>",
       "total_astrites_responsive": "Astritas <span>totales</span>",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
+      "invalid_pity_number": "Este número de pity no es válido, debido a una inconsistencia del historial de invocaciones."
     },
     "name": {
       "items": {
@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Materiales insuficientes.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de invocaciones",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "Error al desvincular tu correo electrónico",
         "failed_to_fetch_pulls_from_database": "No se pudo obtener las extracciones de nuestra base de datos",
         "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
         "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las invocaciones",
-        "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero."
+        "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero.",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "Inicia sesión primero",
@@ -270,6 +274,8 @@
         "delete_profiles": "Se ha eliminado todos los perfiles de usuario exitosamente.",
         "planner_successfully_completed_plan_for_name": "¡Plan {name} completado exitosamente!",
         "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}.",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "Se desvinculó correctamente tu correo electrónico"
       },
       "warn": {
@@ -288,7 +294,7 @@
       "accepted_formats": "Formatos aceptados: {formats}",
       "filters": "Filtros",
       "rows_per_page": "Filas por página",
-      "items_per_page": "Items per page",
+      "items_per_page": "Elementos por página",
       "planner_previous_must_be_between_min_max": "El nivel anterior debe estar entre {min} y {max}.",
       "planner_new_must_be_between_min_max": "El nivel nuevo debe de estar entre {min} y {max}."
     },
@@ -368,7 +374,7 @@
       "completion": "Estado",
       "all": "Todo",
       "hidden": "Oculto",
-      "variant": "Variant",
+      "variant": "Variante",
       "visible": "Visible",
       "local_data": "Datos locales",
       "from_file": "Desde archivo",
@@ -469,8 +475,8 @@
       "pulls_per_rarity": "Invocaciones por rareza",
       "pulls_per_rarity_description": "Mostrando la distribución de rareza",
       "pulls_per_item_description": "Mostrando invocaciones por objeto",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "Los datos pueden cambiar hasta {finalAggregationDate}",
+      "data_may_change_until_description": "El historial de invocaciones expira después de 6 meses, por lo que los datos siguen siendo añadidos a medida que más usuarios importan sus datos."
     },
     "settings": {
       "general": {
@@ -522,7 +528,7 @@
       "advanced": {
         "title": "Avanzado",
         "successfully_deleted_active_profile_data": "Se han eliminado correctamente los datos de {activeProfileId}",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_pull_data": "Se han eliminado correctamente los datos de las invocaciones de {activeProfileId}",
         "website_version": "Versión del Sitio Web",
         "website_version_description": "Actualmente estás usando esta versión del sitio",
         "session_logs": "Registros de Sesión",
@@ -531,16 +537,16 @@
         "delete_active_profile_data_description": "Puedes eliminar los datos de perfil del sitio web activo, SÓLO incluyendo todos los datos que no tengan nada que ver con las invocaciones",
         "delete_active_profile_data_confirm_title": "¿Estás seguro de que quieres eliminar los datos de {activeProfileId}?",
         "delete_active_profile_data_confirm_description": "Todos los datos asociados para <strong></strong> se eliminarán. Esta acción no se puede deshacer.",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data": "Eliminar los Datos de las Invocaciones del Perfil Activo",
+        "delete_active_profile_pull_data_description": "Puedes eliminar los datos de las invocaciones de tu perfil activo desde el almacenamiento local de tu navegador",
+        "delete_active_profile_pull_data_confirm_title": "¿Estás seguro de que quieres eliminar los datos de las invocaciones de {activeProfileId}?",
+        "delete_active_profile_pull_data_confirm_description": "Todos los datos del historial de invocaciones para <strong></strong> se eliminarán. Esta acción no se puede deshacer.",
+        "delete_active_profile_pull_data_confirm_text": "Eliminar los Datos de las Invocaciones de {activeProfileId}",
         "profile": "Perfil",
         "type_active_profile_to_confirm": "Escribe {activeProfileId} para confirmar",
         "delete_active_profile_data_confirm_text": "Eliminar los Datos de {activeProfileId}",
         "delete_profile_data": "Eliminar Datos del Perfil",
-        "delete_pull_data": "Delete Pull Data",
+        "delete_pull_data": "Eliminar Datos de las Invocaciones",
         "enable_beta_features": "Habilitar Funcionalidades Beta",
         "enable_beta_features_description": "Opta por probar nuevas funciones antes de que sean oficialmente estrenadas"
       }
@@ -562,7 +568,7 @@
       "first_open_game_history": "Primero, inicia el juego y abre los detalles del historial dentro del juego",
       "open_windows_powershell_and_run_script": "Después, abre Windows Powershell, y pega el siguiente script.",
       "click_the_copy_button": "Haz clic en el botón de copiar a la derecha",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Puedes ver el script <link>aquí</link>.",
       "paste_the_url_here": "Pega la URL aquí",
       "paste_the_json_here": "Pega el JSON aquí",
       "go_to_installation_directory": "Ve a la carpeta de instalación del juego",
@@ -580,7 +586,7 @@
       "ps5_click_on_page_information": "Presiona el botón de 'Información de página'",
       "ps5_enter_your_record_id": "Introduce tu 'player_id' y 'record_id' aquí",
       "open_terminal_and_open_script": "Después, abre tu terminal, y pega el siguiente script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Puedes ver el script <script>aquí</script>. Créditos a <author></author> por compartir su <repo></repo> código.",
       "script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script aquí.",
       "email_link_description": "Esto nos permitirá guardar sus datos en nuestra base de datos y automáticamente hacer una copia de seguridad de sus datos cada vez que importe. Si tu ID de jugador ya está vinculada a otra dirección de correo electrónico, eliminaremos el enlace antiguo y usaremos tu nueva dirección de correo electrónico."
     },
@@ -615,53 +621,53 @@
       "quick_links_description": "Accede rápidamente a las páginas y funciones importantes",
       "the_curent_events_and_activities": "Los eventos y actividades actuales",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Preguntas Frecuentes",
+        "description": "Encuentra respuestas a las preguntas más comunes sobre WuWa Tracker",
+        "still_need_help": "¿Aún necesitas ayuda?",
+        "join_our_discord": "Únete a nuestro servidor de Discord y pide ayuda allí",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
+          "title": "¿Es seguro usar WuWa Tracker?",
           "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "title": "¿Qué dispositivos y regiones son compatibles?",
+          "content_1": "Actualmente, nuestro <link>tutorial de importación</link> es compatible con todos los dispositivos y plataformas principales, incluyendo Windows, macOS, Linux, Android, iOS y PlayStation 5. Además, apoyamos las importaciones usando scripts automatizados de código abierto o mediante métodos manuales de carga de archivos con vídeotutoriales.",
+          "content_2": "Estamos activos en todas las regiones y servidores de juegos incluyendo: América, Asia, Europa, SEA, HK/TW/MO y CN."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "¿Cómo puedo importar o exportar mis datos?",
+          "content": "Puedes importar o exportar tus datos usando la <link>Configuración de datos</link>. Le recomendamos que exporte sus datos regularmente como una copia de seguridad y que los guarde en múltiples ubicaciones."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
+          "title": "¿Cómo puedo sincronizar entre dispositivos?",
           "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "content_2": "Tus datos de invocaciones se sincronizarán automáticamente cada vez que importes o pulses manualmente el botón {recoverPulls} a través de tus <link>Ajustes de Conexiones</link>."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "¿Cómo puedo solucionar mis problemas de importación?",
+          "content_1": "La mayoría de los problemas de importación se pueden resolver siguiendo nuestra <link>Guía de solución de problemas de importación</link>, que cubre problemas comunes y soluciones paso a paso.",
+          "content_2": "Si todavía tienes problemas, no dudes en contactar con nuestro <link>servidor de Discord</link> para obtener más ayuda."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "¿Puedo recuperar las invocaciones de más de 6 meses?",
+          "content_1": "Si previamente has importado tus datos a WuWa Tracker, tus invocaciones antiguas ya están respaldadas en tu UID. Puedes recuperarlas en cualquier momento a través de la <link>Configuración de Conexiones</link> después de vincular tu correo electrónico a tu UID.",
+          "content_2": "De lo contrario, por desgracia, si esta es tu primera vez usando nuestro sitio, solo podemos acceder a lo que está actualmente disponible en tu historial de juego. Las invocaciones con más de 6 meses de antigüedad ya no se pueden obtener debido a la política de retención de Kuro Games."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
+          "title": "¿Por qué son algunos de mis estadísticas inexactas?",
           "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
         }
       }
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "Más reciente primero",
+      "since_last_appearance": "Desde la última aparición"
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "Reinicio Semanal",
+        "daily_reset": "Reinicio Diario"
       },
       "waveplates": {
         "stamina": "Waveplates",
@@ -758,10 +764,10 @@
       "description": "¡Lee los últimos artículos y actualizaciones sobre Wuthering Waves, incluyendo guías, consejos, noticias, anuncios y más!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "page_header_title": "Banner History",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "Historial de Banners de Wuthering Waves",
+      "page_header": "Rastrea el historial de banners y reruns de Wuthering Waves",
+      "page_header_title": "Historial de los Banners",
+      "description": "Vea todos los banners de Wuthering Waves pasados y actuales con un gráfico intuitivo con todas las versiones de juegos y las fases de los banners. Planifica tus invocaciones basándote en cuándo es más probable que ocurra una rerun del banner."
     }
   },
   "config": {

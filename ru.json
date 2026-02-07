@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "Такого предмета не существует!",
         "planner_insufficient_materials": "Недостаточно материалов.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Используйте любой профиль, кроме гостевого, чтобы экспортировать историю",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "Не удалось отвязать ваш адрес электронной почты",
         "failed_to_fetch_pulls_from_database": "Не удалось получить крутки из нашей базы данных",
         "an_error_occured_while_merging_your_data": "Произошла ошибка при слиянии ваших данных",
         "your_email_must_be_linked_to_import_pulls": "Ваш адрес электронной почты должен быть привязан для импорта круток",
-        "your_email_must_be_linked_to_import_pulls_description": "Пожалуйста, сначала войдите и привяжите свой UID."
+        "your_email_must_be_linked_to_import_pulls_description": "Пожалуйста, сначала войдите и привяжите свой UID.",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "Сначала выполните вход",
@@ -270,6 +274,8 @@
         "delete_profiles": "Все профили успешно удалены.",
         "planner_successfully_completed_plan_for_name": "План для {name} выполнен!",
         "planner_successfully_created_plan_for_name": "Создан план для {name}.",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "Привязка к адресу электр. почты убрана"
       },
       "warn": {

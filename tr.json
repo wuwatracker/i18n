@@ -24,10 +24,10 @@
       "rarity_pulls": "{num}✦ Çağrılar",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Toplam Çağrı",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "<span>Toplam</span> Oyuncu",
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency."
+      "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış."
     },
     "name": {
       "items": {
@@ -208,8 +208,8 @@
         "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Acemi'nin Seçimi Buluşması",
         "Giveback Event Convene": "Hediye Etkinliği Buluşması",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "New Voyage Silahı",
+        "New Voyage Resonator": "New Voyage Rezonatörü"
       }
     }
   },
@@ -230,11 +230,15 @@
         "inventory_item_does_not_exist": "Öyle bir öğe yok!",
         "planner_insufficient_materials": "Yetersiz materyal.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Çağrı geçmişini dışa aktarmak için misafir OLMAYAN bir profil kullanmalısın",
+        "failed_to_link_email": "Failed to link your email",
         "failed_to_unlink_email": "E-posta eşlemen kaldırılamadı",
         "failed_to_fetch_pulls_from_database": "Veritabanımızdan çağrıları getiremedik :(",
         "an_error_occured_while_merging_your_data": "Verilerini birleştirirken bir sorun oluştu",
         "your_email_must_be_linked_to_import_pulls": "Çağrılarını içe aktarabilmek için e-postanı eşlemelisin",
-        "your_email_must_be_linked_to_import_pulls_description": "Lütfen öncelikle giriş yap ve oyuncu ID'ni eşle."
+        "your_email_must_be_linked_to_import_pulls_description": "Lütfen öncelikle giriş yap ve oyuncu ID'ni eşle.",
+        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "import_file_cannot_be_empty": "Import file cannot be empty",
+        "your_url_is_invalid": "Your URL is invalid"
       },
       "info": {
         "sign_in_first": "Öncelikle giriş yapmalısın",
@@ -270,6 +274,8 @@
         "delete_profiles": "Başarılı bir şekilde tüm kullanıcı profilleri silindi.",
         "planner_successfully_completed_plan_for_name": "{name} planı başarılı bir şekilde tamamlandı!",
         "planner_successfully_created_plan_for_name": "{name} planı başarılı bir şekilde oluşturuldu.",
+        "successfully_linked_email": "Successfully linked your email",
+        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
         "successfully_unlinked_email": "Başarıyla e-posta eşlemen kaldırıldı"
       },
       "warn": {
@@ -288,7 +294,7 @@
       "accepted_formats": "Geçerli biçimler: {formats}",
       "filters": "Filtreler",
       "rows_per_page": "Sayfa başına düşen sıra sayısı",
-      "items_per_page": "Items per page",
+      "items_per_page": "Sayfa başı öğe sayısı",
       "planner_previous_must_be_between_min_max": "Önceki seviye {min} ve {max} arasında olmalı.",
       "planner_new_must_be_between_min_max": "Yeni seviye {min} ve {max} arasında olmalı."
     },
@@ -368,7 +374,7 @@
       "completion": "Tamamlanma Durumu",
       "all": "Hepsi",
       "hidden": "Gizli",
-      "variant": "Variant",
+      "variant": "Varyant",
       "visible": "Gizli Değil",
       "local_data": "Yerel Veri",
       "from_file": "Dosyadan",
@@ -469,8 +475,8 @@
       "pulls_per_rarity": "Çağrıların Nadirlik Oranları",
       "pulls_per_rarity_description": "Nadirlik dağılımı grafiği",
       "pulls_per_item_description": "Öğe başına düşen çağrı sayıları ve oranları",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "Veriler {finalAggregationDate} tarihine kadar değişiklik gösterebilir",
+      "data_may_change_until_description": "Çağrı geçmişlerinin 6 aylık kullanım süresi vardır; bundan dolayı yeni veriler eklendikçe elimizdeki veriler değişiklik gösterebilir."
     },
     "settings": {
       "general": {
@@ -522,7 +528,7 @@
       "advanced": {
         "title": "Gelişmiş",
         "successfully_deleted_active_profile_data": "Başarılı bir şekilde {activeProfileId}'nin verileri silindi",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_pull_data": "{activeProfileId} kullanıcısının verileri başarıyla silindi",
         "website_version": "Website Sürümü",
         "website_version_description": "Şu an, sitemizin bu sürümünü kullanıyorsun",
         "session_logs": "Oturum Kayıtları",
@@ -531,16 +537,16 @@
         "delete_active_profile_data_description": "Aktif profil verilerini silebilirsin, bu veriler SADECE çağrı dışı verileri içerir.",
         "delete_active_profile_data_confirm_title": "{activeProfileId} profilinin tüm verilerini silmek istediğinden emin misin?",
         "delete_active_profile_data_confirm_description": "<strong></strong> ile ilişkili tüm veriler silinecek. Bu işlem GERİ ALINAMAZ.",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data": "Aktif Kullanıcı Profil Verilerini Sil",
+        "delete_active_profile_pull_data_description": "Akitf profilinin çağrı verilerini tarayıcının lokal verilerinden silebilirsin",
+        "delete_active_profile_pull_data_confirm_title": "{activeProfileId} kullanıcısının çağrı verilerini gerçekten silmek istiyor musun?",
+        "delete_active_profile_pull_data_confirm_description": "<strong></strong> için tüm çağrı geçmişi silinecek. Bu eylem geri alınamaz.",
+        "delete_active_profile_pull_data_confirm_text": "{activeProfileId} Kullanıcısının Çağrı Verilerini Sil",
         "profile": "Profil",
         "type_active_profile_to_confirm": "Onaylamak için {activeProfileId} yaz",
         "delete_active_profile_data_confirm_text": "{activeProfileId} profilinin verilerini sil",
         "delete_profile_data": "Profil Verilerini Sil",
-        "delete_pull_data": "Delete Pull Data",
+        "delete_pull_data": "Çağrı Verilerini Sil",
         "enable_beta_features": "Beta Özelliklerini Etkinleştir",
         "enable_beta_features_description": "Yeni özelliklere erken erişim sağla"
       }
@@ -562,7 +568,7 @@
       "first_open_game_history": "Öncelikle oyunu başlat ve oyunun içindeki çağrı geçmişi detaylarını aç",
       "open_windows_powershell_and_run_script": "Ardından Windows PowerShell'i aç ve aşağıdaki metni yapıştır.",
       "click_the_copy_button": "Sağdaki kopyala tuşuna tıkla",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "NOT: Bu metin sadece kayıtlarını okuyup Çağrı Geçmişi URL'ni ayıklar. Metni <link>buradan</link> görüntüleyebilirsin.",
       "paste_the_url_here": "URL'yi buraya yapıştır",
       "paste_the_json_here": "JSON'u buraya yapıştır",
       "go_to_installation_directory": "Ardından, oyunu indirdiğin dosyalara git",
@@ -580,7 +586,7 @@
       "ps5_click_on_page_information": "\"Sayfa Hakkında\" seçeneğine tıkla",
       "ps5_enter_your_record_id": "'player_id' 'ni ve 'record_id' 'ni buraya yaz",
       "open_terminal_and_open_script": "Ardından terminal'i aç ve aşağıdaki metni yapıştır.",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "NOT: Bu metin sadece kayıtlarını okuyup Çağrı Geçmişi URL'ni ayıklar. Metni <script>buradan</script> görüntüleyebilirsin. <repo></repo> kodunu paylaştığı için <author></author>'ya teşekkür ediyoruz.",
       "script_disclaimer": "Bu metin dosyalarını düzenlemez, sadece Buluşma Geçmişi URL'ni ayıklar.",
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
@@ -615,17 +621,17 @@
       "quick_links_description": "Önemli sayfa ve özelliklere hızlıca eriş",
       "the_curent_events_and_activities": "Güncel etkinliker ve aktiviteler",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Sıkça Sorulan Sorular",
+        "description": "WuWa Tracker hakkında sıkça sorulan soruların cevaplarını bul",
+        "still_need_help": "Hâlâ yardıma mı ihtiyacın var?",
+        "join_our_discord": "Discord Sunucumuza katıl ve orada yardım iste",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "title": "WuWa Tracker'i kullanmak güvenli mi?",
+          "content_1": "WuWa Tracker </link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ.",
+          "content_2": "UID'nize bir e-posta adresi eşleyerek cihazlar arasında senkronizasyon yapmayı seçmediğiniz sürece verileriniz cihazınızda kalır. İçe aktarma yaptığınızda yalnızca anonimleştirilmiş genel istatistikler toplanır. Sitemizi kullanmadan önce <privacy>Gizlilik Politikamızı</privacy> ve <terms>Hizmet Şartlarımızı</terms> incelemenizi öneririz."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
+          "title": "Hangi cihazlar ve bölgeler destekleniyor?",
           "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
         },
