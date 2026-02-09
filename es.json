@@ -86,7 +86,7 @@
         "Beguiling Melody": "Melodía Cautivadora",
         "Blazing Brilliance": "Brillo Abrasador",
         "Blazing Justice": "Veredicto del destello",
-        "Boson Astrolabe": "Boson Astrolabe",
+        "Boson Astrolabe": "Astrolabio Bosónico",
         "Bloodpact's Pledge": "Pacto de sangre",
         "Broadblade of Night": "Mandoble de la Noche",
         "Broadblade of Voyager": "Mandoble del Viajero",
@@ -99,12 +99,12 @@
         "Comet Flare": "Llamarada de Cometa",
         "Cosmic Ripples": "Ondas Cósmicas",
         "Dauntless Evernight": "Noche Intrépida",
-        "Daybreaker's Spine": "Daybreaker's Spine",
+        "Daybreaker's Spine": "Espinazo de Luz Cenital",
         "Defier's Thorn": "Espina de la Desafiadora",
         "Discord": "Disonancia",
         "Emerald of Genesis": "Esmeralda del Génesis",
         "Emerald Sentence": "Sentencia Esmeralda",
-        "Everbright Polestar": "Everbright Polestar",
+        "Everbright Polestar": "Estrella Polar Imperecedera",
         "Fables of Wisdom": "Fábulas de sabiduría",
         "Feather Edge": "Filo de Pluma",
         "Fusion Accretion": "Acreción de fusion",
@@ -120,7 +120,7 @@
         "Hollow Mirage": "Espejismo Hueco",
         "Jinzhou Keeper": "Guardián de Jinzhou",
         "Kumokiri": "Kumokiri",
-        "Laser Shearer": "Laser Shearer",
+        "Laser Shearer": "Segador Laser",
         "Legend of Drunken Hero": "Crónica del héroe ebrio",
         "Lethean Elegy": "Elegía letea",
         "Lunar Cutter": "Cortador Lunar",
@@ -139,12 +139,12 @@
         "Originite: Type IV": "Originite: Tipo IV",
         "Originite: Type V": "Originite: Tipo V",
         "Overture": "Obertura",
-        "Phasic Homogenizer": "Phasic Homogenizer",
+        "Phasic Homogenizer": "Homogeneizador Fásico",
         "Pistols of Night": "Pistolas de la noche",
         "Pistols of Voyager": "Pistolas del viajero",
         "Pistols#26": "Pistolas #26",
-        "Pulsation Bracer": "Pulsation Bracer",
-        "Radiance Cleaver": "Radiance Cleaver",
+        "Pulsation Bracer": "Brazal Pulsante",
+        "Radiance Cleaver": "Filo Radiante",
         "Radiant Dawn": "Amanecer Radiante",
         "Rectifier of Night": "Rectificador de la noche",
         "Rectifier of Voyager": "Rectificador del viajero",
@@ -157,8 +157,8 @@
         "Rover: Aero": "Errante: Aero",
         "Somnoire Anchor": "Ancla de Somnolencia",
         "Solar Flame": "Llama Solar",
-        "Spectrum Blaster": "Spectrum Blaster",
-        "Starfield Calibrator": "Starfield Calibrator",
+        "Spectrum Blaster": "Bláster Espectral",
+        "Starfield Calibrator": "Calibrador Estelar",
         "Static Mist": "Niebla estática",
         "Stellar Symphony": "Sinfonia estelar",
         "Stonard": "Stonard",
@@ -230,15 +230,15 @@
         "inventory_item_does_not_exist": "¡Este objeto no existe!",
         "planner_insufficient_materials": "Materiales insuficientes.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Debe utilizar un perfil que no sea de invitado para exportar tu historial de invocaciones",
-        "failed_to_link_email": "Failed to link your email",
+        "failed_to_link_email": "Error al vincular tu correo electrónico",
         "failed_to_unlink_email": "Error al desvincular tu correo electrónico",
         "failed_to_fetch_pulls_from_database": "No se pudo obtener las extracciones de nuestra base de datos",
         "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
         "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las invocaciones",
         "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero.",
         "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "import_file_cannot_be_empty": "El archivo a importar no puede estar vacío",
+        "your_url_is_invalid": "Tu URL no es válida"
       },
       "info": {
         "sign_in_first": "Inicia sesión primero",
@@ -274,8 +274,8 @@
         "delete_profiles": "Se ha eliminado todos los perfiles de usuario exitosamente.",
         "planner_successfully_completed_plan_for_name": "¡Plan {name} completado exitosamente!",
         "planner_successfully_created_plan_for_name": "Se ha creado exitosamente el plan {name}.",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
+        "successfully_linked_email": "Se vinculó correctamente tu correo electrónico",
+        "successfully_linked_email_description": "{email} está ahora vinculado al ID del jugador {playerId}.",
         "successfully_unlinked_email": "Se desvinculó correctamente tu correo electrónico"
       },
       "warn": {
@@ -651,7 +651,7 @@
         },
         "item_6": {
           "title": "¿Puedo recuperar las invocaciones de más de 6 meses?",
-          "content_1": "Si previamente has importado tus datos a WuWa Tracker, tus invocaciones antiguas ya están respaldadas en tu UID. Puedes recuperarlas en cualquier momento a través de la <link>Configuración de Conexiones</link> después de vincular tu correo electrónico a tu UID.",
+          "content_1": "Si previamente has importado tus datos a WuWa Tracker, tus invocaciones antiguas ya están respaldadas en tu UID. Puedes recuperarlas en cualquier momento a través de los <link>Ajustes de Conexiones</link> después de vincular tu correo electrónico a tu UID.",
           "content_2": "De lo contrario, por desgracia, si esta es tu primera vez usando nuestro sitio, solo podemos acceder a lo que está actualmente disponible en tu historial de juego. Las invocaciones con más de 6 meses de antigüedad ya no se pueden obtener debido a la política de retención de Kuro Games."
         },
         "item_7": {
@@ -670,8 +670,8 @@
         "daily_reset": "Reinicio Diario"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "Placas Onduladas",
+        "stamina_extra": "Cristales Ondulados"
       }
     }
   },

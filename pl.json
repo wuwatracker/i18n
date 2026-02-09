@@ -464,7 +464,7 @@
       }
     },
     "global_stats": {
-      "rarity_pulls": "{num}✦ Pulls",
+      "rarity_pulls": "Losy {num}✦",
       "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
       "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Banner Summary",
@@ -487,7 +487,7 @@
         "game_server_timezone_description": "Show time-related features according to your game server's timezone"
       },
       "data": {
-        "title": "Data",
+        "title": "Dane",
         "active_profile": "Active Profile",
         "active_profile_description": "Select the active profile you'd like to use throughout the site",
         "import_profile": "Import Profile",
@@ -526,7 +526,7 @@
         "recover_pulls": "Recover Pulls"
       },
       "advanced": {
-        "title": "Advanced",
+        "title": "Zaawansowane",
         "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
         "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
         "website_version": "Website Version",
@@ -788,13 +788,13 @@
     "footer": {
       "links": {
         "Contact Us": "Contact Us",
-        "System Status": "System Status",
-        "Help Translate": "Help Translate",
+        "System Status": "Status systemu",
+        "Help Translate": "Pomóż w tłumaczeniu",
         "Privacy Policy": "Polityka Prywatnośći",
         "Terms of Service": "Terms of Service",
         "Company": "Company",
         "Resources": "Resources",
-        "Community": "Community",
+        "Community": "Społeczność",
         "Affiliates": "Affiliates"
       }
     }
