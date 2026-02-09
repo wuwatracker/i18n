@@ -4,7 +4,7 @@
       "convenes": "Przywołania",
       "convene_url": "Link przywołań",
       "pulls": "Losy",
-      "astrites": "Astrite'y",
+      "astrites": "Astrity",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Historia losów",
       "pull_num": "Los nr.",
@@ -481,20 +481,20 @@
     "settings": {
       "general": {
         "title": "General",
-        "site_language": "Site Language",
+        "site_language": "Język strony",
         "site_language_description": "Select the language you'd like to use throughout the site",
         "game_server_timezone": "Game Server Timezone",
         "game_server_timezone_description": "Show time-related features according to your game server's timezone"
       },
       "data": {
         "title": "Dane",
-        "active_profile": "Active Profile",
+        "active_profile": "Aktywny profil",
         "active_profile_description": "Select the active profile you'd like to use throughout the site",
-        "import_profile": "Import Profile",
+        "import_profile": "Zimportuj profil",
         "import_profile_description": "Import a profile snapshot to restore or load another profile",
-        "export_profile": "Export Profile",
+        "export_profile": "Eksportuj profil",
         "export_profile_description": "Create a snapshot of your active profile data to share or backup",
-        "import_pull_history": "Import Pull History",
+        "import_pull_history": "Zimportuj historię losów",
         "import_pull_history_description": "Upload your pull history through a supported file format",
         "export_pull_history": "Export Pull History",
         "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
@@ -518,7 +518,7 @@
         "unlink_email": "Unlink Email",
         "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
         "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
-        "player_id": "Player ID",
+        "player_id": "ID gracza",
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Cloud Pull Data",
@@ -529,7 +529,7 @@
         "title": "Zaawansowane",
         "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
         "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
-        "website_version": "Website Version",
+        "website_version": "Wersja strony",
         "website_version_description": "You're currently using this version of the site",
         "session_logs": "Session Logs",
         "session_logs_description": "You can download your logs for debugging purposes",
@@ -623,10 +623,10 @@
       "frequently_asked_questions": {
         "title": "Frequently Asked Questions",
         "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
+        "still_need_help": "Potrzebujesz pomocy?",
         "join_our_discord": "Join our Discord Server and ask for help there",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
+          "title": "Czy WuWa Tracker jest bezpieczny?",
           "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
@@ -692,7 +692,7 @@
         "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "global": {
-        "title": "Global Statistics",
+        "title": "Globalne statystyki",
         "title_responsive": "<span>Global</span> Statistics",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
         "banner_title": "{name} Banner Statistics",
@@ -736,7 +736,7 @@
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
+        "title": "Rezonatorzy",
         "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
         "page_header": "View all the Resonators in Wuthering Waves"
       },
@@ -760,13 +760,13 @@
       "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
     },
     "articles": {
-      "title": "Articles",
+      "title": "Artykuły",
       "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
     },
     "banners": {
       "title": "Wuthering Waves Banner History",
       "page_header": "Track banner history & reruns in Wuthering Waves",
-      "page_header_title": "Banner History",
+      "page_header_title": "Historia banerów",
       "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
@@ -783,7 +783,7 @@
       "Achievements Tracker": "Tracker osiągnięć",
       "Ascension Planner": "Ascension Planner",
       "Events": "Events",
-      "Articles": "Articles"
+      "Articles": "Artykuły"
     },
     "footer": {
       "links": {
