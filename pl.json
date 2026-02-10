@@ -27,7 +27,9 @@
       "total_users_responsive": "<span>Łączna ilość</span> użytkowników",
       "total_pulls_responsive": "<span>Łączna ilość</span> losów",
       "total_astrites_responsive": "Łączna ilość Astritów",
-      "invalid_pity_number": "Ten numer pity jest niewłaściwy, z powodu niespójnosci w historii losów."
+      "invalid_pity_number": "Ten numer pity jest niewłaściwy, z powodu niespójnosci w historii losów.",
+      "fifty_fifty_win": "50/50 Win",
+      "rate_up_win": "Rate-Up Win"
     },
     "name": {
       "items": {
