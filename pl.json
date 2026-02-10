@@ -4,7 +4,7 @@
       "convenes": "Przywołania",
       "convene_url": "Link przywołań",
       "pulls": "Losy",
-      "astrites": "Astrity",
+      "astrites": "astrity",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Historia losów",
       "pull_num": "Los nr.",
@@ -14,7 +14,7 @@
       "date_received": "Data otrzymania",
       "recent_convenes": "Ostatnie przywołania",
       "resonator": "Rezonator",
-      "weapon": "Broń"
+      "weapon": "Bronie"
     },
     "phrase": {
       "import_data": "Zaimportuj Dane",
@@ -26,10 +26,10 @@
       "total_pulls": "Łączna ilość losów",
       "total_users_responsive": "<span>Łączna ilość</span> użytkowników",
       "total_pulls_responsive": "<span>Łączna ilość</span> losów",
-      "total_astrites_responsive": "Łączna ilość Astritów",
+      "total_astrites_responsive": "<span>Łączna ilość</span> astritów",
       "invalid_pity_number": "Ten numer pity jest niewłaściwy, z powodu niespójnosci w historii losów.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "fifty_fifty_win": "Wygrane 50/50",
+      "rate_up_win": "Wygrany Rate-Up"
     },
     "name": {
       "items": {
@@ -245,7 +245,7 @@
       "info": {
         "sign_in_first": "Najpierw się zaloguj",
         "already_linked": "Połączono",
-        "enable_email_link": "Włącz połączenie e-mail'a",
+        "enable_email_link": "Włącz połączenie adresu e-mail",
         "sign_in_to_sync": "Zaloguj się, aby zsynchronizować",
         "loading": "Ładowanie...",
         "import_loading": "Trwa import...",
@@ -327,7 +327,7 @@
       "view_details": "Wyświetl szczegóły"
     },
     "time": {
-      "all_time": "Cały czas",
+      "all_time": "Od początku",
       "last_num_days": "Ostatnie {num} dni",
       "invalid_date": "Nieprawidłowa data",
       "local_time": "Czas lokalny",
@@ -426,7 +426,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Logi pobierania"
+      "download_logs": "Pobierz logi"
     }
   },
   "feature": {
@@ -447,16 +447,16 @@
       "no_achievements_found": "nie znaleziono osiągnięć"
     },
     "tracker": {
-      "banner_summary": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary": "Podsumowanie baneru",
+      "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Luck Rating",
-        "top": "Top {percentile}%",
-        "bottom": "Bottom {percentile}%",
-        "luckier": "Luckier than {percentile}% of players",
-        "unluckier": "Unluckier than {percentile}% of players",
-        "avg_pity": "Average Pity",
-        "avg_pity_description": "What is your average {qualityLevel}-star pity?",
+        "num_luck_rating_title": "Szczęście {num}✦",
+        "top": "Najlepsze {percentile}%",
+        "bottom": "Najgorsze {percentile}%",
+        "luckier": "Więcej szczęścia niż {percentile} proc. graczy",
+        "unluckier": "Masz pecha częściej niż {percentile} proc. graczy",
+        "avg_pity": "Średnia wartość pity",
+        "avg_pity_description": "Jaka jest twoja średnia wartość pity {qualityLevel}-gwiazdkowej postaci?",
         "pull_ratio": "Pull Ratio",
         "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
         "coinflip_wins": "50/50 Wins",
@@ -469,78 +469,78 @@
       "rarity_pulls": "Losy {num}✦",
       "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
       "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
-      "banner_summary_title": "Banner Summary",
-      "banner_summary_description": "Select a banner to get an overview of the statistics.",
+      "banner_summary_title": "Podsumowanie baneru",
+      "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
       "view_your_statistics_responsive": "<span>View</span> Your Statistics",
       "pulls_per_day": "Pulls per Day",
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
-      "pulls_per_rarity": "Pulls per Rarity",
+      "pulls_per_rarity": "Losy względem rzadkości",
       "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Showing pulls per item",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
+      "pulls_per_item_description": "Wyświetlanie losów na przedmiot",
+      "data_may_change_until": "Dane mogą się zmieniać do {finalAggregationDate}",
       "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
     },
     "settings": {
       "general": {
-        "title": "General",
+        "title": "Ogólne",
         "site_language": "Język strony",
-        "site_language_description": "Select the language you'd like to use throughout the site",
-        "game_server_timezone": "Game Server Timezone",
+        "site_language_description": "Wybierz język, którego chcesz używać na całej stronie",
+        "game_server_timezone": "Strefa czasowa serwera gry",
         "game_server_timezone_description": "Show time-related features according to your game server's timezone"
       },
       "data": {
         "title": "Dane",
         "active_profile": "Aktywny profil",
-        "active_profile_description": "Select the active profile you'd like to use throughout the site",
+        "active_profile_description": "Wybierz język, którego chcesz używać na całej stronie",
         "import_profile": "Zimportuj profil",
         "import_profile_description": "Import a profile snapshot to restore or load another profile",
         "export_profile": "Eksportuj profil",
         "export_profile_description": "Create a snapshot of your active profile data to share or backup",
         "import_pull_history": "Zimportuj historię losów",
-        "import_pull_history_description": "Upload your pull history through a supported file format",
-        "export_pull_history": "Export Pull History",
-        "export_pull_history_description": "Create a local backup of your pull history for safekeeping",
-        "pulls_file_import_dialog_title": "Import Local Pulls",
+        "import_pull_history_description": "Prześlij historię losów przez obsługiwany format pliku",
+        "export_pull_history": "Eksportuj historię losów",
+        "export_pull_history_description": "Utwórz lokalną kopię zapasową historii losów w celu przechowywania",
+        "pulls_file_import_dialog_title": "Importuj lokalną historię losów",
         "pulls_file_import_dialog_description_supported_files": "This accepts <code>wuwatracker-pulls</code> and <code>wuwatracker-convene-history</code> JSON files following our website's format.",
-        "import_user_profile": "Import User Profile",
-        "import_user_profile_dialog_description": "NOTE: This only accepts <code></code> files with achievements, inventory, and planner data. Use the other import button if you want to import pull data.",
-        "profile_data_will_not_sync_callout_description": "Your changes are only stored locally and will be lost when you sign in. To sync your profile data:",
-        "profile_data_will_not_sync_callout_sign_in": "<link>Sign in</link> to your account",
-        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
-        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
+        "import_user_profile": "Importuj profil użytkownika",
+        "import_user_profile_dialog_description": "UWAGA: Akceptowane są tylko pliki <code></code> z osiągnięciami, ekwipunkiem i planami. Użyj innego przycisku importu, jeśli chcesz importować historię losów.",
+        "profile_data_will_not_sync_callout_description": "Twoje zmiany są przechowywane lokalnie i zostaną utracone po zalogowaniu. Aby zsynchronizować dane profilu:",
+        "profile_data_will_not_sync_callout_sign_in": "<link>Zaloguj się</link> na swoje konto",
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Połącz swoje UID</link> ze swoim kontem",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Wybierz swój połączony profil ({sessionPlayerId}) <link>w ustawieniach</link>"
       },
       "connections": {
-        "title": "Connections",
-        "active_email": "Active Email",
-        "active_email_description": "This is the active email you're currently logged in with",
+        "title": "Połączenia",
+        "active_email": "Aktywny adres e-mail",
+        "active_email_description": "To jest aktywny adres e-mail, z którym jesteś obecnie zalogowany",
         "linked_user_id": "Linked User ID",
         "linked_user_id_description": "This is the user ID linked to your active email",
-        "link_your_email": "Link Your Email",
+        "link_your_email": "Połącz swój adres e-mail",
         "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
         "unlink_email": "Unlink Email",
         "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
-        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "unlink_email_confirm_input_placeholder": "Wprowadź {password} aby potwierdzić",
         "player_id": "ID gracza",
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
         "cloud_pull_data": "Cloud Pull Data",
-        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
-        "recover_pulls": "Recover Pulls"
+        "cloud_pull_data_description": "Możesz odzyskać historię losów z bazy danych, jeśli twój adres e-mail jest połączony",
+        "recover_pulls": "Odzyskaj historię losów"
       },
       "advanced": {
         "title": "Zaawansowane",
-        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
+        "successfully_deleted_active_profile_data": "Pomyślnie usunięto dane użytkownika {activeProfileId}",
+        "successfully_deleted_active_profile_pull_data": "Pomyślnie usunięto historię losów użytkownika {activeProfileId}",
         "website_version": "Wersja strony",
-        "website_version_description": "You're currently using this version of the site",
-        "session_logs": "Session Logs",
-        "session_logs_description": "You can download your logs for debugging purposes",
-        "delete_active_profile_data": "Delete Active Profile Data",
+        "website_version_description": "Obecnie używasz tej wersji strony",
+        "session_logs": "Logi sesji",
+        "session_logs_description": "Możesz pobrać swoje logi do celów debugowania",
+        "delete_active_profile_data": "Usuń dane profilu",
         "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data",
-        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
-        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data": "Delete Active Profile Pull Data",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
+        "delete_active_profile_data_confirm_title": "Czy na pewno chcesz usunąć plan {activeProfileId}?",
+        "delete_active_profile_data_confirm_description": "Wszystkie powiązane dane dla <strong></strong> zostaną usunięte. Tej czynności nie można cofnąć.",
+        "delete_active_profile_pull_data": "Usuń historię losów profilu",
+        "delete_active_profile_pull_data_description": "Możesz usunąć dane swojego aktywnego profilu z pamięci lokalnej przeglądarki",
         "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
         "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
         "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
@@ -582,7 +582,7 @@
       "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
       "ios_follow_tutorial_video": "Follow our video tutorial",
       "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
-      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
+      "ios_certificate_disclaimer": "UWAGA: Podczas pobierania pliku certyfikatu musisz używać Safari. Inne przeglądarki, takie jak Google Chrome, mogą nie działać.",
       "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
       "ps5_press_the_options_button": "Press the 'Options' button on your controller",
       "ps5_click_on_page_information": "Press the 'Page Information' button",
@@ -593,21 +593,21 @@
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "planner": {
-      "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_up": "Przesuń w górę",
+      "move_down": "Przesuń w dół"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
+      "new_plan": "Nowy plan",
+      "add_plan": "Dodaj plan",
+      "material_summary": "Podsumowanie materiału",
+      "no_active_plans": "Nie masz żadnych aktywnych planów.",
       "nodes_to_unlock": "Nodes to Unlock",
       "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "plan_delete_name_confirm": "Czy na pewno chcesz usunąć plan {name}?",
+      "no_items_will_be_consumed": "Żadne przedmioty nie zostaną zużyte.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
+        "ascension_level": "Poziomy postaci",
+        "level": "Poziom",
         "basic_attack": "Basic Attack",
         "resonance_skill": "Resonance Skill",
         "forte_circuit": "Forte Circuit",
@@ -619,30 +619,30 @@
       "hero_heading": "Your Wuthering Waves Resource",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
+      "quick_links": "Szybki dostęp",
       "quick_links_description": "Access important pages and features quickly",
       "the_curent_events_and_activities": "The current events and activities",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
+        "title": "Najczęściej zadawane pytania",
         "description": "Find answers to common questions about WuWa Tracker",
         "still_need_help": "Potrzebujesz pomocy?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "join_our_discord": "Dołącz do naszego serwera Discord i poproś o pomoc",
         "item_1": {
           "title": "Czy WuWa Tracker jest bezpieczny?",
           "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
+          "title": "Jakie urządzenia i regiony są obsługiwane?",
           "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "content_2": "Wspieramy wszystkie regiony i serwery gier, w tym: Amerykę, Azję, Europę, SEA, HK/TW/MO, oraz CN."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
+          "title": "Jak zaimportować lub wyeksportować moje dane?",
           "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
+          "title": "Jak zsynchronizować pomiędzy urządzeniami?",
           "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
           "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
         },
@@ -732,7 +732,7 @@
       "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
     },
     "timeline": {
-      "title": "Oś Czasu Wydarzeń",
+      "title": "Oś czasu wydarzeń",
       "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
       "description": "Korzystając z lokalnej strefy czasowej lub dowolnej strefy czasowej serwera Wuthering Waves, możesz przeglądać harmonogram wszystkich banerów, wydarzenia w grze, okresy Tower of Adversity oraz Depths of Illusive Realm - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
