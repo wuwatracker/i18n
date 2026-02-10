@@ -27,7 +27,9 @@
       "total_users_responsive": "<span>Toplam</span> Oyuncu",
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
-      "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış."
+      "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış.",
+      "fifty_fifty_win": "50/50 Win",
+      "rate_up_win": "Rate-Up Win"
     },
     "name": {
       "items": {

@@ -27,7 +27,9 @@
       "total_users_responsive": "Usuarios <span>Totales</span>",
       "total_pulls_responsive": "Invocaciones <span>Totales</span>",
       "total_astrites_responsive": "Astritas <span>totales</span>",
-      "invalid_pity_number": "Este número de pity no es válido, debido a una inconsistencia del historial de invocaciones."
+      "invalid_pity_number": "Este número de pity no es válido, debido a una inconsistencia del historial de invocaciones.",
+      "fifty_fifty_win": "50/50 Win",
+      "rate_up_win": "Rate-Up Win"
     },
     "name": {
       "items": {
