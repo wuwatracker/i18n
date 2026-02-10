@@ -27,7 +27,9 @@
       "total_users_responsive": "<span>총</span> 사용자",
       "total_pulls_responsive": "<span>총</span> 뽑기 수",
       "total_astrites_responsive": "<span>총</span> 별의 소리",
-      "invalid_pity_number": "이 천장 수치는 튜닝 기록의 불일치로 인해 유효하지 않습니다."
+      "invalid_pity_number": "이 천장 수치는 튜닝 기록의 불일치로 인해 유효하지 않습니다.",
+      "fifty_fifty_win": "50/50 Win",
+      "rate_up_win": "Rate-Up Win"
     },
     "name": {
       "items": {
