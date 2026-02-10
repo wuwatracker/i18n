@@ -27,7 +27,9 @@
       "total_users_responsive": "<span>总计</span>用户",
       "total_pulls_responsive": "<span>总计</span>唤取",
       "total_astrites_responsive": "<span>总计</span>星声",
-      "invalid_pity_number": "由于唤取历史不一致，此保底数无效。"
+      "invalid_pity_number": "由于唤取历史不一致，此保底数无效。",
+      "fifty_fifty_win": "50/50 Win",
+      "rate_up_win": "Rate-Up Win"
     },
     "name": {
       "items": {
