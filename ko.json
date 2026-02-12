@@ -28,8 +28,8 @@
       "total_pulls_responsive": "<span>총</span> 뽑기 수",
       "total_astrites_responsive": "<span>총</span> 별의 소리",
       "invalid_pity_number": "이 천장 수치는 튜닝 기록의 불일치로 인해 유효하지 않습니다.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "fifty_fifty_win": "50/50 성공",
+      "rate_up_win": "픽업 성공"
     },
     "name": {
       "items": {
@@ -37,7 +37,7 @@
         "Rover-Spectro": "방랑자-회절",
         "Rover-Aero": "방랑자-기류",
         "Aalto": "알토",
-        "Aemeath": "Aemeath",
+        "Aemeath": "에이메스",
         "Augusta": "아우구스타",
         "Baizhi": "설지",
         "Brant": "브렌트",
@@ -60,7 +60,7 @@
         "Lingyang": "능양",
         "Lumi": "루미",
         "Lupa": "루파",
-        "Luuk Herssen": "Luuk Herssen",
+        "Luuk Herssen": "루크 헤르센",
         "Lynae": "린네",
         "Mornye": "모니에",
         "Mortefi": "모르테피",
@@ -101,12 +101,12 @@
         "Comet Flare": "굉음",
         "Cosmic Ripples": "파도의 기록",
         "Dauntless Evernight": "장야의 불빛",
-        "Daybreaker's Spine": "Daybreaker's Spine",
+        "Daybreaker's Spine": "한낮의 의지",
         "Defier's Thorn": "숙명에 맞서는 관",
         "Discord": "기묘한 울림",
         "Emerald of Genesis": "천년의 회류",
         "Emerald Sentence": "푸른 의지",
-        "Everbright Polestar": "Everbright Polestar",
+        "Everbright Polestar": "영원한 샛별",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Fusion Accretion": "융합의 원반",
@@ -232,15 +232,15 @@
         "inventory_item_does_not_exist": "아이템이 존재하지 않습니다!",
         "planner_insufficient_materials": "재료가 부족합니다.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "튜닝 기록을 추출하려면 로그인된 프로필을 사용해야 합니다",
-        "failed_to_link_email": "Failed to link your email",
+        "failed_to_link_email": "이메일 연결에 실패했습니다",
         "failed_to_unlink_email": "이메일 연결 해제에 실패했습니다",
         "failed_to_fetch_pulls_from_database": "데이터베이스에서 튜닝 기록을 불러오지 못했습니다",
         "an_error_occured_while_merging_your_data": "데이터 병합 중 오류가 발생했습니다",
         "your_email_must_be_linked_to_import_pulls": "튜닝 기록을 가져오려면 이메일이 연결되어 있어야 합니다",
         "your_email_must_be_linked_to_import_pulls_description": "먼저 로그인하고 플레이어 ID를 연결해 주세요.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "invalid_convene_url": "데이터를 불러올 수 없습니다. 가져오기 URL이 유효하지 않거나 만료되었을 수 있습니다. <troubleshootingLink>문제 해결 가이드</troubleshootingLink>를 따라 해결해 주세요. 데이터를 직접 확인하려면 <historyLink>가져오기 URL 열기</historyLink>를 이용할 수 있습니다.",
+        "import_file_cannot_be_empty": "가져오기 파일은 비워 둘 수 없습니다",
+        "your_url_is_invalid": "URL이 유효하지 않습니다"
       },
       "info": {
         "sign_in_first": "먼저 로그인하세요",
@@ -276,8 +276,8 @@
         "delete_profiles": "성공적으로 유저 프로필을 삭제했습니다.",
         "planner_successfully_completed_plan_for_name": "{name} 에 대한 계획이 성공적으로 완료되었습니다!\n",
         "planner_successfully_created_plan_for_name": "{name} 에 대한 계획을 성공적으로 작성했습니다.\n",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
+        "successfully_linked_email": "이메일이 성공적으로 연결되었습니다",
+        "successfully_linked_email_description": "{email} 이 이제 플레이어 ID {playerId}에 연결되었습니다.",
         "successfully_unlinked_email": "이메일 연결이 성공적으로 해제되었습니다"
       },
       "warn": {
