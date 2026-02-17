@@ -24,7 +24,7 @@
       "rarity_pulls": "{num}✦ Викликів",
       "num_pity": "{num}✦ Гарант",
       "total_pulls": "Загалом викликів",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "",
       "total_pulls_responsive": "<span>Загалом</span> Викликів",
       "total_astrites_responsive": "<span>Загалом</span> Астритів",
       "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency.",
