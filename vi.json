@@ -24,12 +24,12 @@
       "rarity_pulls": "Lượt triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
       "total_pulls": "Tổng số lượt triệu hồi",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "<span>Tổng</span> người dùng",
       "total_pulls_responsive": "<span>Tổng</span> lượt triệu hồi",
       "total_astrites_responsive": "<span>Tổng</span> số Astrites",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "invalid_pity_number": "Số pity này không hợp lệ do lịch sử triệu hồi bị không nhất quán.",
+      "fifty_fifty_win": "Số pity này không hợp lệ do lịch sử triệu hồi bị không nhất quán",
+      "rate_up_win": "Thắng Rate-Up"
     },
     "name": {
       "items": {
@@ -232,15 +232,15 @@
         "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
         "planner_insufficient_materials": "Nguyên liệu không phù hợp.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Bạn cần sử dụng tài khoản chính thức để xuất lịch sử lượt triệu hồi",
-        "failed_to_link_email": "Failed to link your email",
+        "failed_to_link_email": "Liên kết email thất bại",
         "failed_to_unlink_email": "Hủy liên kết email thất bại",
         "failed_to_fetch_pulls_from_database": "Không thể lấy dữ liệu lượt triệu hồi từ hệ thống",
         "an_error_occured_while_merging_your_data": "Đã xảy ra lỗi khi đồng bộ dữ liệu của bạn",
         "your_email_must_be_linked_to_import_pulls": "Bạn cần liên kết email để nhập dữ liệu lượt triệu hồi",
         "your_email_must_be_linked_to_import_pulls_description": "Vui lòng đăng nhập và liên kết ID người chơi trước.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "invalid_convene_url": "Không thể tải dữ liệu của bạn. URL nhập có thể không hợp lệ hoặc đã hết hạn. Vui lòng làm theo <troubleshootingLink>hướng dẫn khắc phục sự cố</troubleshootingLink> để sửa lỗi. Nếu bạn muốn kiểm tra dữ liệu, bạn có thể <historyLink>mở URL nhập</historyLink>.",
+        "import_file_cannot_be_empty": "Tệp nhập không được để trống",
+        "your_url_is_invalid": "URL của bạn không hợp lệ"
       },
       "info": {
         "sign_in_first": "Vui lòng đăng nhập trước",
@@ -276,8 +276,8 @@
         "delete_profiles": "Xóa tất cả dữ liệu người dùng thành công.",
         "planner_successfully_completed_plan_for_name": "Hoàn tất kế hoạch cho {name}!",
         "planner_successfully_created_plan_for_name": "Tạo kế hoạch cho {name} thành công.",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
+        "successfully_linked_email": "Liên kết email thành công",
+        "successfully_linked_email_description": "{email} hiện đã được liên kết với ID người chơi {playerId}.",
         "successfully_unlinked_email": "Hủy liên kết email thành công"
       },
       "warn": {
@@ -376,7 +376,7 @@
       "completion": "Tiến độ",
       "all": "Tất cả",
       "hidden": "Đã ẩn",
-      "variant": "Variant",
+      "variant": "Biến thể",
       "visible": "Hiện",
       "local_data": "Dữ liệu cục bộ",
       "from_file": "Từ tệp",
@@ -476,9 +476,9 @@
       "pulls_per_day_description": "Hiển thị tổng số lượt triệu hồi Triệu hồi/Ngày và Triệu hồi/Pity",
       "pulls_per_rarity": "Lượt Triệu hồi/Độ hiếm",
       "pulls_per_rarity_description": "Hiển thị phân bố độ hiếm",
-      "pulls_per_item_description": "Hiển thị lượt triệu hồi theo vật phẩm",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "pulls_per_item_description": "Hiển thị lượt triệu hồi theo từng hàng",
+      "data_may_change_until": "Dữ liệu có thể thay đổi đến ngày {finalAggregationDate}",
+      "data_may_change_until_description": "Lịch sử triệu hồi hết hạn sau 6 tháng, vì vậy dữ liệu vẫn đang được tổng hợp khi có thêm người dùng nhập dữ liệu."
     },
     "settings": {
       "general": {
@@ -515,7 +515,7 @@
         "active_email_description": "Đây là email hiện tại mà bạn đang đăng nhập",
         "linked_user_id": "ID người dùng đã liên kết",
         "linked_user_id_description": "Đây là ID người dùng đã liên kết với email hiện tại",
-        "link_your_email": "Liên kết Email của bạn",
+        "link_your_email": "Liên kết email của bạn",
         "link_your_email_description": "Liên kết ID người chơi Wuthering Waves của bạn với email để mở khóa thêm nhiều tính năng",
         "unlink_email": "Hủy liên kết Email",
         "unlink_email_confirm_description": "Bạn sẽ mất quyền truy cập vào một số tính năng của trang web. Để tiếp tục, vui lòng nhập <strong></strong> để xác nhận.",
@@ -570,7 +570,7 @@
       "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
       "open_windows_powershell_and_run_script": "Sau đó, mở Windows PowerShell, và dán đoạn script này vào.",
       "click_the_copy_button": "Bấm vào nút sao chép bên phải",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "LƯU Ý: Script chỉ đọc tệp nhật ký (log) game để trích xuất URL Lịch sử Triệu hồi. Bạn có thể xem script <link>tại đây</link>.",
       "paste_the_url_here": "Dán URL vào đây",
       "paste_the_json_here": "Dán JSON vào đây",
       "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
@@ -588,7 +588,7 @@
       "ps5_click_on_page_information": "Chọn vào 'Page Information'",
       "ps5_enter_your_record_id": "Nhập 'player_id' và 'record_id' của bạn tại đây",
       "open_terminal_and_open_script": "Sau đó, mở Terminal của bạn và dán đoạn script sau:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "LƯU Ý: Script chỉ đọc tệp nhật ký (log) game để trích xuất URL Lịch sử Triệu hồi. Bạn có thể xem script <script>tại đây</script>. Cảm ơn <author></author> vì đã chia sẻ mã nguồn <repo></repo> của họ.",
       "script_disclaimer": "Script này không chỉnh sửa bất kỳ tệp nào của bạn, nó chỉ trích xuất URL Lịch sử triệu hồi từ các tệp nhật ký (logs).",
       "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
@@ -623,12 +623,12 @@
       "quick_links_description": "Truy cập nhanh vào các trang và tính năng quan trọng",
       "the_curent_events_and_activities": "Các sự kiện và hoạt động đang diễn ra",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Câu Hỏi Thường Gặp",
+        "description": "Tìm câu trả lời cho các thắc mắc phổ biến về WuWa Tracker",
+        "still_need_help": "Vẫn cần hỗ trợ?",
+        "join_our_discord": "Tham gia máy chủ Discord để được giải đáp",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
+          "title": "WuWa Tracker có an toàn không?",
           "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
@@ -668,8 +668,8 @@
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "Reset Hàng Tuần",
+        "daily_reset": "Reset Hàng Ngày"
       },
       "waveplates": {
         "stamina": "Waveplates",

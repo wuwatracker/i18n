@@ -202,13 +202,13 @@
         "Featured Weapon": "Featured Weapon",
         "Permanent Resonator": "Permanent Resonator",
         "Permanent Weapon": "Permanent Weapon",
-        "Novice Convene": "Novice Convene",
-        "Beginner's Choice": "Beginner's Choice",
-        "Selector Ticket": "Selector Ticket",
+        "Novice Convene": "Baner nowicjusza",
+        "Beginner's Choice": "Wybór początkującego",
+        "Selector Ticket": "Bilet Wyboru",
         "Tidal Chorus": "Tidal Chorus",
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
-        "Beginner's Choice Convene": "Beginner's Choice Convene",
+        "Beginner's Choice Convene": "Baner wyboru początkującego",
         "Giveback Event Convene": "Giveback Event Convene",
         "New Voyage Weapon": "New Voyage Weapon",
         "New Voyage Resonator": "New Voyage Resonator"
@@ -365,7 +365,7 @@
       }
     },
     "other": {
-      "alert": "Alert",
+      "alert": "Ostrzeżenie",
       "name": "Nazwa",
       "guest": "Gość",
       "america": "Ameryka",
@@ -420,7 +420,7 @@
       "owned_num": "Posiadane: {num}",
       "owned": "Posiadane",
       "required_num": "Wymagane: {num}",
-      "windows": "Windows",
+      "windows": "Okna",
       "macos": "macOS",
       "linux": "Linux",
       "android": "Android",
@@ -457,22 +457,22 @@
         "unluckier": "Masz pecha częściej niż {percentile} proc. graczy",
         "avg_pity": "Średnia wartość pity",
         "avg_pity_description": "Jaka jest twoja średnia wartość pity {qualityLevel}-gwiazdkowej postaci?",
-        "pull_ratio": "Pull Ratio",
-        "pull_ratio_description": "What percentage of your total pulls were {qualityLevel}-stars?",
-        "coinflip_wins": "50/50 Wins",
-        "coinflip_wins_description": "What percentage of 50/50 pulls did you win?",
-        "rate_up_wins": "Rate-up Wins",
-        "rate_up_wins_description": "How often were your pulls rate-up?"
+        "pull_ratio": "Stosunek losów",
+        "pull_ratio_description": "Jaki procent wszystkich twoich losowań stanowiły postacie {qualityLevel}-gwiazdkowe?",
+        "coinflip_wins": "Wygrane 50/50",
+        "coinflip_wins_description": "Jaki procent 50/50 wygrałeś?",
+        "rate_up_wins": "Wygrany rate-Up",
+        "rate_up_wins_description": "Jak często twoje losy były rate-up?"
       }
     },
     "global_stats": {
       "rarity_pulls": "Losy {num}✦",
-      "rarity_pulls_per_pity": "{num}✦ Pulls per Pity",
+      "rarity_pulls_per_pity": "{num}✦ losy względem pity",
       "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
       "banner_summary_title": "Podsumowanie baneru",
       "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
-      "view_your_statistics_responsive": "<span>View</span> Your Statistics",
-      "pulls_per_day": "Pulls per Day",
+      "view_your_statistics_responsive": "<span>Zobacz</span> swoje statystyki",
+      "pulls_per_day": "Losy dziennie",
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
       "pulls_per_rarity": "Losy względem rzadkości",
       "pulls_per_rarity_description": "Showing rarity distribution",
@@ -501,7 +501,7 @@
         "export_pull_history": "Eksportuj historię losów",
         "export_pull_history_description": "Utwórz lokalną kopię zapasową historii losów w celu przechowywania",
         "pulls_file_import_dialog_title": "Importuj lokalną historię losów",
-        "pulls_file_import_dialog_description_supported_files": "This accepts <code>wuwatracker-pulls</code> and <code>wuwatracker-convene-history</code> JSON files following our website's format.",
+        "pulls_file_import_dialog_description_supported_files": "Akceptuje <code>wuwatracker-pulls</code> i <code>wuwatracker-convene-history</code> pliki JSON zgodne z formatem naszej strony internetowej.",
         "import_user_profile": "Importuj profil użytkownika",
         "import_user_profile_dialog_description": "UWAGA: Akceptowane są tylko pliki <code></code> z osiągnięciami, ekwipunkiem i planami. Użyj innego przycisku importu, jeśli chcesz importować historię losów.",
         "profile_data_will_not_sync_callout_description": "Twoje zmiany są przechowywane lokalnie i zostaną utracone po zalogowaniu. Aby zsynchronizować dane profilu:",
@@ -513,12 +513,12 @@
         "title": "Połączenia",
         "active_email": "Aktywny adres e-mail",
         "active_email_description": "To jest aktywny adres e-mail, z którym jesteś obecnie zalogowany",
-        "linked_user_id": "Linked User ID",
-        "linked_user_id_description": "This is the user ID linked to your active email",
+        "linked_user_id": "ID połączonego użytkownika",
+        "linked_user_id_description": "To jest ID użytkownika powiązane z aktywnym adresem e-mail",
         "link_your_email": "Połącz swój adres e-mail",
-        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
-        "unlink_email": "Unlink Email",
-        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
+        "link_your_email_description": "Odblokuj więcej funkcji, łącząc ID gracza Wuthering Waves z twoim adresem e-mail",
+        "unlink_email": "Odłącz e-mail",
+        "unlink_email_confirm_description": "Utracisz dostęp do różnych funkcji witryny. Aby kontynuować, wpisz <strong></strong>, aby potwierdzić.",
         "unlink_email_confirm_input_placeholder": "Wprowadź {password} aby potwierdzić",
         "player_id": "ID gracza",
         "import_to_link": "Import to Link",
@@ -554,7 +554,7 @@
       }
     },
     "timeline": {
-      "choose_server_timezone": "Choose Server Timezone",
+      "choose_server_timezone": "Wybierz strefę czasową serwera",
       "choose_server_timezone_description": "Show times adjusted to your local time zone",
       "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>."
     },
@@ -616,15 +616,15 @@
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
+      "hero_heading": "Twoje zasoby Wuthering Waves",
       "hero_cta_button": "Start Tracking",
       "keep_up_with_the_latest_news": "Zapoznaj się z najnowszymi informacjami",
       "quick_links": "Szybki dostęp",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities",
+      "quick_links_description": "Szybki dostęp do ważnych stron i funkcji",
+      "the_curent_events_and_activities": "Obecne wydarzenia i działania",
       "frequently_asked_questions": {
         "title": "Najczęściej zadawane pytania",
-        "description": "Find answers to common questions about WuWa Tracker",
+        "description": "Znajdź odpowiedzi na najczęściej zadawane pytania o WuWa Tracker",
         "still_need_help": "Potrzebujesz pomocy?",
         "join_our_discord": "Dołącz do naszego serwera Discord i poproś o pomoc",
         "item_1": {
@@ -644,26 +644,26 @@
         "item_4": {
           "title": "Jak zsynchronizować pomiędzy urządzeniami?",
           "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "content_2": "Twoje dane zostaną automatycznie zsynchronizowane za każdym razem, gdy zaimportujesz lub ręcznie naciśniesz przycisk {recoverPulls} w <link>ustawieniach połączeń</link>."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "Jak naprawić problemy z importem?",
+          "content_1": "Większość problemów z importem można rozwiązać postępując zgodnie z naszym <link>poradnikiem</link>, który obejmuje częste problemy i rozwiązania krok po kroku.",
+          "content_2": "Jeśli nadal masz problemy, skontaktuj się z nami na naszym serwerze <link>Discord</link>, aby uzyskać dalszą pomoc."
         },
         "item_6": {
           "title": "Czy mogę odzyskać losy starsze niż 6 miesięcy?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
+          "content_1": "Jeśli wcześniej importowałeś swoje dane do WuWa Tracker, starsze losy są już zapisane z twoim UID. Możesz je odzyskać w dowolnym momencie poprzez <link>ustawienia połączeń</link> po połączeniu adresu e-mail do swojego UID.",
           "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Dlaczego niektóre moje statystyki są niedokładne?",
+          "content": "Niektóre statystyki, takie jak oceny szczęścia i globalne statystyki, są buforowane na naszym serwerze, aby poprawić wydajność. Po imporcie nowych pociągnięć aktualizacja tych wartości może zająć kilka minut. Spróbuj odświeżyć stronę lub sprawdzić ponownie po kilku godzinach."
         }
       }
     },
     "banners": {
-      "newest_first": "Newest First",
+      "newest_first": "Od najnowszych",
       "since_last_appearance": "Since Last Appearance"
     },
     "timers": {
@@ -684,13 +684,13 @@
     },
     "achievements": {
       "title": "Osiągnięcia",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "Śledź swoje osiągnięcia w grze i zobacz wszystkie zdobyte dotychczas nagrody",
       "description": "Śledź Swoje osiągnięcia w Wuthering Waves, importuj oraz eksportuj z łatwością między urządzeniami! WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "tracker": {
       "index": {
         "title": "Tracker losów",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
+        "page_header": "Zobacz swoje ostatnie losy i statystyki w porównaniu z innymi użytkownikami WuWa Tracker.",
         "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
       },
       "global": {
