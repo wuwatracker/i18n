@@ -197,9 +197,9 @@
         "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
-        "Featured Resonator": "Wyróżniony baner postaci",
+        "Featured Resonator": "Baner wyróżnionego rezonatora",
         "Featured Character": "Wyróżniona postać",
-        "Featured Weapon": "Wyróżniona broń",
+        "Featured Weapon": "Baner wyróżnionej broni",
         "Permanent Resonator": "Permanentny baner rezonatorów",
         "Permanent Weapon": "Permanentny baner broni",
         "Novice Convene": "Baner nowicjusza",
@@ -394,7 +394,7 @@
       "translators": "Tłumacze",
       "players": "Gracze",
       "event": "Wydarzenie",
-      "ongoing_events": "Bieżące wydarzenia",
+      "ongoing_events": "Trwające wydarzenia",
       "choose_a_method": "Wybierz metodę",
       "automatic": "Automatyczny",
       "manual": "Ręczny",
@@ -664,7 +664,7 @@
     },
     "banners": {
       "newest_first": "Od najnowszych",
-      "since_last_appearance": "Since Last Appearance"
+      "since_last_appearance": "Od najstarszych"
     },
     "timers": {
       "reset_timers": {
@@ -697,8 +697,8 @@
         "title": "Globalne statystyki",
         "title_responsive": "<span>Global</span> Statistics",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "banner_title": "Statystyki baneru {name}",
+        "banner_description": "Przeglądaj globalne statystyki losów dla baneru {name}. WuWa Tracker licznik pity dla Wuthering Waves, wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj swoje losy ze swoimi znajomymi oraz śledź swoje konto z łatwością!"
       }
     },
     "error": {
@@ -743,12 +743,12 @@
         "page_header": "Lista wszystkich rezonatorów w Wuthering Waves"
       },
       "item": {
-        "title": "Rzeczy",
+        "title": "Przedmioty",
         "description": "WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
         "page_header": "Lista wszystkich przedmiotów w Wuthering Waves"
       },
       "weapon": {
-        "title": "Broń",
+        "title": "Bronie",
         "description": "Wyświetl informację o broni w Wuthering Waves oraz śledź Swój ekwipunek - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!",
         "page_header": "Lista wszystkich broni w Wuthering Waves"
       }
@@ -766,10 +766,10 @@
       "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
+      "title": "Historia banerów Wuthering Waves",
+      "page_header": "Śledź historię banerów i ich powrotów w Wuthering Waves",
       "page_header_title": "Historia banerów",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "description": "Zobacz wszystkie poprzednie i bieżące banery Wuthering Waves z intuicyjnym wykresem ze wszystkimi wersjami gry i fazami banerów. Zaplanuj losy na podstawie kiedy najprawdopodobniej pojawi się baner."
     }
   },
   "config": {
@@ -779,12 +779,12 @@
       "Global Statistics": "Globalne statystyki",
       "Wiki": "Wiki",
       "Characters": "Postacie",
-      "Weapons": "Broń",
-      "Items": "Rzeczy",
+      "Weapons": "Bronie",
+      "Items": "Przedmioty",
       "Tools": "Narzędzia",
       "Achievements Tracker": "Tracker osiągnięć",
       "Ascension Planner": "Ascension Planner",
-      "Events": "Events",
+      "Events": "Wydarzenia",
       "Articles": "Artykuły"
     },
     "footer": {
