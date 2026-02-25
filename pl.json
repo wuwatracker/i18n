@@ -169,7 +169,7 @@
         "Sword of Voyager": "Sword of Voyager",
         "Sword#18": "Sword#18",
         "The Last Dance": "The Last Dance",
-        "Thunderflare Dominion": "Thunderflare Dominion",
+        "Thunderflare Dominion": "Thunderflare Dominon",
         "Thunderbolt": "Thunderbolt",
         "Tragicomedy": "Tragicomedy",
         "Training Broadblade": "Training Broadblade",
@@ -197,11 +197,11 @@
         "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
-        "Featured Resonator": "Featured Resonator",
-        "Featured Character": "Featured Character",
-        "Featured Weapon": "Featured Weapon",
-        "Permanent Resonator": "Permanent Resonator",
-        "Permanent Weapon": "Permanent Weapon",
+        "Featured Resonator": "Wyróżniony baner postaci",
+        "Featured Character": "Wyróżniona postać",
+        "Featured Weapon": "Wyróżniona broń",
+        "Permanent Resonator": "Permanentny baner rezonatorów",
+        "Permanent Weapon": "Permanentny baner broni",
         "Novice Convene": "Baner nowicjusza",
         "Beginner's Choice": "Wybór początkującego",
         "Selector Ticket": "Bilet Wyboru",
@@ -209,7 +209,7 @@
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Baner wyboru początkującego",
-        "Giveback Event Convene": "Giveback Event Convene",
+        "Giveback Event Convene": "Baner Wydarzenia Giveback",
         "New Voyage Weapon": "New Voyage Weapon",
         "New Voyage Resonator": "New Voyage Resonator"
       }
