@@ -476,9 +476,9 @@
       "pulls_per_day_description": "Showing pulls per day and rarity distribution",
       "pulls_per_rarity": "Losy względem rzadkości",
       "pulls_per_rarity_description": "Showing rarity distribution",
-      "pulls_per_item_description": "Wyświetlanie losów na przedmiot",
+      "pulls_per_item_description": "Wyświetlanie przywołań danego przedmiotu",
       "data_may_change_until": "Dane mogą się zmieniać do {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until_description": "Historia losów wygasa po 6 miesiącach, więc dane nadal mogą się zmienić, gdy ktoś importuje swoją historię losów."
     },
     "settings": {
       "general": {
@@ -523,7 +523,7 @@
         "player_id": "ID gracza",
         "import_to_link": "Import to Link",
         "sign_in_to_link": "Sign in to Link",
-        "cloud_pull_data": "Cloud Pull Data",
+        "cloud_pull_data": "Dane losów w chmurze",
         "cloud_pull_data_description": "Możesz odzyskać historię losów z bazy danych, jeśli twój adres e-mail jest połączony",
         "recover_pulls": "Odzyskaj historię losów"
       },
@@ -541,9 +541,9 @@
         "delete_active_profile_data_confirm_description": "Wszystkie powiązane dane dla <strong></strong> zostaną usunięte. Tej czynności nie można cofnąć.",
         "delete_active_profile_pull_data": "Usuń historię losów profilu",
         "delete_active_profile_pull_data_description": "Możesz usunąć dane swojego aktywnego profilu z pamięci lokalnej przeglądarki",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data_confirm_title": "Czy na pewno chcesz usunąć historie losów {activeProfileId}?",
+        "delete_active_profile_pull_data_confirm_description": "Cała historia losów dla <strong></strong> zostanie usunięta. Tej czynności nie można cofnąć.",
+        "delete_active_profile_pull_data_confirm_text": "Usuń historię losów {activeProfileId}",
         "profile": "Profil",
         "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
         "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
