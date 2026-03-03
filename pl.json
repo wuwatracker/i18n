@@ -545,8 +545,8 @@
         "delete_active_profile_pull_data_confirm_description": "Cała historia losów dla <strong></strong> zostanie usunięta. Tej czynności nie można cofnąć.",
         "delete_active_profile_pull_data_confirm_text": "Usuń historię losów {activeProfileId}",
         "profile": "Profil",
-        "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
-        "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
+        "type_active_profile_to_confirm": "Wprowadź {activeProfileId} aby potwierdzić",
+        "delete_active_profile_data_confirm_text": "Usuń dane {activeProfileId}",
         "delete_profile_data": "Usuń dane profilu",
         "delete_pull_data": "Usuń historię losów",
         "enable_beta_features": "Włącz opcje beta",
@@ -555,41 +555,41 @@
     },
     "timeline": {
       "choose_server_timezone": "Wybierz strefę czasową serwera",
-      "choose_server_timezone_description": "Show times adjusted to your local time zone",
-      "timeline_description": "View Wuthering Waves events in your local timezone or in other <link>Server Times</link>."
+      "choose_server_timezone_description": "Pokaż czas dostosowany do twojej lokalnej strefy czasowej",
+      "timeline_description": "Zobacz wydarzenia w Wuthering Waves w twojej lokalnej strefie czasowej lub w innych <link>strefach czasowych</link>."
     },
     "import": {
       "select_a_method": "Wybierz metodę",
       "tutorial_video": "Film poradnikowy",
       "follow_our_video_tutorial": "Postępuj zgodnie z filmikiem",
-      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
-      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
-      "press_the_import_data_button": "Press the \"Import Data\" button below",
+      "follow_our_video_tutorial_description": "Ten krótki film poprowadzi cię przez proces importowania",
+      "follow_this_video_tutorial_by_name": "Postępuj zgodnie z tym poradnikiem wykonanym przez {name}",
+      "press_the_import_data_button": "Naciśnij przycisk \"Importuj dane\" poniżej",
       "upload_your_client_log_file_here": "Prześlij Client.log tutaj",
-      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
+      "we_will_search_your_logs_and_extract_the_import_url": "Przeszukamy twoje logi i wyodrębnimy dla ciebie adres URL importu",
       "first_open_game_history": "Uruchom grę i otwórz historię losów",
       "open_windows_powershell_and_run_script": "Następnie, uruchom Windows PowerShell i wklej następujący skrypt.",
       "click_the_copy_button": "Kliknij przycisk po prawej, aby skopiować",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "UWAGA: Skrypt odczytuje tylko twoje logi gry, aby wypakować twój adres URL historii przywołań. Możesz wyświetlić skrypt <link>tutaj</link>.",
       "paste_the_url_here": "Wklej załącznik tutaj",
       "paste_the_json_here": "Wklej plik JSON tutaj",
-      "go_to_installation_directory": "Go to your game's installation directory",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
+      "go_to_installation_directory": "Przejdź do katalogu instalacji gry",
+      "go_to_installation_directory_description": "Kliknij prawym przyciskiem myszy na swój launcher WuWa i wybierz <code>Otwórz lokalizację pliku</code>. Powinieneś zobaczyć <code>launcher.exe</code> i wiele plików <code>.dll</code>.",
+      "search_for_log": "Wyszukaj <code>Client.log</code> i prześlij go tutaj",
       "airplane_mode": "Airplane Mode",
       "download_ascent": "Download and use Ascent to get your gacha history URL",
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
+      "download_ascent_disclaimer": "UWAGA: Ta metoda obsługuje tylko androida w wersji 11 i nowszej.",
+      "ios_follow_tutorial_video": "Postępuj zgodnie z poradnikiem",
       "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
       "ios_certificate_disclaimer": "UWAGA: Podczas pobierania pliku certyfikatu musisz używać Safari. Inne przeglądarki, takie jak Google Chrome, mogą nie działać.",
-      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
+      "ps5_credits": "Specjalne podziękowania dla <link></link> za udostępnienie metodologii i obrazów dla tego poradnika PlayStation 5.",
       "ps5_press_the_options_button": "Press the 'Options' button on your controller",
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
-      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
+      "open_terminal_and_open_script": "Następnie otwórz terminal i wklej następujący skrypt:",
       "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
-      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
+      "script_disclaimer": "Skrypt nie edytuje twoich plików, po prostu wyciąga adres URL historii z plików logów.",
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "planner": {
@@ -617,7 +617,7 @@
     },
     "home_page": {
       "hero_heading": "Twoje zasoby Wuthering Waves",
-      "hero_cta_button": "Start Tracking",
+      "hero_cta_button": "Rozpocznij śledzenie twojego postępu",
       "keep_up_with_the_latest_news": "Zapoznaj się z najnowszymi informacjami",
       "quick_links": "Szybki dostęp",
       "quick_links_description": "Szybki dostęp do ważnych stron i funkcji",
@@ -649,7 +649,7 @@
         "item_5": {
           "title": "Jak naprawić problemy z importem?",
           "content_1": "Większość problemów z importem można rozwiązać postępując zgodnie z naszym <link>poradnikiem</link>, który obejmuje częste problemy i rozwiązania krok po kroku.",
-          "content_2": "Jeśli nadal masz problemy, skontaktuj się z nami na naszym serwerze <link>Discord</link>, aby uzyskać dalszą pomoc."
+          "content_2": "Jeśli nadal masz problemy, skontaktuj się z nami na naszym serwerze <link>Discord</link> , aby uzyskać dalszą pomoc."
         },
         "item_6": {
           "title": "Czy mogę odzyskać losy starsze niż 6 miesięcy?",
@@ -679,7 +679,7 @@
   },
   "metadata": {
     "root": {
-      "title": "Aplikacja zasobów i towarzysz Wuthering Waves",
+      "title": "Zasoby Wuthering Waves",
       "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
     },
     "achievements": {
@@ -695,7 +695,7 @@
       },
       "global": {
         "title": "Globalne statystyki",
-        "title_responsive": "<span>Global</span> Statistics",
+        "title_responsive": "<span>Globalne</span> statystyki",
         "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
         "banner_title": "Statystyki baneru {name}",
         "banner_description": "Przeglądaj globalne statystyki losów dla baneru {name}. WuWa Tracker licznik pity dla Wuthering Waves, wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj swoje losy ze swoimi znajomymi oraz śledź swoje konto z łatwością!"
@@ -707,7 +707,7 @@
     },
     "import": {
       "title": "Importuj Historię Pulli",
-      "page_header": "Select your platform & preferred method to import your data",
+      "page_header": "Wybierz swoją platformę i preferowaną metodę importowania danych",
       "description": "Podążaj za naszym poradnikiem aby wyświetlić Twoje informację w Wuthering Waves i przejrzyj Swoje statystyki. Wspieramy importowanie z komputera, Androida oraz iOS automatycznymi metodami. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "not_found": {
@@ -720,7 +720,7 @@
     },
     "settings": {
       "title": "Ustawienia",
-      "page_header": "Manage your site preferences and data here",
+      "page_header": "Zarządzaj ustawieniami i danymi witryny tutaj",
       "description": "Synchronizuj Swoje dane przez Google poprzez zalogowanie się. Zarządzaj Swoimi danymi pulli w Wuthering Waves w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko."
     },
     "terms_and_conditions": {
@@ -758,7 +758,7 @@
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
-      "title": "Support",
+      "title": "Pomoc",
       "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
     },
     "articles": {
@@ -793,11 +793,11 @@
         "System Status": "Status systemu",
         "Help Translate": "Pomóż w tłumaczeniu",
         "Privacy Policy": "Polityka Prywatnośći",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Terms of Service": "Regulamin",
+        "Company": "Firma",
+        "Resources": "Zasoby",
         "Community": "Społeczność",
-        "Affiliates": "Affiliates"
+        "Affiliates": "Partnerzy"
       }
     }
   }
