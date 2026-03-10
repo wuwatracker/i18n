@@ -468,12 +468,12 @@
     "global_stats": {
       "rarity_pulls": "Losy {num}✦",
       "rarity_pulls_per_pity": "{num}✦ losy względem pity",
-      "rarity_pulls_per_pity_description": "Showing total pulls per pity number",
+      "rarity_pulls_per_pity_description": "Wyświetlanie łącznej liczby losów",
       "banner_summary_title": "Podsumowanie baneru",
       "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
       "view_your_statistics_responsive": "<span>Zobacz</span> swoje statystyki",
       "pulls_per_day": "Losy dziennie",
-      "pulls_per_day_description": "Wyświetlanie pulli na dzień i podziału rzadkości",
+      "pulls_per_day_description": "Wyświetlanie losów na dzień i podziału rzadkości",
       "pulls_per_rarity": "Losy względem rzadkości",
       "pulls_per_rarity_description": "Wyświetlanie podziału rzadkości",
       "pulls_per_item_description": "Wyświetlanie przywołań danego przedmiotu",
@@ -486,16 +486,16 @@
         "site_language": "Język strony",
         "site_language_description": "Wybierz język, którego chcesz używać na całej stronie",
         "game_server_timezone": "Strefa czasowa serwera gry",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "game_server_timezone_description": "Pokaż funkcje związane z czasem w zależności od strefy czasowej twojego serwera gry"
       },
       "data": {
         "title": "Dane",
         "active_profile": "Aktywny profil",
         "active_profile_description": "Wybierz język, którego chcesz używać na całej stronie",
         "import_profile": "Zimportuj profil",
-        "import_profile_description": "Import a profile snapshot to restore or load another profile",
+        "import_profile_description": "Importuj zrzut profilu, aby przywrócić lub załaduj inny profil",
         "export_profile": "Eksportuj profil",
-        "export_profile_description": "Create a snapshot of your active profile data to share or backup",
+        "export_profile_description": "Utwórz zrzut aktywnego profilu, aby udostępnić lub utworzyć kopię zapasową",
         "import_pull_history": "Zimportuj historię losów",
         "import_pull_history_description": "Prześlij historię losów przez obsługiwany format pliku",
         "export_pull_history": "Eksportuj historię losów",
@@ -521,8 +521,8 @@
         "unlink_email_confirm_description": "Utracisz dostęp do różnych funkcji witryny. Aby kontynuować, wpisz <strong></strong>, aby potwierdzić.",
         "unlink_email_confirm_input_placeholder": "Wprowadź {password} aby potwierdzić",
         "player_id": "ID gracza",
-        "import_to_link": "Import to Link",
-        "sign_in_to_link": "Sign in to Link",
+        "import_to_link": "Importuj, aby połączyć",
+        "sign_in_to_link": "Zaloguj się, aby połączyć",
         "cloud_pull_data": "Dane losów w chmurze",
         "cloud_pull_data_description": "Możesz odzyskać historię losów z bazy danych, jeśli twój adres e-mail jest połączony",
         "recover_pulls": "Odzyskaj historię losów"
@@ -550,7 +550,7 @@
         "delete_profile_data": "Usuń dane profilu",
         "delete_pull_data": "Usuń historię losów",
         "enable_beta_features": "Włącz opcje beta",
-        "enable_beta_features_description": "Opt-into new features before they're officially released"
+        "enable_beta_features_description": "Odkryj nowe funkcje przed oficjalnym dodaniem"
       }
     },
     "timeline": {
@@ -581,7 +581,7 @@
       "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link>to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
       "download_ascent_disclaimer": "UWAGA: Ta metoda obsługuje tylko androida w wersji 11 i nowszej.",
       "ios_follow_tutorial_video": "Postępuj zgodnie z poradnikiem",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
+      "ios_follow_tutorial_video_description": "Podobnie jak w przypadku historii w Genshin Impact lub Honkai Star Rail, podążaj za tym poradnikiem, aby zaimportować swoje dane na iOS.",
       "ios_certificate_disclaimer": "UWAGA: Podczas pobierania pliku certyfikatu musisz używać Safari. Inne przeglądarki, takie jak Google Chrome, mogą nie działać.",
       "ps5_credits": "Specjalne podziękowania dla <link></link> za udostępnienie metodologii i obrazów dla tego poradnika PlayStation 5.",
       "ps5_press_the_options_button": "Press the 'Options' button on your controller",
@@ -590,7 +590,7 @@
       "open_terminal_and_open_script": "Następnie otwórz terminal i wklej następujący skrypt:",
       "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "Skrypt nie edytuje twoich plików, po prostu wyciąga adres URL historii z plików logów.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "email_link_description": "Umożliwi nam to zapisywanie twoich danych do naszej bazy danych i automatyczne tworzenie kopii zapasowych danych za każdym razem, gdy importujesz. Jeśli twoje ID gracza jest już połączone z innym adresem e-mail, usuniemy stare połączenie i użyjemy nowego adresu e-mail."
     },
     "planner": {
       "move_up": "Przesuń w górę",
@@ -733,7 +733,7 @@
     },
     "timeline": {
       "title": "Oś czasu wydarzeń",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "Bądź na bieżąco z najnowszymi wydarzeniami w Wuthering Waves",
       "description": "Korzystając z lokalnej strefy czasowej lub dowolnej strefy czasowej serwera Wuthering Waves, możesz przeglądać harmonogram wszystkich banerów, wydarzenia w grze, okresy Tower of Adversity oraz Depths of Illusive Realm - wszystko w jednym miejscu. WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Synchronizuj Swoje dane między urządzeniami, udostępniaj Swoje pulle ze swoimi znajomymi oraz śledź Swoje konto z łatwością!"
     },
     "wiki": {
@@ -755,7 +755,7 @@
     },
     "planner": {
       "title": "Planer materiałów",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "description": "Najpotężniejszy kalkulator Wuthering Waves do planowania ulepszania swojej postaci, jej umiejętności i potrzebnych do tego materiałów!"
     },
     "support": {
       "title": "Pomoc",
