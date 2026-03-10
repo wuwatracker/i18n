@@ -14,7 +14,7 @@
       "date_received": "Data otrzymania",
       "recent_convenes": "Ostatnie przywołania",
       "resonator": "Rezonator",
-      "weapon": "Bronie"
+      "weapon": "Broń"
     },
     "phrase": {
       "import_data": "Zaimportuj Dane",
@@ -197,19 +197,19 @@
         "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
-        "Featured Resonator": "Baner wyróżnionego rezonatora",
+        "Featured Resonator": "Wyróżniony rezonator",
         "Featured Character": "Wyróżniona postać",
         "Featured Weapon": "Baner wyróżnionej broni",
-        "Permanent Resonator": "Permanentny baner rezonatorów",
-        "Permanent Weapon": "Permanentny baner broni",
+        "Permanent Resonator": "Permanentni rezonatorzy",
+        "Permanent Weapon": "Permanentna broń",
         "Novice Convene": "Baner nowicjusza",
         "Beginner's Choice": "Wybór początkującego",
         "Selector Ticket": "Bilet Wyboru",
         "Tidal Chorus": "Tidal Chorus",
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
-        "Beginner's Choice Convene": "Baner wyboru początkującego",
-        "Giveback Event Convene": "Baner Wydarzenia Giveback",
+        "Beginner's Choice Convene": "Wybór początkującego",
+        "Giveback Event Convene": "Wydarzenie giveback",
         "New Voyage Weapon": "New Voyage Weapon",
         "New Voyage Resonator": "New Voyage Resonator"
       }
@@ -473,9 +473,9 @@
       "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
       "view_your_statistics_responsive": "<span>Zobacz</span> swoje statystyki",
       "pulls_per_day": "Losy dziennie",
-      "pulls_per_day_description": "Showing pulls per day and rarity distribution",
+      "pulls_per_day_description": "Wyświetlanie pulli na dzień i podziału rzadkości",
       "pulls_per_rarity": "Losy względem rzadkości",
-      "pulls_per_rarity_description": "Showing rarity distribution",
+      "pulls_per_rarity_description": "Wyświetlanie podziału rzadkości",
       "pulls_per_item_description": "Wyświetlanie przywołań danego przedmiotu",
       "data_may_change_until": "Dane mogą się zmieniać do {finalAggregationDate}",
       "data_may_change_until_description": "Historia losów wygasa po 6 miesiącach, więc dane nadal mogą się zmienić, gdy ktoś importuje swoją historię losów."
@@ -599,7 +599,7 @@
     "inventory": {
       "new_plan": "Nowy plan",
       "add_plan": "Dodaj plan",
-      "material_summary": "Podsumowanie materiału",
+      "material_summary": "Podsumowanie materiałów",
       "no_active_plans": "Nie masz żadnych aktywnych planów.",
       "nodes_to_unlock": "Nodes to Unlock",
       "passive_skill": "Passive Skill",
@@ -754,16 +754,16 @@
       }
     },
     "planner": {
-      "title": "Ascension Planner",
+      "title": "Planer materiałów",
       "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
     },
     "support": {
       "title": "Pomoc",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "description": "Potrzebujesz pomocy przy pobieraniu twoich danych z Wuthering Waves? Chcesz wiedzieć, jak WuWa Tracker używa tych danych? Zobacz FAQ WuWa Tracker tutaj!"
     },
     "articles": {
       "title": "Artykuły",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "description": "Zapoznaj się z najnowszymi artykułami i aktualizacjami na temat Wuthering Waves, w tym przewodnikami, wskazówkami, wiadomościami, ogłoszeniami i innymi!"
     },
     "banners": {
       "title": "Historia banerów Wuthering Waves",
@@ -783,7 +783,7 @@
       "Items": "Przedmioty",
       "Tools": "Narzędzia",
       "Achievements Tracker": "Tracker osiągnięć",
-      "Ascension Planner": "Ascension Planner",
+      "Ascension Planner": "Planer materiałów",
       "Events": "Wydarzenia",
       "Articles": "Artykuły"
     },
@@ -794,7 +794,7 @@
         "Help Translate": "Pomóż w tłumaczeniu",
         "Privacy Policy": "Polityka Prywatnośći",
         "Terms of Service": "Regulamin",
-        "Company": "Firma",
+        "Company": "Spółka",
         "Resources": "Zasoby",
         "Community": "Społeczność",
         "Affiliates": "Partnerzy"
