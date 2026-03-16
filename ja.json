@@ -656,11 +656,11 @@
         "item_6": {
           "title": "6ヶ月以上前の集音履歴を復元できますか？",
           "content_1": "以前にWuWa Trackerにデータをインポートしたことがある場合は、古い履歴はすでにUIDにバックアップされています。 メールアドレスをUIDにリンクした後、 <link>連携設定</link> からいつでも復旧できます。",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "それ以外の場合は、残念ながら、ゲーム内の履歴で現在確認可能なものにのみアクセスすることができます。 6ヶ月以上前の履歴は、Kuro Gamesのデータ保持ポリシーにより取得できなくなりました。"
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "私の統計のいくつかが不正確なのはなぜですか？",
+          "content": "運の評価やグローバル統計などのいくつかの統計は、パフォーマンスを向上させるためにサーバーにキャッシュされています。 新しい履歴をインポートした後、これらの値が更新されるまで数分かかることがあります。 ページを更新するか、数時間後に確認してみてください。"
         }
       }
     },
