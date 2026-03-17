@@ -28,8 +28,8 @@
       "total_pulls_responsive": "Invocaciones <span>Totales</span>",
       "total_astrites_responsive": "Astritas <span>totales</span>",
       "invalid_pity_number": "Este número de pity no es válido, debido a una inconsistencia del historial de invocaciones.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "fifty_fifty_win": "50/50 Ganados",
+      "rate_up_win": "Personajes destacados ganados"
     },
     "name": {
       "items": {
@@ -70,6 +70,7 @@
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
         "Shorekeeper": "La Guardiana de la Orilla",
+        "Sigrika": "Sigrika",
         "Taoqi": "Taoqi",
         "Verina": "Verina",
         "Yangyang": "Yangyang",
@@ -159,6 +160,7 @@
         "Rover: Aero": "Errante: Aero",
         "Somnoire Anchor": "Ancla de Somnolencia",
         "Solar Flame": "Llama Solar",
+        "Solsworn Ciphers": "Interpretación Solística",
         "Spectrum Blaster": "Bláster Espectral",
         "Starfield Calibrator": "Calibrador Estelar",
         "Static Mist": "Niebla estática",
@@ -238,7 +240,7 @@
         "an_error_occured_while_merging_your_data": "Ha ocurrido un error al combinar tus datos",
         "your_email_must_be_linked_to_import_pulls": "Tu correo electrónico debe estar vinculado para importar las invocaciones",
         "your_email_must_be_linked_to_import_pulls_description": "Por favor, inicia sesión y vincula tu ID de jugador primero.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
+        "invalid_convene_url": "No hemos podido cargar tus datos. Tu URL de importación puede ser inválida o haber caducado. Por favor, sigue la <troubleshootingLink>guía de soluciín de problemas</troubleshootingLink> para solucionar el problema. Si quieres inspeccionar tus datos, puedes <historyLink>abrir la URL de importacion</historyLink>.",
         "import_file_cannot_be_empty": "El archivo a importar no puede estar vacío",
         "your_url_is_invalid": "Tu URL no es válida"
       },
@@ -629,7 +631,7 @@
         "join_our_discord": "Únete a nuestro servidor de Discord y pide ayuda allí",
         "item_1": {
           "title": "¿Es seguro usar WuWa Tracker?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
+          "content_1": "WuWa Tracker lleva <link>operando desde el 30 de marzo del 2024</link> sin ningún reporte por parte de los usuarios sobre problemas con sus cuentas. Simplemente leemos la URL de tus invocaciones, que es la misma que el juego utiliza para mostrar tu historial de invocaciones. Nosotros <strong>nunca</strong> te preguntaremos por las credenciales de tu cuenta de Wuthering Waves.",
           "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
         },
         "item_2": {
@@ -658,7 +660,7 @@
         },
         "item_7": {
           "title": "¿Por qué son algunos de mis estadísticas inexactas?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "content": "Algunas estadísticas, como las calificaciones de suerte y las estadísticas globales se almacenan en caché en nuestro servidor para mejorar el rendimiento. Después de importar nuevas invocaciones, puede tardar unos minutos en actualizarse estos valores. Intente actualizar la página o vuelva a comprobarla después de unas horas."
         }
       }
     },
