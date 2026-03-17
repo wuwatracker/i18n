@@ -701,6 +701,14 @@
         "description": "查看 {currentBanner} 卡池的全球唤取统计数据，包含当期共鸣者 {currentFeaturedResonator}！仪表板完美符合截图需要，您可以自由截图以向朋友炫耀！WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！",
         "banner_title": "{name} 卡池统计数据",
         "banner_description": "查看 {name} 卡池的全球唤取统计数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
+      },
+      "ownership": {
+        "title": "Ownership Statistics",
+        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
+        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "no_data": "No data available",
+        "total": "Total"
       }
     },
     "error": {
