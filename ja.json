@@ -625,10 +625,10 @@
       "quick_links_description": "重要なページや機能にすばやくアクセス",
       "the_curent_events_and_activities": "現在のイベントとアクティビティ",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "よくある質問",
+        "description": "WuWa Tracker に関するよくある質問への回答を探す",
+        "still_need_help": "問題がまだ解決していませんか？",
+        "join_our_discord": "Discordサーバーに参加して、助けを求めてください。",
         "item_1": {
           "title": "WuWa Trackerは安全ですか？",
           "content_1": "WuWa Trackerは<link>2024年5月30日</link>より運用を開始しており、ユーザーからアカウントに関する問題は報告されていません。当サービスは、ゲームがガチャ履歴を表示するために使用するのと同じウェブページであるURLを読み取るだけです。鳴潮のログイン情報を尋ねることは<strong>決してありません。</strong>",
