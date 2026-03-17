@@ -701,6 +701,14 @@
         "description": "{currentFeaturedResonator} がピックアップされている {currentBanner} ガチャのグローバルな統計データを確認! スクリーンショット対応ダッシュボードで友達に自慢しよう! 鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!",
         "banner_title": "{name} ガチャの統計",
         "banner_description": "{name} ガチャのグローバルな統計データを確認しよう。鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!"
+      },
+      "ownership": {
+        "title": "Ownership Statistics",
+        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
+        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "no_data": "No data available",
+        "total": "Total"
       }
     },
     "error": {
