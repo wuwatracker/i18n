@@ -701,6 +701,14 @@
         "description": "Przeglądaj globalne statystyki pulli dla baneru {currentBanner}, z {currentFeaturedResonator}! Używaj gotowych do screenów paneli aby pochwalić się swoim znajomym! WuWa Tracker to licznik pity dla Wuthering Waves wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj swoje losy ze znajomymi oraz śledź swoje konto z łatwością!",
         "banner_title": "Statystyki baneru {name}",
         "banner_description": "Przeglądaj globalne statystyki losów dla baneru {name}. WuWa Tracker licznik pity dla Wuthering Waves, wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj swoje losy ze swoimi znajomymi oraz śledź swoje konto z łatwością!"
+      },
+      "ownership": {
+        "title": "Ownership Statistics",
+        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
+        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "no_data": "No data available",
+        "total": "Total"
       }
     },
     "error": {
@@ -787,7 +795,9 @@
       "Achievements Tracker": "Tracker osiągnięć",
       "Ascension Planner": "Planer materiałów",
       "Events": "Wydarzenia",
-      "Articles": "Artykuły"
+      "Articles": "Artykuły",
+      "Banners": "Banners",
+      "Ownership Statistics": "Ownership Statistics"
     },
     "footer": {
       "links": {

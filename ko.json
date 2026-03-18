@@ -701,6 +701,14 @@
         "description": "{currentFeaturedResonator} 를 기반으로 한 {currentBanner} 배너의 글로벌 통계를 보세요! 언제든 준비된 대시보드를 사용해 친구들에게 뽐내보세요! 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!",
         "banner_title": "{name} 배너 통계",
         "banner_description": " {name} 배너의 글로벌 튜닝 통계를 보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
+      },
+      "ownership": {
+        "title": "Ownership Statistics",
+        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
+        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "no_data": "No data available",
+        "total": "Total"
       }
     },
     "error": {
@@ -787,7 +795,9 @@
       "Achievements Tracker": "업적 트래커",
       "Ascension Planner": "돌파 플래너",
       "Events": "이벤트",
-      "Articles": "기사들"
+      "Articles": "기사들",
+      "Banners": "Banners",
+      "Ownership Statistics": "Ownership Statistics"
     },
     "footer": {
       "links": {

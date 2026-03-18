@@ -701,6 +701,14 @@
         "description": "Lihat statistik pull global untuk banner {currentBanner}, dengan resonator unggulan {currentFeaturedResonator}! Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!",
         "banner_title": "Statistik Banner {name}",
         "banner_description": "Lihat statistik pull global untuk banner {name}. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+      },
+      "ownership": {
+        "title": "Ownership Statistics",
+        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
+        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "no_data": "No data available",
+        "total": "Total"
       }
     },
     "error": {
@@ -787,7 +795,9 @@
       "Achievements Tracker": "Achievements Tracker",
       "Ascension Planner": "Rencana Ascension",
       "Events": "Events",
-      "Articles": "Articles"
+      "Articles": "Articles",
+      "Banners": "Banners",
+      "Ownership Statistics": "Ownership Statistics"
     },
     "footer": {
       "links": {
