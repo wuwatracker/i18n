@@ -703,12 +703,12 @@
         "banner_description": " {name} 배너의 글로벌 튜닝 통계를 보세요. 최신 데이터와 글로벌 통계를 활용한 명조: 워더링 웨이브의 천장 카운터입니다. 친구들과 뽑기 결과를 공유하고 계정을 추적합니다!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "title": "보유 통계",
+        "description": "애니메이션이 적용된 차트로 Wuthering Waves 배너의 보유 통계를 확인하세요.",
+        "disclaimer": "이 수치는 WuWa Tracker에 업로드된 튜닝 데이터만을 기반으로 하며, 전체 Wuthering Waves 플레이어를 대표하지 않습니다. 데이터 무결성을 유지하기 위해 수동 데이터 업로드는 허용되지 않습니다. 더 많은 튜닝 데이터가 업로드되고 처리됨에 따라 데이터는 변경될 수 있으며, 6개월 튜닝 기록 만료 기간이 지나기 전까지는 최신 배너가 반영되지 않을 수 있습니다.",
+        "disclaimer_featured_only": "이 그래프는 픽업 공명자 배너의 튜닝 데이터만 집계하며, 비픽업 공명자 튜닝은 포함되지 않습니다.",
+        "no_data": "이용 가능한 데이터 없음",
+        "total": "합계"
       }
     },
     "error": {
@@ -796,8 +796,8 @@
       "Ascension Planner": "돌파 플래너",
       "Events": "이벤트",
       "Articles": "기사들",
-      "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Banners": "배너",
+      "Ownership Statistics": "보유 통계"
     },
     "footer": {
       "links": {
