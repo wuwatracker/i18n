@@ -70,7 +70,7 @@
         "Roccia": "洛可可",
         "Sanhua": "散华",
         "Shorekeeper": "守岸人",
-        "Sigrika": "Sigrika",
+        "Sigrika": "西格莉卡",
         "Taoqi": "桃祈",
         "Verina": "维里奈",
         "Yangyang": "秧秧",
@@ -707,8 +707,8 @@
         "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
         "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
         "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "no_data": "无可用数据",
+        "total": "总计"
       }
     },
     "error": {
@@ -796,7 +796,7 @@
       "Ascension Planner": "培养规划工具",
       "Events": "活动",
       "Articles": "文章",
-      "Banners": "Banners",
+      "Banners": "卡池",
       "Ownership Statistics": "Ownership Statistics"
     },
     "footer": {
