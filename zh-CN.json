@@ -160,7 +160,7 @@
         "Rover: Aero": "漂泊者：气动",
         "Somnoire Anchor": "心之锚",
         "Solar Flame": "阳焰",
-        "Solsworn Ciphers": "Solsworn Ciphers",
+        "Solsworn Ciphers": "昭日译注",
         "Spectrum Blaster": "溢彩荧辉",
         "Starfield Calibrator": "宙算仪轨",
         "Static Mist": "停驻之烟",
@@ -703,10 +703,10 @@
         "banner_description": "查看 {name} 卡池的全球唤取统计数据。WuWa Tracker 使用了全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "title": "持有率统计",
+        "description": "使用动画历史条形图查看《鸣潮》卡池的持有率统计。",
+        "disclaimer": "这些数据仅基于上传到 WuWa Tracker 的抽卡记录，并不能代表整个《鸣潮》玩家群体。为保证数据完整性，不允许手动上传数据。随着更多抽卡记录被上传和处理，数据可能会发生变化；同时，由于抽卡记录有 6 个月的过期周期，这些数据可能无法反映最新的卡池情况。",
+        "disclaimer_featured_only": "此图表只包含限定共鸣者卡池唤取，不包括常驻共鸣者唤取。",
         "no_data": "无可用数据",
         "total": "总计"
       }
@@ -797,7 +797,7 @@
       "Events": "活动",
       "Articles": "文章",
       "Banners": "卡池",
-      "Ownership Statistics": "Ownership Statistics"
+      "Ownership Statistics": "持有率统计"
     },
     "footer": {
       "links": {
