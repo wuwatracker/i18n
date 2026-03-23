@@ -650,13 +650,13 @@
         },
         "item_5": {
           "title": "Làm thế nào để khắc phục lỗi nhập dữ liệu?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "content_1": "Hầu hết lỗi nhập dữ liệu có thể được khắc phục bằng cách làm theo <link>Hướng dẫn xử lý sự cố nhập dữ liệu</link>, trong đó có các lỗi thường gặp và giải pháp từng bước.",
+          "content_2": "Nếu bạn vẫn gặp khó khăn, hãy thoải mái liên hệ với chúng tôi trên <link>máy chủ Discord</link> để được hỗ trợ thêm."
         },
         "item_6": {
           "title": "Tôi có thể khôi phục lượt triệu hồi cũ hơn 6 tháng không?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_1": "Nếu bạn đã từng nhập dữ liệu vào WuWa Tracker trước đây, các lượt triệu hồi cũ của bạn đã được sao lưu vào UID. Bạn có thể khôi phục bất kỳ lúc nào thông qua <link>Cài đặt kết nối</link> sau khi liên kết email với UID.",
+          "content_2": "Ngược lại, nếu đây là lần đầu bạn sử dụng trang web, chúng tôi chỉ có thể truy cập những gì hiện có trong lịch sử trong game. Lượt triệu hồi cũ hơn 6 tháng không thể khôi phục do chính sách lưu trữ của Kuro Games."
         },
         "item_7": {
           "title": "Why are some of my statistics inaccurate?",
