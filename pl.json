@@ -201,8 +201,8 @@
       "banners": {
         "Featured Resonator": "Wyróżniony rezonator",
         "Featured Character": "Wyróżniona postać",
-        "Featured Weapon": "Baner wyróżnionej broni",
-        "Permanent Resonator": "Permanentni rezonatorzy",
+        "Featured Weapon": "Wyróżniona broń",
+        "Permanent Resonator": "Permanentny rezonator",
         "Permanent Weapon": "Permanentna broń",
         "Novice Convene": "Baner nowicjusza",
         "Beginner's Choice": "Wybór początkującego",
@@ -682,7 +682,7 @@
   "metadata": {
     "root": {
       "title": "Zasoby Wuthering Waves",
-      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
+      "description": "WuWa Tracker to #1 tracker losów i licznik pity w Wuthering Waves. Śledź swoje losy i osiągnięcia, sprawdzaj globalne statystyki, korzystaj z planera i kalkulatora ulepszania postaci oraz odkrywaj poradniki, wiki i wiadomości, aby zoptymalizować swoje doświadczenia w Wuthering Waves."
     },
     "achievements": {
       "title": "Osiągnięcia",
@@ -703,12 +703,12 @@
         "banner_description": "Przeglądaj globalne statystyki losów dla baneru {name}. WuWa Tracker licznik pity dla Wuthering Waves, wykorzystujący aktualne dane z globalnymi statystykami i nie tylko. Udostępniaj swoje losy ze swoimi znajomymi oraz śledź swoje konto z łatwością!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "title": "Statystyki liczby przywołań rezonatorów",
+        "description": "Zobacz statystyki liczby przywołań dla banerów w Wuthering Waves z animowanym wykresem historycznym.",
         "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "disclaimer_featured_only": "Ten wykres agreguje tylko losy z wyróżnionych banerów rezonatorów i nie zawiera losów z banerów permanentnych itp.",
+        "no_data": "Brak danych",
+        "total": "Ogółem"
       }
     },
     "error": {
@@ -796,8 +796,8 @@
       "Ascension Planner": "Planer materiałów",
       "Events": "Wydarzenia",
       "Articles": "Artykuły",
-      "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Banners": "Banery",
+      "Ownership Statistics": "Statystyki liczby przywołań rezonatorów"
     },
     "footer": {
       "links": {
