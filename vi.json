@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
-      "recent_convenes": "Lượt triệu hồi gần đây",
+      "recent_convenes": "Lượt Triệu Hồi Gần Đây",
       "resonator": "Cộng Hưởng Giả",
       "weapon": "Vũ khí"
     },
@@ -452,7 +452,7 @@
       "banner_summary": "Tổng kết Banner",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "luck": {
-        "num_luck_rating_title": "Tỉ lệ may mắn nhận được {num}✦",
+        "num_luck_rating_title": "Tỉ Lệ May Mắn Nhận Được {num}✦",
         "top": "Trên {percentile}%",
         "bottom": "Dưới {percentile}%",
         "luckier": "May hơn {percentile}% người chơi khác",
@@ -557,7 +557,7 @@
     },
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
-      "choose_server_timezone_description": "Hiện thời gian được điều chỉnh dựa trên giờ địa phương",
+      "choose_server_timezone_description": "",
       "timeline_description": "Xem các sự kiện của Wuthering Waves theo giờ địa phương hoặc <link>giờ của máy chủ</link> khác."
     },
     "import": {
@@ -659,8 +659,8 @@
           "content_2": "Ngược lại, nếu đây là lần đầu bạn sử dụng trang web, chúng tôi chỉ có thể truy cập những gì hiện có trong lịch sử trong game. Lượt triệu hồi cũ hơn 6 tháng không thể khôi phục do chính sách lưu trữ của Kuro Games."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Tại sao một số thống kê của tôi không chính xác?",
+          "content": "Một số thống kê như tỉ lệ may mắn và thống kê toàn cầu được lưu cache trên máy chủ để cải thiện hiệu suất. Sau khi nhập lượt triệu hồi mới, có thể mất vài phút để các giá trị này được cập nhật. Hãy thử tải lại trang hoặc quay lại sau vài giờ."
         }
       }
     },
@@ -703,12 +703,12 @@
         "banner_description": "Xem thống kê toàn cầu cho banner {name}. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "title": "Thống Kê Sở Hữu",
+        "description": "Xem thống kê sở hữu của các banner trong Wuthering Waves với thanh biểu đồ lịch sử động.",
+        "disclaimer": "Các con số này chỉ dựa trên lượt triệu hồi được tải lên WuWa Tracker và không đại diện cho toàn bộ cộng đồng người chơi Wuthering Waves. Không cho phép tải dữ liệu thủ công nhằm đảm bảo tính toàn vẹn dữ liệu. Dữ liệu có thể thay đổi khi có thêm lượt triệu hồi được tải lên và xử lý, đồng thời có thể chưa phản ánh các banner mới nhất cho đến khi kết thúc thời hạn 6 tháng.",
+        "disclaimer_featured_only": "Biểu đồ này chỉ tổng hợp lượt triệu hồi từ banner Nhân Vật Giới Hạn và không bao gồm lượt triệu hồi các banner khác.",
+        "no_data": "Không có dữ liệu",
+        "total": "Tổng"
       }
     },
     "error": {
@@ -797,7 +797,7 @@
       "Events": "Sự Kiện",
       "Articles": "Bài Viết",
       "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Ownership Statistics": "Thông Kê Sở Hữu"
     },
     "footer": {
       "links": {
