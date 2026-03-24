@@ -557,7 +557,7 @@
     },
     "timeline": {
       "choose_server_timezone": "Chọn múi giờ của máy chủ",
-      "choose_server_timezone_description": "",
+      "choose_server_timezone_description": "Hiện thời gian được điều chỉnh dựa trên giờ địa phương",
       "timeline_description": "Xem các sự kiện của Wuthering Waves theo giờ địa phương hoặc <link>giờ của máy chủ</link> khác."
     },
     "import": {
