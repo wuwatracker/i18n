@@ -705,8 +705,8 @@
       "ownership": {
         "title": "Ownership Statistics",
         "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "disclaimer": "これらの数字は、WuWa Trackerにアップロードされた結果のみに基づいており、鳴潮プレイヤー全体を代表するわけではありません。 データの整合性を維持するために手動でのデータアップロードは許可されていません。 より多くの集音履歴がアップロードおよび処理されると、データは変更される可能性があります。また、6ヶ月の有効期限が切れるまでは、最新のピックアップは反映されない場合があります。",
+        "disclaimer_featured_only": "このグラフは「共鳴者集音」のみを集計しており、それ以外の結果は含まれていません。",
         "no_data": "No data available",
         "total": "Total"
       }

@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Độ hiếm",
       "date_received": "Thời gian ghi nhận",
-      "recent_convenes": "Lượt triệu hồi gần đây",
+      "recent_convenes": "Lượt Triệu Hồi Gần Đây",
       "resonator": "Cộng Hưởng Giả",
       "weapon": "Vũ khí"
     },
@@ -212,8 +212,8 @@
         "Utterance of Marvels": "Vạn Tượng Thanh Âm",
         "Beginner's Choice Convene": "Banner Tân Thủ Tự Chọn ",
         "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "Vũ Khí Hành Trình Mới",
+        "New Voyage Resonator": "Cộng Hưởng Giả Hành Trình Mới"
       }
     }
   },
@@ -443,7 +443,7 @@
       "system_status": "Trạng thái hệ thống",
       "legal": "Pháp lý",
       "partners": "Đối tác",
-      "disclaimer": "Đây là một dự án độc lập do người hâm mộ thực hiện, không liên quan hoặc được xác nhận bởi Kuro Games. Tất cả các tài nguyên, nội dung và thương hiệu trò chơi thuộc về chủ sở hữu tương ứng."
+      "disclaimer": "Đây là một dự án độc lập do người hâm mộ thực hiện, không liên quan hoặc được xác nhận bởi Kuro Games. Tất cả các tài nguyên, nội dung và thương hiệu game thuộc về chủ sở hữu tương ứng."
     },
     "achievements": {
       "no_achievements_found": "không phát hiện thành tựu"
@@ -452,7 +452,7 @@
       "banner_summary": "Tổng kết Banner",
       "banner_summary_description": "Chọn một banner để có được một cái nhìn tổng quan về số liệu thống kê.",
       "luck": {
-        "num_luck_rating_title": "Tỉ lệ may mắn nhận được {num}✦",
+        "num_luck_rating_title": "Tỉ Lệ May Mắn Nhận Được {num}✦",
         "top": "Trên {percentile}%",
         "bottom": "Dưới {percentile}%",
         "luckier": "May hơn {percentile}% người chơi khác",
@@ -488,7 +488,7 @@
         "site_language": "Ngôn ngữ trang web",
         "site_language_description": "Chọn ngôn ngữ bạn muốn sử dụng trên toàn bộ trang web",
         "game_server_timezone": "Múi giờ máy chủ",
-        "game_server_timezone_description": "Hiển thị các tính năng liên quan đến thời gian theo múi giờ của máy chủ trò chơi"
+        "game_server_timezone_description": "Hiển thị các tính năng liên quan đến thời gian theo múi giờ của máy chủ game"
       },
       "data": {
         "title": "Dữ liệu",
@@ -569,13 +569,13 @@
       "press_the_import_data_button": "Nhấn nút ‘Nhập dữ liệu’ bên dưới",
       "upload_your_client_log_file_here": "Tải tệp Client.log của bạn lên đây",
       "we_will_search_your_logs_and_extract_the_import_url": "Chúng tôi sẽ tìm trong tệp nhật ký (logs) và trích xuất URL nhập dữ liệu cho bạn",
-      "first_open_game_history": "Đầu tiên, mở trò chơi và mở lịch sử triệu hồi chi tiết của bạn",
+      "first_open_game_history": "Đầu tiên, mở game và mở lịch sử triệu hồi chi tiết của bạn",
       "open_windows_powershell_and_run_script": "Sau đó, mở Windows PowerShell, và dán đoạn script này vào.",
       "click_the_copy_button": "Bấm vào nút sao chép bên phải",
       "powershell_script_disclaimer": "LƯU Ý: Script chỉ đọc tệp nhật ký (log) game để trích xuất URL Lịch sử Triệu hồi. Bạn có thể xem script <link>tại đây</link>.",
       "paste_the_url_here": "Dán URL vào đây",
       "paste_the_json_here": "Dán JSON vào đây",
-      "go_to_installation_directory": "Chuyển đến thư mục cài đặt trò chơi của bạn",
+      "go_to_installation_directory": "Chuyển đến thư mục cài đặt game của bạn",
       "go_to_installation_directory_description": "Chuột phải vào launcher của Wuthering Waves và chọn <code>Open file location</code>. Bạn sẽ thấy <code>launcher.exe</code> và rất nhiều file <code>.dll</code>.",
       "search_for_log": "Tìm tệp <code>Client.log</code> và tải lên đây",
       "airplane_mode": "Chế độ Máy bay",
@@ -621,7 +621,7 @@
       "hero_heading": "Tài Nguyên Wuthering Waves Của Bạn",
       "hero_cta_button": "Bắt đầu theo dõi",
       "keep_up_with_the_latest_news": "Cập nhật tin tức mới nhất",
-      "quick_links": "Truy cập nhanh",
+      "quick_links": "Truy Cập Nhanh",
       "quick_links_description": "Truy cập nhanh vào các trang và tính năng quan trọng",
       "the_curent_events_and_activities": "Các sự kiện và hoạt động đang diễn ra",
       "frequently_asked_questions": {
@@ -631,36 +631,36 @@
         "join_our_discord": "Tham gia máy chủ Discord để được giải đáp",
         "item_1": {
           "title": "WuWa Tracker có an toàn không?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "content_1": "WuWa Tracker đã <link>hoạt động từ ngày 30 tháng 5 năm 2024</link> mà chưa có ghi nhận báo cáo vấn đề tài khoản nào từ phía người dùng. Chúng tôi chỉ đọc URL Triệu Hồi của bạn, đây chính là trang web mà game dùng để hiển thị lịch sử triệu hồi. Chúng tôi sẽ không bao giờ yêu cầu thông tin đăng nhập Wuthering Waves của bạn.",
+          "content_2": "Dữ liệu của bạn vẫn nằm trên thiết bị, trừ khi bạn chọn đồng bộ hoá qua nhiều thiết bị bằng cách liên kết email với UID. Chỉ có các số liệu thống kê toàn cầu ẩn danh được thu thập mỗi khi bạn nhập dữ liệu. Chúng tôi khuyên bạn nên đọc kỹ <privacy>Chính sách bảo mật</privacy> và <terms>Điều khoản dịch vụ</terms> trước khi sử dụng trang web."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "title": "Những thiết bị và khu vực nào được hỗ trợ?",
+          "content_1": "Hiện tại, <link>hướng dẫn nhập dữ liệu</link> của chúng tôi hỗ trợ tất cả các thiết bị và nền tảng chính bao gồm: Windows, macOS, Linux, Android, iOS, và PlayStation 5. Ngoài ra, chúng tôi còn hỗ trợ nhập dữ liệu bằng script mã nguồn mở tự động hoặc thông qua phương pháp tải file thủ công kèm video hướng dẫn từng bước.",
+          "content_2": "Chúng tôi hỗ trợ tất cả các khu vực và máy chủ của game bao gồm: Châu Mĩ, Châu Á, Châu Âu, Đông Nam Á, Đài Loan/Hồng Kông/Ma Cao và Trung Quốc."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "Làm thế nào để nhập hoặc xuất dữ liệu?",
+          "content": "Bạn có thể nhập hoặc xuất dữ liệu trong <link>Cài đặt Dữ liệu</link>. Chúng tôi khuyên bạn xuất dữ liệu định kỳ để sao lưu và lưu trữ ở nhiều nơi khác nhau để tránh mất dữ liệu."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "title": "Làm thế nào để đồng bộ dữ liệu giữa các thiết bị?",
+          "content_1": "UID của bạn phải được liên kết với một địa chỉ email để đồng bộ dữ liệu qua nhiều thiết bị. Trước tiên, bạn phải đăng nhập vào tài khoản email qua các nhà cung cấp mạng xã hội của chúng tôi (như Google hoặc GitHub), sau đó bạn có thể liên kết email tại <connections>Cài đặt kết nối</connections> hoặc bật liên kết email trong lúc làm theo <import>Hướng dẫn nhập dữ liệu</import>.",
+          "content_2": "Dữ liệu lượt triệu hồi sẽ tự động đồng bộ hoá mỗi khi bạn nhập dữ liệu hoặc nhấn nút {recoverPulls} tại <link>Cài đặt kết nối</link>."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "Làm thế nào để khắc phục lỗi nhập dữ liệu?",
+          "content_1": "Hầu hết lỗi nhập dữ liệu có thể được khắc phục bằng cách làm theo <link>Hướng dẫn xử lý sự cố nhập dữ liệu</link>, trong đó có các lỗi thường gặp và giải pháp từng bước.",
+          "content_2": "Nếu bạn vẫn gặp khó khăn, hãy thoải mái liên hệ với chúng tôi trên <link>máy chủ Discord</link> để được hỗ trợ thêm."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "Tôi có thể khôi phục lượt triệu hồi cũ hơn 6 tháng không?",
+          "content_1": "Nếu bạn đã từng nhập dữ liệu vào WuWa Tracker trước đây, các lượt triệu hồi cũ của bạn đã được sao lưu vào UID. Bạn có thể khôi phục bất kỳ lúc nào thông qua <link>Cài đặt kết nối</link> sau khi liên kết email với UID.",
+          "content_2": "Ngược lại, nếu đây là lần đầu bạn sử dụng trang web, chúng tôi chỉ có thể truy cập những gì hiện có trong lịch sử trong game. Lượt triệu hồi cũ hơn 6 tháng không thể khôi phục do chính sách lưu trữ của Kuro Games."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Tại sao một số thống kê của tôi không chính xác?",
+          "content": "Một số thống kê như tỉ lệ may mắn và thống kê toàn cầu được lưu cache trên máy chủ để cải thiện hiệu suất. Sau khi nhập lượt triệu hồi mới, có thể mất vài phút để các giá trị này được cập nhật. Hãy thử tải lại trang hoặc quay lại sau vài giờ."
         }
       }
     },
@@ -703,12 +703,12 @@
         "banner_description": "Xem thống kê toàn cầu cho banner {name}. Wuwa Tracker là bộ đếm pity cho Wuthering Waves, sử dụng dữ liệu mới nhất với thống kê toàn cầu và nhiều tính năng khác. Chia sẻ kết quả với bạn bè và dễ dàng theo dõi tài khoản!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "title": "Thống Kê Sở Hữu",
+        "description": "Xem thống kê sở hữu của các banner trong Wuthering Waves với thanh biểu đồ lịch sử động.",
+        "disclaimer": "Các con số này chỉ dựa trên lượt triệu hồi được tải lên WuWa Tracker và không đại diện cho toàn bộ cộng đồng người chơi Wuthering Waves. Không cho phép tải dữ liệu thủ công nhằm đảm bảo tính toàn vẹn dữ liệu. Dữ liệu có thể thay đổi khi có thêm lượt triệu hồi được tải lên và xử lý, đồng thời có thể chưa phản ánh các banner mới nhất cho đến khi kết thúc thời hạn 6 tháng.",
+        "disclaimer_featured_only": "Biểu đồ này chỉ tổng hợp lượt triệu hồi từ banner Nhân Vật Giới Hạn và không bao gồm lượt triệu hồi các banner khác.",
+        "no_data": "Không có dữ liệu",
+        "total": "Tổng"
       }
     },
     "error": {
@@ -797,7 +797,7 @@
       "Events": "Sự Kiện",
       "Articles": "Bài Viết",
       "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Ownership Statistics": "Thông Kê Sở Hữu"
     },
     "footer": {
       "links": {
