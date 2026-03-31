@@ -212,8 +212,8 @@
         "Utterance of Marvels": "Utterance of Marvels",
         "Beginner's Choice Convene": "Wybór początkującego",
         "Giveback Event Convene": "Wydarzenie giveback",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Weapon": "Nowa podróżna broń",
+        "New Voyage Resonator": "Nowy rezonator podróży"
       }
     }
   },
@@ -475,10 +475,10 @@
       "banner_summary_description": "Wybierz baner, aby uzyskać podgląd statystyk.",
       "view_your_statistics_responsive": "<span>Zobacz</span> swoje statystyki",
       "pulls_per_day": "Losy dziennie",
-      "pulls_per_day_description": "Wyświetlanie losów na dzień i podziału rzadkości",
+      "pulls_per_day_description": "Rozkład losów i ich rzadkości na dzień",
       "pulls_per_rarity": "Losy względem rzadkości",
       "pulls_per_rarity_description": "Wyświetlanie podziału rzadkości",
-      "pulls_per_item_description": "Wyświetlanie przywołań danego przedmiotu",
+      "pulls_per_item_description": "Przywołania danego przedmiotu",
       "data_may_change_until": "Dane mogą się zmieniać do {finalAggregationDate}",
       "data_may_change_until_description": "Historia losów wygasa po 6 miesiącach, więc dane nadal mogą się zmienić, gdy ktoś importuje swoją historię losów."
     },
@@ -631,21 +631,21 @@
         "join_our_discord": "Dołącz do naszego serwera Discord i poproś o pomoc",
         "item_1": {
           "title": "Czy WuWa Tracker jest bezpieczny?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "content_1": "WuWa Tracker <link>funkcjonuje od 30 maja 2024 roku</link> bez żadnych zgłoszonych problemów z kontami naszych użytkowników. Po prostu odczytujemy twój adres URL przywołań, czyli tę samą stronę internetową, której gra używa do wyświetlania historii losów. <strong>Nigdy</strong> nie poprosimy Cię o dane logowania do Wuthering Waves.",
+          "content_2": "Twoje dane pozostają na twoim urządzeniu, dopóki nie zdecydujesz się na synchronizację między urządzeniami, łącząc adres e-mail z twoim UID. Podczas importu gromadzone są tylko anonimowe statystyki globalne. Zalecamy zapoznanie się z naszą <privacy>polityką prywatności</privacy> i <terms>warunkami korzystania z usługi</terms> przed skorzystaniem z naszej witryny."
         },
         "item_2": {
           "title": "Jakie urządzenia i regiony są obsługiwane?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_1": "Obecnie nasz <link>samouczek importowania</link> obsługuje wszystkie główne urządzenia i platformy, w tym: Windows, macOS, Linux, Android, iOS i PlayStation 5. Ponadto obsługujemy importowanie za pomocą zautomatyzowanych skryptów open source lub za pomocą ręcznych metod przesyłania plików przy pomocy wideo samouczków.",
           "content_2": "Wspieramy wszystkie regiony i serwery gier, w tym: Amerykę, Azję, Europę, SEA, HK/TW/MO, oraz CN."
         },
         "item_3": {
           "title": "Jak zaimportować lub wyeksportować moje dane?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "content": "Możesz zaimportować lub eksportować swoje dane za pomocą <link>ustawień</link>. Zalecamy regularne eksportowanie danych jako kopię zapasową i zapisywanie ich w wielu lokalizacjach."
         },
         "item_4": {
           "title": "Jak zsynchronizować pomiędzy urządzeniami?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "content_1": "Twój UID musi być połączony z adresem e-mail, aby synchronizować swoje dane na wielu urządzeniach. Musisz najpierw zalogować się na swoje konto e-mail za pośrednictwem naszych dostawców usług społecznościowych (takich jak Google lub GitHub), następnie możesz połączyć swój e-mail w <connections>ustawieniach połączeń</connections> lub poprzez włączenie linku e-mail przy pomocy naszego <import>samouczka</import>.",
           "content_2": "Twoje dane zostaną automatycznie zsynchronizowane za każdym razem, gdy zaimportujesz lub ręcznie naciśniesz przycisk {recoverPulls} w <link>ustawieniach połączeń</link>."
         },
         "item_5": {
@@ -656,7 +656,7 @@
         "item_6": {
           "title": "Czy mogę odzyskać losy starsze niż 6 miesięcy?",
           "content_1": "Jeśli wcześniej importowałeś swoje dane do WuWa Tracker, starsze losy są już zapisane z twoim UID. Możesz je odzyskać w dowolnym momencie poprzez <link>ustawienia połączeń</link> po połączeniu adresu e-mail do swojego UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "content_2": "W przeciwnym razie, niestety, jeśli pierwszy raz korzystasz z naszej strony, możemy mieć dostęp tylko do tego, co jest obecnie dostępne w twojej historii gry. Los starszy niż 6 miesięcy nie jest już dostępny ze względu na politykę retencji Kuro Games."
         },
         "item_7": {
           "title": "Dlaczego niektóre moje statystyki są niedokładne?",
@@ -666,7 +666,7 @@
     },
     "banners": {
       "newest_first": "Od najnowszych",
-      "since_last_appearance": "Od najstarszych"
+      "since_last_appearance": "Od ostatniego ukazania"
     },
     "timers": {
       "reset_timers": {
@@ -704,7 +704,7 @@
       },
       "ownership": {
         "title": "Statystyki liczby przywołań rezonatorów",
-        "description": "Zobacz statystyki liczby przywołań dla banerów w Wuthering Waves z animowanym wykresem historycznym.",
+        "description": "Zobacz statystyki przywołań dla banerów w Wuthering Waves z animowanym wykresem historycznym.",
         "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
         "disclaimer_featured_only": "Ten wykres agreguje tylko losy z wyróżnionych banerów rezonatorów i nie zawiera losów z banerów permanentnych itp.",
         "no_data": "Brak danych",
@@ -765,7 +765,7 @@
     },
     "planner": {
       "title": "Planer materiałów",
-      "description": "Najpotężniejszy kalkulator Wuthering Waves do planowania ulepszania swojej postaci, jej umiejętności i potrzebnych do tego materiałów!"
+      "description": "Najpotężniejszy kalkulator Wuthering Waves do planowania ulepszeń swojej postaci i potrzebnych do tego materiałów!"
     },
     "support": {
       "title": "Pomoc",
@@ -797,7 +797,7 @@
       "Events": "Wydarzenia",
       "Articles": "Artykuły",
       "Banners": "Banery",
-      "Ownership Statistics": "Statystyki liczby przywołań rezonatorów"
+      "Ownership Statistics": "Statystyki przywołań rezonatorów"
     },
     "footer": {
       "links": {
