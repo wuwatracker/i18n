@@ -70,7 +70,7 @@
         "Roccia": "洛可可",
         "Sanhua": "散华",
         "Shorekeeper": "守岸人",
-        "Sigrika": "Sigrika",
+        "Sigrika": "西格莉卡",
         "Taoqi": "桃祈",
         "Verina": "維里奈",
         "Yangyang": "秧秧",
@@ -160,7 +160,7 @@
         "Rover: Aero": "漂泊者: 氣動",
         "Somnoire Anchor": "心之錨",
         "Solar Flame": "陽焰",
-        "Solsworn Ciphers": "Solsworn Ciphers",
+        "Solsworn Ciphers": "昭日譯註",
         "Spectrum Blaster": "溢彩熒輝",
         "Starfield Calibrator": "星場校準器",
         "Static Mist": "停駐之煙",
@@ -479,8 +479,8 @@
       "pulls_per_rarity": "每種稀有度的喚取次數",
       "pulls_per_rarity_description": "顯示稀有度分佈",
       "pulls_per_item_description": "顯示每種物品的抽取數",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "數據可能會在 {finalAggregationDate} 之前發生變化",
+      "data_may_change_until_description": "喚取歷史記錄在 6 個月後過期，因此隨着更多用戶導入他們的數據，數據仍在持續彙總中。"
     },
     "settings": {
       "general": {
@@ -572,7 +572,7 @@
       "first_open_game_history": "首先，啟動遊戲並打開你的遊戲內喚取歷史紀錄",
       "open_windows_powershell_and_run_script": "之後，打開 Windows PowerShell 並貼上以下指令。",
       "click_the_copy_button": "點擊右邊的複製按鈕",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "注意：本腳本只會從您的遊戲日誌中提取喚取歷史 URL。您可以<link>在此處</link>查看腳本。",
       "paste_the_url_here": "在這裡貼上連結",
       "paste_the_json_here": "在這裡貼上 JSON 資料",
       "go_to_installation_directory": "前往遊戲安裝目錄",
@@ -590,7 +590,7 @@
       "ps5_click_on_page_information": "點擊頁面資訊按鈕",
       "ps5_enter_your_record_id": "在此輸入你的遊戲ID與紀錄ID",
       "open_terminal_and_open_script": "接下來，開啟 Windows PowerShell，並貼上以下的指令：",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "注意：本腳本只會從您的遊戲日誌中提取喚取歷史 URL。您可以<script>在此處</script>查看腳本。感謝 <author></author> 分享他們的 <repo></repo> 代碼。",
       "script_disclaimer": "此程式不會修改您的任何檔案，它僅從您的喚取紀錄中擷取紀錄連結。",
       "email_link_description": "這將會允許我們儲存您的資料至我們的資料庫並且在每次您匯入資料時自動備份 。如果您的UID已經連結到另外的email，我們將會移除舊的連結並使用您的新email地址。"
     },
@@ -625,27 +625,27 @@
       "quick_links_description": "快速進入主要頁面以及功能",
       "the_curent_events_and_activities": "目前相關活動",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "常見問題",
+        "description": "找到關於 WuWa Tracker 常見問題的答案",
+        "still_need_help": "仍然需要幫助？",
+        "join_our_discord": "加入我們的 Discord 服務器並在那裏尋求幫助",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "title": "WuWa Tracker 是否安全？",
+          "content_1": "WuWa Tracker <link>自 2024 年 5 月 30 日起開始運營</link>，至今未收到任何用戶反饋賬號問題。我們只讀取您的喚取記錄 URL，也就是遊戲本身用於展示喚取歷史的同一個網頁。我們<strong>絕不會</strong>向你索要《鳴潮》的登錄憑據。",
+          "content_2": "您的數據保留在您的設備上，除非您選擇將電子郵件鏈接到您的 UID 以在不同設備之間進行同步。每次導入時，我們只會收集匿名化的全局統計數據。我們建議您在使用我們的網站之前審查我們的<privacy>隱私政策</privacy>和<terms>服務條款</terms>。"
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "title": "支持哪些設備和服務器區域？",
+          "content_1": "目前，我們的<link>導入教程</link>支持所有主流設備和平臺，包括：Windows、macOS、Linux、Android、iOS 以及 PlayStation 5。此外，我們還支持使用開源自動化腳本導入，或通過手動文件上傳的方式導入，並提供逐步講解的視頻教程。",
+          "content_2": "我们支持所有游戏区域和服务器，包括 美國、亞洲、歐洲、東南亞洲、香港/台灣/澳門和中國。"
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "如何導入或導出我的數據？",
+          "content": "您可以使用您的<link>數據設置</link>導入或導出數據。我們建議您定期導出數據作爲備份並將其保存到多個位置。"
         },
         "item_4": {
-          "title": "How do I sync across devices?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
+          "title": "如何在不同設備之間同步？",
+          "content_1": "要在多臺設備之間同步您的數據，必須先將您的 UID 綁定到一個電子郵箱地址。您需要先通過我們的社交登錄方式（如 Google 或 GitHub）登錄您的電子郵箱賬戶，然後即可在<connections>連接設置</connections>中綁定郵箱，或在按照我們的<import>導入教程</import>操作時啓用郵箱綁定。",
           "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
         },
         "item_5": {
