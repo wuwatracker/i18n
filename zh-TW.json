@@ -646,21 +646,21 @@
         "item_4": {
           "title": "如何在不同設備之間同步？",
           "content_1": "要在多臺設備之間同步您的數據，必須先將您的 UID 綁定到一個電子郵箱地址。您需要先通過我們的社交登錄方式（如 Google 或 GitHub）登錄您的電子郵箱賬戶，然後即可在<connections>連接設置</connections>中綁定郵箱，或在按照我們的<import>導入教程</import>操作時啓用郵箱綁定。",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "content_2": "當您進行導入，或在<link>連接設置</link>中手動點擊 {recoverPulls} 按鈕時，您的喚取數據將會自動同步。"
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "如何解決我的導入問題？",
+          "content_1": "大多數導入問題都可以通過遵循我們的<link>導入疑難解答指南</link>來解決，該指南涵蓋共同的問題和逐步解決方法。",
+          "content_2": "如果您仍然遇到麻煩，請隨時加入我們的<link>Discord 服務器</link>以獲得進一步的幫助。"
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "我能恢復超過 6 個月的喚取嗎？",
+          "content_1": "如果您以前已經將您的數據導入到 WuWa Tracker，您的舊喚取已經被備份到您的 UID。您可以隨時通過您的<link>連接設置</link>恢復它們，然後將您的電子郵件鏈接到您的 UID。",
+          "content_2": "否則，如果這是您第一次使用我們的網站，很遺憾我們只能讀取您當前在遊戲內仍可查看的歷史記錄。由於庫洛遊戲的數據保留策略，超過 6 個月的喚取記錄將無法再被獲取。"
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "爲什麼我的一些統計數字不準確？",
+          "content": "爲提升性能，一些統計數據（例如運氣評分和全球統計）會緩存在我們的服務器上。在導入新的喚取記錄後，這些數值可能需要幾分鐘才能更新。請嘗試刷新頁面，或在數小時後再查看。"
         }
       }
     },
@@ -670,12 +670,12 @@
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "每週任務重置",
+        "daily_reset": "每日任務重置"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "結晶波片",
+        "stamina_extra": "結晶單質"
       }
     }
   },
@@ -703,12 +703,12 @@
         "banner_description": "查看 {name} 卡池的全球喚取分析。WuWa Tracker是《鳴潮》的保底分析工具，使用最新的資料和全球統計等。與朋友分享你的抽卡記錄並追蹤你的帳號！"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "title": "持有率統計",
+        "description": "使用動畫歷史條形圖查看《鳴潮》卡池的持有率統計。",
+        "disclaimer": "這些數據僅基於上傳到 WuWa Tracker 的抽卡記錄，並不能代表整個《鳴潮》玩家羣體。爲保證數據完整性，不允許手動上傳數據。隨着更多抽卡記錄被上傳和處理，數據可能會發生變化；同時，由於抽卡記錄有 6 個月的過期週期，這些數據可能無法反映最新的卡池情況。",
+        "disclaimer_featured_only": "此圖表只包含限定共鳴者卡池喚取，不包括常駐共鳴者喚取。",
+        "no_data": "無可用數據",
+        "total": "總計"
       }
     },
     "error": {
@@ -796,8 +796,8 @@
       "Ascension Planner": "升級規劃工具",
       "Events": "活動",
       "Articles": "主題",
-      "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Banners": "卡池",
+      "Ownership Statistics": "持有率統計"
     },
     "footer": {
       "links": {
