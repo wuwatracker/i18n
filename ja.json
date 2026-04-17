@@ -682,7 +682,7 @@
   "metadata": {
     "root": {
       "title": "Wuthering Waves リソース＆コンパニオンアプリ",
-      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
+      "description": "WuWa TrackerはNo.1の鳴潮ガチャ履歴トラッカー＆天井カウンターです。集音履歴や実績を追跡し、グローバル統計を確認、育成計画ツールや計算機を活用し、ガイド・Wiki・ニュース記事で鳴潮の体験を最適化しましょう。"
     },
     "achievements": {
       "title": "実績",
@@ -703,8 +703,8 @@
         "banner_description": "{name} ガチャのグローバルな統計データを確認しよう。鳴潮専用「WuWa Tracker」集音カウンターは、最新のグローバル統計データなどを活用。友達と集音結果を共有し、アカウントを追跡しよう!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
+        "title": "キャラ所持率",
+        "description": "鳴潮のピックアップの統計情報をアニメーション化した棒グラフで表示します。",
         "disclaimer": "これらの数字は、WuWa Trackerにアップロードされた結果のみに基づいており、鳴潮プレイヤー全体を代表するわけではありません。 データの整合性を維持するために手動でのデータアップロードは許可されていません。 より多くの集音履歴がアップロードおよび処理されると、データは変更される可能性があります。また、6ヶ月の有効期限が切れるまでは、最新のピックアップは反映されない場合があります。",
         "disclaimer_featured_only": "このグラフは「共鳴者集音」のみを集計しており、それ以外の結果は含まれていません。",
         "no_data": "No data available",
@@ -777,8 +777,8 @@
     },
     "banners": {
       "title": "Wuthering Waves Banner History",
-      "page_header": "鳴潮のピックアップ & 復刻の履歴",
-      "page_header_title": "ピックアップ履歴",
+      "page_header": "鳴潮の集音イベントの履歴",
+      "page_header_title": "集音イベント履歴",
       "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
     }
   },
@@ -796,7 +796,7 @@
       "Ascension Planner": "育成計画",
       "Events": "イベント",
       "Articles": "記事",
-      "Banners": "集音一覧",
+      "Banners": "集音イベント",
       "Ownership Statistics": "キャラ所持率"
     },
     "footer": {
