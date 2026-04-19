@@ -599,8 +599,10 @@
       "email_link_description": "這將會允許我們儲存您的資料至我們的資料庫並且在每次您匯入資料時自動備份 。如果您的UID已經連結到另外的email，我們將會移除舊的連結並使用您的新email地址。"
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "上移",
-      "move_down": "下移"
+      "move_down": "下移",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "新計劃",
