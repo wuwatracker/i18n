@@ -599,8 +599,10 @@
       "email_link_description": "Umożliwi nam to zapisywanie twoich danych do naszej bazy danych i automatyczne tworzenie kopii zapasowych danych za każdym razem, gdy importujesz. Jeśli twoje ID gracza jest już połączone z innym adresem e-mail, usuniemy stare połączenie i użyjemy nowego adresu e-mail."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Przesuń w górę",
-      "move_down": "Przesuń w dół"
+      "move_down": "Przesuń w dół",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Nowy plan",
