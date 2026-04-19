@@ -599,8 +599,10 @@
       "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Di chuyển lên",
-      "move_down": "Di chuyển xuống"
+      "move_down": "Di chuyển xuống",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Kế hoạch mới",
