@@ -599,8 +599,10 @@
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "위로 이동",
-      "move_down": "아래로 이동"
+      "move_down": "아래로 이동",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "새로운 플랜",
