@@ -599,8 +599,10 @@
       "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "上へ移動",
-      "move_down": "下へ移動"
+      "move_down": "下へ移動",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "新規プラン",
