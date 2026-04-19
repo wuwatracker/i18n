@@ -599,8 +599,10 @@
       "email_link_description": "这将使我们能够保存您的数据到我们的数据库并在每次导入时自动备份您的数据。 如果您的玩家 ID 已经链接到另一个电子邮件地址，我们将移除旧链接并使用您的新电子邮件地址。"
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "上移",
-      "move_down": "下移"
+      "move_down": "下移",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "新建计划",
