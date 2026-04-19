@@ -599,8 +599,10 @@
       "email_link_description": "Esto nos permitirá guardar sus datos en nuestra base de datos y automáticamente hacer una copia de seguridad de sus datos cada vez que importe. Si tu ID de jugador ya está vinculada a otra dirección de correo electrónico, eliminaremos el enlace antiguo y usaremos tu nueva dirección de correo electrónico."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Subir",
-      "move_down": "Bajar"
+      "move_down": "Bajar",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Nuevo plan",
