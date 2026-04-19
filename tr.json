@@ -599,8 +599,10 @@
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Yukarı Çık",
-      "move_down": "Aşağı İn"
+      "move_down": "Aşağı İn",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Yeni Plan",
