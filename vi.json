@@ -20,10 +20,10 @@
       "import_data": "Nhập dữ liệu",
       "import_data_description": "Sử dụng dữ liệu đã xuất ra trước đó và lưu nó vào trình duyệt của bạn",
       "banner_list": "Danh sách Banner",
-      "no_pulls_yet": "Chưa có lượt triệu hồi nào",
-      "rarity_pulls": "Lượt triệu hồi {num}✦",
+      "no_pulls_yet": "Lịch sử Triệu hồi trống",
+      "rarity_pulls": "Lượt Triệu hồi {num}✦",
       "num_pity": "Số Pity {num}✦",
-      "total_pulls": "Tổng số lượt triệu hồi",
+      "total_pulls": "Tổng số lượt Triệu hồi",
       "total_users_responsive": "<span>Tổng</span> người dùng",
       "total_pulls_responsive": "<span>Tổng</span> lượt triệu hồi",
       "total_astrites_responsive": "<span>Tổng</span> số Astrites",
@@ -599,10 +599,10 @@
       "email_link_description": "Việc này cho phép chúng tôi lưu dữ liệu của bạn vào hệ thống và tự động sao lưu mỗi khi bạn nhập. Nếu ID người chơi của bạn đã liên kết với một địa chỉ email khác, chúng tôi sẽ gỡ liên kết cũ và dùng địa chỉ email mới."
     },
     "planner": {
-      "move_to_top": "Move To Top",
+      "move_to_top": "Chuyển đến đầu trang",
       "move_up": "Di chuyển lên",
       "move_down": "Di chuyển xuống",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_bottom": "Chuyển đến dưới cùng"
     },
     "inventory": {
       "new_plan": "Kế hoạch mới",
