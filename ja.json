@@ -483,8 +483,8 @@
       "pulls_per_rarity": "レア度ごとの集音数",
       "pulls_per_rarity_description": "レア度分布を表示",
       "pulls_per_item_description": "アイテムごとの集音数を表示",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "{finalAggregationDate}までは、データが変更される可能性があります",
+      "data_may_change_until_description": "履歴は6か月で失効します。現在もユーザーのデータインポートに伴い、データの集計が進んでいます。"
     },
     "settings": {
       "general": {
@@ -594,7 +594,7 @@
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
       "open_terminal_and_open_script": "次にターミナルを起動し、以下のコマンドを貼り付けて実行する。",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "注意: 本スクリプトは、ゲームログから「集音履歴URL」を抽出するだけです。スクリプトの詳細は<script>こちら</script>からご覧いただけます。「<repo></repo>」のコードを共有してくださった<author></author>さんに感謝します。",
       "script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログから集音履歴URLを取得するだけです。",
       "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
