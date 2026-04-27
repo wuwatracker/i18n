@@ -51,8 +51,10 @@
         "Chixia": "Chixia",
         "Ciaccona": "Ciaccona",
         "Danjin": "Danjin",
+        "Denia": "Denia",
         "Encore": "Encore",
         "Galbrena": "Galbrena",
+        "Hiyuki": "Hiyuki",
         "Iuno": "Iuno",
         "Jianxin": "Jianxin",
         "Jinhsi": "Jinhsi",
@@ -110,6 +112,8 @@
         "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
+        "Forged Dwarf Star": "Forged Dwarf Star",
+        "Frostburn": "Frostburn",
         "Fusion Accretion": "Fusion Accretion",
         "Gauntlets of Night": "Gauntlets of Night",
         "Gauntlets of Voyager": "Gauntlets of Voyager",
@@ -595,8 +599,10 @@
       "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Move Up",
-      "move_down": "Move Down"
+      "move_down": "Move Down",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Plan Baru",

@@ -51,8 +51,10 @@
         "Chixia": "熾霞",
         "Ciaccona": "夏空",
         "Danjin": "丹瑾",
+        "Denia": "Denia",
         "Encore": "安可",
         "Galbrena": "嘉貝莉娜",
+        "Hiyuki": "Hiyuki",
         "Iuno": "尤諾",
         "Jianxin": "鑒心",
         "Jinhsi": "今汐",
@@ -110,6 +112,8 @@
         "Everbright Polestar": "永遠的啟明星",
         "Fables of Wisdom": "風流的寓言詩",
         "Feather Edge": "翼鋒",
+        "Forged Dwarf Star": "Forged Dwarf Star",
+        "Frostburn": "Frostburn",
         "Fusion Accretion": "核熔星盤",
         "Gauntlets of Night": "暗夜臂鎧．夜芒",
         "Gauntlets of Voyager": "遠行者臂鎧．破障",
@@ -595,8 +599,10 @@
       "email_link_description": "這將會允許我們儲存您的資料至我們的資料庫並且在每次您匯入資料時自動備份 。如果您的UID已經連結到另外的email，我們將會移除舊的連結並使用您的新email地址。"
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "上移",
-      "move_down": "下移"
+      "move_down": "下移",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "新計劃",

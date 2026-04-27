@@ -51,8 +51,10 @@
         "Chixia": "熾霞",
         "Ciaccona": "シャコンヌ",
         "Danjin": "丹瑾",
+        "Denia": "ダーニャ",
         "Encore": "アンコ",
         "Galbrena": "ガルブレーナ",
+        "Hiyuki": "緋雪",
         "Iuno": "ユーノ",
         "Jianxin": "鑑心",
         "Jinhsi": "今汐",
@@ -110,6 +112,8 @@
         "Everbright Polestar": "とこしえの明星",
         "Fables of Wisdom": "風刺のファブリオー",
         "Feather Edge": "鋭利な翼",
+        "Forged Dwarf Star": "偽物の矮星",
+        "Frostburn": "灼霜",
         "Fusion Accretion": "コアが溶融する降着円盤",
         "Gauntlets of Night": "暗夜の手甲・夜灯",
         "Gauntlets of Voyager": "探索者手甲・排除",
@@ -479,8 +483,8 @@
       "pulls_per_rarity": "レア度ごとの集音数",
       "pulls_per_rarity_description": "レア度分布を表示",
       "pulls_per_item_description": "アイテムごとの集音数を表示",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "{finalAggregationDate}までは、データが変更される可能性があります",
+      "data_may_change_until_description": "履歴は6か月で失効します。現在もユーザーのデータインポートに伴い、データの集計が進んでいます。"
     },
     "settings": {
       "general": {
@@ -572,7 +576,7 @@
       "first_open_game_history": "まず始めにゲームを起動し、集音履歴画面を開く",
       "open_windows_powershell_and_run_script": "次に「Windows PowerShell」を起動し、以下のコマンドを貼り付けて実行する。",
       "click_the_copy_button": "右側のコピーボタンをクリック",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "注意: 本スクリプトは、ゲームログから「集音履歴URL」を抽出するだけです。スクリプトの詳細は<link>こちら</link>からご覧いただけます。",
       "paste_the_url_here": "URLをここに貼り付ける",
       "paste_the_json_here": "JSONをここに貼り付ける",
       "go_to_installation_directory": "ゲームのインストール先ディレクトリを開く",
@@ -590,13 +594,15 @@
       "ps5_click_on_page_information": "Press the 'Page Information' button",
       "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
       "open_terminal_and_open_script": "次にターミナルを起動し、以下のコマンドを貼り付けて実行する。",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
+      "linux_script_disclaimer": "注意: 本スクリプトは、ゲームログから「集音履歴URL」を抽出するだけです。スクリプトの詳細は<script>こちら</script>からご覧いただけます。「<repo></repo>」のコードを共有してくださった<author></author>さんに感謝します。",
       "script_disclaimer": "注意: このスクリプトはファイルの編集はせず、ログから集音履歴URLを取得するだけです。",
       "email_link_description": "これにより、データを我々のデータベースに保存し、インポートするたびにデータを自動的にバックアップすることができます。 プレイヤーIDがすでに別のメールアドレスに連携されている場合、古い連携を削除し、新しいメールアドレスを使用します。"
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "上へ移動",
-      "move_down": "下へ移動"
+      "move_down": "下へ移動",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "新規プラン",

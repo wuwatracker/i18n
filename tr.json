@@ -51,8 +51,10 @@
         "Chixia": "Chixia",
         "Ciaccona": "Ciaccona",
         "Danjin": "Danjin",
+        "Denia": "Denia",
         "Encore": "Encore",
         "Galbrena": "Galbrena",
+        "Hiyuki": "Hiyuki",
         "Iuno": "Iuno",
         "Jianxin": "Jianxin",
         "Jinhsi": "Jinhsi",
@@ -110,6 +112,8 @@
         "Everbright Polestar": "Everbright Polestar",
         "Fables of Wisdom": "Fables of Wisdom",
         "Feather Edge": "Feather Edge",
+        "Forged Dwarf Star": "Forged Dwarf Star",
+        "Frostburn": "Frostburn",
         "Fusion Accretion": "Fusion Accretion",
         "Gauntlets of Night": "Gauntlets of Night",
         "Gauntlets of Voyager": "Gauntlets of Voyager",
@@ -595,8 +599,10 @@
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "Yukarı Çık",
-      "move_down": "Aşağı İn"
+      "move_down": "Aşağı İn",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "Yeni Plan",
@@ -631,7 +637,7 @@
         "join_our_discord": "Discord Sunucumuza katıl ve orada yardım iste",
         "item_1": {
           "title": "WuWa Tracker'i kullanmak güvenli mi?",
-          "content_1": "WuWa Tracker <link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ.",
+          "content_1": "WuWa Tracker </link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ.",
           "content_2": "UID'nize bir e-posta adresi eşleyerek cihazlar arasında senkronizasyon yapmayı seçmediğiniz sürece verileriniz cihazınızda kalır. İçe aktarma yaptığınızda yalnızca anonimleştirilmiş genel istatistikler toplanır. Sitemizi kullanmadan önce <privacy>Gizlilik Politikamızı</privacy> ve <terms>Hizmet Şartlarımızı</terms> incelemenizi öneririz."
         },
         "item_2": {

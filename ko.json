@@ -51,8 +51,10 @@
         "Chixia": "치샤",
         "Ciaccona": "샤콘",
         "Danjin": "단근",
+        "Denia": "데니아",
         "Encore": "앙코",
         "Galbrena": "갈브레나",
+        "Hiyuki": "히유키",
         "Iuno": "유노",
         "Jianxin": "감심",
         "Jinhsi": "금희",
@@ -110,6 +112,8 @@
         "Everbright Polestar": "영원한 샛별",
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
+        "Forged Dwarf Star": "위조된 작은 별",
+        "Frostburn": "서린 불꽃",
         "Fusion Accretion": "융합의 원반",
         "Gauntlets of Night": "흑야의 권갑 · 흑빛",
         "Gauntlets of Voyager": "수행자의 권갑 · 파괴",
@@ -595,8 +599,10 @@
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
     "planner": {
+      "move_to_top": "Move To Top",
       "move_up": "위로 이동",
-      "move_down": "아래로 이동"
+      "move_down": "아래로 이동",
+      "move_to_bottom": "Move To Bottom"
     },
     "inventory": {
       "new_plan": "새로운 플랜",
