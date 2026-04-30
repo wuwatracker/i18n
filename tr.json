@@ -28,8 +28,8 @@
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
       "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "fifty_fifty_win": "50/50 Kazanma",
+      "rate_up_win": "Rate-Up Kazanma"
     },
     "name": {
       "items": {
@@ -238,15 +238,15 @@
         "inventory_item_does_not_exist": "Öyle bir öğe yok!",
         "planner_insufficient_materials": "Yetersiz materyal.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Çağrı geçmişini dışa aktarmak için misafir OLMAYAN bir profil kullanmalısın",
-        "failed_to_link_email": "Failed to link your email",
+        "failed_to_link_email": "E-postanı eşlerken bir problem oluştu",
         "failed_to_unlink_email": "E-posta eşlemen kaldırılamadı",
         "failed_to_fetch_pulls_from_database": "Veritabanımızdan çağrıları getiremedik :(",
         "an_error_occured_while_merging_your_data": "Verilerini birleştirirken bir sorun oluştu",
         "your_email_must_be_linked_to_import_pulls": "Çağrılarını içe aktarabilmek için e-postanı eşlemelisin",
         "your_email_must_be_linked_to_import_pulls_description": "Lütfen öncelikle giriş yap ve oyuncu ID'ni eşle.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "invalid_convene_url": "Verilerini yükleyemedik. Buluşma URL'n yanlış veya süresi geçmiş olabilir. Lütfen <troubleshootingLink>sorun giderme kılavuzunu</troubleshootingLink> takip ederek bu sorunu çözmeye çalış. Eğer verilerini incelemek istiyorsan, <historyLink>buradan buluşma geçmişini görebilirsin</historyLink>.",
+        "import_file_cannot_be_empty": "İçe aktaracağın dosya boş olamaz",
+        "your_url_is_invalid": "URL'n geçersiz"
       },
       "info": {
         "sign_in_first": "Öncelikle giriş yapmalısın",
@@ -282,8 +282,8 @@
         "delete_profiles": "Başarılı bir şekilde tüm kullanıcı profilleri silindi.",
         "planner_successfully_completed_plan_for_name": "{name} planı başarılı bir şekilde tamamlandı!",
         "planner_successfully_created_plan_for_name": "{name} planı başarılı bir şekilde oluşturuldu.",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
+        "successfully_linked_email": "E-postan başarıyla eşlendi",
+        "successfully_linked_email_description": "{email} artık {playerId} kullanıcı ID'sine bağlı.",
         "successfully_unlinked_email": "Başarıyla e-posta eşlemen kaldırıldı"
       },
       "warn": {
@@ -471,33 +471,33 @@
         "rate_up_wins_description": "Çağrıların ne sıklıkla Rate-up dı?"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "Çağrı verilerini kurtar",
+        "description": "Eğer tarayıcın çerezleri veya yerel verileri silerse, WuWa Tracker bulut tabanındaki verileri kullanarak çağrılarını geri getirebilir.",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "Herhangi bir yolla giriş yap",
+            "subtitle": "Verilerini kurtarabilmek için bir e-postayı doğrula",
+            "subtitle_complete": "Giriş yaptın",
+            "description": "Kurtarma e-postanı doğrulamak için giriş yap. Biz sadece seni ayırt edebilmek için gereken verileri okuyoruz, senin oyun hesabın veya sosyal hesaplarına erişimimiz yok. Gizlilik Politikamızı <privacy>buradan</privacy> görüntüleyebilirsin.",
+            "button": "Giriş yap",
+            "button_complete": "Giriş yaptın"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "subtitle": "UID'ni e-postana bağla",
+            "subtitle_complete": "UID {playerId} bağlı",
+            "subtitle_mismatch": "Bağlı UID bu takip profiliyle uyuşmuyor",
+            "description_complete": "Bu takip profili e-postanla eşlenmiş. Sonraki adımda çağrılarını kurtarabilirsin.",
+            "step_open_import_prefix": "Aç",
+            "step_enable_email_link_prefix": "Aktifleştir",
+            "step_import": "Kurtarma amacıyla bu UID'yi bağlamak için çağrılarını içe aktar.",
+            "description_mismatch": "E-postan şu UID'yi bağlı; <linked>{linkedPlayerId}</linked>, ama çağrı takip sistemi şu an şunu gösteriyor; <active>{activePlayerId}</active>. Verilerini kurtarmadan önce bağlı UID'ye geç veya bu profili kurtarmak istiyorsan, bağlantılarını <settingsLink>Ayarlar Sayfasından</settingsLink> kontrol et.",
+            "mismatch_warning": "\"Çağrıları Kurtar\" butonu, aktif profil bağlanmış UID'yle eşleşene kadar kullanılamaz.",
+            "switch_profile": "Şu UID'ye geçiş yap: {playerId}",
+            "manage_connections": "Bağlantıları yönet",
+            "button_complete": "E-posta eşlendi"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
+            "subtitle": "Yedeklerini indir ve birleştir",
             "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
           }
         }
