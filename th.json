@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
+      "Pull Tracker": "ติดตามประวัติการสุ่ม",
       "Import Pulls": "Import Pulls",
       "Global Statistics": "สถิติทั้งหมดโดยรวม",
       "Wiki": "Wiki",

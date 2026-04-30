@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
+      "Pull Tracker": "Pelacak Pull",
       "Import Pulls": "Import Pulls",
       "Global Statistics": "Statistik Global",
       "Wiki": "Wiki",

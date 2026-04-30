@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Theo Dõi",
+      "Pull Tracker": "Theo Dõi Triệu Hồi",
       "Import Pulls": "Nhập Lượt Triệu Hồi",
       "Global Statistics": "Thống Kê Toàn Cầu",
       "Wiki": "Wiki",

@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "トラッカー",
+      "Pull Tracker": "集音トラッカー",
       "Import Pulls": "集音履歴のインポート",
       "Global Statistics": "グローバル統計",
       "Wiki": "Wiki",

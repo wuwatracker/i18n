@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "分析系統",
+      "Pull Tracker": "喚取分析",
       "Import Pulls": "匯入喚取紀錄",
       "Global Statistics": "全球數據",
       "Wiki": "Wiki",

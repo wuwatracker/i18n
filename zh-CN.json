@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "追踪器",
+      "Pull Tracker": "唤取记录",
       "Import Pulls": "导入唤取历史",
       "Global Statistics": "全球统计数据",
       "Wiki": "百科",

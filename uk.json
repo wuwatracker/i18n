@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Трекер",
+      "Pull Tracker": "Трекер круток",
       "Import Pulls": "Імпорт історії круток",
       "Global Statistics": "Глобальна статистика",
       "Wiki": "Вікі",

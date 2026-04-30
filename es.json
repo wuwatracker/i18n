@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Seguidor",
+      "Pull Tracker": "Seguidor de Invocaciones",
       "Import Pulls": "Importar Invocaciones",
       "Global Statistics": "Estadísticas globales",
       "Wiki": "Wiki",

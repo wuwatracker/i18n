@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "Takip Sistemi",
+      "Pull Tracker": "Çağrı Takip Sistemi",
       "Import Pulls": "Çağrıları İçe Aktar",
       "Global Statistics": "Küresel İstatistikler",
       "Wiki": "Wiki",

@@ -791,6 +791,7 @@
   "config": {
     "navLinks": {
       "Tracker": "트래커",
+      "Pull Tracker": "튜닝 트래커",
       "Import Pulls": "튜닝 기록 가져오기",
       "Global Statistics": "글로벌 통계",
       "Wiki": "위키",
