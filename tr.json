@@ -469,6 +469,38 @@
         "coinflip_wins_description": "Çağrılarının yüzde kaçında 50/50 kazandın?",
         "rate_up_wins": "Rate-up Kazanma",
         "rate_up_wins_description": "Çağrıların ne sıklıkla Rate-up dı?"
+      },
+      "recover_pulls_onboarding": {
+        "title": "Recover your pull data",
+        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "steps": {
+          "sign_in": {
+            "title": "Sign in with any social provider",
+            "subtitle": "Verify an email for recovery",
+            "subtitle_complete": "You're signed in",
+            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
+            "button": "Sign in",
+            "button_complete": "Signed in"
+          },
+          "email_link": {
+            "subtitle": "Bind your UID to your email",
+            "subtitle_complete": "UID {playerId} is linked",
+            "subtitle_mismatch": "Linked UID does not match this tracker profile",
+            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
+            "step_open_import_prefix": "Open",
+            "step_enable_email_link_prefix": "Turn on",
+            "step_import": "Import your pulls to bind this UID for recovery.",
+            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
+            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
+            "switch_profile": "Switch to UID {playerId}",
+            "manage_connections": "Manage connections",
+            "button_complete": "Email linked"
+          },
+          "recover_pulls": {
+            "subtitle": "Download and merge your backup",
+            "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
+          }
+        }
       }
     },
     "global_stats": {
