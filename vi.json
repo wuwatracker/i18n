@@ -29,7 +29,7 @@
       "total_astrites_responsive": "<span>Tổng</span> số Astrites",
       "invalid_pity_number": "Số pity này không hợp lệ do lịch sử triệu hồi bị không nhất quán.",
       "fifty_fifty_win": "Win rate 50/50",
-      "rate_up_win": "Thắng Rate-Up"
+      "rate_up_win": "Trúng Rate-Up"
     },
     "name": {
       "items": {
@@ -217,7 +217,7 @@
         "Beginner's Choice Convene": "Banner Tân Thủ Tự Chọn ",
         "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn",
         "New Voyage Weapon": "Vũ Khí Hành Trình Mới",
-        "New Voyage Resonator": "Cộng Hưởng Giả Hành Trình Mới"
+        "New Voyage Resonator": "Nhân Vật Hành Trình Mới"
       }
     }
   },
@@ -231,7 +231,7 @@
         "unable_to_parse_profile_data": "Chỉ dành cho dữ liệu người dùng. Sử dụng nút nhập khác cho dữ liệu lịch sử Triệu hồi.",
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
-        "cannot_find_convene_url": "Chúng tôi không tìm thấy Đường dẫn Triệu Hồi",
+        "cannot_find_convene_url": "Chúng tôi không tìm thấy URL Triệu Hồi",
         "no_pulls_to_download": "Không có dữ liệu Lượt Triệu hồi để tải xuống.",
         "need_to_upload_specific_file": "Bạn cần tải lên {file}!",
         "sync_unavailable": "Hiện không thể đồng bộ.",
