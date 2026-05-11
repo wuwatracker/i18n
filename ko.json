@@ -471,34 +471,34 @@
         "rate_up_wins_description": "확률 업 아이템이 얼마나 나왔나요?"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "튜닝 데이터 복구",
+        "description": "브라우저에서 쿠키나 로컬 데이터가 삭제된 경우, WuWa Tracker는 이전에 클라우드 데이터베이스에 백업된 튜닝 데이터를 복원할 수 있습니다.",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "소셜 계정으로 로그인하세요",
+            "subtitle": "복구를 위해 이메일을 인증하세요",
+            "subtitle_complete": "로그인되었습니다",
+            "description": "복구용 이메일을 확인하려면 로그인하세요. 이메일 식별에 필요한 정보만 읽으며, 게임이나 소셜 계정에는 접근할 수 없습니다. 자세한 내용은 <privacy>Privacy Policy</privacy>를 확인하세요.",
+            "button": "로그인",
+            "button_complete": "로그인 됨"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "subtitle": "UID를 이메일에 연결하세요",
+            "subtitle_complete": "UID {playerId}가 연결되었습니다",
+            "subtitle_mismatch": "연결된 UID가 이 트래커 프로필과 일치하지 않습니다",
+            "description_complete": "이 트래커 프로필은 이메일에 연결되어 있습니다. 다음 단계에서 튜닝 데이터를 복구할 수 있습니다.",
+            "step_open_import_prefix": "열기",
+            "step_enable_email_link_prefix": "켜기",
+            "step_import": "복구를 위해 이 UID를 연결하려면 튜닝 데이터를 가져오세요.",
+            "description_mismatch": "이메일은 UID <linked>{linkedPlayerId}</linked>에 연결되어 있지만, 현재 튜닝 트래커에는 <active>{activePlayerId}</active>가 표시되고 있습니다. 복구를 진행하기 전에 연결된 UID로 전환하거나, 이 프로필을 대신 복구하려는 경우 <settingsLink>설정 페이지</settingsLink>에서 연결을 관리하세요.",
+            "mismatch_warning": "연결된 UID가 현재 활성 트래커 프로필과 일치할 때까지 \"Recover Pulls\" 버튼은 비활성화됩니다.",
+            "switch_profile": "UID {playerId}로 전환",
+            "manage_connections": "연결 정보 관리",
+            "button_complete": "이메일 연결됨"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
-            "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
+            "subtitle": "백업을 다운로드하고 병합하세요",
+            "description": "이메일이 UID에 연결되면 저장된 클라우드 데이터를 다운로드하여 이 브라우저에 다시 병합할 수 있습니다."
           }
         }
       }
@@ -631,10 +631,10 @@
       "email_link_description": "이렇게 하면 데이터를 데이터베이스에 저장하고, 가져올 때마다 자동으로 데이터를 백업할 수 있습니다. 플레이어 ID가 이미 다른 이메일에 연결되어 있는 경우, 기존 연결을 제거하고 새 이메일을 사용합니다."
     },
     "planner": {
-      "move_to_top": "Move To Top",
+      "move_to_top": "맨 위로 이동",
       "move_up": "위로 이동",
       "move_down": "아래로 이동",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_bottom": "맨 아래로 이동"
     },
     "inventory": {
       "new_plan": "새로운 플랜",

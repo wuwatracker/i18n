@@ -28,8 +28,8 @@
       "total_pulls_responsive": "<span>Toplam</span> Çağrı",
       "total_astrites_responsive": "<span>Toplam</span> Astrite",
       "invalid_pity_number": "Çağrı geçmişinde oluşan bir uyuşmazlıktan dolayı pity sayacı yanlış.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "fifty_fifty_win": "50/50 Kazanma",
+      "rate_up_win": "Rate-Up Kazanma"
     },
     "name": {
       "items": {
@@ -238,15 +238,15 @@
         "inventory_item_does_not_exist": "Öyle bir öğe yok!",
         "planner_insufficient_materials": "Yetersiz materyal.",
         "you_must_use_a_non_guest_profile_to_export_pull_history": "Çağrı geçmişini dışa aktarmak için misafir OLMAYAN bir profil kullanmalısın",
-        "failed_to_link_email": "Failed to link your email",
+        "failed_to_link_email": "E-postanı eşlerken bir problem oluştu",
         "failed_to_unlink_email": "E-posta eşlemen kaldırılamadı",
         "failed_to_fetch_pulls_from_database": "Veritabanımızdan çağrıları getiremedik :(",
         "an_error_occured_while_merging_your_data": "Verilerini birleştirirken bir sorun oluştu",
         "your_email_must_be_linked_to_import_pulls": "Çağrılarını içe aktarabilmek için e-postanı eşlemelisin",
         "your_email_must_be_linked_to_import_pulls_description": "Lütfen öncelikle giriş yap ve oyuncu ID'ni eşle.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "invalid_convene_url": "Verilerini yükleyemedik. Buluşma URL'n yanlış veya süresi geçmiş olabilir. Lütfen <troubleshootingLink>sorun giderme kılavuzunu</troubleshootingLink> takip ederek bu sorunu çözmeye çalış. Eğer verilerini incelemek istiyorsan, <historyLink>buradan buluşma geçmişini görebilirsin</historyLink>.",
+        "import_file_cannot_be_empty": "İçe aktaracağın dosya boş olamaz",
+        "your_url_is_invalid": "URL'n geçersiz"
       },
       "info": {
         "sign_in_first": "Öncelikle giriş yapmalısın",
@@ -282,8 +282,8 @@
         "delete_profiles": "Başarılı bir şekilde tüm kullanıcı profilleri silindi.",
         "planner_successfully_completed_plan_for_name": "{name} planı başarılı bir şekilde tamamlandı!",
         "planner_successfully_created_plan_for_name": "{name} planı başarılı bir şekilde oluşturuldu.",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
+        "successfully_linked_email": "E-postan başarıyla eşlendi",
+        "successfully_linked_email_description": "{email} artık {playerId} kullanıcı ID'sine bağlı.",
         "successfully_unlinked_email": "Başarıyla e-posta eşlemen kaldırıldı"
       },
       "warn": {
@@ -471,34 +471,34 @@
         "rate_up_wins_description": "Çağrıların ne sıklıkla Rate-up dı?"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "Çağrı verilerini kurtar",
+        "description": "Eğer tarayıcın çerezleri veya yerel verileri silerse, WuWa Tracker bulut tabanındaki verileri kullanarak çağrılarını geri getirebilir.",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "Herhangi bir yolla giriş yap",
+            "subtitle": "Verilerini kurtarabilmek için bir e-postayı doğrula",
+            "subtitle_complete": "Giriş yaptın",
+            "description": "Kurtarma e-postanı doğrulamak için giriş yap. Biz sadece seni ayırt edebilmek için gereken verileri okuyoruz, senin oyun hesabın veya sosyal hesaplarına erişimimiz yok. Gizlilik Politikamızı <privacy>buradan</privacy> görüntüleyebilirsin.",
+            "button": "Giriş yap",
+            "button_complete": "Giriş yaptın"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "subtitle": "UID'ni e-postana bağla",
+            "subtitle_complete": "UID {playerId} bağlı",
+            "subtitle_mismatch": "Bağlı UID bu takip profiliyle uyuşmuyor",
+            "description_complete": "Bu takip profili e-postanla eşlenmiş. Sonraki adımda çağrılarını kurtarabilirsin.",
+            "step_open_import_prefix": "Aç",
+            "step_enable_email_link_prefix": "Aktifleştir",
+            "step_import": "Kurtarma amacıyla bu UID'yi bağlamak için çağrılarını içe aktar.",
+            "description_mismatch": "E-postan şu UID'yi bağlı; <linked>{linkedPlayerId}</linked>, ama çağrı takip sistemi şu an şunu gösteriyor; <active>{activePlayerId}</active>. Verilerini kurtarmadan önce bağlı UID'ye geç veya bu profili kurtarmak istiyorsan, bağlantılarını <settingsLink>Ayarlar Sayfasından</settingsLink> kontrol et.",
+            "mismatch_warning": "\"Çağrıları Kurtar\" butonu, aktif profil bağlanmış UID'yle eşleşene kadar kullanılamaz.",
+            "switch_profile": "Şu UID'ye geçiş yap: {playerId}",
+            "manage_connections": "Bağlantıları yönet",
+            "button_complete": "E-posta eşlendi"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
-            "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
+            "subtitle": "Yedeklerini indir ve birleştir",
+            "description": "E-postanı UID'nle eşlediğin zaman, buluta kaydedilmiş verileri indirebilir ve bu tarayıcıda birleştirebilirsin."
           }
         }
       }
@@ -539,7 +539,7 @@
         "export_pull_history": "Çağrı Geçmişini Dışa Aktar",
         "export_pull_history_description": "Ne olur ne olmaz diye çağrı geçmişini cihazına yedekle",
         "pulls_file_import_dialog_title": "Cihazındaki Çağrıları İçe Aktar",
-        "pulls_file_import_dialog_description_supported_files": "This accepts <code>wuwatracker-pulls</code> and <code>wuwatracker-convene-history</code> JSON files following our website's format.",
+        "pulls_file_import_dialog_description_supported_files": "Bu seçenek sadece <code>wuwatracker-pulls</code> ve <code>wuwatracker-convene-history</code> gibi websitemizin formatını takip eden JSON dosyalarını kabul eder.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
         "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
         "profile_data_will_not_sync_callout_description": "Değişikliklerin sadece cihazında kayıtlı tutuluyor, ve oturum açtığında kaybolacak. Profil verilerini eşlemek için:",
@@ -631,10 +631,10 @@
       "email_link_description": "Bu seçenek, verilerini veritabanımıza kaydetmemizi ve her içe aktarımda verilerini otomatik olarak eşlememizi sağlayacaktır. Oyuncu kimliğin zaten başka bir e-posta adresine bağlıysa, eski bağlantıyı kaldıracak ve yeni e-posta adresini kullanacağız."
     },
     "planner": {
-      "move_to_top": "Move To Top",
+      "move_to_top": "Başa Dön",
       "move_up": "Yukarı Çık",
       "move_down": "Aşağı İn",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_bottom": "En Aşağıya Git"
     },
     "inventory": {
       "new_plan": "Yeni Plan",
@@ -674,46 +674,46 @@
         },
         "item_2": {
           "title": "Hangi cihazlar ve bölgeler destekleniyor?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "content_1": "Mevcut <link>içe aktarma öğreticimiz</link> \"Windows, macOS, Linux, Android, iOS ve Playstation 5\" gibi tüm önemli cihazları kapsıyor. Dahası, açık kaynaklı otomatik komut dosyaları kullanarak veya adım adım video kılavuzları eşliğinde manuel dosya yükleme yöntemleriyle yapılan içe aktarmaları da destekliyoruz.",
+          "content_2": "Amerika, Asya, Avrupa, Güneydoğu Asya, HK/TW/MO ve Çin dahil olmak üzere tüm oyun bölgelerini ve sunucularını destekliyoruz."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "Verilerimi nasıl içe veya dışa aktarırım?",
+          "content": "Verilerini, <link>Veri Ayarlarını</link> kullanarak içe veya dışa aktarabilirsin. Verilerini sık sık yedeklemeni ve bu yedekleri farklı cihazlarda saklamanı tavsiye ediyoruz."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "title": "Cihazlar arasında nasıl senkronize edebilirim?",
+          "content_1": "Verilerini birden fazla cihaz arasında senkronize edebilmek için UID'nin bir e-posta adresiyle ilişkilendirilmiş olması gerekir. Öncelikle sosyal medya sağlayıcılarımız (Google veya GitHub gibi) aracılığıyla e-posta hesabına giriş yapmalısın; ardından e-postanı <connections>Bağlantı Ayarları</connections> bölümünden ilişkilendirebilir veya <import>İçe Aktarma Kılavuzu</import>'nu izleyerek e-posta bağlantısını etkinleştirebilirsin.",
+          "content_2": "Verilerini içe aktardığında veya <link>Bağlantı Ayarları</link> üzerinden {recoverPulls} düğmesine manuel olarak tıkladığında, çağrı verilerin otomatik olarak senkronize edilecek."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "İçe aktarma sorunlarımı nasıl çözebilirim?",
+          "content_1": "İçe aktarma ile ilgili sorunların çoğu, sık karşılaşılan sorunları ve adım adım çözümleri içeren <link>İçe Aktarma Sorun Giderme Kılavuzumuzu</link> takip ederek çözülebilir.",
+          "content_2": "Hala sorun yaşıyorsan, daha fazla yardım almak için <link>Discord sunucumuz</link> üzerinden bize ulaşabilirsin."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "6 aydan daha eski çağrılarımı geri alabilir miyim?",
+          "content_1": "Verilerini daha önce WuWa Tracker'a aktardıysan, eski verilerin UID'ne zaten yedeklenmiştir. E-postanı UID'ne bağladıktan sonra, bunları istediğin zaman <link>Bağlantı Ayarları</link> üzerinden geri yükleyebilirsin.",
+          "content_2": "Aksi takdirde, maalesef sitemizi ilk kez kullanıyorsan, yalnızca oyun içi geçmişinde şu anda mevcut olan verilere erişebiliriz. Kuro Games'in saklama politikası gereği, 6 aydan daha eski çağrılar artık geri alınamaz."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Neden bazı istatistiklerim yanlış?",
+          "content": "Şans oranları ve genel istatistikler gibi bazı veriler, performansın artırılması amacıyla sunucumuzda önbelleğe alınmaktadır. Yeni çağrıların içe aktarılmasının ardından bu değerlerin güncellenmesi birkaç dakika sürebilir. Sayfayı yenilemeyi dene veya birkaç saat sonra tekrar kontrol et."
         }
       }
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "Önce En Yeni",
+      "since_last_appearance": "Son Görünüşünden Bu Yana"
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "Haftalık Sıfırlanma",
+        "daily_reset": "Günlük Sıfırlanma"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "Waveplateler",
+        "stamina_extra": "Waveplate Kristalleri"
       }
     }
   },
@@ -741,12 +741,12 @@
         "banner_description": "{name} banner'inin küresel çağrı istatistiklerini gör. Wuthering Waves için WuWa Tracker pity sayacı güncel ve küresel istatistikleri kullanıyor. Çağrılarını arkadaşların ile paylaş ve hesabını takip et!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
-        "total": "Total"
+        "title": "Sahiplik İstatistikleri",
+        "description": "Wuthering Waves'deki banner'ların sahiplik istatistiklerini hareketli bir geçmişe dönük çubuk grafikle görüntüle.",
+        "disclaimer": "Bu rakamlar yalnızca WuWa Tracker'a yüklenen çağrı verilerine dayanmaktadır ve Wuthering Waves'in tüm oyuncu kitlesini temsil etmemektedir. Veri bütünlüğünü korumak amacıyla manuel veri yüklemelerine izin verilmemektedir. Veriler, daha fazla çağrı sonucunun yüklenip işlenmesiyle değişebilir ve 6 aylık çağrı sonuçlarının geçerlilik süresi dolana kadar en son banner'ları yansıtmayabilir.",
+        "disclaimer_featured_only": "Bu grafik yalnızca Öne Çıkan Rezonatör banner çağrılarını toplamaktadır ve Öne Çıkan Rezonatör dışındaki çağrıları içermemektedir.",
+        "no_data": "Mevcut veri yok",
+        "total": "Toplam"
       }
     },
     "error": {
@@ -814,10 +814,10 @@
       "description": "Wuthering Waves ile ilgili kılavuzları, ipuçlarını, haberleri, duyuruları ve daha fazlasını içeren makaleleri oku!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "page_header_title": "Banner History",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "Wuthering Waves Banner Geçmişi",
+      "page_header": "Wuthering Waves'deki banner geçmişini ve rerunları takip et",
+      "page_header_title": "Banner Geçmişi",
+      "description": "Tüm oyun sürümlerini ve bannerları içeren kolay anlaşılabilir bir tablo aracılığıyla, geçmişteki ve güncel tüm Wuthering Waves bannerlarını görüntüle. Bir bannerın yeniden yayınlanma olasılığının en yüksek olduğu zamanlara göre çağrılarını planla."
     }
   },
   "config": {
@@ -835,8 +835,8 @@
       "Ascension Planner": "Geliştirme Planlayıcısı",
       "Events": "Etkinlikler",
       "Articles": "Makaleler",
-      "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Banners": "Bannerlar",
+      "Ownership Statistics": "Sahiplik İstatistikleri"
     },
     "footer": {
       "links": {
