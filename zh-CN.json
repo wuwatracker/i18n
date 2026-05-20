@@ -228,7 +228,7 @@
         "no_banner": "未找到卡池。",
         "invalid_input_format": "您的输入数据无效",
         "unable_to_parse": "我们无法解析您的数据",
-        "unable_to_parse_profile_data": "此处仅适用于档案数据。若需导入唤取历史数据，请使用另一个导入按钮。",
+        "unable_to_parse_profile_data": "此处仅适用于玩家资料数据。若需导入唤取历史数据，请使用另一个导入按钮。",
         "download_failed": "下载失败",
         "client_log_required": "您需要上传 Client.log 文件！",
         "cannot_find_convene_url": "我们找不到唤取 URL",
@@ -471,34 +471,34 @@
         "rate_up_wins_description": "您的概率提升唤取率"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "恢复您的唤取数据",
+        "description": "如果您的浏览器清除了 Cookies 或本地数据，WuWa Tracker 可以还原以前备份到我们云端数据库的唤取。",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "使用任何社交网络提供者登录",
+            "subtitle": "验证电子邮件以恢复",
+            "subtitle_complete": "您已登录",
+            "description": "登录以验证您的恢复电子邮件。我们只读取电子邮件识别所需的内容，无法访问您的游戏或社交帐户。查看我们的<privacy>隐私政策</privacy>。",
+            "button": "登录",
+            "button_complete": "已登录"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "subtitle": "绑定您的 UID 到您的电子邮件",
+            "subtitle_complete": "UID {playerId} 已链接",
+            "subtitle_mismatch": "链接的 UID 与此玩家资料不匹配",
+            "description_complete": "此玩家资料已链接到您的电子邮件。您可以在下一步中恢复您的唤取。",
+            "step_open_import_prefix": "打开",
+            "step_enable_email_link_prefix": "开启",
+            "step_import": "导入您的唤取以绑定此 UID 用于恢复。",
+            "description_mismatch": "您的电子邮件已链接到 UID <linked>{linkedPlayerId}</linked>，但唤取跟踪器现在正在显示 <active>{activePlayerId}</active>。在恢复前切换到链接的 UID；如果您本就打算恢复此玩家资料，请在<settingsLink>设置页面</settingsLink>管理您的连接。",
+            "mismatch_warning": "“恢复唤取”按钮被禁用，直到链接的 UID 匹配激活的玩家资料。",
+            "switch_profile": "切换到 UID {playerId}",
+            "manage_connections": "管理连接",
+            "button_complete": "电子邮件已链接"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
-            "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
+            "subtitle": "下载并合并您的唤取",
+            "description": "一旦您的电子邮件链接到您的 UID，您可以下载您已保存的云数据并将其合并到此浏览器。"
           }
         }
       }

@@ -580,11 +580,11 @@
         "delete_active_profile_pull_data": "Aktif Kullanıcı Profil Verilerini Sil",
         "delete_active_profile_pull_data_description": "Akitf profilinin çağrı verilerini tarayıcının lokal verilerinden silebilirsin",
         "delete_active_profile_pull_data_confirm_title": "{activeProfileId} kullanıcısının çağrı verilerini gerçekten silmek istiyor musun?",
-        "delete_active_profile_pull_data_confirm_description": "<strong></strong> için tüm çağrı geçmişi silinecek. Bu eylem geri alınamaz.",
-        "delete_active_profile_pull_data_confirm_text": "{activeProfileId} Kullanıcısının Çağrı Verilerini Sil",
+        "delete_active_profile_pull_data_confirm_description": "<strong></strong> için tüm çağrı geçmişi silinecek. Bu eylem GERİ ALINAMAZ.",
+        "delete_active_profile_pull_data_confirm_text": "{activeProfileId}'ın Çağrılarını Sil",
         "profile": "Profil",
         "type_active_profile_to_confirm": "Onaylamak için {activeProfileId} yaz",
-        "delete_active_profile_data_confirm_text": "{activeProfileId} profilinin verilerini sil",
+        "delete_active_profile_data_confirm_text": "{activeProfileId} Profilinin Verilerini Sil",
         "delete_profile_data": "Profil Verilerini Sil",
         "delete_pull_data": "Çağrı Verilerini Sil",
         "enable_beta_features": "Beta Özelliklerini Etkinleştir",
@@ -669,7 +669,7 @@
         "join_our_discord": "Discord Sunucumuza katıl ve orada yardım iste",
         "item_1": {
           "title": "WuWa Tracker'i kullanmak güvenli mi?",
-          "content_1": "WuWa Tracker </link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ.",
+          "content_1": "WuWa Tracker <link>05/30/2024 tarihinde açıldı</link> ve o tarihden bu yana kullanıcılarımızdan hesaplarıyla ilgili hiçbir sorun duymadık. Biz sadece, oyunun da sana çağrı geçmişini gösterirken açtığı sayfa olan Çağrı Geçmişi URL'ni okuyoruz. Senden <strong>ASLA</strong> WuWa giriş bilgilerini İSTEMEYİZ. ",
           "content_2": "UID'nize bir e-posta adresi eşleyerek cihazlar arasında senkronizasyon yapmayı seçmediğiniz sürece verileriniz cihazınızda kalır. İçe aktarma yaptığınızda yalnızca anonimleştirilmiş genel istatistikler toplanır. Sitemizi kullanmadan önce <privacy>Gizlilik Politikamızı</privacy> ve <terms>Hizmet Şartlarımızı</terms> incelemenizi öneririz."
         },
         "item_2": {
