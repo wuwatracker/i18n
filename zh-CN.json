@@ -490,7 +490,7 @@
             "step_open_import_prefix": "打开",
             "step_enable_email_link_prefix": "开启",
             "step_import": "导入您的唤取以绑定此 UID 用于恢复。",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
+            "description_mismatch": "您的电子邮件已链接到 UID <linked>{linkedPlayerId}</linked>，但唤取跟踪器现在正在显示 <active>{activePlayerId}</active>。在恢复前切换到链接的 UID；如果您本就打算恢复此玩家资料，请在<settingsLink>设置页面</settingsLink>管理您的连接。",
             "mismatch_warning": "“恢复唤取”按钮被禁用，直到链接的 UID 匹配激活的玩家资料。",
             "switch_profile": "切换到 UID {playerId}",
             "manage_connections": "管理连接",
