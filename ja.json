@@ -60,6 +60,8 @@
         "Jinhsi": "今汐",
         "Jiyan": "忌炎",
         "Lingyang": "凌陽",
+        "Lucilla": "Lucilla",
+        "Lucy": "Lucy",
         "Lumi": "灯灯",
         "Lupa": "ルパ",
         "Luuk Herssen": "リューク・ヘルセン",
@@ -69,6 +71,7 @@
         "Phoebe": "フィービー",
         "Phrolova": "フローヴァ",
         "Qiuyuan": "仇遠",
+        "Rebecca": "Rebecca",
         "Roccia": "ロココ",
         "Sanhua": "散華",
         "Shorekeeper": "ショアキーパー",
@@ -113,6 +116,7 @@
         "Fables of Wisdom": "風刺のファブリオー",
         "Feather Edge": "鋭利な翼",
         "Forged Dwarf Star": "偽物の矮星",
+        "Frame Prism": "Frame Prism",
         "Frostburn": "灼霜",
         "Fusion Accretion": "コアが溶融する降着円盤",
         "Gauntlets of Night": "暗夜の手甲・夜灯",
@@ -162,9 +166,11 @@
         "Rover: Spectro": "漂泊者: 回折",
         "Rover: Havoc": "漂泊者: 消滅",
         "Rover: Aero": "漂泊者: 気動",
+        "Skull Thrasher": "Skull Thrasher",
         "Somnoire Anchor": "心の錨",
         "Solar Flame": "紅炎",
         "Solsworn Ciphers": "ソル・スウォーンの注釈",
+        "Spectral Trigger": "Spectral Trigger",
         "Spectrum Blaster": "スペクトル・ブラスター",
         "Starfield Calibrator": "スターキャリブレーター",
         "Static Mist": "不変の湖煙",
@@ -848,7 +854,8 @@
         "Company": "会社概要",
         "Resources": "リソース",
         "Community": "コミュニティ",
-        "Affiliates": "アフィリエイト"
+        "Affiliates": "アフィリエイト",
+        "Support Us on Ko-fi": "Support Us on Ko-fi"
       }
     }
   }
