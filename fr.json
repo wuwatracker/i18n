@@ -60,6 +60,8 @@
         "Jinhsi": "Jinhsi",
         "Jiyan": "Jiyan",
         "Lingyang": "Lingyang",
+        "Lucilla": "Lucilla",
+        "Lucy": "Lucy",
         "Lumi": "Lumi",
         "Lupa": "Lupa",
         "Luuk Herssen": "Luuk Herssen",
@@ -69,6 +71,7 @@
         "Phoebe": "Phoebe",
         "Phrolova": "Phrolova",
         "Qiuyuan": "Qiuyuan",
+        "Rebecca": "Rebecca",
         "Roccia": "Roccia",
         "Sanhua": "Sanhua",
         "Shorekeeper": "Gardienne du littoral",
@@ -113,6 +116,7 @@
         "Fables of Wisdom": "Fables de Sagesse",
         "Feather Edge": "Feather Edge",
         "Forged Dwarf Star": "Forged Dwarf Star",
+        "Frame Prism": "Frame Prism",
         "Frostburn": "Frostburn",
         "Fusion Accretion": "Accrétion de fusion",
         "Gauntlets of Night": "Gantelets de Nuit",
@@ -162,9 +166,11 @@
         "Rover: Spectro": "Rover: Spectro",
         "Rover: Havoc": "Rover: Havoc",
         "Rover: Aero": "Rover: Aero",
+        "Skull Thrasher": "Skull Thrasher",
         "Somnoire Anchor": "Ancre de Somnoire",
         "Solar Flame": "Solar Flame",
         "Solsworn Ciphers": "Solsworn Ciphers",
+        "Spectral Trigger": "Spectral Trigger",
         "Spectrum Blaster": "Spectrum Blaster",
         "Starfield Calibrator": "Starfield Calibrator",
         "Static Mist": "Brouillard stable",
@@ -848,7 +854,8 @@
         "Company": "Company",
         "Resources": "Resources",
         "Community": "Communauté",
-        "Affiliates": "Affiliates"
+        "Affiliates": "Affiliates",
+        "Support Us on Ko-fi": "Support Us on Ko-fi"
       }
     }
   }
