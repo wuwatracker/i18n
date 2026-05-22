@@ -60,6 +60,8 @@
         "Jinhsi": "금희",
         "Jiyan": "기염",
         "Lingyang": "능양",
+        "Lucilla": "Lucilla",
+        "Lucy": "Lucy",
         "Lumi": "루미",
         "Lupa": "루파",
         "Luuk Herssen": "루크 헤르센",
@@ -69,6 +71,7 @@
         "Phoebe": "페비",
         "Phrolova": "플로로",
         "Qiuyuan": "구원",
+        "Rebecca": "Rebecca",
         "Roccia": "로코코",
         "Sanhua": "산화",
         "Shorekeeper": "파수인",
@@ -113,6 +116,7 @@
         "Fables of Wisdom": "풍류의 우화시",
         "Feather Edge": "예리한 날개깃",
         "Forged Dwarf Star": "위조된 작은 별",
+        "Frame Prism": "Frame Prism",
         "Frostburn": "서린 불꽃",
         "Fusion Accretion": "융합의 원반",
         "Gauntlets of Night": "흑야의 권갑 · 흑빛",
@@ -162,9 +166,11 @@
         "Rover: Spectro": "방랑자: 회절",
         "Rover: Havoc": "방랑자: 인멸",
         "Rover: Aero": "방랑자: 기류",
+        "Skull Thrasher": "Skull Thrasher",
         "Somnoire Anchor": "마음의 닻",
         "Solar Flame": "태양 불꽃",
         "Solsworn Ciphers": "솔스원의 해석",
+        "Spectral Trigger": "Spectral Trigger",
         "Spectrum Blaster": "스펙트럼 블래스터",
         "Starfield Calibrator": "별하늘 연산 측정기",
         "Static Mist": "부동의 안개",
@@ -848,7 +854,8 @@
         "Company": "회사",
         "Resources": "리소스",
         "Community": "커뮤니티",
-        "Affiliates": "제휴사"
+        "Affiliates": "제휴사",
+        "Support Us on Ko-fi": "Support Us on Ko-fi"
       }
     }
   }
