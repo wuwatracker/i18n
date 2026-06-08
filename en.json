@@ -166,7 +166,7 @@
         "Rover: Spectro": "Rover: Spectro",
         "Rover: Havoc": "Rover: Havoc",
         "Rover: Aero": "Rover: Aero",
-        "Skull Thresher": "Skull Thrasher",
+        "Skull Thrasher": "Skull Thrasher",
         "Somnoire Anchor": "Somnoire Anchor",
         "Solar Flame": "Solar Flame",
         "Solsworn Ciphers": "Solsworn Ciphers",
@@ -223,9 +223,7 @@
         "Beginner's Choice Convene": "Beginner's Choice Convene",
         "Giveback Event Convene": "Giveback Event Convene",
         "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "New Voyage Resonator": "New Voyage Resonator"
       }
     }
   },
