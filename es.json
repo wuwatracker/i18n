@@ -166,7 +166,7 @@
         "Rover: Spectro": "Errante: Espectro",
         "Rover: Havoc": "Errante: Destrucción",
         "Rover: Aero": "Errante: Aero",
-        "Skull Thrasher": "Skull Thrasher",
+        "Skull Thresher": "Skull Thrasher",
         "Somnoire Anchor": "Ancla de Somnolencia",
         "Solar Flame": "Llama Solar",
         "Solsworn Ciphers": "Interpretación Solística",
@@ -223,7 +223,9 @@
         "Beginner's Choice Convene": "Invocación de elección de novato",
         "Giveback Event Convene": "Evento de gratitud",
         "New Voyage Weapon": "Arma del Nuevo Viaje",
-        "New Voyage Resonator": "Resonador del Nuevo Viaje"
+        "New Voyage Resonator": "Resonador del Nuevo Viaje",
+        "Collab Resonator Convene": "Collab Resonator Convene",
+        "Collab Weapon Convene": "Collab Weapon Convene"
       }
     }
   },
