@@ -166,7 +166,7 @@
         "Rover: Spectro": "漂泊者：衍射",
         "Rover: Havoc": "漂泊者：湮灭",
         "Rover: Aero": "漂泊者：气动",
-        "Skull Thrasher": "碎骨",
+        "Skull Thresher": "Skull Thrasher",
         "Somnoire Anchor": "心之锚",
         "Solar Flame": "阳焰",
         "Solsworn Ciphers": "昭日译注",
@@ -223,7 +223,9 @@
         "Beginner's Choice Convene": "新手自选唤取",
         "Giveback Event Convene": "感恩定向唤取",
         "New Voyage Weapon": "新旅唤取武器",
-        "New Voyage Resonator": "新旅唤取共鸣者"
+        "New Voyage Resonator": "新旅唤取共鸣者",
+        "Collab Resonator Convene": "Collab Resonator Convene",
+        "Collab Weapon Convene": "Collab Weapon Convene"
       }
     }
   },
