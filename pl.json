@@ -494,14 +494,14 @@
             "subtitle": "Powiąż swoje UID ze swoim adresem e-mail",
             "subtitle_complete": "UID {playerId} jest powiązane",
             "subtitle_mismatch": "Powiązane UID nie pasuje do tego profilu",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
+            "description_complete": "Ten profil jest połączony z twoim adresem e-mail. Możesz odzyskać swoje losy w następnym kroku.",
             "step_open_import_prefix": "Otwórz",
             "step_enable_email_link_prefix": "Włącz",
             "step_import": "Import your pulls to bind this UID for recovery.",
             "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
+            "mismatch_warning": "Przycisk \"odzyskaj losy\" jest wyłączony, dopóki nie połączysz UID pasującego do aktywnego profilu.",
             "switch_profile": "Przełącz na UID {playerId}",
-            "manage_connections": "Manage connections",
+            "manage_connections": "Zarządzaj połączeniami",
             "button_complete": "E-mail powiązany"
           },
           "recover_pulls": {
