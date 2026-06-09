@@ -166,7 +166,7 @@
         "Rover: Spectro": "漂泊者: 回折",
         "Rover: Havoc": "漂泊者: 消滅",
         "Rover: Aero": "漂泊者: 気動",
-        "Skull Thrasher": "スカル・ポッパー",
+        "Skull Thresher": "スカル・ポッパー",
         "Somnoire Anchor": "心の錨",
         "Solar Flame": "紅炎",
         "Solsworn Ciphers": "ソル・スウォーンの注釈",
@@ -209,11 +209,11 @@
         "Whispers of Sirens": "深海の囁き"
       },
       "banners": {
-        "Featured Resonator": "ピックアップ共鳴者",
+        "Featured Resonator": "共鳴者集音（イベント）",
         "Featured Character": "ピックアップ共鳴者",
-        "Featured Weapon": "ピックアップ武器",
-        "Permanent Resonator": "恒常共鳴者",
-        "Permanent Weapon": "恒常武器",
+        "Featured Weapon": "武器集音（イベント）",
+        "Permanent Resonator": "共鳴者集音（恒常）",
+        "Permanent Weapon": "武器集音（恒常）",
         "Novice Convene": "万象新声",
         "Beginner's Choice": "初心者応援セレクト集音",
         "Selector Ticket": "セレクトチケット",
@@ -223,7 +223,9 @@
         "Beginner's Choice Convene": "初心者応援セレクト集音",
         "Giveback Event Convene": "感謝セレクト集音",
         "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator"
+        "New Voyage Resonator": "New Voyage Resonator",
+        "Collab Resonator Convene": "共鳴者集音（コラボ）",
+        "Collab Weapon Convene": "武器集音（コラボ）"
       }
     }
   },
