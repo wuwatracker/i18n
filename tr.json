@@ -224,8 +224,8 @@
         "Giveback Event Convene": "Hediye Etkinliği Buluşması",
         "New Voyage Weapon": "New Voyage Silahı",
         "New Voyage Resonator": "New Voyage Rezonatörü",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "Collab Resonator Convene": "İşbirliği Rezonatör Buluşması",
+        "Collab Weapon Convene": "İşbirliği Silah Buluşması"
       }
     }
   },
@@ -549,7 +549,7 @@
         "pulls_file_import_dialog_title": "Cihazındaki Çağrıları İçe Aktar",
         "pulls_file_import_dialog_description_supported_files": "Bu seçenek sadece <code>wuwatracker-pulls</code> ve <code>wuwatracker-convene-history</code> gibi websitemizin formatını takip eden JSON dosyalarını kabul eder.",
         "import_user_profile": "Kullanıcı Profilini İçe Aktar",
-        "import_user_profile_dialog_description": "NOT: Bu seçenek, sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma düğmesini kullanmalısın.",
+        "import_user_profile_dialog_description": "NOT: Bu seçenek sadece başarımlar, envanter ve planlayıcı verilerini içeren <code></code> dosyalarını kabul eder. Çağrı verilerini içe aktarmak istiyorsan diğer içe aktarma seçeneğini kullanmalısın.",
         "profile_data_will_not_sync_callout_description": "Değişikliklerin sadece cihazında kayıtlı tutuluyor, ve oturum açtığında kaybolacak. Profil verilerini eşlemek için:",
         "profile_data_will_not_sync_callout_sign_in": "Hesabına <link>giriş yap</link>",
         "profile_data_will_not_sync_callout_link_your_uid": "Hesabına <link>UID'ni eşle</link>",
@@ -578,15 +578,15 @@
         "successfully_deleted_active_profile_data": "Başarılı bir şekilde {activeProfileId}'nin verileri silindi",
         "successfully_deleted_active_profile_pull_data": "{activeProfileId} kullanıcısının verileri başarıyla silindi",
         "website_version": "Website Sürümü",
-        "website_version_description": "Şu an, sitemizin bu sürümünü kullanıyorsun",
+        "website_version_description": "Şu an sitemizin bu sürümünü kullanıyorsun",
         "session_logs": "Oturum Kayıtları",
-        "session_logs_description": "Hata ayıklama sebepleri için kayıt dosyanı (log file) indirebilirsin",
+        "session_logs_description": "Bazı sorunları çözmek için gereken kayıt dosyanı (log file) indirebilirsin",
         "delete_active_profile_data": "Aktif Profil Verilerini Sil",
         "delete_active_profile_data_description": "Aktif profil verilerini silebilirsin, bu veriler SADECE çağrı dışı verileri içerir.",
         "delete_active_profile_data_confirm_title": "{activeProfileId} profilinin tüm verilerini silmek istediğinden emin misin?",
         "delete_active_profile_data_confirm_description": "<strong></strong> ile ilişkili tüm veriler silinecek. Bu işlem GERİ ALINAMAZ.",
         "delete_active_profile_pull_data": "Aktif Kullanıcı Profil Verilerini Sil",
-        "delete_active_profile_pull_data_description": "Akitf profilinin çağrı verilerini tarayıcının lokal verilerinden silebilirsin",
+        "delete_active_profile_pull_data_description": "Akitf profilinin çağrı verilerini tarayıcının yerel depolamasından silebilirsin",
         "delete_active_profile_pull_data_confirm_title": "{activeProfileId} kullanıcısının çağrı verilerini gerçekten silmek istiyor musun?",
         "delete_active_profile_pull_data_confirm_description": "<strong></strong> için tüm çağrı geçmişi silinecek. Bu eylem GERİ ALINAMAZ.",
         "delete_active_profile_pull_data_confirm_text": "{activeProfileId}'ın Çağrılarını Sil",
@@ -857,7 +857,7 @@
         "Resources": "Kaynaklar",
         "Community": "Topluluk",
         "Affiliates": "Ortaklar",
-        "Support Us on Ko-fi": "Support Us on Ko-fi"
+        "Support Us on Ko-fi": "Bizi Ko-fi'de Destekle"
       }
     }
   }
