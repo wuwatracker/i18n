@@ -224,8 +224,8 @@
         "Giveback Event Convene": "Banner Sự Kiện 5* Tùy Chọn",
         "New Voyage Weapon": "Vũ Khí Hành Trình Mới",
         "New Voyage Resonator": "Nhân Vật Hành Trình Mới",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "Collab Resonator Convene": "Nhân Vật Collab",
+        "Collab Weapon Convene": "Vũ Khí Collab"
       }
     }
   },
@@ -240,7 +240,7 @@
         "download_failed": "Tải xuống thất bại",
         "client_log_required": "Bạn cần tải lên tệp Client.log!",
         "cannot_find_convene_url": "Chúng tôi không tìm thấy URL Triệu Hồi",
-        "no_pulls_to_download": "Không có dữ liệu Lượt Triệu hồi để tải xuống.",
+        "no_pulls_to_download": "Không có dữ liệu lượt Triệu hồi để tải xuống.",
         "need_to_upload_specific_file": "Bạn cần tải lên {file}!",
         "sync_unavailable": "Hiện không thể đồng bộ.",
         "inventory_item_does_not_exist": "Vật phẩm không tồn tại!",
@@ -479,30 +479,30 @@
         "rate_up_wins_description": "Bạn có hay roll được nhân vật được tăng tỉ lệ không?"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
+        "title": "Khôi phục dữ liệu lượt triệu hồi",
         "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
         "steps": {
           "sign_in": {
             "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
+            "subtitle": "Xác minh email để khôi phục",
+            "subtitle_complete": "Bạn đã đăng nhập",
             "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "button": "Đăng nhập",
+            "button_complete": "Đã đăng nhập"
           },
           "email_link": {
             "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
+            "subtitle_complete": "UID {playerId} đã được liên kết",
             "subtitle_mismatch": "Linked UID does not match this tracker profile",
             "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
+            "step_open_import_prefix": "Mở",
+            "step_enable_email_link_prefix": "Bật",
             "step_import": "Import your pulls to bind this UID for recovery.",
             "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
             "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
+            "switch_profile": "Đổi sang UID {playerId}",
             "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "button_complete": "Đã liên kết email"
           },
           "recover_pulls": {
             "subtitle": "Download and merge your backup",
@@ -563,7 +563,7 @@
         "linked_user_id_description": "Đây là ID người dùng đã liên kết với email hiện tại",
         "link_your_email": "Liên kết email của bạn",
         "link_your_email_description": "Liên kết ID người chơi Wuthering Waves của bạn với email để mở khóa thêm nhiều tính năng",
-        "unlink_email": "Hủy liên kết Email",
+        "unlink_email": "Hủy liên kết email",
         "unlink_email_confirm_description": "Bạn sẽ mất quyền truy cập vào một số tính năng của trang web. Để tiếp tục, vui lòng nhập <strong></strong> để xác nhận.",
         "unlink_email_confirm_input_placeholder": "Nhập {password} để xác nhận",
         "player_id": "ID người chơi",
