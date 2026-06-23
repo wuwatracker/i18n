@@ -13,7 +13,7 @@
       "rarity": "Kelangkaan",
       "date_received": "Tanggal Diterima",
       "recent_convenes": "Convene Terkini",
-      "resonator": "Resonator",
+      "resonator": "Gentaraga",
       "weapon": "Senjata"
     },
     "phrase": {
@@ -209,23 +209,23 @@
         "Whispers of Sirens": "Whispers of Sirens"
       },
       "banners": {
-        "Featured Resonator": "Featured Resonator",
+        "Featured Resonator": "Gentaraga Sorotan",
         "Featured Character": "Featured Resonator",
-        "Featured Weapon": "Featured Weapon",
-        "Permanent Resonator": "Permanent Resonator",
+        "Featured Weapon": "Senjata Sorotan",
+        "Permanent Resonator": "Gentaraga Permanen",
         "Permanent Weapon": "Senjata Permanen",
-        "Novice Convene": "Novice Convene",
-        "Beginner's Choice": "Beginner's Choice",
-        "Selector Ticket": "Selector Ticket",
+        "Novice Convene": "Pasamuan Pemula",
+        "Beginner's Choice": "Pilihan Pemula",
+        "Selector Ticket": "Tiket Pemilih",
         "Tidal Chorus": "Tidal Chorus",
         "Winter Brume": "Winter Brume",
         "Utterance of Marvels": "Utterance of Marvels",
-        "Beginner's Choice Convene": "Beginner's Choice Convene",
-        "Giveback Event Convene": "Giveback Event Convene",
-        "New Voyage Weapon": "New Voyage Weapon",
-        "New Voyage Resonator": "New Voyage Resonator",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "Beginner's Choice Convene": "Pasamuan Pilihan Pemula",
+        "Giveback Event Convene": "Pasamuan Timbal Balik",
+        "New Voyage Weapon": "Pasamuan Senjata Kelana Baru",
+        "New Voyage Resonator": "Pasamuan Gentaraga Kelana Baru",
+        "Collab Resonator Convene": "Pasamuan Gentaraga Collab",
+        "Collab Weapon Convene": "Pasamuan Senjata Collab"
       }
     }
   },
@@ -245,21 +245,21 @@
         "sync_unavailable": "Tidak dapat disinkronisasikan untuk saat ini.",
         "inventory_item_does_not_exist": "Item tidak ditemukan!",
         "planner_insufficient_materials": "Material tidak cukup.",
-        "you_must_use_a_non_guest_profile_to_export_pull_history": "You must use a non-guest profile to export your pull history",
-        "failed_to_link_email": "Failed to link your email",
-        "failed_to_unlink_email": "Failed to unlink your email",
-        "failed_to_fetch_pulls_from_database": "Failed to fetch pulls from our database",
-        "an_error_occured_while_merging_your_data": "An error occured while merging your data",
-        "your_email_must_be_linked_to_import_pulls": "Your email must be linked to import pulls",
-        "your_email_must_be_linked_to_import_pulls_description": "Please log in and link your player ID first.",
-        "invalid_convene_url": "We couldn't load your data. Your import URL may be invalid or expired. Please follow the <troubleshootingLink>troubleshooting guide</troubleshootingLink> to fix this. If you want to inspect your data, you can <historyLink>open the import URL</historyLink>.",
-        "import_file_cannot_be_empty": "Import file cannot be empty",
-        "your_url_is_invalid": "Your URL is invalid"
+        "you_must_use_a_non_guest_profile_to_export_pull_history": "Anda harus menggunakan profil non-tamu untuk mengekspor riwayat permohonan Anda",
+        "failed_to_link_email": "Gagal menautkan email Anda",
+        "failed_to_unlink_email": "Gagal membatalkan tautan email Anda",
+        "failed_to_fetch_pulls_from_database": "Gagal mengambil permohonan dari basis data kami",
+        "an_error_occured_while_merging_your_data": "Sebuah galat terjadi saat menggabungkan data Anda",
+        "your_email_must_be_linked_to_import_pulls": "Email Anda harus ditautkan terlebih dahulu untuk mengimpor riwayat permohonan",
+        "your_email_must_be_linked_to_import_pulls_description": "Mohon masuk dan tautkan ID pemain Anda dahulu.",
+        "invalid_convene_url": "Kami tidak dapat memuat data Anda. URL impor Anda mungkin tidak valid atau telah kedaluwarsa. Silakan ikuti <troubleshootingLink>panduan penanganan masalah</troubleshootingLink> untuk memperbaikinya. Jika Anda ingin memeriksa data Anda, Anda dapat <historyLink>membuka URL impor</historyLink>.",
+        "import_file_cannot_be_empty": "Impor berkas tidak boleh kosong",
+        "your_url_is_invalid": "URL Anda invalid"
       },
       "info": {
-        "sign_in_first": "Sign in first",
-        "already_linked": "Already linked",
-        "enable_email_link": "Enable email link",
+        "sign_in_first": "Masuk Terlebih Dulu",
+        "already_linked": "Telah tertaut",
+        "enable_email_link": "Aktifkan tautan email",
         "sign_in_to_sync": "Masuk untuk sinkronisasi",
         "loading": "Memuat...",
         "import_loading": "Mengimpor riwayat pull...",
@@ -274,25 +274,25 @@
         "pull_more_to_view_statistics": "Anda memerlukan lebih banyak pull untuk melihat statistik",
         "download_will_start_shortly": "Pengunduhan Anda akan segera dimulai.",
         "planner_edited_plan_for_name": "Perubahan rencana untuk {name}.",
-        "unlinking_your_email": "Unlinking your email...",
-        "importing_cloud_data": "Importing cloud data from our database...",
-        "this_may_take_some_time_if_you_have_a_lot_of_data": "This may take some time if you have a lot of data or if the site is busy.",
-        "no_new_pulls_found_after_importing": "No new pulls were found after importing."
+        "unlinking_your_email": "Membatalkan tautan email Anda...",
+        "importing_cloud_data": "Mengimpor data awan dari basis data kami...",
+        "this_may_take_some_time_if_you_have_a_lot_of_data": "Proses ini dapat memakan waktu lama apabila Anda memiliki banyak data atau jika situs sedang sibuk.",
+        "no_new_pulls_found_after_importing": "Tidak ada permohonan baru yang ditemukan setelah mengimpor."
       },
       "success": {
         "successfully_imported_achievements": "Berhasil mengimpor prestasi Anda.",
         "successfully_imported_gacha_records": "Berhasil mengimpor riwayat pull Anda.",
-        "successfully_imported_num_new_pulls": "Successfully imported {num} new pulls.",
+        "successfully_imported_num_new_pulls": "Berhasil mengimpor {num} permohonan baru.",
         "successfully_imported_profile": "Berhasil mengimpor profil pengguna Anda.",
-        "the_import_was_successful": "The import was successful!",
+        "the_import_was_successful": "Proses Impor berhasil!",
         "create_profile": "Berhasil membuat profil untuk {playerId}.",
         "delete_pulls": "Berhasil menghapus semua riwayat pull untuk {playerId}.",
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
         "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}.",
-        "successfully_linked_email": "Successfully linked your email",
-        "successfully_linked_email_description": "{email} is now linked to player ID {playerId}.",
-        "successfully_unlinked_email": "Successfully unlinked your email"
+        "successfully_linked_email": "Berhasil menautkan email Anda",
+        "successfully_linked_email_description": "{email} telah tertaut ke ID pemain {playerId}.",
+        "successfully_unlinked_email": "Berhasil membatalkan tautan email Anda"
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
@@ -310,7 +310,7 @@
       "accepted_formats": "Format yang diterima: {formats}",
       "filters": "Filter",
       "rows_per_page": "Baris per halaman",
-      "items_per_page": "Items per page",
+      "items_per_page": "Item per halaman",
       "planner_previous_must_be_between_min_max": "Level sebelumnya harus di antara {min} dan {max}.",
       "planner_new_must_be_between_min_max": "Level baru harus di antara {min} dan {max}."
     },
@@ -337,7 +337,7 @@
       "complete": "Selesai",
       "hide": "Sembunyikan",
       "show": "Tampilkan",
-      "edit": "Edit",
+      "edit": "Ubah",
       "view_details": "Lihat Detail"
     },
     "time": {
@@ -390,7 +390,7 @@
       "completion": "Kelengkapan",
       "all": "Semua",
       "hidden": "Disembunyikan",
-      "variant": "Variant",
+      "variant": "Varian",
       "visible": "Terlihat",
       "version": "Versi",
       "local_data": "Data Lokal",
@@ -408,7 +408,7 @@
       "no_particular_order": "tanpa urutan tertentu",
       "translators": "Penerjemah",
       "players": "Pemain",
-      "event": "Event",
+      "event": "Acara",
       "ongoing_events": "Event Berjalan",
       "choose_a_method": "Pilih Metode",
       "automatic": "Otomatis",
@@ -441,7 +441,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
-      "download_logs": "Download Logs"
+      "download_logs": "Unduh Log"
     }
   },
   "feature": {
@@ -480,34 +480,34 @@
         "rate_up_wins_description": "Seberapa sering pull Anda merupakan rate-up?"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "Pulihkan data permohonan Anda",
+        "description": "Jika peramban Anda menghapus kuki atau data lokal, WuWa Tracker dapat memulihkan riwayat pull yang sebelumnya telah dicadangkan ke basis data awan kami.",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "Masuk dengan penyedia sosial manapun",
+            "subtitle": "Verfikasi sebuah email untuk pemulihan",
+            "subtitle_complete": "Anda telah masuk",
+            "description": "Masuk untuk memverifikasi email pemulihan Anda. Kami hanya membaca data yang diperlukan untuk identifikasi email dan tidak dapat mengakses akun game atau akun sosial Anda. Lihat <privacy>Kebijakan Privas</privacy>i kami.",
+            "button": "Masuk",
+            "button_complete": "Masuk"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
-            "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
-            "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "subtitle": "Sambungkan UID Anda ke email Anda",
+            "subtitle_complete": "UID {playerId} telah tersambung",
+            "subtitle_mismatch": "UID yang tersambung tidak cocok dengan profil tracker ini",
+            "description_complete": "Profil tracker ini tersambung ke email Anda. Anda bisa memulihkan riwayat permohonan di tahap selanjutnya.",
+            "step_open_import_prefix": "Buka",
+            "step_enable_email_link_prefix": "Aktifkan",
+            "step_import": "Impor data permohonan Anda untuk menautkan UID ini sebagai opsi pemulihan.",
+            "description_mismatch": "Email Anda tertaut dengan UID <linked>{linkedPlayerId}</linked>, namun pelacak permohonan saat ini menampilkan <active>{activePlayerId}</active>. Silakan beralih ke UID yang tertaut sebelum memulihkan, atau kelola koneksi Anda di <settingsLink>Halaman Pengaturan</settingsLink> jika Anda bermaksud memulihkan profil ini.",
+            "mismatch_warning": "Tombol \"Pemulihan Permohonan\" dinonaktifkan hingga UID yang tertaut sesuai dengan profil pelacak yang sedang aktif.",
+            "switch_profile": "Beralih ke UID {playerId}",
+            "manage_connections": "Kelola Koneksi",
+            "button_complete": "Email tertaut"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
-            "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
+            "subtitle": "Unduh dan gabungkan permohonan Anda",
+            "description": "Setelah email Anda tertaut dengan UID, Anda dapat mengunduh data awan yang tersimpan dan menggabungkannya kembali ke dalam peramban ini."
           }
         }
       }
@@ -524,22 +524,22 @@
       "pulls_per_rarity": "Pull per Kelangkaan",
       "pulls_per_rarity_description": "Menampilkan distribusi kelangkaan",
       "pulls_per_item_description": "Menampilkan pull per item",
-      "data_may_change_until": "Data may change until {finalAggregationDate}",
-      "data_may_change_until_description": "Pull history expires after 6 months, so data is still being aggregated as more users import their data."
+      "data_may_change_until": "Data dapat berubah hingga {finalAggregationDate}",
+      "data_may_change_until_description": "Riwayat permohonan akan kedaluwarsa setelah 6 bulan, sehingga data saat ini masih terus digabungkan seiring bertambahnya pengguna yang mengimpor data mereka."
     },
     "settings": {
       "general": {
-        "title": "General",
-        "site_language": "Site Language",
-        "site_language_description": "Select the language you'd like to use throughout the site",
-        "game_server_timezone": "Game Server Timezone",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "title": "Umum",
+        "site_language": "Bahasa Situs",
+        "site_language_description": "Silakan pilih bahasa yang ingin Anda gunakan di seluruh situs ini",
+        "game_server_timezone": "Pilih Zona Waktu Server",
+        "game_server_timezone_description": "Fitur waktu disesuaikan dengan zona waktu server game Anda"
       },
       "data": {
         "title": "Data",
-        "active_profile": "Active Profile",
-        "active_profile_description": "Select the active profile you'd like to use throughout the site",
-        "import_profile": "Import Profile",
+        "active_profile": "Profil Aktif",
+        "active_profile_description": "Silakan pilih bahasa yang ingin Anda gunakan di seluruh situs ini",
+        "import_profile": "Impor Profil",
         "import_profile_description": "Import a profile snapshot to restore or load another profile",
         "export_profile": "Export Profile",
         "export_profile_description": "Create a snapshot of your active profile data to share or backup",
@@ -594,10 +594,10 @@
         "profile": "Profile",
         "type_active_profile_to_confirm": "Type {activeProfileId} to confirm",
         "delete_active_profile_data_confirm_text": "Delete {activeProfileId}'s Data",
-        "delete_profile_data": "Delete Profile Data",
-        "delete_pull_data": "Delete Pull Data",
-        "enable_beta_features": "Enable Beta Features",
-        "enable_beta_features_description": "Opt-into new features before they're officially released"
+        "delete_profile_data": "Hapus Data Profil",
+        "delete_pull_data": "Hapus Data Permohonan",
+        "enable_beta_features": "Aktifkan Fitur Beta",
+        "enable_beta_features_description": "Ikut uji coba fitur-fitur baru sebelum dirilis secara resmi"
       }
     },
     "timeline": {
@@ -606,18 +606,18 @@
       "timeline_description": "Lihat event Wuthering Waves dalam zona waktu lokal Anda atau dalam <link>Waktu Server</link> lain."
     },
     "import": {
-      "select_a_method": "Select a method",
-      "tutorial_video": "Tutorial Video",
+      "select_a_method": "Pilih metode",
+      "tutorial_video": "Video Tutorial",
       "follow_our_video_tutorial": "Ikuti video tutorial kami",
-      "follow_our_video_tutorial_description": "This short video will guide you through the import process",
-      "follow_this_video_tutorial_by_name": "Follow this video tutorial by {name}",
-      "press_the_import_data_button": "Press the \"Import Data\" button below",
-      "upload_your_client_log_file_here": "Upload your Client.log file here",
-      "we_will_search_your_logs_and_extract_the_import_url": "We'll search your logs and extract the import URL for you",
+      "follow_our_video_tutorial_description": "Video singkat ini akan memandu Anda melalui proses impor",
+      "follow_this_video_tutorial_by_name": "Ikuti video tutorial oleh {name}",
+      "press_the_import_data_button": "Tekan tombol \"Impor Data\" di bawah",
+      "upload_your_client_log_file_here": "Unggah berkas Client.log anda di sini",
+      "we_will_search_your_logs_and_extract_the_import_url": "Kami mencari log anda dan mengekstrak URL impor untuk Anda",
       "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat pull in-game",
       "open_windows_powershell_and_run_script": "Setelah itu, buka Windows PowerShell, lalu tempel skrip berikut.",
       "click_the_copy_button": "Klik tombol salin di sebelah kanan",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
+      "powershell_script_disclaimer": "CATATAN: Skrip ini hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamkuan Anda. Anda dapat melihat skripnya <link>di sini</link>.",
       "paste_the_url_here": "Tempel URL di sini",
       "paste_the_json_here": "Tempel file JSON di sini",
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
@@ -629,21 +629,21 @@
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
       "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
-      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
-      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
+      "ios_certificate_disclaimer": "CATATAN: Anda harus menggunakan Safari ketika mengunduh berkas sertifikat. Peramban yang lain seperti Google Chrome mungkin tidak bekerja.",
+      "ps5_credits": "Kredit khusus kepada <link></link> untuk metodologi & gambar dalam tutorial PlayStation 5 ini.",
       "ps5_press_the_options_button": "Tekan tombol 'Options' pada kontroler Anda",
       "ps5_click_on_page_information": "Tekan tombol 'Page Information'",
       "ps5_enter_your_record_id": "Masukkan 'player_id' dan 'record_id' Anda di sini",
-      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
-      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "open_terminal_and_open_script": "Lalu, buka terminal dan tempel skrip berikut:",
+      "linux_script_disclaimer": "CATATAN: Skrip hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamuan. Anda dapat melihat skrip tersebut <script>di sini</script>. Apresiasi kepada <author></author> atas kesediaannya membagikan kode <repo></repo> mereka.",
+      "script_disclaimer": "Skrip tidak mengubah berkas Anda, melainkan hanya mengekstrak URL Riwayat Pasamuan dari berkas log Anda.",
+      "email_link_description": "Langkah ini memungkinkan kami untuk menyimpan data Anda ke dalam basis data kami & mencadangkan data Anda secara otomatis setiap kali Anda melakukan impor. Jika ID pemain Anda telah ditautkan ke alamat email lain, kami akan menghapus tautan lama dan menggunakan alamat email baru Anda."
     },
     "planner": {
-      "move_to_top": "Move To Top",
-      "move_up": "Move Up",
-      "move_down": "Move Down",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_top": "Pindah ke Paling Atas",
+      "move_up": "Pindah ke Atas",
+      "move_down": "Ke Bawah",
+      "move_to_bottom": "Pindah ke Paling Bawah"
     },
     "inventory": {
       "new_plan": "Plan Baru",
@@ -651,7 +651,7 @@
       "material_summary": "Ringkasan Material",
       "no_active_plans": "Anda tidak memiliki plan yang aktif.",
       "nodes_to_unlock": "Node untuk Dibuka",
-      "passive_skill": "Passive Skill",
+      "passive_skill": "Skill Pasif",
       "plan_delete_name_confirm": "Apakah Anda yakin ingin menghapus plan {name}?",
       "no_items_will_be_consumed": "Tidak ada item yang akan digunakan.",
       "attributes": {
@@ -665,14 +665,14 @@
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities",
+      "hero_heading": "Aset Wuthering Waves Anda",
+      "hero_cta_button": "Mulai Pelacakan",
+      "keep_up_with_the_latest_news": "Ikuti berita terkini",
+      "quick_links": "Tautan Cepat",
+      "quick_links_description": "Mengakses halaman penting dan fitur dengan cepat",
+      "the_curent_events_and_activities": "Acara dan aktivitas saat ini",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
+        "title": "Pertanyaan Umum",
         "description": "Find answers to common questions about WuWa Tracker",
         "still_need_help": "Still need help?",
         "join_our_discord": "Join our Discord Server and ask for help there",
@@ -855,10 +855,10 @@
         "Privacy Policy": "Kebijakan Privasi",
         "Terms of Service": "Terms of Service",
         "Company": "Company",
-        "Resources": "Resources",
+        "Resources": "Aset-aset",
         "Community": "Komunitas",
-        "Affiliates": "Affiliates",
-        "Support Us on Ko-fi": "Support Us on Ko-fi"
+        "Affiliates": "Afiliasi",
+        "Support Us on Ko-fi": "Dukung Kami di Ko-fi"
       }
     }
   }
