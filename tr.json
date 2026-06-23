@@ -392,6 +392,7 @@
       "hidden": "Gizli",
       "variant": "Varyant",
       "visible": "Gizli Değil",
+      "version": "Sürüm",
       "local_data": "Yerel Veri",
       "from_file": "Dosyadan",
       "edit_on_github": "Bu sayfayı GitHub üzerinden düzenle",

@@ -392,6 +392,7 @@
       "hidden": "非表示",
       "variant": "Variant",
       "visible": "表示",
+      "version": "バージョン",
       "local_data": "ローカルデータ",
       "from_file": "ファイルから",
       "edit_on_github": "GitHubでこのページを編集する",

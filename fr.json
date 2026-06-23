@@ -392,6 +392,7 @@
       "hidden": "Caché",
       "variant": "Variant",
       "visible": "Affiché",
+      "version": "Version",
       "local_data": "Données locales",
       "from_file": "Depuis un fichier",
       "edit_on_github": "Modifiez cette page sur GitHub",

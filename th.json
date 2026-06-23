@@ -392,6 +392,7 @@
       "hidden": "ที่ซ่อนอยู่",
       "variant": "Variant",
       "visible": "แสดงทั่วไป",
+      "version": "เวอร์ชัน",
       "local_data": "ข้อมูลทั่วไป",
       "from_file": "จากไฟล์",
       "edit_on_github": "แก้ไขหน้านี้บน GitHub",

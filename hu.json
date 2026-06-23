@@ -384,6 +384,7 @@
       "hidden": "Rejtett",
       "variant": "Variant",
       "visible": "Látható",
+      "version": "Version",
       "local_data": "Helyi adat",
       "from_file": "Fájlból",
       "edit_on_github": "Szerkeszd ezt az oldalt a GitHub-on",
