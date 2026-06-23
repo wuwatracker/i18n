@@ -24,12 +24,12 @@
       "rarity_pulls": "{num}✦ Pull",
       "num_pity": "{num}✦ Pity",
       "total_pulls": "Total Pull",
-      "total_users_responsive": "<span>Total</span> Users",
+      "total_users_responsive": "<span>Total</span> Pengguna",
       "total_pulls_responsive": "<span>Total</span> Pull",
       "total_astrites_responsive": "<span>Total</span> Astrite",
-      "invalid_pity_number": "This pity number is invalid, due to a pull history inconsistency.",
-      "fifty_fifty_win": "50/50 Win",
-      "rate_up_win": "Rate-Up Win"
+      "invalid_pity_number": "Angka pity ini tidak valid karena inkonsistensi riwayat pull.",
+      "fifty_fifty_win": "Menang 50/50",
+      "rate_up_win": "Kemenangan Rate-up"
     },
     "name": {
       "items": {
@@ -81,7 +81,7 @@
         "Yangyang": "Yangyang",
         "Yinlin": "Yinlin",
         "Yuanwu": "Yuanwu",
-        "Zhezhi": "Zhezhi",
+        "Zhezhi": "Zhezi",
         "Xiangli Yao": "Xiangli Yao",
         "Youhu": "Youhu",
         "Zani": "Zani",
