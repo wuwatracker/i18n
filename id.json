@@ -553,44 +553,44 @@
         "import_user_profile_dialog_description": "CATATAN: Fitur ini hanya menerima berkas <code></code> yang berisi data achievement, inventaris, dan perencana. Gunakan tombol impor yang lain jika Anda ingin mengimpor data permohonan.",
         "profile_data_will_not_sync_callout_description": "Perubahan hanya disimpan di perangkat ini dan akan hilang saat Anda login. Untuk sinkronisasi data profil:",
         "profile_data_will_not_sync_callout_sign_in": "<link>Masuk</link> ke akun Anda",
-        "profile_data_will_not_sync_callout_link_your_uid": "<link>Link your UID</link> to your account",
-        "profile_data_will_not_sync_callout_select_your_linked_profile": "Select your linked profile ({sessionPlayerId}) <link>in your settings</link>"
+        "profile_data_will_not_sync_callout_link_your_uid": "<link>Tautkan UID Anda</link> ke akun Anda",
+        "profile_data_will_not_sync_callout_select_your_linked_profile": "Pilih profil terhubung Anda ({sessionPlayerId}) <link>di pengaturan</link>"
       },
       "connections": {
         "title": "Koneksi",
         "active_email": "Email Aktif",
-        "active_email_description": "This is the active email you're currently logged in with",
-        "linked_user_id": "Linked User ID",
-        "linked_user_id_description": "This is the user ID linked to your active email",
-        "link_your_email": "Link Your Email",
-        "link_your_email_description": "Unlock more features by linking your Wuthering Waves player ID to your email",
-        "unlink_email": "Unlink Email",
-        "unlink_email_confirm_description": "You will lose access to various site features. To proceed, please type <strong></strong> to confirm.",
-        "unlink_email_confirm_input_placeholder": "Type {password} to confirm",
+        "active_email_description": "Ini adalah email aktif yang saat ini Anda gunakan untuk masuk",
+        "linked_user_id": "UID Pengguna yang Terhubung",
+        "linked_user_id_description": "Ini adalah ID pengguna yang terhubung ke email aktif Anda",
+        "link_your_email": "Tautkan Email Anda",
+        "link_your_email_description": "Aktifkan lebih banyak fitur dengan menautkan ID pengguna Wuthering Waves Anda ke email Anda",
+        "unlink_email": "Batal tautkan Email",
+        "unlink_email_confirm_description": "Anda akan kehilangan akses terhadap berbagai fitur situs. Untuk melanjutkan, mohon ketik <strong></strong> untuk konfirmasi.",
+        "unlink_email_confirm_input_placeholder": "Ketik {password} untuk konfirmasi",
         "player_id": "ID Pemain",
-        "import_to_link": "Import to Link",
+        "import_to_link": "Impor untuk Menautkan",
         "sign_in_to_link": "Masuk untuk menautkan",
-        "cloud_pull_data": "Cloud Pull Data",
-        "cloud_pull_data_description": "You can recover your pull data from our database if your email is linked",
+        "cloud_pull_data": "Data Permohonan Awan",
+        "cloud_pull_data_description": "Anda dapat memulihkan data permohonan dari basis data kami jika email anda telah terhubung",
         "recover_pulls": "Pulihkan Permohonan"
       },
       "advanced": {
         "title": "Lanjutan",
-        "successfully_deleted_active_profile_data": "Successfully deleted {activeProfileId}'s data",
-        "successfully_deleted_active_profile_pull_data": "Successfully deleted {activeProfileId}'s pull data",
-        "website_version": "Website Version",
-        "website_version_description": "You're currently using this version of the site",
+        "successfully_deleted_active_profile_data": "Berhasil menghapus data {activeProfileId}",
+        "successfully_deleted_active_profile_pull_data": "Berhasil menghapus data permohonan {activeProfileId}",
+        "website_version": "Versi Situs Web",
+        "website_version_description": "Anda sedang menggunakan versi situs yang ini",
         "session_logs": "Sesi log",
-        "session_logs_description": "You can download your logs for debugging purposes",
+        "session_logs_description": "Anda dapat mengunduh log untuk tujuan debugging",
         "delete_active_profile_data": "Hapus Data Profil Aktif",
-        "delete_active_profile_data_description": "You can delete your active website profile data, ONLY including all associated non-pull data",
-        "delete_active_profile_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Data?",
-        "delete_active_profile_data_confirm_description": "All associated data for <strong></strong> will be deleted. This action cannot be undone.",
+        "delete_active_profile_data_description": "Anda bisa menghapus data profil situs web aktif Anda, NAMUN HANYA untuk semua data terkait selain data permohonan",
+        "delete_active_profile_data_confirm_title": "Apakah Anda yakin ingin menghapus data {activeProfileId}?",
+        "delete_active_profile_data_confirm_description": "Semua data terkait untuk <strong></strong> akan dihapus. Tindakan ini tidak dapat dibatalkan.",
         "delete_active_profile_pull_data": "Hapus Data Permohonan Profil Aktif",
-        "delete_active_profile_pull_data_description": "You can delete your active profile's pull data from your browser's local storage",
-        "delete_active_profile_pull_data_confirm_title": "Are you sure you want to delete {activeProfileId}'s Pull Data?",
-        "delete_active_profile_pull_data_confirm_description": "All pull history data for <strong></strong> will be deleted. This action cannot be undone.",
-        "delete_active_profile_pull_data_confirm_text": "Delete {activeProfileId}'s Pull Data",
+        "delete_active_profile_pull_data_description": "Anda dapat menghapus data permohonan profil aktif dari penyimpanan lokal peramban Anda",
+        "delete_active_profile_pull_data_confirm_title": "Apakah Anda yakin ingin menghapus data permohonan {activeProfileId}?",
+        "delete_active_profile_pull_data_confirm_description": "Semua data riwayat permohonan terkait untuk <strong></strong> akan dihapus. Tindakan ini tidak dapat dibatalkan.",
+        "delete_active_profile_pull_data_confirm_text": "Hapus Data Permohonan {activeProfileId}",
         "profile": "Profil",
         "type_active_profile_to_confirm": "Ketik {activeProfileId} untuk konfirmasi",
         "delete_active_profile_data_confirm_text": "Hapus Data {activeProfileId}",
@@ -697,23 +697,23 @@
         },
         "item_5": {
           "title": "Bagaimana cara memperbaiki masalah impor?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "content_1": "Sebagian besar masalah impor dapat diatasi dengan mengikuti <link>Panduan Pemecahan Masalah Impor</link> kami, yang membahas masalah umum dan solusi langkah demi langkah.",
+          "content_2": "Jika Anda masih mengalami kendala, jangan ragu untuk menghubungi kami di <link>server Discord</link> kami untuk bantuan lebih lanjut."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "Apakah saya bisa memulihkan data permohonan yang lebih lama dari 6 bulan?",
+          "content_1": "Jika sebelumnya Anda sudah pernah mengimpor data ke WuWa Tracker, permohonan lama Anda sudah dicadangkan ke UID Anda. Anda dapat memulihkannya kapanpun melalui <link>Pengaturan Koneksi</link> setelah menghubungkan email ke UID Anda.",
+          "content_2": "Jika tidak, sayangnya kami hanya bisa mengakses apa yang saat ini tersedia di riwayat dalam game Anda. Permohonan yang lebih lama dari 6 bulan sudah tidak dapat diambil kembali karena kebijakan penyimpanan data dari Kuro Games."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Mengapa beberapa statistik saya tidak akurat?",
+          "content": "Beberapa statistik seperti tingkat keberuntungan dan statistik global disimpan dalam cache di server kami untuk meningkatkan performa. Setelah mengimpor permohonan baru, diperlukan waktu beberapa menit agar angka-angka ini diperbarui. Coba muat ulang halaman atau periksa kembali setelah beberapa jam."
         }
       }
     },
     "banners": {
       "newest_first": "Terbaru Lebih Dulu",
-      "since_last_appearance": "Since Last Appearance"
+      "since_last_appearance": "Sejak Kemunculan Terakhir"
     },
     "timers": {
       "reset_timers": {
@@ -733,13 +733,13 @@
     },
     "achievements": {
       "title": "Prestasi",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
+      "page_header": "Lacak achievement in-game Anda dan lihat semua reward yang sudah didapatkan",
       "description": "Lacak prestasi Wuthering Waves Anda dan impor & ekspor data Anda dengan bebas di semua perangkat! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "tracker": {
       "index": {
         "title": "Pelacak Pull",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
+        "page_header": "Lihat permohonan terbaru dan statistik Anda dibandingkan dengan pengguna WuWa Tracker yang lain.",
         "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
       "global": {
@@ -751,9 +751,9 @@
       },
       "ownership": {
         "title": "Statistik Kepemilikan",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "description": "Lihat statistik kepemilikan banner di Wuthering Waves dengan grafik batang historis yang dianimasikan.",
+        "disclaimer": "Angka-angka ini hanya berdasarkan pada permohonan yang diunggah ke WuWa Tracker dan tidak mewakili seluruh basis pemain Wuthering Waves. Unggahan data secara manual tidak diizinkan demi menjaga integritas data. Data dapat berubah sewaktu-waktu seiring bertambahnya permohonan yang diunggah dan diproses, serta mungkin tidak langsung mencerminkan banner terbaru hingga melewati periode kedaluwarsa permohonan selama 6 bulan.",
+        "disclaimer_featured_only": "Grafik ini hanya menggabungkan permohonan dari banner Gentaraga Sorotan, dan tidak termasuk pull dari Gentaraga non-Sorotan.",
         "no_data": "Data tidak tersedia",
         "total": "Total"
       }
@@ -790,7 +790,7 @@
     },
     "timeline": {
       "title": "Linimasa Event",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
+      "page_header": "Tetap terhubung dengan event dan aktivitas terbaru di Wuthering Waves",
       "description": "Dengan zona waktu lokal atau zona waktu server Wuthering Waves mana pun, Anda dapat melihat jadwal setiap banner, event dalam permainan, periode Tower of Adversity & Depths of Illusive Realm - semua dalam satu tempat. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
     },
     "wiki": {
@@ -826,7 +826,7 @@
       "title": "Sejarah Banner Wuthering Waves",
       "page_header": "Lacak sejarah banner dan rerun di Wuthering Waves",
       "page_header_title": "Sejarah Banner",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "description": "Lihat semua banner Wuthering Waves terdahulu dan saat ini lewat grafik yang intuitif, lengkap dengan semua versi game dan fase banner. Rencanakan permohonan Anda berdasarkan perkiraan kapan banner rerun kemungkinan besar akan hadir."
     }
   },
   "config": {
