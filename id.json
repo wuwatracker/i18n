@@ -618,7 +618,7 @@
       "press_the_import_data_button": "Tekan tombol \"Impor Data\" di bawah",
       "upload_your_client_log_file_here": "Unggah berkas Client.log anda di sini",
       "we_will_search_your_logs_and_extract_the_import_url": "Kami mencari log anda dan mengekstrak URL impor untuk Anda",
-      "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat pull in-game",
+      "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat permohonan in-game",
       "open_windows_powershell_and_run_script": "Setelah itu, buka Windows PowerShell, lalu tempel skrip berikut.",
       "click_the_copy_button": "Klik tombol salin di sebelah kanan",
       "powershell_script_disclaimer": "CATATAN: Skrip ini hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamkuan Anda. Anda dapat melihat skripnya <link>di sini</link>.",
@@ -628,11 +628,11 @@
       "go_to_installation_directory_description": "Klik kanan launcher Wuthering Waves dan pilih <code>Open file location</code>. Anda seharusnya bisa melihat <code>launcher.exe</code> dan banyak file <code>.dll</code>.",
       "search_for_log": "Cari file <code>Client.log</code> lalu unggah ke sini",
       "airplane_mode": "Mode Pesawat",
-      "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat pull",
-      "download_ascent_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti <link>panduan oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
+      "download_ascent": "Unduh dan gunakan Ascent untuk mendapatkan URL riwayat permohonan",
+      "download_ascent_description": "Sama seperti mendapatkan riwayat permohonan di Genshin Impact atau Honkai Star Rail, ikuti <link>panduan oleh Mirai0009</link> ini untuk mengunduh dan menggunakan <ascent>Ascent v2.1.6</ascent> untuk mendapatkan URL Anda.",
       "download_ascent_disclaimer": "CATATAN: Metode ini hanya untuk Android versi 11 dan di atasnya.",
       "ios_follow_tutorial_video": "Ikuti video tutorial kami",
-      "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat pull di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
+      "ios_follow_tutorial_video_description": "Sama seperti mendapatkan riwayat permohonan di Genshin Impact atau Honkai Star Rail, ikuti video tutorial ini untuk mengimpor data Anda pada iOS.",
       "ios_certificate_disclaimer": "CATATAN: Anda harus menggunakan Safari ketika mengunduh berkas sertifikat. Peramban yang lain seperti Google Chrome mungkin tidak bekerja.",
       "ps5_credits": "Kredit khusus kepada <link></link> untuk metodologi & gambar dalam tutorial PlayStation 5 ini.",
       "ps5_press_the_options_button": "Tekan tombol 'Options' pada kontroler Anda",
@@ -742,7 +742,7 @@
     },
     "tracker": {
       "index": {
-        "title": "Pelacak Pull",
+        "title": "Pelacak Permohonan",
         "page_header": "Lihat permohonan terbaru dan statistik Anda dibandingkan dengan pengguna WuWa Tracker yang lain.",
         "description": "Lihat statistik pull yang diperbarui dan Convene terkini Wuthering Waves Anda. Gunakan dasbor yang siap di-screenshot untuk ditunjukkan ke teman-teman Anda! WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
       },
@@ -767,9 +767,9 @@
       "description": "Terjadi kesalahan saat menggunakan WuWa Tracker. Silakan kirimkan laporan ke server Discord kami agar kami dapat segera menanganinya."
     },
     "import": {
-      "title": "Impor Riwayat Pull",
+      "title": "Tutorial Impor",
       "page_header": "Pilih piranti dan metode yang Anda inginkan untuk mengimpor data",
-      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan lihat statistik Anda. Kami mendukung impor dari PC, perangkat Android, dan iOS dengan metode otomatis. WuWa Tracker adalah penghitung pity untuk Wuthering Waves, menggunakan data terkini dengan statistik global dan masih banyak lagi. Bagikan hasil pull Anda dengan teman dan lacak akun Anda!"
+      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan melihat statistik Anda. Kami mendukung impor data otomatis dari perangkat PC, Android, dan iOS. Pity counter WuWa Tracker untuk Wuthering Waves menggunakan data paling mutakhir dengan statistik global dan banyak lagi. Bagikan hasil permohonan Anda dengan teman-teman dan pantau terus perkembangan akun Anda!"
     },
     "not_found": {
       "title": "Halaman Tidak Ditemukan",
