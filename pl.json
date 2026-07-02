@@ -510,7 +510,7 @@
             "button_complete": "E-mail powiązany"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
+            "subtitle": "Pobierz i złącz kopię zapasową",
             "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
           }
         }
