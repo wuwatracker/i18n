@@ -621,7 +621,7 @@
       "first_open_game_history": "Pertama-tama, luncurkan game dan buka riwayat permohonan in-game",
       "open_windows_powershell_and_run_script": "Setelah itu, buka Windows PowerShell, lalu tempel skrip berikut.",
       "click_the_copy_button": "Klik tombol salin di sebelah kanan",
-      "powershell_script_disclaimer": "CATATAN: Skrip ini hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamkuan Anda. Anda dapat melihat skripnya <link>di sini</link>.",
+      "powershell_script_disclaimer": "CATATAN: Skrip hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamuan. Anda dapat melihat skrip tersebut <link>di sini</link>.",
       "paste_the_url_here": "Tempel URL di sini",
       "paste_the_json_here": "Tempel file JSON di sini",
       "go_to_installation_directory": "Pergi ke direktori instalasi game Anda",
