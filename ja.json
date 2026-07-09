@@ -80,7 +80,7 @@
         "Taoqi": "桃祈",
         "Verina": "ヴェリーナ",
         "Yangyang": "秧秧",
-        "Yangyang: Xuanling": "Yangyang: Xuanling",
+        "Yangyang: Xuanling": "秧秧・玄翎",
         "Yinlin": "吟霖",
         "Yuanwu": "淵武",
         "Zhezhi": "折枝",
@@ -228,6 +228,8 @@
         "Giveback Event Convene": "感謝セレクト集音",
         "New Voyage Weapon": "New Voyage Weapon",
         "New Voyage Resonator": "New Voyage Resonator",
+        "Reverb Resonator Convene": "共鳴者集音（追憶）",
+        "Reverb Weapon Convene": "武器集音（追憶）",
         "Collab Resonator Convene": "共鳴者集音（コラボ）",
         "Collab Weapon Convene": "武器集音（コラボ）"
       }
