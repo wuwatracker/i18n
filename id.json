@@ -12,7 +12,7 @@
       "pity": "Pity",
       "rarity": "Kelangkaan",
       "date_received": "Tanggal Diterima",
-      "recent_convenes": "PasamuanTerkini",
+      "recent_convenes": "Pasamuan Terkini",
       "resonator": "Gentaraga",
       "weapon": "Senjata"
     },
@@ -167,6 +167,7 @@
         "Red Spring": "Red Spring",
         "Relativistic Jet": "Relativistic Jet",
         "Romance in Farewell": "Romance in Farewell",
+        "Rover: Electro": "Rover: Electro",
         "Rover: Spectro": "Rover: Spectro",
         "Rover: Havoc": "Rover: Havoc",
         "Rover: Aero": "Rover: Aero",
@@ -228,8 +229,8 @@
         "Giveback Event Convene": "Pasamuan Timbal Balik",
         "New Voyage Weapon": "Pasamuan Senjata Kelana Baru",
         "New Voyage Resonator": "Pasamuan Gentaraga Kelana Baru",
-        "Reverb Resonator Convene": "Reverb Resonator Convene",
-        "Reverb Weapon Convene": "Reverb Weapon Convene",
+        "Reverb Resonator Convene": "Pasamuan Gentaraga Reverb",
+        "Reverb Weapon Convene": "Pasamuan Senjata Reverb",
         "Collab Resonator Convene": "Pasamuan Gentaraga Collab",
         "Collab Weapon Convene": "Pasamuan Senjata Collab"
       }
@@ -295,14 +296,14 @@
         "delete_pulls": "Berhasil menghapus semua riwayat permohonan untuk {playerId}.",
         "delete_profiles": "Berhasil menghapus semua profil pengguna.",
         "planner_successfully_completed_plan_for_name": "Berhasil menyelesaikan plan {name}!",
-        "planner_successfully_created_plan_for_name": "Berhasil membuat plan {name}.",
+        "planner_successfully_created_plan_for_name": "Berhasil membuat rencana {name}.",
         "successfully_linked_email": "Berhasil menautkan email Anda",
         "successfully_linked_email_description": "{email} telah tertaut ke ID pemain {playerId}.",
         "successfully_unlinked_email": "Berhasil membatalkan tautan email Anda"
       },
       "warn": {
         "this_cannot_be_undone": "Tindakan ini tidak dapat dibatalkan!",
-        "planner_removed_plan_for_name": "Plan {name} dihapus."
+        "planner_removed_plan_for_name": "Rencana {name} dihapus."
       }
     },
     "form": {
@@ -471,7 +472,7 @@
       "banner_summary": "Ringkasan Banner",
       "banner_summary_description": "Pilih banner untuk mendapatkan ikhtisiar statistik.",
       "luck": {
-        "num_luck_rating_title": "{num}✦ Peringkat Keburuntungan",
+        "num_luck_rating_title": "Peringkat Keburuntungan {num}✦",
         "top": "{percentile}% Teratas",
         "bottom": "{percentile}% Terbawah",
         "luckier": "Lebih beruntung dari {percentile}% pemain",

@@ -80,7 +80,7 @@
         "Taoqi": "도기",
         "Verina": "벨리나",
         "Yangyang": "양양",
-        "Yangyang: Xuanling": "Yangyang: Xuanling",
+        "Yangyang: Xuanling": "양양·현령",
         "Yinlin": "음림",
         "Yuanwu": "연무",
         "Zhezhi": "절지",
@@ -167,6 +167,7 @@
         "Red Spring": "날카로운 봄",
         "Relativistic Jet": "역설의 격류",
         "Romance in Farewell": "작별의 로맨스",
+        "Rover: Electro": "방랑자: 전도",
         "Rover: Spectro": "방랑자: 회절",
         "Rover: Havoc": "방랑자: 인멸",
         "Rover: Aero": "방랑자: 기류",
@@ -228,8 +229,8 @@
         "Giveback Event Convene": "감사 타겟 튜닝",
         "New Voyage Weapon": "새출발의 무기",
         "New Voyage Resonator": "새출발의 약속",
-        "Reverb Resonator Convene": "Reverb Resonator Convene",
-        "Reverb Weapon Convene": "Reverb Weapon Convene",
+        "Reverb Resonator Convene": "여정이 남긴 캐릭터 튜닝",
+        "Reverb Weapon Convene": "여정이 남긴 무기 튜닝",
         "Collab Resonator Convene": "캐릭터 콜라보 튜닝",
         "Collab Weapon Convene": "무기 콜라보 튜닝"
       }
