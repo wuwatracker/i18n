@@ -1,23 +1,23 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
-      "convene_url": "Convene URL",
-      "pulls": "Pulls",
-      "astrites": "Astrites",
+      "convenes": "Invocações",
+      "convene_url": "URL da Invocação",
+      "pulls": "Giros",
+      "astrites": "Astrita",
       "wuthering_waves": "Wuthering Waves",
-      "pull_history": "Pull History",
-      "pull_num": "Pull No.",
+      "pull_history": "Histórico de Giros",
+      "pull_num": "Giro N.º",
       "item": "Item",
       "pity": "Pity",
-      "rarity": "Rarity",
-      "date_received": "Date Received",
-      "recent_convenes": "Recent Convenes",
-      "resonator": "Resonator",
-      "weapon": "Weapon"
+      "rarity": "Raridade",
+      "date_received": "Dados Recebidos",
+      "recent_convenes": "Invocações Recentes",
+      "resonator": "Ressonante",
+      "weapon": "Arma"
     },
     "phrase": {
-      "import_data": "Import Data",
+      "import_data": "Importar Dados",
       "import_data_description": "Use your previously exported data and save it to your browser",
       "banner_list": "Banner List",
       "no_pulls_yet": "No pulls yet",
