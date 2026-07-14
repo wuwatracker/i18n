@@ -1,10 +1,10 @@
 {
   "domain": {
     "term": {
-      "convenes": "Convenes",
-      "convene_url": "Convene URL",
+      "convenes": "Invocações",
+      "convene_url": "URL da Invocação",
       "pulls": "Pulls",
-      "astrites": "Astrites",
+      "astrites": "Astrita",
       "wuthering_waves": "Wuthering Waves",
       "pull_history": "Pull History",
       "pull_num": "Pull No.",
