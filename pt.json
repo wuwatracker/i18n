@@ -231,8 +231,8 @@
         "New Voyage Resonator": "Ressonantes de Nova Viagem",
         "Reverb Resonator Convene": "Invocação de Ressonante de Reverberação",
         "Reverb Weapon Convene": "Invocação de Arma de Reverberação",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "Collab Resonator Convene": "Invocação de Ressonante de Colaboração",
+        "Collab Weapon Convene": "Invocação de Arma de Colaboração"
       }
     }
   },
@@ -622,250 +622,250 @@
       "upload_your_client_log_file_here": "Envie seu arquivo Client.log aqui",
       "we_will_search_your_logs_and_extract_the_import_url": "Vamos procurar em seus logs e extrair a URL de importação para você",
       "first_open_game_history": "Primeiro, abra o jogo e acesse os detalhes do histórico no jogo",
-      "open_windows_powershell_and_run_script": "Afterwards, open Windows PowerShell, and then paste the following script.",
-      "click_the_copy_button": "Click the copy button on the right",
-      "powershell_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <link>here</link>.",
-      "paste_the_url_here": "Paste the URL here",
-      "paste_the_json_here": "Paste the JSON here",
-      "go_to_installation_directory": "Go to your game's installation directory",
-      "go_to_installation_directory_description": "Right click your Wuthering Waves game launcher and select <code>Open file location</code>. You should see <code>launcher.exe</code> and a lot of <code>.dll</code> files.",
-      "search_for_log": "Search for <code>Client.log</code> and upload it here",
-      "airplane_mode": "Airplane",
-      "download_ascent": "Download and use Ascent to get your gacha history URL",
-      "download_ascent_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this <link>guide by Mirai0009</link> to download and use <ascent>Ascent v2.1.6</ascent> to get your URL.",
-      "download_ascent_disclaimer": "NOTE: This method only supports Android versions 11 and above.",
-      "ios_follow_tutorial_video": "Follow our video tutorial",
-      "ios_follow_tutorial_video_description": "Similar to getting your history in Genshin Impact or Honkai Star Rail, follow this video tutorial to import your data on iOS.",
-      "ios_certificate_disclaimer": "NOTE: You must use Safari when downloading the certificate file. Other browsers like Google Chrome may not work.",
-      "ps5_credits": "Special thanks to <link></link> for sharing the methodology & images for this PlayStation 5 tutorial.",
-      "ps5_press_the_options_button": "Press the 'Options' button on your controller",
-      "ps5_click_on_page_information": "Press the 'Page Information' button",
-      "ps5_enter_your_record_id": "Enter your 'player_id' and 'record_id' here",
-      "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
-      "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
-      "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
-      "email_link_description": "This will enable us to save your data to our database & automatically back up your data every time you import. If your player ID is already linked to another email address, we will remove the old link and use your new email address."
+      "open_windows_powershell_and_run_script": "Depois, abra o Windows PowerShell e cole o script a seguir.",
+      "click_the_copy_button": "Clique no botão de copiar à direita",
+      "powershell_script_disclaimer": "NOTA: O script apenas lê os logs do seu jogo para extrair a URL do Histórico de Invocações. Você pode ver o script <link>aqui</link>.",
+      "paste_the_url_here": "Cole a URL aqui",
+      "paste_the_json_here": "Cole o JSON aqui",
+      "go_to_installation_directory": "Vá até o diretório de instalação do seu jogo",
+      "go_to_installation_directory_description": "Clique com o botão direito no launcher do jogo Wuthering Waves e selecione <code>Open file location</code>. Você deve ver <code>launcher.exe</code> e vários arquivos <code>.dll</code>.",
+      "search_for_log": "Procure por <code>Client.log</code> e envie-o aqui",
+      "airplane_mode": "Modo Avião",
+      "download_ascent": "Baixe e use o Ascent para obter a URL do seu histórico de gacha",
+      "download_ascent_description": "Assim como ao obter seu histórico no Genshin Impact ou Honkai Star Rail, siga este <link>guia de Mirai0009</link> para baixar e usar o <ascent>Ascent v2.1.6</ascent> e obter sua URL.",
+      "download_ascent_disclaimer": "NOTA: Este método só é compatível com versões do Android 11 ou superiores.",
+      "ios_follow_tutorial_video": "Assista ao nosso vídeo tutorial",
+      "ios_follow_tutorial_video_description": "Assim como ao obter seu histórico no Genshin Impact ou Honkai Star Rail, assista a este vídeo tutorial para importar seus dados no iOS.",
+      "ios_certificate_disclaimer": "NOTA: Você deve usar o Safari ao baixar o arquivo de certificado. Outros navegadores, como o Google Chrome, podem não funcionar.",
+      "ps5_credits": "Agradecimentos especiais a <link></link> por compartilhar a metodologia e as imagens deste tutorial de PlayStation 5.",
+      "ps5_press_the_options_button": "Pressione o botão \"Options\" no seu controle",
+      "ps5_click_on_page_information": "Pressione o botão \"Page Information\"",
+      "ps5_enter_your_record_id": "Insira seu 'player_id' e 'record_id' aqui",
+      "open_terminal_and_open_script": "Depois, abra seu terminal e cole o script a seguir:",
+      "linux_script_disclaimer": "NOTA: O script apenas lê os logs do seu jogo para extrair a URL do seu Histórico de Invocações. Você pode ver o script <script>aqui</script>. Créditos a <author></author> por compartilhar o código do <repo></repo> deles.",
+      "script_disclaimer": "O script não edita seus arquivos, ele apenas extrai a URL do seu Histórico de Invocações a partir dos arquivos de log.",
+      "email_link_description": "Isso nos permitirá salvar seus dados no nosso banco de dados e fazer backup automático dos seus dados sempre que você importar. Se o seu ID de jogador já estiver vinculado a outro endereço de e-mail, removeremos o vínculo antigo e usaremos seu novo endereço de e-mail."
     },
     "planner": {
-      "move_to_top": "Move To Top",
-      "move_up": "Move Up",
-      "move_down": "Move Down",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_top": "Mover para o Topo",
+      "move_up": "Mover para Cima",
+      "move_down": "Mover para Baixo",
+      "move_to_bottom": "Mover para o Final"
     },
     "inventory": {
-      "new_plan": "New Plan",
-      "add_plan": "Add Plan",
-      "material_summary": "Material Summary",
-      "no_active_plans": "You don't have any active plans.",
-      "nodes_to_unlock": "Nodes to Unlock",
-      "passive_skill": "Passive Skill",
-      "plan_delete_name_confirm": "Are you sure you want to delete the {name} plan?",
-      "no_items_will_be_consumed": "No items will be consumed.",
+      "new_plan": "Novo Plano",
+      "add_plan": "Adicionar Plano",
+      "material_summary": "Resumo de Materiais",
+      "no_active_plans": "Você não tem nenhum plano ativo.",
+      "nodes_to_unlock": "Nós para Desbloquear",
+      "passive_skill": "Habilidade Inata",
+      "plan_delete_name_confirm": "Tem certeza de que deseja excluir o plano {name}?",
+      "no_items_will_be_consumed": "Nenhum item será consumido.",
       "attributes": {
-        "ascension_level": "Ascension Level",
-        "level": "Level",
-        "basic_attack": "Basic Attack",
-        "resonance_skill": "Resonance Skill",
-        "forte_circuit": "Forte Circuit",
-        "resonance_liberation": "Resonance Liberation",
-        "intro_skill": "Intro Skill"
+        "ascension_level": "Ranque de Ascensão",
+        "level": "Nível",
+        "basic_attack": "ATQ Normal",
+        "resonance_skill": "Habilidade de Ressonância",
+        "forte_circuit": "Circuito Ressonante",
+        "resonance_liberation": "Liberação de Ressonância",
+        "intro_skill": "Habilidade Intro"
       }
     },
     "home_page": {
-      "hero_heading": "Your Wuthering Waves Resource",
-      "hero_cta_button": "Start Tracking",
-      "keep_up_with_the_latest_news": "Keep up with the latest news",
-      "quick_links": "Quick Links",
-      "quick_links_description": "Access important pages and features quickly",
-      "the_curent_events_and_activities": "The current events and activities",
+      "hero_heading": "Seu Recurso de Wuthering Waves",
+      "hero_cta_button": "Começar a Rastrear",
+      "keep_up_with_the_latest_news": "Fique por dentro das últimas notícias",
+      "quick_links": "Links Rápidos",
+      "quick_links_description": "Acesse páginas e recursos importantes rapidamente",
+      "the_curent_events_and_activities": "Os eventos e atividades atuais",
       "frequently_asked_questions": {
-        "title": "Frequently Asked Questions",
-        "description": "Find answers to common questions about WuWa Tracker",
-        "still_need_help": "Still need help?",
-        "join_our_discord": "Join our Discord Server and ask for help there",
+        "title": "Perguntas Frequentes",
+        "description": "Encontre respostas para perguntas comuns sobre o WuWa Tracker",
+        "still_need_help": "Ainda precisa de ajuda?",
+        "join_our_discord": "Entre no nosso Servidor do Discord e peça ajuda por lá",
         "item_1": {
-          "title": "Is WuWa Tracker safe to use?",
-          "content_1": "WuWa Tracker has been <link>operating since May 30, 2024</link> without any reported account issues from our users. We simply read your Convene URL, which is the same web page the game uses to display your pull history. We will <strong>never</strong> ask for your Wuthering Waves login credentials.",
-          "content_2": "Your data remains on your device unless you choose to sync across devices by linking an email to your UID. Only anonymized global statistics are collected whenever you import. We recommend you review our <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> before using our site."
+          "title": "O WuWa Tracker é seguro de usar?",
+          "content_1": "O WuWa Tracker está <link>em operação desde 30 de maio de 2024</link> sem nenhum problema de conta relatado por nossos usuários. Nós apenas lemos a sua URL de Invocação, que é a mesma página web usada pelo jogo para exibir seu histórico de giros. Nós <strong>nunca</strong> pediremos suas credenciais de login do Wuthering Waves.",
+          "content_2": "Seus dados permanecem no seu dispositivo, a menos que você opte por sincronizar entre dispositivos vinculando um e-mail ao seu UID. Apenas estatísticas globais anonimizadas são coletadas sempre que você importa. Recomendamos que você revise nossa <privacy>Política de Privacidade</privacy> e nossos <terms>Termos de Serviço</terms> antes de usar nosso site."
         },
         "item_2": {
-          "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
+          "title": "Quais dispositivos e regiões são suportados?",
+          "content_1": "Atualmente, nosso <link>tutorial de importação</link> oferece suporte a todos os principais dispositivos e plataformas, incluindo: Windows, macOS, Linux, Android, iOS e PlayStation 5. Além disso, oferecemos suporte a importações usando scripts automatizados de código aberto ou por métodos manuais de envio de arquivo com tutoriais em vídeo passo a passo.",
+          "content_2": "Oferecemos suporte a todas as regiões e servidores do jogo, incluindo: América, Ásia, Europa, SEA, HK/TW/MO e CN."
         },
         "item_3": {
-          "title": "How do I import or export my data?",
-          "content": "You may import or export your data using your <link>Data Settings</link>. We recommend you export your data regularly as a backup and save it in multiple locations."
+          "title": "Como eu importo ou exporto meus dados?",
+          "content": "Você pode importar ou exportar seus dados usando suas <link>Configurações de Dados</link>. Recomendamos que você exporte seus dados regularmente como backup e os salve em vários locais."
         },
         "item_4": {
-          "title": "How do I sync across devices?",
-          "content_1": "Your UID must be linked to an email address in order to sync your data across multiple devices. You must first login to your email account via our social providers (such as Google or GitHub), then you can link your email from the <connections>Connections Settings</connections> or by enabling an email link while following our <import>Import Tutorial</import>.",
-          "content_2": "Your pull data will automatically sync whenever you import or manually press the {recoverPulls} button via your <link>Connections Settings</link>."
+          "title": "Como eu sincronizo entre dispositivos?",
+          "content_1": "Seu UID deve estar vinculado a um endereço de e-mail para sincronizar seus dados entre vários dispositivos. Primeiro, você deve entrar na sua conta de e-mail por meio de nossos provedores sociais (como Google ou GitHub), depois você pode vincular seu e-mail nas <connections>Configurações de Conexões</connections> ou ativando um vínculo de e-mail ao seguir nosso <import>Tutorial de Importação</import>.",
+          "content_2": "Seus dados de giros serão sincronizados automaticamente sempre que você importar ou pressionar manualmente o botão {recoverPulls} nas suas <link>Configurações de Conexões</link>."
         },
         "item_5": {
-          "title": "How do I fix my import issues?",
-          "content_1": "Most import issues can be resolved by following our <link>Import Troubleshooting Guide</link>, which covers common issues and step-by-step solutions.",
-          "content_2": "If you're still having trouble, feel free to reach out on our <link>Discord server</link> for further assistance."
+          "title": "Como eu corrijo meus problemas de importação?",
+          "content_1": "A maioria dos problemas de importação pode ser resolvida seguindo nosso <link>Guia de Solução de Problemas de Importação</link>, que aborda problemas comuns e soluções passo a passo.",
+          "content_2": "Se ainda estiver com dificuldades, sinta-se à vontade para entrar em contato no nosso <link>servidor do Discord</link> para mais assistência."
         },
         "item_6": {
-          "title": "Can I recover pulls older than 6 months?",
-          "content_1": "If you've previously imported your data to WuWa Tracker, your older pulls are already backed up to your UID. You can recover them anytime via your <link>Connections Settings</link> after linking your email to your UID.",
-          "content_2": "Otherwise, unfortunately, if this is your first time using our site, we can only access what's currently available in your in-game history. Pulls older than 6 months are no longer retrievable due to Kuro Games' retention policy."
+          "title": "Posso recuperar giros com mais de 6 meses?",
+          "content_1": "Se você já importou seus dados para o WuWa Tracker anteriormente, seus giros mais antigos já estão salvos no seu UID. Você pode recuperá-los a qualquer momento nas suas <link>Configurações de Conexões</link> após vincular seu e-mail ao seu UID.",
+          "content_2": "Caso contrário, infelizmente, se esta é a primeira vez que você usa nosso site, só podemos acessar o que está atualmente disponível no seu histórico no jogo. Giros com mais de 6 meses não podem mais ser recuperados devido à política de retenção da Kuro Games."
         },
         "item_7": {
-          "title": "Why are some of my statistics inaccurate?",
-          "content": "Some statistics like luck ratings and global statistics are cached on our server to improve performance. After importing new pulls, it may take a few minutes for these values to update. Try refreshing the page or checking back after a few hours."
+          "title": "Por que algumas das minhas estatísticas estão incorretas?",
+          "content": "Algumas estatísticas, como a classificação de sorte e os dados globais, são salvas em cache no nosso servidor para melhorar o desempenho. Após importar novos giros, pode levar alguns minutos para que esses valores sejam atualizados. Tente atualizar a página ou verificar novamente mais tarde."
         }
       }
     },
     "banners": {
-      "newest_first": "Newest First",
-      "since_last_appearance": "Since Last Appearance"
+      "newest_first": "Mais recentes primeiro",
+      "since_last_appearance": "Desde a Última Aparição"
     },
     "timers": {
       "reset_timers": {
-        "weekly_reset": "Weekly Reset",
-        "daily_reset": "Daily Reset"
+        "weekly_reset": "Resete Semanal",
+        "daily_reset": "Resete Diário"
       },
       "waveplates": {
-        "stamina": "Waveplates",
-        "stamina_extra": "Waveplate Crystals"
+        "stamina": "Placa Ondulada",
+        "stamina_extra": "Cristal Ondulado"
       }
     }
   },
   "metadata": {
     "root": {
-      "title": "Wuthering Waves Resource & Companion App",
-      "description": "WuWa Tracker is the #1 Wuthering Waves pull tracker & pity counter. Track your pulls and achievements, view global luck stats, use our ascension planner & calculator, and explore guides, wiki, and news articles to optimize your Wuthering Waves experience."
+      "title": "Recurso e Aplicativo Complementar de Wuthering Waves",
+      "description": "O WuWa Tracker é o rastreador de giros e contador de pity Nº 1 de Wuthering Waves. Acompanhe seus giros e conquistas, veja estatísticas globais de sorte, use nosso planejador e calculadora de ascensão, e explore guias, wiki e artigos de notícias para otimizar sua experiência em Wuthering Waves."
     },
     "achievements": {
-      "title": "Achievements",
-      "page_header": "Track your in-game achievements and view all the rewards you've earned so far",
-      "description": "Track your Wuthering Waves achievements and freely import & export your data across devices! WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "title": "Conquistas",
+      "page_header": "Acompanhe suas conquistas no jogo e veja todas as recompensas que você já ganhou",
+      "description": "Acompanhe suas conquistas de Wuthering Waves e importe e exporte seus dados livremente entre dispositivos! O WuWa Tracker é um contador de pity para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
     },
     "tracker": {
       "index": {
-        "title": "Pull Tracker",
-        "page_header": "View your recent pulls & statistics compared to other WuWa Tracker users.",
-        "description": "View your updated Wuthering Waves pull statistics and recent Convenes. Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title": "Rastreador de Giros",
+        "page_header": "Veja seus giros recentes e estatísticas comparadas a outros usuários do WuWa Tracker.",
+        "description": "Veja suas estatísticas atualizadas de giros de Wuthering Waves e Invocações recentes. Use painéis prontos para captura de tela para se gabar com seus amigos! Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
       },
       "global": {
-        "title": "Global Statistics",
-        "title_responsive": "<span>Global</span> Statistics",
-        "description": "View global pull statistics for the {currentBanner} banner, featuring {currentFeaturedResonator}! Use screenshot-ready dashboards to brag to your friends! WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "banner_title": "{name} Banner Statistics",
-        "banner_description": "View global pull statistics for the {name} banner. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+        "title": "Estatísticas Globais",
+        "title_responsive": "<span>Estatísticas</span> Globais",
+        "description": "Veja as estatísticas globais de giros do banner {currentBanner}, com {currentFeaturedResonator} em destaque! Use painéis prontos para captura de tela para se gabar com seus amigos! Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!",
+        "banner_title": "Estatísticas do Banner {name}",
+        "banner_description": "Veja as estatísticas globais de giros do banner {name}. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
       },
       "ownership": {
-        "title": "Ownership Statistics",
-        "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
-        "no_data": "No data available",
+        "title": "Estatísticas de Posse",
+        "description": "Veja as estatísticas de posse de banners em Wuthering Waves com um gráfico de barras histórico animado.",
+        "disclaimer": "Esses números são baseados apenas nos giros enviados ao WuWa Tracker e não representam toda a base de jogadores de Wuthering Waves. Envios manuais de dados não são permitidos para preservar a integridade dos dados. Os dados estão sujeitos a alterações conforme mais giros são enviados e processados, e podem não refletir os banners mais recentes até o período de expiração de 6 meses dos giros.",
+        "disclaimer_featured_only": "Este gráfico agrega apenas giros do banner de Ressonante em Destaque, e não inclui giros de Ressonantes que não estão em destaque.",
+        "no_data": "Nenhum dado disponível",
         "total": "Total"
       }
     },
     "error": {
-      "title": "An Error Occurred",
-      "description": "An error occurred while using WuWa Tracker. Please send a report to our Discord server so that we can address it promptly."
+      "title": "Ocorreu um Erro",
+      "description": "Ocorreu um erro ao usar o WuWa Tracker. Envie um relatório para o nosso servidor do Discord para que possamos resolvê-lo rapidamente."
     },
     "import": {
-      "title": "Import Tutorial",
-      "page_header": "Select your platform & preferred method to import your data",
-      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android and iOS devices with automatic methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "title": "Tutorial de Importação",
+      "page_header": "Selecione sua plataforma e o método preferido para importar seus dados",
+      "description": "Siga nosso tutorial interativo para exibir seus dados de Wuthering Waves e ver suas estatísticas. Oferecemos suporte a importações de dispositivos PC, Android e iOS com métodos automáticos. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
     },
     "not_found": {
-      "title": "Not Found",
-      "description": "This page is not found on WuWa Tracker. Please go back to the main page to start tracking your Wuthering Waves Convene History data."
+      "title": "Não Encontrado",
+      "description": "Esta página não foi encontrada no WuWa Tracker. Volte para a página principal para começar a rastrear seus dados de Histórico de Invocações de Wuthering Waves."
     },
     "privacy_policy": {
-      "title": "Privacy Policy",
-      "description": "This privacy policy document outlines the types of personal information that is received and collected by WuWa Tracker and how it is used. WuWa Tracker is a pity counter for Wuthering Waves, using the up-to-date data with global statistics and more."
+      "title": "Política de Privacidade",
+      "description": "Este documento de política de privacidade descreve os tipos de informações pessoais recebidas e coletadas pelo WuWa Tracker e como elas são usadas. O WuWa Tracker é um contador de pity para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais."
     },
     "settings": {
-      "title": "Settings",
-      "page_header": "Manage your site preferences and data here",
-      "description": "Synchronize your data over Google by signing in. Manage your Wuthering Waves pull data all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "title": "Configurações",
+      "page_header": "Gerencie suas preferências e dados do site aqui",
+      "description": "Sincronize seus dados pelo Google ao entrar. Gerencie os dados de giros de Wuthering Waves em um só lugar. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
     },
     "terms_and_conditions": {
-      "title": "Terms & Conditions",
-      "description": "These terms and conditions outline the rules and regulations for the use of WuWa Tracker's website and services."
+      "title": "Termos e Condições",
+      "description": "Estes termos e condições descrevem as regras e regulamentos para o uso do site e dos serviços do WuWa Tracker."
     },
     "manage_cookies": {
-      "title": "Manage Cookies",
-      "description": "You can update your cookie preferences at any time to control how we collect and use your data, in compliance with privacy regulations like GDPR and CCPA."
+      "title": "Gerenciar Cookies",
+      "description": "Você pode atualizar suas preferências de cookies a qualquer momento para controlar como coletamos e usamos seus dados, em conformidade com regulamentos de privacidade como GDPR e CCPA."
     },
     "timeline": {
-      "title": "Event Timeline",
-      "page_header": "Stay updated with the latest events and activities in Wuthering Waves",
-      "description": "Using your local time zone or any Wuthering Waves server time zone, you can view every banner schedule, in-game events, Tower of Adversity & Depths of Illusive Realm periods - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "title": "Linha do Tempo de Eventos",
+      "page_header": "Fique atualizado com os eventos e atividades mais recentes de Wuthering Waves",
+      "description": "Usando seu fuso horário local ou qualquer fuso horário de servidor de Wuthering Waves, você pode ver todo o cronograma de banners, eventos no jogo, períodos da Tower of Adversity e Depths of Illusive Realm - tudo em um só lugar. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!"
     },
     "wiki": {
       "resonator": {
-        "title": "Resonators",
-        "description": "View Wuthering Waves Resonator information, profiles, and use WuWa Tracker's material calculator to plan your Resonator upgrades!",
-        "page_header": "View all the Resonators in Wuthering Waves"
+        "title": "Ressonantes",
+        "description": "Veja informações e perfis de Ressonantes de Wuthering Waves, e use a calculadora de materiais do WuWa Tracker para planejar suas melhorias de Ressonante!",
+        "page_header": "Veja todos os Ressonantes de Wuthering Waves"
       },
       "item": {
-        "title": "Items",
-        "description": "View Wuthering Waves item information, drop locations, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "page_header": "View all the Items in Wuthering Waves"
+        "title": "Itens",
+        "description": "Veja informações de itens de Wuthering Waves, locais de queda e acompanhe seu inventário - tudo em um só lugar. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!",
+        "page_header": "Veja todos os Itens de Wuthering Waves"
       },
       "weapon": {
-        "title": "Weapons",
-        "description": "View Wuthering Waves weapon information, attributes, and track your inventory - all in one place. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!",
-        "page_header": "View all the Weapons in Wuthering Waves"
+        "title": "Armas",
+        "description": "Veja informações e atributos de armas de Wuthering Waves e acompanhe seu inventário - tudo em um só lugar. Contador de pity do WuWa Tracker para Wuthering Waves, usando dados atualizados com estatísticas globais e muito mais. Compartilhe seus giros com seus amigos e acompanhe sua conta!",
+        "page_header": "Veja todas as Armas de Wuthering Waves"
       }
     },
     "planner": {
-      "title": "Ascension Planner",
-      "description": "The most powerful Wuthering Waves calculator for planning your Resonator Ascension level, skill, and EXP materials!"
+      "title": "Planejador de Ascensão",
+      "description": "A calculadora mais poderosa de Wuthering Waves para planejar seus materiais de nível de Ascensão, habilidade e EXP de Ressonante!"
     },
     "support": {
-      "title": "Support",
-      "description": "Need help with downloading your Wuthering Waves pull data? Want to know how WuWa Tracker uses your data? View WuWa Tracker's FAQ here!"
+      "title": "Suporte",
+      "description": "Precisa de ajuda para baixar seus dados de giros de Wuthering Waves? Quer saber como o WuWa Tracker usa seus dados? Veja as Perguntas Frequentes do WuWa Tracker aqui!"
     },
     "articles": {
-      "title": "Articles",
-      "description": "Read the latest articles and updates about Wuthering Waves, including guides, tips, news, announcements and more!"
+      "title": "Artigos",
+      "description": "Leia os artigos e atualizações mais recentes sobre Wuthering Waves, incluindo guias, dicas, notícias, anúncios e muito mais!"
     },
     "banners": {
-      "title": "Wuthering Waves Banner History",
-      "page_header": "Track banner history & reruns in Wuthering Waves",
-      "page_header_title": "Banner History",
-      "description": "View all the past and current Wuthering Waves banners with an intuitive chart with all game versions and banner phases. Plan your pulls based on when a banner rerun is most likely to occur."
+      "title": "Histórico de Banners de Wuthering Waves",
+      "page_header": "Acompanhe o histórico de banners e reruns em Wuthering Waves",
+      "page_header_title": "Histórico de Banners",
+      "description": "Veja todos os banners passados e atuais de Wuthering Waves com um gráfico intuitivo com todas as versões do jogo e fases de banners. Planeje seus giros com base na probabilidade de rerun dos banners."
     }
   },
   "config": {
     "navLinks": {
       "Tracker": "Tracker",
-      "Pull Tracker": "Pull Tracker",
-      "Import Pulls": "Import Pulls",
-      "Global Statistics": "Global Statistics",
+      "Pull Tracker": "Rastreador de Giros",
+      "Import Pulls": "Importar Giros",
+      "Global Statistics": "Estatísticas Globais",
       "Wiki": "Wiki",
-      "Characters": "Characters",
-      "Weapons": "Weapons",
-      "Items": "Items",
+      "Characters": "Personagens",
+      "Weapons": "Armas",
+      "Items": "Itens",
       "Tools": "Ferramentas",
-      "Achievements Tracker": "Achievements Tracker",
-      "Ascension Planner": "Ascension Planner",
+      "Achievements Tracker": "Rastreador de Conquistas",
+      "Ascension Planner": "Planejador de Ascensão",
       "Events": "Eventos",
-      "Articles": "Articles",
+      "Articles": "Artigos",
       "Banners": "Banners",
-      "Ownership Statistics": "Ownership Statistics"
+      "Ownership Statistics": "Estatísticas de Posse"
     },
     "footer": {
       "links": {
-        "Contact Us": "Contact Us",
+        "Contact Us": "Contato",
         "System Status": "Status do Sistema",
         "Help Translate": "Ajude a Traduzir",
-        "Privacy Policy": "Privacy Policy",
-        "Terms of Service": "Terms of Service",
-        "Company": "Company",
-        "Resources": "Resources",
+        "Privacy Policy": "Política de Privacidade",
+        "Terms of Service": "Termos de Serviço",
+        "Company": "Empresa",
+        "Resources": "Recursos",
         "Community": "Comunidade",
-        "Affiliates": "Affiliates",
-        "Support Us on Ko-fi": "Support Us on Ko-fi"
+        "Affiliates": "Afiliados",
+        "Support Us on Ko-fi": "Apoie-nos no Ko-fi"
       }
     }
   }
