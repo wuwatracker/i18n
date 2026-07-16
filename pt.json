@@ -540,7 +540,7 @@
         "site_language": "Idioma do Site",
         "site_language_description": "Selecione o idioma que você gostaria de usar em todo o site",
         "game_server_timezone": "Fuso Horário do Servidor de Jogo",
-        "game_server_timezone_description": "Mostra recursos relacionados a tempo de acordo com o fuso horário do seu servidor de jogo"
+        "game_server_timezone_description": "Mostra recursos relacionados ao tempo de acordo com o fuso horário do seu servidor de jogo"
       },
       "data": {
         "title": "Dados",
