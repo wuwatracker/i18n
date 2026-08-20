@@ -727,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Terbaru Lebih Dulu",
       "since_last_appearance": "Sejak Kemunculan Terakhir"
     },
