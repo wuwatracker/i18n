@@ -767,7 +767,7 @@
       "ownership": {
         "title": "持有率统计",
         "description": "使用动画历史条形图查看《鸣潮》卡池的持有率统计。",
-        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "无可用数据",
         "total": "总计"
       }
