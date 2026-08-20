@@ -485,6 +485,8 @@
         "unluckier": "{percentile}%のプレイヤーよりも運が悪い",
         "avg_pity": "平均回数",
         "avg_pity_description": "あなたが★{qualityLevel}を引くのにかかった平均回数",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "排出率",
         "pull_ratio_description": "全集音のうち、★{qualityLevel}が出た割合",
         "coinflip_wins": "すり抜け回避率",
@@ -765,8 +767,7 @@
       "ownership": {
         "title": "キャラ所持率",
         "description": "鳴潮のピックアップの統計情報をアニメーション化した棒グラフで表示します。",
-        "disclaimer": "これらの数字は、WuWa Trackerにアップロードされた結果のみに基づいており、鳴潮プレイヤー全体を代表するわけではありません。 データの整合性を維持するために手動でのデータアップロードは許可されていません。 より多くの集音履歴がアップロードおよび処理されると、データは変更される可能性があります。また、6ヶ月の有効期限が切れるまでは、最新のピックアップは反映されない場合があります。",
-        "disclaimer_featured_only": "このグラフは「共鳴者集音」のみを集計しており、それ以外の結果は含まれていません。",
+        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
         "no_data": "No data available",
         "total": "Total"
       }
