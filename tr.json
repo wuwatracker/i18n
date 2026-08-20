@@ -485,8 +485,8 @@
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
         "avg_pity_description": "Ortalama {qualityLevel}✦ pity'in ne?",
-        "avg_featured_pity": "Average Featured Pity",
-        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
+        "avg_featured_pity": "Ortalama Öne Çıkan Pity'si",
+        "avg_featured_pity_description": "Ortalama öne çıkan {qualityLevel}-yıldız karakter pity'n kaç?",
         "pull_ratio": "Çağrı Oranı",
         "pull_ratio_description": "Toplam çağrılarının yüzde kaçı {qualityLevel}✦?",
         "coinflip_wins": "50/50 Kazanma",
@@ -767,7 +767,7 @@
       "ownership": {
         "title": "Sahiplik İstatistikleri",
         "description": "Wuthering Waves'deki banner'ların sahiplik istatistiklerini hareketli bir geçmişe dönük çubuk grafikle görüntüle.",
-        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "Mevcut veri yok",
         "total": "Toplam"
       }
