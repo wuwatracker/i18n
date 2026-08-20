@@ -767,7 +767,7 @@
       "ownership": {
         "title": "보유 통계",
         "description": "애니메이션이 적용된 차트로 Wuthering Waves 배너의 보유 통계를 확인하세요.",
-        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "이용 가능한 데이터 없음",
         "total": "합계"
       }
