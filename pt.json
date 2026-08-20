@@ -485,6 +485,8 @@
         "unluckier": "Menos sortudo(a) que {percentile}% dos jogadores",
         "avg_pity": "Pity Médio",
         "avg_pity_description": "Qual é a sua média de pity de {qualityLevel} estrelas?",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "Proporção de Giros",
         "pull_ratio_description": "Qual porcentagem dos seus giros totais foram de {qualityLevel} estrelas?",
         "coinflip_wins": "Vitórias no 50/50",
@@ -765,8 +767,7 @@
       "ownership": {
         "title": "Estatísticas de Posse",
         "description": "Veja as estatísticas de posse de banners em Wuthering Waves com um gráfico de barras histórico animado.",
-        "disclaimer": "Esses números são baseados apenas nos giros enviados ao WuWa Tracker e não representam toda a base de jogadores de Wuthering Waves. Envios manuais de dados não são permitidos para preservar a integridade dos dados. Os dados estão sujeitos a alterações conforme mais giros são enviados e processados, e podem não refletir os banners mais recentes até o período de expiração de 6 meses dos giros.",
-        "disclaimer_featured_only": "Este gráfico agrega apenas giros do banner de Ressonante em Destaque, e não inclui giros de Ressonantes que não estão em destaque.",
+        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
         "no_data": "Nenhum dado disponível",
         "total": "Total"
       }
