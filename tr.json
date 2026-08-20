@@ -727,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Önce En Yeni",
       "since_last_appearance": "Son Görünüşünden Bu Yana"
     },
