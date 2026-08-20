@@ -485,6 +485,8 @@
         "unluckier": "Masz pecha częściej niż {percentile} proc. graczy",
         "avg_pity": "Średnia wartość pity",
         "avg_pity_description": "Jaka jest twoja średnia wartość pity {qualityLevel}-gwiazdkowej postaci?",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "Stosunek losów",
         "pull_ratio_description": "Jaki procent wszystkich twoich losowań stanowiły postacie {qualityLevel}-gwiazdkowe?",
         "coinflip_wins": "Wygrane 50/50",
@@ -725,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Od najnowszych",
       "since_last_appearance": "Od ostatniego ukazania"
     },
@@ -765,8 +768,7 @@
       "ownership": {
         "title": "Statystyki liczby przywołań rezonatorów",
         "description": "Zobacz statystyki przywołań dla banerów w Wuthering Waves z animowanym wykresem historycznym.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "Ten wykres agreguje tylko losy z wyróżnionych banerów rezonatorów i nie zawiera losów z banerów permanentnych itp.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "Brak danych",
         "total": "Ogółem"
       }

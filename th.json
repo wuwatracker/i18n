@@ -485,6 +485,8 @@
         "unluckier": "โชคร้ายกว่า {percentile}% ของผู้เล่นทั้งหมด",
         "avg_pity": "การันตีการสุ่มได้โดยเฉลี่ย",
         "avg_pity_description": "ค่าเฉลี่ยการสุ่มได้ {qualityLevel} ดาว (คำนวณจากการได้ {qualityLevel} ดาวทุกรอบ เฉลี่ยแล้วตกตัวละกี่โรล)",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "อัตราส่วนการสุ่มได้เทียบการสุ่มทั้งหมด",
         "pull_ratio_description": "เปอร์เซ็นต์การสุ่มของคุณที่ได้ตัว {qualityLevel} ดาวต่อการสุ่มของคุณทั้งหมด",
         "coinflip_wins": "ไม่หลุดเรท 50/50",
@@ -725,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Newest First",
       "since_last_appearance": "Since Last Appearance"
     },
@@ -765,8 +768,7 @@
       "ownership": {
         "title": "Ownership Statistics",
         "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "No data available",
         "total": "Total"
       }
