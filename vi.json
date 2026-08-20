@@ -767,7 +767,7 @@
       "ownership": {
         "title": "Thống Kê Sở Hữu",
         "description": "Xem thống kê sở hữu của các banner trong Wuthering Waves với thanh biểu đồ lịch sử động.",
-        "disclaimer_featured_only": "This graph aggregates Featured Character, Collab Resonator, and New Voyage Resonator convenes.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "Không có dữ liệu",
         "total": "Tổng"
       }
