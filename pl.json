@@ -727,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Od najnowszych",
       "since_last_appearance": "Od ostatniego ukazania"
     },
