@@ -485,6 +485,8 @@
         "unluckier": "Oyuncuların {percentile}%'inden daha şanssızsın",
         "avg_pity": "Ortalama Pity",
         "avg_pity_description": "Ortalama {qualityLevel}✦ pity'in ne?",
+        "avg_featured_pity": "Ortalama Öne Çıkan Pity'si",
+        "avg_featured_pity_description": "Ortalama öne çıkan {qualityLevel}-yıldız karakter pity'n kaç?",
         "pull_ratio": "Çağrı Oranı",
         "pull_ratio_description": "Toplam çağrılarının yüzde kaçı {qualityLevel}✦?",
         "coinflip_wins": "50/50 Kazanma",
@@ -725,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Resim Olarak Kaydet",
       "newest_first": "Önce En Yeni",
       "since_last_appearance": "Son Görünüşünden Bu Yana"
     },
@@ -765,8 +768,7 @@
       "ownership": {
         "title": "Sahiplik İstatistikleri",
         "description": "Wuthering Waves'deki banner'ların sahiplik istatistiklerini hareketli bir geçmişe dönük çubuk grafikle görüntüle.",
-        "disclaimer": "Bu rakamlar yalnızca WuWa Tracker'a yüklenen çağrı verilerine dayanmaktadır ve Wuthering Waves'in tüm oyuncu kitlesini temsil etmemektedir. Veri bütünlüğünü korumak amacıyla manuel veri yüklemelerine izin verilmemektedir. Veriler, daha fazla çağrı sonucunun yüklenip işlenmesiyle değişebilir ve 6 aylık çağrı sonuçlarının geçerlilik süresi dolana kadar en son banner'ları yansıtmayabilir.",
-        "disclaimer_featured_only": "Bu grafik yalnızca Öne Çıkan Rezonatör banner çağrılarını toplamaktadır ve Öne Çıkan Rezonatör dışındaki çağrıları içermemektedir.",
+        "disclaimer_featured_only": "Bu grafik, “Öne Çıkan”, “İşbirliği”, “New Voyage” ve “Reverb Resonator” verilerini bir araya getirir ve daha fazla kullanıcı verilerini içe aktardıkça güncellenebilir.",
         "no_data": "Mevcut veri yok",
         "total": "Toplam"
       }

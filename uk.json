@@ -485,6 +485,8 @@
         "unluckier": "Менш везучий, за {percentile}% гравців",
         "avg_pity": "Середній гарант",
         "avg_pity_description": "Який ваш середній {qualityLevel}-зірковий гарант?",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "Співвідношення круток",
         "pull_ratio_description": "Який відсоток від загальної кількості ваших круток були {qualityLevel} зірковими?",
         "coinflip_wins": "Перемог 50/50",
@@ -725,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Спочатку новіші",
       "since_last_appearance": "З моменту останньої появи"
     },
@@ -765,8 +768,7 @@
       "ownership": {
         "title": "Ownership Statistics",
         "description": "View ownership statistics for banners in Wuthering Waves with an animated historical bar chart.",
-        "disclaimer": "These figures are based only on pulls uploaded to WuWa Tracker and are not representative of the entire Wuthering Waves player base. Manual data uploads are not allowed in order to preserve data integrity. Data is subject to change as more pulls are uploaded and processed, and may not reflect the most recent banners until the 6-month pull expiry period.",
-        "disclaimer_featured_only": "This graph only aggregates Featured Resonator banner pulls, and does not include non-Featured Resonator pulls.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "Немає даних",
         "total": "Усього"
       }

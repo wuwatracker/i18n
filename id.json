@@ -485,6 +485,8 @@
         "unluckier": "Lebih sial dari {percentile}% pemain",
         "avg_pity": "Rata-rata Pity",
         "avg_pity_description": "Berapa rata-rata pity bintang {qualityLevel} Anda?",
+        "avg_featured_pity": "Average Featured Pity",
+        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
         "pull_ratio": "Rasio Permohonan",
         "pull_ratio_description": "Berapa persen dari total permohonan Anda yang bintang {qualityLevel}?",
         "coinflip_wins": "Kemenangan 50/50",
@@ -725,6 +727,7 @@
       }
     },
     "banners": {
+      "save_as_image": "Save as Image",
       "newest_first": "Terbaru Lebih Dulu",
       "since_last_appearance": "Sejak Kemunculan Terakhir"
     },
@@ -765,8 +768,7 @@
       "ownership": {
         "title": "Statistik Kepemilikan",
         "description": "Lihat statistik kepemilikan banner di Wuthering Waves dengan grafik batang historis yang dianimasikan.",
-        "disclaimer": "Angka-angka ini hanya berdasarkan pada permohonan yang diunggah ke WuWa Tracker dan tidak mewakili seluruh basis pemain Wuthering Waves. Unggahan data secara manual tidak diizinkan demi menjaga integritas data. Data dapat berubah sewaktu-waktu seiring bertambahnya permohonan yang diunggah dan diproses, serta mungkin tidak langsung mencerminkan banner terbaru hingga melewati periode kedaluwarsa permohonan selama 6 bulan.",
-        "disclaimer_featured_only": "Grafik ini hanya menggabungkan permohonan dari banner Gentaraga Sorotan, dan tidak termasuk pull dari Gentaraga non-Sorotan.",
+        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
         "no_data": "Data tidak tersedia",
         "total": "Total"
       }
