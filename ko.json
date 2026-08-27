@@ -485,8 +485,8 @@
         "unluckier": "유저의 {percentile}% 보다 운이 나쁨",
         "avg_pity": "평균 천장",
         "avg_pity_description": "평균 {qualityLevel}성 천장은 언제인가요?",
-        "avg_featured_pity": "Average Featured Pity",
-        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
+        "avg_featured_pity": "평균 픽업 천장",
+        "avg_featured_pity_description": "평균 {qualityLevel}성 천장은 언제인가요?",
         "pull_ratio": "뽑기 비율",
         "pull_ratio_description": "총 튜닝 횟수 중 몇 퍼센트가 {qualityLevel}성 이었나요?",
         "coinflip_wins": "반천장 성공률",
@@ -727,7 +727,7 @@
       }
     },
     "banners": {
-      "save_as_image": "Save as Image",
+      "save_as_image": "이미지로 저장",
       "newest_first": "최신순",
       "since_last_appearance": "마지막 등장 이후"
     },
@@ -768,7 +768,7 @@
       "ownership": {
         "title": "보유 통계",
         "description": "애니메이션이 적용된 차트로 Wuthering Waves 배너의 보유 통계를 확인하세요.",
-        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
+        "disclaimer_featured_only": "이 그래프는 픽업, 콜라보, 새출발 및 여정이 남긴 캐릭터 튜닝을 집계하며, 더 많은 사용자가 데이터를 가져오면 업데이트될 수 있습니다.",
         "no_data": "이용 가능한 데이터 없음",
         "total": "합계"
       }
