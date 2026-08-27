@@ -454,6 +454,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
+      "xbox": "Xbox",
       "download_logs": "Скачать логи"
     }
   },
@@ -649,6 +650,10 @@
       "ps5_press_the_options_button": "Нажмите кнопку Options(Настройки) на вашем контроллере",
       "ps5_click_on_page_information": "Нажмите кнопку Page Information(Информация о странице)",
       "ps5_enter_your_record_id": "Введите ваши player_id(1) и record_id(2) в поля ниже",
+      "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
+      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
+      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
+      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
       "open_terminal_and_open_script": "Afterwards, open your terminal, and then paste the following script:",
       "linux_script_disclaimer": "NOTE: The script only reads your game logs to extract your Convene History URL. You can view the script <script>here</script>. Credits to <author></author> for sharing their <repo></repo> code.",
       "script_disclaimer": "The script does not edit your files, it simply extracts your Convene History URL from your log files.",
@@ -698,7 +703,7 @@
         },
         "item_2": {
           "title": "What devices and regions are supported?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, and PlayStation 5. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "We support all game regions and servers including: America, Asia, Europe, SEA, HK/TW/MO, and CN."
         },
         "item_3": {
@@ -780,7 +785,7 @@
     "import": {
       "title": "Импорт истории",
       "page_header": "Выберите Вашу платформу и предпочтительный метод импорта ваших данных",
-      "description": "Следуйте нашему интерактивному руководству для отображения вашей истории круток в Wuthering Waves и просмотра подробной статистики. Мы поддерживаем импорт данных с ПК, устройств Android и iOS при помощи автоматических и ручных методов. WuWa Tracker - это счетчик круток для Wuthering Waves, использующий актуальные данные с глобальной статистикой и многое другое. Делитесь своими достижениями с друзьями и отслеживайте прогресс своего аккаунта!"
+      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "not_found": {
       "title": "Страница не найдена",
