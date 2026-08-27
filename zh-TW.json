@@ -454,6 +454,7 @@
       "android": "安卓",
       "ios": "iOS",
       "ps5": "PS5",
+      "xbox": "Xbox",
       "download_logs": "下載日誌"
     }
   },
@@ -649,6 +650,10 @@
       "ps5_press_the_options_button": "點擊控制台上的選項按鈕",
       "ps5_click_on_page_information": "點擊頁面資訊按鈕",
       "ps5_enter_your_record_id": "在此輸入你的遊戲ID與紀錄ID",
+      "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
+      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
+      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
+      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
       "open_terminal_and_open_script": "接下來，開啟 Windows PowerShell，並貼上以下的指令：",
       "linux_script_disclaimer": "注意：本腳本只會從您的遊戲日誌中提取喚取歷史 URL。您可以<script>在此處</script>查看腳本。感謝 <author></author> 分享他們的 <repo></repo> 代碼。",
       "script_disclaimer": "此程式不會修改您的任何檔案，它僅從您的喚取紀錄中擷取紀錄連結。",
@@ -698,7 +703,7 @@
         },
         "item_2": {
           "title": "支持哪些設備和服務器區域？",
-          "content_1": "目前，我們的<link>導入教程</link>支持所有主流設備和平臺，包括：Windows、macOS、Linux、Android、iOS 以及 PlayStation 5。此外，我們還支持使用開源自動化腳本導入，或通過手動文件上傳的方式導入，並提供逐步講解的視頻教程。",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "我们支持所有游戏区域和服务器，包括 美國、亞洲、歐洲、東南亞洲、香港/台灣/澳門和中國。"
         },
         "item_3": {
@@ -780,7 +785,7 @@
     "import": {
       "title": "匯入喚取紀錄 - WuWa Tracker",
       "page_header": "選擇您喜歡的方法與平台匯入您的資料",
-      "description": "按照我們的互動教學顯示您的鳴潮分析資料。我們支援從 PC、Android 和 iOS 設備匯入資料。WuWa Tracker 是鳴潮的喚取分析平台，使用全球統計的最新數據，與朋友分享抽卡結果，輕鬆了解您的帳號！"
+      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "not_found": {
       "title": "未找到页面",
