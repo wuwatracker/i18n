@@ -454,6 +454,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
+      "xbox": "Xbox",
       "download_logs": "Unduh Log"
     }
   },
@@ -649,6 +650,10 @@
       "ps5_press_the_options_button": "Tekan tombol 'Options' pada kontroler Anda",
       "ps5_click_on_page_information": "Tekan tombol 'Page Information'",
       "ps5_enter_your_record_id": "Masukkan 'player_id' dan 'record_id' Anda di sini",
+      "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
+      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
+      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
+      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
       "open_terminal_and_open_script": "Lalu, buka terminal dan tempel skrip berikut:",
       "linux_script_disclaimer": "CATATAN: Skrip hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamuan. Anda dapat melihat skrip tersebut <script>di sini</script>. Apresiasi kepada <author></author> atas kesediaannya membagikan kode <repo></repo> mereka.",
       "script_disclaimer": "Skrip tidak mengubah berkas Anda, melainkan hanya mengekstrak URL Riwayat Pasamuan dari berkas log Anda.",
@@ -698,7 +703,7 @@
         },
         "item_2": {
           "title": "Perangkat dan wilayah manakah yang didukung?",
-          "content_1": "Saat ini, <link>tutorial impor</link> kami mendukung semua perangkat dan platform utama termasuk: Windows, macOS, Linux, Android, iOS, dan PlayStation 5. Terlebih lagi, kami mendukung impor menggunakan skrip otomatis sumber terbuka/open-source atau melalui metode unggah berkas manual dengan video tutorial langkah demi langkah.",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "Kami mendukung semua wilayah game dan server termasuk: Amerika, Asia, Eropa, SEA, HK/TW/MO, dan CN."
         },
         "item_3": {
@@ -780,7 +785,7 @@
     "import": {
       "title": "Tutorial Impor",
       "page_header": "Pilih piranti dan metode yang Anda inginkan untuk mengimpor data",
-      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan melihat statistik Anda. Kami mendukung impor data otomatis dari perangkat PC, Android, dan iOS. Pity counter WuWa Tracker untuk Wuthering Waves menggunakan data paling mutakhir dengan statistik global dan banyak lagi. Bagikan hasil permohonan Anda dengan teman-teman dan pantau terus perkembangan akun Anda!"
+      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "not_found": {
       "title": "Halaman Tidak Ditemukan",

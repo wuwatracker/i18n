@@ -454,6 +454,7 @@
       "android": "Android",
       "ios": "iOS",
       "ps5": "PS5",
+      "xbox": "Xbox",
       "download_logs": "Descargar Registros"
     }
   },
@@ -649,6 +650,10 @@
       "ps5_press_the_options_button": "Presiona el botón de 'Opciones' en tu mando",
       "ps5_click_on_page_information": "Presiona el botón de 'Información de página'",
       "ps5_enter_your_record_id": "Introduce tu 'player_id' y 'record_id' aquí",
+      "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
+      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
+      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
+      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
       "open_terminal_and_open_script": "Después, abre tu terminal, y pega el siguiente script:",
       "linux_script_disclaimer": "NOTA: El script solo lee los registros del juego para extraer la URL de tu Historial de Invocaciones. Puedes ver el script <script>aquí</script>. Créditos a <author></author> por compartir su <repo></repo> código.",
       "script_disclaimer": "Nota: El script no edita tus archivos, simplemente extrae la URL de tu Historial de Invocaciones de los registros del juego. Puedes ver el script aquí.",
@@ -698,7 +703,7 @@
         },
         "item_2": {
           "title": "¿Qué dispositivos y regiones son compatibles?",
-          "content_1": "Actualmente, nuestro <link>tutorial de importación</link> es compatible con todos los dispositivos y plataformas principales, incluyendo Windows, macOS, Linux, Android, iOS y PlayStation 5. Además, apoyamos las importaciones usando scripts automatizados de código abierto o mediante métodos manuales de carga de archivos con vídeotutoriales.",
+          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
           "content_2": "Estamos activos en todas las regiones y servidores de juegos incluyendo: América, Asia, Europa, SEA, HK/TW/MO y CN."
         },
         "item_3": {
@@ -780,7 +785,7 @@
     "import": {
       "title": "Importar Historial de Invocaciones",
       "page_header": "Selecciona tu plataforma y el método preferido para importar tus datos",
-      "description": "Sigue nuestro tutorial interactivo para mostrar tus datos de Wuthering Waves y ver tus estadísticas. Soportamos importaciones desde dispositivos PC, Android y iOS con métodos automáticos. WuWa Tracker es un contador de pity para Wuthering Waves que utiliza los datos más actualizados con estadísticas globales, y más. ¡Comparte tus invocaciones con tus amigos y sigue tu cuenta!"
+      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
     },
     "not_found": {
       "title": "No Encontrado",
