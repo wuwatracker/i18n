@@ -27,8 +27,8 @@
       "total_users_responsive": "<span>總計</span>用戶",
       "total_pulls_responsive": "<span>累積</span> 喚取",
       "total_astrites_responsive": "<span>累積</span> 星聲",
-      "invalid_pity_number": "由於換取歷史不一致，此保底數無效。",
-      "fifty_fifty_win": "50/50贏",
+      "invalid_pity_number": "由於喚取歷史不一致，此保底數無效。",
+      "fifty_fifty_win": "小保底不歪率",
       "rate_up_win": "Up池獲得"
     },
     "name": {
@@ -130,7 +130,7 @@
         "Gauntlets of Night": "暗夜臂鎧．夜芒",
         "Gauntlets of Voyager": "遠行者臂鎧．破障",
         "Gauntlets#21D": "鋼影拳-21丁型",
-        "Glint of Clouds": "Glint of Clouds",
+        "Glint of Clouds": "雲琅",
         "Guardian Broadblade": "戍關長刃．定軍",
         "Guardian Gauntlets": "戍關臂鎧．拔山",
         "Guardian Pistols": "戍關佩槍．平雲",
@@ -172,15 +172,15 @@
         "Red Spring": "裁春",
         "Relativistic Jet": "悖論噴流",
         "Romance in Farewell": "敘別的羅曼史",
-        "Rover: Electro": "Rover: Electro",
+        "Rover: Electro": "漂泊者：導電",
         "Rover: Spectro": "漂泊者: 衍射\n",
         "Rover: Havoc": "漂泊者: 湮滅",
         "Rover: Aero": "漂泊者: 氣動",
-        "Skull Thresher": "Skull Thrasher",
+        "Skull Thresher": "碎骨",
         "Somnoire Anchor": "心之錨",
         "Solar Flame": "陽焰",
         "Solsworn Ciphers": "昭日譯註",
-        "Spectral Trigger": "Spectral Trigger",
+        "Spectral Trigger": "蜃影",
         "Spectrum Blaster": "溢彩熒輝",
         "Starfield Calibrator": "星場校準器",
         "Static Mist": "停駐之煙",
@@ -191,7 +191,7 @@
         "Sword of Voyager": "遠行者迅刀．旅跡",
         "Sword#18": "瞬斬刀-18型",
         "The Last Dance": "死與舞",
-        "Thousandfold Deliverance": "Thousandfold Deliverance",
+        "Thousandfold Deliverance": "千般渡",
         "Thunderflare Dominion": "馭冕鑄雷之權",
         "Thunderbolt": "奔雷",
         "Tragicomedy": "悲喜劇",
@@ -235,10 +235,10 @@
         "Giveback Event Convene": "感恩定向喚取",
         "New Voyage Weapon": "新旅喚取武器",
         "New Voyage Resonator": "新旅喚取共鳴者",
-        "Reverb Resonator Convene": "Reverb Resonator Convene",
-        "Reverb Weapon Convene": "Reverb Weapon Convene",
-        "Collab Resonator Convene": "Collab Resonator Convene",
-        "Collab Weapon Convene": "Collab Weapon Convene"
+        "Reverb Resonator Convene": "角色憶旅喚取",
+        "Reverb Weapon Convene": "武器憶旅喚取",
+        "Collab Resonator Convene": "角色連動喚取",
+        "Collab Weapon Convene": "武器連動喚取"
       }
     }
   },
@@ -267,12 +267,12 @@
         "your_email_must_be_linked_to_import_pulls_description": "請先登入並連結您的UID。",
         "invalid_convene_url": "我們無法載入您的資料。您的匯入網址可能已失效或過期。請依照 <troubleshootingLink>排錯指南</troubleshootingLink> 進行修正。若要查看您的資料，可 <historyLink>開啟匯入網址</historyLink>。",
         "import_file_cannot_be_empty": "導入文件不能為空",
-        "your_url_is_invalid": "你的URL無效"
+        "your_url_is_invalid": "你的 URL 無效"
       },
       "info": {
         "sign_in_first": "請先登入",
         "already_linked": "已連結",
-        "enable_email_link": "啟用email連結",
+        "enable_email_link": "啟用 email 連結",
         "sign_in_to_sync": "登入以同步",
         "loading": "讀取中……",
         "import_loading": "正在匯入卡池紀錄……",
@@ -287,7 +287,7 @@
         "pull_more_to_view_statistics": "需要更多喚取資料進行分析",
         "download_will_start_shortly": "下載即將開始。",
         "planner_edited_plan_for_name": "{name} 的編輯計劃。",
-        "unlinking_your_email": "解除email連結……",
+        "unlinking_your_email": "解除 email 連結……",
         "importing_cloud_data": "正在匯入雲端資料……",
         "this_may_take_some_time_if_you_have_a_lot_of_data": "如果您的資料較多或是網站較繁忙，這將會花費一些時間。",
         "no_new_pulls_found_after_importing": "找不到新的喚取資料。"
@@ -304,7 +304,7 @@
         "planner_successfully_completed_plan_for_name": "計畫 {name} 已成功完成！",
         "planner_successfully_created_plan_for_name": "成功建立計畫 {name}。",
         "successfully_linked_email": "成功綁定郵箱",
-        "successfully_linked_email_description": "{email}現在連結到玩家ID{playerId}。",
+        "successfully_linked_email_description": "{email}現在連結到玩家 ID {playerId}。",
         "successfully_unlinked_email": "成功解除email綁定"
       },
       "warn": {
@@ -486,8 +486,8 @@
         "unluckier": "運氣比 {percentile}% 的玩家還差",
         "avg_pity": "平均保底",
         "avg_pity_description": "你的 {qualityLevel} 星平均保底是多少？",
-        "avg_featured_pity": "Average Featured Pity",
-        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
+        "avg_featured_pity": "平均保底",
+        "avg_featured_pity_description": "你的 {qualityLevel} 星平均保底是多少？",
         "pull_ratio": "抽取機率",
         "pull_ratio_description": "抽中 {qualityLevel} 星的機率是多少？",
         "coinflip_wins": "50/50機率",
@@ -496,33 +496,33 @@
         "rate_up_wins_description": "抽中UP角色的機率是多少？"
       },
       "recover_pulls_onboarding": {
-        "title": "Recover your pull data",
-        "description": "If your browser cleared cookies or local data, WuWa Tracker can restore pulls that were previously backed up to our cloud database.",
+        "title": "恢復您的喚取資料",
+        "description": "如果您的瀏覽器清除了 Cookies 或網站資料，WuWa Tracker 可以還原先前已備份到我們雲端資料庫的資料。",
         "steps": {
           "sign_in": {
-            "title": "Sign in with any social provider",
-            "subtitle": "Verify an email for recovery",
-            "subtitle_complete": "You're signed in",
-            "description": "Sign in to verify your recovery email. We only read what is necessary for email identification and cannot access your game or social account. See our <privacy>Privacy Policy</privacy>.",
-            "button": "Sign in",
-            "button_complete": "Signed in"
+            "title": "使用社群帳號登入",
+            "subtitle": "驗證 Email 以恢復",
+            "subtitle_complete": "您已登入",
+            "description": "登入以驗證您的 Email。我們只讀取識別 Email 地址所需的內容，無法存取您的遊戲或社群帳號。查看我們的<privacy>隱私政策</privacy>。",
+            "button": "登入",
+            "button_complete": "已登入"
           },
           "email_link": {
-            "subtitle": "Bind your UID to your email",
-            "subtitle_complete": "UID {playerId} is linked",
-            "subtitle_mismatch": "Linked UID does not match this tracker profile",
-            "description_complete": "This tracker profile is linked to your email. You may recover your pulls in the next step.",
-            "step_open_import_prefix": "Open",
-            "step_enable_email_link_prefix": "Turn on",
-            "step_import": "Import your pulls to bind this UID for recovery.",
+            "subtitle": "將 UID 和您的 Email 綁定",
+            "subtitle_complete": "UID {playerId} 已連接",
+            "subtitle_mismatch": "連接的 UID 與此玩家資料不相符",
+            "description_complete": "此玩家資料已經連接到您的 Email，您可以在下一步恢復您的喚取紀錄。",
+            "step_open_import_prefix": "打開",
+            "step_enable_email_link_prefix": "開啟",
+            "step_import": "匯入您的喚取，以綁定此 UID 用來恢復。",
             "description_mismatch": "Your email is linked to UID <linked>{linkedPlayerId}</linked>, but the pull tracker is currently showing <active>{activePlayerId}</active>. Switch to the linked UID before recovering, or manage your connections in the <settingsLink>Settings Page</settingsLink> if you meant to recover this profile instead.",
             "mismatch_warning": "The \"Recover Pulls\" button is disabled until the linked UID matches the active tracker profile.",
-            "switch_profile": "Switch to UID {playerId}",
-            "manage_connections": "Manage connections",
-            "button_complete": "Email linked"
+            "switch_profile": "切換到 UID {playerId}",
+            "manage_connections": "管理連線",
+            "button_complete": "Email 已連接"
           },
           "recover_pulls": {
-            "subtitle": "Download and merge your backup",
+            "subtitle": "下載並合併您的喚取",
             "description": "Once your email is linked to your UID, you can download your saved cloud data and merge it back into this browser."
           }
         }
@@ -652,7 +652,7 @@
       "ps5_enter_your_record_id": "在此輸入你的遊戲ID與紀錄ID",
       "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
       "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
-      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
+      "xbox_select_and_copy_convene_history_url_description": "",
       "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
       "open_terminal_and_open_script": "接下來，開啟 Windows PowerShell，並貼上以下的指令：",
       "linux_script_disclaimer": "注意：本腳本只會從您的遊戲日誌中提取喚取歷史 URL。您可以<script>在此處</script>查看腳本。感謝 <author></author> 分享他們的 <repo></repo> 代碼。",
@@ -660,10 +660,10 @@
       "email_link_description": "這將會允許我們儲存您的資料至我們的資料庫並且在每次您匯入資料時自動備份 。如果您的UID已經連結到另外的email，我們將會移除舊的連結並使用您的新email地址。"
     },
     "planner": {
-      "move_to_top": "Move To Top",
+      "move_to_top": "移至頂端",
       "move_up": "上移",
       "move_down": "下移",
-      "move_to_bottom": "Move To Bottom"
+      "move_to_bottom": "移至底部"
     },
     "inventory": {
       "new_plan": "新計劃",
@@ -699,19 +699,19 @@
         "item_1": {
           "title": "WuWa Tracker 是否安全？",
           "content_1": "WuWa Tracker <link>自 2024 年 5 月 30 日起開始運營</link>，至今未收到任何用戶反饋賬號問題。我們只讀取您的喚取記錄 URL，也就是遊戲本身用於展示喚取歷史的同一個網頁。我們<strong>絕不會</strong>向你索要《鳴潮》的登錄憑據。",
-          "content_2": "您的數據保留在您的設備上，除非您選擇將電子郵件鏈接到您的 UID 以在不同設備之間進行同步。每次導入時，我們只會收集匿名化的全局統計數據。我們建議您在使用我們的網站之前審查我們的<privacy>隱私政策</privacy>和<terms>服務條款</terms>。"
+          "content_2": "您的數據保留在您的裝置上，除非您選擇將 Email 連接到您的 UID 以在不同裝置間進行同步。每次匯入時，我們只會收集匿名化的全局統計數據。我們建議您在使用我們的網站之前審查我們的<privacy>隱私政策</privacy>和<terms>服務條款</terms>。"
         },
         "item_2": {
-          "title": "支持哪些設備和服務器區域？",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
-          "content_2": "我们支持所有游戏区域和服务器，包括 美國、亞洲、歐洲、東南亞洲、香港/台灣/澳門和中國。"
+          "title": "支援哪些裝置和伺服器？",
+          "content_1": "目前，我們的<link>匯入教學</link>支援所有主流設備和平臺，包括：Windows、macOS、Linux、Android、iOS 以及 PlayStation 5。此外，我們還支援使用開源自動化腳本匯入，或通過手動文件上傳的方式匯入，並提供逐步講解的影片教學。",
+          "content_2": "我們支援所有區域的伺服器，包括 America、Asia、Europe、SEA、HK/TW/MO 及中國。"
         },
         "item_3": {
-          "title": "如何導入或導出我的數據？",
-          "content": "您可以使用您的<link>數據設置</link>導入或導出數據。我們建議您定期導出數據作爲備份並將其保存到多個位置。"
+          "title": "如何導入或導出我的資料？",
+          "content": "您可以使用您的<link>資料設定</link>導入或導出資料。我們建議您定期導出資料作為備份並將其保存到多個位置。"
         },
         "item_4": {
-          "title": "如何在不同設備之間同步？",
+          "title": "如何在不同裝置之間同步？",
           "content_1": "要在多臺設備之間同步您的數據，必須先將您的 UID 綁定到一個電子郵箱地址。您需要先通過我們的社交登錄方式（如 Google 或 GitHub）登錄您的電子郵箱賬戶，然後即可在<connections>連接設置</connections>中綁定郵箱，或在按照我們的<import>導入教程</import>操作時啓用郵箱綁定。",
           "content_2": "當您進行導入，或在<link>連接設置</link>中手動點擊 {recoverPulls} 按鈕時，您的喚取數據將會自動同步。"
         },
@@ -732,7 +732,7 @@
       }
     },
     "banners": {
-      "save_as_image": "Save as Image",
+      "save_as_image": "另存為圖片",
       "newest_first": "最新優先",
       "since_last_appearance": "自上次出現"
     },
@@ -878,7 +878,7 @@
         "Resources": "相關資源",
         "Community": "社群",
         "Affiliates": "合作夥伴",
-        "Support Us on Ko-fi": "Support Us on Ko-fi"
+        "Support Us on Ko-fi": "在 Ko-fi 上支持我們"
       }
     }
   }
