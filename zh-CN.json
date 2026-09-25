@@ -651,9 +651,9 @@
       "ps5_click_on_page_information": "按下“页面信息”按钮",
       "ps5_enter_your_record_id": "在此输入您的 player_id 和 record_id",
       "xbox_credits": "特别感谢 coolblue2480 分享的方法论和图片。",
-      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
-      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
-      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
+      "xbox_select_and_copy_convene_history_url": "复制您的唤取记录 URL",
+      "xbox_select_and_copy_convene_history_url_description": "选中全部网址，按 <code>B</code> 键，再按 <code>菜单 (☰)</code> 键并选择“<code>复制</code>”。",
+      "xbox_paste_the_url_here_description": "按下 <code>菜单 (☰)</code> 键并选择“<code>粘贴</code>”。",
       "open_terminal_and_open_script": "接着，打开终端，然后粘贴下面的脚本：",
       "linux_script_disclaimer": "注意：本脚本只会从您的游戏日志中提取唤取历史 URL。您可以<script>在此处</script>查看脚本。感谢 <author></author> 分享他们的 <repo></repo> 代码。",
       "script_disclaimer": "注意：本脚本不会修改您的文件，它只会从日志中提取唤取历史 URL。",
@@ -703,7 +703,7 @@
         },
         "item_2": {
           "title": "支持哪些设备和服务器区域？",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_1": "目前，我们的<link>导入教程</link>已支持所有主流设备与平台，包括：Windows、macOS、Linux、Android、iOS、PlayStation 5 和 Xbox。此外，我们还支持通过开源自动化脚本导入，或通过附带详细视频教程的手动文件上传方式进行导入。",
           "content_2": "我们支持所有游戏区域和服务器，包括 America、Asia、Europe、SEA、HK/TW/MO 和 CN。"
         },
         "item_3": {
@@ -773,7 +773,7 @@
       "ownership": {
         "title": "持有率统计",
         "description": "使用动画历史条形图查看《鸣潮》卡池的持有率统计。",
-        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
+        "disclaimer_featured_only": "该图表汇总了活动、联动、新旅唤取及角色忆旅唤取的抽卡数据，并会随着更多用户导入数据而实时更新。",
         "no_data": "无可用数据",
         "total": "总计"
       }
@@ -785,7 +785,7 @@
     "import": {
       "title": "导入唤取历史",
       "page_header": "选择您的平台和首选方法以导入您的数据",
-      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "description": "按照我们的互动教程指引，即可展示您的《鸣潮》数据并查看各项统计。我们支持通过自动和手动方式从 PC、Android、iOS、PlayStation 5 及 Xbox 设备进行导入。WuWa Tracker 使用全球最新统计数据为《鸣潮》计算保底。您可以与朋友分享您的唤取记录，并轻松追踪您的账户！"
     },
     "not_found": {
       "title": "未找到页面",
