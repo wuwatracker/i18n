@@ -346,6 +346,7 @@
       "delete": "Xóa",
       "confirm": "Xác nhận",
       "cancel": "Hủy",
+      "reset_to_default": "Reset to Default",
       "download": "Tải xuống",
       "import_from_file": "Nhập từ tệp",
       "reset_tag_filters": "Đặt lại thẻ bộ lọc",
@@ -551,7 +552,9 @@
         "site_language": "Ngôn ngữ trang web",
         "site_language_description": "Chọn ngôn ngữ bạn muốn sử dụng trên toàn bộ trang web",
         "game_server_timezone": "Múi giờ máy chủ",
-        "game_server_timezone_description": "Hiển thị các tính năng liên quan đến thời gian theo múi giờ của máy chủ game"
+        "game_server_timezone_description": "Hiển thị các tính năng liên quan đến thời gian theo múi giờ của máy chủ game",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Dữ liệu",
