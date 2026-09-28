@@ -346,6 +346,7 @@
       "delete": "Удалить",
       "confirm": "Подтвердить",
       "cancel": "Отмена",
+      "reset_to_default": "Reset to Default",
       "download": "Скачать",
       "import_from_file": "Импорт из файла",
       "reset_tag_filters": "Очистить метки",
@@ -551,7 +552,9 @@
         "site_language": "Язык сайта",
         "site_language_description": "Выберите язык, который вы хотите использовать для сайта",
         "game_server_timezone": "Выбрать часовой пояс сервера",
-        "game_server_timezone_description": "Показать возможности, связанные с временем вашего игрового часового пояса"
+        "game_server_timezone_description": "Показать возможности, связанные с временем вашего игрового часового пояса",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Данные",
