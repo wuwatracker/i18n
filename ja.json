@@ -346,6 +346,7 @@
       "delete": "削除",
       "confirm": "確認",
       "cancel": "キャンセル",
+      "reset_to_default": "Reset to Default",
       "download": "ダウンロード",
       "import_from_file": "ファイルからインポート",
       "reset_tag_filters": "タグフィルターをリセット",
@@ -551,7 +552,9 @@
         "site_language": "サイトの言語",
         "site_language_description": "サイト全体で使用する言語を選択します",
         "game_server_timezone": "ゲームサーバーのタイムゾーン",
-        "game_server_timezone_description": "ゲームサーバーのタイムゾーンをもとに時間関連の機能を表示します"
+        "game_server_timezone_description": "ゲームサーバーのタイムゾーンをもとに時間関連の機能を表示します",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "データ",
