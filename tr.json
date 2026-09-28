@@ -346,6 +346,7 @@
       "delete": "Sil",
       "confirm": "Onayla",
       "cancel": "Reddet",
+      "reset_to_default": "Reset to Default",
       "download": "İndir",
       "import_from_file": "Dosyadan İçe Aktar",
       "reset_tag_filters": "Arama Filtrelerini Sıfırla",
@@ -551,7 +552,9 @@
         "site_language": "Dil Seçimi",
         "site_language_description": "Sitede gezinirken kullanmak istediğin dili buradan seçebilirsin",
         "game_server_timezone": "Sunucu Zaman Dilimi",
-        "game_server_timezone_description": "Oyundaki zamana bağlı etkinliklerin senin sunucu zaman dilimine ayarlanmış hâlini görüntüle"
+        "game_server_timezone_description": "Oyundaki zamana bağlı etkinliklerin senin sunucu zaman dilimine ayarlanmış hâlini görüntüle",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Veri",
