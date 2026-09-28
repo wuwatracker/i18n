@@ -346,6 +346,7 @@
       "delete": "Hapus",
       "confirm": "Konfirmasi",
       "cancel": "Batalkan",
+      "reset_to_default": "Reset to Default",
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
       "reset_tag_filters": "Reset Filter Tag",
@@ -551,7 +552,9 @@
         "site_language": "Bahasa Situs",
         "site_language_description": "Silakan pilih bahasa yang ingin Anda gunakan di seluruh situs ini",
         "game_server_timezone": "Pilih Zona Waktu Server",
-        "game_server_timezone_description": "Fitur waktu disesuaikan dengan zona waktu server game Anda"
+        "game_server_timezone_description": "Fitur waktu disesuaikan dengan zona waktu server game Anda",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Data",
