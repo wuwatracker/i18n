@@ -346,6 +346,7 @@
       "delete": "Supprimer",
       "confirm": "Confirmer",
       "cancel": "Annuler",
+      "reset_to_default": "Reset to Default",
       "download": "Télécharger",
       "import_from_file": "Importer depuis un fichier",
       "reset_tag_filters": "Réinitialiser les filtres",
@@ -551,7 +552,9 @@
         "site_language": "Site Language",
         "site_language_description": "Select the language you'd like to use throughout the site",
         "game_server_timezone": "Game Server Timezone",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Vos données",

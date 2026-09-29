@@ -346,6 +346,7 @@
       "delete": "Eliminar",
       "confirm": "Confirmar",
       "cancel": "Cancelar",
+      "reset_to_default": "Reset to Default",
       "download": "Descargar",
       "import_from_file": "Importar desde archivo",
       "reset_tag_filters": "Restablecer los filtros de las etiquetas",
@@ -551,7 +552,9 @@
         "site_language": "Idioma del Sitio",
         "site_language_description": "Seleccione el idioma que desea utilizar en el sitio",
         "game_server_timezone": "Zona horaria del servidor del juego",
-        "game_server_timezone_description": "Mostrar características relacionadas con el tiempo de acuerdo a la zona horaria del servidor de tu juego"
+        "game_server_timezone_description": "Mostrar características relacionadas con el tiempo de acuerdo a la zona horaria del servidor de tu juego",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Datos",

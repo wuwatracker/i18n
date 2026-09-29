@@ -346,6 +346,7 @@
       "delete": "刪除",
       "confirm": "確認",
       "cancel": "取消",
+      "reset_to_default": "Reset to Default",
       "download": "下載",
       "import_from_file": "從檔案匯入",
       "reset_tag_filters": "清除標籤過濾器",
@@ -551,7 +552,9 @@
         "site_language": "切換語言",
         "site_language_description": "請選擇您偏好的網站顯示語言",
         "game_server_timezone": "遊戲伺服器時區",
-        "game_server_timezone_description": "依據遊戲伺服器時區顯示時間關聯功能"
+        "game_server_timezone_description": "依據遊戲伺服器時區顯示時間關聯功能",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "資料",

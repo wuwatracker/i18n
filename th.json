@@ -346,6 +346,7 @@
       "delete": "ลบ",
       "confirm": "ยืนยัน",
       "cancel": "ยกเลิก",
+      "reset_to_default": "Reset to Default",
       "download": "ดาวน์โหลด",
       "import_from_file": "นำเข้าจากไฟล์",
       "reset_tag_filters": "Reset Tag Filters",
@@ -551,7 +552,9 @@
         "site_language": "Site Language",
         "site_language_description": "Select the language you'd like to use throughout the site",
         "game_server_timezone": "Game Server Timezone",
-        "game_server_timezone_description": "Show time-related features according to your game server's timezone"
+        "game_server_timezone_description": "Show time-related features according to your game server's timezone",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "ข้อมูล",

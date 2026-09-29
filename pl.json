@@ -346,6 +346,7 @@
       "delete": "Usuń",
       "confirm": "Potwierdź",
       "cancel": "Anuluj",
+      "reset_to_default": "Reset to Default",
       "download": "Pobierz",
       "import_from_file": "Importuj z pliku",
       "reset_tag_filters": "Resetuj filtry tagów",
@@ -551,7 +552,9 @@
         "site_language": "Język strony",
         "site_language_description": "Wybierz język, którego chcesz używać na całej stronie",
         "game_server_timezone": "Strefa czasowa serwera gry",
-        "game_server_timezone_description": "Pokaż funkcje związane z czasem w zależności od strefy czasowej twojego serwera gry"
+        "game_server_timezone_description": "Pokaż funkcje związane z czasem w zależności od strefy czasowej twojego serwera gry",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Dane",

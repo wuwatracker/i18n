@@ -102,7 +102,7 @@
         "Blazing Brilliance": "赫く燃ゆる流光",
         "Blazing Justice": "焔光の裁き",
         "Bloodpact's Pledge": "血の盟約",
-        "Blooming Jadehaven": "Blooming Jadehaven",
+        "Blooming Jadehaven": "玉殿に咲き満ちる玄華",
         "Boson Astrolabe": "ボゾンの観測器",
         "Broadblade of Night": "暗夜の長刃・玄明",
         "Broadblade of Voyager": "探索者長刃・開拓",
@@ -208,7 +208,7 @@
         "Tyro Sword": "原初の迅刀・雨鳴",
         "Undying Flame": "燃え尽きぬ焔",
         "Unflickering Valor": "エンドレスボヤージュ",
-        "Unspoken Rue": "Unspoken Rue",
+        "Unspoken Rue": "沈冥",
         "Variation": "奇妙バリエーション",
         "Verdant Summit": "蒼鱗連峰",
         "Rime-Draped Sprouts": "氷華の雅印",
@@ -346,6 +346,7 @@
       "delete": "削除",
       "confirm": "確認",
       "cancel": "キャンセル",
+      "reset_to_default": "Reset to Default",
       "download": "ダウンロード",
       "import_from_file": "ファイルからインポート",
       "reset_tag_filters": "タグフィルターをリセット",
@@ -551,7 +552,9 @@
         "site_language": "サイトの言語",
         "site_language_description": "サイト全体で使用する言語を選択します",
         "game_server_timezone": "ゲームサーバーのタイムゾーン",
-        "game_server_timezone_description": "ゲームサーバーのタイムゾーンをもとに時間関連の機能を表示します"
+        "game_server_timezone_description": "ゲームサーバーのタイムゾーンをもとに時間関連の機能を表示します",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "データ",

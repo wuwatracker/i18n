@@ -346,6 +346,7 @@
       "delete": "Видалити",
       "confirm": "Підтвердити",
       "cancel": "Скасувати",
+      "reset_to_default": "Reset to Default",
       "download": "Завантажити",
       "import_from_file": "Імпортувати з файлу",
       "reset_tag_filters": "Скинути фільтри тегів",
@@ -551,7 +552,9 @@
         "site_language": "Мова сайту",
         "site_language_description": "Виберіть мову, яку ви хотіли б використовувати на всьому сайті",
         "game_server_timezone": "Часовий пояс сервера гри",
-        "game_server_timezone_description": "Показувати функції, пов'язані з часом відповідно до часового поясу ігрового сервера"
+        "game_server_timezone_description": "Показувати функції, пов'язані з часом відповідно до часового поясу ігрового сервера",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "Дані",

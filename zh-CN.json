@@ -346,6 +346,7 @@
       "delete": "删除",
       "confirm": "确认",
       "cancel": "取消",
+      "reset_to_default": "Reset to Default",
       "download": "下载",
       "import_from_file": "从文件导入",
       "reset_tag_filters": "重置标签筛选器",
@@ -551,7 +552,9 @@
         "site_language": "网站语言",
         "site_language_description": "选择您想要在整个网站使用的语言",
         "game_server_timezone": "服务器时区",
-        "game_server_timezone_description": "根据您的游戏服务器时区显示与时间相关的功能"
+        "game_server_timezone_description": "根据您的游戏服务器时区显示与时间相关的功能",
+        "tracker_banners": "Tracker Banners",
+        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
       },
       "data": {
         "title": "数据",
