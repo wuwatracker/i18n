@@ -489,7 +489,7 @@
         "unluckier": "運氣比 {percentile}% 的玩家還差",
         "avg_pity": "平均保底",
         "avg_pity_description": "你的 {qualityLevel} 星平均保底是多少？",
-        "avg_featured_pity": "平均保底",
+        "avg_featured_pity": "平均UP喚取次數",
         "avg_featured_pity_description": "你的 {qualityLevel} 星平均保底是多少？",
         "pull_ratio": "抽取機率",
         "pull_ratio_description": "抽中 {qualityLevel} 星的機率是多少？",
