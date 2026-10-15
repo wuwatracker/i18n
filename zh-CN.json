@@ -102,7 +102,7 @@
         "Blazing Brilliance": "赫奕流明",
         "Blazing Justice": "焰光裁定",
         "Bloodpact's Pledge": "血誓盟约",
-        "Blooming Jadehaven": "Blooming Jadehaven",
+        "Blooming Jadehaven": "玉阙玄华",
         "Boson Astrolabe": "玻色星仪",
         "Broadblade of Night": "暗夜长刃・玄明",
         "Broadblade of Voyager": "远行者长刃・辟路",
@@ -208,7 +208,7 @@
         "Tyro Sword": "原初迅刀・鸣雨",
         "Undying Flame": "无眠烈火",
         "Unflickering Valor": "不灭航路",
-        "Unspoken Rue": "Unspoken Rue",
+        "Unspoken Rue": "沉冥",
         "Variation": "奇幻变奏",
         "Verdant Summit": "苍鳞千嶂",
         "Rime-Draped Sprouts": "琼枝冰绡",
@@ -346,7 +346,7 @@
       "delete": "删除",
       "confirm": "确认",
       "cancel": "取消",
-      "reset_to_default": "Reset to Default",
+      "reset_to_default": "重置为默认",
       "download": "下载",
       "import_from_file": "从文件导入",
       "reset_tag_filters": "重置标签筛选器",
@@ -553,8 +553,8 @@
         "site_language_description": "选择您想要在整个网站使用的语言",
         "game_server_timezone": "服务器时区",
         "game_server_timezone_description": "根据您的游戏服务器时区显示与时间相关的功能",
-        "tracker_banners": "Tracker Banners",
-        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
+        "tracker_banners": "唤取卡池显示",
+        "tracker_banners_description": "切换在唤取记录中显示哪些卡池并重新排序"
       },
       "data": {
         "title": "数据",
