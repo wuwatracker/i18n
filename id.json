@@ -780,7 +780,7 @@
       "ownership": {
         "title": "Statistik Kepemilikan",
         "description": "Lihat statistik kepemilikan banner di Wuthering Waves dengan grafik batang historis yang dianimasikan.",
-        "disclaimer_featured_only": "This graph aggregates Featured, Collab, and New Voyage, and Reverb Resonator pulls and may update as more users import their data.",
+        "disclaimer_featured_only": "Grafik ini menghimpun permohonan dari banner Sorotan, Collab, Kelana Baru, dan Gentaraga Reverb. Angkanya bisa berubah seiring bertambahnya pengguna yang mengimpor data mereka.",
         "no_data": "Data tidak tersedia",
         "total": "Total"
       }
@@ -792,7 +792,7 @@
     "import": {
       "title": "Tutorial Impor",
       "page_header": "Pilih piranti dan metode yang Anda inginkan untuk mengimpor data",
-      "description": "Follow our interactive tutorial to display your Wuthering Waves data and view your statistics. We support imports from PC, Android, iOS, PlayStation 5, and Xbox devices with automatic and manual methods. WuWa Tracker pity counter for Wuthering Waves, using the up-to-date data with global statistics and more. Share your pulls with your friends and track your account!"
+      "description": "Ikuti tutorial interaktif kami untuk menampilkan data Wuthering Waves dan melihat statistikmu. Impor bisa dilakukan dari PC, Android, iOS, PlayStation 5, dan Xbox, secara otomatis maupun manual. WuWa Tracker adalah penghitung pity Wuthering Waves dengan data terkini, statistik global, dan fitur lainnya. Bagikan hasil permohonan ke teman-temanmu dan pantau akunmu!"
     },
     "not_found": {
       "title": "Halaman Tidak Ditemukan",
