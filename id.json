@@ -348,7 +348,7 @@
       "delete": "Hapus",
       "confirm": "Konfirmasi",
       "cancel": "Batalkan",
-      "reset_to_default": "Reset to Default",
+      "reset_to_default": "Reset ke Bawaan",
       "download": "Unduh",
       "import_from_file": "Impor Dari File",
       "reset_tag_filters": "Reset Filter Tag",
@@ -491,8 +491,8 @@
         "unluckier": "Lebih sial dari {percentile}% pemain",
         "avg_pity": "Rata-rata Pity",
         "avg_pity_description": "Berapa rata-rata pity bintang {qualityLevel} Anda?",
-        "avg_featured_pity": "Average Featured Pity",
-        "avg_featured_pity_description": "What is your average featured {qualityLevel}-star pity?",
+        "avg_featured_pity": "Rerata Pity Sorotan",
+        "avg_featured_pity_description": "Berapa rerata pity sorotan bintang {qualityLevel} kamu?",
         "pull_ratio": "Rasio Permohonan",
         "pull_ratio_description": "Berapa persen dari total permohonan Anda yang bintang {qualityLevel}?",
         "coinflip_wins": "Kemenangan 50/50",
@@ -555,8 +555,8 @@
         "site_language_description": "Silakan pilih bahasa yang ingin Anda gunakan di seluruh situs ini",
         "game_server_timezone": "Pilih Zona Waktu Server",
         "game_server_timezone_description": "Fitur waktu disesuaikan dengan zona waktu server game Anda",
-        "tracker_banners": "Tracker Banners",
-        "tracker_banners_description": "Toggle which banners appear in your tracker and re-order them"
+        "tracker_banners": "Pelacak Banner",
+        "tracker_banners_description": "Pilih banner yang tampil di pelacak dan atur urutannya"
       },
       "data": {
         "title": "Data",
@@ -657,10 +657,10 @@
       "ps5_press_the_options_button": "Tekan tombol 'Options' pada kontroler Anda",
       "ps5_click_on_page_information": "Tekan tombol 'Page Information'",
       "ps5_enter_your_record_id": "Masukkan 'player_id' dan 'record_id' Anda di sini",
-      "xbox_credits": "Special thanks to coolblue2480 for sharing the methodology & images.",
-      "xbox_select_and_copy_convene_history_url": "Select and copy your Convene History URL",
-      "xbox_select_and_copy_convene_history_url_description": "Highlight the entire URL, press <code>B</code>, then press the <code>Menu (☰)</code> button and select <code>Copy</code>.",
-      "xbox_paste_the_url_here_description": "Press the <code>Menu (☰)</code> button and select <code>Paste</code>.",
+      "xbox_credits": "Terima kasih kepada coolblue2480 yang sudah berbagi metode dan gambarnya.",
+      "xbox_select_and_copy_convene_history_url": "Pilih dan salin URL Riwayat Pasamuan kamu",
+      "xbox_select_and_copy_convene_history_url_description": "Sorot seluruh URL, tekan <code>B</code>, lalu tekan tombol <code>Menu (☰)</code> dan pilih <code>Copy</code>.",
+      "xbox_paste_the_url_here_description": "Tekan tombol <code>Menu (☰)</code> lalu pilih <code>Paste</code>.",
       "open_terminal_and_open_script": "Lalu, buka terminal dan tempel skrip berikut:",
       "linux_script_disclaimer": "CATATAN: Skrip hanya membaca log game Anda untuk mengekstrak URL Riwayat Pasamuan. Anda dapat melihat skrip tersebut <script>di sini</script>. Apresiasi kepada <author></author> atas kesediaannya membagikan kode <repo></repo> mereka.",
       "script_disclaimer": "Skrip tidak mengubah berkas Anda, melainkan hanya mengekstrak URL Riwayat Pasamuan dari berkas log Anda.",
@@ -710,7 +710,7 @@
         },
         "item_2": {
           "title": "Perangkat dan wilayah manakah yang didukung?",
-          "content_1": "Currently, our <link>import tutorial</link> supports all major devices and platforms including: Windows, macOS, Linux, Android, iOS, PlayStation 5, and Xbox. Furthermore, we support imports using open-source automated scripts or via manual file upload methods with step-by-step video tutorials.",
+          "content_1": "Saat ini <link>tutorial impor</link> kami mencakup semua perangkat dan platform utama: Windows, macOS, Linux, Android, iOS, PlayStation 5, dan Xbox. Kamu bisa mengimpor dengan skrip otomatis open-source atau dengan mengunggah berkas secara manual, dan tiap cara dilengkapi video tutorial langkah demi langkah.",
           "content_2": "Kami mendukung semua wilayah game dan server termasuk: Amerika, Asia, Eropa, SEA, HK/TW/MO, dan CN."
         },
         "item_3": {
@@ -739,7 +739,7 @@
       }
     },
     "banners": {
-      "save_as_image": "Save as Image",
+      "save_as_image": "Simpan sebagai Gambar",
       "newest_first": "Terbaru Lebih Dulu",
       "since_last_appearance": "Sejak Kemunculan Terakhir"
     },
